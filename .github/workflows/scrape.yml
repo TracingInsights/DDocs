@@ -18,6 +18,12 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 1
+          sparse-checkout: |
+            scraper.py
+            pyproject.toml
+            uv.lock
+            documents/manifest.json
+          sparse-checkout-cone-mode: false
 
       - name: Install uv
         uses: astral-sh/setup-uv@v7
