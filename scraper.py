@@ -5,13 +5,18 @@ Scrapes the FIA website for Formula 1 decision documents:
 
 Uses curl_cffi for browser-impersonated requests (bypasses TLS fingerprint checks)
 and asyncio for parallel discovery and PDF downloads.
+
+Discovery results are cached to disk (TTL = 2.5 hours) so repeat runs within the
+same cron window skip all crawling and go straight to downloads.
 """
 
 import asyncio
+import datetime
 import json
 import logging
 import os
 import re
+import time
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -26,6 +31,10 @@ AJAX_URL = f"{BASE_URL}/decision-document-list/ajax/"
 
 MAX_AJAX_CONCURRENT = 10
 MAX_DOWNLOAD_CONCURRENT = 15
+
+# Slightly under the 3-hour cron interval so cache-hit runs skip crawling,
+# but a forced re-crawl still happens at least once per cron cycle.
+DISCOVERY_CACHE_TTL_SECONDS = 2.5 * 60 * 60
 
 AJAX_EXTRA_HEADERS = {
     "Accept": "application/json, text/javascript, */*; q=0.01",
@@ -144,6 +153,31 @@ def _unique_dest(dest: Path, assigned: set[Path]) -> Path:
 
 
 # ---------------------------------------------------------------------------
+# Discovery cache
+# ---------------------------------------------------------------------------
+
+def load_discovery_cache(path: Path) -> list[dict] | None:
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text())
+        age = time.time() - data.get("timestamp", 0)
+        if age < DISCOVERY_CACHE_TTL_SECONDS:
+            log.info("Using discovery cache (%.0fs old, TTL=%.0fs)", age, DISCOVERY_CACHE_TTL_SECONDS)
+            return data["events"]
+        log.info("Discovery cache expired (%.0fs old), re-crawling", age)
+    except Exception as e:
+        log.warning("Could not read discovery cache: %s", e)
+    return None
+
+
+def save_discovery_cache(path: Path, events: list[dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"timestamp": time.time(), "events": events}, indent=2))
+    log.info("Discovery cache saved (%d events)", len(events))
+
+
+# ---------------------------------------------------------------------------
 # Decision-documents scraping
 # ---------------------------------------------------------------------------
 
@@ -215,6 +249,64 @@ async def fetch_event_docs(
     return documents
 
 
+async def discover_all_events(
+    session: AsyncSession,
+    year_filter: int | None,
+) -> list[dict]:
+    """Full crawl: main page → season pages → AJAX event docs."""
+    log.info("Fetching main documents page...")
+    main_html = await fetch_text(session, DOCUMENTS_URL)
+    if not main_html:
+        log.error("Failed to fetch main documents page")
+        return []
+
+    main_soup = BeautifulSoup(main_html, "html.parser")
+    seasons = discover_seasons(main_soup)
+    log.info("Found seasons: %s", [s["year"] for s in seasons])
+
+    if year_filter:
+        seasons = [s for s in seasons if s["year"] == year_filter]
+        if not seasons:
+            log.error("Season %d not found", year_filter)
+            return []
+
+    log.info("Fetching %d season pages in parallel...", len(seasons))
+    season_htmls = await asyncio.gather(
+        *(fetch_text(session, s["url"]) for s in seasons)
+    )
+
+    all_events: list[dict] = []
+    for season, html in zip(seasons, season_htmls):
+        if not html:
+            log.warning("Failed to fetch season %d, skipping", season["year"])
+            continue
+        soup = BeautifulSoup(html, "html.parser")
+        events = discover_events_on_page(soup, season["year"])
+        log.info("Season %d: %d decision-doc events", season["year"], len(events))
+        all_events.extend(events)
+
+    ajax_sem = asyncio.Semaphore(MAX_AJAX_CONCURRENT)
+    events_needing_ajax = [e for e in all_events if not e["inline_docs"] and e["id"]]
+    log.info(
+        "Loading decision docs for %d events via AJAX (concurrency=%d)...",
+        len(events_needing_ajax),
+        MAX_AJAX_CONCURRENT,
+    )
+    ajax_results = await asyncio.gather(
+        *(fetch_event_docs(session, ajax_sem, e) for e in events_needing_ajax)
+    )
+
+    ajax_idx = 0
+    for event in all_events:
+        if not event["inline_docs"] and event["id"]:
+            event["documents"] = ajax_results[ajax_idx]
+            ajax_idx += 1
+        else:
+            event["documents"] = event["inline_docs"]
+
+    return all_events
+
+
 # ---------------------------------------------------------------------------
 # Main scrape orchestrator
 # ---------------------------------------------------------------------------
@@ -225,59 +317,21 @@ async def scrape(
 ) -> int:
     output = Path(output_dir)
     manifest_path = output / "manifest.json"
+    discovery_cache_path = output / "discovery_cache.json"
     manifest = load_manifest(manifest_path)
 
     async with AsyncSession(impersonate="chrome120") as session:
 
-        log.info("Fetching main documents page...")
-        main_html = await fetch_text(session, DOCUMENTS_URL)
-        if not main_html:
-            log.error("Failed to fetch main documents page")
-            return 0
+        cached_events = load_discovery_cache(discovery_cache_path)
 
-        main_soup = BeautifulSoup(main_html, "html.parser")
-        seasons = discover_seasons(main_soup)
-        log.info("Found seasons: %s", [s["year"] for s in seasons])
-
-        if year_filter:
-            seasons = [s for s in seasons if s["year"] == year_filter]
-            if not seasons:
-                log.error("Season %d not found", year_filter)
-                return 0
-
-        log.info("Fetching %d season pages in parallel...", len(seasons))
-        season_htmls = await asyncio.gather(
-            *(fetch_text(session, s["url"]) for s in seasons)
-        )
-
-        all_events: list[dict] = []
-        for season, html in zip(seasons, season_htmls):
-            if not html:
-                log.warning("Failed to fetch season %d, skipping", season["year"])
-                continue
-            soup = BeautifulSoup(html, "html.parser")
-            events = discover_events_on_page(soup, season["year"])
-            log.info("Season %d: %d decision-doc events", season["year"], len(events))
-            all_events.extend(events)
-
-        ajax_sem = asyncio.Semaphore(MAX_AJAX_CONCURRENT)
-        events_needing_ajax = [e for e in all_events if not e["inline_docs"] and e["id"]]
-        log.info(
-            "Loading decision docs for %d events via AJAX (concurrency=%d)...",
-            len(events_needing_ajax),
-            MAX_AJAX_CONCURRENT,
-        )
-        ajax_results = await asyncio.gather(
-            *(fetch_event_docs(session, ajax_sem, e) for e in events_needing_ajax)
-        )
-
-        ajax_idx = 0
-        for event in all_events:
-            if not event["inline_docs"] and event["id"]:
-                event["documents"] = ajax_results[ajax_idx]
-                ajax_idx += 1
-            else:
-                event["documents"] = event["inline_docs"]
+        if cached_events is None:
+            all_events = await discover_all_events(session, year_filter)
+            if all_events:
+                save_discovery_cache(discovery_cache_path, all_events)
+        else:
+            all_events = cached_events
+            if year_filter:
+                all_events = [e for e in all_events if e["year"] == year_filter]
 
         download_queue: list[tuple[str, Path, dict]] = []
         assigned_paths: set[Path] = set()
@@ -329,7 +383,7 @@ def main() -> None:
     import sys
 
     output_dir = "documents"
-    year_filter = None
+    year_filter = datetime.date.today().year
 
     args = sys.argv[1:]
     i = 0
