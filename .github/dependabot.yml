@@ -5,21 +5,28 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
+    versioning-strategy: increase
+    groups:
+      python-dependencies:
+        patterns:
+          - "*"
     labels:
       - "dependencies"
       - "python"
     commit-message:
-      prefix: "chore"
-      include: "scope"
+      prefix: "chore(deps)"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
+    groups:
+      github-actions:
+        patterns:
+          - "*"
     labels:
       - "dependencies"
       - "github-actions"
     commit-message:
-      prefix: "chore"
-      include: "scope"
+      prefix: "chore(deps)"
