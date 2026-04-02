@@ -391,6 +391,8 @@ async def scrape(
                 ))
 
         log.info("Download queue: %d new documents", len(download_queue))
+        total_new = 0
+
         if not download_queue:
             log.info("Nothing new to download.")
             # Still rebuild indices — a previous partial run may have left them stale.
@@ -400,7 +402,6 @@ async def scrape(
                 *(download_pdf(session, dl_sem, url, dest) for url, dest, _ in download_queue)
             )
 
-            total_new = 0
             for (url, dest, meta), downloaded in zip(download_queue, results):
                 if downloaded:
                     total_new += 1
@@ -410,15 +411,14 @@ async def scrape(
             log.info("Done! Downloaded %d new documents.", total_new)
 
     # Rebuild per-event and per-year indices from the full manifest.
-    # Scoped to year_filter if set, so a filtered run doesn't blow away
-    # other years' indices with stale data.
+    # Uses stored metadata fields directly — never parses year/event from the path.
     event_docs: dict[tuple[int, str], list[dict]] = {}
     year_names: dict[int, dict[str, str]] = {}
 
     for meta in manifest.values():
         p = Path(meta["path"])
-        gp_slug = p.parent.name
-        yr = int(p.parent.parent.name)
+        yr = meta["year"]
+        gp_slug = slugify(meta["event"])
 
         if year_filter and yr != year_filter:
             continue
@@ -438,7 +438,7 @@ async def scrape(
 
     log.info("Rebuilt indices for %d events across %d seasons.", len(event_docs), len(year_names))
 
-    return total_new if download_queue else 0
+    return total_new
 
 
 # ---------------------------------------------------------------------------
