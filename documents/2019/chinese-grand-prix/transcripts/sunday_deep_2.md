@@ -1,0 +1,89 @@
+**TRACK INTERVIEWS**
+
+(Conducted by Martin Brundle)
+
+**Q:** Lewis, congratulations. You’ve won the 1000th championship event. You won the 900th as well, but you seemed to have this race under control from the moment you released the clutch.
+
+Lewis HAMILTON:It’s not been the most straightforward of weekends, but what a fantastic result for the team, everyone has worked so hard. We came here and we didn’t know whereabouts we would stand with the Ferraris; they’d been so quick in the last race. But we turned up, Valtteri had been quick all weekend, he did a great job today and to have a 1-2 together today I think is really special on the 1000th grand prix. But the start was really where I was able to make the difference and after that it was kind of history.
+
+**Q:** Your 75th victory and pretty impressive of the team to double stack you for that critical pit stop to cover off any safety car issues.
+
+**LH:**Yeah, the strategists have been really on point for these first three races and we’ve really got to keep that up. You can see still it’s really, really close between us all and I really have no idea how the next race is going to turn out, but I’m super excited. Team LH China have been incredible all weekend, so a big thank you to them. They’ve been welcoming from the moment I arrived at the airport, to the hotel, morning and night, every single day, and here at the race. A big, big thank you to everyone who supported me, and to the family – love you guys. I’m just so happy, man.
+
+**Q:** Well done again. Valtteri, second place in the grand prix, not quite enough pace today but satisfying nonetheless.
+
+Valtteri BOTTAS:Yeah, I think I lost it in the start, honestly. Otherwise, the car was feeling OK and the pace was similar, but in the first stint, in the dirty air I couldn’t follow. But shame about the start, I got some wheel spin when I went over the white line, the start-finish line, which is immediately after my box, so I lost it there
+
+**Q:** That’s how tough Formula 1 is in 2019 isn’t it? One critical moment like that decides the race.
+
+**VB:**Yeah, it’s small details but it’s early days in the season and things are looking good. But I’m really proud for the team. We’ve done three perfect weekends so far, so that’s very good.
+
+**Q:** It’s the first time this year you don’t lead the world championship. You coming back?
+
+**VB:**Yeah, it’s not a good feeling, so I’m coming back.
+
+**Q:** OK, good stuff. Sebastian, tell us how that race was for you?
+
+Sebastian VETTEL:Well, happy to be on the podium, but tough, because we tried to stick with them, but we just couldn’t. They were too quick, right from the start. Obviously I had a bit of a race with Max, which was good fun, but the objective was to chase them down, but as I said, they were just too quick for us today. So well done to Lewis and Valtteri.
+
+**Q:** A great moment with Max. You hung him outside to dry on the outside on the grass, but that was good racing.
+
+**SV:**Yeah, I saw him coming and the speed delta at the end of the straight is quite big now, so knowing Max as well, I knew that he will try. I was sort of predicting that he would try and go down the inside and try to cut back and it worked. I had a bit of a moment in which I had to open the car a bit, but it was good because I just kept nearly a car length ahead and then at the end going into the last corner for him I guess wasn’t sexy so that was good fun, but as I said, we would have loved to be a bit faster.
+
+**Q:** The team eased you past your team-mate Charles Leclerc early on, did you feel that was right move?
+
+**SV:**Yeah, I felt I could go faster. Then it was a bit difficult for me to find the rhythm, so I had a couple of wobbles where I locked up and lost the advantage I gained. But I think it’s fair if you see the whole race that we were just not able to stick with Mercedes. It’s a bit of a shame he couldn’t get Max in the end. I was following the tower in the middle of the track and I was hoping for him to pip Max. I think it was very close. But as I said, plenty of homework for us. Nevertheless, it’s a good result but not a great result.
+
+**PRESS CONFERENCE**
+
+**Q:** Lewis, it was a difficult start to the weekend, but it ended perfectly.
+
+**LH:**I was just thinking how delicious that was. It really has been an interesting first three races. We, as a team, definitely didn’t expect to have three one-twos, but now I’m proud to have been part of the work that everyone has done and to be a part of these results. Valtteri has really stepped up this year and done an exceptional job, so we’re both delivering on the weekends. A little bit of a struggle this weekend for me, but once I got into qualifying, a little bit of a shift in driving style enabled me to unlock a bit more potential with the car, which Valtteri was clearly able to do. And then the start was obviously great, which was really the decisive moment I’d say for the race. And then after that it was fairly straightforward. I managed to have quite good pace today compared to P2, practice two, long run pace, so I’m really, really happy with it. You can see it’s still quite close with us all and I think it’s just down to little small details of overall performance that’s enabling us to come out with the results we’re pulling.
+
+**Q:** How much work have you done on the starts since the start of the season?
+
+**LH:**No more than I did in the previous year – but it clearly is an area that I’ve struggled with and it’s not like it’s only this year: it’s been something I’ve struggled with over the years – 2016, you could say, was one of the worst. Probably back in 2007, 2008 was also really poor period of time for starts, particularly against the Ferraris who were very, very strong with it. Last year was actually a really strong year for me. I think I just finished second overall of quickest starts throughout the year to, I think it was Carlos Sainz or something like that. Arguably it was first – but it’s dependent on the GPS! The first few races have been difficult for me off the line, so it’s nice to finally kind of redeem myself and rectify that. Naturally the next 18 races can still be up and down – just have to keep working at it.
+
+**Q:** Valtteri, coming to you, we’ve just been talking about the start; it was the decisive moment of the grand prix. Do you feel your start was not quite as good as Melbourne, for example?
+
+**VB:**Well, you could for sure see it. Lewis had a better start and for me, the problem was already on the formation lap start. There was a thick white line just in front of my grid box, so, when you’re still accelerating, and when I went over the white line I got some wheelspin on the formation lap start. For the race start, I thought maybe it’s going to be better with warmer tyres but it wasn’t, so once I hit the white line, got the wheelspin, took too long to recover it, lost a few metres of distance, so Lewis got me. That’s how it goes sometimes.
+
+**Q:** How was the pace of the car for the rest of the grand prix.
+
+**VB:**I think for the first stint Lewis had a pretty strong stint. I was initially close by but obviously when you are behind, you are sliding a bit more, overheating the tyres a bit more. I think after the first stint, the second and third stint were very similar. Just about how much you were managing or pushing. So, I think race start was the key – but Lewis did a good job on that. So, that’s how it goes.
+
+**Q:** Sebastian, your first podium of 2019. Was the car where you wanted it this afternoon?
+
+**SV:**I think we have to answer with ‘no’. I have to answer with no. We have a very strong car, there’s nothing wrong with it but I think we’re not able to yet put it in the window. Especially for myself, here and there. I’m not entirely happy yet compared to where we started off. Obviously the three tracks we’ve been to now are quite different. The conditions we had are different – but I think we start to see a sort of pattern and understand what – especially throughout a grand prix distance – understand what we need, what I need, to really unlock this car. I think these couple of weeks and the next weeks will be very important for us to understand where we need to go in the next months. Clearly today we were not as fast as Mercedes. Bit of a shame we couldn’t get third and fourth but overall I think we optimised. There were stages in the race where we were strong, and stages of the race where we were weaker compared to where we wanted to be.
+
+**Q:** You said that you didn’t have the pace of Mercedes. How intimidated are you by the pace of the cars of the guys on your right?
+
+**SV:**Nothing that shocks us. I think, at this point, it’s a question of putting it together. Obviously Mercedes had a good run with the first three races. I think in Australia we struggled with the conditions, and probably set-up. I think we learned our lessons for Bahrain, it was a lot better. Still, here and there, there are some parts of the race where we are too weak. And I think it showed again this weekend. So, I think we can be very happy with where we are on the engine side. It seems to be strong. I think overall our car is working and there’s nothing wrong with it – but I think it’s just about placing it in the right window and then being able to extract the performance that the car has, which I think Charles was able to show in Bahrain more than myself and yeah, it seems to be there somewhere but at the moment seems to be a bit more difficult to find where it is, to be able to be a fair match to Mercedes at this point.
+
+**QUESTIONS FROM THE FLOOR**
+
+**Q:** (Frederic Ferret – L’Equipe) Question to Sebastian. Have you asked the team to ask Charles to let you past? If not, do you think it was fair to do that?
+
+**SV:**Well, let’s put it this way, I knew the moment it was happening that I would have to face these questions. Not sure I want to answer because I’m a little bit against the way  you – all of you – work, because you take bits out of answers here and there and put it into the wrong light. So, if you ask me again in half an hour down in the paddock, maybe I give you a straightforward answer and you don’t write it down or record. Seems the way that, not maybe all of you but some of you are working. Yeah, I felt I was faster in the car, I was asked if I can go faster. I answered that I felt I can. I was a bit surprised when I was in free air – not surprised but I was struggling a bit to put the laps together. Once I found a rhythm, I was able to chip away – but yeah, obviously the objective was to try and catch Mercedes. At the point obviously the gap was already quite big.
+
+**Q:** (David Scheider - Autobild Motorsport) Sebastian, there was an incident yesterday with Max Verstappen in qualifying. How did it feel to fight him today on the track?
+
+**SV:**Well, yesterday was outside; today was inside! I think it’s very clear. Obviously I went to see the Red Bull team after qualifying and they admitted a mistake by not telling Max, so I think he tried to put himself in a good place and he wasn’t aware of the clocking ticking down. Today had nothing to do with it. I saw him coming down the inside and I knew that he would try something so I was already trying to prepare the exit which worked well for me and into sixteen, the last corner, I wasn’t quite sure whether he would come back or not but it probably didn’t make sense for him so happy to stay ahead and from that point onwards I was able to pull away. The first lap, I think we got a bit unlucky after the stop with the McLaren. I wasn’t quite sure what the McLaren was doing and whether and where he would let me past so it allowed Max to be closer than the following laps.
+
+**Q:** (Giles Richards – The Guardian) Lewis, given where you and the team thought you were in Barcelona in testing, in relation to Ferrari, now you’ve had three consecutive one-twos, do you think they’ve really been scored against the odds at this opening stage of the season?
+
+**LH:**Yeah, I think the last race probably wouldn’t have been a one-two if… obviously if they hadn’t have had the reliability issue we would have been second and third or second and fourth, whatever it was. And obviously with the results, Sebastian was also quite quick in the last race so it’s difficult to say but we definitely got through testing, we knew that it was very close, we got the car into a window but we knew that it was within a couple of tenths but we did think that they had the upper hand. I’m just not sure they’ve really hooked up a proper solid weekend just yet but it was looking like it was going to be a solid weekend for them in Bahrain and then it started to tail off. This weekend, they were a bit up and down throughout the weekend. I’m not really sure where they are losing out but they’re gaining something like 0.4s on the straights but losing out on corners so it will be interesting to see how long they adopt that strategy in the coming races but there are still so many races where their car will perhaps outshine ours. They’ve still got the shorter car than ours so it might work better in some other places that we’re going to but it’s a little bit early to say but definitely three one-twos, I think it’s a little bit above what… I think we’re over-delivering a little bit at the moment to our true true potential but there’s still more to come.
+
+**Q:** (Stuart Codling – Autosport) Lewis, this is the first time since 1992 that one team has scored three one-two finishes in the first races of the season. How impressive is that given the opposition you face compared with then? You know, in 1992 Nigel Mansell and Williams were the only show in town. Obviously Sebastian is aping Nigel’s facial fuzz but therein the similarity ends.
+
+**LH:**Well, I was just saying to him I can’t grow that to save my life. I know I just inherited it from my Dad; he doesn’t grow much hair on his face so this is the kind of the maximum I can go so I can’t even do a Movember. I had to stick one on. But no, I think, I actually didn’t realise that it had not been that. But I think what’s showing is just how it has been easy to get these three one-twos. The first race was perhaps a little bit more straightforward for us but getting the car to where we needed it to then delivery through the weekends and I think we definitely were lucky in the last race to position a one-two again. It doesn’t really mean a huge amount but it’s a real positive for us as a team and I hope that we can keep up this performance. We know that we’ve got Ferrari knocking at our heels and we know that the Red Bulls are there or thereabouts somewhere but again, they’re not delivering as a whole, as we are as a team and that’s what it takes today, just overall maximum attack. It will be interesting to see how the next races go.
+
+**Q:** (Panagiotis Seitanidis – Car magazine, Greece) Lewis, you’ve showed again that you have huge team support, you have your mini-me with you. For a little boy starting racing and dreaming about racing to where you are now, having such an impact all around the world, how does it make you feel?
+
+**LH:**Well actually this weekend I met a young boy who is karting and has won a championship, a minority, and he was 11 years old and he really reminded me or me in 1996 when I went to my first Grand Prix in Spa and it was really cool to see myself within him and see the smile upon his face. He was in the garage during the race today. It is a real privileged position to be in and it is quite surreal to have youngsters and even adults come up to you, shaking or nervous when they are around you but there’s such great energy and ultimately there’s a real strong platform to deliver key messages to a position to inspire. I feel very, very privileged. I try to do it in the best way I can at the same time as living my life and making the mistakes that you do in life. Yeah, you feel like you’re on cloud nine this weekend, from the moment I landed, got off the plane and the fans just fill me up with joy, you know, and they have done all weekend. When I wake up in the morning I’m groggy and I get down to the lobby and they’re outside all smiling. They’ve been there for at least an hour and they’re buzzing and when I get home tonight or back to the hotel in the evening  they’re there again and they travel so far around the world, people save up and spend their money to go to all these different locations to support. It’s incredible, it’s absolutely incredible and it’s very very hard to put it into words just how awesome an experience it is but also how grateful I am.
+
+**Q:** (David Coath – Motorlat) Lewis, you told us you were struggling with the car yesterday. How soon could you realise today that you had the car underneath you?
+
+**LH:**Well, it wasn’t like I had a choice.  Once I got the start done, I was like it has to be good enough. Valtteri was really quick, the changes that I made in qualifying, driving style-wise enabled me to be able to deliver fairly decent performance to at least match Valtteri but once you’re in the lead, you gauge it a little bit more, you can utilise your pace, you can see where your weaknesses are  and you can build and work on them lap after lap. But after I got probably the first couple of laps, then all of a sudden I started to get in the groove and I was like OK, I’ve got the pace today, let’s see how I can keep these tyres alive and deliver to the strategy that we were supposed to… it was supposed to be a one-stop but then the Ferraris converted which meant we then converted and it was an interesting play…  but really on point and their decision to do a double stacking pit stop for us today… I didn’t actually know he was behind me in the pit stop. Fantastic job by the team.
+
+Ends
