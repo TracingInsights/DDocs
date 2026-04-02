@@ -178,6 +178,37 @@ def save_discovery_cache(path: Path, events: list[dict]) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Index writers
+# ---------------------------------------------------------------------------
+
+def write_event_index(output: Path, year: int, gp_slug: str, docs: list[dict]) -> None:
+    """Write a compact index.json for one event folder."""
+    items = []
+    for doc in sorted(docs, key=lambda d: (d.get("n") or 9999, d["f"])):
+        item: dict = {"f": doc["f"], "t": doc["t"]}
+        if doc.get("n"):
+            item["n"] = doc["n"]
+        items.append(item)
+
+    path = output / str(year) / gp_slug / "index.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(items, separators=(",", ":")))
+    log.debug("Wrote event index: %s (%d entries)", path, len(items))
+
+
+def write_year_index(output: Path, year: int, slug_to_name: dict[str, str]) -> None:
+    """Write a compact index.json for a year folder listing all events."""
+    events = [
+        {"s": s, "n": slug_to_name[s]}
+        for s in sorted(slug_to_name)
+    ]
+    path = output / str(year) / "index.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(events, separators=(",", ":")))
+    log.debug("Wrote year index: %s (%d events)", path, len(events))
+
+
+# ---------------------------------------------------------------------------
 # Decision-documents scraping
 # ---------------------------------------------------------------------------
 
@@ -350,29 +381,64 @@ async def scrape(
                 download_queue.append((
                     doc["url"],
                     dest,
-                    {"year": year, "event": event["name"], "title": doc["title"], "source": "decision"},
+                    {
+                        "year": year,
+                        "event": event["name"],
+                        "title": doc["title"],
+                        "source": "decision",
+                        "doc_number": doc["doc_number"],
+                    },
                 ))
 
         log.info("Download queue: %d new documents", len(download_queue))
         if not download_queue:
             log.info("Nothing new to download.")
-            return 0
+            # Still rebuild indices — a previous partial run may have left them stale.
+        else:
+            dl_sem = asyncio.Semaphore(MAX_DOWNLOAD_CONCURRENT)
+            results = await asyncio.gather(
+                *(download_pdf(session, dl_sem, url, dest) for url, dest, _ in download_queue)
+            )
 
-        dl_sem = asyncio.Semaphore(MAX_DOWNLOAD_CONCURRENT)
-        results = await asyncio.gather(
-            *(download_pdf(session, dl_sem, url, dest) for url, dest, _ in download_queue)
-        )
+            total_new = 0
+            for (url, dest, meta), downloaded in zip(download_queue, results):
+                if downloaded:
+                    total_new += 1
+                    manifest[url] = {**meta, "path": str(dest)}
 
-        total_new = 0
-        for (url, dest, meta), downloaded in zip(download_queue, results):
-            if downloaded:
-                total_new += 1
-                manifest[url] = {**meta, "path": str(dest)}
+            save_manifest(manifest_path, manifest)
+            log.info("Done! Downloaded %d new documents.", total_new)
 
-        save_manifest(manifest_path, manifest)
+    # Rebuild per-event and per-year indices from the full manifest.
+    # Scoped to year_filter if set, so a filtered run doesn't blow away
+    # other years' indices with stale data.
+    event_docs: dict[tuple[int, str], list[dict]] = {}
+    year_names: dict[int, dict[str, str]] = {}
 
-    log.info("Done! Downloaded %d new documents.", total_new)
-    return total_new
+    for meta in manifest.values():
+        p = Path(meta["path"])
+        gp_slug = p.parent.name
+        yr = int(p.parent.parent.name)
+
+        if year_filter and yr != year_filter:
+            continue
+
+        event_docs.setdefault((yr, gp_slug), []).append({
+            "f": p.name,
+            "t": meta["title"],
+            "n": meta.get("doc_number", 0),
+        })
+        year_names.setdefault(yr, {})[gp_slug] = meta["event"]
+
+    for (yr, gp_slug), docs in event_docs.items():
+        write_event_index(output, yr, gp_slug, docs)
+
+    for yr, slug_to_name in year_names.items():
+        write_year_index(output, yr, slug_to_name)
+
+    log.info("Rebuilt indices for %d events across %d seasons.", len(event_docs), len(year_names))
+
+    return total_new if download_queue else 0
 
 
 # ---------------------------------------------------------------------------
