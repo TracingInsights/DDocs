@@ -178,6 +178,51 @@ def save_discovery_cache(path: Path, events: list[dict]) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Manifest migration
+# ---------------------------------------------------------------------------
+
+def migrate_manifest_doc_numbers(manifest: dict, discovery_cache_path: Path) -> bool:
+    """
+    Backfill doc_number into existing manifest entries that are missing it.
+    Only patches decision-source entries. Skips silently if cache is unavailable.
+    Returns True if any entries were patched.
+    """
+    # Only bother if there are actually entries missing doc_number
+    needs_patch = [
+        url for url, meta in manifest.items()
+        if meta.get("source") == "decision" and "doc_number" not in meta
+    ]
+    if not needs_patch:
+        return False
+
+    if not discovery_cache_path.exists():
+        log.info("No discovery cache available, skipping doc_number migration (%d entries pending)", len(needs_patch))
+        return False
+
+    try:
+        data = json.loads(discovery_cache_path.read_text())
+        events = data.get("events", [])
+    except Exception as e:
+        log.warning("Could not read discovery cache for migration: %s", e)
+        return False
+
+    # Build URL → doc_number lookup from every document in the cache
+    url_to_doc_number: dict[str, int] = {}
+    for event in events:
+        for doc in event.get("documents", []) + event.get("inline_docs", []):
+            url_to_doc_number[doc["url"]] = doc.get("doc_number", 0)
+
+    patched = 0
+    for url in needs_patch:
+        manifest[url]["doc_number"] = url_to_doc_number.get(url, 0)
+        patched += 1
+
+    log.info("Migrated doc_number for %d manifest entries (%d not found in cache, set to 0)",
+             patched, sum(1 for u in needs_patch if u not in url_to_doc_number))
+    return patched > 0
+
+
+# ---------------------------------------------------------------------------
 # Index writers
 # ---------------------------------------------------------------------------
 
@@ -350,6 +395,11 @@ async def scrape(
     manifest_path = output / "manifest.json"
     discovery_cache_path = output / "discovery_cache.json"
     manifest = load_manifest(manifest_path)
+
+    # Backfill doc_number into any existing manifest entries that predate
+    # the field being added. Saves migrated manifest immediately if changed.
+    if migrate_manifest_doc_numbers(manifest, discovery_cache_path):
+        save_manifest(manifest_path, manifest)
 
     async with AsyncSession(impersonate="chrome120") as session:
 
