@@ -499,7 +499,7 @@ def main() -> None:
     import sys
 
     output_dir = "documents"
-    year_filter = datetime.date.today().year
+    year_filter = None
 
     args = sys.argv[1:]
     i = 0
