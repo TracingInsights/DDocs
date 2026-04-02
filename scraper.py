@@ -63,7 +63,30 @@ def slugify(text: str) -> str:
 def _extract_pdf_links(soup: BeautifulSoup) -> list[dict]:
     documents = []
     for link in soup.find_all("a", href=lambda h: h and h.endswith(".pdf")):
-        raw_text = link.get_text(strip=True)
+        # The date might be in a sibling or parent container (e.g., inside an <li>)
+        raw_text = link.get_text(strip=True, separator=" ")
+
+        # Find the closest parent that contains the "Published on" text
+        parent_with_date = link.find_parent(lambda tag: tag and tag.name in ["li", "div", "tr"] and "Published on" in tag.get_text())
+        search_text = parent_with_date.get_text(strip=True, separator=" ") if parent_with_date else raw_text
+
+        # Extract published time (e.g., "Published on 12.03.2021 15:45")
+        published_time = ""
+        # Look for "Published on " followed by digits (the date)
+        pub_match = re.search(r"Published\s+on\s+([\d\.:/\sA-Z]+)", search_text, re.IGNORECASE)
+        if pub_match:
+            after_on = pub_match.group(1).strip()
+            # Find the actual date time portion
+            time_match = re.search(r"(\d{1,2}[\.:/]\d{1,2}[\.:/]\d{2,4}\s+\d{1,2}:\d{2})", after_on)
+            if time_match:
+                published_time = time_match.group(1)
+            else:
+                # Fallback if the time format is slightly different
+                time_match2 = re.search(r"([\d\.:/]+(?:\s+[\d:]+)?)", after_on)
+                published_time = time_match2.group(1).strip() if time_match2 else after_on
+
+        # print(f"DEBUG: EXTRACTED '{published_time}' from '{search_text[:80]}'")
+
         title = re.sub(r"^Doc\s+\d+\s*[-–]\s*", "", raw_text)
         title = re.sub(r"Published\s+on.*$", "", title, flags=re.IGNORECASE).strip()
         if not title:
@@ -77,6 +100,7 @@ def _extract_pdf_links(soup: BeautifulSoup) -> list[dict]:
             "url": urljoin(BASE_URL, link["href"]),
             "filename": slugify(title) + ".pdf",
             "doc_number": doc_num,
+            "published_time": published_time,
         })
     return documents
 
@@ -228,11 +252,15 @@ def migrate_manifest_doc_numbers(manifest: dict, discovery_cache_path: Path) -> 
 
 def write_event_index(output: Path, year: int, gp_slug: str, docs: list[dict]) -> None:
     """Write a compact index.json for one event folder."""
+    # Sort by number (if exists) then by published time, then by filename
     items = []
-    for doc in sorted(docs, key=lambda d: (d.get("n") or 9999, d["f"])):
+    sorted_docs = sorted(docs, key=lambda d: (d.get("n") or 9999, d.get("p", ""), d["f"]))
+    for doc in sorted_docs:
         item: dict = {"f": doc["f"], "t": doc["t"]}
         if doc.get("n"):
             item["n"] = doc["n"]
+        if doc.get("p"):
+            item["p"] = doc["p"]
         items.append(item)
 
     path = output / str(year) / gp_slug / "index.json"
@@ -417,11 +445,16 @@ async def scrape(
         download_queue: list[tuple[str, Path, dict]] = []
         assigned_paths: set[Path] = set()
 
+        manifest_updated = False
         for event in all_events:
             gp_slug = slugify(event["name"])
             year = event["year"]
             for doc in event.get("documents", []):
                 if doc["url"] in manifest:
+                    entry = manifest[doc["url"]]
+                    if not entry.get("published_time") and doc.get("published_time"):
+                        entry["published_time"] = doc["published_time"]
+                        manifest_updated = True
                     continue
                 dest = _unique_dest(
                     output / str(year) / gp_slug / doc["filename"],
@@ -437,6 +470,7 @@ async def scrape(
                         "title": doc["title"],
                         "source": "decision",
                         "doc_number": doc["doc_number"],
+                        "published_time": doc["published_time"],
                     },
                 ))
 
@@ -446,6 +480,9 @@ async def scrape(
         if not download_queue:
             log.info("Nothing new to download.")
             # Still rebuild indices — a previous partial run may have left them stale.
+            if manifest_updated:
+                log.info("Saving updated manifest (backfilled published times).")
+                save_manifest(manifest_path, manifest)
         else:
             dl_sem = asyncio.Semaphore(MAX_DOWNLOAD_CONCURRENT)
             results = await asyncio.gather(
@@ -457,8 +494,32 @@ async def scrape(
                     total_new += 1
                     manifest[url] = {**meta, "path": str(dest)}
 
-            save_manifest(manifest_path, manifest)
+            if total_new > 0 or manifest_updated:
+                save_manifest(manifest_path, manifest)
             log.info("Done! Downloaded %d new documents.", total_new)
+
+    # -----------------------------------------------------------------------
+    # Auto-numbering for 2019-2024 if doc_number is missing (0)
+    # -----------------------------------------------------------------------
+    # We group all documents in the manifest by (year, event) for the target range.
+    groups: dict[tuple[int, str], list[str]] = {}
+    for url, meta in manifest.items():
+        yr = meta.get("year", 0)
+        if 2019 <= yr <= 2024:
+            groups.setdefault((yr, meta["event"]), []).append(url)
+
+    any_renumbered = False
+    for (yr, event_name), urls in groups.items():
+        # Sort by published_time, then by path as fallback
+        sorted_urls = sorted(urls, key=lambda u: (manifest[u].get("published_time", ""), manifest[u]["path"]))
+        for i, url in enumerate(sorted_urls, 1):
+            if manifest[url].get("doc_number", 0) == 0:
+                manifest[url]["doc_number"] = i
+                any_renumbered = True
+
+    if any_renumbered:
+        log.info("Assigned sequence numbers to documents for years 2019-2024.")
+        save_manifest(manifest_path, manifest)
 
     # Rebuild per-event and per-year indices from the full manifest.
     # Uses stored metadata fields directly — never parses year/event from the path.
@@ -477,6 +538,7 @@ async def scrape(
             "f": p.name,
             "t": meta["title"],
             "n": meta.get("doc_number", 0),
+            "p": meta.get("published_time", ""),
         })
         year_names.setdefault(yr, {})[gp_slug] = meta["event"]
 
@@ -499,7 +561,7 @@ def main() -> None:
     import sys
 
     output_dir = "documents"
-    year_filter = 2019
+    year_filter = None
 
     args = sys.argv[1:]
     i = 0
