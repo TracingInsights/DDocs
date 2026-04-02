@@ -1,0 +1,253 @@
+F1 - 2023 AUSTRALIAN GRAND PRIX - FRIDAY PRESS CONFERENCE TRANSCRIPT
+
+**PART ONE**-**TEAM REPRESENTATIVES**
+
+Otmar SZAFNAUER (Alpine), Guenther STEINER (Haas), Mario ISOLA (Pirelli)
+
+**Q:** Guenther, let’s start with you. You’ve been globetrotting since we last saw you in Saudi Arabia. You went to the NASCAR race at COTA – the Circuit of the Americas – last weekend. Let’s start with that. How was it?
+
+Guenther STEINER:It was pretty good. A new experience for me. I tried to help out in the broadcasting, you know with the…
+
+**Q:** Should I be worried?
+
+**GS:**No! You don’t have to worry about anything! I found out it’s not an easy job! I just wanted to try. Fox asked me, and I said yes because I want to try, a little bit, different things. How that feels. But now I stick to this one, I think.
+
+**Q:** And, of course, Jenson Button and Kimi Räikkönen were making… well, for Kimi not a debut, but how did they get on?
+
+**GS:**I think they got on pretty well. It’s very difficult for an F1 driver to go there, you know. I think the biggest difference is that it’s a contact sport, NASCAR, and you never know when it’s coming. Obviously the guys which do it on a weekly basis, they’ve got a lot of experience, and if you drive an F1 car, you’re not used to being pushed and shoved around. I think they did pretty well. As you said, Kimi did it before, so he’s a little bit more used to it. I spoke with both of them and I think the biggest thing is, they enjoy it. I think it’s good fun, and not having the pressure they had here when they were racing full time here, to come in there, and do this race with a completely different car, in a chilled environment. It’s pretty cool to do.
+
+**Q:** Let’s bring it onto the Formula 1 team. How’s it going? Of course, Kevin got his P10 in Jeddah, last time out. Just give us a summary of where you think Haas is at, at the moment?
+
+**GS:**If I just would know! No, joking. I think Bahrain, we were not good, I must say it – but we knew why and I always said I think Jeddah is a different place, and in Jeddah, we were pretty good, I would say, for where we are at. It’s just so tight between P5 and P10. There is nothing. Six teams are very close together, and each track you start from fresh. I think Jeddah was OK for us. Without the Safety Car, maybe we could have got a little bit closer to Otmar’s car but we couldn’t because we got stuck behind Tsunoda, who had an almost free pitstop. But we are happy where we are. We just need to work hard and keep on improving so we can keep this place. Nico’s doing a good job. I mean, he’s pretty happy – but we cannot be too comfortable because it’s so close. A tenth of a second sometimes, we’ve got five cars. But I think it makes the Championship in the midfield – with the midfield now going from P5 to P10 – very interesting. So, it’s always tense there, with what you can do and what not, but I think we are OK.
+
+**Q:** Are you OK this weekend? Just tell us what happened in FP1 and how hopeful you are for the rest of the weekend.
+
+**GS:**I think what we saw up to now, we are roughly like we were in Jeddah. We are there and thereabouts between six and seven, I would say. The times are very difficult to judge because, with the red flag coming out when the GPS system went down, both of our drivers were actually lucky because Norris obviously didn’t know that we were coming, because he was not on GPS anymore and we could not see him, he couldn’t see us. So, we lost those laps but all-in-all there’s still a lot of work in front of us this weekend to get again in a position to score points. It’s not a given that we score points, we need to work hard and the guys put a lot of effort in for the race pace, that we are good in the race pace. We achieved that in Jeddah, we were there with the other ones. We are doing the same here, trying to get the best race pace out and then just qualifying, do a fast lap as quick as we can. So, hopefully we can make points – but we have to wait for Sunday to know.
+
+**Q:** Mario, let’s bring it on to you. Let’s get a summary of FP1 and how it’s going from your point of view.
+
+Mario ISOLA:FP1 is always difficult to really understand from our point of view because there is a lot of track evolution and teams are more focussed on the set-up of the car. I believe that we decided to bring three different compounds, or the Soft is a different compound, compared to last year, because last year the C5 was a bit too soft, nobody was going to use it during the race, so we want to encourage different strategies, possibly with a mix of one and two stops. But also using all the three compounds. And the Soft in FP1 was used only by Verstappen since the beginning for all the session, but at the end from other drivers and it’s working quite well – so I’m confident we can have different strategies on Sunday. I don’t know if one or two stops yet. We get more data in the afternoon with FP2.
+
+**Q:** Can we get a word about how the new compounds this year are performing. First time this year we’ve had you in the press conference. When you look at Race 1, Race 2 and what we’ve seen so far, are you happy with how things are going?
+
+**MI:**I’m happy because the targets were to obviously increase for the new construction the level of integrity, which we have done because they are using a lower pressure. The second point was about reducing the understeer and also in this case I believe the new construction is helping to balance the car. And the third one was to test this new C1 compound that was working quite well in Bahrain. We are also trying to understand if we can use it in more races. It’s close to the C2 to maybe sometimes we can also replace the C2 with the C1. We need to get a bit more data and to agree with the FIA the allocation. But yeah, the new package is working as expected. So, I’m happy.
+
+**Q:** Let’s throw it forward now. The tyre tender has been launched for the 2025-27 seasons with an option for 2028 of course. Now, you’ve been F1’s tyre supplier since 2011, you’ve confirmed your interest in continuing with the tyre supply. Was that an easy decision for Pirelli to make?
+
+**MI:**It’s never an easy decision because we invest a lot of resources and money in Formula 1 but we are happy with the results so far. 13 years is a long period and to continue for another three, four years is also a bigger commitment, but the sport is very healthy, we are happy with the current situation. We are happy to play our part in the sport, as I said, and to follow the requests that are coming from drivers, teams, FIA and F1, to have a sport that is even better, if it is possible. So now we are in the process of analysing the document that is quite long. It’s different from the past with a lot more pages to analyse but, as I said, the general feeling is that we want to apply and to continue. It’s a process and we will wait for the end of the process.
+
+**Q:** Otmar, P4 in the Constructors’ Championship last year. You spoke of wanting to use that as a springboard to close on the top three. Just give us a summary of what’s happened so far this year for Alpine?
+
+Otmar SZAFNAUER:Well, in the two data points that we have, the two races, the first one in Bahrain didn’t quite go to plan for either driver. I think one started nearly at the back, or last, due to some issues he had in Qualifying. That was Pierre. Esteban made it into Q3 but then was very quickly penalised for being outside of his grid position. And from there we also made a mistake and started working on his car too early after his penalty and I think he also was caught speeding in the pitlane, so that kind of ruined his race. Pierre went from last to in the points, ninth, which was a great drive from him. I think one second behind Bottas at the end. We just needed another couple of laps. We were catching him. But anyway, we scored. And then at the last race I think we were comfortably the fifth fastest team with Ferrari just ahead of us and us really not pushing hard to see if we could overtake them. A bit conservative but what we’ve got to do is get back on that springboard, as you said, and develop over the season – it’s a long one – and continue to do what we did last year and improve the car as we go along to try to catch those ahead of us.
+
+**Q:** What have you got coming? Because we’re being told that McLaren have got a lot of changes coming for Baku, Mercedes are going to bring a big upgrade in the coming races as well. Do you think you can fight with them – or are they going to be too far ahead?
+
+**OS:**No, we think we can fight with them. Yeah, we too have a decent-size upgrade coming for Baku and then a little bit more only a week later in Miami, so we continue to push the upgrades out. I mean, the important thing is that they all work when we put them on the car and we have good correlation with our simulation tools. We had good correlation last year and if that continues and if we continue to push the upgrades, we’ll take that development fight over the season to the others around us.
+
+**Q:** Now, Pierre is new. How’s he settling in? Has he got his feet under the table at Alpine? Are you impressed by him?
+
+**OS:**Yeah, he’s new and it takes time. He’s enjoying the team, he likes his engineering team and the mechanics and we like him. He’s fast but it will take time at the margin to eke every little bit out of the car and he’s still getting comfortable with us. I talked to him after the last race and he said, ‘look, give me a couple more races and there’s a couple of tenths in me.’
+
+**Q:** But where are those couple of tenths going to come from? Can you see it in the data?
+
+**OS:**I think it’s just a better understanding of driver and engineering team to set the car up like he likes it.
+
+**QUESTIONS FROM THE FLOOR**
+
+**Q:** (Luke Smith – The Athletic) For both team principals, and picking up, Otmar, on what you said about the developments coming, this big break we’ve got now, after this race, it’s quite rare so early in the season. How valuable is that from a development point of view but also to review how the team has started the year, maybe put in some changes ahead of the next race?
+
+**OS:**Well, the break wasn’t planned but it is a welcome break from both getting ample car parts, spares as well as when we do bring developments. You know there’s a huge effort to make enough of those parts to ensure that you can really push hard – so that definitely helps. And also the break allows you to plan further upgrades that you find through your simulation tools, and knowing that the break is there, you plan them a bit differently – but it definitely helps.
+
+**Q:** Guenther, what’s the situation at Haas?
+
+**GS:**Yeah, I think our development plan is set before and this break doesn’t make a real difference because the race team doesn’t work on the developments of the car but it’s more for the race team, there’s an opportunity to have a little bit of rest because the rest of the season will be tough. I just said to the guys, take it easy in these three weeks, don’t do anything I wouldn’t be doing. In the end, just to sit back a little bit. But the development is ongoing. It was planned already last year, what we are doing, but obviously it helps when you don’t have to bring it to China. If you had something planned for China, you have a little bit more time to make it better and get more prepared, also with data after the first races. But the main thing is the guys should relax a little bit to be ready for the tough part of the season.
+
+**Q:** (Mat Coch – Speedcafe.com)One for Guenther. Yesterday, Daniel Ricciardo said he’s leaning towards returning to Formula 1 next year. Would you be interested in speaking to him this year, given that last year he wasn’t interested in speaking to you?
+
+**GS:**It’s a little bit early to speak about a driver change already for next year. So let’s see how we are doing with these drivers and, for sure, at some point maybe I speak with him but I cannot promise anything because if our two guys do a good job, I think where I stand with it, but for sure, Danny is… everybody is wanting to speak with Danny after a year off, maybe he knows again what he wants to do and he will be interesting for everybody in Formula 1. But at the moment I have a new driver this year that has done only two races, so I need to give him a little bit of a chance.
+
+**Q:** Otmar, can you remind us, how did you leave it with Daniel last year?
+
+**OS:**So we had discussions with Daniel, ended up with Pierre when he became available and he’s signed with Red Bull now but I think, like Guenther does, he’s a fantastic racing driver, he’s still young and I wouldn't be surprised if he’s back racing in the future.
+
+**Q:** (Adam Cooper – Motorsport.com) For Guenther and Otmar. The next race in Baku is a Sprint event. Any thoughts on the principle of a Sprint at a street circuit? What kind of race are we going to see? And also, do you have any concerns in the back of your mind about crash damage in the context of the cost-cap and the fact you’ve got to be in Miami a few days later?
+
+**OS:**Well, it does seem that Baku always produces interesting racing and yes, there is more jeopardy because it’s a street race and some of the walls are pretty close. And like I said easier. The nice thing is we’ve got this three-week break to make some spares in order to be prepared for both the Sprint race and the race in Baku. Hopefully it’ll all be OK and we won’t suffer in Miami.
+
+**GS:**Yeah, I’m with Otmar. We now know enough about Sprint events, that we know how to get prepared, and those are in the cost-cap budget. I think everybody has got a little bit of margin there, knowing that some of these races could be tough for the budget, so I think everybody is prepared and, as Otmar said, Baku always creates something unexpected, so hopefully we are not involved in the unexpected, and come back safe, without damage and with points.
+
+**Q:** Mario, can I bring you in now? We’re talking about the break after this race and, of course, it’s a big moment for Pirelli when we get to Imola in the not too far distant future, with the new Wet tyre. Can you tell us about the progress you’ve made with that?
+
+**MI:**Yeah. The new Wet tyre is starting from Imola and we are now also developing the new Intermediate tyre that I hope we can introduce as soon as we can. Obviously we have not many test sessions. The new Wet tyre is working quite well without blankets. It’s the first step in this journey, together with Formula 1 and the teams. There is a lot of talking about removing the blankets from Formula 1 cars. It’s a challenge, as I said. It’s a big challenge on the technical side. We will do everything possible to achieve this challenge. We know how important it is to go in this direction of sustainability, and we are also working on the slick tyres and after the race in Barcelona, we have the next test session where, for the first time, the baseline will be a tyre without blankets. So we are on this journey, as I said, and we have to wait a little bit and see what is going to happen on that.
+
+**Q:** There was a test after Bahrain as well. What feedback were you getting from the drivers about the tyres?
+
+**MI:**Bahrain is very different compared to previous tests that were in Paul Ricard, with temperature which was quite cold. Bahrain is not a circuit where you struggle with the warm-up. And obviously the feedback was completely different compared to Paul Ricard, as I said. The warm-up was not an issue. It was more about the degradation on a circuit that is known for high degradation. So now we have a couple of different circuits, Barcelona and Silverstone, where we will test the hardest part of the range with this new construction, because, due to the fact the pressure is going to increase a lot, compared to now, we need to design a construction able to start at a much lower pressure to stabilise at a pressure that is acceptable for a Formula 1 car.
+
+**Q:** And when do you have to make the decision about next year, about whether we go with blankets or not?
+
+**MI:**It is planned to have a meeting with all of the stakeholders after the test in Silverstone, to share the results and to see if we can achieve that by the end of the year. That means to have introduced the new tyres for next year.
+
+**Q:** (Rasmus Schaal Linneberg – Ritzaus Bureau) I was wondering if you could elaborate a little bit on how Nico's settling into the team and how the relationship with Kevin is coming along?
+
+**GS:**Nico is settling in very, very well. I mean, he's a professional, he has done this before, settled into a new team. That was one of the reasons we took him. He's getting on good with Kevin. I think it’s a very good relationship, professional, you know. They are both now mature racers. They know what we expect from them. And they both deliver and they try to work together to bring the team forward. And that is all that we wanted. So at a moment, I have no complaints on that side and hopefully it stays like this.
+
+**Q:** Do they have different strengths, the two drivers?
+
+**GS:**That's difficult to say, maybe a little bit too early for me. I mean, we have done one test and two races with them. But I think they have got very similar strengths. They're just experienced, and they've done this before. And obviously Kevin has got a little bit the advantage that he has been with the team now a few years, while Nico is new. But as I said, Nico is adapting very quickly, because even if the team is new, he has been in new teams before. So he knows what is expected. He knows some of the people that work with us from teams before. So at the moment, it's going very smooth.
+
+**Q:** (Luke Smith – The Athletic) To all three of you. There's been discussion this weekend about potentially reducing the number of practice sessions or changing the format. A lot of the drivers seem very much in favour and think there's a bit too much practice, but for you as teams, what's your view on that? And Mario, from a tyre perspective, how crucial are those practice sessions to help you with your development?
+
+**OS:**Well, I think we need a good balance. I think we still need a bit of practice to dial in the car to get the set-up right. I think it will favour drivers that are experienced if we do reduce the practice. And, you know, it might hurt some of the rookies. So I understand what Stefano was saying in the Formula 1 Commission that we should look at every session that we're out on track to make it interesting for the fans. And I think a practice session or two would still be interesting, even though we may do some other things.
+
+**MI:**I agree with Otmar. We collect useful data from the practice sessions, for the usage of the tyres, possible strategies. And we need a good balance, probably. I understand also, the position of Stefano, to try to encourage sessions that are interesting for our spectators. I believe the discussion started from the role of FP2 during the Sprint events, with the cars that are in parc fermé – so, very limited possibility for the teams to react to any change. That was still interesting for us, for the tyre, but it's not enough. So I'm sure that we can find a good solution together with the teams, they have sporting directors that are very good and discussing any small detail to try to avoid any unintended consequences. So I'm sure that we can find a good balance between the two.
+
+**GS:**Yeah, what I would like to add to this one is, in Baku, we are talking about having a second qualifying at the moment. We don't know how we do it and if we do it, so I think once we have done that, instead of FP2 on a Sprint event on Saturday morning, we do a qualifying and then we are in a situation to evaluate whether one FP, which would be FP1, enough to get out what we want and go from there and then decide what is next in making the free practice session more interesting for the spectator, because that is what we need to make it. So I think we need to take it step-by-step, get over this hurdle of how we can do a second qualifier on the weekend in the Sprint events, and then maybe go the next step, what are we doing next? I think we don't have to sort out everything in one shot now all of a sudden, not doing free practice sessions and stuff. I don't think that’s what Stefano wanted to say. Stefano had a little bit more of [putting] his vision out there for the future, because that is, I think, what he has to do for FOM – have a vision, where are we going? So I think let's take it step-by-step, sort that one out and then see how much practice we need to make the car safe to get enough data that you can set them up and to give Pirelli enough data so they've got something decent to work with.
+
+**Q:** (Filip Cleeren – Motorsport.com) Otmar, you said that you can bring the fight to Mercedes. Are you banking on their Baku package to try and get ahead for the next couple of races? Or do you think that whatever Mercedes can do with a new concept later on, you can keep developing with them?
+
+**OS:**Well, we're going to develop at the highest rate possible for our team. And it's really hard to know what they will bring. Last year, if I look back, I think our development rate was pretty good. And if we can keep up the same this year, I think we should, over the year, get closer. Really hard to know. As you know, it's a relative game. I know what we've got coming. What I don't know is what they have coming.
+
+**Q:** (Dieter Rencken – Racing News 365) To both team principals, but first of all, I'll start with Guenther. Guenther, when you came into Formula 1, they changed the test and development regulation so that once you'd been registered as a new entrant you had to stay within the regulation from a development, wind tunnel perspective. Now, there's talk of some new teams coming in. As of now, they have expressed their interest. However, they haven't been accepted, yet there are rumours that some of them have already started developing concept cars using wind tunnels from some of the current teams. Are you concerned that there could be some crossover or some grey areas in terms of development? To both team principals, please?
+
+**GS:**I mean, as you said, it's clearly rumours. I have no facts if they're doing it or not. And therefore, I don't want to expand too much on it. If the rules are like this, that you need to get into the rules of wind tunnel runs only when you are registered and when you’ve got the licence, I think they are free to do that. I mean, we cannot say you're not allowed to do something if you're not even part of Formula 1. Because if you're not part of it, it doesn't mean that you will be part, you take it on a risk, or an opportunity to do development. So, I have no big opinion about that, that they shouldn't be doing what they are doing. Because by the rules, they're allowed to do it. So, we make the rules and how can you stop somebody who is not in Formula 1 to do anything? Because I think that will be outside of the scope we have entitled to demand.
+
+**OS:**Well, really hard for me to comment. I don't know what the others are doing or the entrants or possible entrants. So it's hard to know, but I trust that the FIA, who are running the process of the new entrants, are also looking at the rules and regulations and what they're allowed to do from an aerodynamics standpoint and what they're not allowed to.
+
+**Q:** Do you and Alpine welcome more teams into Formula 1?
+
+**OS:**I think the process that we're going through is a good one. And if an 11th team or a 12th team makes us all better off than for sure we will welcome them.
+
+**Q:** Guenther, do you agree with Otmar on that point?
+
+**GS:**I would say it's not for us to decide if there are 11 or 12 teams coming, it’s the FIA and FOM. We haven't got a lot of voting rights on it. And if they think in general, it makes Formula 1 better for everybody and there's upsides, I have no problem. But the upside needs to be there. If it’s just more to do more then why would you do that and dilute the 10 existing teams, which are very strong at the moment? I think we have got a good Formula 1 at the moment, but if they are bringing some upside to everybody, I wouldn't say that should be an issue.
+
+**Q:** (Dieter Rencken – Racing News 365) Guenther, what I meant by that was that by using existing team wind tunnels, and doing concept development within the tunnel that maybe there could be some information that, could I say, leaks across to the wind tunnel owner, so to speak. Are you concerned about that?
+
+**GS:**The FIA keeps a close eye on that one, so I'm not too concerned. And obviously now with all this… We hear the rumours, the FIA hears the rumours and I'm sure they are going to check now, especially as you brought it up now in the press conference, I think they have to do it now. So I'm not too concerned about it, that there is not a good eye on it.
+
+**PART TWO**
+
+**TEAM REPRESENTATIVES**:Mike KRACK (Aston Martin), Zak BROWN (McLaren),Christian HORNER (Red Bull)
+
+**Q:** Christian, I'd like to start with a quote from Lewis Hamilton after the last race in Jeddah, in which he said, “I haven't seen a faster car in Formula 1 than the RB19”. I’d just like to get your reaction to that?
+
+Christian HORNER:Well, it's obviously very flattering, particularly considering some of the cars that Lewis has driven in recent history, but, you know, we've got a great car. I mean, RB19 is a fantastic starting point for the season for us and to have achieved two 1-2 finishes in the first two races is more than we could have ever expected coming into this season. But we're conscious it’s a very long season, there's still 21 races to go and six Sprint races, and we're conscious that big updates are coming for others in coming weeks as we head back to Europe. So there's still a lot to do and an awfully long way to go.
+
+**Q:** Have you been surprised by the gap between yourselves and the rest of the field?
+
+**CH:**At times, in all honesty, yes. We see that some teams have made a step forward and some haven't. But that's going to change from circuit to circuit, venue to venue. And I've always said it's going to take, you know, three or four races to get a real pattern as to what is the actual form book for the season.
+
+**Q:** Let's talk about Checo. He’s just one point behind Max in the World Championship after two races. Do you think this is the best version of Checo that you've seen at Red Bull in his two and a bit years at the team?
+
+**CH:**In a sample of two races, yes. I mean, he drove some great races last year. You only have to think back to Singapore, for example, which was an outstanding victory for Checo last season. But, you know, he's done a great job in the first two races this year, his confidence is sky high, and that's exactly what we want. We want two drivers that are going to be pushing and challenging each other.
+
+**Q:** What do you need to see more of from him for him to maintain a challenge to Max Verstappen?
+
+**CH:**I think the key thing is that over such a long season, it is a marathon, I think it's all going to be about consistency over the 23-race series. That's going to be the differentiator and you know, he's made a great start and both drivers are pushing each other, which is what you want to see.
+
+**Q:** I felt it was a little bit frosty here in the press conference room after the Saudi race. Perhaps a little bit of confusion about the fastest lap between your guys. Do you think it's going to get difficult between them?
+
+**CH:**There's no reason why it should. I mean, they're both competitive animals, and they're both racing drivers at the end of the day, but they know the rules of engagement, in terms of it being team first, and particularly at this stage of the year, where we know that we don't have the development capability that other teams have in terms of wind tunnel time as the season goes on. So for us it's hugely important to bag as many points as we can, get as many into the championships as we can, early on, because we know the others are going to come back at us in the second half of the year.
+
+**Q:** Can we just bring it on to FP1 now. We saw both of your guys going off track. What feedback were you getting from them?
+
+**CH:**Neither of them was absolutely happy with the balance of the car, they're both trying slightly different things. They both had sort of brake-related issues that took them a bit deep into a couple of corners. And, you know, certainly the high-speed spin of Max, you know, rooted that set of tyres. But it just shows that both of them are pushing and they're on the limit, which is, which is what you want to see.
+
+**Q:** Zak, coming to you. You're running the hometown hero in the truest sense, because he grew up just 15 minutes from where we're sitting now. Just give us your observations on how Oscar Piastri is coping with the pressure of racing at home?
+
+Zak BROWN:He's doing very well. He's a very mature 21-year-old, very focused. You kind of wouldn’t know it's his home Grand Prix from his perspective. You can clearly tell around the track that there's an Oscar-mania if you like, but he's very focused, head down. You can't really tell the difference between him here or Saudi or Bahrain and I think that's what's going to make him a really good Grand Prix driver, his focus and his calmness.
+
+**Q:** What does he bring to the team? Perhaps you've just answered it, but what does he bring to the team that you weren't getting from Daniel Ricciardo last year?
+
+**ZB:**What we want to have, which Christian was just talking about, is two drivers that are pushing each other. And I think early indications are that Oscar will be on the same pace as Lando and the two of them will push each other hard. And that's what you want out of your two drivers, to know that it's kind of down to you, as a team, to provide them with a car to get to the front. So I'm confident when you look down the list of things you need to have a winning team, having two Grand Prix drivers is critically important and I think we've got that.
+
+**Q:** Okay, so you've got the drivers sorted. Let's talk more about the winning team, because you've made a lot of changes, or you've announced a lot of changes since the last race, which include the departure of technical director James Key. Why did you feel the need to make such extensive change?
+
+**ZB:**Well, I didn't like our pace of development, if you like, towards the second half of last year. I didn't feel like we were moving forward. You know, you look at Aston [Martin], they've done a fantastic job, started at the beginning of the year, not where they finished at the end of the year and clearly they've just continued on in that development path. And I felt like we were not developing at the pace that we need to, so when we had our team principal change, I asked Andrea to take a look at why and he restructured the department. And that was a work in progress over the winter. We knew, as we said at the launch, that we weren't where we'd want to be at the start of the year. Obviously Saudi was quite disappointing, because that really wasn't representative of any sort of pace issue, having one car lose its front wing and take out the other, especially when they weren't even racing each other, is a bit of bad luck. And so our season starts here in Australia and I've got all the confidence in Andrea, the structure, the people we have, the people that we have coming, that will now be able to continue forward on our journey.
+
+**Q:** When do you expect to see the fruits of the changes you've just made?
+
+**ZB:**I think, as I say, in the factory things start to feel good and then eventually they look good. And quite the opposite, right at the end of last year things didn't feel good, and we were kind of seeing, at the start of this year, those results, if you like. So we've got some good upgrade packages coming, but so does every other team on the grid, but I would anticipate that will definitely finish the season much stronger than we've started.
+
+**Q:** Mike, let's come to you now. And let's reflect on the last 12 months because it was at this race 12 months ago that Aston Martin had a torrid time: four crashes, it seemed a very low ebb for the team. And yet, here you are now, having had two podiums in a row. Can you just explain how you got from point A 12 months ago to where you are now?
+
+Mike KRACK:Well, I slept 365 times in between, and then we came here! No, obviously, it was very difficult 12 months ago here. We hope that we do not have a repeat this weekend. But I think after that weekend it was really the moment to sit together and stick together as well. Because we went away here without points. I think we were the only team who had not scored any points, with a car that was difficult to drive, very slow, and with drivers that were starting to lose confidence in the team, in the car. So from that point, we said, “OK there's only one way to get out of this, by sticking together and working hard”. And this is what we went on with it and I think we managed quite well to get ourselves out with AMR22 last year, over the course of the season. Obviously, at the end of the year, with finishing seventh, I think that did not reflect 100% where the car was at the time. This is also taken often as a reference, you know, like when we see where we are now, but compared to finishing seventh, I think we were better than that at the end of last year, but the result is just what is on paper. And then we continued on the baseline over the winter, trying to really make some further steps, which I think we managed. And considering it's also relative, the whole thing, maybe other teams doing a bit not as good a job as we did, this made us end where we are. But it's obviously nice to be in that position now compared to 12 months ago. But it also tells us how quickly things can go in Formula 1.
+
+**Q:** Certainly does. And have you seen enough from the current car to know that you can be quick everywhere?
+
+**MK:**I think we need to still be careful with making such predictions. The competitors are very, very close, except one which is quite far away. But we need to keep our heads down and we need to give 100% at all times to be able to maintain this position and as long as we can.
+
+**Q:** Final one for me. How is Lance? Is he back to full fitness?
+
+**MK:**I spoke to him yesterday. He's obviously better because the additional 14 days helped. He's not 100% yet, but when you see what he has done in Bahrain and what he has done in Jeddah, I'm quite confident that there will not be a huge problem for him.
+
+**QUESTIONS FROM THE FLOOR**
+
+**Q:** (Alex Kalinauckas – Autosport) Mike,  it was quite audible in the parc fermé celebrations after the Jeddah race that the Aston mechanics were cheering Fernando's name very loudly, very enthusiastically. What do you think that says about how he's been welcomed into the team, how he’s settling in and just how the team feels about him?
+
+**MK:**Yeah, I think it was it was a confirmation basically, of where he's standing in the team. He brought a lot of energy, a lot of positiveness when he arrived. He is leading by example at all times. He's there very early, he's working really hard and it is this lead by example that everybody just sees and grabs on and gives an extra level of motivation. And I think the singing of the name was like a confirmation also for him that he really brought a lot into the team. And it was the 100th  podium for him, so I think that is also a nice way of celebrating it.
+
+**Q:** (Scott Mitchell-Malm – The Race)  Christian and Mike,  the sliding scale for the aero testing restrictions was designed to close up the grid up over time for the teams that finished lower in the championship.  We perhaps didn't expect a short-term example of there being a big disparity between two teams that are quite close together in terms of performance with Aston being Red Bull’s nearest challenger at the start of this season. How do you see that playing out over the next few months? Is that an even bigger disadvantage for you, Christian with the penalty that you have? And for Mike, is it a particular advantage for your team?
+
+**CH:**I guess, like anything, it's how you use it. We've got a limited amount of aero time. We're almost six months through…  since the penalty started and of course it's not just this year's car it affects, it's next year’s as well, but one would assume, up to the point that it's reset mid-season, Aston have got a lot of research time available to them. So, again, it's how you utilise it. And certainly within the confines of the budget cap as well now.
+
+**MK:**I agree. It is what you make out of it. It is true that we have more development time. But we also must not forget, we have a huge gap to close and we have to also anticipate and respect that they will also not stand still in the time because they still have some time. So I think it will be hard, we will try everything to improve our car, not with the biggest aim of closing a gap or whatever but just to improve and continue on our journey.
+
+**Q:** (Silja Rulle – Bild) Mike, we spoke about how great it is going for your team? Isn't it a bit of a shame for Sebastian Vettel that it's going so well right after he retired? Would you maybe say that he retired too early?
+
+**MK:**Well, if you've retired too early or too late, that is something you have to ask himself. I think he has his merits in where the car is today, because we had many, many meetings last year where he gave us a hint:  do this or do that or do not do this with the new car. So I think he has his merits in here. And then we have to respect the decision that he took, he reflected for a long time before he made that decision and when he made it and if we have to move on, and he has to move on. And if it's a shame for him, yes or no, this, I think you should ask him.
+
+**Q:** (Adam Cooper – Motorsport.com)  Christian,  Checo said yesterday that until he came along, the team only ran two cars because it because it had to,  implying obviously, that the focus has always been on Max. Were you surprised to hear him say that or would you accept that, simply because of the level of experience that he's brought, that focus has changed?
+
+**CH:**Well, that's the first I've heard him saying that.  We always have run two cars since we entered the sport  in 2005 and we always want to have the best two drivers that we can in the car and I think it's great to see Checo doing certainly a great job now. In ‘ 21, he came into the car off the back of the COVID season and at the end of a set of regulations, and he struggled with that car. Last year, he was definitely more at home within the car and he put in two of our 17 victories achieved. And he's got out of the blocks well again this year, but we’re only two races into the season and there’s an awful long, long way to go. As a team we've always strived to give both drivers the best opportunity and the best equipment we can. And then it's down to what they do on track and that's whether it's Max and Checo, or Daniel and Max or Daniel and  Seb, Mark and Seb or even going back David Coulthard and Mark Weber. So that's the way we've always rolled and it's down to what they do on the circuit at the end of the day that counts.
+
+**Q:** (Alasdair Reid – The Times) There are reports this week of an attempt to bring a gender equal team into Formula 1. Do you see that as being a serious proposal? And whether you do or not, do you think it's a good way to increase female participation in Formula 1?
+
+**ZB:**I don't know anything about their proposal, so I wouldn't want to comment on it. Obviously, gender equality and D&I I think is important to everybody in in Formula 1 so anything that we can do to increase diversity in Formula 1, I think everyone sitting here on the couch in Formula 1 would welcome that, but I don't know anything other than what I've briefly read about their entry so I wouldn't want to comment on that in particular.
+
+**CH:**Well, I think it's fantastic to see the amount of girls that are showing interest and females that are showing interest in Formula 1 now and we're seeing it at all levels, and I think with the interest growing and with that diversification within the gender following that we now have, it's appealing to more women to get involved in the sport, whether that's from an engineering basis or across all aspects of the organisation and we're certainly seeing that just happening naturally as the sport does become more accessible and we are pushing to make it more accessible. So yeah, I think it was something that will naturally happen anyway.
+
+**MK:**Nothing to add really to what the other two have said.
+
+**Q:** (Luke Smith – The Athletic)  Christian, Daniel’s back here this weekend, he seems to have got a really good response from everyone in the paddock and nice to see him back.  He seems to have got his mojo back a little bit as well. As a reserve driver and working with you guys so far this year, what kind of impact has he had on the team both as a personality but also having an eight-time Grand Prix winner and massively experienced supporting the race drivers?
+
+**CH:**It's great to have him back in blue and be back in the team. This is the first Grand Prix he’s attending this year, and he's really throwing himself into it. Sitting in all the briefings, he's been working hard on the simulator as well in the UK doing some race support and some development work on that. And Daniel's just a positive energy to have around and it's great to see him getting his mojo back,  to see that big smile on his face and he lights up a room when he walks in. His popularity in Formula 1, even though he's not driving he's still probably the most popular driver here. And for us, it’s just positive to have him in the team, contributing to the team, to the drivers, to the engineering team. And hopefully, he'll rediscover his love for the sport. He'll do a bit of testing for us later in the year and we'll see how that how that goes for him. But I think it's a different experience. It must be very tough for him not being a race driver this weekend but he's thrown himself and embracing this new role.
+
+**Q:** Christian, you say he's going to do some testing later in the year, but how race ready is he now? If one of your drivers was unable to race this weekend, for whatever reason, would you put him in the car? Is he ready?
+
+**CH:**I'd say he’s about 10 minutes away from being ready. He's in good shape. He's kept himself fit and well. We've had to feed him up a bit. I don't know what you guys did to him! He came back looking a bit skinny, but he's looking healthier now. I think that he's training hard and  he's ready to go given the chance.
+
+**Q:** (Louis Dekker – NOS) Mike, Fernando joked to us a couple of weeks ago about how long can you be in Formula 1, given your age.  He said another 10 years. And then he said five, three, eight. What do you think because you're in for the long term? Can you get his third title? And in what year?
+
+**MK:**Ha, this is a lot of questions. I think the most important is the speed and the desire to compete or the desire to be competitive. I don't like to speak about age, about Fernando's age, about my age also by the way. In general, I think it is really important how you keep yourself fit, how you keep yourself in, and what is your desire to do well, and this is something outstanding that Fernando is having. I would really be happy if we could provide the car for him to gain this third title but I think we need to keep our feet a bit more on the ground, speaking about world title. We have made now our first step in progressing to where we were before and we should not start to dream.
+
+**Q:** (Pedro Fermin Flores – TheGodFlores) Mike, first of all, considering your greatest start of the season and talking about the future, how many engine suppliers are knocking now at Aston Martin doors for 2026? Second, which parts of the new cars will you make in your new factory?  And the third, after the decision today against the celebrations after a victory in a race, when will arrive that 33, who will pay the fine? Fernando?
+
+**MK:**Let's start with the fine. Fernando will certainly not pay the fine if the team jumps on the fences. I think it's something that we need to respect if it's a pure safety directive, and if that is the rule, then we will comply with it and if someone doesn't, then we will pay the fine. I think here will be quite difficult to climb fences because there are none. It's just glass. So one saved.  Then the second question or the middle question was which parts we start to make.  This is something that we need to see over the over the next years. What is the parts that we are buying? At the moment we are buying quite a lot.  And how can we structure ourselves to be able to do that. And the first question is that we are  quite happy with what we have at this point. The service is excellent, what we are getting? So everything is fine, and we are not too preoccupied.
+
+**Q:** (Damien Ratcliffe – The Age)  Zak, wondering if Oscar had any feedback after the practice session today?
+
+**ZB:**I'm sure he has. I haven't sat in the engineering meeting because I had duties here but on the radio, of course, listened to him and he seemed to be pretty happy with the car, gave some feedback as you'd expect, but I think he's in a good place and comfortable around the circuit now.
+
+**Q:** (Alex Kalinuackas – Autosport)  The same question to Christian and Zak please, after Mike already commented on it. The step the FIA has taken to say that team members can no longer climb the pit wall to celebrate when their cars have good results, what do you guys make of that? Is it something you thought was even necessary?
+
+**CH:**I was surprised it was an issue, to be honest with you but I think anything that relates to safety, obviously, one has to take very seriously. But it's a fairly iconic moment when you see a Grand Prix car finishing a Grand Prix and its team celebrating  on  a fence, and so long as it's done in a manner that is safe… I personally have never seen an issue with it. I've thought it's been a part of Grand Prix racing and we've achieved that 94 times as Red Bull Racing, and not once have we ever had an injury or looked like there being an issue, but you know, if they’re the rules they’re the rules.
+
+**ZB:**Yeah, same thing as Christian said. I'm not exactly sure what sparked the necessity to change it. I'm not aware of an incident.  That being said safety's critically important to all of us and if they feel it's potentially not safe and those are the rules then  we'll stick to them.
+
+**Q:** (Scott Mitchell-Malm – The Race) Question to Christian but to hear Zak’s thoughts as well: Christian, with what Daniel's been able to do on the simulator so far, how much rebuilding of him have you had to do because over those two years with McLaren, he did seem to be in a position where recalibrating his drive and trying to just tune himself into what McLaren needed, did seem to leave him a bit fried by the end. And when he reflected on it at the end of last year, he seemed to suggest that maybe it was over-engineered. And then Zak, in hindsight, do you think that maybe it got a bit overcomplicated trying to fix Daniel’s weaknesses with the car?
+
+**CH:**Well, I guess when he first turned up after Abu Dhabi… I think the problem is when you drive a car that obviously has its limitations, you adapt and  you try and adjust to extract the maximum out of that car. And it was clear when he came back, that he picked up some habits that were not…  that we didn't recognise as the Daniel that that had left us two or three years earlier. But having had time off over Christmas, and so on and a chance to reset, when he's come back and got into the 2023 work, he's hit the ground running and I think he likes the feel of the car in the virtual world which seems to correlate well with what we're seeing in the actual world. And I think he's desperate to get a run in the car at some point to validate that, but we're certainly seeing him getting back to being far more reminiscent of the Daniel that we knew.
+
+**ZB:**Yeah, I'm thrilled he's here this weekend. I think we're all big Daniel fans and as Christian said, he lights up a room when he walks in and smiles and yeah, I don't think he knows exactly why it didn't click. Sometimes drivers just need to recharge their batteries. Fernando did, Alain Prost did etc, over the years so hopefully Daniel will get an opportunity to go and try and win his ninth Grand Prix and many more, because I think we'd all love to see him back on the grid on a regular basis.
+
+**Q:** (Adam Cooper – Motorsport.com) The next race in Baku is a sprint. Is a street circuit the right place for a sprint and do you have any concerns about damage, especially as we've got to be in Miami a few days later?
+
+**CH:**The reality is it’s absolutely ludicrous to be doing the first sprint race of the year in a street race like Azerbaijan but I think from a spectacle point of view, from a fan point of view, is probably going to be one of the most exciting sprint races of the year. From a cost gap perspective, all you can do is trash your car and it costs a lot of money around there. So one race is enough in Baku. The fact that we’ve got two... yeah, there could well be some action there. But that's part of the challenge and it's part of the task that we've got.  Hopefully we can tidy up the format for the sprint races coming up, they are a bit more dynamic. I know that the sporting director has been working hard on that and hopefully we can get that finalised so yeah, a sprint race in Azerbaijan is something to be certainly wary of.
+
+**ZB:**Yeah, as Christian said anytime we go to a street circuit, Baku creates some pretty exciting races and some big crash damage bills, same for everyone and it kind of is what it is. It'll be very exciting  for the fans and hopefully all the cars will come back the way they started
+
+**MK:**Yes, the same. There is certainly some nervousness about it but it's the same for everybody. So we try to keep the cars in one piece as long as we can.
+
+Related News
