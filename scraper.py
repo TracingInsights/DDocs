@@ -181,34 +181,39 @@ def save_discovery_cache(path: Path, events: list[dict]) -> None:
 # Manifest migration
 # ---------------------------------------------------------------------------
 
-def migrate_manifest_doc_numbers(manifest: dict, discovery_cache_path: Path) -> bool:
+async def migrate_manifest_doc_numbers(
+    manifest: dict,
+    discovery_cache_path: Path,
+    session: AsyncSession,
+) -> list[dict] | None:
     """
-    Backfill doc_number into existing manifest entries that are missing it.
-    Only patches decision-source entries. Skips silently if cache is unavailable.
-    Returns True if any entries were patched.
+    Backfill doc_number into manifest entries that predate the field.
+    Only patches decision-source entries. Does a full all-years crawl so
+    every historical entry gets covered, not just the current year.
+
+    Returns the crawled events list so scrape() can reuse it as the warm
+    cache — avoiding a second crawl in the same run. Returns None if no
+    migration was needed or the crawl failed.
     """
-    # Only bother if there are actually entries missing doc_number
     needs_patch = [
         url for url, meta in manifest.items()
         if meta.get("source") == "decision" and "doc_number" not in meta
     ]
     if not needs_patch:
-        return False
+        return None
 
-    if not discovery_cache_path.exists():
-        log.info("No discovery cache available, skipping doc_number migration (%d entries pending)", len(needs_patch))
-        return False
+    log.info(
+        "%d manifest entries missing doc_number — doing full all-years crawl for migration...",
+        len(needs_patch),
+    )
 
-    try:
-        data = json.loads(discovery_cache_path.read_text())
-        events = data.get("events", [])
-    except Exception as e:
-        log.warning("Could not read discovery cache for migration: %s", e)
-        return False
+    all_events = await discover_all_events(session, year_filter=None)
+    if not all_events:
+        log.warning("Migration crawl returned no events, skipping")
+        return None
 
-    # Build URL → doc_number lookup from every document in the cache
     url_to_doc_number: dict[str, int] = {}
-    for event in events:
+    for event in all_events:
         for doc in event.get("documents", []) + event.get("inline_docs", []):
             url_to_doc_number[doc["url"]] = doc.get("doc_number", 0)
 
@@ -217,9 +222,12 @@ def migrate_manifest_doc_numbers(manifest: dict, discovery_cache_path: Path) -> 
         manifest[url]["doc_number"] = url_to_doc_number.get(url, 0)
         patched += 1
 
-    log.info("Migrated doc_number for %d manifest entries (%d not found in cache, set to 0)",
-             patched, sum(1 for u in needs_patch if u not in url_to_doc_number))
-    return patched > 0
+    found = sum(1 for u in needs_patch if u in url_to_doc_number)
+    log.info(
+        "Migrated doc_number for %d entries (%d matched, %d not found in crawl set to 0)",
+        patched, found, patched - found,
+    )
+    return all_events
 
 
 # ---------------------------------------------------------------------------
@@ -396,12 +404,14 @@ async def scrape(
     discovery_cache_path = output / "discovery_cache.json"
     manifest = load_manifest(manifest_path)
 
-    # Backfill doc_number into any existing manifest entries that predate
-    # the field being added. Saves migrated manifest immediately if changed.
-    if migrate_manifest_doc_numbers(manifest, discovery_cache_path):
-        save_manifest(manifest_path, manifest)
-
     async with AsyncSession(impersonate="chrome120") as session:
+
+        # Migrate first. If a full crawl was needed, reuse those events as
+        # the warm cache so we don't crawl again immediately below.
+        migrated_events = await migrate_manifest_doc_numbers(manifest, discovery_cache_path, session)
+        if migrated_events is not None:
+            save_manifest(manifest_path, manifest)
+            save_discovery_cache(discovery_cache_path, migrated_events)
 
         cached_events = load_discovery_cache(discovery_cache_path)
 
