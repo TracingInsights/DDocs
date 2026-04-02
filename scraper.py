@@ -499,7 +499,7 @@ def main() -> None:
     import sys
 
     output_dir = "documents"
-    year_filter = None
+    year_filter = 2019
 
     args = sys.argv[1:]
     i = 0
