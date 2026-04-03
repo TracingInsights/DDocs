@@ -243,40 +243,54 @@ async def get_discovery_events(session: AsyncSession, year: int, discovery_path:
 def clean_transcript_html(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
     # Modern FIA news layout
-    content = soup.find(class_="node__content") or \
+    content = soup.find(class_="node-article") or \
+              soup.find(class_="content-body") or \
               soup.find(class_="field-items") or \
-              soup.find(class_="field-item even")
+              soup.find(class_="field-item even") or \
+              soup.find(class_="node__content") or \
+              soup.find(class_="field-name-body") or \
+              soup.find(class_="description") or \
+              soup.find(class_="content")
               
-    # Density-based fallback for old pages
-    if not content:
+    # Density-based fallback for old pages (find container with most direct text/p children)
+    if not (content and content.get_text(strip=True)):
         divs = soup.find_all("div")
-        # Find the div with the most <p> siblings/children
         best_div = None
         max_p = 0
         for d in divs:
+            # Skip common sidebar/boilerplate containers
+            classes = d.get("class", [])
+            if any(c in classes for c in ["sidebar", "latest-news", "footer", "header", "menu"]):
+                continue
             p_count = len(d.find_all("p", recursive=False))
             if p_count > max_p:
                 max_p = p_count
                 best_div = d
-        content = best_div
+        if max_p > 2: # heuristic to avoid small text snippets
+            content = best_div
 
-    if not content: return ""
+    if not content or not content.get_text(strip=True): return ""
 
+    if not content or not content.get_text(strip=True): return ""
+
+    # Before extracting text, apply bolding to <strong> tags in-place
+    for strong in content.find_all(["strong", "b"]):
+        name = strong.get_text(strip=True)
+        if name and name.isupper() and (name.endswith(":") or len(name) < 35):
+            strong.replace_with(f"**{name}**")
+
+    # Use separator to preserve line breaks from <p>, <div>, <br>, etc.
+    raw_text = content.get_text(separator="\n", strip=True)
+    
     lines = []
-    for p in content.find_all(["p", "h1", "h2", "h3", "h4", "div"]):
-        # Skip divs that are just wrappers for p
-        if p.name == "div" and p.find("p"): continue
-        
-        for strong in p.find_all(["strong", "b"]):
-            name = strong.get_text(strip=True)
-            if name and name.isupper() and (name.endswith(":") or len(name) < 35):
-                strong.replace_with(f"**{name}**")
-        
-        text = p.get_text(strip=True)
+    for line in raw_text.split("\n"):
+        text = line.strip()
         if text:
+            # Re-apply bolding for Q/A if not already caught
             text = re.sub(r"^(Q:)", r"**\1**", text)
             text = re.sub(r"^(A:)", r"**\1**", text)
             lines.append(text)
+            
     return "\n\n".join(lines)
 
 async def fetch_transcript(session: AsyncSession, url: str, dest: Path) -> bool:
