@@ -1,0 +1,391 @@
+**Q:** Yuki, starting with you. Local hero. Just how excited are you about your first Japanese Grand Prix?
+
+Yuki TSUNODA:
+
+Yeah, it’s amazing. As soon as I landed at the airport there were lots of people, even around the hotels. I went to the grandstands this morning for a bit of filming with Netflix guys, and I think even that, I found there was a lot of people, even though they limited the tickets on Thursday. So far, it’s been great days, definitely the best days I’m having, for sure, definitely in Formula 1. Just looking forward for this weekend.
+
+**Q:** You’re a graduate of the Suzuka Racing School, can you share some of your memories of racing here at the track?
+
+**YT:**
+
+Yeah, I drove a Formula 4, I think it was four years ago. I was driving here and last time in Suzuka I won here – so it’s good memories, definitely it’s a good way to be here at Suzuka. I was driving here in 2m06s – 2m07s, so it’s like 40s difference. So it's a lot of different. And even in the simulator I felt like a lot of things going on fast, much faster than when I used to drive. So, I really like Suzuka, like I said, I was driving here since from 2016. And I drove here more than 10,000 laps or whatever. So I’ve learned a lot of tricks – but at the same time, like I said, it's a lot different when I drive a Formula 1. So, I need a good build-up but still, I think one of the best tracks in my experience.
+
+**Q:** Just a quick question about what's going on in Formula 1 at the minute. This is your first FIA press conference, since it was announced that you're staying with AlphaTauri next year. Do you feel ready to lead the team in 2023? Should that be required of you?
+
+**YT:**
+
+Yes. Well, I think I have to learn lots of things still in, in the rest of five races, from Pierre, for example. And for sure the kind of mistakes I did in Singapore have to definitely reduce, and lots of things for example, penalties, whatever. Also those things is unnecessary. So those things definitely have to improve but at the same time, the pace, especially one lap, I'm quite happy and having good progress so far. So, I'll just keep like this momentum until the next year. And yeah, just for the race, I think just experience more. Definitely, I have to get good back into the normal rhythm or good rhythm, like I had the first half of the season. And I think this will be probably a good opportunity to back into the rhythm. Or, I have to. So yeah, but I think still learning, lots of things lots of things to learn but I seem to have quite good confidence to do that.
+
+**Q:** Fernando, you’ve won at Suzuka twice before, what makes this place so special?
+
+Fernando ALONSO:
+
+I won once! 2006… only one time… but I won in Fuji also. This place yeah, I think everyone loves Suzuka. The combination again of high-speed corners, a little bit of banking in the corners as well make the feeling really special. The fans are so passionate here. So, the whole weekend is a big thing. And yeah, looking forward with this year's cars to enjoy especially the high-speed.
+
+**Q:** You always get great gifts from the fans here. What’s the maddest thing you’ve received so far?
+
+**FA:**
+
+Ha! I've had this question before and I'm not sure I have that memory at the moment to spot one – but I'm sure during this weekend, things will get wild for sure at one point and I will try to put all in the garage like this, so you enjoy as well.
+
+**Q:** It’s been a tough last couple of races for you, retiring from both Monza and Marina Bay. Was it a similar issue both times?
+
+**FA:**
+
+No. It was different issues. We have been hit quite badly about reliability this year. We lost a lot of points. And unfortunately, now we are in this battle with McLaren, few points behind and yeah, hopefully we can have a normal five races now and finish on a high. But yeah, has been our weakest point this year.
+
+**Q:** How do you view that battle with McLaren? Do you expect it to go down to the final race?
+
+**FA:**
+
+I think so. I think there's going to be some weekends that we can score a few more points than them. Some others, we will score less. I think Singapore was standing out because it was a big loss in points there. But I think it's going to be very, very tight until Abu Dhabi.
+
+**Q:** Kevin, belated Happy Birthday. You turned 30 Yesterday, what did you get up to?
+
+Kevin MAGNUSSEN:
+
+Nothing really! We were in Tokyo, me and my physio, so pretty quiet really, had some sushi, and watched a movie. Not too exciting.
+
+**Q:** Talking of exciting, how excited are you to be at Suzuka this weekend?
+
+**KM:**
+
+Yeah, it's always great being here. It's been a couple of years now. And, you know, it's certainly one of the best tracks that I know. So, looking forward to getting back out there in a Formula 1 car again. And yeah, hopefully we can have a strong weekend.
+
+**Q:** Well, strong weekend, hopefully this weekend. Just can we get your reflections on Singapore? Both qualifying and what happened in the race?
+
+**KM:**
+
+Yeah, well, I mean, it was a good Saturday. Qualifying was decent, you know, started in sort of Intermediate conditions, and then dried up. And we had this shootout at the end of Q3 on slicks in this damp, mixed track, which was really, you know, fun. And we got a decent qualifying, but then in the race, it was another… you know, wild conditions, mixed conditions. And one of those races where I think everyone has an opportunity to score points and we didn't, so that's disappointing. I got a terrible start, lost a lot of positions and then damaged my front wing. So got the black and orange flag, had to go and change the front wing and kind of just was stuck there the rest of the race.
+
+**Q:** Haas are now three points behind Aston Martin in the Constructors' Championship, how do you view that battle?
+
+**KM:**
+
+It's tough, because we're struggling a bit to score points at the moment. So, even though there's not that many points between us teams down there, it's hard to go and get those points and beat the other team. So yeah, we’ll have a chance and I think we're going into some circuits that should be better for us. So, you know, nobody's given up on beating those. We've been P7 in the Constructors’ for most of the year. And that would be a great position to get, you know, coming from a couple of seasons where Haas had been the last team in the Constructors' Championship, be able to be really cool to jump a few positions. So that's what we'll try.
+
+**Q:** Nicholas, your first time racing at Suzuka. What are you looking forward to most?
+
+Nicholas LATIFI:
+
+I think just to experience the track for the first time really. I mean, I've obviously heard so many great things about the circuit from different drivers, I’ve watch the races here, obviously many years. But yeah, the previous two years, just not having the experience to come here. So, you know, on the calendar this year, both Singapore and Japan, the first time, the circuits that I was, let's say, with the exception of getting my home grand prix, the ones that I was most looking forward to. I walked the track this morning and it's a bit different to be there in person, than when you're watching it on TV. It’s much narrower in places, much more banking as well than I would have thought. So yeah, quite excited to drive tomorrow. If it's not a wash-out tomorrow!
+
+**Q:** Well, the forecast isn't great for Friday, but let's hope this weekend goes better for you than Singapore. I just want to reflect on what happened in the race with Zhou Guanyu. Can we get your version of events of that incident, please?
+
+**NL:**
+
+Yeah. I mean, when I went to the media pen afterwards, I had obviously not seen the incident. So ,it's difficult to comment on. I mean, at the end watching all the different on-boards, I think, if you're going off the rulebook, I mean, it's clear he came up alongside me, and I didn't leave him enough space. I think the things that were maybe not considered, which is as well, maybe one of the frustrations that I didn't have a chance to go to this stewards, because they didn't ever summon me, like normally happens when there's an incident between two drivers. I was taking the same line I was taking every single lap beforehand. And I did actually look into my mirrors, both ways. You see from the onboard that I glanced in both directions but the problem was, just because of the difference in lines, he was driving in the blind spot of the mirror the whole way down to the corner. So, in that sense, I mean, as drivers we all know, there's a massive blind spot in the car. And again, I did look, so if he's driving in a place where I can't see him, when I do make an effort to look, and I just then take my normal line, it's, yeah… obviously, he ended up being there. But if I can't see him, because he's driving in a place where he should expect I can't see him, especially on a street track in the wet… so yeah, it's tricky. I mean, if I would have got penalised anyways, in the end, after being able to at least give my side of the story, I know, doesn't really make much of a difference and I would have accepted that. But yeah, I guess just not being able to go to the stewards and give my side of the events and give different points that I think weren’t considered. That was probably a bit frustrating, especially when we just want… we're always talking about the consistency amongst decisions and penalties and whatnot.
+
+**Q:** Sebastian, coming to you, now. If I've got my maths right, you’re a four-time winner here at Suzuka and you've clinched a World Championship here as well? Is this the sort of place you're going to miss when you reitre?
+
+Sebastian Vettel:
+
+Yes!
+
+**Q:** What is it about Suzuka that you're going to miss?
+
+**SV:**
+
+Well, I’ve always loved the track. I think it stands out. It's my favourite track in the calendar. And the calendars have, you know, changed over so many years, and the tracks have disappeared… while they're there but they’re not on the calendar anymore… and we've added other tracks but, I don't know, from the very first time this has been a special place for me. I think just the layout of corner, the first sector. It's iconic, it's a figure eight track, the only one we have, plus then the atmosphere you know? The attention the sport gets when we come here is crazy. So yeah, lots of very nice memories. And I didn't think you know, the other races obviously, I'm know that it will be my will be my last time in other places too but here it does feel a bit different somehow. But I look forward to the sessions that we have, every single one of them, and the race on Sunday.
+
+**Q:** Any crazy gifts from the fans for you?
+
+**SV:**
+
+I got a little horse this morning! Not a real horse. But yeah. I mean, they are very attentive, and they come up with very thoughtful gifts as well. Nice letters and nice messages. Their stories and especially, you know, this year, it’s only the beginning of the weekend but how they started maybe following the sport, following myself and yeah, they are probably as sad as I am to realise it's my last race here, but equally as happy that we've got this weekend ahead of us.
+
+**QUESTIONS FROM THE FLOOR**
+
+**Q:** (David Croft – Sky Sports F1) A question to Fernando and to Sebastian. Gentlemen, you're never short of an opinion when it comes to penalties and Formula 1 and driving penalties. We exist in a cost cap era at the moment and next week, fingers crossed, we'll know which teams have stayed within the cost cap, which teams haven't for last year. How strictly do you feel the FIA should deal with a team that has broken the cost cap in anyway?
+
+**FA:**
+
+I don’t know. It’s a difficult topic from our side, driver point of view. I think is not really relevant here and we rely on our teams to really control everything they do. But yeah, I guess we all expect from FIA to police as good as possible all these things because we want to race on a fair environment and things. But it is a very… I think it's a very difficult topic, because there is a lot of things that we need to make sure that they are controlled. The budget cap is one thing, but there are many teams with different structures, with different things, with their own circuit in their own factories. Things that we need to control a lot. So, it has to be really well done.
+
+**SV:**
+
+Yeah, along the same lines, I think. We try to control our driving and I think we know when we are right, and when we are wrong, in terms of being fair, giving enough space. We've just listened to Nicholas and shit happens as well. But we try to obviously, you know, be fair most of the time. And I think that's the same for any governance of the sport. It’s to supply the fairness, or to ensure the fairness is there across the team, across the year, across the season, across the sport. The FIA is in charge of that, and we have to trust them of doing the job. And if you fail to comply with the rules, then then there should be consequences. I mean, it's a complicated or complex matter, probably and we're not the best judges to understand. But yeah, I think the art is to break it down, make it simple and make it clear, so we'll see what happens.
+
+**Q:** (Adam Cooper – Motorsport.com) Question for Fernando. Can you tell us where you are on power units after last weekend? Obviously, you don't want to take a penalty here but are you like likely to add one to the pool in Austin maybe?
+
+**FA:**
+
+Yeah, I mean, we are maybe not completely safe until the end of the year. So, it is possible that we may have to introduce a power unit but yeah, I don't think that there's going to be this weekend but… soon.
+
+**Q:** (Tom Kollmar – Bild) This question is to Seb. You wore a special hairband this morning. What's the story behind it?
+
+**SV:**
+
+Not much story, I was gifted it just before. So, yeah, I think I have the same headband at home because I bought it many years ago but never wore it, so it reminded me and I said okay, it's probably time to wear. I know it says
+
+Ichiban
+
+. You can ask Yuki what it means!
+
+**YT:**
+
+It’s number one.
+
+**SV:**
+
+Technically, it’s wrong, because I’m number five. So, maybe Yuki can help me doing the signs.
+
+**YT:**
+
+Last time I saw you I think you won in Suzuka, many, many years, you take the championship, so it’s right!
+
+**Q:** (Andrew McKird– AFP) It’s a question for Yuki. How do you feel when you arrive at the track and you see a massive posters with your face on. I mean, do you feel any pressure coming into this weekend?
+
+**YT:**
+
+So far, no. It’s definitely a cool thing and… yeah it's very cool. Currently I don't feel like getting pressure because it’s really hard imagine I'm driving here, because like I said, just four years ago I was one of the spectators watching these guys you know? And now I'm driving in front of them, Japanese fans so yeah, it’s just really hard to imagine but definitely is a cool thing. I didn't expect that to be honest: there's like huge pictures at the grandstand. It feels very supportive and gives me extra energy for that.
+
+**Q:** (Kenichiro Ebii – Motorsport.com Japan). I have a question for Sebastian. We know you love Suzuka and Japan, and we Japanese fans also love you. You will retire from Formula 1 at the end of this year but many Japanese fans would love to see you race in Japan again someday. Do you have any interest in racing in Japanese categories like Super GT or Super Formula for the future?
+
+**SV:**
+
+I guess they're racing in Suzuka as well, so I don't know. Never say never. I mean, it is a great track for many, many reasons. And yeah, who knows what the future brings? I don't know. Obviously I love driving and I think around this track I always felt very alive and the passion feels very alive. So yeah, we will see what type of car maybe in the future will come up. Maybe one of the guys, in the future, who races here will feel a bit sick, I don't know. I don't wish them to feel so, but I wouldn't mind jumping back in for a race in Suzuka at any time. But yeah, obviously. We'll see what the future brings. At the moment, I have no plans. But I think there are some exciting races happening in Japan and I don't know, we'll see.
+
+**Q:** Sebastian, Are you being serious there?
+
+**SV:**
+
+About a one race career in the future? Yeah. If anybody's happy to sign up a driver for a single race. I'm sure those guys wouldn't be happy to step aside but it would be something I would seriously consider.
+
+**Q:** (Abhishek Takle – Midday) Just a follow up to an earlier question to Yuki. When was the first time you watched the race here at Suzuka as a fan, and were you here the year Kamui Kobayashi was on the podium?
+
+**YT:**
+
+Yeah, I think like the first time I watched probably was the one when Seb got P1 in the championship with Red Bull. I think I was watching at Turn 1 at the entry. I still remember like lots of Formula 1s just entered Turn 1 with lots of sparks. And I think that was first time I watched Formula 1 since 2007 when I used to not like much Formula 1 because it was too loud, the engine sounds, I was covering my ears. But when I watched probably when Seb got the championship, I got super impressed with Formula 1 and just how they are fast and then lots of things just really surprised me. Yes. What was the question after that? Yes. I forgot to be honest. I don't have much memories. I was in Suzuka when Kobayashi got P3? Probably not, unfortunately.
+
+**Q:** (Luke Smith – Autosport) It's a question for Seb. Looking ahead to the next race in Austin, you've spoken about the last races coming up, that will be your last race at COTA. Austin is celebrating 10 years of the US Grand Prix there this year. We've had F1’s massive expansion in the US over the past few years. But what kind of role do you think Austin has played, not only bringing F1 back to the US but ensuring the foundations were laid for races like Miami and Vegas moving forward?
+
+**SV:**
+
+Well, I think it has been a different vibe. Obviously, I made my debut in Indianapolis five years before that, but I think there's been a different vibe in Austin, right from the get go. And it's been really exciting because the whole city was happy to have the race and welcomed us. Obviously, the interest across the US has grown in the last couple of years. But I think Austin has always been exceptional. So probably more a question for Austin, how they handle it now with more requests or people. But I also feel that Austin isn't your typical America, if such a thing exists. So I think for us, it's been great to go there right from the start. And it's been a highlight of the season for many years now, for 10 years.
+
+**Q:** (Matt Kew – Autosport) A question to Fernando and Sebastian. You talked earlier in this press conference about needing to trust the process with the FIA. Where are your trust levels at with the governing body and how does that compare to sort of earlier points in the season?
+
+**FA:**
+
+Very high, to be honest. As I’ve said a few times, I have a lot of trust in Mohammed, the President, and his team. I think there are still a few things on the race weekends and consistency and other topics that we face, yeah, race after that we are improving, but they are willing to learn and to improve as well. So that's very positive, maybe compared to the past. And yeah, as I said, on other things, outside racing, off-track, I trust completely what they are doing and what will be the outcome next week, I think on this cost cap and how the sport is moving to the future. So I think I have no doubts on anything.
+
+**SV:**
+
+Well, I think you have to have a level of trust. Otherwise, it puts, or it shakes up everything that exists in your world, when you talk about racing. For us, you know, we want to be treated fairly when we race others and be judged upon it. You have to trust that, you know, there are regulations in place that allow everybody to have the same chances to win. Now, of course, only one team, one driver can win at the time but if you start to doubt that I think… I don't know what will be next. But certainly I think with that comes a very high responsibility. First, you have to do your job. But second, obviously, everybody's watching and everybody expects you to do the best job possible. So, it should be at the highest level possible, which sometimes we've learned or seen we miss from a drivers point of view when it comes to decisions, the decision-making progress, There is a will to learn. Our sport is also complicated; it is not that straightforward. It's not black and white, many times. So it's probably not an easy position to be in. But there's many aspects to it. On the other hand, it's a big business and it has to be controlled and it has to be controlled by an independent body. So you can’t think of that body not being independent or, you know, falling for either side. So, I think it's a given that you have to trust the governing body.
+
+**Q:** (Mat Coch – Speedcafe.com) One for Nicholas. Obviously, we know you're not in Formula 1 next year. Is there been any movement on what you're looking at doing? And is there any preference in terms of what you do – IndyCar Ward insurance, that sort of stuff?
+
+**NT:**
+
+Yeah, I mean, to be honest, at this point, because, as I said last weekend, I’m still kind of just evaluating all the options. I'm obviously considering everything. But yeah, I just don't really have much to say at this point. So yeah, when I decide what I'm doing then I'll update everybody.
+
+DRIVER GROUP 2: Max VERSTAPPEN (Red Bull), Daniel RICCIARDO (McLaren), George RUSSELL (Mercedes), Zhou GUANYU (Alfa Romeo), Charles LECLERC (Ferrari)
+
+**Q:** Max, what a potentially huge weekend for you, both from a championship point of view, it's Honda's home race, it is where the journey and Formula 1 began for you back in 2014. Just give us your thoughts coming into the weekend?
+
+Max VERSTAPPEN:
+
+Yeah, very much. Looking forward to it. I mean, it's been off the calendar for a while, but it's an amazing venue, amazing track. And, of course, also amazing fans in general. You know, they're very crazy about Formula 1. So I think we're all very happy to be here. And of course, for us, it's extra special, you know, with Honda involved. Yeah, we're hoping for a good weekend.
+
+**Q:** Well, the Drivers' Championship has been clinched here 12 times in the past, what would it mean for you to clinch your second title here of all places?
+
+**MV:**
+
+It would make it a little bit, you know, extra special because of our relationship with Honda. I think it was already a shame that we couldn't be here last year, you know, in a title fight. So that's why we're really looking forward to being back here. And then we'll see what happens. We need a perfect weekend, that's for sure.
+
+**Q:** Just final one for me. Just give us a few words on the fans here and the sort of support that you get from the Japanese?
+
+**MV:**
+
+Yeah, they're very passionate; crazy, but in a good way. And they really dress up for it as well. I mean, you see quite a few people walking around with a DRS rear wing on their head, for example. It just shows you how popular motor sport I think is, in general, in Japan. I mean, I arrived in Tokyo and I turned on the TV and the first thing that popped up was just racing again, a different category, but yeah. Great culture. And that's why I think we all love coming here.
+
+**Q:** Daniel, coming to you now. Does Suzuka put a smile on your face?
+
+George RUSSELL:
+
+He’s always got a smile on his face!
+
+Daniel RICCIARDO:
+
+Ha! Yes. It's a big one. It's really, really cool to be back here. Yeah, already, as Max touched on like, it's Thursday, but the fans are already here in full force with all the, I don't know, would you call it apparel? It's more like costumes and stuff. But there's like a full size, full life Sebastian Vettel race suit helmet, already ready to go in the paddock earlier, so it's fun.
+
+**Q:** How big is the Japanese arm of the Daniel Ricardo fan club?
+
+**DR:**
+
+I mean, it's big. I feel like every driver has their loyal followers here. You know, I remember since my first time in 2011, I think, I still, like, recognise the fans from back then. And some photos as well, you know, they make T-shirts of you. It's fun. So yeah, everyone's got a little fan club here.
+
+**Q:** Now, let's throw it back to Singapore quickly. A great race for the team, but also for you, your best result of 2022. How did you feel afterwards?
+
+**DR:**
+
+Relieved. Happy. Pleased. What's word association? I was just, it was certainly like, you know… It's not…
+
+[laughs at something off mic]
+
+Yes, very good. Very good. It's one of those ones where it was like, I was very obviously happy. It was honestly a bit sad that I haven't had a top five this year. So it was good to get that. But it was also like the sad reality of ‘ oh wow, it's been quite a tough year’. But of course, you know, just to get back to the team after as well and obviously Lando had had a great race. So for both of us to be top five, it was just like a wholesome environment that we'd certainly missed on those Sunday nights. We hadn't had many of those.
+
+**Q:** And it had a big impact on the Constructors' Championship with McLaren now four points ahead of Alpine. How do you view that battle?
+
+**DR:**
+
+Yeah, I mean, it's the sport, how it can turn around just as quickly in a couple hours on a Sunday. And, you know, it's obviously put us back into the fight, which obviously is good. It felt like it was starting to slowly get away from us. But a big weekend has got us right back there. So happy and try to take it down to the wire.
+
+**Q:** George coming to you now, just how different is this whole experience going to be both on-track and off-track compared to 2019?
+
+George RUSSELL:
+
+Yeah, I mean, it was very exciting coming here in 2019. As the guys just touched on, the fans are obviously so enthusiastic, and it’s always a pleasure to come here. But obviously, the circuit itself is one of the greats and that is always, you know, a real joy to drive around the circuit.
+
+**Q:** What bit of the track are you most looking forward to driving?
+
+**GR:**
+
+I think all of it, to be honest. I think obviously, the first sector with the ‘Esses’ and that flow of corners. It is truly iconic. And it's definitely, you know, a top-five circuit for probably all of us. So it's going to be, you know, a fun Saturday I think in qualifying. We'll see what the weather's like on Sunday. Obviously, it was a unique race when we were here in 2019 because we had the typhoon on Saturday. So let's see if we have a bit more of a normal weekend.
+
+**Q:** Just briefly to throw it back to Singapore. A difficult race for you. How do you reflect on Sunday evening?
+
+**GR:**
+
+Yeah, definitely difficult. I think it was never going to be straightforward starting from the back in those conditions. You know, we made some bold decisions. Obviously, everything's easy in hindsight, and perhaps a little bit too risky, all in all. But yeah, we knew it wasn't going to be straightforward. And that's what happens when you have a bad qualifying on a circuit like that.
+
+**Q:** Did the pace of the car surprise you there with Lewis starting third and you got the fastest lap in the race?
+
+**GR:**
+
+To be honest, not really, it’s sort of in line with what we expected. I think these races, especially post-summer break, we're getting a really clear trend of where our car is working well and where it's not working and it’s given us a really sort of clear development direction to go down. So I think it is a shame for us as a team to have not capitalised on that race weekend. I think we all felt that. But for sure, there's still a lot of positive signs to take away, especially that we really struggled on three circuits at the start of the year, and arguably that's probably the fastest race weekend we had last week.
+
+**Q:** And how do you think the W13 will go here?
+
+**GR:**
+
+I mean, I'd love for it to be as competitive as it was last weekend, but I think it's going to be a little bit more of a struggle. I think Ferrari have been very fast in the medium, high-speed corners this year. The Red Bulls have been really slippery down the straights, which obviously, with only the one DRS zone here, they'll probably be in a good place as well. So it's not going to be straightforward, but I think we always show quite good pace on a Sunday. So there's no reason why we can't be in the fight.
+
+**Q:** Zhou coming to you. First time at Suzuka, what are you looking forward to most?
+
+Zhou GUANYU:
+
+I think everything. Firstly, of course, the food is great and I always like to be here. And then, I think the fans is always a special one. And yeah, this track has a lot of high-speed corners. So, my favourite track is of course Silverstone, so maybe it's a little bit similar layout, who knows? We'll be trying that tomorrow. But overall, yeah, really looking forward to being here. I think it will be my first time, you know, visiting Suzuka circuit.
+
+**Q:** The team has revealed that you're going to be running some upgraded parts this weekend. What are they and what are you expecting them in terms of performance?
+
+**ZG:**
+
+Yeah, we're going to have the new front wing for both cars, so it's nice to have that and especially I think for here it’s very important, because let's say during the second half the season after break, we haven't been running too much upgrades compared to our main rivals in the midfield battle. So I think we lost a little bit of speed in terms of that and performance, so it's great to have that and hopefully they are working as expected so should pass much stronger and in this battle because I think yeah, Singapore is a good race. We were able to carry quite a bit of momentum while we left on in Monza to be competitive but unfortunately when the race was turning out to be damp conditions it kind of put us back and especially for my race was very compromised with lap one and also what happened during the race.
+
+**Q:** First time you've been in an FIA press conference since being confirmed with Alfa Romeo next year. How much more relaxed do you feel as a result of the deal? And what are your hopes and goals for year two?
+
+**ZG:**
+
+Yeah, for sure, last season for me while I was doing the F2 championship I was waiting for the confirmation quite late and that's definitely a lot of pressure so this season looking to get it all done, all signed for my future, to have a clear [view of] what's coming next and it's great because from my side it just gets rid of a lot of pressure on my shoulders. There's one thing less to think of in the remaining races so from my side it’s more like just to be looking at the race by race, trying to bring the team into the points and for next season of course the object, the target will be higher and also for my side always asking more and more and I want to do better. So nothing has been really decided yet what I want to do and what’s my achieved goal but I think just be keep working. This year has been, from my side, it's been a great season so far. Of course, I had quite a lot of different moments. There's ups and downs and tough moments, but overall, I think I’m happy just to be able to show what I am capable of so it's good to have that.
+
+**Q:** Charles, from a driving point of view what makes Suzuka different?
+
+Charles LECLERC:
+
+I don't know. Personally – and I think all the drivers – we love the first sector. It's such an incredible challenge, such a high speed section and also corner after corner. If you miss one, then you miss the whole section. That's what makes it so exciting to me, driving-wise. Then obviously there are the fans too that are so passionate and they always come up with very creative ideas and it's always it's always a good moment to be here.
+
+**Q:** Now, you’ve retired and you've had a sixth place here in your two previous visits. How confident are you of being able to go for the win this weekend?
+
+**CL:**
+
+We've got a very different car this year, a car that is much more solid on every track. Red Bull will be very strong here. It's a track where you run the car in a similar position to Spa, and I expect them to be very, very strong. So hopefully we learned well in Spa and we will be stronger than we were there.
+
+**Q:** Now, last weekend, the start proved decisive. How much analysis have you been able to do since Sunday? And what about the start here? It's quite tricky. It's downhill, isn't it, the grid, so what can we expect on Sunday, from your point of view?
+
+**CL:**
+
+I think we've been pretty strong with starts all year long. Looking back at Singapore, I don't think we did anything bad. Looking back at the start, I think myself, Lewis and Fernando all had a bad start going down on the patch on the right hand side and that was a little bit unfortunate. So I'm confident that the starts will be fine this weekend.
+
+**Q:** How much harder is it been downhill here at Suzuka?
+
+**CL:**
+
+You just need to remember to stay on the brakes until the lights are out, otherwise you roll and it’s a stupid penalty but apart from that it doesn't change much.
+
+**QUESTIONS FROM THE FLOOR**
+
+**Q:** (David Croft – Sky Sports F1) Charles, if it's not this week, it's probably going to be in Austin: it looks inevitable now that that Max will win the World Championship, not how it looked after the first three races of the season and when Ferrari and yourself were flying so high. What has gone wrong at Ferrari this season and what needs to go right to avoid a repeat next season?
+
+**CL:**
+
+Well, as I've said, before Singapore, I think we need to use these last races… as you said, I think realistically Max is going to be a champion, if it's not this weekend it’s going to be very, very soon. But we need to focus on ourselves, try to execute well the Sunday because the performance is not what we lacked this year. If we look from the first race to now, we've always been strong and the performance was always good enough to actually fight for wins apart from some offs, but there aren't many. I think it's mostly about trying to put everything together coming the Sunday: strategy, tyre management and yeah, that's where we are focusing on at the moment. And this is the step that we'll have to do next year in order to fight for the championship.
+
+**Q:** (Ronald Vording – Motorsport.com) Max, yesterday we had the announcement that Honda branding will be back on the car from this weekend onwards. We know, behind the scenes, that it is still a really good relationship so how important are they to the success you and the team have this year? And secondly, would you like to see Honda back in Formula 1 in a more official role in 2026 under the new engine regulations?
+
+**MV:**
+
+Yeah, it's great to see the full name back on the car. HRC was already on the car so Honda never really left. And of course it makes it extra special that they are back on the car, just before their home Grand Prix. And yeah, we've been working really well together. It's been really enjoyable. In terms of working relationship compared to last year, not a lot has changed anyway, so yeah, just very happy that the name is back, more prominent, and about the future, it's too early to talk about that right now but I think in general, the Honda name for F1 is great and it would be very nice to see them come back again.
+
+**Q:** (Giles Richards – The Guardian) Max, could you just think back to 2014, and your first appearance here? Can you tell us what you remember about that and how it felt at the time? And secondly, could you try and explain what the most important lessons you've learned in the intervening years between then and becoming a World Champion?
+
+**MV:**
+
+I remember I was literally on fire at the end of the session, so that was good! Yeah, it was nice. To do your first outing in an F1 car around Suzuka is probably not normally straightforward, but Red Bull wanted me to do it, and yeah, I remember the very first time I drove out, I couldn't believe how much power I had. So that was a bit of a shock to the system, but overall, very good memories of driving the car and trying to just understand the basics of a Formula 1 car and then of course, in all those years after that… to be honest, I think what helped the most is just experience and good moments, bad moments you've had in Formula 1. I think they make you a better driver, just knowing how a weekend works, knowing how to deal with Friday, Saturday, Sunday. Now, it all feels very easy. Of course, when you just start in Formula 1 it's all very unknown and at the time, I only had one year of single seater experience as well so all of that. Yeah, if I compare myself as a driver now to then it's a very big difference.
+
+**Q:** (Adam Cooper – Motorsport.com) Max, obviously you were not happy with various aspects of last weekend. You told us you should be free to criticise the team, same way that they can criticise you if you make a mistake. Have you been able to talk things through with Christian and the engineers? Have they accepted those criticisms? And did that bad weekend have a positive outcome?
+
+**MV:**
+
+It's not rocket science. I mean just pay attention to the fuel level. So there is not much to really change. When you fuel the car for five laps, you can do five laps, you're not going to be able to do six laps. You can talk about it for hours but it's not going to suddenly change anything. But it's not only that. We had a very poor Friday in terms of amount of laps so also there, I think a few things went wrong because when we made changes to the car we couldn't really test of course, because it was wet. Carried that on into the race. So yeah, just very messy weekend and I think that was just a prime example of how you don't want a weekend to go. So you learn from that. But there's nothing like it suddenly needs to change in the team. We all know that it was a bad weekend but we also have shown this year that we've had a lot of very good weekends, so we know how to do it.
+
+**Q:** (Scott Mitchell-Malm – The Race) Max, just back on Honda, has the engineers, the people you work with immediately, changed at all? You mentioned that Honda hasn't really left. I know that a couple of senior personnel aren't there, for example, just representing the organization but in terms of the day-to-day staff at the race weekend, is it the same engineering staff? And in that sense, are you surprised at all that this has happened because as you say, it kind of feels like they were always there in the background anyway?
+
+**MV:**
+
+Yeah, that's right, it's not a surprise. You know, they tell me. It's not like… I know what's going to happen. I mean, it's just great to have the name back on the car. Who knows what is going to happen in the future? I don't know. I'm also probably not the right person to speak about potential things that can happen in the future, right, but it's nice to have the full name back on the car.
+
+**Q:** (Abhishek Takle – Midday) Max going into Singapore, you were sort of downplaying your chances of winning the title there because of the points situation. The point situation is much more in your favour this weekend so are you actively thinking about getting the job done this weekend? And is that the target for Suzuka?
+
+**MV:**
+
+It would be very nice if it happens here but if it doesn't happen here, I will be even more in favour the next race. So it doesn't really change anything, you just want to have a good weekend and try to maximise everything you can. And of course, I need a perfect weekend to be able to clinch the title here. But to be honest, I'm not really thinking about it too much.
+
+**Q:** (Zijiang Wang – Xinhua News Agency) Zhou Guanyu, question for you. The first one is carrying a lot of a pressure from China, the home fans, making history by becoming the first driver in this event, so how do you cope with this pressure? And the second question is, how much do you look forward to the race next year in Shanghai?
+
+**GZ:**
+
+Yeah, firstly, I think the pressure is pretty normal like now. Of course going into F1 you have a lot of pressure from your team, from the fans, but from my side, like when I was in F2, I know exactly what I need to do to be able to have the opportunity fighting for a seat here, so once I was in here, I'll always said that I want to be making sure that I let the whole world to see what I'm capable of to do in terms of it's going to be hard. You have to give up your everything as a rookie, but yeah, it's nice to… like the team is very happy with the job I’ve done and for my side, of course, quite satisfied with the achievement we were able to achieve together for the first season. And of course, I wanted more but overall, in terms of the pressure side, I think once you scored your first point, and then everything just became a lot more relieved, and they just continue to do what you know the best and everything will just come around. And yeah, regarding to Shanghai, of course, it's great to see the Chinese Grand Prix is back on the calendar and still we have to do a bit of quarantine back home now when you go back, but I saw hopefully the situation I was seeing gets reduced and getting better to definitely confirm the Grand Prix to be happening. But for my side, this can be a very special event, I think, for everyone. When you have your home races it's a special moment because, looking at how Max had the orange army in Zandvoort, it was pretty crazy so hopefully get similar things in Shanghai, but I know there will be no smoke because it's forbidden.
+
+**Q:** (Nathan Salt – Daily Mail) Daniel, Mark Webber was quizzed on… a lot of people have been quizzed on your future, all this talk about Mercedes and all that kind of stuff. Where are you in terms of that? What can you say on that? And how keen are you to just resolve it now so that I'm not asking you questions about it?
+
+**DR:**
+
+No, it's all good. In terms of… I'm not in terms of keen on resolving it, it's more just… it's not… I wouldn't say it's like that, like there's not a problem. It's more just taking the time to figure out ultimately, what's the best thing going to be for me next year. So yeah, there's not like a rush or I don't feel like pressure or anything like that to go and quickly sign something and be done with it. It is something that I definitely want to take the right amount of time with and figure it out because it's not as simple as just… as I said the first contract that comes in front of me, sign it, and yeah, I'm back on the grid. So yeah, from a rush, I'm not rushed about making a decision. I think it's going to probably the more that we kind of just keep going with the rest of the season, the more it will become clearer, I think, what's going to be best for me. Yeah, I think I answered it. I don't know. But there's nothing that’s - let's say you guys don't know, in terms of that. Like there's nothing that I'm not telling you. I think there'll be full transparency from that point of view and I think when I know what I'm doing, then everyone will know, they'll hear it.
+
+**Q:** Daniel does a result like last weekend make you want to continue racing in Formula 1?
+
+**DR:**
+
+I mean, the good results help. They help, they make everything better, in terms of an enjoyment. It's always more fun racing at the front of the grid. But it's not… I don't think it's necessarily a question of if I still want to do it. I still do want to do it. I think that is how - do I say - like, unconditional for now, like in terms of where I'm at. But it's just the right circumstances, I guess. So yeah, the result felt good. I don't think it changes my course for the next 12 months or whatever it's going to be but yeah, it's cool. I think that's why I mean, I want to be up the front.
+
+**Q:** (Ronald Vording - Motorsport.com) Max, yesterday the announcement on the 2021 budget cap figures has been delayed again. Last week, Christian Horner said it's no coincidence that all of this comes out when you can clinch your second world title. Do you have the same feeling and is all the speculation annoying for you in any way?
+
+**MV:**
+
+To be honest, I'm not really busy with these kinds of things. I mean, it's up to the teams and with the FIA, and I just have to focus on the driving. So not much more to say on that. I guess we'll find out on Monday.
+
+**Q:** (Luke Smith – Autosport) Daniel, looking ahead to the next race in Austin. I know you're a big fan of the US. That race has been there for 10 years now and it's really helped F1's growth in the United States. Can you talk about the significance that Austin has for you as a Grand Prix and what it's done for Formula 1, helping save F1 In the US it seemed like?
+
+**DR:**
+
+Yeah, I think the significance with Austin is I was born there. It's always been like very close to my heart, you know, your birth places. It's pretty real, you know, it never leaves you. Anyone from Perth listening is going to really not like me for that comment. But no, it's just been fun like from going there from the start, I was so – what's the word I'm looking for, like a big word – filled with joy when it got renewed and extended. I think they announced that last year, wasn't it? But it's just the growth of the sport in the States. Obviously, it's really cool and I enjoy that I. I think America do sports better than anyone, the way they build an event around the sport itself is really cool. So I think for us, as F1, to have like an ever-growing presence there is really cool, but just going back to Austin, anyone that's been knows it's just a fun place. It's one where you're out all the time and enjoying it and it's just a very fun week. I have no idea if I answered your question, but thumbs up for Austin.
+
+**Q:** (Matt Coch – Speedcafe.com) Daniel, Bathurst 1000 is on this weekend. Just curious, do you follow supercars at all? And if so, do you have a favourite or a mate or a pick for this weekend?
+
+**DR:**
+
+I'm still trying to figure out if I answered the last question. Bathurst? I follow it in terms of I'll definitely watch, I'll watch highlights and try to track a little bit who's looking quick and stuff like that. But yeah, I'm not sure who's looking good, who's going to be the favourite, necessarily, this weekend but it is a cool race. My folks are actually going out, so they will be there. I think it's their first time, so I'm keen to speak to them over the course of the weekend and hear how the experience is going. But it is really cool. As a kid, watching it, you'd put the whole day aside and watch the Bathurst 1000 and it was always an event, so fond memories of that race. And hopefully it's a good one this year.
+
+**Q:** (Adam Cooper – Motorsports.com) Another cost-cap question for George and Charles: if a team is found guilty of spending too much money last year, obviously with an impact on this year, how are you going to feel about that, given how hard your teams have tried to stay under it? And how important is it that there's an appropriate punishment?
+
+**GR:**
+
+Firstly, similar to what Max said: it's not my sort of duty to dive into those details and I'll just sit and wait and see what the results are on Monday but I just know from our experience within Mercedes, how hard the whole team has worked to stay within that cost cap. We know we can bring more performance to the table if we had more money to spend and it's as simple as that. And yeah, I trust in Mohammed and the FIA to bring in an appropriate punishment for anyone who's found guilty of the charges accused and it should be quite straightforward. And you'd expect the amount that's gone over should be the amount that's taken off for next year's budget and probably a bit more on top of that as a punishment. Yeah, let’s wait and see.
+
+**CL:**
+
+Yeah, same. Speaking about ourselves, of course if we have more to spend you will go faster on track so if there's any team found guilty in that they should be punished. Then what's the punishment? No, I'm not the one to decide. But for sure, it should be punished.
+
+Ends
