@@ -1,9 +1,20 @@
 """Fetch FIA F1 event classification tables and save them as JSON.
 
-This scraper targets the FIA 2025 archive page and pulls the HTML table-based
-classification data for each Grand Prix, including sprint weekends.
+This scraper targets the FIA F1 archive page for a given season and pulls the
+HTML table-based classification data for each Grand Prix, including sprint
+weekends where the FIA exposes the tables in page source.
 
-Outputs:
+Supported season profiles:
+  - 2018 -> season id 866
+  - 2019 -> season id 971
+  - 2020 -> season id 1059
+  - 2021 -> season id 1108
+  - 2022 -> season id 2005
+  - 2023 -> season id 2042
+  - 2024 -> season id 2043
+  - 2025 -> season id 2071
+
+Outputs by default:
   - classification/2025/classifications.json
   - classification/2025/<grand-prix-slug>/classifications.json
 """
@@ -15,6 +26,7 @@ import asyncio
 import json
 import logging
 import re
+from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
@@ -24,8 +36,6 @@ import aiohttp
 from bs4 import BeautifulSoup, Tag
 
 BASE_URL = "https://www.fia.com"
-DEFAULT_YEAR = 2025
-DEFAULT_SEASON_ID = 2071
 DEFAULT_OUTPUT_DIR = Path("classification")
 ARCHIVE_URL_TEMPLATE = f"{BASE_URL}/f1-archives?season={{season_id}}"
 USER_AGENT = (
@@ -47,6 +57,15 @@ class EventListing:
     championship_url: str
     archive_pages: list[dict[str, str]]
     archive_table: dict
+
+
+@dataclass(frozen=True, slots=True)
+class SeasonConfig:
+    year: int
+    season_id: int
+    parser_profile: str
+    discover_events: Callable[[str], list[EventListing]]
+    parse_source_page: Callable[[dict[str, str], str], dict]
 
 
 def clean_text(value: str) -> str:
@@ -73,7 +92,39 @@ def parse_archive_date(value: str | None) -> str | None:
     return datetime.strptime(value, "%B %d, %Y").date().isoformat()
 
 
-def classify_archive_link(label: str) -> str | None:
+def classify_archive_link_2018(label: str) -> str | None:
+    return classify_archive_link_modern(label)
+
+
+def classify_archive_link_2019(label: str) -> str | None:
+    return classify_archive_link_modern(label)
+
+
+def classify_archive_link_2020(label: str) -> str | None:
+    return classify_archive_link_modern(label)
+
+
+def classify_archive_link_2021(label: str) -> str | None:
+    normalized = clean_text(label).lower()
+    if normalized == "sprint qualifying":
+        return "sprint_classification"
+    return classify_archive_link_modern(label)
+
+
+def classify_archive_link_2023(label: str) -> str | None:
+    normalized = clean_text(label).lower()
+    if normalized == "sprint shootout":
+        return "sprint_qualifying"
+    if normalized == "sprint":
+        return "sprint_classification"
+    return classify_archive_link_modern(label)
+
+
+def classify_archive_link_2022(label: str) -> str | None:
+    return classify_archive_link_modern(label)
+
+
+def classify_archive_link_modern(label: str) -> str | None:
     normalized = clean_text(label).lower()
     if "session classifications" in normalized:
         return "session_classifications"
@@ -120,6 +171,26 @@ def page_slug_from_url(url: str) -> str:
     return path.split("/")[-2]
 
 
+def championship_event_slug(url: str) -> str:
+    path = urlparse(url).path.strip("/")
+    return path.split("/")[-1]
+
+
+def derive_event_page_slug(championship_url: str, session_url: str | None) -> str:
+    if not session_url:
+        return championship_event_slug(championship_url)
+
+    path_parts = urlparse(session_url).path.strip("/").split("/")
+    if len(path_parts) < 2:
+        return championship_event_slug(championship_url)
+
+    candidate = path_parts[-2]
+    if candidate.startswith("season-"):
+        return championship_event_slug(championship_url)
+
+    return candidate
+
+
 async def fetch_text(
     session: aiohttp.ClientSession,
     sem: asyncio.Semaphore,
@@ -131,7 +202,10 @@ async def fetch_text(
             return await response.text()
 
 
-def discover_events(archive_html: str) -> list[EventListing]:
+def discover_events(
+    archive_html: str,
+    classify_archive_link: Callable[[str], str | None],
+) -> list[EventListing]:
     soup = BeautifulSoup(archive_html, "html.parser")
     events: dict[str, EventListing] = {}
 
@@ -173,8 +247,8 @@ def discover_events(archive_html: str) -> list[EventListing]:
 
         session_page = next((page for page in archive_pages if page["key"] == "session_classifications"), None)
         session_url = session_page["url"] if session_page else None
-        if not session_url:
-            continue
+        championship_url = urljoin(BASE_URL, championship_link["href"])
+        event_page_slug = derive_event_page_slug(championship_url, session_url)
 
         archive_table_rows = [
             {"label": page["label"], "url": page["url"]}
@@ -196,8 +270,8 @@ def discover_events(archive_html: str) -> list[EventListing]:
             name=event_name,
             date=parse_archive_date(raw_date),
             output_slug=output_slug,
-            event_page_slug=page_slug_from_url(session_url),
-            championship_url=urljoin(BASE_URL, championship_link["href"]),
+            event_page_slug=event_page_slug,
+            championship_url=championship_url,
             archive_pages=archive_pages,
             archive_table=archive_table,
         )
@@ -212,7 +286,7 @@ def discover_events(archive_html: str) -> list[EventListing]:
                 name=existing.name,
                 date=existing.date or candidate.date,
                 output_slug=output_slug,
-                event_page_slug=page_slug_from_url(preferred_session_url),
+                event_page_slug=derive_event_page_slug(existing.championship_url, preferred_session_url),
                 championship_url=existing.championship_url,
                 archive_pages=merged_pages,
                 archive_table={
@@ -228,6 +302,38 @@ def discover_events(archive_html: str) -> list[EventListing]:
         events[output_slug] = candidate
 
     return list(events.values())
+
+
+def discover_events_2018(archive_html: str) -> list[EventListing]:
+    return discover_events(archive_html, classify_archive_link_2018)
+
+
+def discover_events_2019(archive_html: str) -> list[EventListing]:
+    return discover_events(archive_html, classify_archive_link_2019)
+
+
+def discover_events_2020(archive_html: str) -> list[EventListing]:
+    return discover_events(archive_html, classify_archive_link_2020)
+
+
+def discover_events_2021(archive_html: str) -> list[EventListing]:
+    return discover_events(archive_html, classify_archive_link_2021)
+
+
+def discover_events_2022(archive_html: str) -> list[EventListing]:
+    return discover_events(archive_html, classify_archive_link_2022)
+
+
+def discover_events_2023(archive_html: str) -> list[EventListing]:
+    return discover_events(archive_html, classify_archive_link_2023)
+
+
+def discover_events_2024(archive_html: str) -> list[EventListing]:
+    return discover_events(archive_html, classify_archive_link_modern)
+
+
+def discover_events_2025(archive_html: str) -> list[EventListing]:
+    return discover_events(archive_html, classify_archive_link_modern)
 
 
 def build_column_key(label: str, previous_metric: str | None, seen: dict[str, int]) -> tuple[str, str | None]:
@@ -261,8 +367,80 @@ def is_header_row(row: Tag) -> bool:
     return all(any(cls.startswith("header-") for cls in cell.get("class", [])) for cell in cells)
 
 
+def is_title_row(row: Tag) -> bool:
+    title_cell = row.find("th", class_=re.compile(r"\btable-head\b"))
+    if isinstance(title_cell, Tag):
+        return True
+
+    cells = row.find_all(["th", "td"])
+    if len(cells) != 1:
+        return False
+
+    cell = cells[0]
+    colspan = cell.get("colspan")
+    if colspan and colspan.isdigit() and int(colspan) > 1:
+        return True
+
+    return False
+
+
+def extract_table_title(table: Tag, fallback: str) -> str:
+    caption = table.find("caption")
+    if isinstance(caption, Tag):
+        text = clean_text(caption.get_text(" ", strip=True))
+        if text:
+            return text
+
+    title_cell = table.find("th", class_=re.compile(r"\btable-head\b"))
+    if isinstance(title_cell, Tag):
+        text = clean_text(title_cell.get_text(" ", strip=True))
+        if text:
+            return text
+
+    return fallback
+
+
 def build_default_columns(cell_count: int) -> list[dict[str, str]]:
     return [{"key": f"col_{index}", "label": f"COL {index}"} for index in range(1, cell_count + 1)]
+
+
+def expanded_header_labels(row: Tag, column_count: int) -> list[str]:
+    labels: list[str] = []
+
+    for cell in row.find_all(["th", "td"]):
+        colspan = cell.get("colspan")
+        span = int(colspan) if colspan and colspan.isdigit() else 1
+        labels.extend([clean_text(cell.get_text(" ", strip=True))] * span)
+
+    if len(labels) < column_count:
+        labels.extend([""] * (column_count - len(labels)))
+
+    return labels[:column_count]
+
+
+def build_columns_from_header_rows(header_rows: list[Tag]) -> list[dict[str, str]]:
+    column_count = max(
+        sum(int(cell.get("colspan", 1)) if str(cell.get("colspan", 1)).isdigit() else 1 for cell in row.find_all(["th", "td"]))
+        for row in header_rows
+    )
+    expanded_rows = [expanded_header_labels(row, column_count) for row in header_rows]
+
+    previous_metric: str | None = None
+    seen_keys: dict[str, int] = {}
+    columns: list[dict[str, str]] = []
+
+    for index in range(column_count):
+        label_parts: list[str] = []
+        for labels in expanded_rows:
+            label = labels[index]
+            if label and (not label_parts or label_parts[-1] != label):
+                label_parts.append(label)
+
+        label = " ".join(label_parts)
+        key, previous_metric = build_column_key(label, previous_metric, seen_keys)
+        columns.append({"key": key, "label": label})
+
+    return columns
 
 
 def parse_table(table: Tag) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
@@ -271,20 +449,21 @@ def parse_table(table: Tag) -> tuple[list[dict[str, str]], list[dict[str, str]]]
         return [], []
 
     data_start_index = 0
-    if is_header_row(rows[0]):
-        header_cells = rows[0].find_all(["th", "td"])
-        previous_metric: str | None = None
-        seen_keys: dict[str, int] = {}
-        columns: list[dict[str, str]] = []
+    while data_start_index < len(rows) and is_title_row(rows[data_start_index]):
+        data_start_index += 1
 
-        for cell in header_cells:
-            label = clean_text(cell.get_text(" ", strip=True))
-            key, previous_metric = build_column_key(label, previous_metric, seen_keys)
-            columns.append({"key": key, "label": label})
+    if data_start_index >= len(rows):
+        return [], []
 
-        data_start_index = 1
+    header_rows: list[Tag] = []
+    while data_start_index < len(rows) and is_header_row(rows[data_start_index]):
+        header_rows.append(rows[data_start_index])
+        data_start_index += 1
+
+    if header_rows:
+        columns = build_columns_from_header_rows(header_rows)
     else:
-        first_row_cells = rows[0].find_all(["th", "td"])
+        first_row_cells = rows[data_start_index].find_all(["th", "td"])
         columns = build_default_columns(len(first_row_cells))
 
     data_rows: list[dict[str, str]] = []
@@ -331,8 +510,7 @@ def parse_page_title(soup: BeautifulSoup) -> str:
 def parse_all_page_tables(root: Tag | BeautifulSoup) -> list[dict]:
     tables: list[dict] = []
     for index, table in enumerate(root.find_all("table"), start=1):
-        caption = table.find("caption")
-        title = clean_text(caption.get_text(" ", strip=True)) if isinstance(caption, Tag) else f"Table {index}"
+        title = extract_table_title(table, f"Table {index}")
         tables.append(parse_table_bundle(table, title, slugify(title)))
     return tables
 
@@ -372,6 +550,99 @@ def parse_source_page(page: dict[str, str], html: str) -> dict:
     }
 
 
+def parse_source_page_2018(page: dict[str, str], html: str) -> dict:
+    return parse_source_page(page, html)
+
+
+def parse_source_page_2019(page: dict[str, str], html: str) -> dict:
+    return parse_source_page(page, html)
+
+
+def parse_source_page_2020(page: dict[str, str], html: str) -> dict:
+    return parse_source_page(page, html)
+
+
+def parse_source_page_2021(page: dict[str, str], html: str) -> dict:
+    return parse_source_page(page, html)
+
+
+def parse_source_page_2022(page: dict[str, str], html: str) -> dict:
+    return parse_source_page(page, html)
+
+
+def parse_source_page_2023(page: dict[str, str], html: str) -> dict:
+    return parse_source_page(page, html)
+
+
+def parse_source_page_2024(page: dict[str, str], html: str) -> dict:
+    return parse_source_page(page, html)
+
+
+def parse_source_page_2025(page: dict[str, str], html: str) -> dict:
+    return parse_source_page(page, html)
+
+
+SUPPORTED_SEASONS: dict[int, SeasonConfig] = {
+    2018: SeasonConfig(
+        year=2018,
+        season_id=866,
+        parser_profile="fia_2018",
+        discover_events=discover_events_2018,
+        parse_source_page=parse_source_page_2018,
+    ),
+    2019: SeasonConfig(
+        year=2019,
+        season_id=971,
+        parser_profile="fia_2019",
+        discover_events=discover_events_2019,
+        parse_source_page=parse_source_page_2019,
+    ),
+    2020: SeasonConfig(
+        year=2020,
+        season_id=1059,
+        parser_profile="fia_2020",
+        discover_events=discover_events_2020,
+        parse_source_page=parse_source_page_2020,
+    ),
+    2021: SeasonConfig(
+        year=2021,
+        season_id=1108,
+        parser_profile="fia_2021",
+        discover_events=discover_events_2021,
+        parse_source_page=parse_source_page_2021,
+    ),
+    2022: SeasonConfig(
+        year=2022,
+        season_id=2005,
+        parser_profile="fia_2022",
+        discover_events=discover_events_2022,
+        parse_source_page=parse_source_page_2022,
+    ),
+    2023: SeasonConfig(
+        year=2023,
+        season_id=2042,
+        parser_profile="fia_2023",
+        discover_events=discover_events_2023,
+        parse_source_page=parse_source_page_2023,
+    ),
+    2024: SeasonConfig(
+        year=2024,
+        season_id=2043,
+        parser_profile="fia_2024",
+        discover_events=discover_events_2024,
+        parse_source_page=parse_source_page_2024,
+    ),
+    2025: SeasonConfig(
+        year=2025,
+        season_id=2071,
+        parser_profile="fia_2025",
+        discover_events=discover_events_2025,
+        parse_source_page=parse_source_page_2025,
+    ),
+}
+DEFAULT_YEAR = max(SUPPORTED_SEASONS)
+
+
 def write_json(path: Path, payload: dict | list) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
@@ -381,11 +652,12 @@ async def fetch_event_payload(
     session: aiohttp.ClientSession,
     sem: asyncio.Semaphore,
     event: EventListing,
+    season: SeasonConfig,
 ) -> dict:
     async def fetch_page(page: dict[str, str]) -> dict:
         log.info("Fetching %s", page["url"])
         html = await fetch_text(session, sem, page["url"])
-        return parse_source_page(page, html)
+        return season.parse_source_page(page, html)
 
     fetched_pages = await asyncio.gather(*(fetch_page(page) for page in event.archive_pages))
 
@@ -421,19 +693,30 @@ async def fetch_event_payload(
 
 
 async def run(year: int, season_id: int, output_dir: Path) -> Path:
+    season = SUPPORTED_SEASONS[year]
+    if season_id != season.season_id:
+        raise ValueError(
+            f"Season ID {season_id} does not match the configured {year} season ID "
+            f"{season.season_id} for parser profile {season.parser_profile}."
+        )
+
     headers = {"User-Agent": USER_AGENT}
     sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
     archive_url = ARCHIVE_URL_TEMPLATE.format(season_id=season_id)
 
     async with aiohttp.ClientSession(headers=headers) as session:
         archive_html = await fetch_text(session, sem, archive_url)
-        events = discover_events(archive_html)
+        events = season.discover_events(archive_html)
         if not events:
             raise RuntimeError(f"No Grand Prix events found on {archive_url}")
 
-        log.info("Discovered %d Grand Prix events", len(events))
+        log.info(
+            "Discovered %d Grand Prix events for %s",
+            len(events),
+            season.parser_profile,
+        )
         event_payloads = await asyncio.gather(
-            *(fetch_event_payload(session, sem, event) for event in events)
+            *(fetch_event_payload(session, sem, event, season) for event in events)
         )
 
     event_payloads.sort(key=lambda item: (item.get("date") or "", item["name"]))
@@ -445,6 +728,7 @@ async def run(year: int, season_id: int, output_dir: Path) -> Path:
     combined_payload = {
         "season_year": year,
         "season_id": season_id,
+        "parser_profile": season.parser_profile,
         "archive_url": archive_url,
         "fetched_at_utc": datetime.now(UTC).isoformat(),
         "event_count": len(event_payloads),
@@ -457,15 +741,26 @@ async def run(year: int, season_id: int, output_dir: Path) -> Path:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--year", type=int, default=DEFAULT_YEAR)
-    parser.add_argument("--season-id", type=int, default=DEFAULT_SEASON_ID)
+    parser.add_argument(
+        "--year",
+        type=int,
+        choices=sorted(SUPPORTED_SEASONS),
+        default=DEFAULT_YEAR,
+        help="Season year to scrape. Supported: %(choices)s",
+    )
+    parser.add_argument(
+        "--season-id",
+        type=int,
+        help="Override the FIA season ID. Must match the configured ID for the selected year.",
+    )
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    output_path = asyncio.run(run(args.year, args.season_id, args.output_dir))
+    season_id = args.season_id or SUPPORTED_SEASONS[args.year].season_id
+    output_path = asyncio.run(run(args.year, season_id, args.output_dir))
     log.info("Saved combined classifications to %s", output_path)
 
 

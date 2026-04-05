@@ -44,6 +44,30 @@ uv run python scraper.py --year 2025
 # Scrape 2025 HTML classification tables into classification/ JSON
 uv run python fetch_event_classifications.py
 
+# Scrape the dedicated 2018 classification parser/profile
+uv run python fetch_event_classifications.py --year 2018
+
+# Scrape the dedicated 2019 classification parser/profile
+uv run python fetch_event_classifications.py --year 2019
+
+# Scrape the dedicated 2020 classification parser/profile
+uv run python fetch_event_classifications.py --year 2020
+
+# Scrape the dedicated 2021 classification parser/profile
+uv run python fetch_event_classifications.py --year 2021
+
+# Scrape the dedicated 2022 classification parser/profile
+uv run python fetch_event_classifications.py --year 2022
+
+# Scrape the dedicated 2023 classification parser/profile
+uv run python fetch_event_classifications.py --year 2023
+
+# Scrape the dedicated 2024 classification parser/profile
+uv run python fetch_event_classifications.py --year 2024
+
+# Scrape the dedicated 2025 classification parser/profile explicitly
+uv run python fetch_event_classifications.py --year 2025
+
 # Custom output directory
 uv run python scraper.py --output-dir my-docs
 ```

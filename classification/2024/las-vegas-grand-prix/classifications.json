@@ -1,0 +1,4840 @@
+{
+  "name": "Las Vegas Grand Prix",
+  "slug": "las-vegas-grand-prix",
+  "event_page_slug": "las-vegas-grand-prix",
+  "date": "2024-11-23",
+  "championship_url": "https://www.fia.com/championship/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix",
+  "source_pages": {
+    "session_classifications": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/session-classifications",
+    "qualifying_classification": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/qualifying-classification",
+    "race_classification": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/race-classification"
+  },
+  "page_count": 4,
+  "table_count": 19,
+  "pages": [
+    {
+      "key": "archive_listing",
+      "label": "Archive Listing",
+      "title": "Archive Listing",
+      "url": "https://www.fia.com/championship/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix",
+      "table_count": 1,
+      "tables": [
+        {
+          "name": "Archive Links",
+          "slug": "archive-links",
+          "columns": [
+            {
+              "key": "label",
+              "label": "LABEL"
+            },
+            {
+              "key": "url",
+              "label": "URL"
+            }
+          ],
+          "rows": [
+            {
+              "label": "Session Classifications",
+              "url": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/session-classifications"
+            },
+            {
+              "label": "Qualifying Classification",
+              "url": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/qualifying-classification"
+            },
+            {
+              "label": "Race Classification",
+              "url": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/race-classification"
+            }
+          ],
+          "row_count": 3
+        }
+      ]
+    },
+    {
+      "key": "session_classifications",
+      "label": "Session Classifications",
+      "title": "Session Classifications",
+      "url": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/session-classifications",
+      "table_count": 6,
+      "tables": [
+        {
+          "name": "PRACTICE1",
+          "slug": "practice1",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "laps",
+              "label": "LAPS"
+            },
+            {
+              "key": "speed",
+              "label": "SPEED"
+            },
+            {
+              "key": "laptime",
+              "label": "LAPTIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "26",
+              "speed": "234.982",
+              "laptime": "1:35.001"
+            },
+            {
+              "pos": "2",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "29",
+              "speed": "234.007",
+              "laptime": "1:35.397"
+            },
+            {
+              "pos": "3",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "laps": "27",
+              "speed": "232.648",
+              "laptime": "1:35.954"
+            },
+            {
+              "pos": "4",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "laps": "27",
+              "speed": "232.520",
+              "laptime": "1:36.007"
+            },
+            {
+              "pos": "5",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "laps": "25",
+              "speed": "232.445",
+              "laptime": "1:36.038"
+            },
+            {
+              "pos": "6",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "laps": "26",
+              "speed": "232.010",
+              "laptime": "1:36.218"
+            },
+            {
+              "pos": "7",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "25",
+              "speed": "231.904",
+              "laptime": "1:36.262"
+            },
+            {
+              "pos": "8",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "laps": "26",
+              "speed": "231.450",
+              "laptime": "1:36.451"
+            },
+            {
+              "pos": "9",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "laps": "24",
+              "speed": "231.385",
+              "laptime": "1:36.478"
+            },
+            {
+              "pos": "10",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "laps": "25",
+              "speed": "231.246",
+              "laptime": "1:36.536"
+            },
+            {
+              "pos": "11",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "24",
+              "speed": "230.589",
+              "laptime": "1:36.811"
+            },
+            {
+              "pos": "12",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "25",
+              "speed": "230.575",
+              "laptime": "1:36.817"
+            },
+            {
+              "pos": "13",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "laps": "26",
+              "speed": "230.263",
+              "laptime": "1:36.948"
+            },
+            {
+              "pos": "14",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "laps": "25",
+              "speed": "229.780",
+              "laptime": "1:37.152"
+            },
+            {
+              "pos": "15",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "24",
+              "speed": "229.666",
+              "laptime": "1:37.200"
+            },
+            {
+              "pos": "16",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "25",
+              "speed": "228.339",
+              "laptime": "1:37.765"
+            },
+            {
+              "pos": "17",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "laps": "28",
+              "speed": "227.733",
+              "laptime": "1:38.025"
+            },
+            {
+              "pos": "18",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "23",
+              "speed": "226.981",
+              "laptime": "1:38.350"
+            },
+            {
+              "pos": "19",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "23",
+              "speed": "226.465",
+              "laptime": "1:38.574"
+            },
+            {
+              "pos": "20",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "28",
+              "speed": "226.107",
+              "laptime": "1:38.730"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "PRACTICE2",
+          "slug": "practice2",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "laps",
+              "label": "LAPS"
+            },
+            {
+              "key": "speed",
+              "label": "SPEED"
+            },
+            {
+              "key": "laptime",
+              "label": "LAPTIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "25",
+              "speed": "237.928",
+              "laptime": "1:33.825"
+            },
+            {
+              "pos": "2",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "laps": "25",
+              "speed": "237.900",
+              "laptime": "1:33.836"
+            },
+            {
+              "pos": "3",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "29",
+              "speed": "237.447",
+              "laptime": "1:34.015"
+            },
+            {
+              "pos": "4",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "laps": "29",
+              "speed": "237.220",
+              "laptime": "1:34.105"
+            },
+            {
+              "pos": "5",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "laps": "29",
+              "speed": "236.696",
+              "laptime": "1:34.313"
+            },
+            {
+              "pos": "6",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "laps": "30",
+              "speed": "235.851",
+              "laptime": "1:34.651"
+            },
+            {
+              "pos": "7",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "20",
+              "speed": "235.764",
+              "laptime": "1:34.686"
+            },
+            {
+              "pos": "8",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "laps": "26",
+              "speed": "235.485",
+              "laptime": "1:34.798"
+            },
+            {
+              "pos": "9",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "24",
+              "speed": "235.436",
+              "laptime": "1:34.818"
+            },
+            {
+              "pos": "10",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "23",
+              "speed": "234.992",
+              "laptime": "1:34.997"
+            },
+            {
+              "pos": "11",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "28",
+              "speed": "234.935",
+              "laptime": "1:35.020"
+            },
+            {
+              "pos": "12",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "laps": "26",
+              "speed": "234.439",
+              "laptime": "1:35.221"
+            },
+            {
+              "pos": "13",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "27",
+              "speed": "234.366",
+              "laptime": "1:35.251"
+            },
+            {
+              "pos": "14",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "25",
+              "speed": "233.901",
+              "laptime": "1:35.440"
+            },
+            {
+              "pos": "15",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "24",
+              "speed": "233.337",
+              "laptime": "1:35.671"
+            },
+            {
+              "pos": "16",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "28",
+              "speed": "233.108",
+              "laptime": "1:35.765"
+            },
+            {
+              "pos": "17",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "laps": "25",
+              "speed": "232.940",
+              "laptime": "1:35.834"
+            },
+            {
+              "pos": "18",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "laps": "30",
+              "speed": "232.857",
+              "laptime": "1:35.868"
+            },
+            {
+              "pos": "19",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "laps": "25",
+              "speed": "232.404",
+              "laptime": "1:36.055"
+            },
+            {
+              "pos": "20",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "laps": "4",
+              "speed": "224.067",
+              "laptime": "1:39.629"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "PRACTICE3",
+          "slug": "practice3",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "laps",
+              "label": "LAPS"
+            },
+            {
+              "key": "speed",
+              "label": "SPEED"
+            },
+            {
+              "key": "laptime",
+              "label": "LAPTIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "18",
+              "speed": "238.576",
+              "laptime": "1:33.570"
+            },
+            {
+              "pos": "2",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "laps": "14",
+              "speed": "238.029",
+              "laptime": "1:33.785"
+            },
+            {
+              "pos": "3",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "laps": "16",
+              "speed": "237.692",
+              "laptime": "1:33.918"
+            },
+            {
+              "pos": "4",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "laps": "14",
+              "speed": "237.464",
+              "laptime": "1:34.008"
+            },
+            {
+              "pos": "5",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "laps": "17",
+              "speed": "237.139",
+              "laptime": "1:34.137"
+            },
+            {
+              "pos": "6",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "17",
+              "speed": "236.626",
+              "laptime": "1:34.341"
+            },
+            {
+              "pos": "7",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "laps": "15",
+              "speed": "236.461",
+              "laptime": "1:34.407"
+            },
+            {
+              "pos": "8",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "laps": "15",
+              "speed": "235.672",
+              "laptime": "1:34.723"
+            },
+            {
+              "pos": "9",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "13",
+              "speed": "235.275",
+              "laptime": "1:34.883"
+            },
+            {
+              "pos": "10",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "laps": "15",
+              "speed": "235.220",
+              "laptime": "1:34.905"
+            },
+            {
+              "pos": "11",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "15",
+              "speed": "235.213",
+              "laptime": "1:34.908"
+            },
+            {
+              "pos": "12",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "laps": "15",
+              "speed": "235.131",
+              "laptime": "1:34.941"
+            },
+            {
+              "pos": "13",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "laps": "19",
+              "speed": "234.834",
+              "laptime": "1:35.061"
+            },
+            {
+              "pos": "14",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "laps": "14",
+              "speed": "233.852",
+              "laptime": "1:35.460"
+            },
+            {
+              "pos": "15",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "16",
+              "speed": "232.687",
+              "laptime": "1:35.938"
+            },
+            {
+              "pos": "16",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "18",
+              "speed": "232.017",
+              "laptime": "1:36.215"
+            },
+            {
+              "pos": "17",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "14",
+              "speed": "231.543",
+              "laptime": "1:36.412"
+            },
+            {
+              "pos": "18",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "18",
+              "speed": "231.227",
+              "laptime": "1:36.544"
+            },
+            {
+              "pos": "19",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "13",
+              "speed": "230.258",
+              "laptime": "1:36.950"
+            },
+            {
+              "pos": "20",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "16",
+              "speed": "230.168",
+              "laptime": "1:36.988"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "QUALIFYING",
+          "slug": "qualifying",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "q1",
+              "label": "Q1"
+            },
+            {
+              "key": "q1_laps",
+              "label": "LAPS"
+            },
+            {
+              "key": "q2",
+              "label": "Q2"
+            },
+            {
+              "key": "q2_laps",
+              "label": "LAPS"
+            },
+            {
+              "key": "q3",
+              "label": "Q3"
+            },
+            {
+              "key": "q3_laps",
+              "label": "LAPS"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "George Russell",
+              "q1": "1:33.186",
+              "q1_laps": "10",
+              "q2": "1:32.779",
+              "q2_laps": "9",
+              "q3": "1:32.312",
+              "q3_laps": "6"
+            },
+            {
+              "pos": "2",
+              "driver": "Carlos Sainz",
+              "q1": "1:33.484",
+              "q1_laps": "8",
+              "q2": "1:32.711",
+              "q2_laps": "9",
+              "q3": "1:32.410",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "3",
+              "driver": "Pierre Gasly",
+              "q1": "1:33.691",
+              "q1_laps": "10",
+              "q2": "1:32.879",
+              "q2_laps": "8",
+              "q3": "1:32.664",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "4",
+              "driver": "Charles Leclerc",
+              "q1": "1:33.446",
+              "q1_laps": "8",
+              "q2": "1:33.016",
+              "q2_laps": "8",
+              "q3": "1:32.783",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "5",
+              "driver": "Max Verstappen",
+              "q1": "1:33.299",
+              "q1_laps": "8",
+              "q2": "1:33.085",
+              "q2_laps": "6",
+              "q3": "1:32.797",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "6",
+              "driver": "Lando Norris",
+              "q1": "1:33.592",
+              "q1_laps": "7",
+              "q2": "1:33.099",
+              "q2_laps": "6",
+              "q3": "1:33.008",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "7",
+              "driver": "Yuki Tsunoda",
+              "q1": "1:33.789",
+              "q1_laps": "10",
+              "q2": "1:33.089",
+              "q2_laps": "8",
+              "q3": "1:33.029",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "8",
+              "driver": "Oscar Piastri",
+              "q1": "1:33.450",
+              "q1_laps": "8",
+              "q2": "1:33.024",
+              "q2_laps": "6",
+              "q3": "1:33.033",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "9",
+              "driver": "Nico Hulkenberg",
+              "q1": "1:33.920",
+              "q1_laps": "5",
+              "q2": "1:33.114",
+              "q2_laps": "6",
+              "q3": "1:33.062",
+              "q3_laps": "6"
+            },
+            {
+              "pos": "10",
+              "driver": "Lewis Hamilton",
+              "q1": "1:33.225",
+              "q1_laps": "9",
+              "q2": "1:32.567",
+              "q2_laps": "9",
+              "q3": "1:48.106",
+              "q3_laps": "6"
+            },
+            {
+              "pos": "11",
+              "driver": "Esteban Ocon",
+              "q1": "1:33.968",
+              "q1_laps": "10",
+              "q2": "1:33.221",
+              "q2_laps": "8",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "12",
+              "driver": "Kevin Magnussen",
+              "q1": "1:33.991",
+              "q1_laps": "5",
+              "q2": "1:33.297",
+              "q2_laps": "7",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "13",
+              "driver": "Zhou Guanyu",
+              "q1": "1:34.079",
+              "q1_laps": "10",
+              "q2": "1:33.566",
+              "q2_laps": "7",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "14",
+              "driver": "Franco Colapinto",
+              "q1": "1:33.746",
+              "q1_laps": "10",
+              "q2": "1:33.749",
+              "q2_laps": "6",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "15",
+              "driver": "Liam Lawson",
+              "q1": "1:34.087",
+              "q1_laps": "10",
+              "q2": "1:34.257",
+              "q2_laps": "7",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "16",
+              "driver": "Sergio Perez",
+              "q1": "1:34.155",
+              "q1_laps": "10",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "17",
+              "driver": "Fernando Alonso",
+              "q1": "1:34.258",
+              "q1_laps": "9",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "18",
+              "driver": "Alexander Albon",
+              "q1": "1:34.425",
+              "q1_laps": "10",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "19",
+              "driver": "Valtteri Bottas",
+              "q1": "1:34.430",
+              "q1_laps": "10",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "20",
+              "driver": "Lance Stroll",
+              "q1": "1:34.484",
+              "q1_laps": "3",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "GRID OFFICIAL",
+          "slug": "grid-official",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "time",
+              "label": "TIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "time": "1:32.312"
+            },
+            {
+              "pos": "2",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "time": "1:32.410"
+            },
+            {
+              "pos": "3",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "time": "1:32.664"
+            },
+            {
+              "pos": "4",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "time": "1:32.783"
+            },
+            {
+              "pos": "5",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "time": "1:32.797"
+            },
+            {
+              "pos": "6",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "time": "1:33.008"
+            },
+            {
+              "pos": "7",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "time": "1:33.029"
+            },
+            {
+              "pos": "8",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "time": "1:33.033"
+            },
+            {
+              "pos": "9",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "time": "1:33.062"
+            },
+            {
+              "pos": "10",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "time": "1:48.106"
+            },
+            {
+              "pos": "11",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "time": "1:33.221"
+            },
+            {
+              "pos": "12",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "time": "1:33.297"
+            },
+            {
+              "pos": "13",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "time": "1:33.566"
+            },
+            {
+              "pos": "14",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "time": "1:34.257"
+            },
+            {
+              "pos": "15",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "time": "1:34.155"
+            },
+            {
+              "pos": "16",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "time": "1:34.258"
+            },
+            {
+              "pos": "17",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "time": "1:34.425"
+            },
+            {
+              "pos": "18",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "time": "1:34.484"
+            },
+            {
+              "pos": "19",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "time": "1:34.430"
+            },
+            {
+              "pos": "20",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "time": "1:33.749"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "RACE",
+          "slug": "race",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "laps",
+              "label": "LAPS"
+            },
+            {
+              "key": "time",
+              "label": "TIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "50",
+              "time": "1:22:05.969"
+            },
+            {
+              "pos": "2",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "50",
+              "time": "1:22:13.282"
+            },
+            {
+              "pos": "3",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "laps": "50",
+              "time": "1:22:17.875"
+            },
+            {
+              "pos": "4",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "laps": "50",
+              "time": "1:22:20.252"
+            },
+            {
+              "pos": "5",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "laps": "50",
+              "time": "1:22:22.551"
+            },
+            {
+              "pos": "6",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "laps": "50",
+              "time": "1:22:49.354"
+            },
+            {
+              "pos": "7",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "laps": "50",
+              "time": "1:22:57.334"
+            },
+            {
+              "pos": "8",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "50",
+              "time": "1:23:05.777"
+            },
+            {
+              "pos": "9",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "50",
+              "time": "1:23:08.777"
+            },
+            {
+              "pos": "10",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "laps": "50",
+              "time": "1:23:09.083"
+            },
+            {
+              "pos": "11",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "50",
+              "time": "1:23:15.164"
+            },
+            {
+              "pos": "12",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "50",
+              "time": "1:23:15.772"
+            },
+            {
+              "pos": "13",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "50",
+              "time": "1:23:20.054"
+            },
+            {
+              "pos": "14",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "laps": "50",
+              "time": "1:23:21.141"
+            },
+            {
+              "pos": "15",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "50",
+              "time": "1:23:30.071"
+            },
+            {
+              "pos": "16",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "50",
+              "time": "1:23:36.974"
+            },
+            {
+              "pos": "17",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "laps": "49",
+              "time": "1:22:08.029"
+            },
+            {
+              "pos": "18",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "49",
+              "time": "1:22:17.254"
+            },
+            {
+              "pos": "19",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "laps": "25",
+              "time": "0:42:12.021"
+            },
+            {
+              "pos": "20",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "laps": "15",
+              "time": "0:25:36.973"
+            }
+          ],
+          "row_count": 20
+        }
+      ]
+    },
+    {
+      "key": "qualifying_classification",
+      "label": "Qualifying Classification",
+      "title": "Qualifying Classification",
+      "url": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/qualifying-classification",
+      "table_count": 5,
+      "tables": [
+        {
+          "name": "CLASSIFICATION",
+          "slug": "classification",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "q1",
+              "label": "Q1"
+            },
+            {
+              "key": "q1_laps",
+              "label": "LAPS"
+            },
+            {
+              "key": "q2",
+              "label": "Q2"
+            },
+            {
+              "key": "q2_laps",
+              "label": "LAPS"
+            },
+            {
+              "key": "q3",
+              "label": "Q3"
+            },
+            {
+              "key": "q3_laps",
+              "label": "LAPS"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "George Russell",
+              "q1": "1:33.186",
+              "q1_laps": "10",
+              "q2": "1:32.779",
+              "q2_laps": "9",
+              "q3": "1:32.312",
+              "q3_laps": "6"
+            },
+            {
+              "pos": "2",
+              "driver": "Carlos Sainz",
+              "q1": "1:33.484",
+              "q1_laps": "8",
+              "q2": "1:32.711",
+              "q2_laps": "9",
+              "q3": "1:32.410",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "3",
+              "driver": "Pierre Gasly",
+              "q1": "1:33.691",
+              "q1_laps": "10",
+              "q2": "1:32.879",
+              "q2_laps": "8",
+              "q3": "1:32.664",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "4",
+              "driver": "Charles Leclerc",
+              "q1": "1:33.446",
+              "q1_laps": "8",
+              "q2": "1:33.016",
+              "q2_laps": "8",
+              "q3": "1:32.783",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "5",
+              "driver": "Max Verstappen",
+              "q1": "1:33.299",
+              "q1_laps": "8",
+              "q2": "1:33.085",
+              "q2_laps": "6",
+              "q3": "1:32.797",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "6",
+              "driver": "Lando Norris",
+              "q1": "1:33.592",
+              "q1_laps": "7",
+              "q2": "1:33.099",
+              "q2_laps": "6",
+              "q3": "1:33.008",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "7",
+              "driver": "Yuki Tsunoda",
+              "q1": "1:33.789",
+              "q1_laps": "10",
+              "q2": "1:33.089",
+              "q2_laps": "8",
+              "q3": "1:33.029",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "8",
+              "driver": "Oscar Piastri",
+              "q1": "1:33.450",
+              "q1_laps": "8",
+              "q2": "1:33.024",
+              "q2_laps": "6",
+              "q3": "1:33.033",
+              "q3_laps": "7"
+            },
+            {
+              "pos": "9",
+              "driver": "Nico Hulkenberg",
+              "q1": "1:33.920",
+              "q1_laps": "5",
+              "q2": "1:33.114",
+              "q2_laps": "6",
+              "q3": "1:33.062",
+              "q3_laps": "6"
+            },
+            {
+              "pos": "10",
+              "driver": "Lewis Hamilton",
+              "q1": "1:33.225",
+              "q1_laps": "9",
+              "q2": "1:32.567",
+              "q2_laps": "9",
+              "q3": "1:48.106",
+              "q3_laps": "6"
+            },
+            {
+              "pos": "11",
+              "driver": "Esteban Ocon",
+              "q1": "1:33.968",
+              "q1_laps": "10",
+              "q2": "1:33.221",
+              "q2_laps": "8",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "12",
+              "driver": "Kevin Magnussen",
+              "q1": "1:33.991",
+              "q1_laps": "5",
+              "q2": "1:33.297",
+              "q2_laps": "7",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "13",
+              "driver": "Zhou Guanyu",
+              "q1": "1:34.079",
+              "q1_laps": "10",
+              "q2": "1:33.566",
+              "q2_laps": "7",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "14",
+              "driver": "Franco Colapinto",
+              "q1": "1:33.746",
+              "q1_laps": "10",
+              "q2": "1:33.749",
+              "q2_laps": "6",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "15",
+              "driver": "Liam Lawson",
+              "q1": "1:34.087",
+              "q1_laps": "10",
+              "q2": "1:34.257",
+              "q2_laps": "7",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "16",
+              "driver": "Sergio Perez",
+              "q1": "1:34.155",
+              "q1_laps": "10",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "17",
+              "driver": "Fernando Alonso",
+              "q1": "1:34.258",
+              "q1_laps": "9",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "18",
+              "driver": "Alexander Albon",
+              "q1": "1:34.425",
+              "q1_laps": "10",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "19",
+              "driver": "Valtteri Bottas",
+              "q1": "1:34.430",
+              "q1_laps": "10",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            },
+            {
+              "pos": "20",
+              "driver": "Lance Stroll",
+              "q1": "1:34.484",
+              "q1_laps": "3",
+              "q2": "-",
+              "q2_laps": "0",
+              "q3": "-",
+              "q3_laps": "0"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "BEST SECTOR TIMES",
+          "slug": "best-sector-times",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "sector_1_driver",
+              "label": "SECTOR 1 - DRIVER"
+            },
+            {
+              "key": "time",
+              "label": "TIME"
+            },
+            {
+              "key": "sector_2_driver",
+              "label": "SECTOR 2 - DRIVER"
+            },
+            {
+              "key": "time_2",
+              "label": "TIME"
+            },
+            {
+              "key": "sector_3_driver",
+              "label": "SECTOR 3 - DRIVER"
+            },
+            {
+              "key": "time_3",
+              "label": "TIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "sector_1_driver": "G. Russell",
+              "time": "25.736",
+              "sector_2_driver": "G. Russell",
+              "time_2": "30.845",
+              "sector_3_driver": "C. Sainz",
+              "time_3": "35.448"
+            },
+            {
+              "pos": "2",
+              "sector_1_driver": "L. Hamilton",
+              "time": "26.000",
+              "sector_2_driver": "C. Leclerc",
+              "time_2": "30.898",
+              "sector_3_driver": "P. Gasly",
+              "time_3": "35.514"
+            },
+            {
+              "pos": "3",
+              "sector_1_driver": "C. Sainz",
+              "time": "26.051",
+              "sector_2_driver": "C. Sainz",
+              "time_2": "30.911",
+              "sector_3_driver": "C. Leclerc",
+              "time_3": "35.548"
+            },
+            {
+              "pos": "4",
+              "sector_1_driver": "M. Verstappen",
+              "time": "26.067",
+              "sector_2_driver": "L. Hamilton",
+              "time_2": "30.927",
+              "sector_3_driver": "L. Hamilton",
+              "time_3": "35.574"
+            },
+            {
+              "pos": "5",
+              "sector_1_driver": "Y. Tsunoda",
+              "time": "26.108",
+              "sector_2_driver": "P. Gasly",
+              "time_2": "30.928",
+              "sector_3_driver": "E. Ocon",
+              "time_3": "35.594"
+            },
+            {
+              "pos": "6",
+              "sector_1_driver": "O. Piastri",
+              "time": "26.161",
+              "sector_2_driver": "M. Verstappen",
+              "time_2": "30.929",
+              "sector_3_driver": "L. Norris",
+              "time_3": "35.613"
+            },
+            {
+              "pos": "7",
+              "sector_1_driver": "L. Norris",
+              "time": "26.199",
+              "sector_2_driver": "N. Hulkenberg",
+              "time_2": "30.942",
+              "sector_3_driver": "G. Russell",
+              "time_3": "35.660"
+            },
+            {
+              "pos": "8",
+              "sector_1_driver": "P. Gasly",
+              "time": "26.212",
+              "sector_2_driver": "L. Norris",
+              "time_2": "31.012",
+              "sector_3_driver": "O. Piastri",
+              "time_3": "35.693"
+            },
+            {
+              "pos": "9",
+              "sector_1_driver": "C. Leclerc",
+              "time": "26.230",
+              "sector_2_driver": "O. Piastri",
+              "time_2": "31.119",
+              "sector_3_driver": "M. Verstappen",
+              "time_3": "35.703"
+            },
+            {
+              "pos": "10",
+              "sector_1_driver": "K. Magnussen",
+              "time": "26.341",
+              "sector_2_driver": "K. Magnussen",
+              "time_2": "31.129",
+              "sector_3_driver": "N. Hulkenberg",
+              "time_3": "35.723"
+            },
+            {
+              "pos": "11",
+              "sector_1_driver": "N. Hulkenberg",
+              "time": "26.353",
+              "sector_2_driver": "Y. Tsunoda",
+              "time_2": "31.133",
+              "sector_3_driver": "F. Colapinto",
+              "time_3": "35.749"
+            },
+            {
+              "pos": "12",
+              "sector_1_driver": "Z. Guanyu",
+              "time": "26.355",
+              "sector_2_driver": "E. Ocon",
+              "time_2": "31.193",
+              "sector_3_driver": "Y. Tsunoda",
+              "time_3": "35.754"
+            },
+            {
+              "pos": "13",
+              "sector_1_driver": "F. Colapinto",
+              "time": "26.398",
+              "sector_2_driver": "Z. Guanyu",
+              "time_2": "31.266",
+              "sector_3_driver": "A. Albon",
+              "time_3": "35.782"
+            },
+            {
+              "pos": "14",
+              "sector_1_driver": "E. Ocon",
+              "time": "26.434",
+              "sector_2_driver": "L. Lawson",
+              "time_2": "31.296",
+              "sector_3_driver": "K. Magnussen",
+              "time_3": "35.789"
+            },
+            {
+              "pos": "15",
+              "sector_1_driver": "L. Lawson",
+              "time": "26.469",
+              "sector_2_driver": "F. Colapinto",
+              "time_2": "31.298",
+              "sector_3_driver": "Z. Guanyu",
+              "time_3": "35.945"
+            },
+            {
+              "pos": "16",
+              "sector_1_driver": "V. Bottas",
+              "time": "26.587",
+              "sector_2_driver": "L. Stroll",
+              "time_2": "31.446",
+              "sector_3_driver": "S. Perez",
+              "time_3": "35.964"
+            },
+            {
+              "pos": "17",
+              "sector_1_driver": "S. Perez",
+              "time": "26.635",
+              "sector_2_driver": "S. Perez",
+              "time_2": "31.535",
+              "sector_3_driver": "F. Alonso",
+              "time_3": "35.970"
+            },
+            {
+              "pos": "18",
+              "sector_1_driver": "F. Alonso",
+              "time": "26.656",
+              "sector_2_driver": "A. Albon",
+              "time_2": "31.579",
+              "sector_3_driver": "L. Lawson",
+              "time_3": "36.030"
+            },
+            {
+              "pos": "19",
+              "sector_1_driver": "A. Albon",
+              "time": "26.756",
+              "sector_2_driver": "F. Alonso",
+              "time_2": "31.599",
+              "sector_3_driver": "V. Bottas",
+              "time_3": "36.075"
+            },
+            {
+              "pos": "20",
+              "sector_1_driver": "L. Stroll",
+              "time": "26.834",
+              "sector_2_driver": "V. Bottas",
+              "time_2": "31.768",
+              "sector_3_driver": "L. Stroll",
+              "time_3": "36.204"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "SPEED TRAP",
+          "slug": "speed-trap",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "kmh",
+              "label": "KM/H"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "kmh": "347.2"
+            },
+            {
+              "pos": "2",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "kmh": "346.3"
+            },
+            {
+              "pos": "3",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "kmh": "346.1"
+            },
+            {
+              "pos": "4",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "kmh": "344.8"
+            },
+            {
+              "pos": "5",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "kmh": "343.6"
+            },
+            {
+              "pos": "6",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "kmh": "343.4"
+            },
+            {
+              "pos": "7",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "kmh": "343.4"
+            },
+            {
+              "pos": "8",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "kmh": "339.1"
+            },
+            {
+              "pos": "9",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "kmh": "323.0"
+            },
+            {
+              "pos": "10",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "kmh": "322.0"
+            },
+            {
+              "pos": "11",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "kmh": "321.6"
+            },
+            {
+              "pos": "12",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "kmh": "316.9"
+            },
+            {
+              "pos": "13",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "kmh": "215.8"
+            },
+            {
+              "pos": "14",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "kmh": "215.1"
+            },
+            {
+              "pos": "15",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "kmh": "214.0"
+            },
+            {
+              "pos": "16",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "kmh": "213.1"
+            },
+            {
+              "pos": "17",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "kmh": "211.9"
+            },
+            {
+              "pos": "18",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "kmh": "188.1"
+            },
+            {
+              "pos": "19",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "kmh": "186.9"
+            },
+            {
+              "pos": "20",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "kmh": "184.2"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "MAXIMUM SPEEDS",
+          "slug": "maximum-speeds",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "intermediate_1_driver",
+              "label": "INTERMEDIATE 1 - DRIVER"
+            },
+            {
+              "key": "kmh",
+              "label": "KM/H"
+            },
+            {
+              "key": "intermediate_2_driver",
+              "label": "INTERMEDIATE 2 - DRIVER"
+            },
+            {
+              "key": "kmh_2",
+              "label": "KM/H"
+            },
+            {
+              "key": "intermediate_3_driver",
+              "label": "INTERMEDIATE 3 - DRIVER"
+            },
+            {
+              "key": "kmh_3",
+              "label": "KM/H"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "intermediate_1_driver": "C. Sainz",
+              "kmh": "190.7",
+              "intermediate_2_driver": "N. Hulkenberg",
+              "kmh_2": "217.1",
+              "intermediate_3_driver": "C. Leclerc",
+              "kmh_3": "328.4"
+            },
+            {
+              "pos": "2",
+              "intermediate_1_driver": "G. Russell",
+              "kmh": "190.1",
+              "intermediate_2_driver": "L. Norris",
+              "kmh_2": "216.6",
+              "intermediate_3_driver": "O. Piastri",
+              "kmh_3": "328.1"
+            },
+            {
+              "pos": "3",
+              "intermediate_1_driver": "N. Hulkenberg",
+              "kmh": "189.8",
+              "intermediate_2_driver": "K. Magnussen",
+              "kmh_2": "216.6",
+              "intermediate_3_driver": "C. Sainz",
+              "kmh_3": "326.4"
+            },
+            {
+              "pos": "4",
+              "intermediate_1_driver": "P. Gasly",
+              "kmh": "189.4",
+              "intermediate_2_driver": "C. Leclerc",
+              "kmh_2": "216.5",
+              "intermediate_3_driver": "P. Gasly",
+              "kmh_3": "326.2"
+            },
+            {
+              "pos": "5",
+              "intermediate_1_driver": "C. Leclerc",
+              "kmh": "189.3",
+              "intermediate_2_driver": "G. Russell",
+              "kmh_2": "216.3",
+              "intermediate_3_driver": "E. Ocon",
+              "kmh_3": "326.0"
+            },
+            {
+              "pos": "6",
+              "intermediate_1_driver": "V. Bottas",
+              "kmh": "189.3",
+              "intermediate_2_driver": "C. Sainz",
+              "kmh_2": "215.8",
+              "intermediate_3_driver": "F. Colapinto",
+              "kmh_3": "325.1"
+            },
+            {
+              "pos": "7",
+              "intermediate_1_driver": "O. Piastri",
+              "kmh": "189.2",
+              "intermediate_2_driver": "O. Piastri",
+              "kmh_2": "215.8",
+              "intermediate_3_driver": "L. Hamilton",
+              "kmh_3": "324.5"
+            },
+            {
+              "pos": "8",
+              "intermediate_1_driver": "Y. Tsunoda",
+              "kmh": "189.2",
+              "intermediate_2_driver": "L. Hamilton",
+              "kmh_2": "215.7",
+              "intermediate_3_driver": "N. Hulkenberg",
+              "kmh_3": "324.3"
+            },
+            {
+              "pos": "9",
+              "intermediate_1_driver": "L. Norris",
+              "kmh": "189.0",
+              "intermediate_2_driver": "Y. Tsunoda",
+              "kmh_2": "215.2",
+              "intermediate_3_driver": "L. Norris",
+              "kmh_3": "324.2"
+            },
+            {
+              "pos": "10",
+              "intermediate_1_driver": "M. Verstappen",
+              "kmh": "188.9",
+              "intermediate_2_driver": "P. Gasly",
+              "kmh_2": "215.1",
+              "intermediate_3_driver": "Z. Guanyu",
+              "kmh_3": "324.1"
+            },
+            {
+              "pos": "11",
+              "intermediate_1_driver": "Z. Guanyu",
+              "kmh": "188.2",
+              "intermediate_2_driver": "M. Verstappen",
+              "kmh_2": "214.4",
+              "intermediate_3_driver": "K. Magnussen",
+              "kmh_3": "323.8"
+            },
+            {
+              "pos": "12",
+              "intermediate_1_driver": "L. Hamilton",
+              "kmh": "188.1",
+              "intermediate_2_driver": "Z. Guanyu",
+              "kmh_2": "214.4",
+              "intermediate_3_driver": "S. Perez",
+              "kmh_3": "323.7"
+            },
+            {
+              "pos": "13",
+              "intermediate_1_driver": "E. Ocon",
+              "kmh": "187.3",
+              "intermediate_2_driver": "S. Perez",
+              "kmh_2": "214.3",
+              "intermediate_3_driver": "A. Albon",
+              "kmh_3": "323.3"
+            },
+            {
+              "pos": "14",
+              "intermediate_1_driver": "F. Colapinto",
+              "kmh": "187.1",
+              "intermediate_2_driver": "L. Stroll",
+              "kmh_2": "214.2",
+              "intermediate_3_driver": "F. Alonso",
+              "kmh_3": "323.1"
+            },
+            {
+              "pos": "15",
+              "intermediate_1_driver": "L. Stroll",
+              "kmh": "187.0",
+              "intermediate_2_driver": "L. Lawson",
+              "kmh_2": "214.2",
+              "intermediate_3_driver": "M. Verstappen",
+              "kmh_3": "323.0"
+            },
+            {
+              "pos": "16",
+              "intermediate_1_driver": "S. Perez",
+              "kmh": "186.9",
+              "intermediate_2_driver": "E. Ocon",
+              "kmh_2": "214.0",
+              "intermediate_3_driver": "G. Russell",
+              "kmh_3": "322.3"
+            },
+            {
+              "pos": "17",
+              "intermediate_1_driver": "L. Lawson",
+              "kmh": "186.7",
+              "intermediate_2_driver": "A. Albon",
+              "kmh_2": "214.0",
+              "intermediate_3_driver": "V. Bottas",
+              "kmh_3": "322.1"
+            },
+            {
+              "pos": "18",
+              "intermediate_1_driver": "K. Magnussen",
+              "kmh": "186.4",
+              "intermediate_2_driver": "V. Bottas",
+              "kmh_2": "214.0",
+              "intermediate_3_driver": "Y. Tsunoda",
+              "kmh_3": "322.0"
+            },
+            {
+              "pos": "19",
+              "intermediate_1_driver": "F. Alonso",
+              "kmh": "184.8",
+              "intermediate_2_driver": "F. Colapinto",
+              "kmh_2": "213.1",
+              "intermediate_3_driver": "L. Lawson",
+              "kmh_3": "321.6"
+            },
+            {
+              "pos": "20",
+              "intermediate_1_driver": "A. Albon",
+              "kmh": "184.2",
+              "intermediate_2_driver": "F. Alonso",
+              "kmh_2": "211.9",
+              "intermediate_3_driver": "L. Stroll",
+              "kmh_3": "316.9"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "GRID OFFICIAL",
+          "slug": "grid-official",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "time",
+              "label": "TIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "time": "1:32.312"
+            },
+            {
+              "pos": "2",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "time": "1:32.410"
+            },
+            {
+              "pos": "3",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "time": "1:32.664"
+            },
+            {
+              "pos": "4",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "time": "1:32.783"
+            },
+            {
+              "pos": "5",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "time": "1:32.797"
+            },
+            {
+              "pos": "6",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "time": "1:33.008"
+            },
+            {
+              "pos": "7",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "time": "1:33.029"
+            },
+            {
+              "pos": "8",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "time": "1:33.033"
+            },
+            {
+              "pos": "9",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "time": "1:33.062"
+            },
+            {
+              "pos": "10",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "time": "1:48.106"
+            },
+            {
+              "pos": "11",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "time": "1:33.221"
+            },
+            {
+              "pos": "12",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "time": "1:33.297"
+            },
+            {
+              "pos": "13",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "time": "1:33.566"
+            },
+            {
+              "pos": "14",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "time": "1:34.257"
+            },
+            {
+              "pos": "15",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "time": "1:34.155"
+            },
+            {
+              "pos": "16",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "time": "1:34.258"
+            },
+            {
+              "pos": "17",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "time": "1:34.425"
+            },
+            {
+              "pos": "18",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "time": "1:34.484"
+            },
+            {
+              "pos": "19",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "time": "1:34.430"
+            },
+            {
+              "pos": "20",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "time": "1:33.749"
+            }
+          ],
+          "row_count": 20
+        }
+      ]
+    },
+    {
+      "key": "race_classification",
+      "label": "Race Classification",
+      "title": "Race Classification",
+      "url": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/race-classification",
+      "table_count": 7,
+      "tables": [
+        {
+          "name": "CLASSIFICATION",
+          "slug": "classification",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "laps",
+              "label": "LAPS"
+            },
+            {
+              "key": "time",
+              "label": "TIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "50",
+              "time": "1:22:05.969"
+            },
+            {
+              "pos": "2",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "laps": "50",
+              "time": "1:22:13.282"
+            },
+            {
+              "pos": "3",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "laps": "50",
+              "time": "1:22:17.875"
+            },
+            {
+              "pos": "4",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "laps": "50",
+              "time": "1:22:20.252"
+            },
+            {
+              "pos": "5",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "laps": "50",
+              "time": "1:22:22.551"
+            },
+            {
+              "pos": "6",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "laps": "50",
+              "time": "1:22:49.354"
+            },
+            {
+              "pos": "7",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "laps": "50",
+              "time": "1:22:57.334"
+            },
+            {
+              "pos": "8",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "50",
+              "time": "1:23:05.777"
+            },
+            {
+              "pos": "9",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "50",
+              "time": "1:23:08.777"
+            },
+            {
+              "pos": "10",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "laps": "50",
+              "time": "1:23:09.083"
+            },
+            {
+              "pos": "11",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "50",
+              "time": "1:23:15.164"
+            },
+            {
+              "pos": "12",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "laps": "50",
+              "time": "1:23:15.772"
+            },
+            {
+              "pos": "13",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "50",
+              "time": "1:23:20.054"
+            },
+            {
+              "pos": "14",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "laps": "50",
+              "time": "1:23:21.141"
+            },
+            {
+              "pos": "15",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "laps": "50",
+              "time": "1:23:30.071"
+            },
+            {
+              "pos": "16",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "laps": "50",
+              "time": "1:23:36.974"
+            },
+            {
+              "pos": "17",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "laps": "49",
+              "time": "1:22:08.029"
+            },
+            {
+              "pos": "18",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "laps": "49",
+              "time": "1:22:17.254"
+            },
+            {
+              "pos": "19",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "laps": "25",
+              "time": "0:42:12.021"
+            },
+            {
+              "pos": "20",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "laps": "15",
+              "time": "0:25:36.973"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "FASTEST LAPS",
+          "slug": "fastest-laps",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "laptime",
+              "label": "LAPTIME"
+            },
+            {
+              "key": "lap",
+              "label": "LAP"
+            },
+            {
+              "key": "gap",
+              "label": "GAP"
+            },
+            {
+              "key": "speed",
+              "label": "SPEED"
+            },
+            {
+              "key": "time",
+              "label": "TIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "Lando Norris",
+              "laptime": "1:34.876",
+              "lap": "50",
+              "gap": "+00.000",
+              "speed": "235.292",
+              "time": "23:26:29"
+            },
+            {
+              "pos": "2",
+              "driver": "Lewis Hamilton",
+              "laptime": "1:35.480",
+              "lap": "41",
+              "gap": "+00.604",
+              "speed": "233.803",
+              "time": "23:11:23"
+            },
+            {
+              "pos": "3",
+              "driver": "Charles Leclerc",
+              "laptime": "1:35.674",
+              "lap": "40",
+              "gap": "+00.798",
+              "speed": "233.329",
+              "time": "23:09:55"
+            },
+            {
+              "pos": "4",
+              "driver": "George Russell",
+              "laptime": "1:35.717",
+              "lap": "46",
+              "gap": "+00.841",
+              "speed": "233.225",
+              "time": "23:19:17"
+            },
+            {
+              "pos": "5",
+              "driver": "Carlos Sainz",
+              "laptime": "1:35.875",
+              "lap": "44",
+              "gap": "+00.999",
+              "speed": "232.840",
+              "time": "23:16:20"
+            },
+            {
+              "pos": "6",
+              "driver": "Max Verstappen",
+              "laptime": "1:36.248",
+              "lap": "43",
+              "gap": "+01.372",
+              "speed": "231.938",
+              "time": "23:14:44"
+            },
+            {
+              "pos": "7",
+              "driver": "Zhou Guanyu",
+              "laptime": "1:36.324",
+              "lap": "46",
+              "gap": "+01.448",
+              "speed": "231.755",
+              "time": "23:20:31"
+            },
+            {
+              "pos": "8",
+              "driver": "Sergio Perez",
+              "laptime": "1:36.326",
+              "lap": "42",
+              "gap": "+01.450",
+              "speed": "231.750",
+              "time": "23:13:52"
+            },
+            {
+              "pos": "9",
+              "driver": "Esteban Ocon",
+              "laptime": "1:36.511",
+              "lap": "47",
+              "gap": "+01.635",
+              "speed": "231.306",
+              "time": "23:22:33"
+            },
+            {
+              "pos": "10",
+              "driver": "Fernando Alonso",
+              "laptime": "1:36.553",
+              "lap": "39",
+              "gap": "+01.677",
+              "speed": "231.205",
+              "time": "23:08:57"
+            },
+            {
+              "pos": "11",
+              "driver": "Kevin Magnussen",
+              "laptime": "1:36.557",
+              "lap": "49",
+              "gap": "+01.681",
+              "speed": "231.196",
+              "time": "23:25:18"
+            },
+            {
+              "pos": "12",
+              "driver": "Nico Hulkenberg",
+              "laptime": "1:36.585",
+              "lap": "48",
+              "gap": "+01.709",
+              "speed": "231.129",
+              "time": "23:23:31"
+            },
+            {
+              "pos": "13",
+              "driver": "Oscar Piastri",
+              "laptime": "1:36.598",
+              "lap": "44",
+              "gap": "+01.722",
+              "speed": "231.097",
+              "time": "23:16:52"
+            },
+            {
+              "pos": "14",
+              "driver": "Valtteri Bottas",
+              "laptime": "1:36.601",
+              "lap": "46",
+              "gap": "+01.725",
+              "speed": "231.090",
+              "time": "23:21:03"
+            },
+            {
+              "pos": "15",
+              "driver": "Franco Colapinto",
+              "laptime": "1:36.867",
+              "lap": "37",
+              "gap": "+01.991",
+              "speed": "230.456",
+              "time": "23:05:48"
+            },
+            {
+              "pos": "16",
+              "driver": "Yuki Tsunoda",
+              "laptime": "1:36.957",
+              "lap": "48",
+              "gap": "+02.081",
+              "speed": "230.242",
+              "time": "23:23:33"
+            },
+            {
+              "pos": "17",
+              "driver": "Liam Lawson",
+              "laptime": "1:36.980",
+              "lap": "45",
+              "gap": "+02.104",
+              "speed": "230.187",
+              "time": "23:19:10"
+            },
+            {
+              "pos": "18",
+              "driver": "Lance Stroll",
+              "laptime": "1:37.179",
+              "lap": "43",
+              "gap": "+02.303",
+              "speed": "229.716",
+              "time": "23:15:46"
+            },
+            {
+              "pos": "19",
+              "driver": "Alexander Albon",
+              "laptime": "1:38.008",
+              "lap": "21",
+              "gap": "+03.132",
+              "speed": "227.773",
+              "time": "22:39:03"
+            },
+            {
+              "pos": "20",
+              "driver": "Pierre Gasly",
+              "laptime": "1:38.314",
+              "lap": "13",
+              "gap": "+03.438",
+              "speed": "227.064",
+              "time": "22:25:45"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "BEST SECTOR TIMES",
+          "slug": "best-sector-times",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "sector_1_driver",
+              "label": "SECTOR 1 - DRIVER"
+            },
+            {
+              "key": "time",
+              "label": "TIME"
+            },
+            {
+              "key": "sector_2_driver",
+              "label": "SECTOR 2 - DRIVER"
+            },
+            {
+              "key": "time_2",
+              "label": "TIME"
+            },
+            {
+              "key": "sector_3_driver",
+              "label": "SECTOR 3 - DRIVER"
+            },
+            {
+              "key": "time_3",
+              "label": "TIME"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "sector_1_driver": "L. Norris",
+              "time": "26.777",
+              "sector_2_driver": "G. Russell",
+              "time_2": "31.481",
+              "sector_3_driver": "C. Leclerc",
+              "time_3": "35.779"
+            },
+            {
+              "pos": "2",
+              "sector_1_driver": "L. Hamilton",
+              "time": "27.175",
+              "sector_2_driver": "L. Norris",
+              "time_2": "31.506",
+              "sector_3_driver": "L. Hamilton",
+              "time_3": "36.057"
+            },
+            {
+              "pos": "3",
+              "sector_1_driver": "C. Sainz",
+              "time": "27.246",
+              "sector_2_driver": "V. Bottas",
+              "time_2": "31.876",
+              "sector_3_driver": "L. Norris",
+              "time_3": "36.062"
+            },
+            {
+              "pos": "4",
+              "sector_1_driver": "G. Russell",
+              "time": "27.286",
+              "sector_2_driver": "L. Lawson",
+              "time_2": "31.897",
+              "sector_3_driver": "C. Sainz",
+              "time_3": "36.091"
+            },
+            {
+              "pos": "5",
+              "sector_1_driver": "C. Leclerc",
+              "time": "27.381",
+              "sector_2_driver": "C. Sainz",
+              "time_2": "31.926",
+              "sector_3_driver": "F. Alonso",
+              "time_3": "36.127"
+            },
+            {
+              "pos": "6",
+              "sector_1_driver": "Z. Guanyu",
+              "time": "27.381",
+              "sector_2_driver": "M. Verstappen",
+              "time_2": "31.948",
+              "sector_3_driver": "Z. Guanyu",
+              "time_3": "36.225"
+            },
+            {
+              "pos": "7",
+              "sector_1_driver": "V. Bottas",
+              "time": "27.422",
+              "sector_2_driver": "E. Ocon",
+              "time_2": "32.009",
+              "sector_3_driver": "M. Verstappen",
+              "time_3": "36.226"
+            },
+            {
+              "pos": "8",
+              "sector_1_driver": "S. Perez",
+              "time": "27.440",
+              "sector_2_driver": "L. Hamilton",
+              "time_2": "32.010",
+              "sector_3_driver": "F. Colapinto",
+              "time_3": "36.266"
+            },
+            {
+              "pos": "9",
+              "sector_1_driver": "M. Verstappen",
+              "time": "27.492",
+              "sector_2_driver": "C. Leclerc",
+              "time_2": "32.254",
+              "sector_3_driver": "N. Hulkenberg",
+              "time_3": "36.268"
+            },
+            {
+              "pos": "10",
+              "sector_1_driver": "N. Hulkenberg",
+              "time": "27.503",
+              "sector_2_driver": "S. Perez",
+              "time_2": "32.258",
+              "sector_3_driver": "K. Magnussen",
+              "time_3": "36.291"
+            },
+            {
+              "pos": "11",
+              "sector_1_driver": "O. Piastri",
+              "time": "27.548",
+              "sector_2_driver": "O. Piastri",
+              "time_2": "32.278",
+              "sector_3_driver": "O. Piastri",
+              "time_3": "36.293"
+            },
+            {
+              "pos": "12",
+              "sector_1_driver": "K. Magnussen",
+              "time": "27.566",
+              "sector_2_driver": "N. Hulkenberg",
+              "time_2": "32.365",
+              "sector_3_driver": "G. Russell",
+              "time_3": "36.337"
+            },
+            {
+              "pos": "13",
+              "sector_1_driver": "F. Alonso",
+              "time": "27.623",
+              "sector_2_driver": "Y. Tsunoda",
+              "time_2": "32.377",
+              "sector_3_driver": "Y. Tsunoda",
+              "time_3": "36.418"
+            },
+            {
+              "pos": "14",
+              "sector_1_driver": "F. Colapinto",
+              "time": "27.628",
+              "sector_2_driver": "F. Colapinto",
+              "time_2": "32.427",
+              "sector_3_driver": "E. Ocon",
+              "time_3": "36.419"
+            },
+            {
+              "pos": "15",
+              "sector_1_driver": "E. Ocon",
+              "time": "27.695",
+              "sector_2_driver": "Z. Guanyu",
+              "time_2": "32.470",
+              "sector_3_driver": "S. Perez",
+              "time_3": "36.452"
+            },
+            {
+              "pos": "16",
+              "sector_1_driver": "L. Lawson",
+              "time": "27.713",
+              "sector_2_driver": "L. Stroll",
+              "time_2": "32.511",
+              "sector_3_driver": "P. Gasly",
+              "time_3": "36.561"
+            },
+            {
+              "pos": "17",
+              "sector_1_driver": "Y. Tsunoda",
+              "time": "27.833",
+              "sector_2_driver": "K. Magnussen",
+              "time_2": "32.609",
+              "sector_3_driver": "L. Stroll",
+              "time_3": "36.565"
+            },
+            {
+              "pos": "18",
+              "sector_1_driver": "L. Stroll",
+              "time": "27.940",
+              "sector_2_driver": "F. Alonso",
+              "time_2": "32.619",
+              "sector_3_driver": "V. Bottas",
+              "time_3": "36.582"
+            },
+            {
+              "pos": "19",
+              "sector_1_driver": "A. Albon",
+              "time": "28.052",
+              "sector_2_driver": "A. Albon",
+              "time_2": "32.971",
+              "sector_3_driver": "L. Lawson",
+              "time_3": "36.699"
+            },
+            {
+              "pos": "20",
+              "sector_1_driver": "P. Gasly",
+              "time": "28.549",
+              "sector_2_driver": "P. Gasly",
+              "time_2": "33.057",
+              "sector_3_driver": "A. Albon",
+              "time_3": "36.723"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "SPEED TRAP",
+          "slug": "speed-trap",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "kmh",
+              "label": "KM/H"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "kmh": "350.5"
+            },
+            {
+              "pos": "2",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "kmh": "347.8"
+            },
+            {
+              "pos": "3",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "kmh": "345.2"
+            },
+            {
+              "pos": "4",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "kmh": "343.8"
+            },
+            {
+              "pos": "5",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "kmh": "339.8"
+            },
+            {
+              "pos": "6",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "kmh": "339.7"
+            },
+            {
+              "pos": "7",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "kmh": "338.7"
+            },
+            {
+              "pos": "8",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "kmh": "337.5"
+            },
+            {
+              "pos": "9",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "kmh": "337.2"
+            },
+            {
+              "pos": "10",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "kmh": "334.8"
+            },
+            {
+              "pos": "11",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "kmh": "330.8"
+            },
+            {
+              "pos": "12",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "kmh": "330.3"
+            },
+            {
+              "pos": "13",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "kmh": "329.5"
+            },
+            {
+              "pos": "14",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "kmh": "327.8"
+            },
+            {
+              "pos": "15",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "kmh": "326.7"
+            },
+            {
+              "pos": "16",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "kmh": "325.4"
+            },
+            {
+              "pos": "17",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "kmh": "325.3"
+            },
+            {
+              "pos": "18",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "kmh": "323.5"
+            },
+            {
+              "pos": "19",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "kmh": "321.1"
+            },
+            {
+              "pos": "20",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "kmh": "319.5"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "MAXIMUM SPEEDS",
+          "slug": "maximum-speeds",
+          "columns": [
+            {
+              "key": "pos",
+              "label": "POS"
+            },
+            {
+              "key": "intermediate_1_driver",
+              "label": "INTERMEDIATE 1 - DRIVER"
+            },
+            {
+              "key": "kmh",
+              "label": "KM/H"
+            },
+            {
+              "key": "intermediate_2_driver",
+              "label": "INTERMEDIATE 2 - DRIVER"
+            },
+            {
+              "key": "kmh_2",
+              "label": "KM/H"
+            },
+            {
+              "key": "intermediate_3_driver",
+              "label": "INTERMEDIATE 3 - DRIVER"
+            },
+            {
+              "key": "kmh_3",
+              "label": "KM/H"
+            }
+          ],
+          "rows": [
+            {
+              "pos": "1",
+              "intermediate_1_driver": "N. Hulkenberg",
+              "kmh": "186.8",
+              "intermediate_2_driver": "N. Hulkenberg",
+              "kmh_2": "215.5",
+              "intermediate_3_driver": "C. Leclerc",
+              "kmh_3": "334.1"
+            },
+            {
+              "pos": "2",
+              "intermediate_1_driver": "L. Norris",
+              "kmh": "186.7",
+              "intermediate_2_driver": "C. Leclerc",
+              "kmh_2": "214.6",
+              "intermediate_3_driver": "E. Ocon",
+              "kmh_3": "330.0"
+            },
+            {
+              "pos": "3",
+              "intermediate_1_driver": "V. Bottas",
+              "kmh": "186.3",
+              "intermediate_2_driver": "L. Norris",
+              "kmh_2": "214.5",
+              "intermediate_3_driver": "P. Gasly",
+              "kmh_3": "329.2"
+            },
+            {
+              "pos": "4",
+              "intermediate_1_driver": "E. Ocon",
+              "kmh": "186.0",
+              "intermediate_2_driver": "Z. Guanyu",
+              "kmh_2": "214.3",
+              "intermediate_3_driver": "F. Alonso",
+              "kmh_3": "328.8"
+            },
+            {
+              "pos": "5",
+              "intermediate_1_driver": "L. Hamilton",
+              "kmh": "185.8",
+              "intermediate_2_driver": "L. Hamilton",
+              "kmh_2": "213.6",
+              "intermediate_3_driver": "C. Sainz",
+              "kmh_3": "328.5"
+            },
+            {
+              "pos": "6",
+              "intermediate_1_driver": "Z. Guanyu",
+              "kmh": "185.5",
+              "intermediate_2_driver": "C. Sainz",
+              "kmh_2": "213.1",
+              "intermediate_3_driver": "M. Verstappen",
+              "kmh_3": "328.4"
+            },
+            {
+              "pos": "7",
+              "intermediate_1_driver": "G. Russell",
+              "kmh": "185.2",
+              "intermediate_2_driver": "S. Perez",
+              "kmh_2": "212.8",
+              "intermediate_3_driver": "S. Perez",
+              "kmh_3": "328.2"
+            },
+            {
+              "pos": "8",
+              "intermediate_1_driver": "O. Piastri",
+              "kmh": "184.9",
+              "intermediate_2_driver": "M. Verstappen",
+              "kmh_2": "212.7",
+              "intermediate_3_driver": "F. Colapinto",
+              "kmh_3": "327.9"
+            },
+            {
+              "pos": "9",
+              "intermediate_1_driver": "M. Verstappen",
+              "kmh": "184.7",
+              "intermediate_2_driver": "V. Bottas",
+              "kmh_2": "212.6",
+              "intermediate_3_driver": "L. Norris",
+              "kmh_3": "327.4"
+            },
+            {
+              "pos": "10",
+              "intermediate_1_driver": "C. Sainz",
+              "kmh": "184.7",
+              "intermediate_2_driver": "G. Russell",
+              "kmh_2": "212.5",
+              "intermediate_3_driver": "L. Hamilton",
+              "kmh_3": "327.3"
+            },
+            {
+              "pos": "11",
+              "intermediate_1_driver": "L. Stroll",
+              "kmh": "184.6",
+              "intermediate_2_driver": "L. Stroll",
+              "kmh_2": "212.5",
+              "intermediate_3_driver": "K. Magnussen",
+              "kmh_3": "327.3"
+            },
+            {
+              "pos": "12",
+              "intermediate_1_driver": "C. Leclerc",
+              "kmh": "184.5",
+              "intermediate_2_driver": "K. Magnussen",
+              "kmh_2": "212.2",
+              "intermediate_3_driver": "L. Stroll",
+              "kmh_3": "326.1"
+            },
+            {
+              "pos": "13",
+              "intermediate_1_driver": "L. Lawson",
+              "kmh": "184.5",
+              "intermediate_2_driver": "L. Lawson",
+              "kmh_2": "212.1",
+              "intermediate_3_driver": "Y. Tsunoda",
+              "kmh_3": "326.1"
+            },
+            {
+              "pos": "14",
+              "intermediate_1_driver": "Y. Tsunoda",
+              "kmh": "184.4",
+              "intermediate_2_driver": "O. Piastri",
+              "kmh_2": "211.4",
+              "intermediate_3_driver": "O. Piastri",
+              "kmh_3": "324.7"
+            },
+            {
+              "pos": "15",
+              "intermediate_1_driver": "F. Alonso",
+              "kmh": "183.6",
+              "intermediate_2_driver": "F. Alonso",
+              "kmh_2": "211.4",
+              "intermediate_3_driver": "N. Hulkenberg",
+              "kmh_3": "324.5"
+            },
+            {
+              "pos": "16",
+              "intermediate_1_driver": "S. Perez",
+              "kmh": "183.5",
+              "intermediate_2_driver": "F. Colapinto",
+              "kmh_2": "211.4",
+              "intermediate_3_driver": "G. Russell",
+              "kmh_3": "324.2"
+            },
+            {
+              "pos": "17",
+              "intermediate_1_driver": "F. Colapinto",
+              "kmh": "182.8",
+              "intermediate_2_driver": "Y. Tsunoda",
+              "kmh_2": "211.2",
+              "intermediate_3_driver": "V. Bottas",
+              "kmh_3": "323.4"
+            },
+            {
+              "pos": "18",
+              "intermediate_1_driver": "K. Magnussen",
+              "kmh": "182.0",
+              "intermediate_2_driver": "E. Ocon",
+              "kmh_2": "210.9",
+              "intermediate_3_driver": "Z. Guanyu",
+              "kmh_3": "323.1"
+            },
+            {
+              "pos": "19",
+              "intermediate_1_driver": "A. Albon",
+              "kmh": "180.8",
+              "intermediate_2_driver": "A. Albon",
+              "kmh_2": "209.0",
+              "intermediate_3_driver": "L. Lawson",
+              "kmh_3": "322.5"
+            },
+            {
+              "pos": "20",
+              "intermediate_1_driver": "P. Gasly",
+              "kmh": "177.7",
+              "intermediate_2_driver": "P. Gasly",
+              "kmh_2": "207.8",
+              "intermediate_3_driver": "A. Albon",
+              "kmh_3": "322.0"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "PIT STOP SUMMARY",
+          "slug": "pit-stop-summary",
+          "columns": [
+            {
+              "key": "no",
+              "label": "NO"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "team",
+              "label": "TEAM"
+            },
+            {
+              "key": "stops",
+              "label": "STOPS"
+            },
+            {
+              "key": "total_time",
+              "label": "TOTAL TIME"
+            }
+          ],
+          "rows": [
+            {
+              "no": "20",
+              "driver": "Kevin Magnussen",
+              "team": "MoneyGram Haas F1 Team",
+              "stops": "1",
+              "total_time": "21.963"
+            },
+            {
+              "no": "23",
+              "driver": "Alexander Albon",
+              "team": "Williams Racing",
+              "stops": "1",
+              "total_time": "22.012"
+            },
+            {
+              "no": "10",
+              "driver": "Pierre Gasly",
+              "team": "BWT Alpine F1 Team",
+              "stops": "1",
+              "total_time": "22.179"
+            },
+            {
+              "no": "30",
+              "driver": "Liam Lawson",
+              "team": "Visa Cash App RB F1 Team",
+              "stops": "2",
+              "total_time": "41.691"
+            },
+            {
+              "no": "55",
+              "driver": "Carlos Sainz",
+              "team": "Scuderia Ferrari",
+              "stops": "2",
+              "total_time": "41.927"
+            },
+            {
+              "no": "63",
+              "driver": "George Russell",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "stops": "2",
+              "total_time": "42.047"
+            },
+            {
+              "no": "11",
+              "driver": "Sergio Perez",
+              "team": "Oracle Red Bull Racing",
+              "stops": "2",
+              "total_time": "42.328"
+            },
+            {
+              "no": "22",
+              "driver": "Yuki Tsunoda",
+              "team": "Visa Cash App RB F1 Team",
+              "stops": "2",
+              "total_time": "42.376"
+            },
+            {
+              "no": "43",
+              "driver": "Franco Colapinto",
+              "team": "Williams Racing",
+              "stops": "2",
+              "total_time": "42.391"
+            },
+            {
+              "no": "44",
+              "driver": "Lewis Hamilton",
+              "team": "Mercedes-AMG PETRONAS F1 Team",
+              "stops": "2",
+              "total_time": "42.422"
+            },
+            {
+              "no": "14",
+              "driver": "Fernando Alonso",
+              "team": "Aston Martin Aramco F1 Team",
+              "stops": "2",
+              "total_time": "42.814"
+            },
+            {
+              "no": "16",
+              "driver": "Charles Leclerc",
+              "team": "Scuderia Ferrari",
+              "stops": "2",
+              "total_time": "42.914"
+            },
+            {
+              "no": "1",
+              "driver": "Max Verstappen",
+              "team": "Oracle Red Bull Racing",
+              "stops": "2",
+              "total_time": "42.951"
+            },
+            {
+              "no": "27",
+              "driver": "Nico Hulkenberg",
+              "team": "MoneyGram Haas F1 Team",
+              "stops": "2",
+              "total_time": "43.213"
+            },
+            {
+              "no": "77",
+              "driver": "Valtteri Bottas",
+              "team": "Stake F1 Team Kick Sauber",
+              "stops": "2",
+              "total_time": "44.444"
+            },
+            {
+              "no": "24",
+              "driver": "Zhou Guanyu",
+              "team": "Stake F1 Team Kick Sauber",
+              "stops": "2",
+              "total_time": "44.721"
+            },
+            {
+              "no": "81",
+              "driver": "Oscar Piastri",
+              "team": "McLaren Formula 1 Team",
+              "stops": "2",
+              "total_time": "48.814"
+            },
+            {
+              "no": "18",
+              "driver": "Lance Stroll",
+              "team": "Aston Martin Aramco F1 Team",
+              "stops": "2",
+              "total_time": "56.451"
+            },
+            {
+              "no": "31",
+              "driver": "Esteban Ocon",
+              "team": "BWT Alpine F1 Team",
+              "stops": "3",
+              "total_time": "58.790"
+            },
+            {
+              "no": "4",
+              "driver": "Lando Norris",
+              "team": "McLaren Formula 1 Team",
+              "stops": "3",
+              "total_time": "1:02.921"
+            }
+          ],
+          "row_count": 20
+        },
+        {
+          "name": "PIT STOP DETAIL",
+          "slug": "pit-stop-detail",
+          "columns": [
+            {
+              "key": "no",
+              "label": "NO"
+            },
+            {
+              "key": "driver",
+              "label": "DRIVER"
+            },
+            {
+              "key": "lap",
+              "label": "LAP"
+            },
+            {
+              "key": "time",
+              "label": "TIME"
+            },
+            {
+              "key": "stop",
+              "label": "STOP"
+            },
+            {
+              "key": "duration",
+              "label": "DURATION"
+            },
+            {
+              "key": "total_time",
+              "label": "TOTAL TIME"
+            }
+          ],
+          "rows": [
+            {
+              "no": "14",
+              "driver": "Fernando Alonso",
+              "lap": "4",
+              "time": "22:10:35",
+              "stop": "1",
+              "duration": "21.407",
+              "total_time": "21.407"
+            },
+            {
+              "no": "16",
+              "driver": "Charles Leclerc",
+              "lap": "9",
+              "time": "22:18:44",
+              "stop": "1",
+              "duration": "21.329",
+              "total_time": "21.329"
+            },
+            {
+              "no": "4",
+              "driver": "Lando Norris",
+              "lap": "9",
+              "time": "22:18:45",
+              "stop": "1",
+              "duration": "21.194",
+              "total_time": "21.194"
+            },
+            {
+              "no": "23",
+              "driver": "Alexander Albon",
+              "lap": "9",
+              "time": "22:18:56",
+              "stop": "1",
+              "duration": "22.012",
+              "total_time": "22.012"
+            },
+            {
+              "no": "18",
+              "driver": "Lance Stroll",
+              "lap": "9",
+              "time": "22:18:57",
+              "stop": "1",
+              "duration": "34.863",
+              "total_time": "34.863"
+            },
+            {
+              "no": "55",
+              "driver": "Carlos Sainz",
+              "lap": "10",
+              "time": "22:20:21",
+              "stop": "1",
+              "duration": "21.048",
+              "total_time": "21.048"
+            },
+            {
+              "no": "10",
+              "driver": "Pierre Gasly",
+              "lap": "10",
+              "time": "22:20:28",
+              "stop": "1",
+              "duration": "22.179",
+              "total_time": "22.179"
+            },
+            {
+              "no": "22",
+              "driver": "Yuki Tsunoda",
+              "lap": "10",
+              "time": "22:20:29",
+              "stop": "1",
+              "duration": "21.168",
+              "total_time": "21.168"
+            },
+            {
+              "no": "81",
+              "driver": "Oscar Piastri",
+              "lap": "10",
+              "time": "22:20:30",
+              "stop": "1",
+              "duration": "27.732",
+              "total_time": "27.732"
+            },
+            {
+              "no": "1",
+              "driver": "Max Verstappen",
+              "lap": "11",
+              "time": "22:21:59",
+              "stop": "1",
+              "duration": "20.697",
+              "total_time": "20.697"
+            },
+            {
+              "no": "31",
+              "driver": "Esteban Ocon",
+              "lap": "11",
+              "time": "22:22:13",
+              "stop": "1",
+              "duration": "15.790",
+              "total_time": "15.790"
+            },
+            {
+              "no": "24",
+              "driver": "Zhou Guanyu",
+              "lap": "11",
+              "time": "22:22:14",
+              "stop": "1",
+              "duration": "22.960",
+              "total_time": "22.960"
+            },
+            {
+              "no": "30",
+              "driver": "Liam Lawson",
+              "lap": "11",
+              "time": "22:22:17",
+              "stop": "1",
+              "duration": "21.049",
+              "total_time": "21.049"
+            },
+            {
+              "no": "63",
+              "driver": "George Russell",
+              "lap": "12",
+              "time": "22:23:29",
+              "stop": "1",
+              "duration": "21.072",
+              "total_time": "21.072"
+            },
+            {
+              "no": "31",
+              "driver": "Esteban Ocon",
+              "lap": "12",
+              "time": "22:24:07",
+              "stop": "2",
+              "duration": "21.142",
+              "total_time": "36.932"
+            },
+            {
+              "no": "44",
+              "driver": "Lewis Hamilton",
+              "lap": "13",
+              "time": "22:25:24",
+              "stop": "1",
+              "duration": "21.067",
+              "total_time": "21.067"
+            },
+            {
+              "no": "27",
+              "driver": "Nico Hulkenberg",
+              "lap": "14",
+              "time": "22:27:15",
+              "stop": "1",
+              "duration": "21.511",
+              "total_time": "21.511"
+            },
+            {
+              "no": "43",
+              "driver": "Franco Colapinto",
+              "lap": "16",
+              "time": "22:30:50",
+              "stop": "1",
+              "duration": "21.170",
+              "total_time": "21.170"
+            },
+            {
+              "no": "11",
+              "driver": "Sergio Perez",
+              "lap": "17",
+              "time": "22:32:20",
+              "stop": "1",
+              "duration": "21.294",
+              "total_time": "21.294"
+            },
+            {
+              "no": "20",
+              "driver": "Kevin Magnussen",
+              "lap": "17",
+              "time": "22:32:31",
+              "stop": "1",
+              "duration": "21.963",
+              "total_time": "21.963"
+            },
+            {
+              "no": "77",
+              "driver": "Valtteri Bottas",
+              "lap": "17",
+              "time": "22:32:34",
+              "stop": "1",
+              "duration": "21.623",
+              "total_time": "21.623"
+            },
+            {
+              "no": "14",
+              "driver": "Fernando Alonso",
+              "lap": "24",
+              "time": "22:44:09",
+              "stop": "2",
+              "duration": "21.407",
+              "total_time": "42.814"
+            },
+            {
+              "no": "81",
+              "driver": "Oscar Piastri",
+              "lap": "25",
+              "time": "22:45:37",
+              "stop": "2",
+              "duration": "21.082",
+              "total_time": "48.814"
+            },
+            {
+              "no": "43",
+              "driver": "Franco Colapinto",
+              "lap": "26",
+              "time": "22:47:34",
+              "stop": "2",
+              "duration": "21.221",
+              "total_time": "42.391"
+            },
+            {
+              "no": "1",
+              "driver": "Max Verstappen",
+              "lap": "27",
+              "time": "22:48:30",
+              "stop": "2",
+              "duration": "22.254",
+              "total_time": "42.951"
+            },
+            {
+              "no": "44",
+              "driver": "Lewis Hamilton",
+              "lap": "27",
+              "time": "22:48:34",
+              "stop": "2",
+              "duration": "21.355",
+              "total_time": "42.422"
+            },
+            {
+              "no": "55",
+              "driver": "Carlos Sainz",
+              "lap": "28",
+              "time": "22:50:14",
+              "stop": "2",
+              "duration": "20.879",
+              "total_time": "41.927"
+            },
+            {
+              "no": "18",
+              "driver": "Lance Stroll",
+              "lap": "28",
+              "time": "22:50:55",
+              "stop": "2",
+              "duration": "21.588",
+              "total_time": "56.451"
+            },
+            {
+              "no": "22",
+              "driver": "Yuki Tsunoda",
+              "lap": "29",
+              "time": "22:52:13",
+              "stop": "2",
+              "duration": "21.208",
+              "total_time": "42.376"
+            },
+            {
+              "no": "4",
+              "driver": "Lando Norris",
+              "lap": "30",
+              "time": "22:53:40",
+              "stop": "2",
+              "duration": "20.668",
+              "total_time": "41.862"
+            },
+            {
+              "no": "16",
+              "driver": "Charles Leclerc",
+              "lap": "31",
+              "time": "22:55:05",
+              "stop": "2",
+              "duration": "21.585",
+              "total_time": "42.914"
+            },
+            {
+              "no": "63",
+              "driver": "George Russell",
+              "lap": "32",
+              "time": "22:56:26",
+              "stop": "2",
+              "duration": "20.975",
+              "total_time": "42.047"
+            },
+            {
+              "no": "11",
+              "driver": "Sergio Perez",
+              "lap": "32",
+              "time": "22:57:18",
+              "stop": "2",
+              "duration": "21.034",
+              "total_time": "42.328"
+            },
+            {
+              "no": "27",
+              "driver": "Nico Hulkenberg",
+              "lap": "33",
+              "time": "22:58:49",
+              "stop": "2",
+              "duration": "21.702",
+              "total_time": "43.213"
+            },
+            {
+              "no": "24",
+              "driver": "Zhou Guanyu",
+              "lap": "34",
+              "time": "23:00:44",
+              "stop": "2",
+              "duration": "21.761",
+              "total_time": "44.721"
+            },
+            {
+              "no": "77",
+              "driver": "Valtteri Bottas",
+              "lap": "35",
+              "time": "23:02:48",
+              "stop": "2",
+              "duration": "22.821",
+              "total_time": "44.444"
+            },
+            {
+              "no": "30",
+              "driver": "Liam Lawson",
+              "lap": "38",
+              "time": "23:07:28",
+              "stop": "2",
+              "duration": "20.642",
+              "total_time": "41.691"
+            },
+            {
+              "no": "31",
+              "driver": "Esteban Ocon",
+              "lap": "45",
+              "time": "23:18:59",
+              "stop": "3",
+              "duration": "21.858",
+              "total_time": "58.790"
+            },
+            {
+              "no": "4",
+              "driver": "Lando Norris",
+              "lap": "48",
+              "time": "23:22:59",
+              "stop": "3",
+              "duration": "21.059",
+              "total_time": "1:02.921"
+            }
+          ],
+          "row_count": 39
+        }
+      ]
+    }
+  ],
+  "session_page_url": "https://www.fia.com/events/fia-formula-one-world-championship/season-2024/las-vegas-grand-prix/session-classifications",
+  "session_count": 6,
+  "sessions": [
+    {
+      "name": "PRACTICE1",
+      "slug": "practice1",
+      "columns": [
+        {
+          "key": "pos",
+          "label": "POS"
+        },
+        {
+          "key": "driver",
+          "label": "DRIVER"
+        },
+        {
+          "key": "team",
+          "label": "TEAM"
+        },
+        {
+          "key": "laps",
+          "label": "LAPS"
+        },
+        {
+          "key": "speed",
+          "label": "SPEED"
+        },
+        {
+          "key": "laptime",
+          "label": "LAPTIME"
+        }
+      ],
+      "rows": [
+        {
+          "pos": "1",
+          "driver": "Lewis Hamilton",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "laps": "26",
+          "speed": "234.982",
+          "laptime": "1:35.001"
+        },
+        {
+          "pos": "2",
+          "driver": "George Russell",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "laps": "29",
+          "speed": "234.007",
+          "laptime": "1:35.397"
+        },
+        {
+          "pos": "3",
+          "driver": "Lando Norris",
+          "team": "McLaren Formula 1 Team",
+          "laps": "27",
+          "speed": "232.648",
+          "laptime": "1:35.954"
+        },
+        {
+          "pos": "4",
+          "driver": "Charles Leclerc",
+          "team": "Scuderia Ferrari",
+          "laps": "27",
+          "speed": "232.520",
+          "laptime": "1:36.007"
+        },
+        {
+          "pos": "5",
+          "driver": "Max Verstappen",
+          "team": "Oracle Red Bull Racing",
+          "laps": "25",
+          "speed": "232.445",
+          "laptime": "1:36.038"
+        },
+        {
+          "pos": "6",
+          "driver": "Carlos Sainz",
+          "team": "Scuderia Ferrari",
+          "laps": "26",
+          "speed": "232.010",
+          "laptime": "1:36.218"
+        },
+        {
+          "pos": "7",
+          "driver": "Fernando Alonso",
+          "team": "Aston Martin Aramco F1 Team",
+          "laps": "25",
+          "speed": "231.904",
+          "laptime": "1:36.262"
+        },
+        {
+          "pos": "8",
+          "driver": "Oscar Piastri",
+          "team": "McLaren Formula 1 Team",
+          "laps": "26",
+          "speed": "231.450",
+          "laptime": "1:36.451"
+        },
+        {
+          "pos": "9",
+          "driver": "Pierre Gasly",
+          "team": "BWT Alpine F1 Team",
+          "laps": "24",
+          "speed": "231.385",
+          "laptime": "1:36.478"
+        },
+        {
+          "pos": "10",
+          "driver": "Sergio Perez",
+          "team": "Oracle Red Bull Racing",
+          "laps": "25",
+          "speed": "231.246",
+          "laptime": "1:36.536"
+        },
+        {
+          "pos": "11",
+          "driver": "Kevin Magnussen",
+          "team": "MoneyGram Haas F1 Team",
+          "laps": "24",
+          "speed": "230.589",
+          "laptime": "1:36.811"
+        },
+        {
+          "pos": "12",
+          "driver": "Lance Stroll",
+          "team": "Aston Martin Aramco F1 Team",
+          "laps": "25",
+          "speed": "230.575",
+          "laptime": "1:36.817"
+        },
+        {
+          "pos": "13",
+          "driver": "Alexander Albon",
+          "team": "Williams Racing",
+          "laps": "26",
+          "speed": "230.263",
+          "laptime": "1:36.948"
+        },
+        {
+          "pos": "14",
+          "driver": "Esteban Ocon",
+          "team": "BWT Alpine F1 Team",
+          "laps": "25",
+          "speed": "229.780",
+          "laptime": "1:37.152"
+        },
+        {
+          "pos": "15",
+          "driver": "Nico Hulkenberg",
+          "team": "MoneyGram Haas F1 Team",
+          "laps": "24",
+          "speed": "229.666",
+          "laptime": "1:37.200"
+        },
+        {
+          "pos": "16",
+          "driver": "Valtteri Bottas",
+          "team": "Stake F1 Team Kick Sauber",
+          "laps": "25",
+          "speed": "228.339",
+          "laptime": "1:37.765"
+        },
+        {
+          "pos": "17",
+          "driver": "Franco Colapinto",
+          "team": "Williams Racing",
+          "laps": "28",
+          "speed": "227.733",
+          "laptime": "1:38.025"
+        },
+        {
+          "pos": "18",
+          "driver": "Zhou Guanyu",
+          "team": "Stake F1 Team Kick Sauber",
+          "laps": "23",
+          "speed": "226.981",
+          "laptime": "1:38.350"
+        },
+        {
+          "pos": "19",
+          "driver": "Yuki Tsunoda",
+          "team": "Visa Cash App RB F1 Team",
+          "laps": "23",
+          "speed": "226.465",
+          "laptime": "1:38.574"
+        },
+        {
+          "pos": "20",
+          "driver": "Liam Lawson",
+          "team": "Visa Cash App RB F1 Team",
+          "laps": "28",
+          "speed": "226.107",
+          "laptime": "1:38.730"
+        }
+      ],
+      "row_count": 20
+    },
+    {
+      "name": "PRACTICE2",
+      "slug": "practice2",
+      "columns": [
+        {
+          "key": "pos",
+          "label": "POS"
+        },
+        {
+          "key": "driver",
+          "label": "DRIVER"
+        },
+        {
+          "key": "team",
+          "label": "TEAM"
+        },
+        {
+          "key": "laps",
+          "label": "LAPS"
+        },
+        {
+          "key": "speed",
+          "label": "SPEED"
+        },
+        {
+          "key": "laptime",
+          "label": "LAPTIME"
+        }
+      ],
+      "rows": [
+        {
+          "pos": "1",
+          "driver": "Lewis Hamilton",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "laps": "25",
+          "speed": "237.928",
+          "laptime": "1:33.825"
+        },
+        {
+          "pos": "2",
+          "driver": "Lando Norris",
+          "team": "McLaren Formula 1 Team",
+          "laps": "25",
+          "speed": "237.900",
+          "laptime": "1:33.836"
+        },
+        {
+          "pos": "3",
+          "driver": "George Russell",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "laps": "29",
+          "speed": "237.447",
+          "laptime": "1:34.015"
+        },
+        {
+          "pos": "4",
+          "driver": "Carlos Sainz",
+          "team": "Scuderia Ferrari",
+          "laps": "29",
+          "speed": "237.220",
+          "laptime": "1:34.105"
+        },
+        {
+          "pos": "5",
+          "driver": "Charles Leclerc",
+          "team": "Scuderia Ferrari",
+          "laps": "29",
+          "speed": "236.696",
+          "laptime": "1:34.313"
+        },
+        {
+          "pos": "6",
+          "driver": "Pierre Gasly",
+          "team": "BWT Alpine F1 Team",
+          "laps": "30",
+          "speed": "235.851",
+          "laptime": "1:34.651"
+        },
+        {
+          "pos": "7",
+          "driver": "Kevin Magnussen",
+          "team": "MoneyGram Haas F1 Team",
+          "laps": "20",
+          "speed": "235.764",
+          "laptime": "1:34.686"
+        },
+        {
+          "pos": "8",
+          "driver": "Oscar Piastri",
+          "team": "McLaren Formula 1 Team",
+          "laps": "26",
+          "speed": "235.485",
+          "laptime": "1:34.798"
+        },
+        {
+          "pos": "9",
+          "driver": "Nico Hulkenberg",
+          "team": "MoneyGram Haas F1 Team",
+          "laps": "24",
+          "speed": "235.436",
+          "laptime": "1:34.818"
+        },
+        {
+          "pos": "10",
+          "driver": "Yuki Tsunoda",
+          "team": "Visa Cash App RB F1 Team",
+          "laps": "23",
+          "speed": "234.992",
+          "laptime": "1:34.997"
+        },
+        {
+          "pos": "11",
+          "driver": "Valtteri Bottas",
+          "team": "Stake F1 Team Kick Sauber",
+          "laps": "28",
+          "speed": "234.935",
+          "laptime": "1:35.020"
+        },
+        {
+          "pos": "12",
+          "driver": "Esteban Ocon",
+          "team": "BWT Alpine F1 Team",
+          "laps": "26",
+          "speed": "234.439",
+          "laptime": "1:35.221"
+        },
+        {
+          "pos": "13",
+          "driver": "Lance Stroll",
+          "team": "Aston Martin Aramco F1 Team",
+          "laps": "27",
+          "speed": "234.366",
+          "laptime": "1:35.251"
+        },
+        {
+          "pos": "14",
+          "driver": "Fernando Alonso",
+          "team": "Aston Martin Aramco F1 Team",
+          "laps": "25",
+          "speed": "233.901",
+          "laptime": "1:35.440"
+        },
+        {
+          "pos": "15",
+          "driver": "Liam Lawson",
+          "team": "Visa Cash App RB F1 Team",
+          "laps": "24",
+          "speed": "233.337",
+          "laptime": "1:35.671"
+        },
+        {
+          "pos": "16",
+          "driver": "Zhou Guanyu",
+          "team": "Stake F1 Team Kick Sauber",
+          "laps": "28",
+          "speed": "233.108",
+          "laptime": "1:35.765"
+        },
+        {
+          "pos": "17",
+          "driver": "Max Verstappen",
+          "team": "Oracle Red Bull Racing",
+          "laps": "25",
+          "speed": "232.940",
+          "laptime": "1:35.834"
+        },
+        {
+          "pos": "18",
+          "driver": "Franco Colapinto",
+          "team": "Williams Racing",
+          "laps": "30",
+          "speed": "232.857",
+          "laptime": "1:35.868"
+        },
+        {
+          "pos": "19",
+          "driver": "Sergio Perez",
+          "team": "Oracle Red Bull Racing",
+          "laps": "25",
+          "speed": "232.404",
+          "laptime": "1:36.055"
+        },
+        {
+          "pos": "20",
+          "driver": "Alexander Albon",
+          "team": "Williams Racing",
+          "laps": "4",
+          "speed": "224.067",
+          "laptime": "1:39.629"
+        }
+      ],
+      "row_count": 20
+    },
+    {
+      "name": "PRACTICE3",
+      "slug": "practice3",
+      "columns": [
+        {
+          "key": "pos",
+          "label": "POS"
+        },
+        {
+          "key": "driver",
+          "label": "DRIVER"
+        },
+        {
+          "key": "team",
+          "label": "TEAM"
+        },
+        {
+          "key": "laps",
+          "label": "LAPS"
+        },
+        {
+          "key": "speed",
+          "label": "SPEED"
+        },
+        {
+          "key": "laptime",
+          "label": "LAPTIME"
+        }
+      ],
+      "rows": [
+        {
+          "pos": "1",
+          "driver": "George Russell",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "laps": "18",
+          "speed": "238.576",
+          "laptime": "1:33.570"
+        },
+        {
+          "pos": "2",
+          "driver": "Oscar Piastri",
+          "team": "McLaren Formula 1 Team",
+          "laps": "14",
+          "speed": "238.029",
+          "laptime": "1:33.785"
+        },
+        {
+          "pos": "3",
+          "driver": "Carlos Sainz",
+          "team": "Scuderia Ferrari",
+          "laps": "16",
+          "speed": "237.692",
+          "laptime": "1:33.918"
+        },
+        {
+          "pos": "4",
+          "driver": "Lando Norris",
+          "team": "McLaren Formula 1 Team",
+          "laps": "14",
+          "speed": "237.464",
+          "laptime": "1:34.008"
+        },
+        {
+          "pos": "5",
+          "driver": "Max Verstappen",
+          "team": "Oracle Red Bull Racing",
+          "laps": "17",
+          "speed": "237.139",
+          "laptime": "1:34.137"
+        },
+        {
+          "pos": "6",
+          "driver": "Lewis Hamilton",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "laps": "17",
+          "speed": "236.626",
+          "laptime": "1:34.341"
+        },
+        {
+          "pos": "7",
+          "driver": "Alexander Albon",
+          "team": "Williams Racing",
+          "laps": "15",
+          "speed": "236.461",
+          "laptime": "1:34.407"
+        },
+        {
+          "pos": "8",
+          "driver": "Franco Colapinto",
+          "team": "Williams Racing",
+          "laps": "15",
+          "speed": "235.672",
+          "laptime": "1:34.723"
+        },
+        {
+          "pos": "9",
+          "driver": "Kevin Magnussen",
+          "team": "MoneyGram Haas F1 Team",
+          "laps": "13",
+          "speed": "235.275",
+          "laptime": "1:34.883"
+        },
+        {
+          "pos": "10",
+          "driver": "Pierre Gasly",
+          "team": "BWT Alpine F1 Team",
+          "laps": "15",
+          "speed": "235.220",
+          "laptime": "1:34.905"
+        },
+        {
+          "pos": "11",
+          "driver": "Nico Hulkenberg",
+          "team": "MoneyGram Haas F1 Team",
+          "laps": "15",
+          "speed": "235.213",
+          "laptime": "1:34.908"
+        },
+        {
+          "pos": "12",
+          "driver": "Charles Leclerc",
+          "team": "Scuderia Ferrari",
+          "laps": "15",
+          "speed": "235.131",
+          "laptime": "1:34.941"
+        },
+        {
+          "pos": "13",
+          "driver": "Sergio Perez",
+          "team": "Oracle Red Bull Racing",
+          "laps": "19",
+          "speed": "234.834",
+          "laptime": "1:35.061"
+        },
+        {
+          "pos": "14",
+          "driver": "Esteban Ocon",
+          "team": "BWT Alpine F1 Team",
+          "laps": "14",
+          "speed": "233.852",
+          "laptime": "1:35.460"
+        },
+        {
+          "pos": "15",
+          "driver": "Fernando Alonso",
+          "team": "Aston Martin Aramco F1 Team",
+          "laps": "16",
+          "speed": "232.687",
+          "laptime": "1:35.938"
+        },
+        {
+          "pos": "16",
+          "driver": "Yuki Tsunoda",
+          "team": "Visa Cash App RB F1 Team",
+          "laps": "18",
+          "speed": "232.017",
+          "laptime": "1:36.215"
+        },
+        {
+          "pos": "17",
+          "driver": "Valtteri Bottas",
+          "team": "Stake F1 Team Kick Sauber",
+          "laps": "14",
+          "speed": "231.543",
+          "laptime": "1:36.412"
+        },
+        {
+          "pos": "18",
+          "driver": "Liam Lawson",
+          "team": "Visa Cash App RB F1 Team",
+          "laps": "18",
+          "speed": "231.227",
+          "laptime": "1:36.544"
+        },
+        {
+          "pos": "19",
+          "driver": "Lance Stroll",
+          "team": "Aston Martin Aramco F1 Team",
+          "laps": "13",
+          "speed": "230.258",
+          "laptime": "1:36.950"
+        },
+        {
+          "pos": "20",
+          "driver": "Zhou Guanyu",
+          "team": "Stake F1 Team Kick Sauber",
+          "laps": "16",
+          "speed": "230.168",
+          "laptime": "1:36.988"
+        }
+      ],
+      "row_count": 20
+    },
+    {
+      "name": "QUALIFYING",
+      "slug": "qualifying",
+      "columns": [
+        {
+          "key": "pos",
+          "label": "POS"
+        },
+        {
+          "key": "driver",
+          "label": "DRIVER"
+        },
+        {
+          "key": "q1",
+          "label": "Q1"
+        },
+        {
+          "key": "q1_laps",
+          "label": "LAPS"
+        },
+        {
+          "key": "q2",
+          "label": "Q2"
+        },
+        {
+          "key": "q2_laps",
+          "label": "LAPS"
+        },
+        {
+          "key": "q3",
+          "label": "Q3"
+        },
+        {
+          "key": "q3_laps",
+          "label": "LAPS"
+        }
+      ],
+      "rows": [
+        {
+          "pos": "1",
+          "driver": "George Russell",
+          "q1": "1:33.186",
+          "q1_laps": "10",
+          "q2": "1:32.779",
+          "q2_laps": "9",
+          "q3": "1:32.312",
+          "q3_laps": "6"
+        },
+        {
+          "pos": "2",
+          "driver": "Carlos Sainz",
+          "q1": "1:33.484",
+          "q1_laps": "8",
+          "q2": "1:32.711",
+          "q2_laps": "9",
+          "q3": "1:32.410",
+          "q3_laps": "7"
+        },
+        {
+          "pos": "3",
+          "driver": "Pierre Gasly",
+          "q1": "1:33.691",
+          "q1_laps": "10",
+          "q2": "1:32.879",
+          "q2_laps": "8",
+          "q3": "1:32.664",
+          "q3_laps": "7"
+        },
+        {
+          "pos": "4",
+          "driver": "Charles Leclerc",
+          "q1": "1:33.446",
+          "q1_laps": "8",
+          "q2": "1:33.016",
+          "q2_laps": "8",
+          "q3": "1:32.783",
+          "q3_laps": "7"
+        },
+        {
+          "pos": "5",
+          "driver": "Max Verstappen",
+          "q1": "1:33.299",
+          "q1_laps": "8",
+          "q2": "1:33.085",
+          "q2_laps": "6",
+          "q3": "1:32.797",
+          "q3_laps": "7"
+        },
+        {
+          "pos": "6",
+          "driver": "Lando Norris",
+          "q1": "1:33.592",
+          "q1_laps": "7",
+          "q2": "1:33.099",
+          "q2_laps": "6",
+          "q3": "1:33.008",
+          "q3_laps": "7"
+        },
+        {
+          "pos": "7",
+          "driver": "Yuki Tsunoda",
+          "q1": "1:33.789",
+          "q1_laps": "10",
+          "q2": "1:33.089",
+          "q2_laps": "8",
+          "q3": "1:33.029",
+          "q3_laps": "7"
+        },
+        {
+          "pos": "8",
+          "driver": "Oscar Piastri",
+          "q1": "1:33.450",
+          "q1_laps": "8",
+          "q2": "1:33.024",
+          "q2_laps": "6",
+          "q3": "1:33.033",
+          "q3_laps": "7"
+        },
+        {
+          "pos": "9",
+          "driver": "Nico Hulkenberg",
+          "q1": "1:33.920",
+          "q1_laps": "5",
+          "q2": "1:33.114",
+          "q2_laps": "6",
+          "q3": "1:33.062",
+          "q3_laps": "6"
+        },
+        {
+          "pos": "10",
+          "driver": "Lewis Hamilton",
+          "q1": "1:33.225",
+          "q1_laps": "9",
+          "q2": "1:32.567",
+          "q2_laps": "9",
+          "q3": "1:48.106",
+          "q3_laps": "6"
+        },
+        {
+          "pos": "11",
+          "driver": "Esteban Ocon",
+          "q1": "1:33.968",
+          "q1_laps": "10",
+          "q2": "1:33.221",
+          "q2_laps": "8",
+          "q3": "-",
+          "q3_laps": "0"
+        },
+        {
+          "pos": "12",
+          "driver": "Kevin Magnussen",
+          "q1": "1:33.991",
+          "q1_laps": "5",
+          "q2": "1:33.297",
+          "q2_laps": "7",
+          "q3": "-",
+          "q3_laps": "0"
+        },
+        {
+          "pos": "13",
+          "driver": "Zhou Guanyu",
+          "q1": "1:34.079",
+          "q1_laps": "10",
+          "q2": "1:33.566",
+          "q2_laps": "7",
+          "q3": "-",
+          "q3_laps": "0"
+        },
+        {
+          "pos": "14",
+          "driver": "Franco Colapinto",
+          "q1": "1:33.746",
+          "q1_laps": "10",
+          "q2": "1:33.749",
+          "q2_laps": "6",
+          "q3": "-",
+          "q3_laps": "0"
+        },
+        {
+          "pos": "15",
+          "driver": "Liam Lawson",
+          "q1": "1:34.087",
+          "q1_laps": "10",
+          "q2": "1:34.257",
+          "q2_laps": "7",
+          "q3": "-",
+          "q3_laps": "0"
+        },
+        {
+          "pos": "16",
+          "driver": "Sergio Perez",
+          "q1": "1:34.155",
+          "q1_laps": "10",
+          "q2": "-",
+          "q2_laps": "0",
+          "q3": "-",
+          "q3_laps": "0"
+        },
+        {
+          "pos": "17",
+          "driver": "Fernando Alonso",
+          "q1": "1:34.258",
+          "q1_laps": "9",
+          "q2": "-",
+          "q2_laps": "0",
+          "q3": "-",
+          "q3_laps": "0"
+        },
+        {
+          "pos": "18",
+          "driver": "Alexander Albon",
+          "q1": "1:34.425",
+          "q1_laps": "10",
+          "q2": "-",
+          "q2_laps": "0",
+          "q3": "-",
+          "q3_laps": "0"
+        },
+        {
+          "pos": "19",
+          "driver": "Valtteri Bottas",
+          "q1": "1:34.430",
+          "q1_laps": "10",
+          "q2": "-",
+          "q2_laps": "0",
+          "q3": "-",
+          "q3_laps": "0"
+        },
+        {
+          "pos": "20",
+          "driver": "Lance Stroll",
+          "q1": "1:34.484",
+          "q1_laps": "3",
+          "q2": "-",
+          "q2_laps": "0",
+          "q3": "-",
+          "q3_laps": "0"
+        }
+      ],
+      "row_count": 20
+    },
+    {
+      "name": "GRID OFFICIAL",
+      "slug": "grid-official",
+      "columns": [
+        {
+          "key": "pos",
+          "label": "POS"
+        },
+        {
+          "key": "driver",
+          "label": "DRIVER"
+        },
+        {
+          "key": "team",
+          "label": "TEAM"
+        },
+        {
+          "key": "time",
+          "label": "TIME"
+        }
+      ],
+      "rows": [
+        {
+          "pos": "1",
+          "driver": "George Russell",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "time": "1:32.312"
+        },
+        {
+          "pos": "2",
+          "driver": "Carlos Sainz",
+          "team": "Scuderia Ferrari",
+          "time": "1:32.410"
+        },
+        {
+          "pos": "3",
+          "driver": "Pierre Gasly",
+          "team": "BWT Alpine F1 Team",
+          "time": "1:32.664"
+        },
+        {
+          "pos": "4",
+          "driver": "Charles Leclerc",
+          "team": "Scuderia Ferrari",
+          "time": "1:32.783"
+        },
+        {
+          "pos": "5",
+          "driver": "Max Verstappen",
+          "team": "Oracle Red Bull Racing",
+          "time": "1:32.797"
+        },
+        {
+          "pos": "6",
+          "driver": "Lando Norris",
+          "team": "McLaren Formula 1 Team",
+          "time": "1:33.008"
+        },
+        {
+          "pos": "7",
+          "driver": "Yuki Tsunoda",
+          "team": "Visa Cash App RB F1 Team",
+          "time": "1:33.029"
+        },
+        {
+          "pos": "8",
+          "driver": "Oscar Piastri",
+          "team": "McLaren Formula 1 Team",
+          "time": "1:33.033"
+        },
+        {
+          "pos": "9",
+          "driver": "Nico Hulkenberg",
+          "team": "MoneyGram Haas F1 Team",
+          "time": "1:33.062"
+        },
+        {
+          "pos": "10",
+          "driver": "Lewis Hamilton",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "time": "1:48.106"
+        },
+        {
+          "pos": "11",
+          "driver": "Esteban Ocon",
+          "team": "BWT Alpine F1 Team",
+          "time": "1:33.221"
+        },
+        {
+          "pos": "12",
+          "driver": "Kevin Magnussen",
+          "team": "MoneyGram Haas F1 Team",
+          "time": "1:33.297"
+        },
+        {
+          "pos": "13",
+          "driver": "Zhou Guanyu",
+          "team": "Stake F1 Team Kick Sauber",
+          "time": "1:33.566"
+        },
+        {
+          "pos": "14",
+          "driver": "Liam Lawson",
+          "team": "Visa Cash App RB F1 Team",
+          "time": "1:34.257"
+        },
+        {
+          "pos": "15",
+          "driver": "Sergio Perez",
+          "team": "Oracle Red Bull Racing",
+          "time": "1:34.155"
+        },
+        {
+          "pos": "16",
+          "driver": "Fernando Alonso",
+          "team": "Aston Martin Aramco F1 Team",
+          "time": "1:34.258"
+        },
+        {
+          "pos": "17",
+          "driver": "Alexander Albon",
+          "team": "Williams Racing",
+          "time": "1:34.425"
+        },
+        {
+          "pos": "18",
+          "driver": "Lance Stroll",
+          "team": "Aston Martin Aramco F1 Team",
+          "time": "1:34.484"
+        },
+        {
+          "pos": "19",
+          "driver": "Valtteri Bottas",
+          "team": "Stake F1 Team Kick Sauber",
+          "time": "1:34.430"
+        },
+        {
+          "pos": "20",
+          "driver": "Franco Colapinto",
+          "team": "Williams Racing",
+          "time": "1:33.749"
+        }
+      ],
+      "row_count": 20
+    },
+    {
+      "name": "RACE",
+      "slug": "race",
+      "columns": [
+        {
+          "key": "pos",
+          "label": "POS"
+        },
+        {
+          "key": "driver",
+          "label": "DRIVER"
+        },
+        {
+          "key": "team",
+          "label": "TEAM"
+        },
+        {
+          "key": "laps",
+          "label": "LAPS"
+        },
+        {
+          "key": "time",
+          "label": "TIME"
+        }
+      ],
+      "rows": [
+        {
+          "pos": "1",
+          "driver": "George Russell",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "laps": "50",
+          "time": "1:22:05.969"
+        },
+        {
+          "pos": "2",
+          "driver": "Lewis Hamilton",
+          "team": "Mercedes-AMG PETRONAS F1 Team",
+          "laps": "50",
+          "time": "1:22:13.282"
+        },
+        {
+          "pos": "3",
+          "driver": "Carlos Sainz",
+          "team": "Scuderia Ferrari",
+          "laps": "50",
+          "time": "1:22:17.875"
+        },
+        {
+          "pos": "4",
+          "driver": "Charles Leclerc",
+          "team": "Scuderia Ferrari",
+          "laps": "50",
+          "time": "1:22:20.252"
+        },
+        {
+          "pos": "5",
+          "driver": "Max Verstappen",
+          "team": "Oracle Red Bull Racing",
+          "laps": "50",
+          "time": "1:22:22.551"
+        },
+        {
+          "pos": "6",
+          "driver": "Lando Norris",
+          "team": "McLaren Formula 1 Team",
+          "laps": "50",
+          "time": "1:22:49.354"
+        },
+        {
+          "pos": "7",
+          "driver": "Oscar Piastri",
+          "team": "McLaren Formula 1 Team",
+          "laps": "50",
+          "time": "1:22:57.334"
+        },
+        {
+          "pos": "8",
+          "driver": "Nico Hulkenberg",
+          "team": "MoneyGram Haas F1 Team",
+          "laps": "50",
+          "time": "1:23:05.777"
+        },
+        {
+          "pos": "9",
+          "driver": "Yuki Tsunoda",
+          "team": "Visa Cash App RB F1 Team",
+          "laps": "50",
+          "time": "1:23:08.777"
+        },
+        {
+          "pos": "10",
+          "driver": "Sergio Perez",
+          "team": "Oracle Red Bull Racing",
+          "laps": "50",
+          "time": "1:23:09.083"
+        },
+        {
+          "pos": "11",
+          "driver": "Fernando Alonso",
+          "team": "Aston Martin Aramco F1 Team",
+          "laps": "50",
+          "time": "1:23:15.164"
+        },
+        {
+          "pos": "12",
+          "driver": "Kevin Magnussen",
+          "team": "MoneyGram Haas F1 Team",
+          "laps": "50",
+          "time": "1:23:15.772"
+        },
+        {
+          "pos": "13",
+          "driver": "Zhou Guanyu",
+          "team": "Stake F1 Team Kick Sauber",
+          "laps": "50",
+          "time": "1:23:20.054"
+        },
+        {
+          "pos": "14",
+          "driver": "Franco Colapinto",
+          "team": "Williams Racing",
+          "laps": "50",
+          "time": "1:23:21.141"
+        },
+        {
+          "pos": "15",
+          "driver": "Lance Stroll",
+          "team": "Aston Martin Aramco F1 Team",
+          "laps": "50",
+          "time": "1:23:30.071"
+        },
+        {
+          "pos": "16",
+          "driver": "Liam Lawson",
+          "team": "Visa Cash App RB F1 Team",
+          "laps": "50",
+          "time": "1:23:36.974"
+        },
+        {
+          "pos": "17",
+          "driver": "Esteban Ocon",
+          "team": "BWT Alpine F1 Team",
+          "laps": "49",
+          "time": "1:22:08.029"
+        },
+        {
+          "pos": "18",
+          "driver": "Valtteri Bottas",
+          "team": "Stake F1 Team Kick Sauber",
+          "laps": "49",
+          "time": "1:22:17.254"
+        },
+        {
+          "pos": "19",
+          "driver": "Alexander Albon",
+          "team": "Williams Racing",
+          "laps": "25",
+          "time": "0:42:12.021"
+        },
+        {
+          "pos": "20",
+          "driver": "Pierre Gasly",
+          "team": "BWT Alpine F1 Team",
+          "laps": "15",
+          "time": "0:25:36.973"
+        }
+      ],
+      "row_count": 20
+    }
+  ]
+}
