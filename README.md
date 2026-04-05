@@ -41,6 +41,9 @@ uv run python scraper.py
 # Scrape a specific year
 uv run python scraper.py --year 2025
 
+# Scrape 2025 HTML classification tables into classification/ JSON
+uv run python fetch_event_classifications.py
+
 # Custom output directory
 uv run python scraper.py --output-dir my-docs
 ```
