@@ -24,9 +24,10 @@ documents/
 
 ## How It Works
 
-- A GitHub Action runs every **3 hours** to check for new documents
+- A GitHub Action runs every **3 hours** to check for new documents and transcripts
 - Uses `asyncio` + `aiohttp` for parallel AJAX discovery and PDF downloads (15 concurrent downloads)
 - All events within a season are discovered in parallel via AJAX
+- Press conference transcripts are automatically scraped and converted to Markdown
 - A `manifest.json` tracks all downloaded URLs to avoid duplicates
 
 ## Manual Usage
@@ -40,6 +41,18 @@ uv run python scraper.py
 
 # Scrape a specific year
 uv run python scraper.py --year 2025
+
+# Scrape press conference transcripts for 2026 (standard mode)
+uv run python transcript_scraper.py --year 2026
+
+# Scrape transcripts with aggressive discovery (checks hub pages)
+uv run python transcript_scraper.py --year 2026 --aggressive
+
+# Scrape transcripts with super-aggressive discovery (checks hub + timing pages + PDFs)
+uv run python transcript_scraper.py --year 2026 --super-aggressive
+
+# Scrape all historical transcripts (2018-2022)
+uv run python transcript_scraper.py --all-historical --super-aggressive
 
 # Scrape 2025 HTML classification tables into classification/ JSON
 uv run python fetch_event_classifications.py

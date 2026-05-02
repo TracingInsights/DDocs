@@ -16,6 +16,7 @@ jobs:
           fetch-depth: 1
           sparse-checkout: |
             scraper.py
+            transcript_scraper.py
             pyproject.toml
             uv.lock
             documents/manifest.json
@@ -31,6 +32,9 @@ jobs:
       - name: Run scraper
         id: scrape
         run: uv run python scraper.py --output-dir documents
+      - name: Run transcript scraper
+        id: scrape_transcripts
+        run: uv run python transcript_scraper.py --year 2026 --super-aggressive
       - name: Commit and push new documents
         run: |
           git config user.name "github-actions[bot]"
