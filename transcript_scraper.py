@@ -4,8 +4,9 @@ import logging
 import os
 import re
 import io
+import time
 from pathlib import Path
-from urllib.parse import urljoin, quote_plus
+from urllib.parse import urljoin
 
 import aiofiles
 from bs4 import BeautifulSoup
@@ -18,6 +19,12 @@ ARCHIVE_URL_2018 = f"{BASE_URL}/f1-archives?season=866"
 
 # Concurrency limits
 MAX_FETCH_CONCURRENT = 5
+
+# Discovery cache TTL (2.5 hours, slightly under 3-hour cron interval)
+TRANSCRIPT_DISCOVERY_CACHE_TTL_SECONDS = 2.5 * 60 * 60
+
+# Cache version - increment when discovery logic changes
+CACHE_VERSION = 1
 
 logging.basicConfig(
     level=logging.INFO,
@@ -47,6 +54,49 @@ def load_manifest(path: Path) -> dict:
 def save_manifest(path: Path, manifest: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(manifest, indent=2, sort_keys=True), encoding="utf-8")
+
+# ---------------------------------------------------------------------------
+# Discovery cache
+# ---------------------------------------------------------------------------
+
+def load_transcript_discovery_cache(path: Path) -> dict | None:
+    """Load cached transcript discovery results if still valid."""
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        
+        # Validate cache version
+        if data.get("version") != CACHE_VERSION:
+            log.info("Cache version mismatch (expected %d, got %s), re-crawling", CACHE_VERSION, data.get("version"))
+            return None
+        
+        # Validate required keys
+        required_keys = ["year", "mode", "events", "hub_articles", "timing_pdfs", "deep_results", "timestamp"]
+        if not all(k in data for k in required_keys):
+            log.warning("Cache missing required keys, re-crawling")
+            return None
+        
+        # Check TTL
+        age = time.time() - data.get("timestamp", 0)
+        if age < TRANSCRIPT_DISCOVERY_CACHE_TTL_SECONDS:
+            log.info("Using transcript discovery cache (%.0fs old, TTL=%.0fs)", age, TRANSCRIPT_DISCOVERY_CACHE_TTL_SECONDS)
+            return data
+        log.info("Transcript discovery cache expired (%.0fs old), re-crawling", age)
+    except Exception as e:
+        log.warning("Could not read transcript discovery cache: %s", e)
+    return None
+
+def save_transcript_discovery_cache(path: Path, data: dict) -> None:
+    """Save transcript discovery results with timestamp."""
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        data["version"] = CACHE_VERSION
+        data["timestamp"] = time.time()
+        path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        log.info("Transcript discovery cache saved")
+    except Exception as e:
+        log.warning("Failed to save transcript discovery cache: %s", e)
 
 # ---------------------------------------------------------------------------
 # PDF Handling
@@ -271,8 +321,6 @@ def clean_transcript_html(html: str) -> str:
 
     if not content or not content.get_text(strip=True): return ""
 
-    if not content or not content.get_text(strip=True): return ""
-
     # Before extracting text, apply bolding to <strong> tags in-place
     for strong in content.find_all(["strong", "b"]):
         name = strong.get_text(strip=True)
@@ -319,8 +367,60 @@ async def fetch_transcript(session: AsyncSession, url: str, dest: Path) -> bool:
 # Orchestration
 # ---------------------------------------------------------------------------
 
-async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manifest: dict, discovery_path: Path, aggressive: bool = False, super_aggressive: bool = False):
-    events = await get_discovery_events(session, year, discovery_path)
+async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manifest: dict, discovery_path: Path, transcript_cache_path: Path, aggressive: bool = False, super_aggressive: bool = False):
+    """Scrape transcripts for a given year with optional discovery cache."""
+    
+    # Check if we have cached discovery results for this year
+    cached_data = load_transcript_discovery_cache(transcript_cache_path)
+    use_cache = False
+    
+    if cached_data and cached_data.get("year") == year:
+        if aggressive or super_aggressive:
+            # Check if cache matches our discovery mode
+            cache_mode = cached_data.get("mode", "standard")
+            current_mode = "super_aggressive" if super_aggressive else ("aggressive" if aggressive else "standard")
+            if cache_mode == current_mode:
+                use_cache = True
+                log.info("Using cached discovery for year %d (mode: %s)", year, current_mode)
+    
+    if use_cache:
+        events = cached_data.get("events", [])
+        hub_articles = cached_data.get("hub_articles", [])
+        timing_pdfs = cached_data.get("timing_pdfs", [])
+        deep_results = cached_data.get("deep_results", [])
+    else:
+        # Perform fresh discovery
+        events = await get_discovery_events(session, year, discovery_path)
+        hub_articles = []
+        timing_pdfs = []
+        deep_results = []
+        
+        if aggressive or super_aggressive:
+            hub_articles = await discover_from_hubs(session, year)
+            # Sanity check for suspiciously large results
+            if len(hub_articles) > 1000:
+                log.warning("Suspiciously large hub discovery result (%d articles), possible scraping error", len(hub_articles))
+        
+        if super_aggressive:
+            timing_pdfs = await discover_pdfs_from_timing(session, year, events)
+            if len(timing_pdfs) > 500:
+                log.warning("Suspiciously large PDF discovery result (%d PDFs), possible scraping error", len(timing_pdfs))
+            if year in [2018, 2019, 2020, 2021]:
+                deep_results = await discover_from_season_event_pages(session, year)
+                if len(deep_results) > 1000:
+                    log.warning("Suspiciously large deep discovery result (%d results), possible scraping error", len(deep_results))
+        
+        # Save discovery cache
+        cache_mode = "super_aggressive" if super_aggressive else ("aggressive" if aggressive else "standard")
+        save_transcript_discovery_cache(transcript_cache_path, {
+            "year": year,
+            "mode": cache_mode,
+            "events": events,
+            "hub_articles": hub_articles,
+            "timing_pdfs": timing_pdfs,
+            "deep_results": deep_results,
+        })
+    
     total_added = 0
     day_types = {"thursday": "thursday", "friday": "friday", "post-qualifying": "saturday", "post-race": "sunday"}
     local_tasks, local_meta = [], []
@@ -340,9 +440,8 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
                 local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{local_day.capitalize()} Transcript", "path": str(dest)})
 
     # 2. Aggressive Hubs
-    if aggressive or super_aggressive:
-        articles = await discover_from_hubs(session, year)
-        for i, art in enumerate(articles):
+    if hub_articles:
+        for i, art in enumerate(hub_articles):
             url = art["url"]
             if url in manifest: continue
             gp_name, gp_slug = map_article_to_gp(art["title"], url, events)
@@ -356,9 +455,8 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
             local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{day_key.capitalize()} (Aggressive)", "path": str(dest)})
 
     # 3. Super Aggressive PDF Timing Pages
-    if super_aggressive:
-        pdfs = await discover_pdfs_from_timing(session, year, events)
-        for i, pdf in enumerate(pdfs):
+    if timing_pdfs:
+        for i, pdf in enumerate(timing_pdfs):
             url = pdf["url"]
             if url in manifest: continue
             gp_name, gp_slug = map_article_to_gp(pdf["title"], url, events)
@@ -372,8 +470,7 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
             local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{day_key.capitalize()} (PDF)", "path": str(dest)})
 
     # 4. Deep Discovery
-    if year in [2018, 2019, 2020, 2021] and super_aggressive:
-        deep_results = await discover_from_season_event_pages(session, year)
+    if deep_results:
         for i, res in enumerate(deep_results):
             url = res["url"]
             if url in manifest: continue
@@ -404,21 +501,81 @@ async def main():
     years = [2026]
     aggressive = "--aggressive" in sys.argv
     super_aggressive = "--super-aggressive" in sys.argv
+    output_dir = Path("documents")
+    
+    # Parse command line arguments
     if "--year" in sys.argv:
         idx = sys.argv.index("--year")
-        years = [int(sys.argv[idx + 1])]
+        try:
+            years = [int(sys.argv[idx + 1])]
+        except (IndexError, ValueError):
+            log.error("Invalid --year argument. Usage: --year YYYY")
+            return 0
     elif "--all-historical" in sys.argv:
         years = [2022, 2021, 2020, 2019, 2018]
-    output_dir = Path("documents"); manifest_path = output_dir / "manifest.json"
+    
+    if "--output-dir" in sys.argv:
+        idx = sys.argv.index("--output-dir")
+        try:
+            output_dir = Path(sys.argv[idx + 1])
+        except IndexError:
+            log.error("Invalid --output-dir argument. Usage: --output-dir PATH")
+            return 0
+    
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print("""
+FIA F1 Transcript Scraper
+
+Usage: python transcript_scraper.py [OPTIONS]
+
+Options:
+  --year YYYY              Scrape transcripts for a specific year (default: 2026)
+  --all-historical         Scrape years 2018-2022
+  --output-dir PATH        Output directory (default: documents)
+  --aggressive             Enable aggressive discovery (hub pages)
+  --super-aggressive       Enable super aggressive discovery (hub + timing + deep)
+  -h, --help              Show this help message
+
+Examples:
+  python transcript_scraper.py --year 2025 --super-aggressive
+  python transcript_scraper.py --all-historical --aggressive
+        """)
+        return 0
+    
+    manifest_path = output_dir / "manifest.json"
     discovery_path = output_dir / "discovery_cache.json"
+    transcript_cache_path = output_dir / "transcript_discovery_cache.json"
+    
     manifest = load_manifest(manifest_path)
+    total_added = 0
+    
     async with AsyncSession(impersonate="chrome120") as session:
         for year in years:
             log.info("--- Starting Season %d ---", year)
-            count = await scrape_year(session, year, output_dir, manifest, discovery_path, aggressive=aggressive, super_aggressive=super_aggressive)
+            count = await scrape_year(
+                session, 
+                year, 
+                output_dir, 
+                manifest, 
+                discovery_path, 
+                transcript_cache_path,
+                aggressive=aggressive, 
+                super_aggressive=super_aggressive
+            )
             if count > 0:
                 save_manifest(manifest_path, manifest)
                 log.info("Season %d: Total Added %d transcripts.", year, count)
+            total_added += count
+    
+    log.info("=== Transcript scraping complete: %d total transcripts added ===", total_added)
+    
+    # Write output for GitHub Actions
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output:
+        with open(github_output, "a") as f:
+            f.write(f"new_transcripts={total_added}\n")
+    
+    return total_added
 
 if __name__ == "__main__":
     asyncio.run(main())

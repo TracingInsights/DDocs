@@ -1,13 +1,24 @@
-name: Scrape FIA F1 Documents
+name: FIA F1 Documents - Scrape and Release
+
 on:
   schedule:
     # Run every 3 hours
     - cron: "0 */3 * * *"
   workflow_dispatch: # Allow manual triggers
+  push:
+    branches:
+      - main
+    paths:
+      - 'documents/**'
+      - 'classification/**'
+
 permissions:
   contents: write
+
 jobs:
   scrape:
+    # Only run on schedule or manual trigger, not on push
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -31,21 +42,129 @@ jobs:
         run: uv sync --frozen
       - name: Run scraper
         id: scrape
+        continue-on-error: true
         run: uv run python scraper.py --output-dir documents
       - name: Run transcript scraper
         id: scrape_transcripts
-        run: uv run python transcript_scraper.py --year 2026 --super-aggressive
+        continue-on-error: true
+        run: uv run python transcript_scraper.py --year $(date +%Y) --super-aggressive
+      - name: Check if any scraper succeeded
+        run: |
+          if [[ "${{ steps.scrape.outcome }}" == "failure" ]] && [[ "${{ steps.scrape_transcripts.outcome }}" == "failure" ]]; then
+            echo "Both scrapers failed"
+            exit 1
+          fi
+          echo "At least one scraper succeeded"
       - name: Commit and push new documents
         run: |
           git sparse-checkout disable
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add documents/
+          git add documents/ classification/
           if git diff --cached --quiet; then
             echo "No new documents to commit."
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            NEW_COUNT="${{ steps.scrape.outputs.new_documents }}"
-            git commit -m "docs: add ${NEW_COUNT:-new} FIA F1 documents [${TIMESTAMP}]"
+            NEW_DOCS="${{ steps.scrape.outputs.new_documents }}"
+            NEW_TRANSCRIPTS="${{ steps.scrape_transcripts.outputs.new_transcripts }}"
+            
+            # Ensure numeric values with validation
+            NEW_DOCS=${NEW_DOCS:-0}
+            NEW_TRANSCRIPTS=${NEW_TRANSCRIPTS:-0}
+            if ! [[ "$NEW_DOCS" =~ ^[0-9]+$ ]]; then NEW_DOCS=0; fi
+            if ! [[ "$NEW_TRANSCRIPTS" =~ ^[0-9]+$ ]]; then NEW_TRANSCRIPTS=0; fi
+            TOTAL=$((NEW_DOCS + NEW_TRANSCRIPTS))
+            
+            git commit -m "docs: add ${TOTAL} FIA F1 documents (${NEW_DOCS} decisions, ${NEW_TRANSCRIPTS} transcripts) [${TIMESTAMP}]"
             git push
           fi
+
+  release:
+    # Only run on push events (when documents are committed)
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 2  # Need at least 2 commits to check what changed
+
+      - name: Check if documents were updated
+        id: check_changes
+        run: |
+          # Get the list of changed files in the last commit
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+          
+          # Exit early if no document changes
+          if ! echo "$CHANGED_FILES" | grep -qE '^(documents|classification)/'; then
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+            echo "No document changes detected, skipping release"
+            exit 0
+          fi
+          
+          echo "changes_detected=true" >> $GITHUB_OUTPUT
+          
+          # Count only newly added files (not modifications)
+          NEW_DOCS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | grep -cE '^documents/.*\.(pdf|md)$' || echo "0")
+          NEW_CLASSIFICATIONS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | grep -cE '^classification/.*\.json$' || echo "0")
+          
+          echo "new_docs=$NEW_DOCS" >> $GITHUB_OUTPUT
+          echo "new_classifications=$NEW_CLASSIFICATIONS" >> $GITHUB_OUTPUT
+
+      - name: Generate release notes
+        if: steps.check_changes.outputs.changes_detected == 'true'
+        id: release_notes
+        run: |
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+          CURRENT_YEAR=$(date +%Y)
+          NEW_DOCS="${{ steps.check_changes.outputs.new_docs }}"
+          NEW_CLASSIFICATIONS="${{ steps.check_changes.outputs.new_classifications }}"
+          
+          # Get list of years with updates
+          UPDATED_YEARS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | grep -oE '(documents|classification)/[0-9]{4}/' | grep -oE '[0-9]{4}' | sort -u | tr '\n' ', ' | sed 's/,$//')
+          
+          # Create release notes
+          cat > release_notes.md << EOF
+          ## FIA F1 Documents Update - ${TIMESTAMP}
+          
+          ### Summary
+          - 📄 New documents: ${NEW_DOCS}
+          - 📊 New classifications: ${NEW_CLASSIFICATIONS}
+          - 📅 Years updated: ${UPDATED_YEARS:-$CURRENT_YEAR}
+          
+          ### Access via jsDelivr
+          
+          You can access the latest data using jsDelivr CDN:
+          
+          \`\`\`bash
+          # Latest manifest
+          https://cdn.jsdelivr.net/gh/${{ github.repository }}@latest/documents/manifest.json
+          
+          # Latest classifications (current year)
+          https://cdn.jsdelivr.net/gh/${{ github.repository }}@latest/classification/${CURRENT_YEAR}/classifications.json
+          
+          # Specific document (example)
+          https://cdn.jsdelivr.net/gh/${{ github.repository }}@latest/documents/${CURRENT_YEAR}/[event-name]/[document-name].pdf
+          \`\`\`
+          
+          ### Recent Changes
+          
+          \`\`\`
+          $(git log -1 --pretty=format:"%s%n%n%b")
+          \`\`\`
+          EOF
+          
+          echo "Release notes generated"
+
+      - name: Create Release
+        if: steps.check_changes.outputs.changes_detected == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: release-${{ github.run_number }}
+          name: Documents Update - ${{ github.run_number }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
