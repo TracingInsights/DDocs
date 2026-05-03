@@ -29,6 +29,30 @@ documents/
 - All events within a season are discovered in parallel via AJAX
 - Press conference transcripts are automatically scraped and converted to Markdown
 - A `manifest.json` tracks all downloaded URLs to avoid duplicates
+- **Automatic releases** are created whenever documents are updated, enabling access via jsDelivr CDN
+
+## Accessing Data via CDN
+
+You can access the latest documents and data using jsDelivr CDN with the `/latest` tag:
+
+```bash
+# Latest manifest (list of all documents)
+https://cdn.jsdelivr.net/gh/TracingInsights/DDocs@latest/documents/manifest.json
+
+# Latest season classifications
+https://cdn.jsdelivr.net/gh/TracingInsights/DDocs@latest/classification/2025/classifications.json
+
+# Specific event classifications
+https://cdn.jsdelivr.net/gh/TracingInsights/DDocs@latest/classification/2025/australian-grand-prix/classifications.json
+
+# Specific document (example)
+https://cdn.jsdelivr.net/gh/TracingInsights/DDocs@latest/documents/2026/australian-grand-prix/final-starting-grid.pdf
+
+# Transcript (example)
+https://cdn.jsdelivr.net/gh/TracingInsights/DDocs@latest/documents/2026/australian-grand-prix/press-conference-drivers.md
+```
+
+The `@latest` tag always points to the most recent release, automatically updated every time new documents are scraped.
 
 ## Manual Usage
 
