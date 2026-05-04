@@ -6,8 +6,8 @@ Scrapes the FIA website for Formula 1 decision documents:
 Uses curl_cffi for browser-impersonated requests (bypasses TLS fingerprint checks)
 and asyncio for parallel discovery and PDF downloads.
 
-Discovery results are cached to disk (TTL = 2.5 hours) so repeat runs within the
-same cron window skip all crawling and go straight to downloads.
+Discovery results are cached to disk (TTL configurable via environment) so repeat runs 
+within the same cron window skip all crawling and go straight to downloads.
 """
 
 import asyncio
@@ -24,22 +24,14 @@ import aiofiles
 from bs4 import BeautifulSoup
 from curl_cffi.requests import AsyncSession
 
-BASE_URL = "https://www.fia.com"
-CHAMPIONSHIP_PATH = "/documents/championships/fia-formula-one-world-championship-14"
-DOCUMENTS_URL = f"{BASE_URL}{CHAMPIONSHIP_PATH}"
-AJAX_URL = f"{BASE_URL}/decision-document-list/ajax/"
-
-MAX_AJAX_CONCURRENT = 10
-MAX_DOWNLOAD_CONCURRENT = 15
-
-# Slightly under the 3-hour cron interval so cache-hit runs skip crawling,
-# but a forced re-crawl still happens at least once per cron cycle.
-DISCOVERY_CACHE_TTL_SECONDS = 2.5 * 60 * 60
-
-AJAX_EXTRA_HEADERS = {
-    "Accept": "application/json, text/javascript, */*; q=0.01",
-    "X-Requested-With": "XMLHttpRequest",
-}
+from config import (
+    BASE_URL, CHAMPIONSHIP_PATH, DOCUMENTS_URL, AJAX_URL,
+    MAX_AJAX_CONCURRENT, MAX_DOWNLOAD_CONCURRENT, AJAX_EXTRA_HEADERS
+)
+from shared_utils import (
+    slugify, load_manifest_with_lock, save_manifest_with_lock,
+    load_discovery_cache, save_discovery_cache, validate_cache_structure
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -51,13 +43,6 @@ log = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Shared utilities
 # ---------------------------------------------------------------------------
-
-def slugify(text: str) -> str:
-    text = text.strip().lower()
-    text = re.sub(r"[^\w\s-]", "", text)
-    text = re.sub(r"[\s_]+", "-", text)
-    text = re.sub(r"-+", "-", text)
-    return text.strip("-")
 
 
 def _extract_pdf_links(soup: BeautifulSoup) -> list[dict]:
@@ -155,14 +140,13 @@ async def download_pdf(
 
 
 def load_manifest(path: Path) -> dict:
-    if path.exists():
-        return json.loads(path.read_text())
-    return {}
+    """Legacy wrapper for backward compatibility."""
+    return load_manifest_with_lock(path)
 
 
 def save_manifest(path: Path, manifest: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(manifest, indent=2, sort_keys=True))
+    """Legacy wrapper for backward compatibility."""
+    save_manifest_with_lock(path, manifest)
 
 
 def _unique_dest(dest: Path, assigned: set[Path]) -> Path:
@@ -180,25 +164,22 @@ def _unique_dest(dest: Path, assigned: set[Path]) -> Path:
 # Discovery cache
 # ---------------------------------------------------------------------------
 
-def load_discovery_cache(path: Path) -> list[dict] | None:
-    if not path.exists():
+def load_discovery_cache_legacy(path: Path, force_refresh: bool = False) -> list[dict] | None:
+    """Load discovery cache with legacy format support."""
+    cache_data = load_discovery_cache(path, "discovery", force_refresh)
+    if cache_data is None:
         return None
-    try:
-        data = json.loads(path.read_text())
-        age = time.time() - data.get("timestamp", 0)
-        if age < DISCOVERY_CACHE_TTL_SECONDS:
-            log.info("Using discovery cache (%.0fs old, TTL=%.0fs)", age, DISCOVERY_CACHE_TTL_SECONDS)
-            return data["events"]
-        log.info("Discovery cache expired (%.0fs old), re-crawling", age)
-    except Exception as e:
-        log.warning("Could not read discovery cache: %s", e)
-    return None
+    
+    # Validate required structure for decision documents cache
+    if not validate_cache_structure(cache_data, ["events"]):
+        return None
+    
+    return cache_data["events"]
 
 
-def save_discovery_cache(path: Path, events: list[dict]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps({"timestamp": time.time(), "events": events}, indent=2))
-    log.info("Discovery cache saved (%d events)", len(events))
+def save_discovery_cache_legacy(path: Path, events: list[dict]) -> None:
+    """Save discovery cache with legacy format support."""
+    save_discovery_cache(path, {"events": events}, "discovery")
 
 
 # ---------------------------------------------------------------------------
@@ -418,6 +399,7 @@ async def discover_all_events(
 async def scrape(
     output_dir: str = "documents",
     year_filter: int | None = None,
+    force_refresh: bool = False,
 ) -> int:
     output = Path(output_dir)
     manifest_path = output / "manifest.json"
@@ -431,12 +413,12 @@ async def scrape(
 
     async with AsyncSession(impersonate="chrome120") as session:
 
-        cached_events = load_discovery_cache(discovery_cache_path)
+        cached_events = load_discovery_cache_legacy(discovery_cache_path, force_refresh=force_refresh)
 
         if cached_events is None:
             all_events = await discover_all_events(session, year_filter)
             if all_events:
-                save_discovery_cache(discovery_cache_path, all_events)
+                save_discovery_cache_legacy(discovery_cache_path, all_events)
         else:
             all_events = cached_events
             if year_filter:
@@ -562,6 +544,7 @@ def main() -> None:
 
     output_dir = "documents"
     year_filter = None
+    force_refresh = False
 
     args = sys.argv[1:]
     i = 0
@@ -572,10 +555,13 @@ def main() -> None:
         elif args[i] == "--year" and i + 1 < len(args):
             year_filter = int(args[i + 1])
             i += 2
+        elif args[i] == "--force-refresh":
+            force_refresh = True
+            i += 1
         else:
             i += 1
 
-    new_count = asyncio.run(scrape(output_dir=output_dir, year_filter=year_filter))
+    new_count = asyncio.run(scrape(output_dir=output_dir, year_filter=year_filter, force_refresh=force_refresh))
 
     github_output = os.environ.get("GITHUB_OUTPUT")
     if github_output:

@@ -5,12 +5,6 @@ on:
     # Run every 3 hours
     - cron: "0 */3 * * *"
   workflow_dispatch: # Allow manual triggers
-  push:
-    branches:
-      - main
-    paths:
-      - 'documents/**'
-      - 'classification/**'
 
 permissions:
   contents: write
@@ -20,6 +14,7 @@ jobs:
     # Only run on schedule or manual trigger, not on push
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -28,10 +23,13 @@ jobs:
           sparse-checkout: |
             scraper.py
             transcript_scraper.py
+            config.py
+            shared_utils.py
             pyproject.toml
             uv.lock
             documents/manifest.json
             documents/discovery_cache.json
+            documents/transcript_discovery_cache.json
           sparse-checkout-cone-mode: false
       - name: Install uv
         uses: astral-sh/setup-uv@v7
@@ -42,11 +40,18 @@ jobs:
         run: uv sync --frozen
       - name: Run scraper
         id: scrape
-        continue-on-error: true
+        env:
+          # Cache TTL can be configured via environment variable
+          # Default is 2.5 hours (slightly under the 3-hour cron interval)
+          DISCOVERY_CACHE_TTL_HOURS: "2.5"
         run: uv run python scraper.py --output-dir documents
       - name: Run transcript scraper
         id: scrape_transcripts
-        continue-on-error: true
+        # Run transcript scraper after main scraper completes (sequential execution)
+        if: always()
+        env:
+          # Cache TTL can be configured via environment variable
+          DISCOVERY_CACHE_TTL_HOURS: "2.5"
         run: uv run python transcript_scraper.py --year $(date +%Y) --super-aggressive
       - name: Check if any scraper succeeded
         run: |
@@ -56,6 +61,7 @@ jobs:
           fi
           echo "At least one scraper succeeded"
       - name: Commit and push new documents
+        id: commit_changes
         run: |
           git sparse-checkout disable
           git config user.name "github-actions[bot]"
@@ -63,65 +69,56 @@ jobs:
           git add documents/ classification/
           if git diff --cached --quiet; then
             echo "No new documents to commit."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            NEW_DOCS="${{ steps.scrape.outputs.new_documents }}"
-            NEW_TRANSCRIPTS="${{ steps.scrape_transcripts.outputs.new_transcripts }}"
             
-            # Ensure numeric values with validation
-            NEW_DOCS=${NEW_DOCS:-0}
-            NEW_TRANSCRIPTS=${NEW_TRANSCRIPTS:-0}
-            if ! [[ "$NEW_DOCS" =~ ^[0-9]+$ ]]; then NEW_DOCS=0; fi
-            if ! [[ "$NEW_TRANSCRIPTS" =~ ^[0-9]+$ ]]; then NEW_TRANSCRIPTS=0; fi
+            # Safely extract numeric values with defaults
+            NEW_DOCS=$(echo "${{ steps.scrape.outputs.new_documents }}" | grep -E '^[0-9]+$' || echo "0")
+            NEW_TRANSCRIPTS=$(echo "${{ steps.scrape_transcripts.outputs.new_transcripts }}" | grep -E '^[0-9]+$' || echo "0")
             TOTAL=$((NEW_DOCS + NEW_TRANSCRIPTS))
             
             git commit -m "docs: add ${TOTAL} FIA F1 documents (${NEW_DOCS} decisions, ${NEW_TRANSCRIPTS} transcripts) [${TIMESTAMP}]"
-            git push
+            
+            # Push and verify success
+            if git push; then
+              # Verify the push actually succeeded by checking remote
+              sleep 2
+              git fetch origin main
+              LOCAL_COMMIT=$(git rev-parse HEAD)
+              REMOTE_COMMIT=$(git rev-parse origin/main)
+              if [ "$LOCAL_COMMIT" = "$REMOTE_COMMIT" ]; then
+                echo "Git push verified successfully"
+                echo "has_changes=true" >> $GITHUB_OUTPUT
+                echo "new_docs=$NEW_DOCS" >> $GITHUB_OUTPUT
+                echo "new_transcripts=$NEW_TRANSCRIPTS" >> $GITHUB_OUTPUT
+                echo "total=$TOTAL" >> $GITHUB_OUTPUT
+              else
+                echo "Git push verification failed - commits don't match"
+                exit 1
+              fi
+            else
+              echo "Git push failed"
+              exit 1
+            fi
           fi
-
-  release:
-    # Only run on push events (when documents are committed)
-    if: github.event_name == 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 2  # Need at least 2 commits to check what changed
-
-      - name: Check if documents were updated
-        id: check_changes
-        run: |
-          # Get the list of changed files in the last commit
-          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
-          
-          # Exit early if no document changes
-          if ! echo "$CHANGED_FILES" | grep -qE '^(documents|classification)/'; then
-            echo "changes_detected=false" >> $GITHUB_OUTPUT
-            echo "No document changes detected, skipping release"
-            exit 0
-          fi
-          
-          echo "changes_detected=true" >> $GITHUB_OUTPUT
-          
-          # Count only newly added files (not modifications)
-          NEW_DOCS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | grep -cE '^documents/.*\.(pdf|md)$' || echo "0")
-          NEW_CLASSIFICATIONS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | grep -cE '^classification/.*\.json$' || echo "0")
-          
-          echo "new_docs=$NEW_DOCS" >> $GITHUB_OUTPUT
-          echo "new_classifications=$NEW_CLASSIFICATIONS" >> $GITHUB_OUTPUT
-
+      
       - name: Generate release notes
-        if: steps.check_changes.outputs.changes_detected == 'true'
+        if: steps.commit_changes.outputs.has_changes == 'true'
         id: release_notes
         run: |
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
           CURRENT_YEAR=$(date +%Y)
-          NEW_DOCS="${{ steps.check_changes.outputs.new_docs }}"
-          NEW_CLASSIFICATIONS="${{ steps.check_changes.outputs.new_classifications }}"
+          NEW_DOCS="${{ steps.commit_changes.outputs.new_docs }}"
+          NEW_TRANSCRIPTS="${{ steps.commit_changes.outputs.new_transcripts }}"
           
-          # Get list of years with updates
-          UPDATED_YEARS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | grep -oE '(documents|classification)/[0-9]{4}/' | grep -oE '[0-9]{4}' | sort -u | tr '\n' ', ' | sed 's/,$//')
+          # Get list of years with updates from git diff, handle case where HEAD~1 might not exist
+          if git rev-parse --verify HEAD~1 >/dev/null 2>&1; then
+            UPDATED_YEARS=$(git diff --name-only HEAD~1 HEAD | grep -oE '(documents|classification)/[0-9]{4}/' | grep -oE '[0-9]{4}' | sort -u | tr '\n' ', ' | sed 's/,$//')
+          else
+            # First commit case - get years from all added files
+            UPDATED_YEARS=$(git diff --name-only --cached | grep -oE '(documents|classification)/[0-9]{4}/' | grep -oE '[0-9]{4}' | sort -u | tr '\n' ', ' | sed 's/,$//')
+          fi
           
           # Create release notes
           cat > release_notes.md << EOF
@@ -129,7 +126,7 @@ jobs:
           
           ### Summary
           - 📄 New documents: ${NEW_DOCS}
-          - 📊 New classifications: ${NEW_CLASSIFICATIONS}
+          - 📊 New transcripts: ${NEW_TRANSCRIPTS}
           - 📅 Years updated: ${UPDATED_YEARS:-$CURRENT_YEAR}
           
           ### Access via jsDelivr
@@ -155,9 +152,9 @@ jobs:
           EOF
           
           echo "Release notes generated"
-
+      
       - name: Create Release
-        if: steps.check_changes.outputs.changes_detected == 'true'
+        if: steps.commit_changes.outputs.has_changes == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: release-${{ github.run_number }}

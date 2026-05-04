@@ -13,18 +13,13 @@ from bs4 import BeautifulSoup
 from curl_cffi.requests import AsyncSession
 from pypdf import PdfReader
 
-BASE_URL = "https://www.fia.com"
-NEWS_URL_BASE = f"{BASE_URL}/news/"
-ARCHIVE_URL_2018 = f"{BASE_URL}/f1-archives?season=866"
-
-# Concurrency limits
-MAX_FETCH_CONCURRENT = 5
-
-# Discovery cache TTL (2.5 hours, slightly under 3-hour cron interval)
-TRANSCRIPT_DISCOVERY_CACHE_TTL_SECONDS = 2.5 * 60 * 60
-
-# Cache version - increment when discovery logic changes
-CACHE_VERSION = 1
+from config import (
+    BASE_URL, NEWS_URL_BASE, ARCHIVE_URL_2018, MAX_FETCH_CONCURRENT
+)
+from shared_utils import (
+    slugify, load_manifest_with_lock, save_manifest_with_lock,
+    load_discovery_cache, save_discovery_cache, validate_cache_structure
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -36,67 +31,36 @@ log = logging.getLogger(__name__)
 # Shared utilities
 # ---------------------------------------------------------------------------
 
-def slugify(text: str) -> str:
-    text = text.strip().lower()
-    text = re.sub(r"[^\w\s-]", "", text)
-    text = re.sub(r"[\s_]+", "-", text)
-    text = re.sub(r"-+", "-", text)
-    return text.strip("-")
-
 def load_manifest(path: Path) -> dict:
-    if path.exists():
-        try:
-            return json.loads(path.read_text(encoding="utf-8"))
-        except Exception:
-            return {}
-    return {}
+    """Legacy wrapper for backward compatibility."""
+    return load_manifest_with_lock(path)
+
 
 def save_manifest(path: Path, manifest: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(manifest, indent=2, sort_keys=True), encoding="utf-8")
+    """Legacy wrapper for backward compatibility."""
+    save_manifest_with_lock(path, manifest)
 
 # ---------------------------------------------------------------------------
 # Discovery cache
 # ---------------------------------------------------------------------------
 
-def load_transcript_discovery_cache(path: Path) -> dict | None:
+def load_transcript_discovery_cache(path: Path, force_refresh: bool = False) -> dict | None:
     """Load cached transcript discovery results if still valid."""
-    if not path.exists():
+    cache_data = load_discovery_cache(path, "transcript", force_refresh)
+    if cache_data is None:
         return None
-    try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-        
-        # Validate cache version
-        if data.get("version") != CACHE_VERSION:
-            log.info("Cache version mismatch (expected %d, got %s), re-crawling", CACHE_VERSION, data.get("version"))
-            return None
-        
-        # Validate required keys
-        required_keys = ["year", "mode", "events", "hub_articles", "timing_pdfs", "deep_results", "timestamp"]
-        if not all(k in data for k in required_keys):
-            log.warning("Cache missing required keys, re-crawling")
-            return None
-        
-        # Check TTL
-        age = time.time() - data.get("timestamp", 0)
-        if age < TRANSCRIPT_DISCOVERY_CACHE_TTL_SECONDS:
-            log.info("Using transcript discovery cache (%.0fs old, TTL=%.0fs)", age, TRANSCRIPT_DISCOVERY_CACHE_TTL_SECONDS)
-            return data
-        log.info("Transcript discovery cache expired (%.0fs old), re-crawling", age)
-    except Exception as e:
-        log.warning("Could not read transcript discovery cache: %s", e)
-    return None
+    
+    # Validate required structure for transcript cache
+    required_keys = ["year", "mode", "events", "hub_articles", "timing_pdfs", "deep_results"]
+    if not validate_cache_structure(cache_data, required_keys):
+        return None
+    
+    return cache_data
+
 
 def save_transcript_discovery_cache(path: Path, data: dict) -> None:
     """Save transcript discovery results with timestamp."""
-    try:
-        path.parent.mkdir(parents=True, exist_ok=True)
-        data["version"] = CACHE_VERSION
-        data["timestamp"] = time.time()
-        path.write_text(json.dumps(data, indent=2), encoding="utf-8")
-        log.info("Transcript discovery cache saved")
-    except Exception as e:
-        log.warning("Failed to save transcript discovery cache: %s", e)
+    save_discovery_cache(path, data, "transcript")
 
 # ---------------------------------------------------------------------------
 # PDF Handling
@@ -367,11 +331,11 @@ async def fetch_transcript(session: AsyncSession, url: str, dest: Path) -> bool:
 # Orchestration
 # ---------------------------------------------------------------------------
 
-async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manifest: dict, discovery_path: Path, transcript_cache_path: Path, aggressive: bool = False, super_aggressive: bool = False):
+async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manifest: dict, discovery_path: Path, transcript_cache_path: Path, aggressive: bool = False, super_aggressive: bool = False, force_refresh: bool = False):
     """Scrape transcripts for a given year with optional discovery cache."""
     
     # Check if we have cached discovery results for this year
-    cached_data = load_transcript_discovery_cache(transcript_cache_path)
+    cached_data = load_transcript_discovery_cache(transcript_cache_path, force_refresh=force_refresh)
     use_cache = False
     
     if cached_data and cached_data.get("year") == year:
@@ -501,6 +465,7 @@ async def main():
     years = [2026]
     aggressive = "--aggressive" in sys.argv
     super_aggressive = "--super-aggressive" in sys.argv
+    force_refresh = "--force-refresh" in sys.argv
     output_dir = Path("documents")
     
     # Parse command line arguments
@@ -534,11 +499,13 @@ Options:
   --output-dir PATH        Output directory (default: documents)
   --aggressive             Enable aggressive discovery (hub pages)
   --super-aggressive       Enable super aggressive discovery (hub + timing + deep)
+  --force-refresh          Bypass discovery cache and force fresh crawl
   -h, --help              Show this help message
 
 Examples:
   python transcript_scraper.py --year 2025 --super-aggressive
   python transcript_scraper.py --all-historical --aggressive
+  python transcript_scraper.py --year 2026 --force-refresh
         """)
         return 0
     
@@ -560,7 +527,8 @@ Examples:
                 discovery_path, 
                 transcript_cache_path,
                 aggressive=aggressive, 
-                super_aggressive=super_aggressive
+                super_aggressive=super_aggressive,
+                force_refresh=force_refresh
             )
             if count > 0:
                 save_manifest(manifest_path, manifest)
