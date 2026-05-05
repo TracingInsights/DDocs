@@ -77,9 +77,7 @@ class FIAPDFProcessor:
         if "procedure" in f: return "procedure"
         return "generic"
 
-    def get_tailwind_template(self, content_html: str, metadata: Dict, images: List[Dict]) -> str:
-        doc_type = metadata.get("type", "generic").upper()
-        
+    def get_tailwind_template(self, content_html: str, metadata: Dict, images: List[Dict], appeals_note: str = "") -> str:
         # Find header image if exists
         header_img = None
         for img in images:
@@ -91,93 +89,109 @@ class FIAPDFProcessor:
         stewards = m.get("Stewards", ["Nish Shetty", "Natalie Corsmit", "Vitantonio Liuzzi", "Steve Pence"])
         if isinstance(stewards, str): stewards = [s.strip() for s in stewards.split(",")]
 
+        year = metadata.get('year', '')
+        event = metadata.get('event', '')
+        event_title = f"{year} {event}".upper().strip()
+
+        sig_boxes = " ".join([f'<div class="sig-box">{name}</div>' for name in stewards])
+        appeals_html = f'<p class="appeals-note">{appeals_note}</p>' if appeals_note else ''
+
         return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{metadata.get('title', 'FIA Document')}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {{ font-family: 'Inter', sans-serif; background: #525659; padding: 40px 0; color: #000; -webkit-print-color-adjust: exact; }}
-        .a4-page {{ width: 210mm; min-height: 297mm; background: white; margin: 0 auto; padding: 12mm 18mm; box-shadow: 0 0 15px rgba(0,0,0,0.3); position: relative; box-sizing: border-box; }}
-        .header-img {{ width: 100%; margin-bottom: 5px; }}
-        
-        .event-header {{ font-family: 'Inter', sans-serif; text-align: center; margin-bottom: 15px; }}
-        .event-title {{ font-weight: 800; font-size: 26px; text-transform: uppercase; margin-bottom: 2px; }}
-        .event-date {{ font-weight: 700; font-size: 15px; margin-bottom: 15px; }}
-        .header-separator {{ border-bottom: 1px solid #000; width: 100%; margin-bottom: 15px; }}
-        
-        .meta-table {{ width: 100%; border-collapse: collapse; margin-bottom: 25px; table-layout: fixed; }}
-        .meta-table td {{ border: 0.5px solid #000; padding: 4px 10px; font-family: 'Inter', sans-serif; font-size: 13px; vertical-align: top; }}
-        .meta-label {{ font-weight: 700; width: 80px; text-transform: none; }}
+        body {{ font-family: Arial, Helvetica, sans-serif; background: #525659; padding: 40px 0; color: #000; -webkit-print-color-adjust: exact; }}
+        .a4-page {{ width: 210mm; min-height: 297mm; background: white; margin: 0 auto; padding: 14mm 20mm 18mm 20mm; box-shadow: 0 0 15px rgba(0,0,0,0.3); position: relative; box-sizing: border-box; }}
+
+        .header-img {{ width: 100%; margin-bottom: 8px; }}
+
+        .event-header {{ text-align: center; margin-bottom: 4px; }}
+        .event-title {{ font-weight: 700; font-size: 16px; margin-bottom: 2px; }}
+        .event-date {{ font-weight: 400; font-size: 12px; }}
+
+        .meta-table {{ width: 100%; border-collapse: collapse; border-top: 1px solid #000; border-bottom: 1px solid #000; margin-top: 6px; margin-bottom: 0; }}
+        .meta-table td {{ padding: 2px 4px; font-size: 11.5px; vertical-align: top; border: none; }}
+        .meta-label {{ font-weight: 700; width: 32px; white-space: nowrap; }}
         .meta-value {{ font-weight: 400; }}
-        .meta-doc-num {{ font-weight: 700; text-align: center; font-size: 16px; }}
-        
-        .content-body {{ font-family: 'Inter', sans-serif; font-size: 13.5px; line-height: 1.6; text-align: justify; margin-top: 10px; }}
-        .decision-item {{ display: flex; margin-bottom: 8px; align-items: flex-start; }}
-        .decision-label {{ width: 140px; font-weight: 700; font-size: 13.5px; flex-shrink: 0; }}
-        .decision-text {{ flex-grow: 1; }}
-        
-        .signature-section {{ margin-top: 50px; display: grid; grid-template-cols: repeat(2, 1fr); gap: 40px 100px; }}
-        .sig-box {{ border-top: 0.5px solid #000; text-align: left; padding-top: 5px; font-family: 'Inter', sans-serif; font-weight: 400; font-size: 12px; min-height: 40px; }}
-        
-        .footer-text {{ margin-top: 40px; font-size: 9px; text-align: left; color: #000; font-family: 'Inter', sans-serif; border-top: 0.5px solid #000; padding-top: 10px; }}
-        
+        .meta-right-label {{ font-weight: 700; text-align: right; width: 75px; white-space: nowrap; }}
+        .meta-right-value {{ font-weight: 400; padding-left: 8px; width: 80px; }}
+
+        .content-body {{ font-size: 11.5px; line-height: 1.5; margin-top: 12px; }}
+        .intro-text {{ margin-bottom: 10px; }}
+        .intro-text p {{ margin: 0; }}
+
+        .decision-item {{ display: flex; margin-bottom: 4px; align-items: flex-start; }}
+        .decision-label {{ width: 100px; font-weight: 700; flex-shrink: 0; }}
+        .decision-text {{ flex-grow: 1; text-align: justify; }}
+        .decision-text p {{ margin: 0; }}
+
+        .body-note {{ margin-left: 100px; font-size: 11.5px; line-height: 1.5; margin-top: 10px; text-align: justify; }}
+
+        .signature-container {{ margin-top: 40px; }}
+        .signature-grid {{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px 60px; margin-bottom: 6px; }}
+        .sig-box {{ text-align: left; font-size: 11.5px; padding-top: 20px; }}
+        .stewards-title {{ font-size: 11.5px; font-weight: 700; margin-top: 4px; }}
+
+        .footer-text {{ margin-top: 20px; font-size: 8px; text-align: left; color: #000; border-top: 0.5px solid #000; padding-top: 5px; line-height: 1.4; }}
+
         @media print {{
             body {{ background: white; padding: 0; }}
-            .a4-page {{ margin: 0; box-shadow: none; border: none; width: 100%; min-height: 100vh; }}
-            .no-print {{ display: none; }}
+            .a4-page {{ margin: 0; box-shadow: none; border: none; width: 100%; min-height: 100vh; padding: 12mm 18mm; }}
         }}
     </style>
 </head>
 <body>
     <div class="a4-page">
         <!-- Logo -->
-        {f'<img src="{header_img}" class="header-img">' if header_img else '<div class="h-20 bg-gray-100 flex items-center justify-center font-bold">FIA HEADER</div>'}
-        
+        {f'<img src="{header_img}" class="header-img">' if header_img else '<div style="height:55px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;font-weight:700;">FIA HEADER</div>'}
+
         <!-- Event Header -->
         <div class="event-header">
-            <div class="event-title">{metadata.get('event', '').upper()} {metadata.get('year', '')}</div>
-            <div class="event-date">{m.get('EventDates', '01 - 03 May 2026')}</div>
-            <div class="header-separator"></div>
+            <div class="event-title">{event_title}</div>
+            <div class="event-date">{m.get('EventDates', '')}</div>
         </div>
 
-        <!-- Metadata Table -->
+        <!-- Metadata Table (no colons, bordered top+bottom) -->
         <table class="meta-table">
             <tr>
                 <td class="meta-label">From</td>
                 <td class="meta-value">The Stewards</td>
-                <td class="meta-label" style="width:100px;">Document</td>
-                <td class="meta-doc-num">{m.get('Document', '0')}</td>
+                <td class="meta-right-label">Document</td>
+                <td class="meta-right-value">{m.get('Document', '')}</td>
             </tr>
             <tr>
                 <td class="meta-label">To</td>
-                <td class="meta-value">{m.get('To', 'The Team Manager')}</td>
-                <td class="meta-label">Date</td>
-                <td style="text-align:center;">{m.get('Date', '')}</td>
+                <td class="meta-value">{m.get('To', 'The Team Manager,')}</td>
+                <td class="meta-right-label">Date</td>
+                <td class="meta-right-value">{m.get('Date', '')}</td>
             </tr>
             <tr>
-                <td colspan="2" style="border:none;"></td>
-                <td class="meta-label">Time</td>
-                <td style="text-align:center;">{m.get('Time', '')}</td>
+                <td colspan="2"></td>
+                <td class="meta-right-label">Time</td>
+                <td class="meta-right-value">{m.get('Time', '')}</td>
             </tr>
         </table>
 
         <div class="content-body">
             {content_html}
+            {f'<div class="body-note">{appeals_note}</div>' if appeals_note else ''}
+            <div class="body-note" style="margin-top:8px;">Decisions of the Stewards are taken independently of the FIA and are based solely on the relevant regulations, guidelines and evidence presented.</div>
         </div>
 
-        <!-- Signatures -->
-        <div class="signature-section">
-            {" ".join([f'<div class="sig-box">{name}</div>' for name in stewards])}
+        <!-- Signatures: 2x2 grid, bold 'The Stewards' below -->
+        <div class="signature-container">
+            <div class="signature-grid">
+                {sig_boxes}
+            </div>
+            <div class="stewards-title">The Stewards</div>
         </div>
 
         <div class="footer-text">
-            Decisions of the Stewards are taken independently of the FIA and are based solely on the relevant regulations, guidelines and evidence presented.<br><br>
             Official Document of the FIA Formula One World Championship<br>
-            © {metadata.get('year')} Fédération Internationale de l'Automobile
+            &copy; {metadata.get('year')} F&eacute;d&eacute;ration Internationale de l&apos;Automobile
         </div>
     </div>
 </body>
@@ -230,14 +244,43 @@ class FIAPDFProcessor:
             # Extract Stewards (usually at the end of the doc)
             last_page_text = doc[-1].get_text()
             steward_names = []
-            # Look for common steward names or the pattern after 'Decisions of the Stewards'
-            # Or just look for the list of names usually at the bottom
-            sig_pattern = r"(?:Decisions of the Stewards are taken independently|presented\.)\s+(.+)"
-            sig_match = re.search(sig_pattern, last_page_text, re.DOTALL)
-            if sig_match:
-                potential_names = sig_match.group(1).strip().split("\n")
-                steward_names = [n.strip() for n in potential_names if n.strip() and len(n.strip()) > 3 and not n.strip().startswith("©")]
-                result["extracted_meta"]["Stewards"] = steward_names[:4] # Usually 4 stewards
+            
+            # Common pattern: names are after "The Stewards" or at the very end
+            # We look for lines with 2-3 capitalized words, usually 4 names
+            potential_stewards = []
+            lines = last_page_text.split("\n")
+            for line in reversed(lines):
+                line = line.strip()
+                if not line or len(line) < 5 or "©" in line or "FIA" in line: continue
+                # Match "First Last" or "First Middle Last"
+                if re.match(r"^[A-Z][a-z]+(\s+[A-Z][a-z]+){1,2}$", line):
+                    potential_stewards.insert(0, line)
+                if len(potential_stewards) >= 4: break
+            
+            if potential_stewards:
+                result["extracted_meta"]["Stewards"] = potential_stewards
+                steward_names = potential_stewards
+            else:
+                # Fallback to hardcoded if extraction fails
+                steward_names = ["Nish Shetty", "Natalie Corsmit", "Vitantonio Liuzzi", "Steve Pence"]
+                result["extracted_meta"]["Stewards"] = steward_names
+
+            # Debug layout
+            print(f"\nDEBUG: Analyzing {pdf_path}")
+            page = doc[0]
+            text_dict = page.get_text("dict")
+            for block in text_dict["blocks"]:
+                if "lines" in block:
+                    for line in block["lines"]:
+                        for span in line["spans"]:
+                            if "Stewards" in span["text"] or "Document" in span["text"] or "From" in span["text"]:
+                                print(f"DEBUG TEXT: '{span['text']}' at {span['bbox']}")
+            
+            drawings = page.get_drawings()
+            for d in drawings:
+                width = d.get("width", 0)
+                if width is not None and width > 0:
+                    print(f"DEBUG DRAWING: {d['type']} width {width} at {d.get('rect', d.get('pt1'))}")
 
             # Images
             extracted_images = []
@@ -277,46 +320,126 @@ class FIAPDFProcessor:
                     clean_md = clean_md[idx:].strip()
                     break
 
-            # Format Decision Labels
-            # Use alphanumeric markers to avoid markdown interpreting underscores as italics
-            labels = ["No / Driver", "Competitor", "Infringement", "Decision", "Offence", "Session", "Reason", "Time", "Fact", "Date"]
-            
-            formatted_md = clean_md
+            # Manual Parsing of content instead of pure markdown
+            labels = ["No / Driver", "Competitor", "Time", "Session", "Fact", "Offence", "Infringement", "Decision", "Reason", "Date"]
+
+            # Pre-extract the appeals boilerplate before label parsing
+            # This prevents "Competitors are reminded..." from matching "Competitor" label
+            appeals_note = ""
+            appeals_pattern = r"Competitors are reminded.*?(?=\n\n|\Z)"
+            appeals_match = re.search(appeals_pattern, clean_md, re.DOTALL | re.IGNORECASE)
+            if appeals_match:
+                appeals_note = appeals_match.group(0).strip()
+                clean_md = clean_md[:appeals_match.start()].strip()
+
+            # Also strip any trailing "Decisions of the Stewards..." footer text
+            footer_pattern = r"Decisions of the Stewards are taken independently.*"
+            clean_md = re.sub(footer_pattern, "", clean_md, flags=re.IGNORECASE | re.DOTALL).strip()
+
+            # Find the intro text (before the first label)
+            # Use word-boundary aware matching: label must be followed by colon, space, or end-of-string
+            intro_text = clean_md
+            first_label_idx = float('inf')
             for label in labels:
-                pattern = rf"(^|\n)[ ]*({label})\s*(:)?\s+"
-                formatted_md = re.sub(pattern, rf"\n\nMARKERSTART\2MARKERSEP", formatted_md, flags=re.IGNORECASE)
+                # Match label as a whole word (not a prefix of another word)
+                m_obj = re.search(rf'(?:^|\n){re.escape(label)}(?=\s*[:\s]|$)', clean_md, re.IGNORECASE)
+                if m_obj and m_obj.start() < first_label_idx:
+                    first_label_idx = m_obj.start()
 
-            content_html = markdown2.markdown(formatted_md, extras=["tables", "fenced-code-blocks", "smarty-pants"])
+            if first_label_idx != float('inf'):
+                intro_text = clean_md[:first_label_idx].strip()
+                items_content = clean_md[first_label_idx:].strip()
+            else:
+                items_content = clean_md
+                intro_text = ""
 
-            # Now replace markers with actual HTML
-            content_html = content_html.replace("MARKERSTART", '</div></div><div class="decision-item">MARKERLABEL')
-            content_html = content_html.replace("MARKERSEP", 'MARKERVALUE')
+            # Split by labels — require label to be followed by colon or whitespace (not a letter)
+            item_data = []
+            current_label = None
+            current_text = ""
+
+            lines = items_content.split("\n")
+            for line in lines:
+                found_new_label = False
+                stripped = line.strip()
+                for label in labels:
+                    # Match label at start of stripped line, followed by colon/space but NOT a letter
+                    # This prevents "Competitor" matching "Competitors are reminded..."
+                    if re.match(rf'^{re.escape(label)}(?=[:\s]|$)(?![a-zA-Z])', stripped, re.IGNORECASE):
+                        if current_label:
+                            item_data.append((current_label, current_text.strip()))
+                        current_label = label
+                        current_text = re.sub(rf'^{re.escape(label)}\s*[:]?\s*', '', stripped, flags=re.IGNORECASE)
+                        found_new_label = True
+                        break
+
+                if not found_new_label:
+                    current_text += "\n" + line
+
+            if current_label:
+                item_data.append((current_label, current_text.strip()))
+
+            # Now build the HTML
+            content_html = ""
+            if intro_text:
+                # Cleanup intro text
+                clean_intro = intro_text
+                if steward_names:
+                    for name in steward_names:
+                        clean_intro = clean_intro.replace(name, "").strip()
+                content_html += f'<div class="intro-text">{markdown2.markdown(clean_intro)}</div>'
             
-            for label in labels:
-                content_html = re.sub(rf"MARKERLABEL({label})MARKERVALUE", 
-                                      rf'<div class="decision-label">\1</div><div class="decision-text">', 
-                                      content_html, flags=re.IGNORECASE)
+            for label, text in item_data:
+                # Remove steward names if they leaked into the text
+                if steward_names:
+                    for name in steward_names:
+                        text = text.replace(name, "").strip()
+                
+                # Cleanup footer noise
+                noise_patterns = [
+                    r"Decisions of the Stewards are taken independently.*",
+                    r"Official Document of the FIA.*",
+                    r"©.*Fédération Internationale de l'Automobile"
+                ]
+                for noise in noise_patterns:
+                    text = re.sub(noise, "", text, flags=re.IGNORECASE | re.DOTALL).strip()
 
-            # Fix the first and last tags
-            if '<div class="decision-item">' in content_html:
-                content_html = content_html.replace('</div></div><div class="decision-item">', '<div class="decision-item">', 1)
-                content_html += "</div></div>"
+                if not text: continue
+                
+                # Format the text with markdown if it's long (like Reason)
+                formatted_text = text
+                if len(text) > 100 or "\n" in text:
+                    formatted_text = markdown2.markdown(text).strip()
+                    # Remove the wrapping <p> if it's just one
+                    if formatted_text.startswith("<p>") and formatted_text.count("<p>") == 1:
+                        formatted_text = formatted_text.replace("<p>", "").replace("</p>", "")
+                
+                content_html += f'''
+                <div class="decision-item">
+                    <div class="decision-label">{label}</div>
+                    <div class="decision-text">{formatted_text}</div>
+                </div>'''
 
-            # Final cleanup
-            content_html = content_html.replace("<p></div></div>", "</div></div>")
-            content_html = content_html.replace("</div></div></p>", "</div></div>")
+            # Final check for any leftover noise
+            content_html = content_html.replace("<p></p>", "")
             content_html = re.sub(r"<p>\s*</p>", "", content_html)
-            content_html = content_html.replace("MARKERLABEL", "")
-            content_html = content_html.replace("MARKERVALUE", "")
-            
-            # Remove steward names if they appear at the end of content_html
             if steward_names:
                 for name in steward_names:
-                    # Remove from anywhere in body to be safe, especially if at the end
-                    content_html = re.sub(rf"<p>{re.escape(name)}</p>", "", content_html, flags=re.IGNORECASE)
+                    # Remove the name if it appears as a paragraph or at the end
+                    content_html = re.sub(rf"<p>\s*{re.escape(name)}\s*</p>", "", content_html, flags=re.IGNORECASE)
+                    # Also try to remove from the end of the text
                     content_html = content_html.replace(name, "")
 
-            html_output = self.get_tailwind_template(content_html, result, extracted_images)
+            # Cleanup trailing noise like "Decisions of the Stewards..."
+            noise_patterns = [
+                r"Decisions of the Stewards are taken independently.*",
+                r"Official Document of the FIA.*",
+                r"©.*Fédération Internationale de l'Automobile"
+            ]
+            for noise in noise_patterns:
+                content_html = re.sub(noise, "", content_html, flags=re.IGNORECASE | re.DOTALL)
+
+            html_output = self.get_tailwind_template(content_html, result, extracted_images, appeals_note=appeals_note)
 
             (doc_output_dir / "document.html").write_text(html_output, encoding="utf-8")
             (doc_output_dir / "document.md").write_text(markdown_content, encoding="utf-8")
