@@ -1,13 +1,41 @@
 [project]
-name = "fia-f1-scraper"
+name = "fia-pdf-processor"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.13"
+description = "FIA F1 Decision Document PDF Processor with Hybrid Extraction"
+authors = [
+    {name = "Developer", email = "dev@example.com"},
+]
 dependencies = [
-    "aiofiles>=25.1.0",
-    "aiohttp>=3.13.5",
-    "beautifulsoup4>=4.14.3",
-    "curl-cffi>=0.15.0",
-    "pypdf>=5.1.0",
+    "pymupdf>=1.23.0",
+    "pdfplumber>=0.10.0", 
+    "beautifulsoup4>=4.12.0",
+    "pillow>=10.0.0",
+    "jinja2>=3.1.0",
+    "rich>=13.0.0",
+    "marker-pdf>=0.2.0",
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+exclude = [
+    "/.venv",
+    "/.github",
+    "/processed_documents",
+    "/classification",
+    "/.dirac-symbol-index",
+    "*.md",
+    "*.json",
+    "test_*.py",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
 ]
