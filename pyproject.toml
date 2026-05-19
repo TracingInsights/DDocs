@@ -1,13 +1,19 @@
 [project]
 name = "fia-pdf-processor"
 version = "0.1.0"
-description = "FIA F1 Decision Document PDF Processor with Hybrid Extraction"
-authors = [
-    {name = "Developer", email = "dev@example.com"},
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiofiles>=25.1.0",
+    "aiohttp>=3.13.5",
+    "beautifulsoup4>=4.14.3",
+    "curl-cffi>=0.15.0",
+    "pypdf>=6.11.0",
 ]
 dependencies = [
     "pymupdf>=1.23.0",
-    "pdfplumber>=0.10.0", 
+    "pdfplumber>=0.10.0",
     "beautifulsoup4>=4.12.0",
     "pillow>=10.0.0",
     "jinja2>=3.1.0",
