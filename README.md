@@ -54,6 +54,30 @@ https://cdn.jsdelivr.net/gh/TracingInsights/DDocs@latest/documents/2026/australi
 
 The `@latest` tag always points to the most recent release, automatically updated every time new documents are scraped.
 
+## Extracted PDF Text
+
+PDFs can be extracted into RAG-ready Markdown plus structured JSON metadata:
+
+```bash
+# Extract all PDFs that are missing from extracted/manifest.json
+uv run python extract.py
+
+# Extract only one season or event
+uv run python extract.py --year 2024
+uv run python extract.py --year 2024 --event austrian-grand-prix
+
+# Preview or limit work
+uv run python extract.py --dry-run
+uv run python extract.py --limit 100
+```
+
+Outputs are written under `extracted/{year}/{event}/`:
+
+- `{pdf-stem}.md` contains Markdown text and tables from Kreuzberg.
+- `{pdf-stem}.json` contains source hash, FIA header fields, document type, and P0 decision/summons fields where present.
+- `images/` contains non-header images. FIA banner/logo images are skipped with a position and width heuristic.
+- `extracted/manifest.json` tracks source hashes, success/failure state, page counts, image counts, and table counts for incremental reruns.
+
 ## Manual Usage
 
 ```bash
