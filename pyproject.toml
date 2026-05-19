@@ -1,7 +1,7 @@
 [project]
-name = "fia-pdf-processor"
+name = "fia-f1-documents"
 version = "0.1.0"
-description = "Add your description here"
+description = "Scrape and extract FIA Formula 1 documents."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -9,18 +9,21 @@ dependencies = [
     "aiohttp>=3.13.5",
     "beautifulsoup4>=4.14.3",
     "curl-cffi>=0.15.0",
-    "pypdf>=6.11.0",
-]
-dependencies = [
-    "pymupdf>=1.23.0",
     "pdfplumber>=0.10.0",
-    "beautifulsoup4>=4.12.0",
     "pillow>=10.0.0",
+    "kreuzberg>=4.9.0",
+    "pymupdf>=1.26.0",
     "jinja2>=3.1.0",
-    "rich>=13.0.0",
     "marker-pdf>=0.2.0",
+    "pypdf>=6.1.0",
+    "rich>=14.0.0",
 ]
-requires-python = ">=3.10"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.14.0",
+]
 
 [build-system]
 requires = ["hatchling"]
@@ -31,17 +34,22 @@ packages = ["."]
 exclude = [
     "/.venv",
     "/.github",
-    "/processed_documents",
     "/classification",
-    "/.dirac-symbol-index",
+    "/documents",
+    "/extracted",
+    "/processed_documents",
+    "/scratch",
     "*.md",
     "*.json",
     "test_*.py",
 ]
 
-[dependency-groups]
-dev = [
-    "pytest>=7.0.0",
-    "black>=23.0.0",
-    "ruff>=0.1.0",
-]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
