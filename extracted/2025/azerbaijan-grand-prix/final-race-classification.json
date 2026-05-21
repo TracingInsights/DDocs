@@ -1,0 +1,53 @@
+{
+  "date": "2025-09-21",
+  "doc_number": "48",
+  "doc_type": "classification",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:26:45Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:321508637b182054743bedcd9b65d202a27a7530a363e6ba1ee2853919d4f454",
+  "source_pdf": "documents/2025/azerbaijan-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        70.07,
+        189.38,
+        572.19,
+        420.33
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        70.07,
+        428.28,
+        572.19,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        70.07,
+        465.36,
+        572.19,
+        489.61
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:20",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

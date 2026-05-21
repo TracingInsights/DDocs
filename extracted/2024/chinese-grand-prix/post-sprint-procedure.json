@@ -1,0 +1,51 @@
+{
+  "date": "2024-04-20",
+  "doc_number": "32",
+  "doc_type": "procedure",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T09:42:53Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.8,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.8,
+      "height": 1191,
+      "page": 3,
+      "path": "images/post-sprint-procedure_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "4042a74b4cf9b16f3d373760ebc31e1f3b13c3f64d172e71ab549622080c6044",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 3,
+  "source_hash": "sha256:3304f7ec0dde38ae07976787fad215a10bccfda692cef9098c8ca38b7f694abb",
+  "source_pdf": "documents/2024/chinese-grand-prix/post-sprint-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        143.97,
+        103.06,
+        528.23,
+        258.46
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "09:25",
+  "title": "Post Sprint Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

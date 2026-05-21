@@ -1,0 +1,42 @@
+{
+  "date": "2023-04-02",
+  "doc_number": "56",
+  "doc_type": "classification",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:18Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:1ff47871e96e4349bf72c0fe3035b3546808c1d7b20cbe74dd6311d07fa9a411",
+  "source_pdf": "documents/2023/australian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        223.36,
+        189.38,
+        572.15,
+        396.06
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        223.36,
+        403.92,
+        572.15,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "23:15",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

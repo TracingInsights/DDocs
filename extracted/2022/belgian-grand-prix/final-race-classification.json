@@ -1,0 +1,42 @@
+{
+  "date": "2022-08-28",
+  "doc_number": "71",
+  "doc_type": "classification",
+  "event_name": "Time 19:05 2022 BELGIAN GRAND PRIX 25 - 28 August 2022 The Stewards Title Final Race Classification Description Timing Sheet",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T08:36:42Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:85d9d3dc512d95b668377ca2b4167a7fe4218cd35bf30170764435e3f02b74df",
+  "source_pdf": "documents/2022/belgian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.01,
+        189.47,
+        571.92,
+        408.11
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.01,
+        416.09,
+        571.92,
+        452.3
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:05",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

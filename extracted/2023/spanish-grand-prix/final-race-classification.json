@@ -1,0 +1,42 @@
+{
+  "date": "2023-06-04",
+  "doc_number": "54",
+  "doc_type": "classification",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T10:07:18Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:ecffd4e3d111a9bf5216f928475b99d44ce018b521053d162afa5af78137fe51",
+  "source_pdf": "documents/2023/spanish-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        193.66,
+        189.38,
+        572.17,
+        432.56
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        193.66,
+        458.16,
+        572.17,
+        482.42
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:10",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

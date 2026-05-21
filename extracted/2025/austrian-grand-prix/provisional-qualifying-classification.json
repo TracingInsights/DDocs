@@ -1,0 +1,42 @@
+{
+  "date": "2025-06-28",
+  "doc_number": "24",
+  "doc_type": "classification",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:26:26Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:504cd65a354fdf49176e9426a54128db7035de44c51751af42243858646daa1f",
+  "source_pdf": "documents/2025/austrian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.92,
+        430.13
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        471.25,
+        570.92,
+        495.3
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:30",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

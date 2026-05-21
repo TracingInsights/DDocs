@@ -1,0 +1,53 @@
+{
+  "date": "2025-09-06",
+  "doc_number": "23",
+  "doc_type": "classification",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T09:30:25Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:58fc022f9c7983febd9bb4f544c38a8ef4ef323f75112525152326f72ead6293",
+  "source_pdf": "documents/2025/italian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.92,
+        430.13
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.92,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.92,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:20",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

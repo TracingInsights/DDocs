@@ -1,0 +1,98 @@
+{
+  "date": "2022-03-17",
+  "doc_number": "3",
+  "doc_type": "other",
+  "event_name": "Time 18:14 2022 BAHRAIN GRAND PRIX 18 - 20 March 2022",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T08:35:28Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        441.78,
+        352.98,
+        536.82,
+        525.78
+      ],
+      "deduplicated": false,
+      "display_height": 172.8,
+      "display_width": 95.04,
+      "height": 720,
+      "page": 8,
+      "path": "images/event-notes_p8_img1.jpeg",
+      "sha256": "2c43d897ed465b3e7e6f29930f3cce4537298981f1684d066d936dfe9a225b7b",
+      "width": 396
+    },
+    {
+      "bbox": [
+        194.14,
+        88.01,
+        405.39,
+        198.66
+      ],
+      "deduplicated": false,
+      "display_height": 110.65,
+      "display_width": 211.25,
+      "height": 307,
+      "page": 9,
+      "path": "images/event-notes_p9_img2.jpeg",
+      "sha256": "9fac377189cdae4111b4e390d18ebdb46d067d2eae7830f0c316d7831a8e8293",
+      "width": 586
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 9,
+  "source_hash": "sha256:cb3961577e7098f4a78c7f04356cc67a07bb25e6ba1dd9740255800cb4f304a1",
+  "source_pdf": "documents/2022/bahrain-grand-prix/event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        96.21,
+        68.7,
+        543.24,
+        283.74
+      ],
+      "columns": 8,
+      "page": 9,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        130.15,
+        319.53,
+        463.6,
+        360.39
+      ],
+      "columns": 6,
+      "page": 9,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        135.67,
+        384.64,
+        322.66,
+        487.71
+      ],
+      "columns": 3,
+      "page": 9,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        96.21,
+        599.29,
+        499.04,
+        697.96
+      ],
+      "columns": 2,
+      "page": 9,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "18:14",
+  "title": "Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

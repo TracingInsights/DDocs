@@ -1,0 +1,53 @@
+{
+  "date": "2023-10-07",
+  "doc_number": "49",
+  "doc_type": "classification",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T10:03:46Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9508d0f73c9028fa2741da22cbee69f1c311e1092755ae2fe26bbd1706d27b00",
+  "source_pdf": "documents/2023/qatar-grand-prix/provisional-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        146.48,
+        189.38,
+        572.33,
+        371.72
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        146.48,
+        379.56,
+        572.33,
+        452.4
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        146.48,
+        458.88,
+        572.33,
+        483.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:40",
+  "title": "Provisional Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

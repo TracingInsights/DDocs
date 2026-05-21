@@ -1,0 +1,53 @@
+{
+  "date": "2022-07-23",
+  "doc_number": "36",
+  "doc_type": "classification",
+  "event_name": "Time 17:18 2022 FRENCH GRAND PRIX 21 - 24 July 2022 The Stewards Title Provisional Qualifying Classification Description Timing Sheet",
+  "event_slug": "french-grand-prix",
+  "extracted_at": "2026-05-21T08:43:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:75684354837af4f12dd3681fa1d0bf1fa4d2bb97212b740a0f0f473e9bf97dff",
+  "source_pdf": "documents/2022/french-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.11
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:18",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

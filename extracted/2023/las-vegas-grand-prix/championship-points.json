@@ -1,0 +1,53 @@
+{
+  "date": "2023-11-19",
+  "doc_number": "60",
+  "doc_type": "championship-points",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:59:43Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:05537ebc6b2ba219a0d747d61327c7e49a150d5df87d891c189b77cbb9f2187d",
+  "source_pdf": "documents/2023/las-vegas-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        117.76,
+        174.27,
+        814.24,
+        514.2
+      ],
+      "columns": 10,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        113.8,
+        174.27,
+        814.4,
+        301.8
+      ],
+      "columns": 11,
+      "page": 3,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        121.34,
+        173.88,
+        815.25,
+        478.68
+      ],
+      "columns": 11,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "01:40",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

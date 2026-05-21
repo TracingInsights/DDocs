@@ -1,0 +1,51 @@
+{
+  "date": "2023-04-01",
+  "doc_number": "28",
+  "doc_type": "procedure",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:24Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.8,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.8,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-qualifying-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "74a00bf6f8122d2b31497200faf6aa3c4d5f75405a876afa56a67beb292382b2",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:d39b4f0f7849602b3f263867cfc32f503b0518bb19551931a830aafdfa1b0275",
+  "source_pdf": "documents/2023/australian-grand-prix/post-qualifying-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        26.96,
+        70.08,
+        492.76,
+        211.14
+      ],
+      "columns": 6,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "14:40",
+  "title": "Post Qualifying Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

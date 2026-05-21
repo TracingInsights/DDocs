@@ -1,0 +1,53 @@
+{
+  "date": "2024-09-21",
+  "doc_number": "31",
+  "doc_type": "classification",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T09:49:15Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4b781eeb05f5199c5f8999aa097bd3ca72a04f326e2ef70a033d3f3f79b2de21",
+  "source_pdf": "documents/2024/singapore-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.92,
+        430.13
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.3,
+        570.92,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.92,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "22:35",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

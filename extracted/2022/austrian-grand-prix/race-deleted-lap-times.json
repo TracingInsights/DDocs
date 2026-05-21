@@ -1,0 +1,53 @@
+{
+  "date": "2022-07-10",
+  "doc_number": "65",
+  "doc_type": "deleted-lap-times",
+  "event_name": "Time 17:15 2022 AUSTRIAN GRAND PRIX 07 - 10 July 2022 The Stewards Title Race deleted lap times Description Race deleted lap times",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T08:33:09Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:5498ee9cf4020030d194428bf3948f17686020766cb303604ed470e939955e2c",
+  "source_pdf": "documents/2022/austrian-grand-prix/race-deleted-lap-times.pdf",
+  "tables": [
+    {
+      "bbox": [
+        35.46,
+        335.16,
+        567.06,
+        784.98
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        35.46,
+        50.04,
+        567.06,
+        781.02
+      ],
+      "columns": 6,
+      "page": 3,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        35.46,
+        50.04,
+        567.06,
+        358.68
+      ],
+      "columns": 6,
+      "page": 4,
+      "rows": 9
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:15",
+  "title": "Race Deleted Lap Times",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

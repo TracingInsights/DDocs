@@ -1,0 +1,42 @@
+{
+  "date": "2022-05-22",
+  "doc_number": "58",
+  "doc_type": "classification",
+  "event_name": "Time 17:08 2022 SPANISH GRAND PRIX 19 - 22 May 2022 The Stewards",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T09:03:17Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:864cf35672298b1ec71557ba67e580a65bfaa77978389de5a1abf69d942f8518",
+  "source_pdf": "documents/2022/spanish-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        571.96,
+        408.11
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.0,
+        416.09,
+        571.96,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:08",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

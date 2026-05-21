@@ -1,0 +1,53 @@
+{
+  "date": "2025-06-15",
+  "doc_number": "75",
+  "doc_type": "championship-points",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T09:28:29Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:d5b576118cca74c6d0710353fce5158760fe818dd13a2c2811582cf354809a44",
+  "source_pdf": "documents/2025/canadian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        116.85,
+        174.26,
+        814.24,
+        514.2
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        112.38,
+        174.26,
+        814.44,
+        280.56
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        116.02,
+        173.88,
+        815.54,
+        484.68
+      ],
+      "columns": 3,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:15",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

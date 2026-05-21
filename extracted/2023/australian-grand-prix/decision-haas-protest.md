@@ -1,0 +1,69 @@
+# 2023 AUSTRALIAN GRAND PRIX
+
+### 31 March - 02 April 2023
+
+The Stewards
+
+## From The Stewards
+
+To The Team Manager, MoneyGram Haas F1 Team Document 54 Date 02 April 2023
+
+Time 22:50 Title Decision - Haas Protest Description Decision - Haas Protest
+
+Enclosed AUS DOC 54 - Decision - Haas.pdf
+
+## Nish Shetty Loïc Bacquelaine
+
+## Enrique Bernoldi Christopher Mcttiahon
+
+## 2023 AUSTRALIAN GRAND PRIX
+
+31 March - 02 April 2023
+
+From The Stewards Document 54 To The Team Manager, Date 02 April 2023 MoneyGram Haas F1 Team Time 22:50
+
+Admissibility of the protest
+
+1\. The protest lodged by MoneyGram Haas F1 Team ("Haas") that was received was against:
+
+"the provisional classification of the 2023 Australian Grand Prix, received today at 18:05" [emphasis added]
+
+2\. Under Article 13 of the International Sporting Code (ISC), the scenarios in which a protest can be lodged by a Competitor are set out. It includes a protest against a classification.
+
+3\. In the circumstances, the protest, on its face appears to be compliant with the ISC.
+
+4\. We consider now the substance of the Protest, which appears to be about the way in which the order of the grid was set up for the restart of the Race after a Red Flag event in lap 57/58 rather than the classification itself.
+
+Substantive Grounds
+
+5\. The Protest was founded on the following grounds:
+
+a. "Breach of sporting regulation article 57.3;
+
+- b. It was possible for the position of all the cars to be determined at the SC2 line not the previous starting grid."
+
+6\. Art 57.3 of the F1 Sporting Regulation states:
+
+"In all cases the order will be taken at the last point at which it was possible to determine the position of all cars…"
+
+7\. In this instance, the race was resumed after another Red Flag incident. Very shortly thereafter, there was a further Red Flag incident within the first two corners of the resumed race and Race Control had to determine what the order of the grid ought to be for the next restart based on Art 57.3.
+
+8\. Race Control determined that the last point at which it was possible to the determine the position of all cars was when the last grid was formed. We summoned the Race Director to
+
+provide further clarification and he said that in the time available for the continuation of the race, the most reliable point was the last grid, given the data available to him at the time; the relative positions of the cars and the incidents on the track.
+
+9\. Haas suggested that the relative positions of the cars could be established as at the SC2 line instead. They suggested that if that line was used then the starting grid position of their car would have been different.
+
+10\. They acknowledged that the GPS data that showed the relative positions of the cars was unreliable for the purpose of establishing the order of cars.
+
+11\. They contended that instead of the last grid, that the timing data ought to have been used to establish the order of the cars.
+
+12\. Having considered all the arguments made, we made the following determination.
+
+13\. Art. 57.3 required that a restart grid order be organized in accordance with order at the: "last point at which it was possible to determine the position of all cars"
+
+14\. This determination needed to be done in the context of a timed race event and therefore the decision of Race Control and the Race Director needed to be made promptly; with the exercise of appropriate discretion and by using the most appropriate information available to them at the time.
+
+15\. In the circumstances, based on what we heard from the FIA representatives and from Haas, we considered that this was in fact done appropriately by the Race Director in this instance and therefore dismiss the protest.
+
+Nish Shetty Loïc Bacquelaine Enrique Bernoldi Christopher Mcttiahon The Stewards

@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2024-07-20",
+  "decision": "No further action.",
+  "doc_number": "24",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T09:43:57Z",
+  "fact": "The cars below exceeded the 1:31.0-time limit between the Safety Car lines. No Car Driver Competitor Time of Day Lap 1 23 Alexander Albon Williams Racing 16:52:11 L17 (Q2) 2 18 Lance Stroll Aston Martin Aramco F1 Team 17:02:30 L18 (Q3) 3 3 Daniel Ricciardo Visa Cash App RB F1 Team 17:08:18 L17 (Q3)",
+  "from": "The Stewards Document 24",
+  "images_extracted": 0,
+  "incident_time": "17:55 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article 33.4 of the FIA Formula One Sporting Regulations and Article 12.2.1 i) of the FIA International Sporting Code (non-compliance with the Race Director's Event Notes, item 2, document 12)",
+  "pages": 3,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on- board cameras and CCTV cameras. All drivers concerned stayed at or above speeds necessary to stay below 1:31.0 around the vast majority of the circuit. However, in all cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that all drivers concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 33.4 of the FIA Formula One Sporting Regulations and Article 12",
+    "Chapter 4"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:5a8c655aae45c9f7eac0e41d284a961cad94d9bb0f50cfa4db1c5b886327545d",
+  "source_pdf": "documents/2024/hungarian-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 24 To All Officials",
+    "All Teams Date 20 July 2024"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.78,
+        346.68,
+        559.92,
+        436.92
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "17:55",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2024
+}

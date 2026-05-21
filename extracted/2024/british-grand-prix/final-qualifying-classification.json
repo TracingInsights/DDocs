@@ -1,0 +1,53 @@
+{
+  "date": "2024-07-06",
+  "doc_number": "37",
+  "doc_type": "classification",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T09:41:25Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a36264c37f79afa48f260a26516413c8f44e7a0fde62967bd33d2e023dcbdd9a",
+  "source_pdf": "documents/2024/british-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.92,
+        430.13
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.92,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.92,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:55",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

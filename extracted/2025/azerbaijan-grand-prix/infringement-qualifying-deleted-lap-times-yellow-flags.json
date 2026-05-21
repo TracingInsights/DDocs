@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2025-09-20",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "29",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:26:50Z",
+  "fact": "The cars passed through a double yellow sector. No Turn Car Driver",
+  "from": "The Stewards Document 29",
+  "images_extracted": 0,
+  "incident_time": "1 1 12 Kimi Antonelli Mercedes-AMG PETRONAS F1 Team 16:04:36 PIT 2 1 55 Carlos Sainz Atlassian Williams Racing 16:04:36 PIT 3 1 6 Isack Hadjar Visa Cash App Racing Bulls F1 Team 16:04:36 PIT 4 4 16 Charles Leclerc Scuderia Ferrari HP 16:49:18 OUT LAP 5 4 44 Lewis Hamilton Scuderia Ferrari HP 16:49:18 OUT LAP 6 5 4 Lando Norris McLaren Formula 1 Team 17:21:39 PIT",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Article 26.1",
+    "Chapter 4"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:fdb50973ad356a2b2a872cec422f3c0dcd7658c58d7ea0dc3eddd469536e8ab5",
+  "source_pdf": "documents/2025/azerbaijan-grand-prix/infringement-qualifying-deleted-lap-times-yellow-flags.pdf",
+  "stewards": [
+    "Document 29 To All Officials",
+    "All Teams Date 20 September 2025"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.84,
+        346.32,
+        576.0,
+        504.24
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "20:02",
+  "title": "Infringement Qualifying Deleted Lap Times Yellow Flags",
+  "to": "All Officials, All Teams",
+  "year": 2025
+}

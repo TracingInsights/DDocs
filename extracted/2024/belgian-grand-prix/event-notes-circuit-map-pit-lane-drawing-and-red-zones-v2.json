@@ -1,0 +1,87 @@
+{
+  "date": "2024-07-26",
+  "doc_number": "8",
+  "doc_type": "circuit-map",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:40:53Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zones-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "1cb32c7064c43fd94f389b82f78c0c803bd990d3cf8a05e1d6da99ad39924b8c",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zones-v2_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "5c1a3b31173f9ed1448b9dba4a407bdeba16cc9d4b20f9f2e6565d4344c5c601",
+      "width": 2016
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 4,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zones-v2_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "32fb2a732ada520f2683eba50c2af9ae0c8e272c62db6a9ecc2f6b7d900b0171",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 4,
+  "source_hash": "sha256:4ff5e1f2df7bb3f38f7df1f5f84339720c592f17ba0fcb0415c2aae0a2de6762",
+  "source_pdf": "documents/2024/belgian-grand-prix/event-notes-circuit-map-pit-lane-drawing-and-red-zones-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.5,
+        398.7,
+        971.36,
+        544.07
+      ],
+      "columns": 48,
+      "page": 3,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "10:12",
+  "title": "Event Notes Circuit Map Pit Lane Drawing And Red Zones V2",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

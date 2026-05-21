@@ -1,0 +1,53 @@
+{
+  "date": "2025-03-21",
+  "doc_number": "32",
+  "doc_type": "classification",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T09:28:56Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:b2e8ed7deeb78dd29e33dc6f4ea627d7dda2bc800d3536211214a55fbf238def",
+  "source_pdf": "documents/2025/chinese-grand-prix/final-sprint-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.92,
+        442.29
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        451.46,
+        570.92,
+        475.51
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        484.78,
+        570.92,
+        508.83
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:30",
+  "title": "Final Sprint Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

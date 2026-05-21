@@ -1,0 +1,62 @@
+{
+  "date": "2025-12-03",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T08:30:22Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "e5e035bb9327713f8209d0bfaff0476498bf640c72d0b5afee8571969fd22e05",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:3c328614a892ecb9479d70034603de7cd12dc1b510af259bcd81310e06e72690",
+  "source_pdf": "documents/2025/abu-dhabi-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        132.33,
+        78.84,
+        540.6,
+        536.35
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        137.97,
+        408.85,
+        322.13,
+        506.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "12:26",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

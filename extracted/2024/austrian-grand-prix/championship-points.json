@@ -1,0 +1,53 @@
+{
+  "date": "2024-06-30",
+  "doc_number": "75",
+  "doc_type": "championship-points",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:38:01Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:f2994010dab255c38d429cb930a3b70f71d4edeca47dd3ccd2cf089240551692",
+  "source_pdf": "documents/2024/austrian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.11,
+        174.39,
+        814.09,
+        514.24
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        20.7,
+        174.39,
+        814.29,
+        280.59
+      ],
+      "columns": 14,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        20.98,
+        173.93,
+        815.46,
+        478.66
+      ],
+      "columns": 14,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:15",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

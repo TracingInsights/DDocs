@@ -1,0 +1,53 @@
+{
+  "date": "2025-09-21",
+  "doc_number": "45",
+  "doc_type": "classification",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:27:01Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:bae53a1de286c79f7fa6e478fb8f4a5e47f02ba12df2fbd1f019be6033d70ce4",
+  "source_pdf": "documents/2025/azerbaijan-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        162.07,
+        189.38,
+        572.24,
+        420.33
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        162.07,
+        428.28,
+        572.24,
+        452.4
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        162.07,
+        465.36,
+        572.24,
+        489.61
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:53",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

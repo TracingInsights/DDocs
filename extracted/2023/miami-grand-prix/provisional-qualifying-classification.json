@@ -1,0 +1,53 @@
+{
+  "date": "2023-05-06",
+  "doc_number": "29",
+  "doc_type": "classification",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T10:01:57Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:37aa84d733b106f87dacd0c3c1ab8ffafc73e491e586aa71e99e7ddd8cc045a9",
+  "source_pdf": "documents/2023/miami-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        147.98,
+        187.07,
+        571.33,
+        430.23
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        147.98,
+        439.32,
+        571.33,
+        463.52
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        147.98,
+        472.68,
+        571.33,
+        496.77
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:15",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

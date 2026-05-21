@@ -1,0 +1,87 @@
+{
+  "date": "2023-08-31",
+  "doc_number": "3",
+  "doc_type": "circuit-map",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T09:58:49Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-pit-lane-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "213e1d46bdfc77b14a96ae6d258f3a000ab63b0a1dede5878dba7576f1a7370f",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-pit-lane-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "9dcc74d135f19c56cc5a0be19e986dad3729366537a619bc9cc6e1f25bfbab57",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 4,
+      "path": "images/event-notes-circuit-map-pit-lane-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "1825f9c4e20e6baaaefd5374a34cd8db7f9ec10c1e13f17003617cc6f158fb86",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 4,
+  "source_hash": "sha256:64a4cca3871dcac6c74014bd5fd30f5d07637483b912b3b396addb92e2bc0db7",
+  "source_pdf": "documents/2023/italian-grand-prix/event-notes-circuit-map-pit-lane-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        59.57,
+        377.05,
+        726.13,
+        452.02
+      ],
+      "columns": 57,
+      "page": 3,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "11:25",
+  "title": "Event Notes Circuit Map Pit Lane And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

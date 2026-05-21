@@ -1,0 +1,53 @@
+{
+  "date": "2024-08-31",
+  "doc_number": "40",
+  "doc_type": "classification",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T09:44:22Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:b3281188f372bc48e2361167615b3203e1023448ad8eaae9afcd1d4bbe07fd84",
+  "source_pdf": "documents/2024/italian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        159.22,
+        187.09,
+        571.17,
+        430.26
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        159.22,
+        439.32,
+        571.17,
+        463.41
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        159.22,
+        472.56,
+        571.17,
+        496.77
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:20",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

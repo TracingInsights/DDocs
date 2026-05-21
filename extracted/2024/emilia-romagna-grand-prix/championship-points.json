@@ -1,0 +1,53 @@
+{
+  "date": "2024-05-19",
+  "doc_number": "57",
+  "doc_type": "championship-points",
+  "event_name": "Emilia Romagna Grand Prix",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T09:43:27Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:528af1293e6b232e64d2c7d3711fac41b85bba3610201d437b5c23de7e7d427d",
+  "source_pdf": "documents/2024/emilia-romagna-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        117.91,
+        174.26,
+        814.24,
+        514.2
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        114.08,
+        174.26,
+        814.44,
+        280.56
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        117.25,
+        173.88,
+        815.54,
+        478.68
+      ],
+      "columns": 3,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:00",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

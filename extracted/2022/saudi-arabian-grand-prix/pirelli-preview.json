@@ -1,0 +1,102 @@
+{
+  "date": "2022-03-24",
+  "doc_number": "5",
+  "doc_type": "pirelli-preview",
+  "event_name": "Time 12:00 2022 SAUDI ARABIAN GRAND PRIX 24 - 27 March 2022 The FIA Formula One Race Director",
+  "event_slug": "saudi-arabian-grand-prix",
+  "extracted_at": "2026-05-21T09:00:32Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "c69a4fdad52dae2ab6e5832cdb6e630a69e617a719bb0ac7c106f679266c8e0a",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 3,
+      "path": "images/pirelli-preview_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "f961f85ca6e9a977fe66816f55eaf782e693c1891cd3032fdcbbc9086f76a074",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 3,
+  "source_hash": "sha256:3cda5af7957d2ade2c7e7690b0b9aa02858546ab52d6f331ad7b5010ceed8009",
+  "source_pdf": "documents/2022/saudi-arabian-grand-prix/pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        96.21,
+        68.7,
+        543.24,
+        283.74
+      ],
+      "columns": 8,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        130.15,
+        319.53,
+        463.6,
+        360.39
+      ],
+      "columns": 6,
+      "page": 3,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        135.67,
+        384.64,
+        322.66,
+        487.71
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        96.21,
+        599.29,
+        499.04,
+        697.96
+      ],
+      "columns": 2,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "12:00",
+  "title": "Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

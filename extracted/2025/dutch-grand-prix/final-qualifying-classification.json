@@ -1,0 +1,64 @@
+{
+  "date": "2025-08-30",
+  "doc_number": "36",
+  "doc_type": "classification",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-05-21T09:29:25Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:d639c9d15b8ee79798773d99749af3380053c0f5413062fa063da88ed6bd5514",
+  "source_pdf": "documents/2025/dutch-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.04,
+        187.18,
+        570.93,
+        417.97
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        24.04,
+        427.15,
+        570.93,
+        451.19
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        460.46,
+        570.93,
+        484.51
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        493.77,
+        570.93,
+        517.82
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "19:05",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

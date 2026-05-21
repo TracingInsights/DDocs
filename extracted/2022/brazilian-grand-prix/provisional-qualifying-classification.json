@@ -1,0 +1,53 @@
+{
+  "date": "2022-11-11",
+  "doc_number": "22",
+  "doc_type": "classification",
+  "event_name": "Time 17:30 2022 BRAZILIAN GRAND PRIX 10 - 13 November 2022 The Stewards Title Provisional Qualifying Classification Description Timing Sheet",
+  "event_slug": "brazilian-grand-prix",
+  "extracted_at": "2026-05-21T08:38:02Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a2478bb51bf1685bd19560756e26470f4df3431b6dd881232a80c03b4235f49a",
+  "source_pdf": "documents/2022/brazilian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        48.46,
+        175.93,
+        563.49,
+        404.65
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        48.46,
+        413.3,
+        563.49,
+        435.95
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        48.46,
+        444.67,
+        563.49,
+        467.32
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:30",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

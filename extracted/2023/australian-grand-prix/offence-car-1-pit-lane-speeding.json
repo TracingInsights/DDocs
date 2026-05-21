@@ -1,0 +1,39 @@
+{
+  "car_number": 1,
+  "date": "2023-03-31",
+  "decision": "The competitor (Oracle Red Bull Racing) is fined \u20ac700.",
+  "doc_number": "15",
+  "doc_type": "offence",
+  "driver": "Max Verstappen",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:20Z",
+  "fact": "Pit lane speeding \u2013 86.4 km/h",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "13:06",
+  "offence": "Breach of Article 34.7 of the FIA Formula One Sporting Regulations.",
+  "pages": 1,
+  "penalty": "\u20ac700",
+  "penalty_points": null,
+  "reason": "Car 1 exceeded the pit lane speed limit which is set at 80 km/h for this event by 6.4 km/h.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 34.7 of the FIA Formula One Sporting Regulations",
+    "Chapter 4"
+  ],
+  "session": "Practice 1",
+  "source_hash": "sha256:b4e6ad7aee018e2cb6a78108bb866e873db815a7b591767915b1118643c61682",
+  "source_pdf": "documents/2023/australian-grand-prix/offence-car-1-pit-lane-speeding.pdf",
+  "stewards": [
+    "in accordance with Article 15 of the FIA International Sporting Code",
+    "Chapter 4 of the FIA Judicial",
+    "Disciplinary Rules"
+  ],
+  "tables_extracted": 0,
+  "team": "Oracle Red Bull Racing",
+  "time": "13:27",
+  "title": "Offence Car 1 Pit Lane Speeding",
+  "to": "The Team Manager, Oracle Red Bull Racing",
+  "year": 2023
+}

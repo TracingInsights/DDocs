@@ -1,0 +1,87 @@
+{
+  "date": "2024-05-02",
+  "doc_number": "3",
+  "doc_type": "circuit-map",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T09:45:41Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "48fd2aaa185c3a6734831ed42b31a418f3cc70bcbba93bea260d4da39fc1bb69",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "771841372f630fcc3aa0547d4caaf3d4d3fa7555912d2560133df842ef80d83f",
+      "width": 2016
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 4,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "c99bb4ce9e2027910668d3975c3c43881004e21813b60e8226bf5195b9c6074f",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 4,
+  "source_hash": "sha256:6f154ee8fb6d24d4a5163bba9389a9b079cb5eb4b1f24f423ec90e77f484007d",
+  "source_pdf": "documents/2024/miami-grand-prix/event-notes-circuit-map-pit-lane-drawing-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        39.75,
+        405.82,
+        969.97,
+        529.98
+      ],
+      "columns": 42,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "14:27",
+  "title": "Event Notes Circuit Map Pit Lane Drawing And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

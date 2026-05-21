@@ -1,0 +1,53 @@
+{
+  "date": "2024-09-01",
+  "doc_number": "64",
+  "doc_type": "championship-points",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T09:44:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:103a697bb350f4a4f936bbcfb12ce11827ece7e6cbc82d9379ceff60b93bdf1d",
+  "source_pdf": "documents/2024/italian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.51,
+        174.26,
+        813.92,
+        513.87
+      ],
+      "columns": 19,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        21.18,
+        174.26,
+        814.08,
+        301.62
+      ],
+      "columns": 19,
+      "page": 3,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        21.38,
+        173.81,
+        815.29,
+        478.32
+      ],
+      "columns": 19,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:10",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

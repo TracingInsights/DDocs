@@ -1,0 +1,53 @@
+{
+  "date": "2025-05-18",
+  "doc_number": "45",
+  "doc_type": "classification",
+  "event_name": "Emilia Romagna Grand Prix",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T09:29:39Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:0338d461308437b6ef30cbff4c29fc1942930860fb3f0a8b53ec9e17333b797e",
+  "source_pdf": "documents/2025/emilia-romagna-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.22,
+        572.38,
+        408.01
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.03,
+        416.0,
+        572.38,
+        452.34
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.03,
+        458.8,
+        572.38,
+        482.97
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:25",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

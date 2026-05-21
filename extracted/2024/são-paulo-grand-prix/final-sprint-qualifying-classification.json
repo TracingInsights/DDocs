@@ -1,0 +1,53 @@
+{
+  "date": "2024-11-01",
+  "doc_number": "29",
+  "doc_type": "classification",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T09:50:01Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9c721e83bf2c04c951bde01ee7f3444875a2fcff2131a1e81ae2f103c1bcdfb5",
+  "source_pdf": "documents/2024/s\u00e3o-paulo-grand-prix/final-sprint-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.91,
+        187.08,
+        571.2,
+        430.16
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.91,
+        439.38,
+        571.2,
+        463.44
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.91,
+        472.71,
+        571.2,
+        496.78
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:40",
+  "title": "Final Sprint Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

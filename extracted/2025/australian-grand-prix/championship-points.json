@@ -1,0 +1,42 @@
+{
+  "date": "2025-03-16",
+  "doc_number": "49",
+  "doc_type": "championship-points",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:25:42Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 3,
+  "source_hash": "sha256:df0e510f960c05cf6fba2539592890998f12bbc56c1f61d436f87a6d59e86004",
+  "source_pdf": "documents/2025/australian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.08,
+        174.39,
+        814.1,
+        471.76
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        20.98,
+        173.93,
+        815.46,
+        484.69
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:10",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

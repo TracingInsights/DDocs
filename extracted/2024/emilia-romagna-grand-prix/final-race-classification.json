@@ -1,0 +1,64 @@
+{
+  "date": "2024-05-19",
+  "doc_number": "56",
+  "doc_type": "classification",
+  "event_name": "Emilia Romagna Grand Prix",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T09:43:39Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:17e5a71234b2c0ce430e8a180ec3befdc61ceb193a601ed5200a3bebfb64b6e9",
+  "source_pdf": "documents/2024/emilia-romagna-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        195.12,
+        189.38,
+        572.24,
+        420.33
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        195.12,
+        428.28,
+        572.24,
+        452.46
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        195.12,
+        458.88,
+        572.24,
+        483.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        195.12,
+        489.72,
+        572.24,
+        513.97
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "18:57",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

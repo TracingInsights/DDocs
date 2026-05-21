@@ -1,0 +1,42 @@
+{
+  "date": "2023-10-21",
+  "doc_number": "36",
+  "doc_type": "classification",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T10:08:19Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:14d926fd47b0c5a936c53517e7d9ba9ea1eca93bfadc2dea56bdb986a33348a0",
+  "source_pdf": "documents/2023/united-states-grand-prix/provisional-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.47,
+        571.96,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.99,
+        428.25,
+        571.96,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:00",
+  "title": "Provisional Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

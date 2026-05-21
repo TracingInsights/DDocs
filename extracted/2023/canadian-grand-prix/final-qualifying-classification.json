@@ -1,0 +1,31 @@
+{
+  "date": "2023-06-17",
+  "doc_number": "49",
+  "doc_type": "classification",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T09:57:02Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:12c5966b787ea0f3ed6bd28df6fc81eca9b8ab638f599246348922e0cb7b0b75",
+  "source_pdf": "documents/2023/canadian-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        229.16,
+        187.07,
+        571.23,
+        430.23
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "20:30",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

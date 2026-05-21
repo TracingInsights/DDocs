@@ -1,0 +1,42 @@
+{
+  "date": "2024-07-20",
+  "doc_number": "22",
+  "doc_type": "classification",
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T09:44:05Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:7f06182f634fe711667bedcd49ca8da51c9c8d6ddfb23a417e8385dc2f832183",
+  "source_pdf": "documents/2024/hungarian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.92,
+        430.13
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        471.25,
+        570.92,
+        495.3
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:45",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

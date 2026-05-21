@@ -1,0 +1,31 @@
+{
+  "date": "2023-11-26",
+  "doc_number": "52",
+  "doc_type": "classification",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:52:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:917823fa1725233bc6472ad6460f918d12258552b9500b63d2e28495a8d63a26",
+  "source_pdf": "documents/2023/abu-dhabi-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        224.51,
+        189.38,
+        572.2,
+        432.56
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "18:55",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

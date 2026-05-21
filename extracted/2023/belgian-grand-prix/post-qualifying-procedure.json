@@ -1,0 +1,51 @@
+{
+  "date": "2023-07-28",
+  "doc_number": "11",
+  "doc_type": "procedure",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:55:19Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.8,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.8,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-qualifying-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "4836a96218a159cd1d4a309a2ea7c5b9bf6e15e04275643c15d163999ef3e982",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:3e2117e70f69857a3f75e77c3b33021df6ba48614acd1c17b7e5755cd8209ba5",
+  "source_pdf": "documents/2023/belgian-grand-prix/post-qualifying-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        192.05,
+        128.98,
+        628.0,
+        263.5
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "12:15",
+  "title": "Post Qualifying Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

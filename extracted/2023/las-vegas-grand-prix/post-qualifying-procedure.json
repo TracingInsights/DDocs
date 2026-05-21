@@ -1,0 +1,51 @@
+{
+  "date": "2023-11-17",
+  "doc_number": "33",
+  "doc_type": "procedure",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T10:00:05Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.8,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.8,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-qualifying-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "fa1077e97bcb21caf633b55dd8c820b61c44b876c27cdb97f70de64a69e6f87f",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:71982bc795fd3d97bc84607531ca7fdc7ce772b1d9498febad1dc880478188da",
+  "source_pdf": "documents/2023/las-vegas-grand-prix/post-qualifying-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        289.27,
+        124.21,
+        782.66,
+        305.91
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "19:25",
+  "title": "Post Qualifying Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

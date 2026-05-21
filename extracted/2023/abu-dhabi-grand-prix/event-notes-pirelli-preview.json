@@ -1,0 +1,84 @@
+{
+  "date": "2023-11-22",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:51:57Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "95dd8e69901b121d67ffe5aab90ba2ca57d035c06208cc0bb5c815243bf20713",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:4b06d0ca1ec3d3034fa495bdf0248fcf3bfe74b58264e4f664967629d7b13b2c",
+  "source_pdf": "documents/2023/abu-dhabi-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        94.88,
+        70.86,
+        544.8,
+        289.61
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        128.83,
+        331.32,
+        465.95,
+        373.43
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        135.05,
+        398.82,
+        322.86,
+        505.86
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        94.88,
+        622.0,
+        500.4,
+        746.92
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "13:55",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

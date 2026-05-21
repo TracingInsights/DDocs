@@ -1,0 +1,82 @@
+{
+  "date": "2022-03-19",
+  "doc_number": "24",
+  "doc_type": "other",
+  "event_name": "Time 14:29 2022 BAHRAIN GRAND PRIX 18 - 20 March 2022",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T08:35:06Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        441.59,
+        352.87,
+        536.71,
+        525.69
+      ],
+      "deduplicated": false,
+      "display_height": 172.81,
+      "display_width": 95.11,
+      "height": 720,
+      "page": 8,
+      "path": "images/event-notes-v2_p8_img1.jpeg",
+      "sha256": "ec4a17ee8bbbf2f3b4a1cf8b03d9799a2cf8dd2ddc6e00c7efca657c059279c8",
+      "width": 396
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 9,
+  "source_hash": "sha256:aaefdc1f32899b9fe6686ed052fe32b5b01ccf7b795c3fcf3d4bb3100c9c2e8b",
+  "source_pdf": "documents/2022/bahrain-grand-prix/event-notes-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        96.18,
+        68.84,
+        543.08,
+        283.82
+      ],
+      "columns": 7,
+      "page": 9,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        130.11,
+        319.59,
+        463.46,
+        360.44
+      ],
+      "columns": 6,
+      "page": 9,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        135.63,
+        384.69,
+        319.62,
+        487.76
+      ],
+      "columns": 3,
+      "page": 9,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        96.18,
+        599.27,
+        498.89,
+        697.91
+      ],
+      "columns": 2,
+      "page": 9,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "14:29",
+  "title": "Event Notes V2",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2023-07-08",
+  "doc_number": "43",
+  "doc_type": "classification",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T09:55:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:90badd45f7cd3637e29c1d16d01c63e1714114659fe3b752b6f9fc56ab898c6a",
+  "source_pdf": "documents/2023/british-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        231.96,
+        187.09,
+        571.18,
+        430.26
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "18:45",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

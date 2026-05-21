@@ -1,0 +1,51 @@
+{
+  "date": "2023-07-07",
+  "doc_number": "15",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T09:55:54Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "748e95452f5c4c240d0af4cb4361b1df0a6fdb44bf7324890896e263e4407053",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:00d4e10011c83ecc7953dd8ebc50d95d8b8e51a29b955eab4e4b96294159994c",
+  "source_pdf": "documents/2023/british-grand-prix/event-notes-pit-lane-drawing-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        18.09,
+        420.1,
+        737.84,
+        509.46
+      ],
+      "columns": 47,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "14:55",
+  "title": "Event Notes Pit Lane Drawing V2",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

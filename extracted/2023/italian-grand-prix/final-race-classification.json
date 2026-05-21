@@ -1,0 +1,53 @@
+{
+  "date": "2023-09-03",
+  "doc_number": "43",
+  "doc_type": "classification",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T09:58:51Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:f2ef0cecbb8c248b6de8ebed02abb442227e89b7dcc3d828a80ada85871ec041",
+  "source_pdf": "documents/2023/italian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        178.9,
+        189.38,
+        572.21,
+        408.2
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        178.9,
+        416.04,
+        572.21,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        178.9,
+        458.88,
+        572.21,
+        483.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:25",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

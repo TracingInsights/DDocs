@@ -1,0 +1,64 @@
+{
+  "date": "2025-05-17",
+  "doc_number": "27",
+  "doc_type": "classification",
+  "event_name": "Emilia Romagna Grand Prix",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T09:29:47Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:404b52c1e8d196de20aa025584f923ed3ffae3bdcc08c14272ae6b7a96aa27a8",
+  "source_pdf": "documents/2025/emilia-romagna-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.04,
+        187.18,
+        570.93,
+        417.97
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        24.04,
+        427.15,
+        570.93,
+        451.19
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        460.46,
+        570.93,
+        484.51
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        493.77,
+        570.93,
+        517.82
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "17:50",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

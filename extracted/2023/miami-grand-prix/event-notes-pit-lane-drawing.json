@@ -1,0 +1,51 @@
+{
+  "date": "2023-05-05",
+  "doc_number": "7",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T10:01:49Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "dfc7180a32c3f00d4aa8a3ade7275c7229f9f775122e5ffbeb2601ed65be2ccf",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:5194b192037eca6886fc197216a4190ba49866ff9f81e09187d0d3d4a786fdcb",
+  "source_pdf": "documents/2023/miami-grand-prix/event-notes-pit-lane-drawing.pdf",
+  "tables": [
+    {
+      "bbox": [
+        56.15,
+        405.97,
+        792.79,
+        496.49
+      ],
+      "columns": 43,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "11:55",
+  "title": "Event Notes Pit Lane Drawing",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

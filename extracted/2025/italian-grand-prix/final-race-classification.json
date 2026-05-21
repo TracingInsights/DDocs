@@ -1,0 +1,42 @@
+{
+  "date": "2025-09-07",
+  "doc_number": "47",
+  "doc_type": "classification",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T09:30:20Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:87a222cdb89e47d8f2797ab9839be7a79cd8641aa1efc11bbc31e46d74a81337",
+  "source_pdf": "documents/2025/italian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.47,
+        571.91,
+        408.11
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.03,
+        416.09,
+        571.91,
+        452.3
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:40",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2025-07-26",
+  "doc_number": "31",
+  "doc_type": "procedure",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:27:52Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.68,
+        595.44
+      ],
+      "deduplicated": false,
+      "display_height": 595.44,
+      "display_width": 841.68,
+      "height": 1191,
+      "page": 3,
+      "path": "images/post-sprint-procedure_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "0662655ca623784a257f265c1004c892dc171080799dbe3f9c7349ad2de621e9",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 3,
+  "source_hash": "sha256:23ab7a4dd1f3f47c71c9358dc7f45bb2a8a27749302f34ff59bf6dad266a7eb8",
+  "source_pdf": "documents/2025/belgian-grand-prix/post-sprint-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        76.26,
+        100.8,
+        813.2,
+        252.21
+      ],
+      "columns": 8,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "09:14",
+  "title": "Post Sprint Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

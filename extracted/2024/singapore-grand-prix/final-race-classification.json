@@ -1,0 +1,42 @@
+{
+  "date": "2024-09-22",
+  "doc_number": "49",
+  "doc_type": "classification",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T09:49:13Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:3c267103189ff6084e5b65eca1c30f6679c0c8d3d41a4c87546f539c6d62ea8c",
+  "source_pdf": "documents/2024/singapore-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.91,
+        189.37,
+        572.26,
+        420.32
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.91,
+        428.32,
+        572.26,
+        452.47
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "23:35",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

@@ -1,0 +1,84 @@
+{
+  "date": "2023-06-28",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:53Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "4f237d4221a91d7c9b4a3bc07e8663045d2ee5ecbc39d7b3333c80b79e6b4e3e",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:4af1d58eea6402ac4f57fe327ddd4f647cee77cd56dd6ec2b0c305689a7eb155",
+  "source_pdf": "documents/2023/austrian-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        94.88,
+        70.86,
+        544.8,
+        289.61
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        128.83,
+        331.32,
+        465.95,
+        373.43
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        135.05,
+        398.82,
+        322.86,
+        505.86
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        94.88,
+        622.0,
+        500.4,
+        723.88
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "12:30",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

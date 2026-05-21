@@ -1,0 +1,31 @@
+{
+  "date": "2023-04-01",
+  "doc_number": "23",
+  "doc_type": "classification",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:23Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:b262b23f105c846b24e90bd537f0ad434d50f0b2251da3362056430d52f76386",
+  "source_pdf": "documents/2023/australian-grand-prix/p3-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        227.62,
+        187.11,
+        571.19,
+        430.25
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "13:45",
+  "title": "P3 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

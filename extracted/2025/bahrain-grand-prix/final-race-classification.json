@@ -1,0 +1,42 @@
+{
+  "date": "2025-04-13",
+  "doc_number": "57",
+  "doc_type": "classification",
+  "event_name": "Bahrain Grand Prix",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T09:27:26Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:af14c5f0bd75b2df730d6bf35beab587baaa6fb223ba2a3d7ce6ee9b57ae23b7",
+  "source_pdf": "documents/2025/bahrain-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.47,
+        571.87,
+        408.11
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        22.99,
+        416.09,
+        571.87,
+        452.26
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "22:26",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

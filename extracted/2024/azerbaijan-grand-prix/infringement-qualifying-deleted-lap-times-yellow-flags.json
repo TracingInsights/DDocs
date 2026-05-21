@@ -1,0 +1,50 @@
+{
+  "car_number": null,
+  "date": "2024-09-14",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "35",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:39:50Z",
+  "fact": "The cars passed through a double yellow sector. No Turn Car Driver",
+  "from": "The Stewards Document 35",
+  "images_extracted": 0,
+  "incident_time": "1 1 16 Charles Leclerc Scuderia Ferrari 16:08:11 2:09.422 2 2 10 Pierre Gasly BWT Alpine F1 Team 16:11:01 PIT 3 2 3 Daniel Ricciardo Visa Cash App RB F1 Team 16:11:09 OUT LAP",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Chapter 4"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:67ee3a0b3a9bdde1f3a5959781de01ab31e52bf7d3c198cf4843f94a991cd79f",
+  "source_pdf": "documents/2024/azerbaijan-grand-prix/infringement-qualifying-deleted-lap-times-yellow-flags.pdf",
+  "stewards": [
+    "Document 35 To All Officials",
+    "All Teams Date 14 September 2024"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.84,
+        346.8,
+        576.0,
+        437.04
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "17:42",
+  "title": "Infringement Qualifying Deleted Lap Times Yellow Flags",
+  "to": "All Officials, All Teams",
+  "year": 2024
+}

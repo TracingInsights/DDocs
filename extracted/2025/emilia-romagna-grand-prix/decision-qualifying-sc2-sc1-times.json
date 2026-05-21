@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2025-05-17",
+  "decision": "No further action.",
+  "doc_number": "29",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Emilia Romagna Grand Prix",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T09:29:38Z",
+  "fact": "The cars below exceeded the 1:31.0 time limit between the Safety Car lines. No Car Driver Competitor Time of Day Lap 1 16 Charles Leclerc Scuderia Ferrari HP 16:03:17 L2 (Q1) 2 81 Oscar Piastri McLaren Formula 1 Team 16:30:07 L6 (Q1) 3 63 George Russell Mercedes-AMG PETRONAS F1 Team 17:32:55 L16 (Q3)",
+  "from": "The Stewards Document 29",
+  "images_extracted": 0,
+  "incident_time": "18:55 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article 33.4 of the FIA Formula One Sporting Regulations and Article 12.2.1 i) of the FIA International Sporting Code (non-compliance with the Race Director's Event Notes, item 1, document 4)",
+  "pages": 3,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on- board cameras and CCTV cameras. All drivers concerned stayed at or above speeds necessary to stay below 1:31.0 around the vast majority of the circuit. However, in all cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that all drivers concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 33.4 of the FIA Formula One Sporting Regulations and Article 12",
+    "Chapter 4"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:0d5632dbd14206f3e03b4ea7294fbacc86a64998b5d46bd1f5e2dc91d96d6a85",
+  "source_pdf": "documents/2025/emilia-romagna-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 29 To All Officials",
+    "All Teams Date 17 May 2025"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.78,
+        346.68,
+        559.92,
+        436.92
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "18:55",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2025
+}

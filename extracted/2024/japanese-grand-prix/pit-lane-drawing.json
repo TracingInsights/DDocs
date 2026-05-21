@@ -1,0 +1,51 @@
+{
+  "date": "2024-04-04",
+  "doc_number": "7",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:44:37Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 2,
+      "path": "images/pit-lane-drawing_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "69f338d4fb97ef1a06295bbe60cc4d520eaff1f2a38f388ae3c656737aa68d7b",
+      "width": 2016
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:610a81cc0af31f2795ece891fd0407538a8f197058d5c77f0887182e2f8d4012",
+  "source_pdf": "documents/2024/japanese-grand-prix/pit-lane-drawing.pdf",
+  "tables": [
+    {
+      "bbox": [
+        37.31,
+        412.77,
+        971.75,
+        531.21
+      ],
+      "columns": 61,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "16:15",
+  "title": "Pit Lane Drawing",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

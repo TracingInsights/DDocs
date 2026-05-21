@@ -1,0 +1,53 @@
+{
+  "date": "2024-06-23",
+  "doc_number": "52",
+  "doc_type": "classification",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T09:49:37Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:fae024fd31ab84e8134ab1b4f12eb6334c3f332fa9691718847d3027279d84d2",
+  "source_pdf": "documents/2024/spanish-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        70.1,
+        189.38,
+        572.15,
+        432.56
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        70.1,
+        458.16,
+        572.15,
+        482.42
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        70.1,
+        489.12,
+        572.15,
+        513.26
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:45",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

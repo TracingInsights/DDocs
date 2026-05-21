@@ -1,0 +1,42 @@
+{
+  "date": "2023-10-21",
+  "doc_number": "32",
+  "doc_type": "classification",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T10:08:08Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:aeede33956dd5b7d787f2834c9d8c34bc34f390b98c8ce36905bd9f80953bddc",
+  "source_pdf": "documents/2023/united-states-grand-prix/final-sprint-shootout-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.95,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        471.25,
+        570.95,
+        495.3
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "14:50",
+  "title": "Final Sprint Shootout Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

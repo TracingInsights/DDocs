@@ -1,0 +1,42 @@
+{
+  "date": "2024-11-24",
+  "doc_number": "40",
+  "doc_type": "classification",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:45:05Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:8cee3cff803b16a50e6cbd1678265ec9cd3422c0f7bd3d8278c15f18e5e5f265",
+  "source_pdf": "documents/2024/las-vegas-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        224.14,
+        189.38,
+        572.31,
+        408.2
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        224.14,
+        416.04,
+        572.31,
+        452.46
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "01:38",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

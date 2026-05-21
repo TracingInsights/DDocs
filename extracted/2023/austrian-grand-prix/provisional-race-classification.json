@@ -1,0 +1,42 @@
+{
+  "date": "2023-07-02",
+  "doc_number": "69",
+  "doc_type": "classification",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:53:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:87425773a510a721799643c64a0254dc45f00fd0dc53a73faf404b08b45d8578",
+  "source_pdf": "documents/2023/austrian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        249.75,
+        189.38,
+        572.18,
+        420.33
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        249.75,
+        428.28,
+        572.18,
+        452.46
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:55",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

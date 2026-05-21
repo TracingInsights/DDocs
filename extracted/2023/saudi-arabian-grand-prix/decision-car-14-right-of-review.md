@@ -1,0 +1,41 @@
+# Document 53
+
+## Date 20 March 2023
+
+## Time 01:02
+
+## 2023 SAUDI ARABIAN GRAND PRIX
+
+17 - 19 March 2023 The Stewards From The Stewards To The Team Manager, Aston Martin Aramco Cognizant F1 Team
+
+Title Decision - Car 14 - Right of Review Description Decision - Car 14 - Right of Review
+
+Enclosed Decision - Car 14 - Right of Review.pdf
+
+## Nish Shetty Mathieu Remmerie
+
+## Enrique Bernoldi Hassan Alabdali
+
+## 2023 SAUDI ARABIAN GRAND PRIX
+
+## 17 - 19 March 2023
+
+From The Stewards Document 53 To The Team Manager, Date 20 March 2023 Aston Martin Aramco Cognizant F1 Team Time 01:02
+
+The Stewards received a letter dated 19th March 2023 from Aston Martin Aramco Cognizant Formula One Team with a Petition for Review pursuant to Article 14.1.1 of the International Sporting Code
+
+- (ISC) of this Stewards panel's decision to impose a 10-second penalty to Car 14 for failing to serve the penalty properly. In support of the Petition for Review, the Stewards were shown minutes of the latest SAC meeting and video evidence of 7 different instances where cars were touched by the jack while serving a similar penalty to the one imposed on Car 14 without being penalized.
+
+The clear submission by the Team was that the alleged representation of an agreement between the FIA and the teams that touching the car in any way, including with a jack, would constitute "working" on the car for the purposes of Article 54.4 (c) of the Sporting Regulations, was incorrect and therefore the basis of the Steward's decision was wrong. In the light of the Petition, the Stewards had to decide if there was a "significant and relevant new element [that was] discovered which was unavailable to the parties seeking the review at the time of the decision concerned".
+
+If there was such an element(s) then the Stewards would need to consider whether the decision needed to be modified in any way. Having reviewed the video evidence presented and having heard from the Team representative of Aston Martin and the relevant members from the FIA, the Stewards determined that there did exist significant and relevant new evidence as required under Article 14.1.1 to trigger a review of the decision, in particular the video evidence and the verbal evidence from the Team and from the FIA. It was clear to us that the substratum of the original decision, namely the representation of there being an agreement, was called into question by the new evidence. We therefore proceeded to hear the substance of the request for review.
+
+Having reviewed the new evidence, we concluded that there was no clear agreement, as was suggested to the Stewards previously, that could be relied upon to determine that parties had agreed that a jack touching a car would amount to working on the car, without more.
+
+In the circumstances, we considered that our original decision to impose a penalty on Car 14 needed to be reversed and we did so accordingly.
+
+## Nish Shetty Mathieu Remmerie
+
+## Enrique Bernoldi Hassan Alabdali
+
+## The Stewards

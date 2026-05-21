@@ -1,0 +1,31 @@
+{
+  "date": "2024-11-21",
+  "doc_number": "13",
+  "doc_type": "classification",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:45:08Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:1cbb9a98909f1770da6502eae35b26e348567059bbe0fd56a5cf8bf8a69229e4",
+  "source_pdf": "documents/2024/las-vegas-grand-prix/p1-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        212.35,
+        187.11,
+        571.19,
+        430.25
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "19:48",
+  "title": "P1 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

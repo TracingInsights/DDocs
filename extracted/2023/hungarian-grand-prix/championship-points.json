@@ -1,0 +1,53 @@
+{
+  "date": "2023-07-23",
+  "doc_number": "44",
+  "doc_type": "championship-points",
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T09:58:13Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:236f54f2f398e6f29b9c4eac745bdcf50f73e740ef4b142a6f51dea80fd65a16",
+  "source_pdf": "documents/2023/hungarian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        117.78,
+        174.27,
+        814.24,
+        514.2
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        113.41,
+        174.27,
+        814.44,
+        280.56
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        121.36,
+        173.88,
+        815.25,
+        478.68
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:40",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

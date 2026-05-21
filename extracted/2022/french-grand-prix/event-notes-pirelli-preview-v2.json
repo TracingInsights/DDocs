@@ -1,0 +1,73 @@
+{
+  "date": "2022-07-21",
+  "doc_number": "5",
+  "doc_type": "pirelli-preview",
+  "event_name": "Time 13:05 2022 FRENCH GRAND PRIX 21 - 24 July 2022 The FIA Formula One Race Director Title Event Notes - Pirelli Preview V2",
+  "event_slug": "french-grand-prix",
+  "extracted_at": "2026-05-21T08:43:26Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "17bd9bc25d22f6bf755fbf7a774e9b6fdbbdd5b436cccf76afcc59d4d67ba272",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:24e4ddf999e86a3ef85260550144cfa6d8bbad82e1e4d3444680a0e865db0e89",
+  "source_pdf": "documents/2022/french-grand-prix/event-notes-pirelli-preview-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        96.21,
+        68.7,
+        543.24,
+        279.41
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        135.67,
+        384.64,
+        322.66,
+        487.71
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        96.21,
+        599.29,
+        499.04,
+        697.96
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "13:05",
+  "title": "Event Notes Pirelli Preview V2",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2025-08-03",
+  "doc_number": "37",
+  "doc_type": "classification",
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T09:30:07Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:7b8a7c9737805d2e853397065faf6cd6b9d97a0ea40593edd8491609447c35f4",
+  "source_pdf": "documents/2025/hungarian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.02,
+        189.47,
+        571.96,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.02,
+        428.25,
+        571.96,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:56",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

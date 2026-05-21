@@ -1,0 +1,64 @@
+{
+  "date": "2023-10-08",
+  "doc_number": "89",
+  "doc_type": "classification",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T10:03:22Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:1f3653140986270e9227172a388a5d3640860b139927fb7d5da958b15aee5190",
+  "source_pdf": "documents/2023/qatar-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        192.01,
+        189.38,
+        572.15,
+        396.08
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        192.01,
+        403.92,
+        572.15,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        192.01,
+        458.88,
+        572.15,
+        483.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        192.01,
+        489.72,
+        572.15,
+        513.97
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "23:58",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

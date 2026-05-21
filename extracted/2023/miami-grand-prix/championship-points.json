@@ -1,0 +1,53 @@
+{
+  "date": "2023-05-07",
+  "doc_number": "46",
+  "doc_type": "championship-points",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T10:01:37Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:e01eb22d1d19616c8761c0db4d432e63f2dedcdb4ff47145404be3e6bddcc51b",
+  "source_pdf": "documents/2023/miami-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        116.72,
+        174.27,
+        814.24,
+        514.2
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        111.2,
+        174.27,
+        814.48,
+        259.32
+      ],
+      "columns": 2,
+      "page": 3,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        117.64,
+        173.88,
+        815.25,
+        478.68
+      ],
+      "columns": 2,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:00",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

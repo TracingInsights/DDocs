@@ -1,0 +1,59 @@
+# 2023 AZERBAIJAN GRAND PRIX
+
+## 28 - 30 April 2023
+
+The FIA Formula One Technical Delegate From The FIA Formula One Technical Delegate To The Stewards Document 21
+
+Date 28 April 2023 Time 17:00
+
+Title Technical Delegate's Report Description New PU elements for this Competition
+
+**Enclosed 04 AZE GP 23 TDR6.pdf Jo Bauer**
+
+## 2023 AZERBAIJAN GRAND PRIX
+
+## 28 - 30 April 2023
+
+From : The FIA Formula One Technical Delegate To : The Stewards of the Meeting Date : 29 April 2023
+
+## TECHNICAL DELEGATE'S REPORT
+
+The following driver will use a new internal combustion engine (ICE) for the remainder of the Competition:
+
+## Number Car Driver Previously used ICE
+
+10 Alpine Renault Pierre Gasly 1
+
+The internal combustion engine used by Pierre Gasly is one of the four new internal combustion engines allowed for the 2023 Championship season and this is in conformity with Article 28.2 of the 2023 Formula One Sporting Regulations.
+
+The following driver will use a new turbocharger (TC) for the remainder of the Competition:
+
+## Number Car Driver Previously used TC
+
+10 Alpine Renault Pierre Gasly 1
+
+The turbocharger used by Pierre Gasly is one of the four new turbochargers allowed for the 2023 Championship season and this is in conformity with Article 28.2 of the 2023 Formula One Sporting Regulations.
+
+The following driver will use a new motor generator unit-heat (MGU-H) for the remainder of the Competition:
+
+## Number Car Driver Previously used MGU-H
+
+10 Alpine Renault Pierre Gasly 1
+
+The motor generator unit-heat used by Pierre Gasly is one of the four new motor generator units-heat allowed for the 2023 Championship season and this is in conformity with Article 28.2 of the 2023 Formula One Sporting Regulations.
+
+The following driver will use a new motor generator unit-kinetic (MGU-K) for the remainder of the Competition:
+
+## Number Car Driver Previously used MGU-K
+
+10 Alpine Renault Pierre Gasly 1
+
+The motor generator unit-kinetic used by Pierre Gasly is one of the four new motor generator units-kinetic allowed for the 2023 Championship season and this is in conformity with Article 28.2 of the 2023 Formula One Sporting Regulations.
+
+The following driver will use a new exhaust system (EX) for the remainder of the Competition:
+
+## Number Car Driver Previously used EX
+
+10 Alpine Renault Pierre Gasly 2
+
+The exhaust system used by Pierre Gasly is one of the eight new exhaust systems allowed for the 2023 Championship season and this is in conformity with Article 28.2 of the 2023 Formula One Sporting Regulations.

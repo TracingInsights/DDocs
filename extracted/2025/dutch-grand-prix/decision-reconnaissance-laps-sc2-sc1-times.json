@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2025-08-31",
+  "decision": "No further action.",
+  "doc_number": "56",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-05-21T09:29:22Z",
+  "fact": "The cars below exceeded the 1:26.0 time limit between the Safety Car lines. No Car Driver Competitor Time of Day 1 27 Nico Hulkenberg Stake F1 Team Kick Sauber 14:22:09 2 55 Carlos Sainz Atlassian Williams Racing 14:22:12 3 1 Max Verstappen Oracle Red Bull Racing 14:22:16 4 4 Lando Norris McLaren Formula 1 Team 14:22:21",
+  "from": "The Stewards Document 56",
+  "images_extracted": 0,
+  "incident_time": "20:14 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article 33.4 of the FIA Formula One Sporting Regulations and Article 12.2.1 i) of the FIA International Sporting Code (non-compliance with the Race Director's Event Notes, item 1, document 5)",
+  "pages": 3,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on- board cameras and CCTV cameras. All drivers concerned stayed at or above speeds necessary to stay below 1:26.0 around the vast majority of the circuit. However, in all cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that all drivers concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 33.4 of the FIA Formula One Sporting Regulations and Article 12",
+    "Chapter 4"
+  ],
+  "session": "Reconnaissance laps",
+  "source_hash": "sha256:9f36f3fde9db97dae9e37212333ef7fd3e811eeb22972512e1e9f0804d7774b0",
+  "source_pdf": "documents/2025/dutch-grand-prix/decision-reconnaissance-laps-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 56 To All Officials",
+    "All Teams Date 31 August 2025"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        66.12,
+        326.07,
+        532.68,
+        432.12
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 5
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "20:14",
+  "title": "Decision Reconnaissance Laps Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2025
+}

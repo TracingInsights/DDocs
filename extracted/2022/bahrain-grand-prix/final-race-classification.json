@@ -1,0 +1,53 @@
+{
+  "date": "2022-03-20",
+  "doc_number": "44",
+  "doc_type": "classification",
+  "event_name": "Time 22:36 2022 BAHRAIN GRAND PRIX 18 - 20 March 2022 The Stewards",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T08:35:38Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9c3b920a0eddd1aca626fd413865b2d0214468803021b2f23e7114be4c1ff4b8",
+  "source_pdf": "documents/2022/bahrain-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.22,
+        572.38,
+        420.18
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.03,
+        428.17,
+        572.38,
+        452.34
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.03,
+        458.8,
+        572.38,
+        482.97
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "22:36",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

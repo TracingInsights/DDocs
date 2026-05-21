@@ -1,0 +1,51 @@
+{
+  "date": "2024-11-21",
+  "doc_number": "14",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:45:03Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "2e7bb84d0c6871a6c449e59abfc0aac3f08c35173c6d8c0715df5fc0eee6ef54",
+      "width": 2016
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:547dc02b688826e87248f8cc4a9b2135b9281e2f00fb768a6f9bddc1d4e721c3",
+  "source_pdf": "documents/2024/las-vegas-grand-prix/event-notes-pit-lane-drawing.pdf",
+  "tables": [
+    {
+      "bbox": [
+        36.24,
+        418.35,
+        970.96,
+        541.18
+      ],
+      "columns": 43,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "21:25",
+  "title": "Event Notes Pit Lane Drawing",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

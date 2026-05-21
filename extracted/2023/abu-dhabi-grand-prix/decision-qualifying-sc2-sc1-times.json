@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2023-11-25",
+  "decision": "No further action.",
+  "doc_number": "40",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:51:54Z",
+  "fact": "The car below exceeded the 1:35.0-time limit between the Safety Car lines. No Car Driver Competitor Time of Day Lap 1 81 Oscar Piastri McLaren F1 Team 18:07 2 (Q1)",
+  "from": "The Stewards Document 40",
+  "images_extracted": 0,
+  "incident_time": "19:30 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article 33.4 of the FIA Formula One Sporting Regulations and Article 12.2.1 i) of the FIA International Sporting Code (non-compliance with the Race Director's Event Notes, item 4.2, document 30)",
+  "pages": 2,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on- board cameras and CCTV cameras. The Stewards determined that the driver took appropriate action to not impede other drivers, allowing 3 cars on push laps to overtake by slowing down giving those drivers a clear track. The Stewards therefore determine the driver concerned did not drive \"unnecessarily slowly\", and that the reason they were above the maximum time was due to taking appropriate action. Therefore, no further action is warranted.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 33.4 of the FIA Formula One Sporting Regulations and Article 12",
+    "Chapter 4"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:583781b2baf8e52728e6850de96cab7672b23d4b50056d2ad09d8cd440e7a7b9",
+  "source_pdf": "documents/2023/abu-dhabi-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 40 To All Officials",
+    "All Teams Date 25 November 2023"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.78,
+        345.48,
+        559.92,
+        390.6
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "19:30",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2023
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2025-07-06",
+  "doc_number": "52",
+  "doc_type": "championship-points",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T09:28:07Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:71da282450709cd00a21e8733fd84527990cf976985e58fc543e63188301a672",
+  "source_pdf": "documents/2025/british-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.11,
+        174.39,
+        814.09,
+        514.24
+      ],
+      "columns": 15,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        20.7,
+        174.39,
+        814.29,
+        280.59
+      ],
+      "columns": 15,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        20.98,
+        173.93,
+        815.46,
+        484.69
+      ],
+      "columns": 15,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:50",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

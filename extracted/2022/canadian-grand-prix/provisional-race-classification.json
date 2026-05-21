@@ -1,0 +1,42 @@
+{
+  "date": "2022-06-19",
+  "doc_number": "69",
+  "doc_type": "classification",
+  "event_name": "Time 16:00 2022 CANADIAN GRAND PRIX 16 - 19 June 2022 The Stewards",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T08:40:47Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a8ff1d84e6d1ff9a82eb55f768f2fce207d05a6d305a126f423b77ea54896d7e",
+  "source_pdf": "documents/2022/canadian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.01,
+        189.47,
+        571.96,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.01,
+        403.93,
+        571.96,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

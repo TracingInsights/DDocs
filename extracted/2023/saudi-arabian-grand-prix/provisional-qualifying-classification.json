@@ -1,0 +1,42 @@
+{
+  "date": "2023-03-18",
+  "doc_number": "34",
+  "doc_type": "classification",
+  "event_name": "Saudi Arabian Grand Prix",
+  "event_slug": "saudi-arabian-grand-prix",
+  "extracted_at": "2026-05-21T10:06:35Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:1c564dd4829d09846f933660802e017440d30e53282e81755be74eed55edc4a9",
+  "source_pdf": "documents/2023/saudi-arabian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        177.3,
+        187.07,
+        571.24,
+        418.0
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        177.3,
+        427.08,
+        571.24,
+        451.34
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "21:20",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

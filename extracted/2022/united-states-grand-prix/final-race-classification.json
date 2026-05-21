@@ -1,0 +1,42 @@
+{
+  "date": "2022-10-23",
+  "doc_number": "62",
+  "doc_type": "classification",
+  "event_name": "Date 23 October 2022 Time 21:00 2022 UNITED STATES GRAND PRIX 20 - 23 October 2022 The Stewards Title Final Race Classification Description Timing Sheet",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:04:11Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:7125d1acdf0760855f03c223bc3abfdcd8c952900b54fb3fa6860b1fda811adc",
+  "source_pdf": "documents/2022/united-states-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.53,
+        571.66,
+        395.89
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        22.99,
+        403.87,
+        571.66,
+        452.28
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "21:00",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

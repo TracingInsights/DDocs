@@ -1,0 +1,42 @@
+{
+  "date": "2024-04-07",
+  "doc_number": "54",
+  "doc_type": "classification",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:44:35Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:069ef85f2631b779ef62c36d90d06eb1c1fae974be4063734678a7a811723a2a",
+  "source_pdf": "documents/2024/japanese-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.47,
+        571.96,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.03,
+        403.93,
+        571.96,
+        452.3
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:25",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

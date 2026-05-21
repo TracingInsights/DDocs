@@ -1,0 +1,51 @@
+{
+  "date": "2023-11-16",
+  "doc_number": "12",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:59:57Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "5a8e04f58c5f2f3431aadaa1c229e3e3f8ce7563bef93a2219b229a23db2898c",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:b159e11884ad9b9f50c17d40646394b33baa69b3f01ddf0d39a52f4b7f396f65",
+  "source_pdf": "documents/2023/las-vegas-grand-prix/event-notes-pit-lane-drawing-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        71.99,
+        394.09,
+        773.85,
+        484.05
+      ],
+      "columns": 50,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "19:00",
+  "title": "Event Notes Pit Lane Drawing V2",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

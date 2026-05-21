@@ -1,0 +1,62 @@
+{
+  "date": "2024-04-21",
+  "doc_number": "55",
+  "doc_type": "pirelli-preview",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T09:42:45Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "20b82e74972aff081a4491aeeb7e50fcf2e1cccd131ab93cf1885bd77797cd79",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:febaffb2dcc7025313263e5f4ee6c9ff6b8aad91cbf24428ca8ed8f25735db4f",
+  "source_pdf": "documents/2024/chinese-grand-prix/event-notes-pirelli-preview-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        131.87,
+        78.84,
+        540.6,
+        536.35
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        137.97,
+        408.85,
+        322.7,
+        506.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "09:35",
+  "title": "Event Notes Pirelli Preview V2",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2024-10-27",
+  "doc_number": "46",
+  "doc_type": "classification",
+  "event_name": "Mexico City Grand Prix",
+  "event_slug": "mexico-city-grand-prix",
+  "extracted_at": "2026-05-21T09:45:28Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:f8364db0bca8688f38ad211607e08ad3f0b786a05119b4e6fe7daa0e82d7e023",
+  "source_pdf": "documents/2024/mexico-city-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        163.06,
+        189.38,
+        572.22,
+        396.08
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        163.06,
+        403.92,
+        572.22,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        163.06,
+        458.88,
+        572.22,
+        483.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        163.06,
+        489.72,
+        572.22,
+        513.97
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "16:15",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

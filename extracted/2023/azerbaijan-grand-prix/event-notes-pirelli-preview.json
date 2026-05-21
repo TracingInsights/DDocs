@@ -1,0 +1,84 @@
+{
+  "date": "2023-04-26",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:53:44Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "fe21e39537111cef337e67ba07d0fb87607f4a0be6f19f4a679c3cca2ee7997d",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:ab6facb47990bc7340e352a9868fccebe8d9ed90a48ed5f3b553c583c68c4ecd",
+  "source_pdf": "documents/2023/azerbaijan-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        94.88,
+        70.86,
+        544.8,
+        289.61
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        128.84,
+        331.32,
+        465.95,
+        373.43
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        135.05,
+        398.82,
+        322.86,
+        505.86
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        94.88,
+        622.0,
+        500.4,
+        723.88
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "13:05",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

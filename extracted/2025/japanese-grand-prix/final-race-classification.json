@@ -1,0 +1,42 @@
+{
+  "date": "2025-04-06",
+  "doc_number": "51",
+  "doc_type": "classification",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:30:40Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:7f0b02f313e978bbbf098f4b7143ceac34a1730c977e2020095c39c0ea6edc33",
+  "source_pdf": "documents/2025/japanese-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        164.53,
+        189.38,
+        572.25,
+        432.56
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        164.53,
+        458.16,
+        572.25,
+        482.42
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:15",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

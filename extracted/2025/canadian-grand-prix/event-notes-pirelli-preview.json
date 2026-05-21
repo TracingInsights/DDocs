@@ -1,0 +1,62 @@
+{
+  "date": "2025-06-11",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T09:28:36Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "db466ba6438b6f4c68d8568ab09f0d251ea3142738923dfcedb8740dd7a122b8",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:17351ddcaeb409c9e54aaae9c737111956ae89b0e76b4770316ba335e3e1ef3f",
+  "source_pdf": "documents/2025/canadian-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        131.9,
+        78.84,
+        540.6,
+        536.35
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        137.97,
+        408.85,
+        322.7,
+        506.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "14:45",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

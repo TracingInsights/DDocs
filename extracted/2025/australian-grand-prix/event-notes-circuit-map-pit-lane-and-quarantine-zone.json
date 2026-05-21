@@ -1,0 +1,87 @@
+{
+  "date": "2025-03-13",
+  "doc_number": "5",
+  "doc_type": "circuit-map",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:25:46Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-pit-lane-and-quarantine-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "75f60dadf41e2607f04091d84f354f21fd0ed09343fc0b8c8d706718f8417acd",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-pit-lane-and-quarantine-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "a41cc1c129472fed40085e1c3a546d59d7d8a8c79b00d7ffe254a006cb1da4d1",
+      "width": 2016
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.32,
+        841.92
+      ],
+      "deduplicated": false,
+      "display_height": 841.92,
+      "display_width": 595.32,
+      "height": 1684,
+      "page": 4,
+      "path": "images/event-notes-circuit-map-pit-lane-and-quarantine-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "4a45262d047125d93c2e5c517f693ab8852f09c29586d30f9fc684861726eed6",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 4,
+  "source_hash": "sha256:1440ed0d9e825ec74855c14f9dcf941813e910bbfc773b18455bc2fbf33c92e3",
+  "source_pdf": "documents/2025/australian-grand-prix/event-notes-circuit-map-pit-lane-and-quarantine-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        37.57,
+        403.09,
+        957.35,
+        532.45
+      ],
+      "columns": 50,
+      "page": 3,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "19:49",
+  "title": "Event Notes Circuit Map Pit Lane And Quarantine Zone",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

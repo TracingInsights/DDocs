@@ -1,0 +1,51 @@
+{
+  "date": "2023-04-28",
+  "doc_number": "16",
+  "doc_type": "procedure",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:53:54Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.8,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.8,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-qualifying-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "09d6829b166e97c194de5aec75ebbd7d234bd48311ced2308385aa30cb05fc00",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:49acf4ba2978534c67ac223964ec6b853cb59fddffe77c448ed034128fb296d1",
+  "source_pdf": "documents/2023/azerbaijan-grand-prix/post-qualifying-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        320.31,
+        96.38,
+        794.83,
+        396.47
+      ],
+      "columns": 4,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "15:00",
+  "title": "Post Qualifying Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

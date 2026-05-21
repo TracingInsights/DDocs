@@ -1,0 +1,25 @@
+# From The FIA Formula One Technical Delegate
+
+To The Stewards Document 6 Date 10 June 2022
+
+## Time 11:00
+
+2022 AZERBAIJAN GRAND PRIX 9 - 12 June 2022 The FIA Formula One Technical Delegate
+
+Title Technical Delegate's Report Description RNCs used per driver up to now
+
+**Enclosed 08 AZE GP 22 TDR2.pdf Jo Bauer**
+
+## 2022 AZERBAIJAN GRAND PRIX
+
+## 09 - 12 June 2022
+
+From : The FIA Formula One Technical Delegate To : The Stewards of the Meeting Date : 10 June 2022
+
+### Technical Delegate's Report
+
+The drivers entered in the 2022 Formula One Championship have used the below listed number of RNCs during this season so far:
+
+**N° Car Driver Gearbox case and cassette Gearbox driveline, gear change components and auxiliary components**
+
+63 Mercedes George Russell 2 2 44 Mercedes Lewis Hamilton 2 2 01 RBR RBPT Max Verstappen 2 2 11 RBR RBPT Sergio Perez 2 2 16 Ferrari Charles Leclerc 2 2 55 Ferrari Carlos Sainz 2 2 03 McLaren Mercedes Daniel Ricciardo 3 3 04 McLaren Mercedes Lando Norris 2 2 14 Alpine Renault Fernando Alonso 2 2 31 Alpine Renault Esteban Ocon 3 3 10 AlphaTauri RBPT Pierre Gasly 3 3 22 AlphaTauri RBPT Yuki Tsunoda 2 2 18 Aston Martin Mercedes Lance Stroll 2 2 05 Aston Martin Mercedes Sebastian Vettel 2 2 23 Williams Mercedes Alexander Albon 2 2 06 Williams Mercedes Nicholas Latifi 2 2 77 Alfa Romeo Ferrari Valtteri Bottas 3 2 24 Alfa Romeo Ferrari Zhou Guanyu 2 2 20 Haas Ferrari Kevin Magnussen 2 2 47 Haas Ferrari Mick Schumacher 3 3

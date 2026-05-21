@@ -1,0 +1,64 @@
+{
+  "date": "2023-10-07",
+  "doc_number": "34",
+  "doc_type": "classification",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T10:03:47Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:1c1eb99f1373350fbfa6065b2e060e3ae00a1588052a5f43cca1ac0d12317a8a",
+  "source_pdf": "documents/2023/qatar-grand-prix/provisional-sprint-shootout-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        147.24,
+        187.07,
+        571.24,
+        418.0
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        147.24,
+        427.08,
+        571.24,
+        451.34
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        147.24,
+        460.44,
+        571.24,
+        484.63
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        147.24,
+        493.8,
+        571.24,
+        517.99
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "17:20",
+  "title": "Provisional Sprint Shootout Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

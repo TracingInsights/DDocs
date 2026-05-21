@@ -1,0 +1,51 @@
+{
+  "date": "2022-07-21",
+  "doc_number": "6",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Time 17:15 2022 FRENCH GRAND PRIX 21 - 24 July 2022 The FIA Formula One Race Director Title Event Notes - Pit Lane Drawing",
+  "event_slug": "french-grand-prix",
+  "extracted_at": "2026-05-21T08:43:26Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "5bd99639bc4f6eea64b88444ced7cd7d4cf46c041d6c687a2555a1d1c37a4f81",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:a046d8fd7666c67dfff92c4620b24bbc95a953a80bc26b8aff3dc4407bfc3dea",
+  "source_pdf": "documents/2022/french-grand-prix/event-notes-pit-lane-drawing.pdf",
+  "tables": [
+    {
+      "bbox": [
+        65.51,
+        371.35,
+        792.43,
+        464.09
+      ],
+      "columns": 27,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:15",
+  "title": "Event Notes Pit Lane Drawing",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

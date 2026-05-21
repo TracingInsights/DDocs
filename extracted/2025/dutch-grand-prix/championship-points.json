@@ -1,0 +1,53 @@
+{
+  "date": "2025-08-31",
+  "doc_number": "61",
+  "doc_type": "championship-points",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-05-21T09:29:21Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:d86ed46833919cdac045d03f64128fff9a053c1f28a036495b981d66bf199eac",
+  "source_pdf": "documents/2025/dutch-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.63,
+        174.26,
+        814.04,
+        513.88
+      ],
+      "columns": 18,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        21.22,
+        174.26,
+        814.24,
+        280.39
+      ],
+      "columns": 18,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        21.49,
+        173.81,
+        815.41,
+        484.35
+      ],
+      "columns": 18,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:00",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

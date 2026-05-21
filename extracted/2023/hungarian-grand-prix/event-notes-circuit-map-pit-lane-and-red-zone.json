@@ -1,0 +1,87 @@
+{
+  "date": "2023-07-20",
+  "doc_number": "3",
+  "doc_type": "circuit-map",
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T09:58:18Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-pit-lane-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "4b3573303830e5d76f66c64d510753d22e694d3f04d1e3d27cc8d26f363d2dec",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-pit-lane-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "3cf439701a75d7057a2f7b32edaa93c2a55df09ce9f1dfe0a60b91a84ea9ab28",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 4,
+      "path": "images/event-notes-circuit-map-pit-lane-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "e95823fe5727ee67797e7ec83ac88003296bc1aded821196839e0046a4cbfd89",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 4,
+  "source_hash": "sha256:bd5b513c1dda50a08a0c7030f1be7bde691b5c4784442931a5d6e3b2c7802bdd",
+  "source_pdf": "documents/2023/hungarian-grand-prix/event-notes-circuit-map-pit-lane-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        43.99,
+        392.32,
+        756.67,
+        466.44
+      ],
+      "columns": 51,
+      "page": 3,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "11:10",
+  "title": "Event Notes Circuit Map Pit Lane And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

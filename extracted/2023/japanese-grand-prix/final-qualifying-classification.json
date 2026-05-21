@@ -1,0 +1,64 @@
+{
+  "date": "2023-09-23",
+  "doc_number": "26",
+  "doc_type": "classification",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:59:24Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c270b75a70095d7380532a035108abfc09d5d37aa914fc772aedee5c1e9a038d",
+  "source_pdf": "documents/2023/japanese-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.04,
+        187.18,
+        570.97,
+        417.95
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        24.04,
+        427.14,
+        570.97,
+        451.19
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        460.46,
+        570.97,
+        484.51
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        493.77,
+        570.97,
+        517.82
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "19:10",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2023-08-24",
+  "doc_number": "4",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-05-21T09:57:43Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "a279422dd4cd2da06e8d51e49ae055276eb3b9d0a2b7f79a74e0f6903fe07d78",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:aa7af997a5859a93283e9595661d89e26e733984b236448b2662e7678bb802a3",
+  "source_pdf": "documents/2023/dutch-grand-prix/event-notes-pit-lane-drawing.pdf",
+  "tables": [
+    {
+      "bbox": [
+        44.21,
+        374.13,
+        712.13,
+        471.14
+      ],
+      "columns": 33,
+      "page": 2,
+      "rows": 5
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "13:50",
+  "title": "Event Notes Pit Lane Drawing",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

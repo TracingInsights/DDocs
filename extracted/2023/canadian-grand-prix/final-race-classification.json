@@ -1,0 +1,53 @@
+{
+  "date": "2023-06-18",
+  "doc_number": "68",
+  "doc_type": "classification",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T09:57:06Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:5206f6eff3fee5193a6a2862883643befb51ececc93805aec2a9e404329683ac",
+  "source_pdf": "documents/2023/canadian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        177.94,
+        189.38,
+        572.18,
+        408.2
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        177.94,
+        416.04,
+        572.18,
+        452.46
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        177.94,
+        458.88,
+        572.18,
+        483.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:10",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

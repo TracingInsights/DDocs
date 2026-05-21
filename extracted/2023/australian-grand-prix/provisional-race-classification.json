@@ -1,0 +1,42 @@
+{
+  "date": "2023-04-02",
+  "doc_number": "45",
+  "doc_type": "classification",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:33Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:da6e3a6fd4f2fed272b79ba3515ed5ef944e61d0f629f4072883b262cb3793fe",
+  "source_pdf": "documents/2023/australian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        223.58,
+        189.38,
+        572.22,
+        396.06
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        223.58,
+        403.92,
+        572.22,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:05",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

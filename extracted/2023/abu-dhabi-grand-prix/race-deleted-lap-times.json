@@ -1,0 +1,42 @@
+{
+  "date": "2023-11-26",
+  "doc_number": "60",
+  "doc_type": "deleted-lap-times",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:52:04Z",
+  "from": "The Stewards Document 60",
+  "images_extracted": 0,
+  "pages": 3,
+  "source_hash": "sha256:80b91a38cd360e50fd534d5c7e90b72857e8f664e939c248933d4f8ba2b2d78b",
+  "source_pdf": "documents/2023/abu-dhabi-grand-prix/race-deleted-lap-times.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.78,
+        345.48,
+        576.0,
+        773.94
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        42.78,
+        50.04,
+        576.0,
+        365.76
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 14
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:25",
+  "title": "Race Deleted Lap Times",
+  "to": "All Officials, All Teams",
+  "year": 2023
+}

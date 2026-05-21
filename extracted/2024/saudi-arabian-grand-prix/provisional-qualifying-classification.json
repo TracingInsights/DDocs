@@ -1,0 +1,64 @@
+{
+  "date": "2024-03-08",
+  "doc_number": "30",
+  "doc_type": "classification",
+  "event_name": "Saudi Arabian Grand Prix",
+  "event_slug": "saudi-arabian-grand-prix",
+  "extracted_at": "2026-05-21T09:49:02Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:8db792222635700a273dbcf63db8a07406bdfa75666d7367380545b1b9ff9984",
+  "source_pdf": "documents/2024/saudi-arabian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.04,
+        187.18,
+        570.97,
+        417.95
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        24.04,
+        427.15,
+        570.97,
+        451.19
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        460.46,
+        570.97,
+        484.51
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        493.77,
+        570.97,
+        517.82
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "21:25",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

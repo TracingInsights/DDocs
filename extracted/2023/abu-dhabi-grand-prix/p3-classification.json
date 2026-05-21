@@ -1,0 +1,31 @@
+{
+  "date": "2023-11-25",
+  "doc_number": "35",
+  "doc_type": "classification",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:52:01Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c069a56cfd2248282464908fca4d6f9724292b131a06fa95ce8d73cb7c01059f",
+  "source_pdf": "documents/2023/abu-dhabi-grand-prix/p3-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        227.3,
+        187.11,
+        571.19,
+        430.25
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "15:45",
+  "title": "P3 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

@@ -1,0 +1,81 @@
+# 2023 AUSTRALIAN GRAND PRIX
+
+### 31 March - 02 April 2023
+
+The Stewards
+
+## From The Stewards
+
+To The Team Manager, Scuderia Ferrari Document 59 Date 18 April 2023
+
+Time 13:45 Title Decision - Scuderia Ferrari - Right of Review Description Decision - Scuderia Ferrari - Right of Review
+
+Enclosed Decision - Scuderia Ferrari - Right of Review.pdf
+
+## Nish Shetty Loïc Bacquelaine
+
+## Enrique Bernoldi Christopher Mcttiahon
+
+## 2023 AUSTRALIAN GRAND PRIX
+
+### 31 March – 02 April 2023
+
+From The Stewards Document 59
+
+To The Team Manager, Date 18 April 2023 Scuderia Ferrari Time 13:45
+
+The Stewards of the 2023 Australian Grand Prix have received a letter from Nikolas Tombazis, Single-seater Director of the FIA, attaching a petition by Competitor Scuderia Ferrari dated 6th April 2023 under Article 14 of the FIA International Sporting Code ("Petition"), seeking a review of the Stewards decision n°46 made within the framework of the 2023 Australian Grand Prix and requesting that the Stewards:
+
+"consider such request and to make a determination whether or not a significant and relevant new element exists (Article 14.3 of the Code) in relation to the decision/incident".
+
+The Stewards, after having extensively considered the matter, including examining the annexures to the Petition and the available telemetry, summoned and heard the team representative(s) namely Laurent Mekies, Fred Vasseur and Carlos Sainz (Document no. 58) and determine the following:
+
+## Decision
+
+There is no significant and relevant new element which was unavailable to the parties seeking the review at the time of the decision concerned. The Petition is therefore dismissed.
+
+## Reason
+
+Our decision that SAI was in breach of Appendix L, Chapter IV, Article 2 d) of the FIA International Sporting Code for causing the collision with ALO was made in-race (Document no. 46). We decided that SAI was wholly to blame for the collision.
+
+We considered the fact that this collision took place at the first corner on the first lap of the restart, when, by convention, the Stewards would typically take a more lenient view of incidents. However, we decided that notwithstanding that it was the equivalent of a first lap incident, we considered that there was sufficient gap for SAI to take steps to avoid the collision and failed to do so. We therefore imposed a 5 second time penalty.
+
+The Petition contends that there are new significant and relevant elements, which were unavailable at the time of our decision being made (and presumably, had we had the benefit of these elements, we would not have made our decision).
+
+Three elements were relied upon:
+
+- a) the telemetry data of SAI's car after the second restart (annexure 4).
+- b) SAI's witness statement (annexure 5); and
+- c) other driver's witness statements (annexures 6 & 7), which amount to records of post-race interviews given by ALO (annexure 6) as well as other drivers (annexure 7).
+
+The Competitor says that there is precedent for these matters being considered new significant and relevant elements. It points to the Stewards' Decision dealing with the petition by Sahara Force India F1 Team seeking a right of review as a precedent for the proposition that the verbal testimony of a driver and relevant telemetry can amount to a significant and relevant new element.
+
+The factual circumstances of the Stewards' Decision under review in that matter are quite different to those here in this matter.
+
+The Sahara Force India F1 team matter involved a post-race hearing into an incident (in other words, it was not clear to the Stewards who was at fault for the collision in question). The Competitor's driver was not available to attend the hearing because he had been taken to hospital following the incident. The hearing proceeded without the ability for the Competitor to speak with its driver to obtain a version. That happened after the hearing and the driver's version put a different light on the facts that had been put to the Stewards.
+
+The distinguishing feature here is that our decision was made in-race. We deemed it unnecessary for us to hear from SAI or hear from any other driver to decide that he was wholly to blame for the collision. A decision that we, and other Stewards panels, routinely take and are encouraged to take, when the cause of the collision is clear and there is a need for time penalties to be issued as quickly as possible.
+
+Further and in any event, we also find as follows:
+
+1\. Telemetry: The telemetry data (annexure 4) of itself is not a significant and relevant new element required to decide who was at fault for the collision. The Stewards have access to a considerable amount of telemetry data. We were also in a position to access such data. The telemetry data presented in the Petition is at best ambiguous and in our view did not exculpate SAI but in fact corroborated our decision that he was wholly to blame for the collision. He says he braked harder but could not stop the car because of cold tyres. He states further that a slow formation lap contributed to the cold tyres.
+
+There are two short points. First, even if that is true, the presentation of telemetry showing his braking point is not a significant new element for the purposes of Art.14.
+
+Second, the conditions of the track and the tyres was something that every competitor needed to take into account and adapt to. In trying to brake late while racing GAS, he adopted the risk that he, as a driver, would lose control of his car. In this case, that risk materialised, with the consequence of a collision that ensued, for which a penalty follows.
+
+2\. SAI's written witness statement (the document itself) is not a new significant and relevant element required to decide who was at fault for the collision. First, had we thought that this required a statement from SAI for us to analyse the event, we would have summoned him after the race. We did not consider it necessary then to hear from him to decide that fact.
+
+His witness statement, in essence, states how poor the grip was (we have dealt with why that is not a sufficient excuse above) and how the sun was in his eyes. But logic would dictate that the position of the sun would have equally impacted other drivers too. It is not a justifiable reason to avoid a penalty for a collision. The witness statement is therefore not a new element either.
+
+3\. The other drivers' statements are not new significant and relevant elements required to decide about the incident (none of the statements contained new significant and relevant versions about the collision). These statements were all records of post-race statements given by the drivers to the media. These were presented to corroborate their position that the grip level was low and that the tyres were cold.
+
+Again, while these statements were made subsequent to our decision, and therefore could not have been present when we made the decision, nothing stated in those comments were significant or indeed relevant to our considerations. This does not satisfy the requirements of Art 14 either.
+
+We accordingly dismissed the Petition.
+
+## Nish Shetty Loïc Bacquelaine
+
+## Enrique Bernoldi Christopher Mcttiahon
+
+## The Stewards

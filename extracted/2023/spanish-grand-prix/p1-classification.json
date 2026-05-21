@@ -1,0 +1,31 @@
+{
+  "date": "2023-06-02",
+  "doc_number": "12",
+  "doc_type": "classification",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T10:07:21Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:1399e43da640d5c4f6134e8c11c2259e509894a2bd4dd14625840281b810bad5",
+  "source_pdf": "documents/2023/spanish-grand-prix/p1-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        150.75,
+        187.11,
+        571.19,
+        430.25
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "14:50",
+  "title": "P1 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

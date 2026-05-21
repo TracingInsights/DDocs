@@ -1,0 +1,53 @@
+{
+  "date": "2023-10-21",
+  "doc_number": "44",
+  "doc_type": "championship-points",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T10:07:53Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:5323012392ea72231a8204cd1c8036b1dcdbd1c5bb82f7ca2111fe88ac252781",
+  "source_pdf": "documents/2023/united-states-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.51,
+        174.26,
+        813.92,
+        513.87
+      ],
+      "columns": 22,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        21.18,
+        174.26,
+        814.08,
+        301.62
+      ],
+      "columns": 22,
+      "page": 3,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        21.38,
+        173.81,
+        814.98,
+        478.33
+      ],
+      "columns": 22,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:05",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

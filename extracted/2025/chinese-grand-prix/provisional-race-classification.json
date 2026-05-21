@@ -1,0 +1,42 @@
+{
+  "date": "2025-03-23",
+  "doc_number": "71",
+  "doc_type": "classification",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T09:29:13Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:6ecd784fb19769dfead21a495fca824e1fa209504e7ef68ce825827fba0e96c5",
+  "source_pdf": "documents/2025/chinese-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.47,
+        571.96,
+        420.27
+      ],
+      "columns": 11,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.99,
+        428.25,
+        571.96,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

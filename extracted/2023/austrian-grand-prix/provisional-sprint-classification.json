@@ -1,0 +1,31 @@
+{
+  "date": "2023-07-01",
+  "doc_number": "45",
+  "doc_type": "classification",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:53:13Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:02fb7dcac0bc22c2f3af1b689e7490f74fb4a2fb445d1fecbb5e2e0642de59ef",
+  "source_pdf": "documents/2023/austrian-grand-prix/provisional-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        232.48,
+        189.38,
+        572.32,
+        432.56
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:25",
+  "title": "Provisional Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

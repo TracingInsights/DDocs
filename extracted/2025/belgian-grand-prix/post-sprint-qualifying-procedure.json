@@ -1,0 +1,51 @@
+{
+  "date": "2025-07-25",
+  "doc_number": "12",
+  "doc_type": "procedure",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:27:52Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.68,
+        595.44
+      ],
+      "deduplicated": false,
+      "display_height": 595.44,
+      "display_width": 841.68,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-sprint-qualifying-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "411c86daded56b4d09761ac109e703fa7815818c43e1cf45cb84681759c2fe14",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:2b767774622dc657b417431e27eb59a88ebbd1983bf911849b6bd8d84d4e5c76",
+  "source_pdf": "documents/2025/belgian-grand-prix/post-sprint-qualifying-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        119.28,
+        128.08,
+        561.81,
+        261.14
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "13:32",
+  "title": "Post Sprint Qualifying Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

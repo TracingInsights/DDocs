@@ -1,0 +1,42 @@
+{
+  "date": "2025-08-03",
+  "doc_number": "44",
+  "doc_type": "classification",
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T09:30:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:7b26f16f0e7431a66c573c49103ce51aaa81c2c8ff9f049480363a4b3a0f9c08",
+  "source_pdf": "documents/2025/hungarian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.47,
+        571.91,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.03,
+        428.25,
+        571.91,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:00",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

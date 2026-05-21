@@ -1,0 +1,84 @@
+{
+  "date": "2023-10-04",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T10:03:17Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "8cf210a1932ec4c3c98e9617686c67d5573f3e5f51fd7e4de9b89f482db8902c",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:ab61d1a893dc9e37f5a1ae52694ae905a8823d8458247113654ac68b67534c85",
+  "source_pdf": "documents/2023/qatar-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        94.88,
+        70.86,
+        544.8,
+        289.61
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        128.83,
+        331.32,
+        465.95,
+        373.43
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        135.05,
+        398.82,
+        322.86,
+        505.86
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        94.88,
+        622.0,
+        500.4,
+        746.92
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "16:10",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

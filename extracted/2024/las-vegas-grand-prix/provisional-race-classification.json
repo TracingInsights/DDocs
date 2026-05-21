@@ -1,0 +1,42 @@
+{
+  "date": "2024-11-23",
+  "doc_number": "37",
+  "doc_type": "classification",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:45:11Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:b5ab23dcb256584aa452d9d4f139025461a1a00e0b18197178e4fcfbee1d3978",
+  "source_pdf": "documents/2024/las-vegas-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        245.92,
+        189.38,
+        572.31,
+        408.2
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        245.92,
+        416.04,
+        572.31,
+        452.46
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "23:50",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

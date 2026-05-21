@@ -1,0 +1,73 @@
+{
+  "date": "2023-05-31",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T10:07:17Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "8bfb379e296a22a41e3b53458ab846d9827788d4467067b2c43d1e066648293e",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:d29e99c4d7fe41cf4123d223526449b4a7ced2d5eb3566b4af40bb25146ba380",
+  "source_pdf": "documents/2023/spanish-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        94.75,
+        70.86,
+        544.8,
+        536.78
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        135.08,
+        398.82,
+        323.44,
+        505.86
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        94.75,
+        622.0,
+        500.38,
+        723.88
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "12:30",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

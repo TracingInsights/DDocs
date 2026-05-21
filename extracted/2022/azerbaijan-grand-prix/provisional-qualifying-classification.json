@@ -1,0 +1,53 @@
+{
+  "date": "2022-06-11",
+  "doc_number": "28",
+  "doc_type": "classification",
+  "event_name": "Time 19:43 2022 AZERBAIJAN GRAND PRIX 9 - 12 June 2022 The Stewards",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T08:34:45Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:0f48ecc6de0cb6f7c7d48e48e0c6cbcc1acea225afe138b39c0dcf4db674deff",
+  "source_pdf": "documents/2022/azerbaijan-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.11
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:43",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

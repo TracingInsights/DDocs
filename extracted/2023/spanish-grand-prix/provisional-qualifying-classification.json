@@ -1,0 +1,42 @@
+{
+  "date": "2023-06-03",
+  "doc_number": "31",
+  "doc_type": "classification",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T10:07:32Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:00bda98f4e546a749ed5d31ec46f6933795c672816cc90d00fb22e26ab9d8926",
+  "source_pdf": "documents/2023/spanish-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        148.07,
+        187.07,
+        571.23,
+        430.28
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        148.07,
+        471.24,
+        571.23,
+        495.44
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:25",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

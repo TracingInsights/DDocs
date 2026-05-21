@@ -1,0 +1,51 @@
+{
+  "date": "2023-11-18",
+  "doc_number": "48",
+  "doc_type": "procedure",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T10:00:06Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.8,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.8,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-race-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "777c9984c24c8d8db9e12c9707e02c76aa405bc9b4bf9f9285972f08a6e52975",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:052188d18d4ca0181c6722a9eda2cc147d23656b7c4e369a432d34a1ca4ef809",
+  "source_pdf": "documents/2023/las-vegas-grand-prix/post-race-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        291.22,
+        82.72,
+        781.29,
+        266.34
+      ],
+      "columns": 4,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "03:52",
+  "title": "Post Race Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

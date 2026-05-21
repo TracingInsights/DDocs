@@ -1,0 +1,80 @@
+{
+  "date": "2024-11-29",
+  "doc_number": "9",
+  "doc_type": "car-presentation",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T09:46:25Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 8,
+      "path": "images/car-presentation-submissions_p8_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "df621eb5ece067455925048ede26eab7cae3045724d7afd7dac533c87189f404",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 12,
+      "path": "images/car-presentation-submissions_p12_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "4b51d5ad6499578a15cf55b2cf0400274b100c17fcb189557dea442f12313733",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 13,
+  "source_hash": "sha256:677d4e8b7faf3b2fdec47a2d69a54464fa270cbae4fd5bdc7753bebffe99f488",
+  "source_pdf": "documents/2024/qatar-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.59,
+        146.26,
+        769.43,
+        263.36
+      ],
+      "columns": 5,
+      "page": 7,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        72.6,
+        146.64,
+        769.32,
+        239.43
+      ],
+      "columns": 5,
+      "page": 11,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "14:00",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

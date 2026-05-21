@@ -1,0 +1,53 @@
+{
+  "date": "2024-11-03",
+  "doc_number": "91",
+  "doc_type": "championship-points",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T09:49:52Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:679b4d088f70b3fa1919da5ac83c50fb6aaf7927eb79f30229c1095fa315694d",
+  "source_pdf": "documents/2024/s\u00e3o-paulo-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.11,
+        174.39,
+        814.09,
+        514.24
+      ],
+      "columns": 24,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        20.85,
+        174.39,
+        814.22,
+        323.07
+      ],
+      "columns": 24,
+      "page": 3,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        20.98,
+        173.93,
+        815.46,
+        478.66
+      ],
+      "columns": 24,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:00",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

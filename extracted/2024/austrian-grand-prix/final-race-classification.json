@@ -1,0 +1,42 @@
+{
+  "date": "2024-06-30",
+  "doc_number": "74",
+  "doc_type": "classification",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:38:13Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4fa1c6613b63b11681b34a059dbc56528e1ed1baedcb13f009b3cb8074b4e7a7",
+  "source_pdf": "documents/2024/austrian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.22,
+        572.23,
+        432.35
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.0,
+        458.15,
+        572.23,
+        482.33
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:12",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

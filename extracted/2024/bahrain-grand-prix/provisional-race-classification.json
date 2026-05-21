@@ -1,0 +1,31 @@
+{
+  "date": "2024-03-02",
+  "doc_number": "30",
+  "doc_type": "classification",
+  "event_name": "Bahrain Grand Prix",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T09:40:36Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:be934a48bdf371c31e2cb6cd5030aa7ced5e79fa2e4c9c7d33f8a37c759d6289",
+  "source_pdf": "documents/2024/bahrain-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.47,
+        572.0,
+        432.43
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "19:55",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

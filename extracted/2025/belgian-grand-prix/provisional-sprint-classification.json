@@ -1,0 +1,42 @@
+{
+  "date": "2025-07-26",
+  "doc_number": "38",
+  "doc_type": "classification",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:27:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:8a82a4c97f82fd225a33e3d0c315bb4054daa6245f87d658238b5e600f15d5ef",
+  "source_pdf": "documents/2025/belgian-grand-prix/provisional-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        572.03,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.0,
+        428.25,
+        572.03,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "12:43",
+  "title": "Provisional Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

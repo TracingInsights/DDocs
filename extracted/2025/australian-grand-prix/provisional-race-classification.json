@@ -1,0 +1,42 @@
+{
+  "date": "2025-03-16",
+  "doc_number": "41",
+  "doc_type": "classification",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:26:05Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:61b5b714474bcd4e6c75fd93868e4d23be9a9dd1eaa4584401b88a354bd4b1aa",
+  "source_pdf": "documents/2025/australian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.93,
+        189.37,
+        572.25,
+        359.49
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        22.93,
+        367.48,
+        572.25,
+        452.38
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:25",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

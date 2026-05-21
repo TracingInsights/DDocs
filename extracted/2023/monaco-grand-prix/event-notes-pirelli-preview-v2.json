@@ -1,0 +1,84 @@
+{
+  "date": "2023-05-25",
+  "doc_number": "4",
+  "doc_type": "pirelli-preview",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T10:02:12Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "9e5e6a3c543a6346ffc7a58acdc5ab3cc676ab19dd58145af9b2fce98d3bd1e2",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:c9937a67296c517453de3871574baba251a7fcd5bcd30f5561d80680aa2f935b",
+  "source_pdf": "documents/2023/monaco-grand-prix/event-notes-pirelli-preview-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        94.88,
+        70.86,
+        544.8,
+        289.61
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        128.83,
+        331.32,
+        465.95,
+        373.43
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        135.05,
+        398.82,
+        322.86,
+        505.86
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        94.88,
+        622.0,
+        500.4,
+        723.88
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "10:50",
+  "title": "Event Notes Pirelli Preview V2",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

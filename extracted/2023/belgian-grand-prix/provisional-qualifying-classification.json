@@ -1,0 +1,31 @@
+{
+  "date": "2023-07-28",
+  "doc_number": "26",
+  "doc_type": "classification",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:55:30Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9a41f4a691f75f2160f19f5db709bcc71366f0c0e448d3dbd2c6d40eb5d7cbb6",
+  "source_pdf": "documents/2023/belgian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        177.33,
+        187.07,
+        571.23,
+        430.28
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "18:30",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

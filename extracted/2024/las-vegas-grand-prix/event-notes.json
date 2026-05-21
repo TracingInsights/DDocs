@@ -1,0 +1,68 @@
+{
+  "date": "2024-11-21",
+  "doc_number": "3",
+  "doc_type": "other",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:45:03Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        218.95,
+        327.83,
+        375.49,
+        432.13
+      ],
+      "deduplicated": false,
+      "display_height": 104.3,
+      "display_width": 156.54,
+      "height": 398,
+      "page": 4,
+      "path": "images/event-notes_p4_img1.jpeg",
+      "sha256": "374e468d563d6d51b5230f9b5ca34252f46dce66b3ccf01547378662b99fa218",
+      "width": 480
+    },
+    {
+      "bbox": [
+        218.18,
+        80.85,
+        371.2,
+        184.5
+      ],
+      "deduplicated": false,
+      "display_height": 103.65,
+      "display_width": 153.02,
+      "height": 374,
+      "page": 5,
+      "path": "images/event-notes_p5_img2.jpeg",
+      "sha256": "77a359ada6b303697c33d2b76175c688fcebcbf7db52794450fa80a7907313f6",
+      "width": 552
+    },
+    {
+      "bbox": [
+        217.15,
+        203.4,
+        372.45,
+        339.3
+      ],
+      "deduplicated": false,
+      "display_height": 135.9,
+      "display_width": 155.3,
+      "height": 377,
+      "page": 5,
+      "path": "images/event-notes_p5_img3.jpeg",
+      "sha256": "670f148051ee9f153d0385e432be230fb61854e30967154ff646fb59e2c28ebb",
+      "width": 480
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 6,
+  "source_hash": "sha256:2fbe6eba4535b2a4e1fd0645ffbb0af091212f1de3eeebcf5dcdb849b5ff83b9",
+  "source_pdf": "documents/2024/las-vegas-grand-prix/event-notes.pdf",
+  "tables_extracted": 0,
+  "time": "02:41",
+  "title": "Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2024-07-28",
+  "doc_number": "46",
+  "doc_type": "classification",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:41:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:2d9dd02f74782f4bad576de3a2839c8e7ca11f219ce3cf05f2731614b6f1c4dc",
+  "source_pdf": "documents/2024/belgian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        571.94,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.0,
+        428.25,
+        571.94,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:55",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2024-12-01",
+  "doc_number": "61",
+  "doc_type": "classification",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T09:47:23Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:70544fb338ffbf34d0b4c40c1756ee68f5ad11487d4c003b0d784bd79f51c58c",
+  "source_pdf": "documents/2024/qatar-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.05,
+        189.22,
+        572.34,
+        371.51
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        23.05,
+        379.49,
+        572.34,
+        452.34
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        23.05,
+        458.8,
+        572.34,
+        482.97
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.05,
+        489.66,
+        572.34,
+        513.83
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "21:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

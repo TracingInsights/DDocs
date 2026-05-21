@@ -1,0 +1,53 @@
+{
+  "date": "2022-10-23",
+  "doc_number": "63",
+  "doc_type": "championship-points",
+  "event_name": "Date 23 October 2022 Time 21:05 2022 UNITED STATES GRAND PRIX 20 - 23 October 2022 The Stewards Title Championship Points Description Championship Points",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:03:52Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:14125167d50d97d89d02ad054c8dba76ae4a1bb3654d7475281409a25ffab547",
+  "source_pdf": "documents/2022/united-states-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.56,
+        174.29,
+        813.98,
+        513.9
+      ],
+      "columns": 22,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        21.23,
+        174.29,
+        814.14,
+        301.65
+      ],
+      "columns": 22,
+      "page": 3,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        21.43,
+        173.84,
+        814.72,
+        478.36
+      ],
+      "columns": 22,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:05",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

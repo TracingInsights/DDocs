@@ -1,0 +1,51 @@
+{
+  "date": "2023-03-31",
+  "doc_number": "5",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:14Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "b1385c747ba96098a6bc16a21f6d338ae30a64288ca0733d078767311d226eec",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:afea7e1ce2d70b821c6c2657ef876edec156741e24d01d92996b13bc2fc2c3c6",
+  "source_pdf": "documents/2023/australian-grand-prix/event-notes-pit-lane-drawing.pdf",
+  "tables": [
+    {
+      "bbox": [
+        55.27,
+        340.2,
+        736.22,
+        463.02
+      ],
+      "columns": 51,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "07:45",
+  "title": "Event Notes Pit Lane Drawing",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

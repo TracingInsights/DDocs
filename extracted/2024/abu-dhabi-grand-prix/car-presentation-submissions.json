@@ -1,0 +1,80 @@
+{
+  "date": "2024-12-06",
+  "doc_number": "12",
+  "doc_type": "car-presentation",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:36:49Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 10,
+      "path": "images/car-presentation-submissions_p10_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "1602adfe9c0dd6c63f6ef30a425cfea2626d2cc3dbdf9a6e42e60f512358b66c",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 12,
+      "path": "images/car-presentation-submissions_p12_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "3594bbc6bab15408a3cb9986fd0f7993ddb155d8e8fbdd83e4879adbed59b392",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 13,
+  "source_hash": "sha256:2defbb62563f86e36d4e6204680c8b3a2de3b4b6cd0f7aff3d88af47ae3d9cae",
+  "source_pdf": "documents/2024/abu-dhabi-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.32,
+        145.88,
+        769.22,
+        219.32
+      ],
+      "columns": 5,
+      "page": 9,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.59,
+        146.64,
+        769.33,
+        302.55
+      ],
+      "columns": 5,
+      "page": 11,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "10:54",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

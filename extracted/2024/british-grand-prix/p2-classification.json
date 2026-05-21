@@ -1,0 +1,31 @@
+{
+  "date": "2024-07-05",
+  "doc_number": "21",
+  "doc_type": "classification",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T09:41:30Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c4a4eae08352bc5c74b38a84defa7138c2f7bc20c2e3a9a5fb4656df36505e72",
+  "source_pdf": "documents/2024/british-grand-prix/p2-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        199.96,
+        187.11,
+        571.19,
+        430.25
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:15",
+  "title": "P2 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

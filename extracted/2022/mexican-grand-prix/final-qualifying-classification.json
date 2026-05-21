@@ -1,0 +1,53 @@
+{
+  "date": "2022-10-29",
+  "doc_number": "26",
+  "doc_type": "classification",
+  "event_name": "Time 18:30 2022 MEXICAN GRAND PRIX 27 - 30 October 2022 The Stewards Title Final Qualifying Classification Description Timing Sheet",
+  "event_slug": "mexican-grand-prix",
+  "extracted_at": "2026-05-21T08:47:28Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4cf1ae6199a3d2c91d01da15d17c6d0e39da77727a2f42cbeda573d96f9133ce",
+  "source_pdf": "documents/2022/mexican-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.0,
+        187.23,
+        570.76,
+        430.07
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.0,
+        439.23,
+        570.76,
+        463.27
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.0,
+        472.53,
+        570.76,
+        496.57
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:30",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

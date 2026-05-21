@@ -1,0 +1,146 @@
+## 2023 SINGAPORE GRAND PRIX
+
+### 15 - 17 September
+
+The FIA Formula One Race Director From The FIA Formula One Race Director To All Teams, All Officials Document 4
+
+Date 14 September 2023 Time 17:15 Title Race Director's Event Notes
+
+Description Race Director's Event Notes
+
+## Enclosed 2023 Singapore Grand Prix - Event Notes.pdf
+
+## Niels Wittich
+
+# 1
+
+## 2023 SINGAPORE GRAND PRIX
+
+### 15 – 17 September 2023
+
+From The FIA Formula One Race Director Document 4
+
+To All Officials, All Teams Date 14 September 2023 Time 17:15
+
+### EVENT NOTES General Instructions
+
+## 1) Track light panels
+
+The FIA track light panels have been installed in the positions shown on the circuit map. In accordance with Appendix H to the ISC the light signals have the same meaning as flag signals.
+
+**2) Drivers leaving their pit stop position in the pit lane**
+
+For safety reasons, no car should be driven from its pit stop position at any time unless:
+
+- a) It has first been driven into the pit stop position having just entered the pit lane from the track, and;
+- b) It is then driven immediately back onto the track from the pit stop position.
+
+## 3) Observing yellow flags
+
+3.1 Single waved: Drivers reduce their speed and be prepared to change direction. It must be clear that a driver has reduced speed and, in order for this to be clear, a driver would be expected to have braked earlier and/or discernibly reduced speed in the relevant marshalling sector. 3.2 Double waved: Any driver passing through a double waved yellow marshalling sector must reduce speed significantly and be prepared to change direction or stop. In order for the stewards to be satisfied that any such driver has complied with these requirements it must be clear that he has not attempted to set a meaningful lap time. Furthermore, during qualifying any driver in a double yellow sector will have that lap time cancelled. 3.3 Double Waved during VSC or SC: Any driver passing through a double waved yellow marshalling sector during a VSC or SC, in addition to the requirements in 3.2 above, must remain positive of the SECU delta time in the sector concerned.
+
+## 4) Laps during Qualifying and Reconnaissance Laps
+
+4.1 In order to ensure that cars are not driven unnecessarily slowly on in laps during and after the end of qualifying or during reconnaissance laps when the pit exit is opened for the race, drivers must stay below the maximum time set by the FIA between the Safety Car lines shown on the pit lane map. Teams and Drivers will be informed of the maximum time after the second practice session. 4.2 For the safe and orderly conduct of the Event, other than in exceptional circumstances accepted as such by the Stewards, any driver that exceeds the maximum time from the Second Safety Car Line to the First Safety Car Line on ANY lap during and after the end of the qualifying session, including in-laps and out-laps, may be deemed to be going unnecessarily slowly. For the avoidance of doubt, this does not supersede Art. 33.4 and Art. 37.5 of the FIA Formula One Sporting Regulations, which apply to the entire Circuit. Incidents will normally be investigated after the qualifying session.
+
+**2 5) Article 55.14**
+
+"In order to avoid the likelihood of accidents before the safety car returns to the pits, from the point at which the lights on the car are turned out drivers must proceed at a pace which involves no erratic acceleration or braking nor any manoeuvre which is likely to endanger other drivers or impede the restart".
+
+## 6) Parc Fermé
+
+6.1 The Parc Fermé cameras must be always uncovered and operational during the Event. 6.2 No more than three (3) team personnel per car are permitted into the Parc Fermé area for the sole purpose of fitting cooling fans and any work required by the FIA.
+
+## 7) Lapping during the race
+
+The ISC requires drivers who are caught by another car to allow the faster driver past at the first available opportunity. The F1 Marshalling System has been developed in order to ensure that the point at which a driver is shown blue flags is consistent, rather than trusting the ability of marshals to identify situations that require blue flags. The system will be set to give a pre-warning when the faster car is within 3.0s of the car about to be lapped, this should be used by the team of the slower car to warn their driver he is soon going to be lapped and that allowing the faster car through should be considered a priority. When the faster car is within 1.2s of the car about to be lapped blue flags will be shown to the slower car (in addition to blue light panels, blue cockpit lights and a message on the timing monitors) and the driver must allow the following driver to overtake at the first available opportunity. It should be noted that the aim of using F1MS is ensure consistent application of the rules, additional instructions may also be given by race control when necessary.
+
+## 8) Article 19.4
+
+In accordance with the provisions of Article 19.4 a), upon request by the Technical Delegate, the Teams are required to connect the umbilical to the cars and close the HV contactors (TR 5.26.5) for the sole purpose of checking the car ERS safety status, every morning immediately after the covers are removed and the cars are under parc fermé conditions. The umbilical must then remain connected, and the car powered up until the end of the pre-race car display period.
+
+## Event Specific Instructions
+
+## 9) Formula 1 Sporting Regulations Article 23.1
+
+In accordance with the provisions of Article 23.1 b), this Event is an Open Event.
+
+## 10) FIA Outside Scales Times
+
+Should the outside scales be set-up at the pit-lane entrance, these will be available for teams to use at any time outside the curfew times and the Parc Fermé cover-up times, except for the 30 minutes preceding the start of the Qualifying session and if there are support competitions using the pit lane.
+
+**3 11) Specific Technical Procedures**
+
+Please note that the FIA have introduced an Appendix Index File which contains all the relevant and active Appendix documents, Technical and Sporting Directives. The latest version of this Index file
+
+**("2023 Formula 1 Appendix – iss 4 – 2023-08-22.xlsx") and all relevant documents can be found**
+
+on the FIA SFTP site. Competitors are hereby required to ensure compliance with these directives for the safe and orderly conduct of the Event.
+
+## 12) Support Races team barrier placement and Movements
+
+Team barrier placement prior to and during all support category practice sessions and races: No more than (1) one meters from the garages. Please ensure that your pit stop gantry arms are moved back towards the garage during all support category activities. Please remember to turn on your pit wall monitors so the support categories can use them. It is not permitted to push cars to or from the weighing area at any time a support category is in the pit lane. Support Crews and Trolleys will be released into Pit Lane no earlier than 20 minutes prior to the opening of Pit Exit for their respective sessions. Support Category competition vehicles will be released from the marshalling area no earlier than 15 minutes prior to the opening of Pit Exit for their respective sessions.
+
+## 13) Practice starts
+
+13.1 During each Free Practice session, practice starts may be only carried out on the LHS after the pit exit lights. 13.2 During the time the pit exit is open for the Race, practice starts may be carried out no further forward than the dashed white line across the pit exit. Drivers wishing to carry out a start should stop on the left to allow other cars to pass on their right. 13.3 During this time any driver passing a car which has stopped to carry out a practice start may cross momentarily the longitudinal white line on his RHS. 13.4 Additionally, practice starts may be carried out on the track after the end of each free practice session. Any car on the track when the chequered flag is shown may then complete another lap and, instead of entering the pits, proceed to the grid and carry out a practice start. 13.5 All drivers carrying out a practice start must do so by pulling as far forward on the grid as possible and, if necessary, should wait for others to carry out a start before getting to a grid position further forward. Under no circumstances should a driver make a practice start if another car is still stationary in front of him on the same side of the grid. 13.6 If any driver appears to be disregarding any of the above a red flag will be displayed and the possibility to carry out any further starts will be immediately terminated.
+
+**14) Lines at the Pit Entry and Pit Exit**
+
+14.1 In accordance with Chapter 4, Article 4 and 6 of Appendix L to the ISC drivers must follow the procedures at pit entry and pit exit. 14.2 For safety reasons when driving in the first part of the pit lane, prior to the first team garage, drivers must keep to the right of the two bollards separating the fast lane and inner lane.
+
+## 15) Pit Lane Speed Limit
+
+The Pit Lane Speed limit detailed in Article 34.7 of the Sporting Regulations is hereby amended to 60km/h for the duration of the event.
+
+**4 16) DRS**
+
+DRS Detection will be automatically disabled in each individual zone if any of the light panels in that zone are displaying yellow. The zones and corresponding light panels are as follows:
+
+- a) DRS Activation 1: Panels 4, 5, 6
+- b) DRS Activation 2: Panels 11, 12, 13
+- c) DRS Activation 3: Panels 16, 1, 2
+
+## 17) Track Limits
+
+In accordance with the provisions of Article 33.3, the white lines define the track edges. During Qualifying and the Race, each time a driver fails to negotiate with the track limits, this will result in that lap time being invalidated by the Stewards.
+
+## 18) Run-off in Turn 1-2-3
+
+18.1 Any driver who fails to negotiate Turn 2 by using the track, and who passes completely to the right of the orange kerb/line element, must keep to the right of the red and white polystyrene block, and re-join the track on the outside of Turn 3. 18.2 The above requirements will not automatically apply to any driver who is judged to have been forced off the track, each such case will be judged individually. 18.3 In all cases detailed above, the driver must only re-join the track when it is safe to do so and without gaining a lasting advantage.
+
+## 19) Fire extinguishers around the circuit
+
+Indicated by white boards with a red "F" attached to the debris fences.
+
+## 20) Places to remove cars from the track
+
+Indicated by fluorescent orange panels/paintings on the barriers.
+
+## 21) Removing cars from the grid
+
+Cars may be removed from the grid through the gates adjacent to grid position 1 and 12.
+
+## 22) Race Suspension
+
+In case of a race suspension, cars will be stopped in the fast lane of the pits in front of the pit exit lights.
+
+## 23) Car number light panels for the start
+
+On the right-hand side of the grid.
+
+## 24) Guest access to the grid
+
+For the start of the race and after the end of the race, teams are responsible to ensure that guests do not cross the teams' garages and access the pit lane before all cars are on the grid or have reached Parc Fermé.
+
+## 25) Changes to the Circuit
+
+- Removal of the paint in the working lane.
+- Realignment of the walls from Turn 15 until old Turn 20, old Turns 16, 17, 18 and 19 removed.
+- Resurfacing start of Pit Straight until exit Turn 6.
+- Resurfacing from entry Turn 14 until exit Turn 16.
+- Re-alignment of the concrete wall at Turn 17 on LHS.
+
+### 5 Niels Wittich
+
+### The FIA Formula One Race Director

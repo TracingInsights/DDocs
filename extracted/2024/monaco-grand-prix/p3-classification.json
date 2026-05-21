@@ -1,0 +1,31 @@
+{
+  "date": "2024-05-25",
+  "doc_number": "23",
+  "doc_type": "classification",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T09:46:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:e29bc27da1958da0b7407ddb620e8d94f30fd57c8f87207de06fd7d9bcb7d0c1",
+  "source_pdf": "documents/2024/monaco-grand-prix/p3-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.86,
+        187.11,
+        571.12,
+        430.11
+      ],
+      "columns": 10,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "13:52",
+  "title": "P3 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

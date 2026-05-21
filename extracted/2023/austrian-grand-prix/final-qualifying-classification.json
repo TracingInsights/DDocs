@@ -1,0 +1,31 @@
+{
+  "date": "2023-06-30",
+  "doc_number": "28",
+  "doc_type": "classification",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:54Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:49fb20b8e875e364d96440952c20131d7baedb272e466ed8bff0ad1a58fe3b8c",
+  "source_pdf": "documents/2023/austrian-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        235.0,
+        187.07,
+        571.23,
+        430.23
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "20:40",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

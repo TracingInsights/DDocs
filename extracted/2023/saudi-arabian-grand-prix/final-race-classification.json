@@ -1,0 +1,64 @@
+{
+  "date": "2023-03-20",
+  "doc_number": "54",
+  "doc_type": "classification",
+  "event_name": "Saudi Arabian Grand Prix",
+  "event_slug": "saudi-arabian-grand-prix",
+  "extracted_at": "2026-05-21T10:06:21Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:e21146935439c9b9b7fae811db4d7895ae4109dd301f993eb5d0976e61be6659",
+  "source_pdf": "documents/2023/saudi-arabian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        193.16,
+        178.1,
+        564.37,
+        383.97
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        193.16,
+        391.44,
+        564.37,
+        425.7
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        193.16,
+        431.64,
+        564.37,
+        454.48
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        193.16,
+        460.68,
+        564.37,
+        483.5
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "01:15",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

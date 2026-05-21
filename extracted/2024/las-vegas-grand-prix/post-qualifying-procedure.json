@@ -1,0 +1,51 @@
+{
+  "date": "2024-11-22",
+  "doc_number": "20",
+  "doc_type": "procedure",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:45:09Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.68,
+        595.44
+      ],
+      "deduplicated": false,
+      "display_height": 595.44,
+      "display_width": 841.68,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-qualifying-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "48b145e1d706dd25451f66267b471eefcf2cd6cf1aedf31c65e378b45ac2d912",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:9df76265da80c5abc454992a9c2b4a12c2adffe34104701af8a0fec3beda38d6",
+  "source_pdf": "documents/2024/las-vegas-grand-prix/post-qualifying-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        289.48,
+        133.41,
+        764.87,
+        308.21
+      ],
+      "columns": 3,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:22",
+  "title": "Post Qualifying Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2024-03-02",
+  "doc_number": "32",
+  "doc_type": "classification",
+  "event_name": "Bahrain Grand Prix",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T09:40:19Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:e07551d61f1ba131d5336e50ada25af0a7283fcd1f20b0569244681f059d30e9",
+  "source_pdf": "documents/2024/bahrain-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.47,
+        572.0,
+        432.43
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "22:15",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

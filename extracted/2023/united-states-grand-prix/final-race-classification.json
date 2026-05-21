@@ -1,0 +1,42 @@
+{
+  "date": "2023-10-22",
+  "doc_number": "66",
+  "doc_type": "classification",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T10:08:07Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:74184a15550b85bba9ac97184efc222121efd96b4f692798583a5954a3a46462",
+  "source_pdf": "documents/2023/united-states-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.01,
+        189.47,
+        571.91,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.01,
+        403.93,
+        571.91,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:35",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

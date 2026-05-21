@@ -1,0 +1,15 @@
+# From The FIA Formula One Race Director
+
+To All Teams, All Officials Document 25
+
+## Date 25 March 2022
+
+Time 22:41
+
+2022 SAUDI ARABIAN GRAND PRIX 24 - 27 March 2022
+
+## Note to Teams
+
+Article 30.5g) of the Sporting Regulations Based on the weather forecast from the official weather service provider no additional set of intermediate tyres will be made available to each driver before P3.
+
+### The FIA Formula One Race Director Niels Wittich

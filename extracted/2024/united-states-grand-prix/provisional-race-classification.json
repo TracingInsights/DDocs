@@ -1,0 +1,42 @@
+{
+  "date": "2024-10-20",
+  "doc_number": "68",
+  "doc_type": "classification",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:50:43Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:ed83f2d97568627096c4e1cee171668e795fa4cf27c2e1e0fc94753977ae31fd",
+  "source_pdf": "documents/2024/united-states-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.47,
+        571.93,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.99,
+        428.25,
+        571.93,
+        452.35
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

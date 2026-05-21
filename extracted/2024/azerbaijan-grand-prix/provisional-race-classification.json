@@ -1,0 +1,42 @@
+{
+  "date": "2024-09-15",
+  "doc_number": "55",
+  "doc_type": "classification",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:39:58Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:3ac563ea0b45d6b7b45be98f1c492964cf2170670fbc4194d66252a174132ca0",
+  "source_pdf": "documents/2024/azerbaijan-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        572.01,
+        420.26
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.0,
+        428.25,
+        572.01,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

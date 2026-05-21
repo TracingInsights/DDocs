@@ -1,0 +1,62 @@
+{
+  "date": "2025-07-02",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T09:28:11Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "b6ebc7a8aaceb171d031e0db7f39a34c4d80390485b56f4b7a33d81426d55d65",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:a70f7028fcb9f2e9ccb14109b3a664e23f6c2306bf3c9869914ba2cd0a2c7698",
+  "source_pdf": "documents/2025/british-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        131.87,
+        78.84,
+        540.6,
+        536.35
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        137.97,
+        408.85,
+        322.7,
+        506.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "12:15",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2024-02-20",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Bahrain Tests Season",
+  "event_slug": "bahrain-tests-season",
+  "extracted_at": "2026-05-21T09:40:41Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "f2526ea2adfd7ec9e01fec54121b9d3c7d5507b3434f38018f281e295bc24a38",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:3653db80ce195e78856815583615d98cd18b1c6c174eab0cfcf0d034e02d493f",
+  "source_pdf": "documents/2024/bahrain-tests-season/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        131.87,
+        78.84,
+        540.6,
+        563.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        137.97,
+        435.85,
+        322.7,
+        533.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "15:15",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

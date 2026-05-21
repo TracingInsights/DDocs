@@ -1,0 +1,51 @@
+{
+  "date": "2024-03-24",
+  "doc_number": "42",
+  "doc_type": "procedure",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:37:40Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.8,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.8,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-race-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "3de36f0eaeb8ea22c24aefc3b14b11f7ce07e818466648baabfa0bf145542557",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:2dbfd105b12e81415c700d11820b84aaeff70c467a84e944ec020fb0b28973da",
+  "source_pdf": "documents/2024/australian-grand-prix/post-race-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        427.88,
+        128.98,
+        791.72,
+        277.03
+      ],
+      "columns": 4,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "12:05",
+  "title": "Post Race Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

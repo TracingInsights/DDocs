@@ -1,0 +1,42 @@
+{
+  "date": "2024-03-09",
+  "doc_number": "42",
+  "doc_type": "classification",
+  "event_name": "Saudi Arabian Grand Prix",
+  "event_slug": "saudi-arabian-grand-prix",
+  "extracted_at": "2026-05-21T09:49:02Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:8cc118cf7be57e405bd60a4f1633189295141b6b932f153f4ccc4e821143893b",
+  "source_pdf": "documents/2024/saudi-arabian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        571.88,
+        408.11
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.0,
+        416.09,
+        571.88,
+        452.36
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "21:45",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2025-09-18",
+  "doc_number": "5",
+  "doc_type": "circuit-map",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:26:41Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-pit-lane-quarantine-zone-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "b4e59a59817ca4c04655c28982325b9706683027a2949e5e8afb467beed50762",
+      "width": 2016
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-pit-lane-quarantine-zone-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "3b577b48c785866f8667383f569383fdf9df9f47b36efcaa71c9d207ed8d0af3",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.25,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.25,
+      "height": 1684,
+      "page": 4,
+      "path": "images/event-notes-circuit-map-pit-lane-quarantine-zone-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "c4845a41ac165c5b436863849d9eaa6f9689ba3cf37af90b8dad02aade16fc03",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1190.25,
+        842.25
+      ],
+      "deduplicated": false,
+      "display_height": 842.25,
+      "display_width": 1190.25,
+      "height": 1685,
+      "page": 5,
+      "path": "images/event-notes-circuit-map-pit-lane-quarantine-zone-and-red-zone_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "451081c3c46bbbf28626d5778ea16c0b36f260dfb0d421c83c88352df99c5a22",
+      "width": 2381
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 5,
+  "source_hash": "sha256:48b475a35de6b0f9b42b0900764fe8a06e2f2278fba8ae48e6d127696ce47855",
+  "source_pdf": "documents/2025/azerbaijan-grand-prix/event-notes-circuit-map-pit-lane-quarantine-zone-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        149.22,
+        418.94,
+        971.76,
+        544.07
+      ],
+      "columns": 33,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "19:38",
+  "title": "Event Notes Circuit Map Pit Lane Quarantine Zone And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

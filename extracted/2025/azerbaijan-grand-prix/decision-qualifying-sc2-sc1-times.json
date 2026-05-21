@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2025-09-20",
+  "decision": "No further action.",
+  "doc_number": "30",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:26:39Z",
+  "fact": "The cars below exceeded the 2:05.0 time limit between the Safety Car lines. No Car Driver",
+  "from": "The Stewards Document 30",
+  "images_extracted": 0,
+  "incident_time": "20:04 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article 33.4 of the FIA Formula One Sporting Regulations and Article 12.2.1 i) of the FIA International Sporting Code (non-compliance with the Race Director's Event Notes, item 1, document 12)",
+  "pages": 3,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on- board cameras and CCTV cameras. All drivers concerned stayed at or above speeds necessary to stay below 2:05.0 around the vast majority of the circuit. However, in all cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that all drivers concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 33.4 of the FIA Formula One Sporting Regulations and Article 12",
+    "Chapter 4"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:fccb4fa4041d5621800341c639da3d8a577a099b337723094bcb102462b226cf",
+  "source_pdf": "documents/2025/azerbaijan-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 30 To All Officials",
+    "All Teams Date 20 September 2025"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.84,
+        346.68,
+        560.04,
+        414.36
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap 1 55 Carlos Sainz Atlassian Williams Racing 16:34:23 L9 (Q1) 2 30 Liam Lawson Visa Cash App Racing Bulls F1 Team 18:00:09 L27 (Q3)",
+  "time": "20:04",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2025
+}

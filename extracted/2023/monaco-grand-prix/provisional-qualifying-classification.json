@@ -1,0 +1,31 @@
+{
+  "date": "2023-05-27",
+  "doc_number": "37",
+  "doc_type": "classification",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T10:02:28Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:f1ff435b4641733e507c8486aad0a516baf83e3a65cd0ae45baed46880dbc5ac",
+  "source_pdf": "documents/2023/monaco-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        164.11,
+        187.07,
+        571.23,
+        430.23
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:45",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

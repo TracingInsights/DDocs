@@ -1,0 +1,42 @@
+{
+  "date": "2022-04-24",
+  "doc_number": "49",
+  "doc_type": "classification",
+  "event_name": "Time 16:55 2022 EMILIA ROMAGNA GRAND PRIX 21 - 24 April 2022 The Stewards",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T08:42:43Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:d4027eacc2dbd49fb3727e2d8d403eecadb812820b40c64620879fcb67ba5430",
+  "source_pdf": "documents/2022/emilia-romagna-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        571.96,
+        408.11
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.0,
+        416.09,
+        571.96,
+        452.3
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:55",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

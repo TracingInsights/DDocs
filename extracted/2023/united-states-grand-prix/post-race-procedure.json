@@ -1,0 +1,51 @@
+{
+  "date": "2023-10-22",
+  "doc_number": "53",
+  "doc_type": "procedure",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T10:08:11Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-race-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "cff3027d649ba5275962bac6ebb41fd470aee7d1d16db0e37ce9fd433c223fe4",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:97164cac440298bade90c291aee2fee996ba8927884d3004b653d0bab3af9960",
+  "source_pdf": "documents/2023/united-states-grand-prix/post-race-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        64.53,
+        85.03,
+        773.23,
+        268.09
+      ],
+      "columns": 4,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "12:25",
+  "title": "Post Race Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

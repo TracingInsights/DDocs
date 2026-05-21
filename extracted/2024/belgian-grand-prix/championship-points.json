@@ -1,0 +1,53 @@
+{
+  "date": "2024-07-28",
+  "doc_number": "47",
+  "doc_type": "championship-points",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:40:44Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:a0df13dc965055f9aed7b28291e69db7b4edba05dc7b6ee75089a43aa2dfa84e",
+  "source_pdf": "documents/2024/belgian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.11,
+        174.39,
+        814.09,
+        514.24
+      ],
+      "columns": 17,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        20.7,
+        174.39,
+        814.29,
+        280.59
+      ],
+      "columns": 17,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        20.98,
+        173.93,
+        815.46,
+        478.66
+      ],
+      "columns": 17,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:00",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

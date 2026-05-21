@@ -1,0 +1,53 @@
+{
+  "date": "2023-10-08",
+  "doc_number": "57",
+  "doc_type": "classification",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T10:03:23Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:7829a57ea87b4ac0260b5fff29a67b8ce81f9c1800a257f4b0419f5dbe10d0b7",
+  "source_pdf": "documents/2023/qatar-grand-prix/final-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        147.19,
+        189.38,
+        572.24,
+        371.72
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        147.19,
+        379.56,
+        572.24,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        147.19,
+        458.88,
+        572.24,
+        483.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "00:12",
+  "title": "Final Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

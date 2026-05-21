@@ -1,0 +1,31 @@
+{
+  "date": "2023-09-17",
+  "doc_number": "33",
+  "doc_type": "classification",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T10:06:51Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:0ec85ead4a41c831171f1ea75bcdae0b82efc0634d6dd76525c0b183d20a5592",
+  "source_pdf": "documents/2023/singapore-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        221.84,
+        187.07,
+        571.23,
+        430.28
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "00:50",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

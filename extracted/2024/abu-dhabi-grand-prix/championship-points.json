@@ -1,0 +1,53 @@
+{
+  "date": "2024-12-08",
+  "doc_number": "58",
+  "doc_type": "championship-points",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:36:52Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:dc942b98d6b4ced4eaa031ede69b906a9dfac5efbff5869da8377be2b8e7dca8",
+  "source_pdf": "documents/2024/abu-dhabi-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        117.26,
+        174.26,
+        814.24,
+        514.2
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        114.33,
+        174.26,
+        814.35,
+        344.28
+      ],
+      "columns": 9,
+      "page": 3,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        116.49,
+        173.88,
+        815.54,
+        478.68
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:05",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

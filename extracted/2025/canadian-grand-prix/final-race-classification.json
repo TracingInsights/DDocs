@@ -1,0 +1,53 @@
+{
+  "date": "2025-06-15",
+  "doc_number": "74",
+  "doc_type": "classification",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T09:28:38Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:e9cca6abd600579dbaf546deb39e11c848926b45f5a900d488e31adec9ad7262",
+  "source_pdf": "documents/2025/canadian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        178.01,
+        189.38,
+        572.18,
+        408.18
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        178.01,
+        416.04,
+        572.18,
+        452.46
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        178.01,
+        458.88,
+        572.18,
+        483.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:10",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

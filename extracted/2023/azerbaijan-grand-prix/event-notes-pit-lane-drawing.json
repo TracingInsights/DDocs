@@ -1,0 +1,51 @@
+{
+  "date": "2023-04-27",
+  "doc_number": "4",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:53:44Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "9fab3f8b9c3f372587d7019f03edc9e78b8b4e7ed21e5c9d42e5c34eae94e19d",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:fb359f59851e14a4ed3e9b6f9dc1e68adc27fd164d6a6cfae174ffa0a558a899",
+  "source_pdf": "documents/2023/azerbaijan-grand-prix/event-notes-pit-lane-drawing.pdf",
+  "tables": [
+    {
+      "bbox": [
+        39.01,
+        401.76,
+        795.81,
+        497.89
+      ],
+      "columns": 56,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "11:20",
+  "title": "Event Notes Pit Lane Drawing",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

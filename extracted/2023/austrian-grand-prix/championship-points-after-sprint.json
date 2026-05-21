@@ -1,0 +1,53 @@
+{
+  "date": "2023-07-01",
+  "doc_number": "49",
+  "doc_type": "championship-points",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:38Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:fdbe2f6c6d5ddd593bb60612e622e08f2a6b693157075b7aa295d0c628c56fa9",
+  "source_pdf": "documents/2023/austrian-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        121.33,
+        174.27,
+        814.24,
+        514.2
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        117.71,
+        174.27,
+        814.48,
+        259.32
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        120.96,
+        173.88,
+        815.25,
+        478.68
+      ],
+      "columns": 3,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:15",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

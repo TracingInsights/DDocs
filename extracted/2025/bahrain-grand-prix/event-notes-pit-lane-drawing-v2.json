@@ -1,0 +1,51 @@
+{
+  "date": "2025-04-13",
+  "doc_number": "38",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Bahrain Grand Prix",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T09:27:24Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "951dba4fb266078919f9a69f3c429107c74c46eec7f4ff66f4a7a156f2f7661a",
+      "width": 2016
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:84b1a482cfb9bcc49233ae28e4aebf6b5a82a70fc61c054c3a0d20b66dbef81f",
+  "source_pdf": "documents/2025/bahrain-grand-prix/event-notes-pit-lane-drawing-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        36.5,
+        424.1,
+        871.95,
+        541.69
+      ],
+      "columns": 39,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "12:09",
+  "title": "Event Notes Pit Lane Drawing V2",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

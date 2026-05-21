@@ -1,0 +1,53 @@
+{
+  "date": "2024-04-07",
+  "doc_number": "55",
+  "doc_type": "championship-points",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:44:29Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:dcb5ad7b13a6f21fcfdcc689b16038b5f770917674850bb5f4da95b5085e8d6a",
+  "source_pdf": "documents/2024/japanese-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.83,
+        174.21,
+        813.98,
+        513.7
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        21.42,
+        174.21,
+        814.18,
+        280.3
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        21.7,
+        173.75,
+        815.35,
+        478.17
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:30",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

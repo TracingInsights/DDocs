@@ -1,0 +1,53 @@
+{
+  "date": "2025-04-12",
+  "doc_number": "29",
+  "doc_type": "classification",
+  "event_name": "Bahrain Grand Prix",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T09:27:32Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:78e206cf424def84577eec50baf357448b2509711e0c73ffc7ca7741cfa2187d",
+  "source_pdf": "documents/2025/bahrain-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        158.94,
+        187.09,
+        571.17,
+        430.26
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        158.94,
+        439.32,
+        571.17,
+        463.41
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        158.94,
+        472.56,
+        571.17,
+        496.77
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:36",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2022-05-06",
+  "doc_number": "11",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "To All Teams, All Officials Document 11 Date 06 May 2022 Time 12:15 2022 MIAMI GRAND PRIX 5 - 8 May 2022 The FIA Formula One Race Director Title Event Notes - Pit Lane Drawing",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:48:27Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "cc0f2b923b2f2a907ec6b0e81382d930d63bebe99d1413cdfa45bf719e91b5b4",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:9b2ae29a3169f18339b3415278826ffb0b8dfcb00b0ad7c92710e2fd1f955fc6",
+  "source_pdf": "documents/2022/miami-grand-prix/event-notes-pit-lane-drawing.pdf",
+  "tables": [
+    {
+      "bbox": [
+        56.15,
+        405.97,
+        792.79,
+        496.49
+      ],
+      "columns": 43,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "12:15",
+  "title": "Event Notes Pit Lane Drawing",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

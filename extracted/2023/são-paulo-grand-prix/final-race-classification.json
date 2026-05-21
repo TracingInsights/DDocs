@@ -1,0 +1,42 @@
+{
+  "date": "2023-11-05",
+  "doc_number": "68",
+  "doc_type": "classification",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T10:07:41Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:6418a9db68eff308fbf86e5051dcf7e23c0cbca7baa91fb9a95f1dac655e27c2",
+  "source_pdf": "documents/2023/s\u00e3o-paulo-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.06,
+        189.47,
+        571.96,
+        359.47
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        23.06,
+        367.45,
+        571.96,
+        452.3
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:30",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

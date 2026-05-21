@@ -1,0 +1,53 @@
+{
+  "date": "2022-10-08",
+  "doc_number": "33",
+  "doc_type": "classification",
+  "event_name": "Time 18:35 2022 JAPANESE GRAND PRIX 06 - 09 October 2022 The Stewards Title Final Qualifying Classification Description Timing Sheet",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T08:46:36Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c8b2a5a721c9b8665b605a019467563f2041b170f58af8d4f04b5bb64b3bf600",
+  "source_pdf": "documents/2022/japanese-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:35",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

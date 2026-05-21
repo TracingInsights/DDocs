@@ -1,0 +1,109 @@
+{
+  "date": "2025-08-29",
+  "doc_number": "9",
+  "doc_type": "car-presentation",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-05-21T09:29:21Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 5,
+      "path": "images/car-presentation-submissions_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "d101372d9a311c8a8cd9b0a5f18aefac46208d146f774c6e4ea35d743699771c",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 9,
+      "path": "images/car-presentation-submissions_p9_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "48f0d3203d917466b3a10435537bf09d6a135c3aebe0bf92ea66c6ceb1ca9959",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 14,
+      "path": "images/car-presentation-submissions_p14_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "bfc2dd2aa9c3b86761b59d2ff869a890242e87867e78490f4dad3b88239a48d9",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 14,
+  "source_hash": "sha256:5e369ed64483babe0491b0d1640af9ba73266bc11a6db77ef5b4714e568c5f11",
+  "source_pdf": "documents/2025/dutch-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.6,
+        146.08,
+        769.42,
+        219.8
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.6,
+        146.26,
+        769.42,
+        219.8
+      ],
+      "columns": 5,
+      "page": 8,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.6,
+        146.64,
+        769.32,
+        219.75
+      ],
+      "columns": 5,
+      "page": 13,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "09:53",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

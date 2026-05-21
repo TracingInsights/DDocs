@@ -1,0 +1,53 @@
+{
+  "date": "2023-07-02",
+  "doc_number": "77",
+  "doc_type": "championship-points",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:42Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:dfcd1476b288b8bdd2c257a6cc101b2abb5bf9dbc19b2a49d994a3bf8607eeba",
+  "source_pdf": "documents/2023/austrian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        121.33,
+        174.27,
+        814.24,
+        514.2
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        117.71,
+        174.27,
+        814.48,
+        259.32
+      ],
+      "columns": 4,
+      "page": 3,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        120.96,
+        173.88,
+        815.25,
+        478.68
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "22:05",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

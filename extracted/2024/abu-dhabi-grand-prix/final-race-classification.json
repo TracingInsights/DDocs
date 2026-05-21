@@ -1,0 +1,42 @@
+{
+  "date": "2024-12-08",
+  "doc_number": "57",
+  "doc_type": "classification",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:37:02Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:0f36e1d9833d972275d1c5b760e9164bd2c67ff4599d61b0690bb0fa8c715a7d",
+  "source_pdf": "documents/2024/abu-dhabi-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        223.55,
+        189.38,
+        572.18,
+        396.06
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        223.55,
+        403.92,
+        572.18,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "21:00",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

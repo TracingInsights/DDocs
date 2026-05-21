@@ -1,0 +1,42 @@
+{
+  "date": "2024-05-04",
+  "doc_number": "39",
+  "doc_type": "classification",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T09:45:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:65a7db6f64eb17b525edde9bbbdc1c5e9534d3e7e07242ebc0253905021c8489",
+  "source_pdf": "documents/2024/miami-grand-prix/provisional-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.47,
+        571.85,
+        408.11
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        22.99,
+        416.09,
+        571.85,
+        452.3
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "13:10",
+  "title": "Provisional Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

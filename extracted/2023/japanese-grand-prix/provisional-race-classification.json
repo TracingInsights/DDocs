@@ -1,0 +1,42 @@
+{
+  "date": "2023-09-24",
+  "doc_number": "40",
+  "doc_type": "classification",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:59:38Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:972d544c8e9ea03d2de6a2436831cdbf582180342bd304c2b87291ef5d722f0e",
+  "source_pdf": "documents/2023/japanese-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.04,
+        189.47,
+        572.0,
+        371.63
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        23.04,
+        379.61,
+        572.0,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "15:55",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

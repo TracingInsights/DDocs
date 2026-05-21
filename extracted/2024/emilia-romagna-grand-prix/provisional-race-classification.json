@@ -1,0 +1,64 @@
+{
+  "date": "2024-05-19",
+  "doc_number": "53",
+  "doc_type": "classification",
+  "event_name": "Emilia Romagna Grand Prix",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T09:43:52Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:aa71d81990f6d210671b5b3c02e20d6f28fe2e0aebc6f08f267c59882564b5ea",
+  "source_pdf": "documents/2024/emilia-romagna-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        178.66,
+        189.38,
+        572.31,
+        420.33
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        178.66,
+        428.28,
+        572.31,
+        452.46
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        178.66,
+        458.88,
+        572.31,
+        483.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        178.66,
+        489.72,
+        572.31,
+        513.97
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "16:50",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

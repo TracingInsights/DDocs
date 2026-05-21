@@ -1,0 +1,91 @@
+{
+  "date": "2024-09-13",
+  "doc_number": "9",
+  "doc_type": "car-presentation",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:38:47Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.04,
+        595.44
+      ],
+      "deduplicated": false,
+      "display_height": 595.44,
+      "display_width": 842.04,
+      "height": 1191,
+      "page": 3,
+      "path": "images/car-presentation-submissions_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "7a9ee00381d63e9f1bf05afbade0268365cbd9d74df393bb47960fcec259ef47",
+      "width": 1685
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 8,
+      "path": "images/car-presentation-submissions_p8_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "32ab21f3e7f3c49755cdff05f242fa68147fca29f835a34ee254c1e6f1ce2c4d",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 14,
+  "source_hash": "sha256:11244eb7208d5574fb5ad47b2df70eb282eb6989f4d5c572b9b2c69f5cfd3390",
+  "source_pdf": "documents/2024/azerbaijan-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.47,
+        146.05,
+        769.57,
+        219.85
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.6,
+        146.26,
+        769.42,
+        219.8
+      ],
+      "columns": 5,
+      "page": 7,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.6,
+        146.31,
+        769.42,
+        234.2
+      ],
+      "columns": 5,
+      "page": 11,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "10:52",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

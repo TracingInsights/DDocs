@@ -1,0 +1,41 @@
+{
+  "car_number": 63,
+  "date": "2025-04-13",
+  "decision": "No penalty is applied.",
+  "doc_number": "54",
+  "doc_type": "infringement",
+  "driver": "George Russell",
+  "event_name": "Bahrain Grand Prix",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T09:27:27Z",
+  "fact": "The driver used the DRS system when more than 1 second from the car in front.",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "19:26",
+  "offence": "Breach of Article 22.1 h) of the FIA Formula One Sporting Regulations",
+  "pages": 2,
+  "penalty": "No penalty is applied.",
+  "penalty_points": null,
+  "reason": "The Stewards heard from the driver of Car 63 (George Russell), team representatives and Mr Pearson and reviewed positioning/marshalling system data, telemetry and team radio evidence. The connection between the automated DRS activation system and the car failed due to issues with a timing loop provided by an external party. Therefore the FIA authorised manual activation of the DRS in accordance with Article 22.1 h). At the time the driver was experiencing a brake-by-wire issue and other electronic issues. He was at that time advised to use an auxiliary button in the cockpit which serves as a back up radio button but also serves as a manual DRS activation button. On the straight between turns 10 and 11 he tried to radio the team using this button but instead accidentally activated the DRS. The DRS was activated for a distance of 37 metres on a straight of approximately 700 metres. Whilst he gained 0.02 seconds, he gave up 0.28 seconds at the next corner to compensate. This was confirmed by telemetry. Accordingly whilst technically a breach occurred the Stewards decide that as there was no sporting advantage gained, no penalty is imposed.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 22.1",
+    "Chapter 4"
+  ],
+  "session": "Race",
+  "source_hash": "sha256:6b189e01dbf6f7b0bf0a547d33e0fbc02d646f3ca083f21549a329c6608a8502",
+  "source_pdf": "documents/2025/bahrain-grand-prix/infringement-car-63-alleged-drs-infringement.pdf",
+  "stewards": [
+    "in accordance with Article 15 of the FIA International Sporting Code",
+    "Chapter 4 of the FIA Judicial",
+    "Disciplinary Rules",
+    "are based solely on the relevant regulations",
+    "guidelines"
+  ],
+  "tables_extracted": 0,
+  "team": "Mercedes-AMG PETRONAS F1 Team",
+  "time": "21:55",
+  "title": "Infringement Car 63 Alleged Drs Infringement",
+  "to": "The Team Manager,",
+  "year": 2025
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2025-09-21",
+  "doc_number": "49",
+  "doc_type": "championship-points",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T09:26:36Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:f1ccc56dd25cad23a9b0ffaf16772aaf09820667fe6ada4517266aa9891e37e3",
+  "source_pdf": "documents/2025/azerbaijan-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        117.75,
+        174.26,
+        814.24,
+        514.2
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        113.63,
+        174.26,
+        814.44,
+        280.56
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        117.04,
+        173.88,
+        815.54,
+        484.68
+      ],
+      "columns": 8,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:25",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

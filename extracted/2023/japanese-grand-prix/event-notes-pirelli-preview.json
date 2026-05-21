@@ -1,0 +1,73 @@
+{
+  "date": "2023-09-20",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:59:24Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "780efdcbb217493cd433fe4ecdbaaa3a5b32ae2840702aeee7afc78ac4661083",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:fb0eba44ba98c7661c1b8875df62cfd56c9e865c737c1aeab48f2c8badca43b7",
+  "source_pdf": "documents/2023/japanese-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        94.88,
+        70.86,
+        544.8,
+        298.73
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        135.05,
+        407.94,
+        322.86,
+        514.98
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        94.88,
+        628.0,
+        500.35,
+        829.26
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "12:35",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

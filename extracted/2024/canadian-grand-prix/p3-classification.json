@@ -1,0 +1,31 @@
+{
+  "date": "2024-06-08",
+  "doc_number": "27",
+  "doc_type": "classification",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T09:42:20Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:23f41f77f8a38499aaa3bb0f096e073dfc7238cc179defec6ea15c024d876d61",
+  "source_pdf": "documents/2024/canadian-grand-prix/p3-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.96,
+        187.21,
+        570.84,
+        430.13
+      ],
+      "columns": 10,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "13:50",
+  "title": "P3 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

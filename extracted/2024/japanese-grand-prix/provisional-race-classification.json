@@ -1,0 +1,42 @@
+{
+  "date": "2024-04-07",
+  "doc_number": "48",
+  "doc_type": "classification",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:44:50Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a9807765c72a6b08f7ca4746fcc97bc999ab6de529311eaaef31340645fbe56a",
+  "source_pdf": "documents/2024/japanese-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.02,
+        189.47,
+        572.01,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.02,
+        403.93,
+        572.01,
+        452.3
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:21",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

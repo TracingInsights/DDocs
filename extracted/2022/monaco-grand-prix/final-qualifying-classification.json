@@ -1,0 +1,53 @@
+{
+  "date": "2022-05-28",
+  "doc_number": "46",
+  "doc_type": "classification",
+  "event_name": "Time 21:05 2022 MONACO GRAND PRIX 26 - 29 May 2022 The Stewards",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T08:49:38Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:42f2be680ad57d132b7dee5f7fde7f73c80e601d31c4ded1ebd22bda6f95ac96",
+  "source_pdf": "documents/2022/monaco-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.11
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:05",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

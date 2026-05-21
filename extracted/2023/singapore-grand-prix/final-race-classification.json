@@ -1,0 +1,64 @@
+{
+  "date": "2023-09-18",
+  "doc_number": "51",
+  "doc_type": "classification",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T10:06:53Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:2fc5f7c4f283c3c39a0df73c02e05bfafc69a38aaf73c9c2f149304125cea54f",
+  "source_pdf": "documents/2023/singapore-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        177.34,
+        189.38,
+        572.2,
+        383.83
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        177.34,
+        391.68,
+        572.2,
+        440.27
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        177.34,
+        446.64,
+        572.2,
+        470.9
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        177.34,
+        477.6,
+        572.2,
+        501.74
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "00:15",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

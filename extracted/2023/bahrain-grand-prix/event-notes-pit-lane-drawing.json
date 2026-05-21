@@ -1,0 +1,73 @@
+{
+  "date": "2023-03-03",
+  "doc_number": "8",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "BAHRAIN GRAND PRIX 03 - 05 March 2023 The FIA Formula One Race Director From The FIA Formula One Race Director",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T09:54:16Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "a1f9f53548704d98fb83e1f72486d7ddadfd9e7313c9c798a296a3545d868382",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:37a16533639db8dcdb6a4992fb6455f2663732fe943f45a5869160a34007a58a",
+  "source_pdf": "documents/2023/bahrain-grand-prix/event-notes-pit-lane-drawing.pdf",
+  "tables": [
+    {
+      "bbox": [
+        102.65,
+        393.82,
+        697.63,
+        483.21
+      ],
+      "columns": 44,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        725.87,
+        393.82,
+        768.27,
+        453.36
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        54.11,
+        453.36,
+        787.51,
+        497.34
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "14:27",
+  "title": "Event Notes Pit Lane Drawing",
+  "to": "All Teams, All Officials Title Event Notes - Pit Lane Drawing",
+  "year": 2023
+}

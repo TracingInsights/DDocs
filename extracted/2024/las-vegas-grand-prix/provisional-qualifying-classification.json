@@ -1,0 +1,31 @@
+{
+  "date": "2024-11-22",
+  "doc_number": "23",
+  "doc_type": "classification",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:45:10Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:560c969cd96c5963ce4d27c2232796b5c47896f53c33d9bf451c3c4e10af76bf",
+  "source_pdf": "documents/2024/las-vegas-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        227.09,
+        187.09,
+        571.17,
+        430.26
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "23:40",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

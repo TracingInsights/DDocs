@@ -1,0 +1,138 @@
+{
+  "date": "2024-07-05",
+  "doc_number": "9",
+  "doc_type": "car-presentation",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T09:41:17Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 3,
+      "path": "images/car-presentation-submissions_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "610f5e45429621d023169b2eb31f1e36c3e75d88d5367386bd0c436dd8ae9132",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 5,
+      "path": "images/car-presentation-submissions_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "ca35391beaaea1e4687def2b896b0a9e1b3147b4c93ef117b8ff21086973a1f9",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 8,
+      "path": "images/car-presentation-submissions_p8_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "59e4f6b22eb682e9f7f5c4eff3d51a33e49a45b3df70117d53aa71f5235e6ea7",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 10,
+      "path": "images/car-presentation-submissions_p10_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "8e7da86fdc1d18d7ef3ed660e2620158f6189fba70650d7167dd054479531c2e",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 16,
+  "source_hash": "sha256:efa5f0e0258d44366e7e041bfb29741e63dab07f9ad3116460755447232612f9",
+  "source_pdf": "documents/2024/british-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.59,
+        155.89,
+        769.33,
+        301.59
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        72.57,
+        137.41,
+        769.35,
+        442.23
+      ],
+      "columns": 5,
+      "page": 7,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        72.6,
+        132.85,
+        769.32,
+        220.23
+      ],
+      "columns": 5,
+      "page": 13,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.24,
+        126.83,
+        775.58,
+        243.84
+      ],
+      "columns": 5,
+      "page": 14,
+      "rows": 9
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "09:56",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

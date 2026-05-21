@@ -1,0 +1,53 @@
+{
+  "date": "2025-07-25",
+  "doc_number": "29",
+  "doc_type": "classification",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:27:48Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:060c64446348b7bd59e5c67e07f45456ba3dc1818c922d7a4db12b277f7a9149",
+  "source_pdf": "documents/2025/belgian-grand-prix/final-sprint-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        48.46,
+        175.9,
+        563.45,
+        404.66
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        48.46,
+        413.3,
+        563.45,
+        435.95
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        48.46,
+        444.67,
+        563.45,
+        467.32
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:50",
+  "title": "Final Sprint Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

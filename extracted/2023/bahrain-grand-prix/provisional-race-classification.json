@@ -1,0 +1,53 @@
+{
+  "date": "2023-03-05",
+  "doc_number": "41",
+  "doc_type": "classification",
+  "event_name": "BAHRAIN GRAND PRIX 03 - 05 March 2023 The Stewards From The Stewards To All Teams, All Officials",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T09:54:47Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:2de07a301403a804d0dc6c0fa6cb576ffc2443020b6b377c96792d0060089b3f",
+  "source_pdf": "documents/2023/bahrain-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        198.53,
+        189.38,
+        572.24,
+        396.08
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        198.53,
+        403.92,
+        572.24,
+        452.46
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        198.53,
+        458.88,
+        572.24,
+        483.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:10",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

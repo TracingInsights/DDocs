@@ -1,0 +1,42 @@
+{
+  "date": "2024-11-03",
+  "doc_number": "90",
+  "doc_type": "classification",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T09:50:01Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c53e12d1e31d243331e651e56e1e1d877f04de322c25f3da879d9f969f0c98e8",
+  "source_pdf": "documents/2024/s\u00e3o-paulo-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.93,
+        189.37,
+        572.16,
+        371.66
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        22.93,
+        379.64,
+        572.16,
+        452.34
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:55",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

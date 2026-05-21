@@ -1,0 +1,87 @@
+{
+  "date": "2024-06-27",
+  "doc_number": "3",
+  "doc_type": "circuit-map",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:38:11Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.0,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.0,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zones_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "5e93fe1ee17508ff3033ffc3b13c10e887c7862f926d18d710598fca0dd029af",
+      "width": 1190
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zones_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "34ea33b52e0fefd63fdb27b85afa59e44264a8bdbc230777e8c0696b21ceb201",
+      "width": 2016
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 4,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zones_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "032db926d983b7de153a621eca5945e21f47c55aa22ee31994118c3afc4e7a59",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 4,
+  "source_hash": "sha256:14d2a3384308173c0985d460e2ff4a36fe33c3d08ba6ccba8f062583c266beeb",
+  "source_pdf": "documents/2024/austrian-grand-prix/event-notes-circuit-map-pit-lane-drawing-and-red-zones.pdf",
+  "tables": [
+    {
+      "bbox": [
+        56.77,
+        430.71,
+        957.15,
+        544.98
+      ],
+      "columns": 35,
+      "page": 3,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "16:20",
+  "title": "Event Notes Circuit Map Pit Lane Drawing And Red Zones",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

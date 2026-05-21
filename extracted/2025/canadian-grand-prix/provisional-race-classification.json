@@ -1,0 +1,42 @@
+{
+  "date": "2025-06-15",
+  "doc_number": "54",
+  "doc_type": "classification",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T09:28:43Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:b3563649022e89924931f1050f18fa54aded1f94bb44af595ffb89c59c2f62e6",
+  "source_pdf": "documents/2025/canadian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.01,
+        189.47,
+        572.03,
+        408.1
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.01,
+        416.09,
+        572.03,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:25",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2024-11-01",
+  "doc_number": "6",
+  "doc_type": "car-presentation",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T09:49:51Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 6,
+      "path": "images/car-presentation-submissions_p6_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "2eb00f330375d57ceb2e4cf11c4fa4bb862d6f4b2f1951909eb6347137c50ed7",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 12,
+      "path": "images/car-presentation-submissions_p12_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "904157a193aa205bc7a9ab856ad4ec34339958a7a53927cc261328201f87a424",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 13,
+  "source_hash": "sha256:1b48d56cb16c57c8f860c9854c2aae62d71178c2014a6ce35aebc663263d83fa",
+  "source_pdf": "documents/2024/s\u00e3o-paulo-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.58,
+        146.26,
+        769.44,
+        364.06
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        72.59,
+        146.64,
+        769.33,
+        277.59
+      ],
+      "columns": 5,
+      "page": 11,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "08:51",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

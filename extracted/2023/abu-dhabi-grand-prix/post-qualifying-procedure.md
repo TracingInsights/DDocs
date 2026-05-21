@@ -1,0 +1,72 @@
+## 2023 ABU DHABI GRAND PRIX
+
+## 24 - 26 November 2023
+
+The FIA Formula One Media Delegate From The FIA Formula One Media Delegate To All Teams, All Officials Document 31
+
+Date 25 November 2023 Time 11:40
+
+Title Post-Qualifying Procedure Description Post-Qualifying Procedure
+
+## Enclosed ARE DOC 31 - Post-Qualifying Procedures.pdf
+
+## Tom Wood
+
+# 1
+
+## 2023 ABU DHABI GRAND PRIX
+
+## 24 – 26 November 2023
+
+From The FIA Formula One Media Delegate Document 31 To All Officials, All Teams Date 25 November 2023
+
+Time 11:40
+
+The Post-Qualifying procedure requires the top three (3) drivers to be interviewed once they have got out of their cars. Should either of your drivers be among the top three (3) at the end of qualifying we would like to ask for your co-operation in ensuring the procedure below is followed:
+
+- If they take the chequered flag at the end of Q3, the fastest three (3) drivers should return to the Pit Lane where they will find the 1,2,3 boards in front of the FIA Garages.
+- Other than the team mechanics (with cooling fans if necessary), officials and FIA pre-approved
+
+**television crews photographers, no one else will be allowed in the designated area at this time (no**
+
+driver physios nor team PR personnel). At the sole discretion of the FIA Media Delegate, the teamembedded photographer of the pole position driver may also be permitted in the Parc Fermé area at this time. x Once out of their cars, the top three (3) Drivers will be weighed by the FIA. Each Driver must remain fully attired until after they have been weighed (e.g: Helmet, Gloves, etc).
+
+- After the Drivers have been weighed the Post-Qualifying interviews will take place in the designated
+- area. The interviewer will be selected by the Commercial Rights Holder.
+- If any of the top three (3) drivers is in the Pit Lane at the end of the session, the team should ensure that they go directly to the designated area once the other drivers have arrived there.
+- At the end of the live interviews the drivers will be led to the backdrop for the Top 3 and Pirelli Award photo opportunities.
+- The top three (3) drivers will then be escorted by the FIA Media Delegate to the FIA Press Conference located on the ground floor of the Media Centre Building in the paddock.
+- At the end of the FIA Press Conference, the top three (3) drivers will be taken to the TV pen, located at the Pit Entry end of the paddock, and they may be accompanied by their press officers, who should
+
+**wait to collect their drivers in the Press Conference Room.**
+
+- Drivers eliminated in Q1 and Q2, drivers classified from 4th to 10th in Q3 and drivers who did not participate in Q1 but are eligible to race must also attend the TV pen interview session immediately after they have been weighed by the FIA at the end of the last part of qualifying in which they participated.
+- Any Driver from 4th and beyond who does not have a session for the written media organised after Qualifying must be available for interviews at the written media zone adjacent to the TV pen once their TV interviews have concluded.
+
+For drivers outside of the top three (3) positions at the end of qualifying we would like to remind you of point 16 of the Race Director's Notes and ask for your co-operation in ensuring the procedure below is followed:
+
+- Any drivers who finished participating in the qualifying sessions after Q1 and Q2 must proceed to the FIA scales through the pit lane immediately after they have returned to the team's garage. The drivers may not drink anything or do anything which increases their weight before it is recorded by the FIA.
+- Any driver, who stops on the track during the qualifying sessions and is not required to visit the Medical Centre, must proceed to the FIA scales to get his weight recorded before returning to his team.
+- Drivers who finish within the top 10 must proceed to the FIA scales immediately when out of their cars without contact with any other person.
+
+Please see the attached Qualifying - Parc Fermé Diagram.
+
+## Tom Wood
+
+## The FIA Formula One Media Delegate
+
+Cameraman Version 1 – 24 November 2023 1 3 4 5 1st
+
+## 3rd
+
+Parc Ferme - Qualifying 2023 Abu Dhabi Grand Prix
+
+2nd
+
+## BRACKDROP
+
+FIA SCALES Photographers Waiting Area
+
+Photographers
+
+Photographers

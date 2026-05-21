@@ -1,0 +1,42 @@
+{
+  "date": "2024-12-08",
+  "doc_number": "51",
+  "doc_type": "classification",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:37:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:5fe8eb66ecb1ce01da8da061d95420ae98cf4d2df0c280bd0644959ee2b02c8b",
+  "source_pdf": "documents/2024/abu-dhabi-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.91,
+        189.37,
+        572.25,
+        395.98
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        22.91,
+        403.98,
+        572.25,
+        452.38
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:50",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

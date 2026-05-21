@@ -1,0 +1,42 @@
+{
+  "date": "2023-07-28",
+  "doc_number": "33",
+  "doc_type": "classification",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:55:07Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:97da53583f1873786b42a270cd4697d7958ece6270481592bad92be607fdcb48",
+  "source_pdf": "documents/2023/belgian-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        48.46,
+        175.89,
+        563.49,
+        404.68
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        48.46,
+        443.38,
+        563.49,
+        466.03
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "21:10",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

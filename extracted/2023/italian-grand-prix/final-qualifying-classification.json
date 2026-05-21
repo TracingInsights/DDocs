@@ -1,0 +1,31 @@
+{
+  "date": "2023-09-02",
+  "doc_number": "30",
+  "doc_type": "classification",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T09:58:50Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:50f234acd5b01bec1ac1286c99885d3a60a9df70076d1ff984643fdea85808cd",
+  "source_pdf": "documents/2023/italian-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        251.81,
+        187.07,
+        571.23,
+        430.23
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "19:10",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

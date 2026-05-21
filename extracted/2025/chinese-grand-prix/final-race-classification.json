@@ -1,0 +1,53 @@
+{
+  "date": "2025-03-23",
+  "doc_number": "89",
+  "doc_type": "classification",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T09:28:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:5dd3bfb114d169ced1ff0542e136113cc57b5df6cbacdafaa20b64f0fae979fc",
+  "source_pdf": "documents/2025/chinese-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.04,
+        189.22,
+        572.29,
+        383.68
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        23.04,
+        391.66,
+        572.29,
+        452.34
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        23.04,
+        458.8,
+        572.29,
+        482.97
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:24",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2023-10-20",
+  "doc_number": "12",
+  "doc_type": "procedure",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T10:08:11Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.8,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.8,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-qualifying-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "0a4d130bfa0eb45c2bf86bdc6e362e4c44780c7875563d1f843f0f0d2f24ff6d",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:6e528fdfaf887eee291ea8313bac6581cf3ec3dcc1008bda6a7d8159aa0a3bc7",
+  "source_pdf": "documents/2023/united-states-grand-prix/post-qualifying-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        65.2,
+        85.04,
+        773.29,
+        268.18
+      ],
+      "columns": 4,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "13:00",
+  "title": "Post Qualifying Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2024-04-07",
+  "doc_number": "40",
+  "doc_type": "procedure",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:44:38Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.8,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.8,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-race-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "971e2de743715255a3e8088157bf889cdc9e12248c4028c9d73059bedc076140",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:638f76b2a4642c7539ba7664588cbfc35cf0b1327f6f5e567e60cbf03c144682",
+  "source_pdf": "documents/2024/japanese-grand-prix/post-race-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        52.36,
+        132.7,
+        720.57,
+        300.09
+      ],
+      "columns": 12,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "11:28",
+  "title": "Post Race Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2024-08-25",
+  "doc_number": "55",
+  "doc_type": "classification",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-05-21T09:43:18Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a6e0f7432fb98a70d663fd607b1febd82c2f85e02ac68bceac179be8b531b4ab",
+  "source_pdf": "documents/2024/dutch-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.22,
+        572.33,
+        432.35
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.0,
+        458.15,
+        572.33,
+        482.33
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.0,
+        489.01,
+        572.33,
+        513.18
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:35",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

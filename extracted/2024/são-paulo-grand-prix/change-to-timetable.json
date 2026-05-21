@@ -1,0 +1,71 @@
+{
+  "date": "2024-11-02",
+  "doc_number": "48",
+  "doc_type": "timetable",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T09:49:53Z",
+  "from": "The Stewards Document 48",
+  "images": [
+    {
+      "bbox": [
+        210.14,
+        28.35,
+        385.14,
+        124.25
+      ],
+      "deduplicated": false,
+      "display_height": 95.9,
+      "display_width": 175.0,
+      "height": 137,
+      "page": 3,
+      "path": "images/change-to-timetable_p3_img1.png",
+      "sha256": "9e63700d391a8bdd97f642a1bd057867409b0beb3a1f8eaf9ffd31915fa71c4b",
+      "width": 250
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 5,
+  "source_hash": "sha256:59ba885dfaaf328a74921bf624ab7d4a543637cf75d289b373cf7d0c13d2f124",
+  "source_pdf": "documents/2024/s\u00e3o-paulo-grand-prix/change-to-timetable.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.56,
+        161.16,
+        561.12,
+        783.66
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 31
+    },
+    {
+      "bbox": [
+        22.59,
+        28.47,
+        561.09,
+        73.29
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        22.57,
+        161.16,
+        561.12,
+        679.41
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 27
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:31",
+  "title": "Change To Timetable",
+  "to": "All Officials, All Teams",
+  "year": 2024
+}

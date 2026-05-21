@@ -1,0 +1,53 @@
+{
+  "date": "2023-07-29",
+  "doc_number": "52",
+  "doc_type": "championship-points",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:54:53Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:286baa8ca429ec483337db2983135936f48542000294fc1076ce7192e1e449f6",
+  "source_pdf": "documents/2023/belgian-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        121.54,
+        174.27,
+        814.24,
+        514.2
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        118.51,
+        174.27,
+        814.44,
+        280.56
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        121.2,
+        173.88,
+        815.25,
+        478.68
+      ],
+      "columns": 4,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:50",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

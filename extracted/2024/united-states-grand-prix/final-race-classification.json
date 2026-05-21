@@ -1,0 +1,42 @@
+{
+  "date": "2024-10-20",
+  "doc_number": "73",
+  "doc_type": "classification",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:50:30Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:317388317e19d79636230124b587e74dafe218a4321c87a6b128484c66ea8d4c",
+  "source_pdf": "documents/2024/united-states-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        209.28,
+        189.38,
+        572.16,
+        420.33
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        209.28,
+        458.88,
+        572.16,
+        483.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:35",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

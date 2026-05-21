@@ -1,0 +1,53 @@
+{
+  "date": "2024-04-20",
+  "doc_number": "42",
+  "doc_type": "championship-points",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T09:42:38Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:5b2315d4e5d9e5fe6a6025737435214d2f12e231e86ce04d4627b6153616fd94",
+  "source_pdf": "documents/2024/chinese-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.11,
+        174.39,
+        814.09,
+        514.24
+      ],
+      "columns": 8,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        20.7,
+        174.39,
+        814.29,
+        280.59
+      ],
+      "columns": 8,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        20.98,
+        173.93,
+        815.46,
+        478.66
+      ],
+      "columns": 8,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "14:50",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

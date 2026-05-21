@@ -1,0 +1,53 @@
+{
+  "date": "2025-07-06",
+  "doc_number": "45",
+  "doc_type": "classification",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T09:28:21Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:91ab7465256a4a3fc5a9f876cf00a05ed878c3101c811a654863171a763b1278",
+  "source_pdf": "documents/2025/british-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        198.88,
+        189.38,
+        572.33,
+        371.72
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        198.88,
+        379.56,
+        572.33,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        198.88,
+        465.36,
+        572.33,
+        489.61
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:03",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

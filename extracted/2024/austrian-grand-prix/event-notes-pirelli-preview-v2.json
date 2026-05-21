@@ -1,0 +1,62 @@
+{
+  "date": "2024-06-28",
+  "doc_number": "24",
+  "doc_type": "pirelli-preview",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:38:11Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "d742cc047130d593435d7f38f940887a3bf26dda8e22b36815ced760e7a1815b",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:591312a3dcded63eaa795ae73583d6542afca5a6976ea57fa09e0f05f4c765bd",
+  "source_pdf": "documents/2024/austrian-grand-prix/event-notes-pirelli-preview-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        131.9,
+        78.84,
+        540.6,
+        536.35
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        137.97,
+        408.85,
+        322.7,
+        506.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:50",
+  "title": "Event Notes Pirelli Preview V2",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

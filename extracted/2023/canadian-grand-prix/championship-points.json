@@ -1,0 +1,53 @@
+{
+  "date": "2023-06-18",
+  "doc_number": "69",
+  "doc_type": "championship-points",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T09:56:32Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:4b4b3e15f284074f835ababfba9e3649c9b50b65664cf819e316a8a2760436a3",
+  "source_pdf": "documents/2023/canadian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        117.13,
+        174.27,
+        814.24,
+        514.2
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        111.79,
+        174.27,
+        814.48,
+        259.32
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        118.24,
+        173.88,
+        815.25,
+        478.68
+      ],
+      "columns": 3,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:15",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

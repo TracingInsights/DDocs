@@ -1,0 +1,53 @@
+{
+  "date": "2023-04-02",
+  "doc_number": "57",
+  "doc_type": "championship-points",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:52:07Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:26ae07ebec7dd5f336ce73610b71aaed4913e74456216974608175d3cdb0305c",
+  "source_pdf": "documents/2023/australian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.11,
+        174.39,
+        814.09,
+        514.24
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        20.84,
+        174.39,
+        814.35,
+        259.35
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        21.07,
+        173.93,
+        815.15,
+        478.66
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "23:20",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

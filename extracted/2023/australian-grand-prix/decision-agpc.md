@@ -1,0 +1,46 @@
+# 2023 AUSTRALIAN GRAND PRIX
+
+### 31 March - 02 April 2023
+
+The Stewards
+
+## From The Stewards
+
+To All Teams, All Officials Document 55 Date 02 April 2023
+
+Time 23:10
+
+## Title Decision - AGPC
+
+Description Decision - AGPC
+
+Enclosed AUS DOC 55 - Decision - AGPC.pdf
+
+## Nish Shetty Loïc Bacquelaine
+
+## Enrique Bernoldi Christopher Mcttiahon
+
+## 2023 AUSTRALIAN GRAND PRIX
+
+31 March - 02 April 2023
+
+From The Stewards Document 55 To The Australian Grand Prix Corporation Date 02 April 2023
+
+Time 23:10
+
+The Stewards, having received a report from the FIA Sporting Delegate and the Race Director, having examined video evidence, summoned and heard representatives of the Australian Grand Prix Corporation (the « Promoter »), have considered the following matter, and determine the following: Time 17:35 Session Race Fact A large group of spectators managed to break the security lines and accessed the track while the race was still ongoing. The security measures and the protocols which were expected to be in place for the Event were not enforced resulting in an unsafe environment for the spectators, drivers and race officials. Furthermore, spectators were also able to reach Car n° 27, which was parked at exit of Turn 2 and which still had its light flashing red (i.e. the car was in an unsafe condition with possible electrical discharge). All of this presented significant danger to the spectators ; race officials and the drivers. Offence Breach of Article 12.2.1.h of the 2023 FIA International Sporting Code (i.e. failure to take reasonable measures, thus resulting in an unsafe situation). Reasoned Decision 1. The Stewards heard from representatives from the Promoter and from the FIA and considered the video evidence available on the above facts. 2. The Promoter candidly admitted the failures in terms of the security protocols and safety measures. The Promoter concurred with the FIA Sporting Delegate and the Race Director report and agreed that this was an unacceptable situation that could have had disastrous consequences. 3. The Promoter stated, in mitigation, that they would conduct a thorough investigation and take steps to remediate in time for the next event in Australia. 4. In the circumstances, the Stewards hereby determine that:
+
+- a. The Promoter breached Article 12.2.1.h of the 2023 FIA International Sporting Code.
+- b. the Promoter urgently present a formal remediation plan to the FIA that adequately addresses the serious concerns above.
+
+- c. In this regard, the Promoter, in an email to the Stewards, has proposed that they take the following steps to do so :
+
+"We therefore propose the following draft remedies to actively take steps to ensure there will be no further transgressions:
+
+- a. A comprehensive review of the early track breach and the marshals protecting the Hulkenberg car will be conducted.
+- b. A comprehensive review of the Plan will be conducted.
+- c. Results and findings of these reviews and detailed recommendations will be documented and provided to the FIA via the ASN for comment and endorsement, as appropriate.
+- d. The above reviews will include consulting with Victoria Police, Formula 1, the FIA and other aforementioned stakeholders"
+- d. The Promoter has asked that they be given until 30th June 2023 to carry out the above. 5. As this relates to serious issues around safety and security, the Stewards hereby request the FIA to review and comment on whether the abovementioned steps are adequate to address the concerns raised and to state if any further measure(s) need to be taken, as soon as possible. This should be done directly with the Promoter. The FIA should state a deadline for the same and comment on whether the Promoter's requested deadline is acceptable. 6. In addition, the Stewards hereby formally refer this incident to the FIA World Motor Sports Council for a further investigation to determine whether any additional steps need to be taken or penalties applied beyond the remediation plan presented by the Promoter (and reviewed by the FIA) to ensure the safe and orderly conduct of future events in Australia. Competitors are reminded that they have the right to appeal certain decisions of the Stewards, in accordance with Article 15 of the FIA International Sporting Code and Chapter 4 of the FIA Judicial and Disciplinary Rules, within the applicable time limits.
+
+Nish Shetty Loïc Bacquelaine Enrique Bernoldi Christopher Mcttiahon The Stewards

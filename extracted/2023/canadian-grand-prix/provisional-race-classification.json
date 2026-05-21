@@ -1,0 +1,53 @@
+{
+  "date": "2023-06-18",
+  "doc_number": "61",
+  "doc_type": "classification",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T09:57:25Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:f6cc4e97b5ef76554d68b696fc02921c23c88390b6fe9adb97869433ddb9b7fa",
+  "source_pdf": "documents/2023/canadian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        193.77,
+        189.38,
+        572.24,
+        408.2
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        193.77,
+        416.04,
+        572.24,
+        452.46
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        193.77,
+        458.88,
+        572.24,
+        483.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

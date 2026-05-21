@@ -1,0 +1,51 @@
+{
+  "date": "2024-03-06",
+  "doc_number": "4",
+  "doc_type": "pit-lane-drawing",
+  "event_name": "Saudi Arabian Grand Prix",
+  "event_slug": "saudi-arabian-grand-prix",
+  "extracted_at": "2026-05-21T09:48:58Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 2,
+      "path": "images/event-notes-pit-lane-drawing-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "600703b9dfe3cf2bf4bce7178062d053e2fdfe7299817c47fc54baf702d06211",
+      "width": 2016
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:11eee12791e2280fdd01fc9fb5e4421bb7b21e68c79655386a85c36e3d1c47a7",
+  "source_pdf": "documents/2024/saudi-arabian-grand-prix/event-notes-pit-lane-drawing-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        36.45,
+        429.11,
+        970.64,
+        558.38
+      ],
+      "columns": 45,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "18:20",
+  "title": "Event Notes Pit Lane Drawing V2",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

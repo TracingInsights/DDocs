@@ -1,0 +1,31 @@
+{
+  "date": "2023-05-05",
+  "doc_number": "16",
+  "doc_type": "classification",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T10:01:54Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:55e0a3d9b1f76467538e950f2dba2f8bffd73347b0a792ad24f51873c010dd82",
+  "source_pdf": "documents/2023/miami-grand-prix/p2-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        232.59,
+        187.11,
+        571.2,
+        430.25
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "18:50",
+  "title": "P2 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

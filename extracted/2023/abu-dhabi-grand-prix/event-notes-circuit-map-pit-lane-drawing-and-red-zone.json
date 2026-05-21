@@ -1,0 +1,87 @@
+{
+  "date": "2023-11-23",
+  "doc_number": "3",
+  "doc_type": "circuit-map",
+  "event_name": "Abu Dhabi Grand Prix",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T09:51:57Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "deduplicated": false,
+      "display_height": 792.0,
+      "display_width": 612.0,
+      "height": 1584,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "dfa215912340a2394608c7c105c9c5bb16e15d80a2f79c17bf24d60b2084008f",
+      "width": 1224
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "deduplicated": false,
+      "display_height": 792.0,
+      "display_width": 612.0,
+      "height": 1584,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "48082c43f9cb43a21c0f3aec7a4b8b59ddc5fd9dbf3d66de9d9aeb2c19a1c4e4",
+      "width": 1224
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "deduplicated": false,
+      "display_height": 792.0,
+      "display_width": 612.0,
+      "height": 1584,
+      "page": 4,
+      "path": "images/event-notes-circuit-map-pit-lane-drawing-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "c8e30998921f0f8ced95305b1cc09583087d1e68bbdfc368a9a454b5a086a1ca",
+      "width": 1224
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 4,
+  "source_hash": "sha256:f1c2bc0923412ae02d931287b57c04d667cdc7e87898994ef9271a36ec3845c2",
+  "source_pdf": "documents/2023/abu-dhabi-grand-prix/event-notes-circuit-map-pit-lane-drawing-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        420.24,
+        92.84,
+        485.68,
+        724.23
+      ],
+      "columns": 4,
+      "page": 3,
+      "rows": 39
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "11:35",
+  "title": "Event Notes Circuit Map Pit Lane Drawing And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

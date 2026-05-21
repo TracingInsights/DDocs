@@ -1,0 +1,56 @@
+{
+  "date": "2024-02-28",
+  "doc_number": "3",
+  "doc_type": "circuit-map",
+  "event_name": "Bahrain Grand Prix",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T09:40:18Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "4e007089c12599a16d6b92e17c701bc02816921ab0debbfcb06455d5599c6f28",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.0,
+        595.22
+      ],
+      "deduplicated": false,
+      "display_height": 595.22,
+      "display_width": 842.0,
+      "height": 1191,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "99ac3ecae4de5fd4a20a0f5a443231679608d9fccc595ae4899dc2d0ca749565",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 3,
+  "source_hash": "sha256:eabea9dceaaecba63abb26bdb166eff07793550c55703243fa462e8bb095fc8e",
+  "source_pdf": "documents/2024/bahrain-grand-prix/event-notes-circuit-map-and-red-zone.pdf",
+  "tables_extracted": 0,
+  "time": "14:50",
+  "title": "Event Notes Circuit Map And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

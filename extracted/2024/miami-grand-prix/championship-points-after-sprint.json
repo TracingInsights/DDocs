@@ -1,0 +1,53 @@
+{
+  "date": "2024-05-04",
+  "doc_number": "64",
+  "doc_type": "championship-points",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T09:45:31Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:355a03aa21870e5e7e8f05820c951bc5b245526a968ae301b1391f4d4e0f9a01",
+  "source_pdf": "documents/2024/miami-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.6,
+        174.26,
+        814.01,
+        513.88
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        21.19,
+        174.26,
+        814.21,
+        280.39
+      ],
+      "columns": 9,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        21.47,
+        173.81,
+        815.38,
+        478.33
+      ],
+      "columns": 9,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:20",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

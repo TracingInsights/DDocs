@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2024-10-19",
+  "decision": "No further action.",
+  "doc_number": "42",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:50:18Z",
+  "fact": "The cars below exceeded the 1:55.0 time limit between the Safety Car lines. No Car Driver Competitor Time of Day 1 24 Zhou Guanyu Stake F1 Team Kick Sauber 12:32:15 2 77 Valtteri Bottas Stake F1 Team Kick Sauber 12:32:16 3 14 Fernando Alonso Aston Martin Aramco F1 Team 12:32:15",
+  "from": "The Stewards Document 42",
+  "images_extracted": 0,
+  "incident_time": "14:35 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article 33.4 of the FIA Formula One Sporting Regulations and Article 12.2.1 i) of the FIA International Sporting Code (non-compliance with the Race Director's Event Notes, item 2, document 12)",
+  "pages": 2,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on- board cameras and CCTV cameras. All drivers concerned stayed at or above speeds necessary to stay below 1:55.0 around the vast majority of the circuit. However, the Stewards determine that all drivers concerned did not drive \"unnecessarily slowly\", and therefore take no further action.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 33.4 of the FIA Formula One Sporting Regulations and Article 12",
+    "Chapter 4"
+  ],
+  "session": "Reconnaissance laps",
+  "source_hash": "sha256:401a7d5b5d6169c0157da235e776b1757e87c05838b0062b2fadae18c4def059",
+  "source_pdf": "documents/2024/united-states-grand-prix/decision-sprint-reconnaissance-laps-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 42 To All Officials",
+    "All Teams Date 19 October 2024"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.84,
+        347.16,
+        552.96,
+        437.28
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "14:35",
+  "title": "Decision Sprint Reconnaissance Laps Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2024
+}

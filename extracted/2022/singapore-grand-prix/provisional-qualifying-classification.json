@@ -1,0 +1,53 @@
+{
+  "date": "2022-10-01",
+  "doc_number": "37",
+  "doc_type": "classification",
+  "event_name": "SINGAPORE GRAND PRIX 29 September - 02 October 2022 The Stewards Title Provisional Qualifying Classification Description Timing Sheet",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T09:02:27Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:51ab1673ac70c2889ada726f4b98823c1c80b22c6ad2ad688786599492576c96",
+  "source_pdf": "documents/2022/singapore-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.11
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "22:19",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

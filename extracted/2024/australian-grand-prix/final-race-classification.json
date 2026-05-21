@@ -1,0 +1,42 @@
+{
+  "date": "2024-03-24",
+  "doc_number": "55",
+  "doc_type": "classification",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T09:37:32Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:6f38803be0763eac784edc38072268fbfcc31633c237e08a481db0608821159d",
+  "source_pdf": "documents/2024/australian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        224.55,
+        189.38,
+        572.12,
+        396.06
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        224.55,
+        403.92,
+        572.12,
+        440.33
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:05",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

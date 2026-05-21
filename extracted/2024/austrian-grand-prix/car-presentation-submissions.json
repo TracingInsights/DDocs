@@ -1,0 +1,95 @@
+{
+  "date": "2024-06-28",
+  "doc_number": "6",
+  "doc_type": "car-presentation",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T09:37:59Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.2
+      ],
+      "deduplicated": false,
+      "display_height": 595.2,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 6,
+      "path": "images/car-presentation-submissions_p6_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "423333bc57d3b8844626a5dd383f525e27e237180792091db5cb2bfa94982afc",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 12,
+  "source_hash": "sha256:1ac53e6288f6ccc9fb58fe8f287a27903ce40459b3df4ae82c07d20e4e40b62c",
+  "source_pdf": "documents/2024/austrian-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.6,
+        132.37,
+        769.32,
+        205.83
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.6,
+        145.81,
+        769.32,
+        248.07
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.59,
+        152.05,
+        769.33,
+        283.35
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        72.6,
+        132.85,
+        769.32,
+        220.71
+      ],
+      "columns": 5,
+      "page": 10,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.24,
+        126.83,
+        775.58,
+        243.84
+      ],
+      "columns": 5,
+      "page": 11,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 5,
+  "time": "09:56",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

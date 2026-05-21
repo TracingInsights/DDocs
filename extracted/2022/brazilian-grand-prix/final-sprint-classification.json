@@ -1,0 +1,42 @@
+{
+  "date": "2022-11-12",
+  "doc_number": "42",
+  "doc_type": "classification",
+  "event_name": "Time 19:50 2022 BRAZILIAN GRAND PRIX 10 - 13 November 2022 The Stewards Title Final Sprint Classification Description Timing Sheet",
+  "event_slug": "brazilian-grand-prix",
+  "extracted_at": "2026-05-21T08:37:40Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:e5c1a3ce3d22ba3aff64e79002840f92a0cc6372daa5ffe1220c47fab73bbbe7",
+  "source_pdf": "documents/2022/brazilian-grand-prix/final-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.98,
+        189.53,
+        571.74,
+        420.2
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.98,
+        428.18,
+        571.74,
+        452.31
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:50",
+  "title": "Final Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

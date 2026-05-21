@@ -1,0 +1,31 @@
+# 2023 SINGAPORE GRAND PRIX
+
+### 15 - 17 September
+
+The Stewards
+
+## From The Stewards
+
+To All Teams, All Officials Document 8 Date 15 September 2023
+
+Time 16:00
+
+## Title Entry List
+
+Description Entry List
+
+Enclosed SGP DOC 8 - Entry List.pdf
+
+## Garry Connelly Matteo Perini
+
+## Vitantonio Liuzzi Paul Ng
+
+## Garry Connelly Matteo Perini
+
+### Vitantonio Liuzzi Paul Ng
+
+The Stewards 2023 SINGAPORE GRAND PRIX 15 – 17 September 2023 From The Stewards Document 8
+
+To All Officials, All Teams Date 15 September 2023 Time 16:00
+
+- No. Driver Nat Team Constructor 1 Max Verstappen NLD Oracle Red Bull Racing Red Bull Racing Honda RBPT 11 Sergio Perez MEX Oracle Red Bull Racing Red Bull Racing Honda RBPT 16 Charles Leclerc MCO Scuderia Ferrari Ferrari 55 Carlos Sainz ESP Scuderia Ferrari Ferrari 63 George Russell GBR Mercedes-AMG PETRONAS F1 Team Mercedes 44 Lewis Hamilton GBR Mercedes-AMG PETRONAS F1 Team Mercedes 31 Esteban Ocon FRA BWT Alpine F1 Team Alpine Renault 10 Pierre Gasly FRA BWT Alpine F1 Team Alpine Renault 81 Oscar Piastri AUS McLaren F1 Team McLaren Mercedes 4 Lando Norris GBR McLaren F1 Team McLaren Mercedes 77 Valtteri Bottas FIN Alfa Romeo F1 Team Stake Alfa Romeo Ferrari 24 Zhou Guanyu CHN Alfa Romeo F1 Team Stake Alfa Romeo Ferrari 18 Lance Stroll CAN Aston Martin Aramco Cognizant F1 Team Aston Martin Aramco Mercedes 14 Fernando Alonso ESP Aston Martin Aramco Cognizant F1 Team Aston Martin Aramco Mercedes 20 Kevin Magnussen DNK MoneyGram Haas F1 Team Haas Ferrari 27 Nico Hulkenberg GER MoneyGram Haas F1 Team Haas Ferrari 40 Liam Lawson NZL Scuderia AlphaTauri AlphaTauri Honda RBPT 22 Yuki Tsunoda JPN Scuderia AlphaTauri AlphaTauri Honda RBPT 23 Alexander Albon THA Williams Racing Williams Mercedes 2 Logan Sargeant USA Williams Racing Williams Mercedes

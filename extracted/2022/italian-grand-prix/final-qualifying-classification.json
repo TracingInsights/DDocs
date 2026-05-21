@@ -1,0 +1,53 @@
+{
+  "date": "2022-09-10",
+  "doc_number": "51",
+  "doc_type": "classification",
+  "event_name": "Time 20:00 2022 ITALIAN GRAND PRIX 08 - 11 September 2022 The Stewards Title Final Qualifying Classification Description Timing Sheet",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T08:45:37Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a7096cba136bff0031521e2fe99de8921b6bc7c4e1ada72bf1a78cdc55e6dba4",
+  "source_pdf": "documents/2022/italian-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.87,
+        187.08,
+        571.19,
+        430.18
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.87,
+        439.38,
+        571.19,
+        463.44
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.87,
+        472.71,
+        571.19,
+        496.78
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:00",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

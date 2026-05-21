@@ -1,0 +1,42 @@
+{
+  "date": "2024-04-20",
+  "doc_number": "41",
+  "doc_type": "classification",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T09:42:48Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a657a59e6aaf80688ef9ad77d2027d6fba679a6a9638b425c7af0adfeac52c2b",
+  "source_pdf": "documents/2024/chinese-grand-prix/final-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        178.89,
+        189.38,
+        572.22,
+        432.54
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        178.89,
+        458.16,
+        572.22,
+        482.42
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "14:40",
+  "title": "Final Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

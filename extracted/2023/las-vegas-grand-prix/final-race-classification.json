@@ -1,0 +1,42 @@
+{
+  "date": "2023-11-19",
+  "doc_number": "59",
+  "doc_type": "classification",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T10:00:00Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:f55b5e58c3efb6920911aebbb23d6e9b30f189e252422a133688f6beef67f130",
+  "source_pdf": "documents/2023/las-vegas-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        244.01,
+        189.38,
+        572.22,
+        420.31
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        244.01,
+        428.28,
+        572.22,
+        452.46
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "01:35",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

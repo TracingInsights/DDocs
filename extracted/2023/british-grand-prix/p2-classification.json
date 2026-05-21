@@ -1,0 +1,31 @@
+{
+  "date": "2023-07-07",
+  "doc_number": "18",
+  "doc_type": "classification",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T09:56:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4ea62d738b0d3f2188410f4cdc2a940ba46e307952634cadf912395b609b8d07",
+  "source_pdf": "documents/2023/british-grand-prix/p2-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        200.72,
+        187.11,
+        571.18,
+        418.02
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 19
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:20",
+  "title": "P2 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

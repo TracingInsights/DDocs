@@ -1,0 +1,42 @@
+{
+  "date": "2022-05-08",
+  "doc_number": "66",
+  "doc_type": "classification",
+  "event_name": "Document 66 Date 08 May 2022 Time 20:10 2022 MIAMI GRAND PRIX 5 - 8 May 2022 The Stewards",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:48:40Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a60b7be21873e6c161b9b57d4348464f2e69ada4f214a7b775a2d22ca36416b8",
+  "source_pdf": "documents/2022/miami-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.02,
+        189.47,
+        571.89,
+        395.94
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.02,
+        403.93,
+        571.89,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:10",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

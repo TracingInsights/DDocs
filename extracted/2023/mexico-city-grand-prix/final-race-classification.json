@@ -1,0 +1,64 @@
+{
+  "date": "2023-10-29",
+  "doc_number": "65",
+  "doc_type": "classification",
+  "event_name": "Mexico City Grand Prix",
+  "event_slug": "mexico-city-grand-prix",
+  "extracted_at": "2026-05-21T10:00:37Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:6393cf628e17bbb2a13db0fd3c96f8a1e8f812ff6b390767b15f68c41e1d3c69",
+  "source_pdf": "documents/2023/mexico-city-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        163.48,
+        189.38,
+        572.17,
+        396.06
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        163.48,
+        403.92,
+        572.17,
+        452.44
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        163.48,
+        458.88,
+        572.17,
+        483.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        163.48,
+        489.72,
+        572.17,
+        513.97
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "18:30",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2023
+}

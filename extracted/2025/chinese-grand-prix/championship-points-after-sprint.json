@@ -1,0 +1,42 @@
+{
+  "date": "2025-03-22",
+  "doc_number": "51",
+  "doc_type": "championship-points",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T09:28:49Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 3,
+  "source_hash": "sha256:f4d38fd07626960101ab806d479b1ea0402906d4702e851602d1041a8e6a9747",
+  "source_pdf": "documents/2025/chinese-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.3,
+        174.31,
+        814.32,
+        471.67
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        21.2,
+        173.85,
+        815.67,
+        484.61
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "14:05",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

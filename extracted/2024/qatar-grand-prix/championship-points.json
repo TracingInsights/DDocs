@@ -1,0 +1,53 @@
+{
+  "date": "2024-12-01",
+  "doc_number": "71",
+  "doc_type": "championship-points",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T09:46:30Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:c98ed4ec48d2fecd76d1270092fed736c822281dbd2d81b20bc43c58ba198340",
+  "source_pdf": "documents/2024/qatar-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        116.6,
+        174.26,
+        814.24,
+        514.2
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        113.11,
+        174.26,
+        814.37,
+        323.04
+      ],
+      "columns": 13,
+      "page": 3,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        115.75,
+        173.88,
+        815.54,
+        478.68
+      ],
+      "columns": 12,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "23:20",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2024
+}

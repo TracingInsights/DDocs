@@ -1,0 +1,31 @@
+{
+  "date": "2025-07-27",
+  "doc_number": "64",
+  "doc_type": "classification",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T09:27:54Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:8b3b2b72f057cc183f5b54a5383c9b0fbd30b8fecce0146bb09b7975d130e9cd",
+  "source_pdf": "documents/2025/belgian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.98,
+        189.47,
+        572.02,
+        432.43
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "18:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2025-04-06",
+  "doc_number": "43",
+  "doc_type": "procedure",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T09:30:51Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.68,
+        595.44
+      ],
+      "deduplicated": false,
+      "display_height": 595.44,
+      "display_width": 841.68,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-race-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "fe15ab7f982b737dbcb438c8bf459fb096dd60fb0d80fdd5d08a159eaad0cb2d",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:34a093b4a633ac209b527cf5e1778ba06ede021f60c92f5b2ecad54510cd46ac",
+  "source_pdf": "documents/2025/japanese-grand-prix/post-race-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        38.29,
+        144.09,
+        717.36,
+        309.69
+      ],
+      "columns": 12,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "11:44",
+  "title": "Post Race Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}
