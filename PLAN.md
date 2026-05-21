@@ -3,9 +3,66 @@
 
 ---
 
-## Architecture Overview
+## What We Already Have (The DDocs Repo)
 
-Switching to Django provides a robust, batteries-included framework. We will use **Django Ninja** for async API endpoints, **Django ORM** (with SQLite) for web-state (Users, Sessions, Ingestion Queue), and **DuckDB** purely for the analytical FIA document retrieval.
+This repo is not a blank slate. The heavy lifting of PDF processing is **already done**:
+
+```
+DDocs/
+├── documents/          # Raw PDFs: documents/{year}/{event-name}/{pdf-name}.pdf
+│   ├── 2018/
+│   ├── 2019/
+│   ...
+│   └── 2026/
+├── extracted/          # ✅ Already extracted: one .md + .json per PDF
+│   ├── manifest.json   # Master index of ALL extracted docs (source_hash, doc_type, etc.)
+│   ├── 2018/
+│   │   └── abu-dhabi-grand-prix/
+│   │       ├── doc_20_-_..._decision_-_haas_protest.md      # Markdown text + tables
+│   │       ├── doc_20_-_..._decision_-_haas_protest.json    # Sidecar metadata
+│   │       ├── images/
+│   │       └── ...
+│   ├── 2019/
+│   ...
+│   └── 2026/
+├── extract.py          # The extraction engine (pdfplumber + PyMuPDF → .md + .json)
+└── pyproject.toml      # uv-managed Python project
+```
+
+### What `extract.py` gives us per PDF
+
+| File | Contents |
+|---|---|
+| `{stem}.md` | Full document text with tables in Markdown — ready for chunking |
+| `{stem}.json` | Sidecar: `source_hash`, page count, table count, visual pages |
+| `images/*.png` | High-DPI renders of visual-only pages (circuit maps, etc.) |
+
+### What `extracted/manifest.json` gives us
+
+Each key is `documents/{year}/{event}/{pdf-name}.pdf` and maps to:
+
+```json
+{
+  "doc_type":          "decision",        // pre-classified: decision, summons, offence,
+                                          // scrutineering, classification, starting-grid,
+                                          // entry-list, other
+  "success":           true,
+  "source_hash":       "sha256:...",      // used for dedup — never re-ingest same file
+  "pages":             8,
+  "tables_extracted":  0,
+  "images_extracted":  0,
+  "extracted_at":      "2026-05-21T11:09:19Z",
+  "error":             null
+}
+```
+
+**Key insight**: `year` and `event` are parsed directly from the key path. `doc_type` is already
+classified. We do **not** need an LLM to infer these. LLM extraction is reserved only for
+fine-grained content fields (driver name, car number, penalty type) from the `.md` text.
+
+---
+
+## Architecture Overview
 
 ```
 User Browser
@@ -19,59 +76,117 @@ User Browser
      ▼
   Django Project
      ├── Auth & Sessions      (Django ORM + SQLite)
-     ├── Ingestion Queue      (Django ORM + SQLite → processed by Cron/Management Command)
+     ├── Ingestion Queue      (Django ORM + SQLite → processed by Systemd Timer)
      ├── API Layer            (Django Ninja - async)
      └── RAG Logic
-          ├─── Layer 1: DuckDB (structured FIA data + chunks)
+          ├─── Layer 1: DuckDB (documents + chunks tables)
           ├─── Layer 2: BM25 index (rank_bm25) + LanceDB (chunk-level vectors)
           ├─── Layer 3: Query rewriter + classifier (SQL-first logic)
           └─── Layer 4: Gemini 2.5 Flash (final answer)
                              │
                     [Gemini API rate limiter — in-process]
+
+Data Flow (Ingestion):
+  extracted/manifest.json
+          │
+          ▼
+  bulk_ingest.py / management command
+          │  reads .md + .json sidecar
+          │  parses year/event from path
+          │  LLM extracts driver/penalty fields (only for decision/summons/offence)
+          ▼
+  DuckDB: documents + chunks tables
+          │
+          ▼
+  LanceDB (vectors) + BM25 pickle
 ```
 
 **Why this stack for 4GB RAM?**
-*   **No Redis/Celery:** We use Django's native ORM for the queue and a lightweight systemd `cron` trigger for ingestion. This saves ~300MB RAM.
-*   **Django Ninja:** Provides FastAPI-like async views and Pydantic validation natively inside Django, crucial for non-blocking LLM calls.
-*   **SQLite for Django, DuckDB for Analytics:** Django handles web traffic perfectly with SQLite. DuckDB handles the heavy analytical SQL queries (`AGGREGATION`) and chunk storage without locking issues.
+- **No Redis/Celery:** Django ORM queue + systemd timer saves ~300MB.
+- **Django Ninja:** Async views + Pydantic validation natively inside Django.
+- **SQLite for Django, DuckDB for Analytics:** DuckDB handles analytical SQL
+  (`AGGREGATION`) and chunk storage without locking issues.
+- **Extraction is offline:** `extract.py` runs on this dev machine. The VPS only
+  needs to serve the pre-built DuckDB + LanceDB.
 
 ---
 
-## Directory Structure
+## Directory Structure (Django App, separate from DDocs repo)
 
 ```
 fia_rag/
 ├── manage.py
-├── fia_project/          # Django project config
+├── fia_project/              # Django project config
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
-├── core/                 # Main Django app
-│   ├── models.py         # User, Session, Message, IngestionQueue
-│   ├── api.py            # Django Ninja endpoints
-│   ├── schema.py         # Pydantic schemas
+├── core/                     # Main Django app
+│   ├── models.py             # User, ChatSession, Message, IngestionQueue
+│   ├── api.py                # Django Ninja endpoints
+│   ├── schema.py             # Pydantic schemas
 │   ├── services/
-│   │   ├── duckdb.py     # DuckDB connection & schema
-│   │   ├── chunker.py    # Markdown header splitting
-│   │   ├── extractor.py  # LLM extraction + JSON validation
-│   │   ├── retrieval.py  # SQL-first, BM25, Vector, Context Builder
-│   │   ├── router.py     # Query rewriter & classifier
-│   │   └── answerer.py   # Gemini Flash answer generation
+│   │   ├── duckdb.py         # DuckDB connection singleton
+│   │   ├── chunker.py        # Splits .md files into chunks
+│   │   ├── extractor.py      # LLM extraction of deep content fields only
+│   │   ├── retrieval.py      # SQL-first, BM25, Vector, Context Builder
+│   │   ├── router.py         # Query rewriter & classifier
+│   │   └── answerer.py       # Gemini Flash answer generation
 │   └── management/
 │       └── commands/
-│           └── process_ingestion_queue.py  # The cron-job replacement for Celery
+│           └── process_ingestion_queue.py
 ├── data/
-│   ├── fia_docs/         # Raw .md files
-│   ├── fia_analytics.duckdb
-│   ├── bm25_index/
-│   └── lancedb/
-├── frontend/             # Static SPA (React/Vite)
+│   ├── extracted/            # Symlink or copy of DDocs/extracted/
+│   │   ├── manifest.json     # Master index
+│   │   ├── 2018/
+│   │   ├── 2019/
+│   │   ...
+│   │   └── 2026/
+│   ├── fia_analytics.duckdb  # Built by bulk_ingest.py
+│   ├── bm25_index.pkl        # Serialized BM25 index
+│   └── lancedb/              # LanceDB vector store
+├── scripts/
+│   └── bulk_ingest.py        # One-time cold-start ingest from extracted/
+├── frontend/                 # Static SPA (vanilla typescript + tailwindcss v3)
 ├── nginx/
 │   └── fia_rag.conf
-├── requirements.txt
 └── systemd/
-    ├── fia_rag.service   # Gunicorn service
-    └── fia_ingest.timer  # Systemd timer for ingestion queue
+    ├── fia_rag.service
+    └── fia_ingest.timer
+```
+
+---
+
+## Layer 0: Path Utilities (Parsing year/event from extracted/ paths)
+
+Since `year` and `event` live in the path, we parse them rather than using an LLM:
+
+```python
+# core/services/path_utils.py
+import re
+from pathlib import Path
+
+def parse_doc_path(manifest_key: str) -> dict:
+    """
+    Input:  'documents/2024/miami-grand-prix/doc_17_-_..._decision.pdf'
+    Output: {'year': 2024, 'event': 'miami-grand-prix', 'pdf_name': 'doc_17...pdf'}
+    """
+    parts = Path(manifest_key).parts  # ('documents', '2024', 'miami-grand-prix', 'doc_17...pdf')
+    return {
+        "year": int(parts[1]),
+        "event": parts[2],               # e.g. 'miami-grand-prix'
+        "pdf_name": parts[3],
+        "pdf_stem": Path(parts[3]).stem, # filename without .pdf
+    }
+
+def get_extracted_md_path(manifest_key: str, extracted_root: Path) -> Path:
+    """Returns path to the .md file for a given manifest key."""
+    info = parse_doc_path(manifest_key)
+    return extracted_root / str(info["year"]) / info["event"] / (info["pdf_stem"] + ".md")
+
+def get_extracted_json_path(manifest_key: str, extracted_root: Path) -> Path:
+    """Returns path to the .json sidecar for a given manifest key."""
+    info = parse_doc_path(manifest_key)
+    return extracted_root / str(info["year"]) / info["event"] / (info["pdf_stem"] + ".json")
 ```
 
 ---
@@ -79,10 +194,10 @@ fia_rag/
 ## Layer 1: Data Models (Django SQLite + DuckDB)
 
 ### 1.1 Django Models (SQLite)
-Used for web state, auth, and the ingestion queue.
 
 ```python
 # core/models.py
+import uuid
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
@@ -92,152 +207,346 @@ class User(AbstractUser):
     quota_reset_date = models.DateField(auto_now_add=True)
 
 class ChatSession(models.Model):
-    id = models.UUIDField(primary_key=True, editable=False)
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
 
 class Message(models.Model):
-    session = models.ForeignKey(ChatSession, on_delete=models.CASCADE)
-    role = models.CharField(max_length=10) # 'user' or 'assistant'
+    session = models.ForeignKey(ChatSession, on_delete=models.CASCADE, related_name='messages')
+    role = models.CharField(max_length=10)  # 'user' or 'assistant'
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
 
 class IngestionQueue(models.Model):
-    STATUS_CHOICES = [('pending', 'Pending'), ('processing', 'Processing'), ('done', 'Done'), ('failed', 'Failed')]
-    file_path = models.CharField(max_length=255)
-    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='pending')
+    """Tracks newly extracted .md files waiting to enter DuckDB."""
+    STATUS_CHOICES = [
+        ('pending', 'Pending'), ('processing', 'Processing'),
+        ('done', 'Done'), ('failed', 'Failed')
+    ]
+    manifest_key = models.CharField(max_length=512, unique=True)  # e.g. 'documents/2024/.../doc.pdf'
+    source_hash = models.CharField(max_length=80)                  # sha256 from manifest.json
+    status = models.CharField(max_length=12, choices=STATUS_CHOICES, default='pending')
+    error_message = models.TextField(blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 ```
 
 ### 1.2 DuckDB Schema (Analytics & Retrieval)
-Initialized via a startup script. Django queries this directly for RAG logic.
 
 ```sql
--- Documents table: Parent records
+-- documents table: one row per extracted PDF
 CREATE TABLE IF NOT EXISTS documents (
-    id               VARCHAR PRIMARY KEY,
-    file_path        VARCHAR NOT NULL,
-    ingested_at      TIMESTAMP DEFAULT now(),
-    raw_text         TEXT,
-    event_name       VARCHAR, year INTEGER, round INTEGER, session VARCHAR,
-    document_type    VARCHAR, driver_name VARCHAR, car_number VARCHAR, team VARCHAR,
-    charge_description TEXT, charge_normalized VARCHAR, regulation_articles VARCHAR[],
-    heard            BOOLEAN, decision VARCHAR, penalty_type VARCHAR,
-    penalty_value    VARCHAR, penalty_unit VARCHAR, stewards VARCHAR[]
+    id               VARCHAR PRIMARY KEY,  -- sha256 from manifest (dedup key)
+    manifest_key     VARCHAR NOT NULL,     -- 'documents/{year}/{event}/{pdf-name}.pdf'
+    md_path          VARCHAR NOT NULL,     -- absolute path to .md file on disk
+    year             INTEGER,
+    event            VARCHAR,              -- 'miami-grand-prix'
+    pdf_stem         VARCHAR,              -- filename stem (no extension)
+
+    -- From manifest.json (no LLM needed)
+    doc_type         VARCHAR,              -- 'decision','summons','offence','scrutineering',
+                                           --  'classification','starting-grid','entry-list','other'
+    pages            INTEGER,
+    tables_extracted INTEGER,
+    extracted_at     TIMESTAMP,
+
+    -- LLM-extracted (only for decision/summons/offence doc_types)
+    driver_name      VARCHAR,
+    car_number       VARCHAR,
+    team             VARCHAR,
+    charge_description TEXT,
+    charge_normalized  VARCHAR,
+    regulation_articles VARCHAR[],
+    heard            BOOLEAN,
+    decision         VARCHAR,
+    penalty_type     VARCHAR,
+    penalty_value    VARCHAR,
+    penalty_unit     VARCHAR,
+    stewards         VARCHAR[],
+
+    ingested_at      TIMESTAMP DEFAULT now()
 );
 
--- Chunks table: Granular retrieval units
+-- chunks table: granular retrieval units (split from .md files)
 CREATE TABLE IF NOT EXISTS chunks (
-    id               VARCHAR PRIMARY KEY,
-    doc_id           VARCHAR NOT NULL REFERENCES documents(id),
-    chunk_index      INTEGER,
-    header_path      VARCHAR,
-    chunk_text       TEXT,
-    embedding_id     VARCHAR,
-    bm25_id          INTEGER
+    id           VARCHAR PRIMARY KEY,  -- '{doc_id}_chunk_{index}'
+    doc_id       VARCHAR NOT NULL REFERENCES documents(id),
+    chunk_index  INTEGER,
+    header_path  VARCHAR,              -- markdown header breadcrumb
+    chunk_text   TEXT,
+    bm25_id      INTEGER               -- row index in the BM25 corpus list
 );
 ```
 
 ---
 
-## Layer 2: Ingestion Pipeline (Cron/Management Command)
+## Layer 2: Ingestion Pipeline
 
-To avoid OOM errors and API rate limits on a 4GB VPS, we ditch Watchdog/async loops. Instead, a systemd timer triggers a Django management command every minute to process the queue safely.
+### Philosophy: manifest.json is the source of truth
 
-### 2.1 Management Command
+The `extracted/manifest.json` already has `source_hash` (sha256) for every extracted PDF.
+We use this as the **deduplication key** — if `source_hash` is already in DuckDB's `documents.id`,
+we skip it. No polling, no watchdog.
+
+### 2.1 Cold-Start Bulk Ingest Script
+
+This runs **once** (on dev machine or VPS during setup) to populate DuckDB from the existing
+`extracted/` folder:
+
+```python
+# scripts/bulk_ingest.py
+"""
+Walks extracted/manifest.json, finds all successful extractions not yet in DuckDB,
+and ingests them in batches — respecting Gemini API rate limits.
+
+Only decision/summons/offence documents get LLM field extraction.
+Everything else is fast (just path parsing + chunking).
+
+Usage: uv run python scripts/bulk_ingest.py [--year 2024] [--event miami-grand-prix]
+       uv run python scripts/bulk_ingest.py --dry-run
+       uv run python scripts/bulk_ingest.py --skip-llm  # ingest without LLM fields
+"""
+import json
+import time
+import asyncio
+import argparse
+import hashlib
+import duckdb
+from pathlib import Path
+
+EXTRACTED_ROOT = Path("data/extracted")
+MANIFEST_PATH  = EXTRACTED_ROOT / "manifest.json"
+DUCKDB_PATH    = Path("data/fia_analytics.duckdb")
+
+# Gemini free tier: 1000 RPD, ~15 RPM
+BATCH_SIZE       = 900   # stay under 1000 RPD (LLM calls only for rich doc types)
+DELAY_SECONDS    = 1.5   # 60s / 40 RPM = 1.5s
+
+RICH_DOC_TYPES = {"decision", "summons", "offence"}  # Only these get LLM extraction
+
+def parse_doc_path(key: str) -> dict:
+    parts = Path(key).parts
+    return {"year": int(parts[1]), "event": parts[2],
+            "pdf_name": parts[3], "pdf_stem": Path(parts[3]).stem}
+
+def chunk_markdown(doc_id: str, text: str, max_size=1200, overlap=200) -> list[dict]:
+    """Simple header-aware chunker for FIA .md files."""
+    import re
+    sections = re.split(r'\n(?=#{1,4} )', text)
+    chunks = []
+    idx = 0
+    for section in sections:
+        header = ""
+        m = re.match(r'^(#{1,4} .+)\n', section)
+        if m:
+            header = m.group(1).strip("# ").strip()
+        if len(section) <= max_size:
+            if section.strip():
+                chunks.append({"doc_id": doc_id, "chunk_index": idx,
+                               "header_path": header, "chunk_text": section.strip()})
+                idx += 1
+        else:
+            # Sliding window on oversized sections
+            start = 0
+            while start < len(section):
+                end = start + max_size
+                chunks.append({"doc_id": doc_id, "chunk_index": idx,
+                               "header_path": header,
+                               "chunk_text": section[start:end].strip()})
+                idx += 1
+                start += max_size - overlap
+    return chunks
+
+async def llm_extract_fields(md_text: str) -> dict:
+    """Uses Gemini Flash Lite to extract structured fields from rich documents."""
+    import google.generativeai as genai
+    prompt = f"""You are a FIA Formula 1 document parser.
+Extract the following fields from this FIA document as JSON.
+Return ONLY valid JSON with these exact keys. Use null if not found.
+
+Fields:
+- driver_name (string): Full name of the driver involved
+- car_number (string): Car number (e.g. "44")
+- team (string): Constructor name
+- charge_description (string): The alleged offence or charge
+- charge_normalized (string): Short normalized category (e.g. "track limits", "unsafe release")
+- regulation_articles (array of strings): FIA regulation articles cited
+- heard (boolean): Was a hearing held?
+- decision (string): "penalty" | "no further action" | "reprimand" | "disqualified" | null
+- penalty_type (string): "time penalty" | "grid penalty" | "fine" | "drive-through" | null
+- penalty_value (string): The numeric or textual value of the penalty
+- penalty_unit (string): "seconds" | "positions" | "euros" | null
+- stewards (array of strings): Names of the stewards
+
+Document:
+---
+{md_text[:4000]}
+---
+JSON:"""
+
+    model = genai.GenerativeModel('gemini-2.5-flash-lite')
+    response = await model.generate_content_async(
+        prompt,
+        generation_config={"response_mime_type": "application/json", "max_output_tokens": 512}
+    )
+    try:
+        return json.loads(response.text)
+    except Exception:
+        return {}
+
+def run(year_filter=None, event_filter=None, dry_run=False, skip_llm=False):
+    manifest = json.loads(MANIFEST_PATH.read_text())
+    conn = duckdb.connect(str(DUCKDB_PATH), read_only=False)
+
+    # Build set of already-ingested source_hashes
+    try:
+        ingested_ids = set(r[0] for r in conn.execute("SELECT id FROM documents").fetchall())
+    except Exception:
+        ingested_ids = set()
+
+    to_ingest = []
+    for key, meta in manifest.items():
+        if not meta.get("success"):
+            continue
+        doc_id = meta["source_hash"]
+        if doc_id in ingested_ids:
+            continue
+        info = parse_doc_path(key)
+        if year_filter and info["year"] != year_filter:
+            continue
+        if event_filter and info["event"] != event_filter:
+            continue
+        to_ingest.append((key, meta, info))
+
+    print(f"Found {len(to_ingest)} documents to ingest. dry_run={dry_run}")
+    if dry_run:
+        return
+
+    llm_calls_today = 0
+    for key, meta, info in to_ingest:
+        doc_id   = meta["source_hash"]
+        md_path  = EXTRACTED_ROOT / str(info["year"]) / info["event"] / (info["pdf_stem"] + ".md")
+
+        if not md_path.exists():
+            print(f"  SKIP (no .md file): {key}")
+            continue
+
+        md_text = md_path.read_text(encoding="utf-8")
+        doc_type = meta.get("doc_type", "other")
+
+        # LLM extraction only for rich doc types, and only when not skipped
+        llm_fields = {}
+        if not skip_llm and doc_type in RICH_DOC_TYPES:
+            if llm_calls_today >= BATCH_SIZE:
+                print("Daily LLM limit reached. Sleep 24h...")
+                time.sleep(86400)
+                llm_calls_today = 0
+            llm_fields = asyncio.run(llm_extract_fields(md_text))
+            llm_calls_today += 1
+            time.sleep(DELAY_SECONDS)
+
+        # Insert document row
+        conn.execute("""
+            INSERT OR IGNORE INTO documents
+            (id, manifest_key, md_path, year, event, pdf_stem,
+             doc_type, pages, tables_extracted, extracted_at,
+             driver_name, car_number, team, charge_description, charge_normalized,
+             regulation_articles, heard, decision, penalty_type, penalty_value,
+             penalty_unit, stewards)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+        """, [
+            doc_id, key, str(md_path), info["year"], info["event"], info["pdf_stem"],
+            doc_type, meta.get("pages"), meta.get("tables_extracted"),
+            meta.get("extracted_at"),
+            llm_fields.get("driver_name"), llm_fields.get("car_number"),
+            llm_fields.get("team"), llm_fields.get("charge_description"),
+            llm_fields.get("charge_normalized"), llm_fields.get("regulation_articles"),
+            llm_fields.get("heard"), llm_fields.get("decision"),
+            llm_fields.get("penalty_type"), llm_fields.get("penalty_value"),
+            llm_fields.get("penalty_unit"), llm_fields.get("stewards"),
+        ])
+
+        # Insert chunks
+        chunks = chunk_markdown(doc_id, md_text)
+        for c in chunks:
+            conn.execute("""
+                INSERT OR IGNORE INTO chunks (id, doc_id, chunk_index, header_path, chunk_text)
+                VALUES (?,?,?,?,?)
+            """, [f"{doc_id}_c{c['chunk_index']}", c["doc_id"], c["chunk_index"],
+                  c["header_path"], c["chunk_text"]])
+
+        print(f"  OK [{doc_type}] {info['year']}/{info['event']}/{info['pdf_stem']} "
+              f"({len(chunks)} chunks)")
+
+    conn.close()
+    print("Ingest complete.")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--year", type=int)
+    parser.add_argument("--event", type=str)
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--skip-llm", action="store_true")
+    args = parser.parse_args()
+    run(year_filter=args.year, event_filter=args.event,
+        dry_run=args.dry_run, skip_llm=args.skip_llm)
+```
+
+### 2.2 Incremental Ingest (Management Command for new extractions)
+
+After the cold start, new docs arrive when `extract.py` runs (via GitHub Actions). The management
+command scans manifest.json for new `source_hash` values not yet in DuckDB:
 
 ```python
 # core/management/commands/process_ingestion_queue.py
-import asyncio
+import json, asyncio
+from pathlib import Path
 from django.core.management.base import BaseCommand
-from core.models import IngestionQueue
-from core.services.extractor import extract_fields
-from core.services.chunker import chunk_markdown
 from core.services.duckdb import get_duckdb_conn
-from core.services.retrieval import vector_index
+
+EXTRACTED_ROOT = Path("data/extracted")
+MANIFEST_PATH  = EXTRACTED_ROOT / "manifest.json"
+RICH_DOC_TYPES = {"decision", "summons", "offence"}
 
 class Command(BaseCommand):
-    help = 'Processes pending FIA documents in the ingestion queue'
+    help = 'Syncs newly extracted documents from extracted/manifest.json into DuckDB'
 
     def handle(self, *args, **options):
-        pending = IngestionQueue.objects.filter(status='pending').first()
-        if not pending:
+        manifest = json.loads(MANIFEST_PATH.read_text())
+        conn = get_duckdb_conn(read_only=False)
+        ingested = set(r[0] for r in conn.execute("SELECT id FROM documents").fetchall())
+
+        new_docs = {k: v for k, v in manifest.items()
+                    if v.get("success") and v["source_hash"] not in ingested}
+
+        if not new_docs:
+            self.stdout.write("No new documents.")
             return
 
-        pending.status = 'processing'
-        pending.save()
+        self.stdout.write(f"Processing {len(new_docs)} new documents...")
+        # Import and call the same logic as bulk_ingest (single doc at a time)
+        from scripts.bulk_ingest import chunk_markdown, llm_extract_fields
+        from core.services.path_utils import parse_doc_path
 
-        try:
-            text = open(pending.file_path, 'r').read()
+        for key, meta in new_docs.items():
+            info = parse_doc_path(key)
+            md_path = EXTRACTED_ROOT / str(info["year"]) / info["event"] / (info["pdf_stem"] + ".md")
+            if not md_path.exists():
+                continue
+            md_text = md_path.read_text(encoding="utf-8")
+            doc_id  = meta["source_hash"]
+            doc_type = meta.get("doc_type", "other")
 
-            # 1. Extract fields via LLM
-            fields = asyncio.run(extract_fields(text))
-            doc_id = insert_into_duckdb(fields, text)
+            llm_fields = {}
+            if doc_type in RICH_DOC_TYPES:
+                try:
+                    llm_fields = asyncio.run(llm_extract_fields(md_text))
+                except Exception as e:
+                    self.stderr.write(f"LLM failed for {key}: {e}")
 
-            # 2. Chunk Document
-            chunks = chunk_markdown(doc_id, text)
-            insert_chunks_into_duckdb(chunks)
-
-            # 3. Vectorize & Index
-            for chunk in chunks:
-                vector_index.add_chunk(chunk['id'], doc_id, chunk['chunk_index'], chunk['chunk_text'])
-                asyncio.run(asyncio.sleep(0.5)) # Throttle Gemini API
-
-            pending.status = 'done'
-            pending.save()
-
-        except Exception as e:
-            pending.status = 'failed'
-            pending.save()
-            self.stderr.write(f"Failed: {e}")
-```
-
-### 2.2 Contextual Chunking Strategy
-
-```python
-# core/services/chunker.py
-import re
-from markdown_it import MarkdownIt
-
-def chunk_markdown(doc_id: str, text: str, max_chunk_size: int = 1000, overlap: int = 200) -> list[dict]:
-    """Splits document by markdown headers. If a section is too long,
-    splits by token size with overlap."""
-    md = MarkdownIt()
-    tokens = md.parse(text)
-
-    chunks = []
-    current_header = "Introduction"
-    current_text = ""
-    chunk_index = 0
-
-    for token in tokens:
-        if token.type == 'heading_open':
-            if len(current_text.strip()) > 50:
-                chunks.append({
-                    "doc_id": doc_id, "chunk_index": chunk_index,
-                    "header_path": current_header, "chunk_text": current_text.strip()
-                })
-                chunk_index += 1
-            current_header = token.map # Simplification
-            current_text = ""
-        elif token.type == 'inline':
-            current_text += token.content + " "
-
-        if len(current_text) > max_chunk_size:
-            chunks.append({
-                "doc_id": doc_id, "chunk_index": chunk_index,
-                "header_path": current_header, "chunk_text": current_text[:max_chunk_size].strip()
-            })
-            chunk_index += 1
-            current_text = current_text[max_chunk_size-overlap:]
-
-    if len(current_text.strip()) > 50:
-        chunks.append({
-            "doc_id": doc_id, "chunk_index": chunk_index,
-            "header_path": current_header, "chunk_text": current_text.strip()
-        })
-    return chunks
+            # Insert document + chunks (same SQL as bulk_ingest)
+            # ... (identical insert logic)
+            self.stdout.write(f"  Ingested: {key}")
 ```
 
 ---
@@ -246,113 +555,226 @@ def chunk_markdown(doc_id: str, text: str, max_chunk_size: int = 1000, overlap: 
 
 ### 3.1 SQL-First Retrieval
 
+Leverages the structured `documents` table. For queries that mention a specific event,
+year, driver, or doc type — we can skip vector search entirely.
+
 ```python
 # core/services/retrieval.py
 from core.services.duckdb import get_duckdb_conn
 
-def sql_first_search(query_entities: dict) -> list[str] | None:
-    """Builds a SQL query based on extracted entities. Returns doc_ids if found."""
+def sql_first_search(entities: dict) -> list[str] | None:
+    """Returns doc_ids (source_hash values) when structured entities match."""
     conn = get_duckdb_conn()
     conditions = []
-    if query_entities.get("year"): conditions.append(f"year = {query_entities['year']}")
-    if query_entities.get("driver_name"): conditions.append(f"driver_name ILIKE '%{query_entities['driver_name']}%'")
-    if query_entities.get("event_name"): conditions.append(f"event_name ILIKE '%{query_entities['event_name']}%'")
+    params = []
 
-    if not conditions: return None
+    if entities.get("year"):
+        conditions.append("year = ?")
+        params.append(entities["year"])
+    if entities.get("event"):
+        conditions.append("event ILIKE ?")
+        params.append(f"%{entities['event']}%")
+    if entities.get("driver_name"):
+        conditions.append("driver_name ILIKE ?")
+        params.append(f"%{entities['driver_name']}%")
+    if entities.get("doc_type"):
+        conditions.append("doc_type = ?")
+        params.append(entities["doc_type"])
+    if entities.get("car_number"):
+        conditions.append("car_number = ?")
+        params.append(entities["car_number"])
 
-    where_clause = " AND ".join(conditions)
-    results = conn.execute(f"SELECT id FROM documents WHERE {where_clause} LIMIT 5").fetchall()
+    if not conditions:
+        return None
+
+    sql = f"SELECT id FROM documents WHERE {' AND '.join(conditions)} LIMIT 10"
+    results = conn.execute(sql, params).fetchall()
     return [r[0] for r in results] if results else None
 
-def build_context(chunk_ids: list[str]) -> list[str]:
-    """Takes chunk IDs, fetches their parent documents."""
-    if not chunk_ids: return []
+def fetch_docs_by_ids(doc_ids: list[str]) -> list[str]:
+    """Reads raw .md text directly from disk for given doc IDs."""
     conn = get_duckdb_conn()
-    doc_ids = [r[0] for r in conn.execute(f"SELECT DISTINCT doc_id FROM chunks WHERE id IN {tuple(chunk_ids)}").fetchall()]
-    docs = [r[0] for r in conn.execute(f"SELECT raw_text FROM documents WHERE id IN {tuple(doc_ids)}").fetchall()]
-    return docs
+    rows = conn.execute(
+        f"SELECT md_path FROM documents WHERE id IN ({','.join('?' * len(doc_ids))})",
+        doc_ids
+    ).fetchall()
+    texts = []
+    for (path,) in rows:
+        from pathlib import Path
+        p = Path(path)
+        if p.exists():
+            texts.append(p.read_text(encoding="utf-8")[:8000])  # cap for context
+    return texts
+
+def build_context_from_chunks(chunk_ids: list[str]) -> list[str]:
+    """Fetches .md text from disk for the parent docs of given chunk IDs."""
+    conn = get_duckdb_conn()
+    doc_ids_rows = conn.execute(
+        f"SELECT DISTINCT doc_id FROM chunks WHERE id IN ({','.join('?' * len(chunk_ids))})",
+        chunk_ids
+    ).fetchall()
+    doc_ids = [r[0] for r in doc_ids_rows]
+    return fetch_docs_by_ids(doc_ids) if doc_ids else []
 ```
 
-### 3.2 BM25 & Vector Indexes (Singletons)
-
-We load these into memory once when Django starts.
+### 3.2 BM25 & Vector Index Singletons
 
 ```python
-# core/services/retrieval.py
-import lancedb
-import rank_bm25
+# core/services/retrieval.py  (continued)
+import pickle, lancedb
 import google.generativeai as genai
+from functools import lru_cache
+from rank_bm25 import BM25Okapi
+
+class BM25Index:
+    """Loaded once at Django startup from pickle."""
+    def __init__(self, index_path: str):
+        with open(index_path, "rb") as f:
+            data = pickle.load(f)
+        self.bm25     = data["bm25"]       # BM25Okapi instance
+        self.chunk_ids = data["chunk_ids"]  # parallel list of chunk IDs
+
+    def search(self, query: str, top_k: int = 20) -> list[str]:
+        tokens = query.lower().split()
+        scores = self.bm25.get_scores(tokens)
+        top = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:top_k]
+        return [self.chunk_ids[i] for i in top]
 
 class VectorIndex:
-    def __init__(self):
-        self.db = lancedb.connect("data/lancedb")
-        # ... initialization logic ...
+    """LanceDB-backed vector search. Loaded once at Django startup."""
+    def __init__(self, lancedb_path: str):
+        self.db = lancedb.connect(lancedb_path)
+        self.table = self.db.open_table("chunks")
 
-    def embed(self, text: str, task_type: str) -> list[float]:
+    @lru_cache(maxsize=500)
+    def embed(self, text: str) -> tuple:
         result = genai.embed_content(
-            model="models/gemini-embedding-2-preview", # User's requested model
+            model="models/gemini-embedding-exp-03-07",
             content=text,
-            task_type=task_type,
+            task_type="RETRIEVAL_QUERY",
         )
-        return result["embedding"]
+        return tuple(result["embedding"])
 
-    def search(self, query: str, top_k: int = 20, filter_doc_ids: list[str] = None):
-        query_vec = self.embed(query, "RETRIEVAL_QUERY")
-        results = self.db.open_table("chunks").search(query_vec).limit(top_k)
+    def search(self, query: str, top_k: int = 20, filter_doc_ids: list[str] = None) -> list[str]:
+        qvec = list(self.embed(query))
+        q = self.table.search(qvec).limit(top_k)
         if filter_doc_ids:
-            results = results.where(f"doc_id IN {tuple(filter_doc_ids)}")
-        return [(r["doc_id"], r["chunk_id"]) for r in results.to_list()]
+            q = q.where(f"doc_id IN {tuple(filter_doc_ids)!r}")
+        return [r["chunk_id"] for r in q.to_list()]
 
-# Instantiate once per Django process
-vector_index = VectorIndex()
-bm25_index = ... # Load from pickle file
+def reciprocal_rank_fusion(bm25_ids: list[str], vec_ids: list[str], k=60) -> list[str]:
+    scores = {}
+    for rank, cid in enumerate(bm25_ids):
+        scores[cid] = scores.get(cid, 0) + 1.0 / (k + rank + 1)
+    for rank, cid in enumerate(vec_ids):
+        scores[cid] = scores.get(cid, 0) + 1.0 / (k + rank + 1)
+    return sorted(scores, key=scores.get, reverse=True)[:20]
+
+# ── Singleton instances (loaded once per Gunicorn worker) ──────────────────────
+bm25_index   = BM25Index("data/bm25_index.pkl")
+vector_index = VectorIndex("data/lancedb")
+```
+
+### 3.3 Building the BM25 Index (Offline Script)
+
+```python
+# scripts/build_bm25_index.py
+"""Run once after bulk_ingest to build the BM25 pickle file."""
+import pickle, duckdb
+from rank_bm25 import BM25Okapi
+
+conn = duckdb.connect("data/fia_analytics.duckdb", read_only=True)
+rows = conn.execute("SELECT id, chunk_text FROM chunks ORDER BY bm25_id").fetchall()
+
+chunk_ids = [r[0] for r in rows]
+corpus    = [r[1].lower().split() for r in rows]
+
+bm25 = BM25Okapi(corpus)
+with open("data/bm25_index.pkl", "wb") as f:
+    pickle.dump({"bm25": bm25, "chunk_ids": chunk_ids}, f)
+print(f"BM25 index built: {len(chunk_ids)} chunks.")
 ```
 
 ---
 
 ## Layer 4: Query Rewriting & Routing
 
-### 4.1 Multi-Turn Query Rewriting
-
 ```python
 # core/services/router.py
 import google.generativeai as genai
 
 REWRITE_PROMPT = """
-Given the following conversation history and a follow-up question,
-rewrite the follow-up question to be a standalone question.
-Return ONLY the rewritten question.
+Given conversation history and a follow-up question, rewrite the follow-up
+as a complete standalone question. Return ONLY the rewritten question.
 
 History:
 {history}
 
-Follow-up Question: {question}
-"""
+Follow-up: {question}
+Rewritten:"""
 
 async def rewrite_query(session_id: str, current_query: str) -> str:
     from core.models import Message
-    msgs = Message.objects.filter(session_id=session_id).order_by('-created_at')[:5]
-    if not msgs: return current_query
-
-    history_str = "\n".join([f"{m.role.capitalize()}: {m.content}" for m in reversed(msgs)])
-    response = await genai.GenerativeModel('gemini-2.5-flash-lite').generate_content_async(
-        REWRITE_PROMPT.format(history=history_str, question=current_query)
+    msgs = await Message.objects.filter(
+        session_id=session_id).order_by('-created_at').values_list('role', 'content')[:5]
+    if not msgs:
+        return current_query
+    history = "\n".join(f"{role.capitalize()}: {content}" for role, content in reversed(msgs))
+    resp = await genai.GenerativeModel('gemini-2.5-flash-lite').generate_content_async(
+        REWRITE_PROMPT.format(history=history, question=current_query)
     )
-    return response.text.strip()
+    return resp.text.strip()
 
 def classify_query(query: str) -> str:
     q = query.lower()
-    if any(kw in q for kw in ["how many", "count", "total"]): return "AGGREGATION"
-    if any(kw in q for kw in ["compare", "vs", "versus"]): return "COMPARATIVE"
-    if any(kw in q for kw in ["similar", "precedent", "find all"]): return "PRECEDENT"
+    if any(kw in q for kw in ["how many", "count", "total", "most", "least"]): return "AGGREGATION"
+    if any(kw in q for kw in ["compare", "vs", "versus", "difference"]): return "COMPARATIVE"
+    if any(kw in q for kw in ["similar", "precedent", "find all", "list all"]): return "PRECEDENT"
     return "FACT_LOOKUP"
+
+async def extract_query_entities(query: str) -> dict:
+    """Fast entity extraction — extracts year, event, driver, car_number, doc_type."""
+    import re
+    entities = {}
+
+    # Year: 4-digit number 2018-2026
+    year_m = re.search(r'\b(201[89]|202[0-6])\b', query)
+    if year_m:
+        entities["year"] = int(year_m.group(1))
+
+    # Car number
+    car_m = re.search(r'\bcar\s+(\d{1,2})\b', query, re.IGNORECASE)
+    if car_m:
+        entities["car_number"] = car_m.group(1)
+
+    # Doc type keywords
+    if any(w in query.lower() for w in ["decision", "penalty", "penalised"]):
+        entities["doc_type"] = "decision"
+    elif any(w in query.lower() for w in ["summons", "summoned"]):
+        entities["doc_type"] = "summons"
+    elif "offence" in query.lower():
+        entities["doc_type"] = "offence"
+
+    # Known event names (partial match)
+    known_events = [
+        "bahrain", "saudi", "australia", "japan", "china", "miami",
+        "monaco", "canada", "spain", "austria", "silverstone", "hungary",
+        "belgium", "netherlands", "monza", "azerbaijan", "singapore",
+        "austin", "mexico", "brazil", "las vegas", "qatar", "abu dhabi",
+    ]
+    for ev in known_events:
+        if ev in query.lower():
+            entities["event"] = ev
+            break
+
+    return entities
 ```
 
 ---
 
 ## Layer 5: Django Ninja API Layer
 
-### 5.1 Schemas & Endpoints
+### 5.1 Schemas
 
 ```python
 # core/schema.py
@@ -366,81 +788,205 @@ class ChatMessageOut(Schema):
     answer: str
     query_type: str
     sources: list[str] = []
+
+class StreamChunk(Schema):
+    token: str
+    done: bool = False
+    sources: list[str] = []
 ```
+
+### 5.2 Chat Endpoint (Streaming SSE)
 
 ```python
 # core/api.py
 from django.http import HttpRequest
 from ninja import NinjaAPI
-from core.schema import ChatMessageIn, ChatMessageOut
-from core.services.router import rewrite_query, classify_query
-from core.services.retrieval import sql_first_search, build_context, vector_index, bm25_index
-from core.services.answerer import generate_answer
-from core.models import Message, ChatSession
+from ninja.security import HttpBearer
+from core.schema import ChatMessageIn, ChatMessageOut, StreamChunk
+from core.services.router import rewrite_query, classify_query, extract_query_entities
+from core.services.retrieval import (sql_first_search, fetch_docs_by_ids,
+    build_context_from_chunks, vector_index, bm25_index, reciprocal_rank_fusion)
+from core.models import Message, ChatSession, User
+import google.generativeai as genai
 import asyncio
 
-api = NinjaAPI()
+api = NinjaAPI(auth=GlobalAuth())
 
-@api.post("/chat", response=ChatMessageOut)
-async def chat_endpoint(request: HttpRequest, payload: ChatMessageIn):
-    # 1. Rewrite Query for multi-turn
-    rewritten = await rewrite_query(payload.session_id, payload.query)
+@api.post("/chat/stream")
+async def chat_stream(request: HttpRequest, payload: ChatMessageIn):
+    enforce_quota(request)
 
-    # 2. Classify
-    query_type = classify_query(rewritten)
+    # 1. Rewrite for multi-turn
+    rewritten   = await rewrite_query(payload.session_id, payload.query)
+    query_type  = classify_query(rewritten)
+    entities    = await extract_query_entities(rewritten)
 
-    # 3. Retrieve / Process
+    # 2. Retrieve context
     context_docs = []
     if query_type == "AGGREGATION":
-        # Logic to generate DuckDB SQL and execute
-        pass
-    elif query_type == "FACT_LOOKUP":
-        # Try SQL First
-        doc_ids = sql_first_search({"year": 2024, "driver_name": "Verstappen"}) # Simplified entity extraction
+        # Generate and execute DuckDB SQL
+        sql_result = await generate_aggregation_sql(rewritten, entities)
+        context_docs = [str(sql_result)]
+    else:
+        # Try SQL-first (structured filter)
+        doc_ids = sql_first_search(entities)
         if doc_ids:
             context_docs = fetch_docs_by_ids(doc_ids)
         else:
-            # Fallback to Hybrid RRF Search
-            bm25_res = bm25_index.search(rewritten)
-            vec_res = vector_index.search(rewritten)
-            chunk_ids = reciprocal_rank_fusion(bm25_res, vec_res)
-            context_docs = build_context(chunk_ids)
+            # Hybrid BM25 + Vector with RRF
+            bm25_ids = bm25_index.search(rewritten)
+            vec_ids  = vector_index.search(rewritten)
+            chunk_ids = reciprocal_rank_fusion(bm25_ids, vec_ids)
+            context_docs = build_context_from_chunks(chunk_ids)
 
-    # 4. Generate Answer
-    answer = await generate_answer(rewritten, context_docs, query_type)
+    # 3. Stream answer from Gemini
+    context_str = "\n\n---\n\n".join(context_docs[:5])
+    prompt = f"FIA Documents:\n{context_str}\n\nQuestion: {rewritten}\nAnswer:"
+    model  = genai.GenerativeModel('gemini-2.5-flash')
 
-    # 5. Save to DB
-    Message.objects.create(session_id=payload.session_id, role="user", content=payload.query)
-    Message.objects.create(session_id=payload.session_id, role="assistant", content=answer)
+    async def event_gen():
+        full = ""
+        response = await model.generate_content_async(
+            prompt, stream=True,
+            generation_config={"max_output_tokens": 1500}
+        )
+        async for chunk in response:
+            if chunk.text:
+                full += chunk.text
+                yield {"token": chunk.text, "done": False}
 
-    return ChatMessageOut(answer=answer, query_type=query_type, sources=context_docs[:2])
+        # Persist to DB
+        await Message.objects.acreate(session_id=payload.session_id, role="user",   content=payload.query)
+        await Message.objects.acreate(session_id=payload.session_id, role="assistant", content=full)
+        yield {"token": "", "done": True, "sources": []}
+
+    return event_gen()
 ```
 
 ---
 
-## VPS Memory Budget & Workers (Critical Optimization)
+## Layer 6: Authentication & Quota Enforcement
 
-| Component | RAM Usage |
+```python
+# core/api.py
+from ninja.security import HttpBearer
+from jose import jwt, JWTError
+from django.conf import settings
+from django.utils import timezone
+
+class GlobalAuth(HttpBearer):
+    def authenticate(self, request, token):
+        try:
+            payload = jwt.decode(token, settings.SECRET_KEY, algorithms=["HS256"])
+            user_id = payload.get("sub")
+            if user_id:
+                request.user = User.objects.get(id=user_id)
+                return request.user
+        except (JWTError, Exception):
+            return None
+
+class QuotaExceeded(Exception):
+    pass
+
+@api.exception_handler(QuotaExceeded)
+def quota_exceeded_handler(request, exc):
+    return api.create_response(request, {"detail": "Daily query quota exceeded"}, status=429)
+
+def enforce_quota(request):
+    user = request.user
+    if user.quota_reset_date < timezone.now().date():
+        user.queries_today = 0
+        user.quota_reset_date = timezone.now().date()
+        user.save(update_fields=["queries_today", "quota_reset_date"])
+    if user.queries_today >= user.daily_quota:
+        raise QuotaExceeded()
+    user.queries_today += 1
+    user.save(update_fields=["queries_today"])
+```
+
+---
+
+## Layer 7: DuckDB Connection Management
+
+```python
+# core/services/duckdb.py
+import duckdb, threading
+
+_local = threading.local()
+
+def get_duckdb_conn(read_only=True):
+    if not hasattr(_local, 'conn') or _local.conn is None:
+        _local.conn = duckdb.connect('data/fia_analytics.duckdb', read_only=read_only)
+    return _local.conn
+
+def close_duckdb_conn():
+    if hasattr(_local, 'conn') and _local.conn:
+        _local.conn.close()
+        _local.conn = None
+
+# core/apps.py
+from django.apps import AppConfig
+
+class CoreConfig(AppConfig):
+    name = 'core'
+    def ready(self):
+        import atexit
+        from core.services.duckdb import close_duckdb_conn
+        atexit.register(close_duckdb_conn)
+```
+
+---
+
+## Layer 8: Caching
+
+```python
+# fia_project/settings.py
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION': '/var/www/fia_rag/data/cache/',
+        'TIMEOUT': 3600,
+    }
+}
+
+# core/services/retrieval.py
+from django.core.cache import cache
+
+def execute_aggregation(sql: str):
+    key = f"agg_{hash(sql)}"
+    result = cache.get(key)
+    if result is None:
+        conn = get_duckdb_conn(read_only=True)
+        result = conn.execute(sql).fetchall()
+        cache.set(key, result)
+    return result
+```
+
+---
+
+## VPS Memory Budget
+
+| Component | RAM |
 |---|---|
 | Ubuntu OS + system | ~400MB |
 | Nginx | ~30MB |
 | **Gunicorn (1 Uvicorn worker)** | ~250MB |
-| Django SQLite (In-memory cache) | ~20MB |
-| DuckDB (Read-only analytics connection) | ~100MB |
-| **BM25 index (10k chunks ~ 150MB)** | ~150MB |
-| LanceDB (disk-based, RAM cache) | ~100MB |
-| Python runtime / Buffers | ~200MB |
-| **Total** | **~1.25GB** |
-| **Free headroom** | **~2.75GB** |
+| Django + SQLite | ~20MB |
+| DuckDB (read-only) | ~150MB |
+| **BM25 index (~50k chunks)** | ~200MB |
+| LanceDB (disk + RAM cache) | ~100MB |
+| Python runtime / buffers | ~200MB |
+| **Total** | **~1.35GB** |
+| **Free headroom** | **~2.65GB** |
 
-**Why 1 Uvicorn Worker?**
-Running `gunicorn fia_project.wsgi:application -k uvicorn.workers.UvicornWorker --workers 1` ensures that the 150MB BM25 index is only loaded into RAM once. Because Django Ninja is fully `async`, a single worker can handle hundreds of concurrent I/O requests (waiting on Gemini API) without blocking.
+**Why 1 Uvicorn worker?** The 200MB BM25 index is only loaded once. Django Ninja's full async
+support means a single worker handles hundreds of concurrent Gemini API calls without blocking.
 
 ---
 
 ## Deployment Configuration
 
-### 7.1 Systemd Web Service
+### Systemd Web Service
 
 ```ini
 # /etc/systemd/system/fia_rag.service
@@ -452,8 +998,7 @@ After=network.target
 User=www-data
 WorkingDirectory=/var/www/fia_rag
 EnvironmentFile=/var/www/fia_rag/.env
-# 1 worker is strictly enforced to preserve RAM and duplicate BM25 indexes
-ExecStart=/var/www/fia_rag/venv/bin/gunicorn fia_project.wsgi:application \
+ExecStart=/var/www/fia_rag/.venv/bin/gunicorn fia_project.wsgi:application \
     -k uvicorn.workers.UvicornWorker \
     --bind 127.0.0.1:8000 \
     --workers 1
@@ -464,362 +1009,88 @@ RestartSec=5
 WantedBy=multi-user.target
 ```
 
-### 7.2 Systemd Ingestion Timer (Replaces Celery)
+### Systemd Ingestion Timer (polls for new extractions from GitHub)
 
 ```ini
 # /etc/systemd/system/fia_ingest.service
-[Unit]
-Description=FIA Ingestion Queue Processor
-
 [Service]
 User=www-data
 WorkingDirectory=/var/www/fia_rag
-ExecStart=/var/www/fia_rag/venv/bin/python manage.py process_ingestion_queue
-```
+ExecStart=/var/www/fia_rag/.venv/bin/python manage.py process_ingestion_queue
 
-```ini
 # /etc/systemd/system/fia_ingest.timer
-[Unit]
-Description=Run FIA Ingestion Processor every minute
-
 [Timer]
-OnBootSec=1min
-OnUnitActiveSec=1min
+OnBootSec=5min
+OnUnitActiveSec=30min   # Check every 30 min (GitHub Actions runs every 3h)
 
 [Install]
 WantedBy=timers.target
 ```
 
-Enable the timer: `sudo systemctl enable fia_ingest.timer`
-
-### 7.3 Nginx Configuration
+### Nginx
 
 ```nginx
 server {
     listen 443 ssl;
     server_name yourdomain.com;
-
-    ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
+    ssl_certificate     /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/yourdomain.com/privkey.pem;
 
-    # Serve Django static files + React Frontend
-    location /static/ {
-        alias /var/www/fia_rag/staticfiles/;
-    }
+    location /static/ { alias /var/www/fia_rag/staticfiles/; }
 
     location / {
         root /var/www/fia_rag/frontend/dist;
         try_files $uri $uri/ /index.html;
     }
 
-    # Proxy API
     location /api/ {
         proxy_pass http://127.0.0.1:8000;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
-        proxy_read_timeout 60s;  # LLM calls can be slow
+        proxy_read_timeout 90s;
+        # SSE-specific headers
+        proxy_buffering off;
+        proxy_cache off;
+        proxy_set_header Connection '';
+        proxy_http_version 1.1;
+        chunked_transfer_encoding on;
     }
 }
 ```
 
 ---
 
-## Layer 6: Authentication, Quotas & API Security
-
-Since you are exposing this to the public with a login, we need robust quota enforcement to prevent a single user from burning your 250 RPD (Requests Per Day) Gemini free tier limit.
-
-### 6.1 JWT Authentication in Django Ninja
-
-```python
-# core/api.py
-from ninja.security import HttpBearer
-from jose import jwt, JWTError
-from django.conf import settings
-from django.contrib.auth import authenticate
-
-class GlobalAuth(HttpBearer):
-    def authenticate(self, request, token):
-        try:
-            payload = jwt.decode(token, settings.SECRET_KEY, algorithms=["HS256"])
-            user_id = payload.get("sub")
-            if user_id:
-                from core.models import User
-                request.user = User.objects.get(id=user_id)
-                return request.user
-        except (JWTError, User.DoesNotExist):
-            return None
-
-# Unprotected endpoints (login/register)
-api_unauth = NinjaAPI(urls_prefix="/api/auth")
-
-# Protected endpoints (chat/admin)
-api = NinjaAPI(urls_prefix="/api", auth=GlobalAuth())
-```
-
-### 6.2 Per-User Quota Enforcement Dependency
-
-```python
-# core/api.py
-from ninja import Schema
-from django.utils import timezone
-
-class QuotaExceeded(Exception):
-    pass
-
-@api.exception_handler(QuotaExceeded)
-def quota_exceeded(request, exc):
-    return api.create_response(request, {"detail": "Daily query quota exceeded"}, status_code=429)
-
-def enforce_quota(request):
-    user = request.user
-    # Reset quota if it's a new day
-    if user.quota_reset_date < timezone.now().date():
-        user.queries_today = 0
-        user.quota_reset_date = timezone.now().date()
-        user.save()
-
-    if user.queries_today >= user.daily_quota:
-        raise QuotaExceeded()
-
-    # Increment quota
-    user.queries_today += 1
-    user.save()
-
-@api.post("/chat")
-async def chat_endpoint(request, payload: ChatMessageIn):
-    enforce_quota(request) # Check quota before hitting Gemini
-    # ... rest of the logic ...
-```
-
----
-
-## Layer 7: DuckDB Concurrency & Connection Management
-
-DuckDB is an embedded database. In Django, the web process (Gunicorn) and the background ingestion process (Management Command) run simultaneously. DuckDB handles concurrent reads perfectly, but only **one process can write at a time**.
-
-### 7.1 Connection Singleton with Read-Only Mode
-
-The web server should only *read* from DuckDB. The ingestion command will *write*.
-
-```python
-# core/services/duckdb.py
-import duckdb
-import threading
-
-_local = threading.local()
-
-def get_duckdb_conn(read_only=True):
-    """Provides a thread-local DuckDB connection."""
-    if not hasattr(_local, 'duckdb_conn') or _local.duckdb_conn is None:
-        # Connect to the shared file
-        _local.duckdb_conn = duckdb.connect('data/fia_analytics.duckdb', read_only=read_only)
-    return _local.duckdb_conn
-
-# Close connection when Django process finishes
-def close_duckdb_conn():
-    if hasattr(_local, 'duckdb_conn') and _local.duckdb_conn:
-        _local.duckdb_conn.close()
-        _local.duckdb_conn = None
-```
-
-In Django's `AppConfig.ready()`, register the cleanup:
-```python
-# core/apps.py
-from django.apps import AppConfig
-
-class CoreConfig(AppConfig):
-    name = 'core'
-
-    def ready(self):
-        import atexit
-        from core.services.duckdb import close_duckdb_conn
-        atexit.register(close_duckdb_conn)
-```
-
----
-
-## Layer 8: Streaming API (Server-Sent Events)
-
-Users hate waiting 10 seconds staring at a blank screen while Gemini generates 1,000 tokens. We must stream the response. Django Ninja supports async generators for Server-Sent Events (SSE), which are much lighter on a 4GB VPS than WebSockets (no Redis/Daphne required).
-
-### 8.1 Streaming Schema & Endpoint
-
-```python
-# core/schema.py
-from ninja import Schema
-
-class StreamChunk(Schema):
-    token: str
-    done: bool = False
-    sources: list[str] = []
-
-# core/api.py
-import asyncio
-import google.generativeai as genai
-
-@api.post("/chat/stream")
-async def chat_stream_endpoint(request, payload: ChatMessageIn):
-    enforce_quota(request)
-
-    # 1. Retrieve context (same as before)
-    rewritten = await rewrite_query(payload.session_id, payload.query)
-    query_type = classify_query(rewritten)
-    context_docs = ["Simulated doc 1", "Simulated doc 2"] # Retrieve properly here
-
-    # 2. Setup Gemini Streaming
-    model = genai.GenerativeModel('gemini-2.5-flash')
-    prompt = f"Documents:\n{chr(10).join(context_docs)}\n\nQuestion: {rewritten}"
-
-    # 3. Async Generator for SSE
-    async def event_generator():
-        response = await model.generate_content_async(
-            prompt,
-            stream=True,
-            generation_config={"max_output_tokens": 1500}
-        )
-
-        full_answer = ""
-        async for chunk in response:
-            if chunk.text:
-                full_answer += chunk.text
-                yield {"token": chunk.text, "done": False}
-
-        # Save complete answer to DB after streaming finishes
-        Message.objects.create(session_id=payload.session_id, role="assistant", content=full_answer)
-
-        # Send final signal with sources
-        yield {"token": "", "done": True, "sources": ["doc1.md", "doc2.md"]}
-
-    return event_generator()
-```
-
-*Note: The frontend will consume this using `EventSource` or `fetch` with a readable stream.*
-
----
-
-## Layer 9: Caching Strategy (RAM vs. Disk)
-
-On a 4GB VPS, we cannot use Redis. We will use Python's in-memory LRU for high-frequency data, and Django's file-based cache for SQL query results.
-
-### 9.1 Embedding LRU Cache (In-Memory)
-
-Cache query embeddings to save API calls if users ask similar questions.
-
-```python
-# core/services/retrieval.py
-from functools import lru_cache
-
-class VectorIndex:
-    # ...
-
-    @lru_cache(maxsize=500) # Cache last 500 query embeddings (~2MB RAM)
-    def get_query_vector(self, query: str):
-        return self.embed(query, "RETRIEVAL_QUERY")
-
-    def search(self, query: str, top_k: int = 20):
-        query_vec = self.get_query_vector(query)
-        # ... search logic ...
-```
-
-### 9.2 Aggregation SQL Cache (File-Based)
-
-Django supports file-based caching out of the box, which is perfect for 4GB VPS.
-
-```python
-# fia_project/settings.py
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
-        'LOCATION': '/var/www/fia_rag/data/cache/',
-        'TIMEOUT': 3600, # 1 hour cache for aggregation stats
-    }
-}
-
-# core/services/router.py
-from django.core.cache import cache
-
-def execute_aggregation_query(query: str, sql: str):
-    cache_key = f"agg_{hash(sql)}"
-    result = cache.get(cache_key)
-
-    if result is None:
-        conn = get_duckdb_conn(read_only=True)
-        result = conn.execute(sql).fetchall()
-        cache.set(cache_key, result)
-
-    return result
-```
-
----
-
-## Initial Bulk Load Strategy (The 500MB Problem)
-
-You have 500MB of existing documents. You cannot drop them all in the folder at once, or the Gemini API will rate-limit you into the ground (1,000 RPD limit).
-
-### The "Cold Start" Script
-
-Create a standalone script that runs locally (or on the VPS during setup) that slowly ingests the files over a week, *before* the website goes live.
-
-```python
-# scripts/bulk_ingest.py
-import os
-import time
-import duckdb
-import google.generativeai as genai
-
-FIA_DOCS_DIR = "./data/fia_docs"
-BATCH_SIZE = 900 # Stay under 1000 RPD
-DELAY_BETWEEN_CALLS = 1.5 # 60s / 40 calls = 1.5s delay to stay under 40 RPM
-
-def run():
-    # 1. Find all .md files
-    files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(FIA_DOCS_DIR) for f in filenames if f.endswith('.md')]
-
-    # 2. Find which ones are already in DuckDB
-    conn = duckdb.connect('data/fia_analytics.duckdb', read_only=False)
-    ingested = set(r[0] for r in conn.execute("SELECT file_path FROM documents").fetchall())
-
-    to_process = [f for f in files if f not in ingested]
-    print(f"Found {len(to_process)} documents left to ingest.")
-
-    # 3. Process in daily batches
-    processed_today = 0
-    for file_path in to_process:
-        if processed_today >= BATCH_SIZE:
-            print("Daily limit reached. Sleeping until tomorrow...")
-            time.sleep(86400) # Sleep 24 hours
-            processed_today = 0
-
-        text = open(file_path, 'r').read()
-        # ... Extraction, Chunking, Embedding logic ...
-
-        processed_today += 1
-        time.sleep(DELAY_BETWEEN_CALLS)
-
-if __name__ == "__main__":
-    run()
-```
-
----
-
-## Final Build Order & Deployment Checklist
-
-### Week 1: Core RAG Engine
-1.  **Day 1:** Setup Django project, DuckDB schema, Django models (User, Session, Queue).
-2.  **Day 2:** Build `chunker.py` and `extractor.py`. Test LLM extraction with strict JSON forcing.
-3.  **Day 3:** Implement `VectorIndex` (LanceDB + Gemini 2) and `BM25Index`. Test chunk-level upserts.
-4.  **Day 4:** Build `sql_first_search` and `reciprocal_rank_fusion`. Test retrieval quality.
-5.  **Day 5:** Implement `rewrite_query` and `classify_query`.
-
-### Week 2: API & Web Integration
-6.  **Day 6:** Setup Django Ninja, JWT Auth, and the `/api/chat/stream` SSE endpoint.
-7.  **Day 7:** Build the Ingestion Management Command and test the file-based queue.
-8.  **Day 8:** Implement File-based caching for aggregations and LRU cache for embeddings.
-9.  **Day 9:** Connect React frontend (Login, Chat UI with SSE consumption, Citation drawer).
-10. **Day 10:** Nginx configuration, Gunicorn setup (1 worker), Systemd Timers for ingestion.
-
-### Week 3: Production Polish
-11. **Day 11:** Run the `bulk_ingest.py` script. Let it run over the next 5-7 days.
-12. **Day 12:** Load testing with `locust`. Ensure 1 Gunicorn worker handles 50 concurrent users waiting on SSE streams.
-13. **Day 13:** Security audit (CORS, CSRF, Django security middleware).
-14. **Day 14:** Go live. Monitor DuckDB RAM usage and Gemini API quotas closely.
+## Final Build Order
+
+### Phase 0: Data Setup (This Machine) — Week 1
+
+1. **Day 1:** Run `bulk_ingest.py --skip-llm --dry-run` to validate manifest → DuckDB mapping.
+2. **Day 2:** Run `bulk_ingest.py --skip-llm` to ingest ALL docs (fast, no API calls). ~50k chunks.
+3. **Day 3:** Run `build_bm25_index.py`. Test BM25 search from Python REPL.
+4. **Day 4:** Build LanceDB vectors. Run `bulk_ingest.py` in batches **with** LLM for
+   `decision/summons/offence` only (~5-10% of all docs). Throttle to 900/day.
+5. **Day 5:** Validate DuckDB: query by year/event/driver/doc_type. Spot check 20 decisions.
+
+### Phase 1: Django Core — Week 2
+
+6. **Day 6:** Django project scaffold, models, migrations, SQLite.
+7. **Day 7:** DuckDB singleton, BM25/Vector singletons. Test retrieval service in isolation.
+8. **Day 8:** `sql_first_search` + `extract_query_entities`. Test on 20 structured queries.
+9. **Day 9:** `rewrite_query` + `classify_query`. Full RAG chain (non-streaming).
+10. **Day 10:** JWT auth, quota enforcement, Django Ninja setup.
+
+### Phase 2: API & Frontend — Week 3
+
+11. **Day 11:** SSE streaming endpoint `/api/chat/stream`. Test with `curl`.
+12. **Day 12:** Ingestion management command (incremental sync from manifest.json).
+13. **Day 13:** React frontend (Login, Chat UI, SSE token streaming, Citation drawer).
+14. **Day 14:** File-based cache for aggregation queries. LRU cache for embeddings.
+
+### Phase 3: Production — Week 4
+
+15. **Day 15:** VPS provisioning. `rsync` DuckDB + LanceDB + BM25 pickle to VPS.
+16. **Day 16:** Nginx + Gunicorn + Systemd services. Let's Encrypt SSL.
+17. **Day 17:** Systemd ingestion timer. Test end-to-end with live Gemini API.
+18. **Day 18:** Load test with `locust`. Monitor RAM with `htop` during BM25 load.
+19. **Day 19:** Security audit (CORS, CSRF, Django security middleware, rate limiting).
+20. **Day 20:** Go live. Monitor Gemini API quota and DuckDB RAM usage for 48h.
