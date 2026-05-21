@@ -399,7 +399,7 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
             for fia_type, local_day in day_types.items():
                 url = urljoin(NEWS_URL_BASE, f"f1-{year}-{variant}-{fia_type}-press-conference-transcript")
                 dest = output_dir / str(year) / gp_slug / "transcripts" / f"{local_day}.md"
-                if url in manifest and dest.exists(): continue
+                if url in manifest: continue
                 local_tasks.append(fetch_transcript(session, url, dest))
                 local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{local_day.capitalize()} Transcript", "path": str(dest)})
 
