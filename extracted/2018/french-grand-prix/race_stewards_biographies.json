@@ -1,0 +1,68 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "French Grand Prix",
+  "event_slug": "french-grand-prix",
+  "extracted_at": "2026-05-21T11:21:24Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        443.49,
+        122.44,
+        559.0,
+        237.95
+      ],
+      "deduplicated": true,
+      "display_height": 115.51,
+      "display_width": 115.51,
+      "height": 482,
+      "page": 1,
+      "path": "images/2018_french_gp_preview_1_p3_img3.jpeg",
+      "sha256": "611a170fe16ae146401b6b4992053a0b09cf2958a06c5d36259887cc8ef4f07c",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        368.19,
+        559.0,
+        503.56
+      ],
+      "deduplicated": true,
+      "display_height": 135.37,
+      "display_width": 115.51,
+      "height": 565,
+      "page": 1,
+      "path": "images/2018_french_gp_preview_1_p3_img4.jpeg",
+      "sha256": "666063a0230be0641c99a163eee358150cd46e1f1a1c4ea78d581b43f7bf843c",
+      "width": 482
+    },
+    {
+      "bbox": [
+        442.31,
+        612.62,
+        560.2,
+        727.53
+      ],
+      "deduplicated": true,
+      "display_height": 114.92,
+      "display_width": 117.89,
+      "height": 193,
+      "page": 1,
+      "path": "images/2018_french_gp_preview_1_p3_img5.jpeg",
+      "sha256": "f2a32123433ed8cd6b5e137c25539b0d7fa2082e79875f1dce69499bf9154daf",
+      "width": 198
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 1,
+  "source_hash": "sha256:d39a277dbd2b5f97226901ab01434ce542116ce93f0aaed2c26311aba2fc1fb7",
+  "source_pdf": "documents/2018/french-grand-prix/race_stewards_biographies.pdf",
+  "tables_extracted": 0,
+  "time": null,
+  "title": "Race Stewards Biographies",
+  "to": null,
+  "year": 2018
+}

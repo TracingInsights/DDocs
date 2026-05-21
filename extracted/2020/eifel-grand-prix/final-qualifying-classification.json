@@ -1,0 +1,53 @@
+{
+  "date": "2020-10-10",
+  "doc_number": "24",
+  "doc_type": "classification",
+  "event_name": "Time 19:15 2020 EIFEL GRAND PRIX 8 - 11 October 2020 The Stewards",
+  "event_slug": "eifel-grand-prix",
+  "extracted_at": "2026-05-21T10:43:11Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:7a2c27c73bf8d9fc870d69bd1f40aa1ac651806870d8c1dc557a66a834f8df04",
+  "source_pdf": "documents/2020/eifel-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:15",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

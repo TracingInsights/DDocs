@@ -1,0 +1,17 @@
+# From The Stewards
+
+## To The Team Manager,
+
+## Williams Racing
+
+Document 23 Date 26 September 2020
+
+Time 15:45 2020 RUSSIAN GRAND PRIX 24 - 27 September 2020 The driver and team representative are required to report to the Stewards at 16:30 in relation to the incident below.
+
+### No / Driver 6 – Nicholas Latifi
+
+Reason Alleged failure to follow the Race Directors' Instruction (item 22.1 a) in turn 2 at 15:06:07, alleged breach of Article 12.1.1.(i) of the FIA International Sporting Code.
+
+### The Stewards Gerd Ennser Andrew Mallalieu
+
+### Mika Salo George Andreev

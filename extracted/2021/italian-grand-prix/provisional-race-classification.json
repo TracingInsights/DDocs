@@ -1,0 +1,42 @@
+{
+  "date": "2021-09-12",
+  "doc_number": "59",
+  "doc_type": "classification",
+  "event_name": "Time 17:00 2021 ITALIAN GRAND PRIX 9 - 12 September 2021 The Stewards",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T10:21:48Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4f5ab9ad643a77a7bf8b93ab8e0949dc24f7bdc8d77e7c610fa5f8883ae0ca7c",
+  "source_pdf": "documents/2021/italian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.92,
+        189.37,
+        572.16,
+        371.66
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        22.92,
+        379.64,
+        572.16,
+        452.38
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

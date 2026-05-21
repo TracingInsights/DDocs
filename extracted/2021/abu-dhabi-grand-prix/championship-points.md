@@ -1,0 +1,99 @@
+2021 ABU DHABI GRAND PRIX
+
+9 - 12 December 2021
+
+From The Stewards Document 60
+
+To All Teams, All Officials Date 13 December 2021
+
+Time 00:10
+
+Title Championship Points
+
+Description Championship Points
+
+Enclosed UAE DOC 60 - Championship Points.pdf
+
+Garry Connelly Felix Holter
+
+Derek Warwick Mohamed Al Hashmi
+
+The Stewards
+
+Doc 60 Time 00:10
+
+FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2021 - Yas Island
+
+Drivers' Championship
+
+DRIVER TOTAL BRN ITA POR ESP MON AZE FRA AUT AUT GBR HUN BEL NED ITA RUS TUR USA MEX BRA QAT KSA UAE
+
+| Pos | Driver / Entrant | Total | AUS | CHN | JPN | USA | CAN | MCO | ESP | AUT | GBR | BEL | HUN | NLD | ITA | ESP | AZE | SGP | USA | MEX | BRA | USA | QAT | UAE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | M. VERSTAPPEN | 395.5 | 18 2 | 25 1 | 18 2 | 19 2F | 25 1 | 18 | 26 1F | 25 1 | 26 1F | 3 NC | 2 9 | 12.5 1 | 25 1 | 2 NC | 18 2 | 18 2 | 25 1 | 25 1 | 20 2 | 19 2F | 18 2 | 26 1F |
+| 2 | L. HAMILTON | 387.5 | 25 1 | 19 2F | 25 1 | 25 1 | 7 7F | 15 | 18 2 | 19 2F | 12 4 | 27 1 | 18 2 | 7.5 3 | 19 2F | NC | 25 1 | 10 5 | 19 2F | 18 2 | 25 1 | 25 1 | 26 1F | 18 2 |
+| 3 | V. BOTTAS | 226 | 16 3F | NC | 16 3F | 15 3 | NC | 12 | 12 4 | 15 3 | 18 2 | 16 3 | NC | 12 | 15 3 | 18 3 | 10 5 | 26 1F | 8 6 | 15 | 18 3 | NC | 15 3 | 8 6 |
+| 4 | S. PEREZ | 190 | 10 5 | 11 | 12 4 | 10 5 | 12 4 | 25 1 | 15 3 | 12 4 | 8 6 | 16 | NC | 19 | 4 8 | 10 5 | 2 9 | 15 3 | 15 3 | 15 3 | 13 4F | 12 4 | NC | 15 |
+| 5 | C. SAINZ | 164.5 | 4 8 | 10 5 | 11 | 6 7 | 18 2 | 4 8 | 11 | 8 6 | 10 5 | 8 6 | 15 3 | 0.5 10 | 6 7 | 8 6 | 15 3 | 4 8 | 6 7 | 8 6 | 9 6 | 6 7 | 4 8 | 15 3 |
+| 6 | L. NORRIS | 160 | 12 4 | 15 3 | 10 5 | 4 8 | 15 3 | 10 5 | 10 5 | 10 5 | 15 3 | 12 4 | NC | 14 | 1 10 | 18 2 | 7 7F | 6 7 | 4 8 | 1 10 | 1 10 | 2 9 | 1 10 | 6 7 |
+| 7 | C. LECLERC | 159 | 8 6 | 12 4 | 8 6 | 12 4 | NC | 12 4 | 16 | 6 7 | 4 8 | 18 2 | NC | 2 8 | 10 5 | 12 4 | 15 | 12 4 | 12 4 | 10 5 | 10 5 | 4 8 | 6 7 | 1 10 |
+| 8 | D. RICCIARDO | 115 | 6 7 | 8 6 | 2 9 | 8 6 | 12 | 2 9 | 8 6 | 13 | 6 7 | 10 5 | 11 | 6 4 | 11 | 27 1F | 12 4 | 13 | 10 5 | 12 | NC | 12 | 10 5 | 12 |
+| 9 | P. GASLY | 110 | 17 | 6 7 | 1 10 | 1 10 | 8 6 | 15 3 | 6 7 | NC | 2 9 | 11 | 11 5F | 4 6 | 12 4 | NC | 13 | 8 6 | NC | 12 4 | 6 7 | 11 | 8 6 | 10 5 |
+| 10 | F. ALONSO | 81 | NC | 1 10 | 4 8 | 17 | 13 | 8 6 | 4 8 | 2 9 | 1 10 | 6 7 | 12 4 | 11 | 8 6 | 4 8 | 8 6 | 16 | NC | 2 9 | 2 9 | 15 3 | 13 | 4 8 |
+| 11 | E. OCON | 74 | 13 | 2 9 | 6 7 | 2 9 | 2 9 | NC | 14 | 14 | NC | 2 9 | 25 1 | 3 7 | 2 9 | 1 10 | 14 | 1 10 | NC | 13 | 4 8 | 10 5 | 12 4 | 2 9 |
+| 12 | S. VETTEL | 43 | 15 | 15 | 13 | 13 | 10 5 | 18 2 | 2 9 | 12 | 17 | NC | DQ | 5 5 | 13 | 12 | 12 | 18 | 1 10 | 6 7 | 11 | 1 10 | NC | 11 |
+| 13 | L. STROLL | 34 | 1 10 | 4 8 | 14 | 11 | 4 8 | NC | 1 10 | 4 8 | 13 | 4 8 | NC | 20 | 12 | 6 7 | 11 | 2 9 | 12 | 14 | NC | 8 6 | 11 | 13 |
+| 14 | Y. TSUNODA | 32 | 2 9 | 12 | 15 | NC | 16 | 6 7 | 13 | 1 10 | 12 | 1 10 | 8 6 | 15 | NC | NC | 17 | 14 | 2 9 | NC | 15 | 13 | 14 | 12 4 |
+| 15 | G. RUSSELL | 16 | 14 | NC | 16 | 14 | 14 | 17 | 12 | NC | 11 | 12 | 4 8 | 9 2 | 17 | 2 9 | 1 10 | 15 | 14 | 16 | 13 | 17 | NC | NC |
+| 16 | K. RAIKKONEN | 10 | 11 | 13 | NC | 12 | 11 | 1 10 | 17 | 11 | 15 | 15 | 1 10 | 18 |  |  | 4 8 | 12 | 13 | 4 8 | 12 | 14 | 15 | NC |
+
+Page 1 of 2
+
+© 2021 Formula One World Championship Limited The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV, a Formula1 company. The FIA logo is a trade mark of the Fédération Internationale de l’Automobile. All rights reserved. No part of these results/data may be reproduced, stored in a retrieval system or transmitted in any form or by any means electronic, mechanical, photocopying, recording, broadcasting or otherwise without prior permission of the copyright holder except for reproduction in local/national/international daily press and regular printed publications on sale to the public within 90 days of the event to which the results/data relate and provided that the copyright symbol and name of copyright owner appears.
+
+FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2021 - Yas Island
+
+Drivers' Championship
+
+DRIVER TOTAL BRN ITA POR ESP MON AZE FRA AUT AUT GBR HUN BEL NED ITA RUS TUR USA MEX BRA QAT KSA UAE
+
+| Pos | Driver / Entrant | Total | AUS | CHN | JPN | USA | CAN | MCO | ESP | AUT | GBR | BEL | HUN | NLD | ITA | ESP | AZE | SGP | USA | MEX | BRA | USA | QAT | UAE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 17 | N. LATIFI | 7 | 18 | NC | 18 | 16 | 15 | 16 | 18 | 17 | 16 | 14 | 6 7 | 1 9 | 16 | 11 | 19 | 17 | 15 | 17 | 16 | NC | 12 | NC |
+| 18 | A. GIOVINAZZI | 3 | 12 | 14 | 12 | 15 | 1 10 | 11 | 15 | 15 | 14 | 13 | 13 | 13 | 14 | 13 | 16 | 11 | 11 | 11 | 14 | 15 | 2 9 | NC |
+| 19 | M. SCHUMACHER | 0 | 16 | 16 | 17 | 18 | 18 | 13 | 19 | 16 | 18 | 18 | 12 | 16 | 18 | 15 | NC | 19 | 16 | NC | 18 | 16 | NC | 14 |
+| 20 | R. KUBICA | 0 |  |  |  |  |  |  |  |  |  |  |  |  | 15 | 14 |  |  |  |  |  |  |  |  |
+| 21 | N. MAZEPIN | 0 | NC | 17 | 19 | 19 | 17 | 14 | 20 | 18 | 19 | 17 | NC | 17 | NC | NC | 18 | 20 | 17 | 18 | 17 | 18 | NC |  |
+
+NOTES Subject to an appeal lodged with the ICA.
+
+Garry Connelly Felix Holter Derek Warwick Mohamed Al Hashmi
+
+The Stewards Page 2 of 2
+
+© 2021 Formula One World Championship Limited The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV, a Formula1 company. The FIA logo is a trade mark of the Fédération Internationale de l’Automobile. All rights reserved. No part of these results/data may be reproduced, stored in a retrieval system or transmitted in any form or by any means electronic, mechanical, photocopying, recording, broadcasting or otherwise without prior permission of the copyright holder except for reproduction in local/national/international daily press and regular printed publications on sale to the public within 90 days of the event to which the results/data relate and provided that the copyright symbol and name of copyright owner appears.
+
+FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2021 - Yas Island
+
+Constructors' Championship
+
+ENTRANT TOTAL BRN ITA POR ESP MON AZE FRA AUT AUT GBR HUN BEL NED ITA RUS TUR USA MEX BRA QAT KSA UAE
+
+| Pos | Driver / Entrant | Total | AUS | CHN | JPN | USA | CAN | MCO | ESP | AUT | GBR | BEL | HUN | NLD | ITA | ESP | AZE | SGP | USA | MEX | BRA | USA | QAT | UAE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mercedes-AMG Petronas F1 Team | 613.5 | 41 1 F 3 | 19 F 2 NC | 41 1 F 3 | 40 1 3 | 7 F 7 NC | 12 15 | 30 2 4 | 34 F 2 3 | 30 2 4 | 43 1 3 | 18 2 NC | 7.5 3 12 | 34 F 2 3 | 18 3 NC | 35 1 5 | 36 F 1 5 | 27 F 2 6 | 18 2 15 | 43 1 3 | 25 1 NC | 41 F 1 3 | 26 2 6 |
+| 2 | Red Bull Racing Honda | 585.5 | 28 2 5 | 25 1 11 | 30 2 4 | 29 F 2 5 | 37 1 4 | 25 1 18 | 41 F 1 3 | 37 1 4 | 34 F 1 6 | 3 16 NC | 2 9 NC | 12.5 1 19 | 29 1 8 | 12 5 NC | 20 2 9 | 33 2 3 | 40 1 3 | 40 1 3 | 33 2 F 4 | 31 F 2 4 | 18 2 NC | 26 F 1 15 |
+| 3 | Scuderia Ferrari Mission Winnow | 323.5 | 12 6 8 | 22 4 5 | 8 6 11 | 18 4 7 | 18 2 NC | 16 4 8 | 11 16 | 14 6 7 | 14 5 8 | 26 2 6 | 15 3 NC | 2.5 8 10 | 16 5 7 | 20 4 6 | 15 3 15 | 16 4 8 | 18 4 7 | 18 5 6 | 19 5 6 | 10 7 8 | 10 7 8 | 16 3 10 |
+| 4 | McLaren F1 Team | 275 | 18 4 7 | 23 3 6 | 12 5 9 | 12 6 8 | 15 3 12 | 12 5 9 | 18 5 6 | 10 5 13 | 21 3 7 | 22 4 5 | 11 NC | 6 4 14 | 1 10 11 | 45 F 1 2 | 19 4 F 7 | 6 7 13 | 14 5 8 | 1 10 12 | 1 10 NC | 2 9 12 | 11 5 10 | 6 7 12 |
+| 5 | Alpine F1 Team | 155 | 13 NC | 3 9 10 | 10 7 8 | 2 9 17 | 2 9 13 | 8 6 NC | 4 8 14 | 2 9 14 | 1 10 NC | 8 7 9 | 37 1 4 | 3 7 11 | 10 6 9 | 5 8 10 | 8 6 14 | 1 10 16 | NC NC | 2 9 13 | 6 8 9 | 25 3 5 | 12 4 13 | 6 8 9 |
+| 6 | Scuderia AlphaTauri Honda | 142 | 2 9 NC | 6 7 12 | 1 10 15 | 1 10 NC | 8 6 16 | 21 3 7 | 6 7 13 | 1 10 NC | 2 9 12 | 1 10 11 | 19 F 5 6 | 4 6 15 | 12 4 NC | NC NC | 13 17 | 8 6 14 | 2 9 NC | 12 4 NC | 6 7 15 | 11 13 | 8 6 14 | 22 4 5 |
+| 7 | Aston Martin Cognizant F1 Team | 77 | 1 10 15 | 4 8 15 | 13 14 | 11 13 | 14 5 8 | 18 2 NC | 3 9 10 | 4 8 12 | 13 17 | 4 8 NC | DQ NC | 5 5 20 | 12 13 | 6 7 12 | 11 12 | 2 9 18 | 1 10 12 | 6 7 14 | 11 NC | 9 6 10 | 11 NC | 11 13 |
+| 8 | Williams Racing | 23 | 14 18 | NC NC | 16 18 | 14 16 | 14 15 | 16 17 | 12 18 | 17 NC | 11 16 | 12 14 | 10 7 8 | 10 2 9 | 16 17 | 2 9 11 | 1 10 19 | 15 17 | 14 15 | 16 17 | 13 16 | 17 NC | 12 NC | NC NC |
+| 9 | Alfa Romeo Racing ORLEN | 13 | 11 12 | 13 14 | 12 NC | 12 15 | 1 10 11 | 1 10 11 | 15 17 | 11 15 | 14 15 | 13 15 | 1 10 13 | 13 18 | 14 15 | 13 14 | 4 8 16 | 11 12 | 11 13 | 4 8 11 | 12 14 | 14 15 | 2 9 15 | NC NC |
+| 10 | Uralkali Haas F1 Team | 0 | 16 NC | 16 17 | 17 19 | 18 19 | 17 18 | 13 14 | 19 20 | 16 18 | 18 19 | 17 18 | 12 NC | 16 17 | 18 NC | 15 NC | 18 NC | 19 20 | 16 17 | 18 NC | 17 18 | 16 18 | NC NC | 14 |
+
+NOTES Subject to an appeal lodged with the ICA.
+
+Garry Connelly Felix Holter Derek Warwick Mohamed Al Hashmi
+
+The Stewards © 2021 Formula One World Championship Limited The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV, a Formula1 company. The FIA logo is a trade mark of the Fédération Internationale de l’Automobile. All rights reserved. No part of these results/data may be reproduced, stored in a retrieval system or transmitted in any form or by any means electronic, mechanical, photocopying, recording, broadcasting or otherwise without prior permission of the copyright holder except for reproduction in local/national/international daily press and regular printed publications on sale to the public within 90 days of the event to which the results/data relate and provided that the copyright symbol and name of copyright owner appears.

@@ -1,0 +1,92 @@
+{
+  "date": "2018-06-23",
+  "doc_number": "22",
+  "doc_type": "other",
+  "event_name": "Time 12:30 2018 FRENCH GRAND PRIX 21 - 24 June 2018 The FIA Formula One Race Director",
+  "event_slug": "french-grand-prix",
+  "extracted_at": "2026-05-21T11:21:06Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        492.96,
+        352.98,
+        567.84,
+        488.88
+      ],
+      "deduplicated": false,
+      "display_height": 135.9,
+      "display_width": 74.88,
+      "height": 284,
+      "page": 7,
+      "path": "images/2018_french_grand_prix_-_race_directors_note22_p7_img1.jpeg",
+      "sha256": "3f4f0463bd5cfa8725008d23102abc5d81bff656544906bbfb7cc1e29d2bc73d",
+      "width": 156
+    },
+    {
+      "bbox": [
+        130.5,
+        267.69,
+        192.06,
+        366.87
+      ],
+      "deduplicated": false,
+      "display_height": 99.18,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 9,
+      "path": "images/2018_french_grand_prix_-_race_directors_note22_p9_img2.jpeg",
+      "sha256": "380dfafeb56ee7f8e2bfa8cfa9b770437079c5bb43171d855a159c22647cd60b",
+      "width": 551
+    },
+    {
+      "bbox": [
+        121.32,
+        483.93,
+        186.12,
+        583.17
+      ],
+      "deduplicated": false,
+      "display_height": 99.24,
+      "display_width": 64.8,
+      "height": 360,
+      "page": 9,
+      "path": "images/2018_french_grand_prix_-_race_directors_note22_p9_img3.jpeg",
+      "sha256": "1903bec4ee0fd6afdd375ff74f20709459d42ef1950b4403b973bbeb29403fcc",
+      "width": 827
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 9,
+  "source_hash": "sha256:232a44cdf8460954aee8b1d760626e2e9ba60335123d9139175a1f0a95c00845",
+  "source_pdf": "documents/2018/french-grand-prix/2018_french_grand_prix_-_race_directors_note22.pdf",
+  "tables": [
+    {
+      "bbox": [
+        2.04,
+        0.96,
+        559.79,
+        804.36
+      ],
+      "columns": 10,
+      "page": 6,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        150.81,
+        371.35,
+        787.37,
+        449.99
+      ],
+      "columns": 13,
+      "page": 9,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "12:30",
+  "title": "2018 French Grand Prix Race Directors Note22",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

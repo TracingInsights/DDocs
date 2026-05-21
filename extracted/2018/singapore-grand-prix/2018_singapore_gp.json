@@ -1,0 +1,92 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T11:44:08Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        31.43,
+        39.69,
+        561.61,
+        409.61
+      ],
+      "deduplicated": false,
+      "display_height": 369.92,
+      "display_width": 530.18,
+      "height": 1542,
+      "page": 2,
+      "path": "images/2018_singapore_gp_p2_img1.jpeg",
+      "sha256": "f2e5ac4812c3337548dafb1100d1909b5eb89fc9e1f853ea22aa0c99c3ea71a7",
+      "width": 2210
+    },
+    {
+      "bbox": [
+        442.47,
+        367.53,
+        560.01,
+        483.04
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 117.53,
+      "height": 482,
+      "page": 3,
+      "path": "images/2018_singapore_gp_p3_img2.jpeg",
+      "sha256": "a1fe8551904bfdd06fcc2f912e5cc4d5acf974cf88d5dcbb3294ec83d51e3238",
+      "width": 490
+    },
+    {
+      "bbox": [
+        443.49,
+        613.93,
+        559.0,
+        730.45
+      ],
+      "deduplicated": false,
+      "display_height": 116.51,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_singapore_gp_p3_img3.jpeg",
+      "sha256": "665a5680fadd9a35d8d3a2ebda29e063fdfdf10a26a9315122dfcfc953f9f71c",
+      "width": 482
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 6,
+  "source_hash": "sha256:d5e76c5d3a2f1183bea38b5edf96134b11a2eaf766322b455b4caf882d6b5b05",
+  "source_pdf": "documents/2018/singapore-grand-prix/2018_singapore_gp.pdf",
+  "tables": [
+    {
+      "bbox": [
+        130.95,
+        179.03,
+        525.2,
+        676.51
+      ],
+      "columns": 14,
+      "page": 4,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        138.48,
+        365.83,
+        538.33,
+        754.91
+      ],
+      "columns": 14,
+      "page": 5,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 Singapore Gp",
+  "to": null,
+  "year": 2018
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2020-07-05",
+  "doc_number": "59",
+  "doc_type": "classification",
+  "event_name": "Time 19:35 2020 AUSTRIAN GRAND PRIX 2 - 5 July 2020 The Stewards",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T10:39:26Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:7180de4adea22a854b5f11393890dd8cd05f2afabd7f7fc40c0c1f84f1c3ec8f",
+  "source_pdf": "documents/2020/austrian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.04,
+        189.47,
+        571.93,
+        347.3
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        23.04,
+        355.29,
+        571.93,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 8
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:35",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

@@ -1,0 +1,124 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T11:44:51Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        412.44,
+        188.5,
+        473.2,
+        249.77
+      ],
+      "deduplicated": false,
+      "display_height": 61.27,
+      "display_width": 60.76,
+      "height": 121,
+      "page": 1,
+      "path": "images/2018_spain_gp_p1_img1.jpeg",
+      "sha256": "5688a5248af4f0d7b463460efb0032dbc224f5b914da5afa5762b1e7d5d0dd89",
+      "width": 120
+    },
+    {
+      "bbox": [
+        31.43,
+        39.69,
+        560.76,
+        409.1
+      ],
+      "deduplicated": false,
+      "display_height": 369.41,
+      "display_width": 529.33,
+      "height": 1540,
+      "page": 2,
+      "path": "images/2018_spain_gp_p2_img2.jpeg",
+      "sha256": "6c035a43bf84537df3e30c18d093782c8cbd424dfe03715ccdb334c906ba2cab",
+      "width": 2206
+    },
+    {
+      "bbox": [
+        443.49,
+        122.44,
+        559.0,
+        238.98
+      ],
+      "deduplicated": false,
+      "display_height": 116.54,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_spain_gp_p3_img3.jpeg",
+      "sha256": "b436cd10a9e7c7ed7190e0c068ef05ef3fe20505d2faa3167eb4357409c4ce98",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        368.19,
+        559.0,
+        483.7
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 115.51,
+      "height": 482,
+      "page": 3,
+      "path": "images/2018_spain_gp_p3_img4.jpeg",
+      "sha256": "2968d3f97086da6a4a9fe1eed67e154d1a7bca4b878f52f3d3188b8410ddb8f1",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        613.93,
+        559.0,
+        730.45
+      ],
+      "deduplicated": false,
+      "display_height": 116.51,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_spain_gp_p3_img5.jpeg",
+      "sha256": "665a5680fadd9a35d8d3a2ebda29e063fdfdf10a26a9315122dfcfc953f9f71c",
+      "width": 482
+    }
+  ],
+  "images_extracted": 5,
+  "pages": 6,
+  "source_hash": "sha256:42a8e7e635f7549fa471ce8df1cc52c1a00ee5190923451daf1fec35da01087b",
+  "source_pdf": "documents/2018/spanish-grand-prix/2018_spain_gp.pdf",
+  "tables": [
+    {
+      "bbox": [
+        127.15,
+        179.03,
+        525.2,
+        676.44
+      ],
+      "columns": 4,
+      "page": 4,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        139.53,
+        365.83,
+        538.33,
+        719.23
+      ],
+      "columns": 4,
+      "page": 5,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 Spain Gp",
+  "to": "THE USA, FIA STEWARD,",
+  "year": 2018
+}

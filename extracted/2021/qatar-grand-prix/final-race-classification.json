@@ -1,0 +1,42 @@
+{
+  "date": "2021-11-21",
+  "doc_number": "54",
+  "doc_type": "classification",
+  "event_name": "Time 20:41 2021 QATAR GRAND PRIX 18 - 21 November 2021 The Stewards",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T10:24:28Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:57fbfd45c4debe672a59e8185952b6e27a45da82db8712c3807a49deae312495",
+  "source_pdf": "documents/2021/qatar-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.91,
+        189.37,
+        572.18,
+        408.16
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        22.91,
+        416.15,
+        572.18,
+        452.47
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:41",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

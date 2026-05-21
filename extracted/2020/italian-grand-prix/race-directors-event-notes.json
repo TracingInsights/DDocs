@@ -1,0 +1,103 @@
+{
+  "date": "2020-09-03",
+  "doc_number": "3",
+  "doc_type": "race-director-note",
+  "event_name": "Time 11:11 2020 ITALIAN GRAND PRIX 3 - 6 September 2020 The FIA Formula One Race Director",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T10:46:52Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        144.72,
+        694.53,
+        209.52,
+        793.77
+      ],
+      "deduplicated": true,
+      "display_height": 99.24,
+      "display_width": 64.8,
+      "height": 360,
+      "page": 9,
+      "path": "images/race-directors-event-notes-version-2_p9_img1.jpeg",
+      "sha256": "fe629eb18ae3a64cd5e259cfaa85ca006aa3ceea84300c6375b5b515ff7203e0",
+      "width": 827
+    },
+    {
+      "bbox": [
+        160.38,
+        408.27,
+        221.94,
+        507.45
+      ],
+      "deduplicated": true,
+      "display_height": 99.18,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 9,
+      "path": "images/race-directors-event-notes-version-2_p9_img2.jpeg",
+      "sha256": "0b3bd5450c6d66497d4a1b97f5e54692ab6ef253a214853a19b51b19555efc0c",
+      "width": 551
+    },
+    {
+      "bbox": [
+        441.84,
+        352.92,
+        537.12,
+        525.84
+      ],
+      "deduplicated": true,
+      "display_height": 172.92,
+      "display_width": 95.28,
+      "height": 721,
+      "page": 11,
+      "path": "images/race-directors-event-notes-version-2_p11_img3.jpeg",
+      "sha256": "65c8484f97a3a014152d697859d61c8837683063ef5902af5562be28a85f80bf",
+      "width": 397
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 11,
+  "source_hash": "sha256:661bcff2ae25e03791d41d7c2a3e5d70dbbd9ef0b44d30cbdd9349ef77900ddf",
+  "source_pdf": "documents/2020/italian-grand-prix/race-directors-event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        377.05,
+        90.66,
+        452.02,
+        756.24
+      ],
+      "columns": 3,
+      "page": 9,
+      "rows": 58
+    },
+    {
+      "bbox": [
+        74.57,
+        77.66,
+        581.88,
+        359.03
+      ],
+      "columns": 9,
+      "page": 10,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        35.83,
+        592.74,
+        556.28,
+        734.1
+      ],
+      "columns": 2,
+      "page": 10,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "11:11",
+  "title": "Race Directors Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

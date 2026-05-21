@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "33 Max VERSTAPPEN 27.895 3 Daniel RICCIARDO 28.122 44 Lewis HAMILTON 28.188 5 Sebastian VETTEL 28.351 77 Valtteri BOTTAS 28.376 7 Kimi RAIKKONEN 28.615 20 Kevin MAGNUSSEN 28.782 16 Charles LECLERC 28.871 8 Romain GROSJEAN 28.945 9 Marcus ERICSSON 28.954 11 Sergio PEREZ 29.038 31 Esteban OCON 29.145 27 Nico HULKENBERG 29.161 14 Fernando ALONSO 29.340 2 Stoffel VANDOORNE 29.419 55 Carlos SAINZ 29.508 18 Lance STROLL 29.716 35 Sergey SIROTKIN 29.735 10 Pierre GASLY 31.408 28 Brendon HARTLEY 31.934 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "russian-grand-prix",
+  "extracted_at": "2026-05-21T11:42:40Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_16_rus_f1_p1_timing_firstpracticesessionlaptimes_v01_0_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_16_rus_f1_p1_timing_firstpracticesessionlaptimes_v01_0_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:cd97d8c4aa5b1610d16b602c0e95080d93d27ab65c839c037389df9bc883a6d9",
+  "source_pdf": "documents/2018/russian-grand-prix/2018_16_rus_f1_r0_timing_racebestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 16 Rus F1 R0 Timing Racebestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

@@ -1,0 +1,15 @@
+# From The Stewards
+
+## To The Team Manager,
+
+Sahara Force India F1 Team Document 28
+
+Date 23 June 2018 Time 14:39 2018 FRENCH GRAND PRIX 21 - 24 June 2018 The Stewards, having received a report from the FIA Technical Delegate (document 17), summoned (document 19 ) and heard from the Technical Delegate, the driver, wheel gun operator Mr Ash Jones and team representative Mr Andy Stevenson, have considered the following matter and determine the following:
+
+No / Driver 11 - Sergio Perez Competitor Sahara Force India F1 Team Time 16:39 Session Practice 2 Fact Car 11 was released in an unsafe condition during practice. Offence Breach of Article 28.13 (b) of the FIA Formula One Sporting Regulations. Decision A fine of €15,000 plus an additional fine of €85,000 which is suspended for 12 months subject to no further breach of Article 28.13 during this period, by the team. Reason The Stewards reviewed video evidence and heard from the FIA Technical Delegate, the driver of car 11, Sergio Perez, the wheel gun operator and the team representative.  They also inspected parts from the wheel retaining system from the left rear wheel from the incident. The Stewards view this incident as very serious and potentially dangerous because it involved a wheel coming off the car at high speed. The FIA Technical Delegate revised his original report on the possible cause of the incident and confirmed the team's evidence to the Stewards that the problem was not caused by incorrect or incomplete fitment of the wheel but rather by an assembly fault involving poor seating of 3 retaining screws on the retaining plate. The Stewards are satisfied that the wheel gun operator made no error in fitting the wheel, that the witness line was visible and that his manual check of the security of the wheel was satisfactory. Likewise the Stewards are satisfied that neither the team nor the driver had any warning whatsoever that something was amiss, until the incident occurred. Therefore it would be unreasonable to infer that the team did not take "appropriate action" to stop the car because it had no way of knowing of the problem. Accordingly and consistent with previous decisions this year, the Stewards decided that the grid place penalty that "may" be imposed under the above article, would not be applied.
+
+The Stewards However it is noted that this is the third incident of this nature involving the team in the past 2 years and the second this year, and hence the usual penalty has been significantly increased. This fine represents the view of the Stewards that the team needs to investigate its assembly and quality control procedures to ensure this type of potentially dangerous incident does not occur again, and believes the penalty is suitable and will also act as a deterrent in the future. All Competitors are hereby reminded of their right to appeal certain decisions of the Stewards, as set out in the International Sporting Code and related regulations, including the time limits for such appeals
+
+### Garry Connelly Enzo Spano
+
+### Yannick Dalmas Jean-Marie Krempff

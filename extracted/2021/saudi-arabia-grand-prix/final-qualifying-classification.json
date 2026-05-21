@@ -1,0 +1,53 @@
+{
+  "date": "2021-12-05",
+  "doc_number": "30",
+  "doc_type": "classification",
+  "event_name": "Date 05 December 2021 Time 01:05 2021 SAUDI ARABIAN GRAND PRIX 2 - 5 December 2021 The Stewards",
+  "event_slug": "saudi-arabia-grand-prix",
+  "extracted_at": "2026-05-21T10:26:33Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:97b5cbe106c8fae3c2168ffc4f82f30ed7f28da5934c1885a62c259c34405473",
+  "source_pdf": "documents/2021/saudi-arabia-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.87,
+        187.08,
+        571.19,
+        430.18
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.87,
+        439.38,
+        571.19,
+        463.44
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.87,
+        472.71,
+        571.19,
+        496.78
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "01:05",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

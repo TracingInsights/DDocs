@@ -1,0 +1,42 @@
+{
+  "date": "2021-05-09",
+  "doc_number": "35",
+  "doc_type": "classification",
+  "event_name": "Time 17:05 2021 SPANISH GRAND PRIX 6 - 9 May 2021 The Stewards",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T10:32:37Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:327da6c725b3779d5be4b6ca65ce43bb303666414ed34f05afb95db50b274fd5",
+  "source_pdf": "documents/2021/spanish-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.89,
+        189.37,
+        572.22,
+        420.33
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.89,
+        428.32,
+        572.22,
+        452.47
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:05",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

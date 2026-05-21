@@ -1,0 +1,53 @@
+{
+  "date": "2021-12-13",
+  "doc_number": "60",
+  "doc_type": "championship-points",
+  "event_name": "Time 00:10 2021 ABU DHABI GRAND PRIX 9 - 12 December 2021 The Stewards Title Championship Points Description Championship Points",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T10:11:19Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:6e776ccea38deaff5acac2ee65a88ad3c4340f5d4d7b4f62f836d4dc53d4ba12",
+  "source_pdf": "documents/2021/abu-dhabi-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.28,
+        174.27,
+        814.26,
+        514.12
+      ],
+      "columns": 25,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        21.07,
+        174.27,
+        814.46,
+        280.47
+      ],
+      "columns": 25,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        21.24,
+        173.81,
+        815.0,
+        478.54
+      ],
+      "columns": 25,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "00:10",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

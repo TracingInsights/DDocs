@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "4 44 Lewis HAMILTON 17.454 5 31 Esteban OCON 17.595 6 20 Kevin MAGNUSSEN 17.613 7 16 Charles LECLERC 17.634 8 33 Max VERSTAPPEN 17.639 9 3 Daniel RICCIARDO 17.654 10 9 Marcus ERICSSON 17.668 11 8 Romain GROSJEAN 17.683 12 10 Pierre GASLY 17.725 13 11 Sergio PEREZ 17.747 14 27 Nico HULKENBERG 17.802 15 18 Lance STROLL 17.882 16 35 Sergey SIROTKIN 17.935 17 2 Stoffel VANDOORNE 17.952 18 14 Fernando ALONSO 17.961 19 55 Carlos SAINZ 17.968 20 28 Brendon HARTLEY 18.027 Sector 2 TIME 44 Lewis HAMILTON 34.122 33 Max VERSTAPPEN 34.228 3 Daniel RICCIARDO 34.232 77 Valtteri BOTTAS 34.241 5 Sebastian VETTEL 34.287 7 Kimi RAIKKONEN 34.290 8 Romain GROSJEAN 34.603 9 Marcus ERICSSON 34.693 20 Kevin MAGNUSSEN 34.707 16 Charles LECLERC 34.783 10 Pierre GASLY 34.869 27 Nico HULKENBERG 34.874 31 Esteban OCON 34.981 11 Sergio PEREZ 35.014 55 Carlos SAINZ 35.065 28 Brendon HARTLEY 35.170 35 Sergey SIROTKIN 35.197 14 Fernando ALONSO 35.255 2 Stoffel VANDOORNE 35.266 18 Lance STROLL 35.354 Sector 3 TIME 5 Sebastian VETTEL 15.601 44 Lewis HAMILTON 15.601 77 Valtteri BOTTAS 15.625 7 Kimi RAIKKONEN 15.671 16 Charles LECLERC 15.681 9 Marcus ERICSSON 15.799 3 Daniel RICCIARDO 15.894 33 Max VERSTAPPEN 15.911 8 Romain GROSJEAN 15.941 31 Esteban OCON 15.945 27 Nico HULKENBERG 15.949 20 Kevin MAGNUSSEN 15.965 11 Sergio PEREZ 15.969 10 Pierre GASLY 15.979 28 Brendon HARTLEY 16.083 18 Lance STROLL 16.084 35 Sergey SIROTKIN 16.113 14 Fernando ALONSO 16.130 55 Carlos SAINZ 16.192 2 Stoffel VANDOORNE 16.230 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "brazilian-grand-prix",
+  "extracted_at": "2026-05-21T11:16:52Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_20_bra_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_20_bra_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:bbd101026c89321930e8b1e10efa6220a0386213771ebaffe384c971f05ece83",
+  "source_pdf": "documents/2018/brazilian-grand-prix/2018_20_bra_f1_q0_timing_qualifyingsessionbestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 20 Bra F1 Q0 Timing Qualifyingsessionbestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

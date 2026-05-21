@@ -1,0 +1,53 @@
+{
+  "date": "2020-10-24",
+  "doc_number": "44",
+  "doc_type": "classification",
+  "event_name": "Time 19:00 2020 PORTUGUESE GRAND PRIX 22 to 25 October The Stewards",
+  "event_slug": "portuguese-grand-prix",
+  "extracted_at": "2026-05-21T10:47:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9467b652c842b033b525bc6399cc43f943cd82d32eca8a77fbe2fb02ff8bd5cc",
+  "source_pdf": "documents/2020/portuguese-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:00",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

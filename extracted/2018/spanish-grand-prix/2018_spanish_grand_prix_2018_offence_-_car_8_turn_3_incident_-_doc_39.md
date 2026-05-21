@@ -1,0 +1,17 @@
+# From The Stewards
+
+## To The Team Manager,
+
+Haas F1 Team Document 39 Date 13 May 2018
+
+Time 18:52 2018 SPANISH GRAND PRIX 10 - 13 May 2018 The Stewards, having received a report from the Race Director, summoned (document 37) and heard from the driver and team representative have considered the following matter and determine the following:
+
+### No / Driver 8 - Romain Grosjean Competitor Haas F1 Team Time 15:13
+
+### Session Race
+
+Fact Car 8 collided with Car 27 and Car 10 Offence Involved in an incident as defined by Art 38.1 as defined by the FIA Formula One Sporting Regulations. Decision 3 grid position penalty at the driver's next event. (2 penalty points awarded, 5 points in total for the 12 month period) Reason The Stewards reviewed video evidence and heard from the driver of car 8, Romain Grosjean  and the team representative. Car 8 was following Car 20 at the exit of Turn 2 when Car 20 had a momentary loss of control. Car 8 avoided Car 20 which caused him to loose control of the car to the left of the track at the entry to Turn 3. The driver explained to the Stewards that he  felt that his momentum was going to carry him to the center of the track, and therefore made the decision to apply power in an attempt to cross to the right side of the track and get out of the way of the cars behind. However, while crossing he moved into the line of Cars 27 and Car 10, and all three cars were involved in a collision that took them out of the race. The driver stated to the Stewards that he made the decision to cross the track, trying to avoid the other cars and that he felt this was his best option. The Stewards found that while it is speculation as to where the driver's car would have ended up had he chosen other alternatives, it is certain that while crossing the track in front of the following pack of cars, which he chose to do, that a collision occurred. Further, in reviewing the video, the Stewards found that the car was following the line on the left side of the track and was almost fully off the track, when he made the decision to cross it. The Stewards therefore chose to penalise the driver.
+
+### The Stewards Tim Mayer Andrew Mallalieu
+
+### Derek Warwick David Domingo

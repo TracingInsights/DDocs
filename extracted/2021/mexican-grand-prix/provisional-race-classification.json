@@ -1,0 +1,42 @@
+{
+  "date": "2021-11-07",
+  "doc_number": "60",
+  "doc_type": "classification",
+  "event_name": "Time 15:05 2021 MEXICAN GRAND PRIX 4 - 7 November 2021 The Stewards",
+  "event_slug": "mexican-grand-prix",
+  "extracted_at": "2026-05-21T10:22:35Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:58b08fe6f07ada8d20d19decf583dfccf556dbe69900287854dddb5c5b731c91",
+  "source_pdf": "documents/2021/mexican-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.9,
+        189.37,
+        572.22,
+        408.16
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        22.9,
+        416.15,
+        572.22,
+        452.38
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "15:05",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

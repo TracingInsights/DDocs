@@ -1,0 +1,53 @@
+{
+  "date": "2018-05-26",
+  "doc_number": "28",
+  "doc_type": "classification",
+  "event_name": "Time 16:15 2018 MONACO GRAND PRIX 23 - 27 May 2018 The Stewards",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T11:28:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:67e9b0b5026486956271d17e2c083786ef980191a847d504e2795004aa21c9b0",
+  "source_pdf": "documents/2018/monaco-grand-prix/2018_monaco_grand_prix_-_provisional_qualifying_classification28.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.13,
+        187.18,
+        568.07,
+        417.99
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        21.13,
+        427.15,
+        568.07,
+        451.19
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        21.13,
+        460.46,
+        568.07,
+        484.51
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:15",
+  "title": "2018 Monaco Grand Prix Provisional Qualifying Classification28",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

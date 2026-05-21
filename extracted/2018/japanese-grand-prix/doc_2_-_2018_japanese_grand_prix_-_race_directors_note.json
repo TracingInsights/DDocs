@@ -1,0 +1,76 @@
+{
+  "date": "2018-10-04",
+  "doc_number": "2",
+  "doc_type": "other",
+  "event_name": "Time 08:00 2018 JAPANESE GRAND PRIX 04 - 07 October 2018",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T11:27:03Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        424.5,
+        343.8,
+        517.08,
+        511.98
+      ],
+      "deduplicated": true,
+      "display_height": 168.18,
+      "display_width": 92.58,
+      "height": 351,
+      "page": 7,
+      "path": "images/doc_24_-_2018_japanese_grand_prix_-_race_directors_note_p7_img1.jpeg",
+      "sha256": "5ab8ff0d070e21b94f458637459c45804b117465b3f14eccca6a2920c601238b",
+      "width": 193
+    },
+    {
+      "bbox": [
+        134.64,
+        209.37,
+        196.2,
+        308.55
+      ],
+      "deduplicated": true,
+      "display_height": 99.18,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 9,
+      "path": "images/doc_24_-_2018_japanese_grand_prix_-_race_directors_note_p9_img2.jpeg",
+      "sha256": "9032b5331976e872d6b5b6233530276eb201480f0693659c68c4f7292d60b427",
+      "width": 551
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 10,
+  "source_hash": "sha256:1186b1d889ae53695c478c7edb371fe3c534a91a1bb836dd1d97bd33557e66d4",
+  "source_pdf": "documents/2018/japanese-grand-prix/doc_2_-_2018_japanese_grand_prix_-_race_directors_note.pdf",
+  "tables": [
+    {
+      "bbox": [
+        2.04,
+        1.08,
+        563.44,
+        796.44
+      ],
+      "columns": 26,
+      "page": 6,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        391.2,
+        80.46,
+        481.02,
+        803.43
+      ],
+      "columns": 3,
+      "page": 9,
+      "rows": 55
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "08:00",
+  "title": "Doc 2 2018 Japanese Grand Prix Race Directors Note",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

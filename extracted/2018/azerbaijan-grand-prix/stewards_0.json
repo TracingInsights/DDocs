@@ -1,0 +1,68 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Azerbaijan Grand Prix",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T11:14:32Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        443.27,
+        122.53,
+        558.79,
+        238.05
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 115.51,
+      "height": 241,
+      "page": 1,
+      "path": "images/stewards_0_p1_img1.jpeg",
+      "sha256": "29c5d268f2be5550debbc0a0389c3a5d4bbc316782680dad4b7aab4cd89b157e",
+      "width": 241
+    },
+    {
+      "bbox": [
+        443.27,
+        368.17,
+        560.05,
+        483.69
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 116.77,
+      "height": 284,
+      "page": 1,
+      "path": "images/stewards_0_p1_img2.jpeg",
+      "sha256": "ff9c619ff5d12a89e76d7a38708ea54b7d22bda41fe46b76602c21765996375e",
+      "width": 287
+    },
+    {
+      "bbox": [
+        443.27,
+        613.81,
+        558.79,
+        730.35
+      ],
+      "deduplicated": false,
+      "display_height": 116.53,
+      "display_width": 115.51,
+      "height": 243,
+      "page": 1,
+      "path": "images/stewards_0_p1_img3.jpeg",
+      "sha256": "947c078566b7634028d6dd94e1eaeb18d73f6b07e0dc8aab3a05c9a7ad4703b2",
+      "width": 241
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 1,
+  "source_hash": "sha256:d8c3166807849145b48ad4472fbd8ec6f09311c103c13da18e3b6031af7ba4ad",
+  "source_pdf": "documents/2018/azerbaijan-grand-prix/stewards_0.pdf",
+  "tables_extracted": 0,
+  "time": null,
+  "title": "Stewards 0",
+  "to": null,
+  "year": 2018
+}

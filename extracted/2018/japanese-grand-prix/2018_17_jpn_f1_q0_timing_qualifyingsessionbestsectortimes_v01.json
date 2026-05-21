@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "44 Lewis HAMILTON 39.588 5 Sebastian VETTEL 39.681 77 Valtteri BOTTAS 39.708 7 Kimi RAIKKONEN 39.882 33 Max VERSTAPPEN 40.040 3 Daniel RICCIARDO 40.195 16 Charles LECLERC 40.215 31 Esteban OCON 40.258 11 Sergio PEREZ 40.367 28 Brendon HARTLEY 40.401 10 Pierre GASLY 40.442 27 Nico HULKENBERG 40.443 8 Romain GROSJEAN 40.552 55 Carlos SAINZ 40.670 35 Sergey SIROTKIN 40.702 18 Lance STROLL 40.710 20 Kevin MAGNUSSEN 40.743 14 Fernando ALONSO 40.808 2 Stoffel VANDOORNE 40.914 9 Marcus ERICSSON 41.050 Sector 3 TIME 7 Kimi RAIKKONEN 17.199 44 Lewis HAMILTON 17.253 77 Valtteri BOTTAS 17.287 5 Sebastian VETTEL 17.330 33 Max VERSTAPPEN 17.441 31 Esteban OCON 17.466 8 Romain GROSJEAN 17.501 11 Sergio PEREZ 17.529 28 Brendon HARTLEY 17.573 20 Kevin MAGNUSSEN 17.577 16 Charles LECLERC 17.578 10 Pierre GASLY 17.625 9 Marcus ERICSSON 17.642 3 Daniel RICCIARDO 17.648 27 Nico HULKENBERG 17.671 18 Lance STROLL 17.671 55 Carlos SAINZ 17.686 14 Fernando ALONSO 17.700 35 Sergey SIROTKIN 17.707 2 Stoffel VANDOORNE 17.830 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T11:25:08Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_17_jpn_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_17_jpn_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:6c850762a46731833b0672918a3f4500528ce091f21bccab4c2db637bf8dc335",
+  "source_pdf": "documents/2018/japanese-grand-prix/2018_17_jpn_f1_q0_timing_qualifyingsessionbestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 17 Jpn F1 Q0 Timing Qualifyingsessionbestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

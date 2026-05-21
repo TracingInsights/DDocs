@@ -1,0 +1,53 @@
+{
+  "date": "2020-09-12",
+  "doc_number": "25",
+  "doc_type": "classification",
+  "event_name": "Time 16:20 2020 TUSCAN GRAND PRIX 10 - 13 September 2020 The Stewards",
+  "event_slug": "tuscan-grand-prix",
+  "extracted_at": "2026-05-21T10:52:31Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a73ee072304af0d02e960361f40d34f82b85d2dead4fd3820c0e02f2b403a31b",
+  "source_pdf": "documents/2020/tuscan-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        30.83,
+        182.14,
+        564.14,
+        419.04
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        30.83,
+        427.97,
+        564.14,
+        451.42
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        30.83,
+        460.46,
+        564.14,
+        483.9
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:20",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

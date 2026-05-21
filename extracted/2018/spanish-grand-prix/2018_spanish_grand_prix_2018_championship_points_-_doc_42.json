@@ -1,0 +1,76 @@
+{
+  "date": "2018-05-13",
+  "doc_number": "42",
+  "doc_type": "other",
+  "event_name": "Time 19:10 2018 SPANISH GRAND PRIX 10 - 13 May 2018 The Stewards Title Championship Points Description Championship Points",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T11:44:52Z",
+  "from": "The Stewards",
+  "images": [
+    {
+      "bbox": [
+        457.25,
+        40.93,
+        557.68,
+        98.01
+      ],
+      "deduplicated": false,
+      "display_height": 57.07,
+      "display_width": 100.43,
+      "height": 120,
+      "page": 2,
+      "path": "images/2018_spanish_grand_prix_2018_championship_points_-_doc_42_p2_img1.jpeg",
+      "sha256": "9f6bba0799240f45c7e0de0d6db778acb3d357cf7dcadd2c0fb915b274532d6b",
+      "width": 209
+    },
+    {
+      "bbox": [
+        19.61,
+        22.03,
+        209.84,
+        108.03
+      ],
+      "deduplicated": false,
+      "display_height": 85.99,
+      "display_width": 190.22,
+      "height": 180,
+      "page": 2,
+      "path": "images/2018_spanish_grand_prix_2018_championship_points_-_doc_42_p2_img2.jpeg",
+      "sha256": "a79b1af7f9e2b20a512ab288d1404f1166c2db342c1cfbc7f2a8d0cfb6d74423",
+      "width": 397
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 3,
+  "source_hash": "sha256:d0a087e31bffe4c4e9dbe79f3b69156aa30c40ae1722a67cbffacef2314ceeff",
+  "source_pdf": "documents/2018/spanish-grand-prix/2018_spanish_grand_prix_2018_championship_points_-_doc_42.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.04,
+        195.54,
+        569.65,
+        625.51
+      ],
+      "columns": 8,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        21.05,
+        195.08,
+        567.0,
+        498.21
+      ],
+      "columns": 8,
+      "page": 3,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:10",
+  "title": "2018 Spanish Grand Prix 2018 Championship Points Doc 42",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

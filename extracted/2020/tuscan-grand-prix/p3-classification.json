@@ -1,0 +1,31 @@
+{
+  "date": "2020-09-12",
+  "doc_number": "23",
+  "doc_type": "classification",
+  "event_name": "Time 13:30 2020 TUSCAN GRAND PRIX 10 - 13 September 2020 The Stewards",
+  "event_slug": "tuscan-grand-prix",
+  "extracted_at": "2026-05-21T10:52:30Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:f384b2645ff723e01e648fb449df1d91057a91d7db61df6343bed4a79b5fef1a",
+  "source_pdf": "documents/2020/tuscan-grand-prix/p3-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        30.79,
+        182.17,
+        564.02,
+        418.94
+      ],
+      "columns": 10,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "13:30",
+  "title": "P3 Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2021-11-14",
+  "doc_number": "51",
+  "doc_type": "classification",
+  "event_name": "Time 17:55 2021 BRAZILIAN GRAND PRIX 11 - 14 November 2021 The Stewards",
+  "event_slug": "brazilian-grand-prix",
+  "extracted_at": "2026-05-21T10:17:37Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:3230376da54861c8021fdbde64bbdf5d14f278c8d3b3293deda27e0a3a2d00df",
+  "source_pdf": "documents/2021/brazilian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.9,
+        189.37,
+        572.22,
+        408.16
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        22.9,
+        416.15,
+        572.22,
+        452.47
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:55",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

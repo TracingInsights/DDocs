@@ -1,0 +1,53 @@
+{
+  "date": "2020-12-13",
+  "doc_number": "48",
+  "doc_type": "championship-points",
+  "event_name": "Time 21:20 2020 ABU DHABI GRAND PRIX 10 - 13 December 2020 The Stewards Title Championship Points Description Championship Points",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T10:36:51Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 3,
+  "source_hash": "sha256:83eebe5cdc8191dec626529e08b5731791fed52cac068cabd7018e77f3de281a",
+  "source_pdf": "documents/2020/abu-dhabi-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        25.36,
+        196.34,
+        569.73,
+        715.32
+      ],
+      "columns": 20,
+      "page": 2,
+      "rows": 24
+    },
+    {
+      "bbox": [
+        24.09,
+        195.49,
+        571.2,
+        500.01
+      ],
+      "columns": 20,
+      "page": 3,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        24.09,
+        511.27,
+        571.2,
+        535.59
+      ],
+      "columns": 2,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:20",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

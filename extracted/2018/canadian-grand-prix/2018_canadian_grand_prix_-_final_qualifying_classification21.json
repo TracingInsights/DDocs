@@ -1,0 +1,53 @@
+{
+  "date": "2018-06-09",
+  "doc_number": "21",
+  "doc_type": "classification",
+  "event_name": "Time 18:10 2018 CANADIAN GRAND PRIX 7 - 10 June 2018 The Stewards",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T11:18:53Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:5411c8723646fae59c768776484532ea84e6ef60b470237c230d1ff106494d14",
+  "source_pdf": "documents/2018/canadian-grand-prix/2018_canadian_grand_prix_-_final_qualifying_classification21.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.13,
+        187.18,
+        568.07,
+        417.99
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        21.13,
+        427.15,
+        568.07,
+        451.19
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        21.13,
+        460.46,
+        568.07,
+        484.51
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:10",
+  "title": "2018 Canadian Grand Prix Final Qualifying Classification21",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

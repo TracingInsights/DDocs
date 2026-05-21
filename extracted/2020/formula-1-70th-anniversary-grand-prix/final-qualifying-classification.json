@@ -1,0 +1,53 @@
+{
+  "date": "2020-08-08",
+  "doc_number": "30",
+  "doc_type": "classification",
+  "event_name": "Time 18:20 70TH ANNIVERSARY GRAND PRIX 6 \u2013 9 August 2020 The Stewards",
+  "event_slug": "formula-1-70th-anniversary-grand-prix",
+  "extracted_at": "2026-05-21T10:45:07Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:efa48876817f678f001065f0c379549e445d00e7a660d719a2d3dcd78982d35b",
+  "source_pdf": "documents/2020/formula-1-70th-anniversary-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "18:20",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

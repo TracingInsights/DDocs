@@ -1,0 +1,53 @@
+{
+  "date": "2018-07-21",
+  "doc_number": "17",
+  "doc_type": "classification",
+  "event_name": "Time 16:25 2018 GERMAN GRAND PRIX 19 - 22 July 2018 The Stewards",
+  "event_slug": "german-grand-prix",
+  "extracted_at": "2026-05-21T11:22:31Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:43ffe8304b934f7ab82b32aa65e39a62c75fb2288abad966dced0b89c582273f",
+  "source_pdf": "documents/2018/german-grand-prix/doc_17_-_2018_german_grand_prix_-_provisional_qualifying_classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.13,
+        187.18,
+        568.08,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        21.13,
+        439.31,
+        568.08,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        21.13,
+        472.62,
+        568.08,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:25",
+  "title": "Doc 17 2018 German Grand Prix Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

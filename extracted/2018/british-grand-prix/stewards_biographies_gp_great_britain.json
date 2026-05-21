@@ -1,0 +1,68 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T11:18:27Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        443.49,
+        122.44,
+        559.0,
+        238.98
+      ],
+      "deduplicated": true,
+      "display_height": 116.54,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 1,
+      "path": "images/2018_british_preview_p3_img2.jpeg",
+      "sha256": "b436cd10a9e7c7ed7190e0c068ef05ef3fe20505d2faa3167eb4357409c4ce98",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        368.19,
+        559.0,
+        512.77
+      ],
+      "deduplicated": true,
+      "display_height": 144.58,
+      "display_width": 115.51,
+      "height": 189,
+      "page": 1,
+      "path": "images/2018_british_preview_p3_img3.jpeg",
+      "sha256": "5f90c09a4c5c1916e7435722afef87f5753506a6830a56568e7c4b535dab4f19",
+      "width": 151
+    },
+    {
+      "bbox": [
+        443.49,
+        613.93,
+        559.0,
+        730.45
+      ],
+      "deduplicated": true,
+      "display_height": 116.51,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 1,
+      "path": "images/2018_british_preview_p3_img4.jpeg",
+      "sha256": "c959d3b1d7e7ded978e9b45fef4f8cd63a6fa5c3075ca23ba629912c3dc4a56f",
+      "width": 482
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 1,
+  "source_hash": "sha256:10457bee305413877af87cf74ece244043c1b77a8bbf07ea225994b4c2d91f18",
+  "source_pdf": "documents/2018/british-grand-prix/stewards_biographies_gp_great_britain.pdf",
+  "tables_extracted": 0,
+  "time": null,
+  "title": "Stewards Biographies Gp Great Britain",
+  "to": null,
+  "year": 2018
+}

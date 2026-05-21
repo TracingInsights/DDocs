@@ -1,0 +1,68 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Bahrain Grand Prix",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T11:14:49Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        31.43,
+        39.69,
+        560.76,
+        409.02
+      ],
+      "deduplicated": false,
+      "display_height": 369.33,
+      "display_width": 529.33,
+      "height": 1539,
+      "page": 2,
+      "path": "images/2018_bahrain_gp_p2_img1.jpeg",
+      "sha256": "71a4a3ec0b5be0e3a3943d1f9cc47b13898f160e2d9946baccd1d295e3763860",
+      "width": 2206
+    },
+    {
+      "bbox": [
+        443.49,
+        368.19,
+        559.0,
+        521.56
+      ],
+      "deduplicated": false,
+      "display_height": 153.37,
+      "display_width": 115.51,
+      "height": 239,
+      "page": 3,
+      "path": "images/2018_bahrain_gp_p3_img2.jpeg",
+      "sha256": "44590dbcf70518e7f2b007b8a826a1a0bb55a7d398657d5afb383aa8304ae89d",
+      "width": 180
+    },
+    {
+      "bbox": [
+        443.49,
+        613.93,
+        560.03,
+        729.45
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 116.54,
+      "height": 482,
+      "page": 3,
+      "path": "images/2018_bahrain_gp_p3_img3.jpeg",
+      "sha256": "24d299c1863e99d8cb88eb40db294abdb077a04b90a06a39b0bbd703c5184ab7",
+      "width": 486
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 6,
+  "source_hash": "sha256:7dd387c1dbf7c77b9a8c86bb63bd5ccfeab2fa2e3493d79d80c6c37671ffa579",
+  "source_pdf": "documents/2018/bahrain-grand-prix/2018_bahrain_gp.pdf",
+  "tables_extracted": 0,
+  "time": null,
+  "title": "2018 Bahrain Gp",
+  "to": null,
+  "year": 2018
+}

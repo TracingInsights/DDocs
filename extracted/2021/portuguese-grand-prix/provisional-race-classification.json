@@ -1,0 +1,42 @@
+{
+  "date": "2021-05-02",
+  "doc_number": "40",
+  "doc_type": "classification",
+  "event_name": "Time 17:10 2021 PORTUGUESE GRAND PRIX 29 April - 2 May 2021 The Stewards",
+  "event_slug": "portuguese-grand-prix",
+  "extracted_at": "2026-05-21T10:23:56Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:0c927fc0270711e2c0323c62f90ae87dbed96ebee7924bd8a1927821adf87c1e",
+  "source_pdf": "documents/2021/portuguese-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.89,
+        189.37,
+        572.16,
+        420.33
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.89,
+        428.32,
+        572.16,
+        452.44
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:10",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

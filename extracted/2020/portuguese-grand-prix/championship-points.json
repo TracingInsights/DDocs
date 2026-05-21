@@ -1,0 +1,53 @@
+{
+  "date": "2020-10-25",
+  "doc_number": "64",
+  "doc_type": "championship-points",
+  "event_name": "Time 17:15 2020 PORTUGUESE GRAND PRIX 22 to 25 October The Stewards Title Championship Points Description Championship Points",
+  "event_slug": "portuguese-grand-prix",
+  "extracted_at": "2026-05-21T10:47:09Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 3,
+  "source_hash": "sha256:480abcf4469f36ed40ad8f0cd0aef93a8e36a3ab95b11df43a8ee77155189633",
+  "source_pdf": "documents/2020/portuguese-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        25.34,
+        196.34,
+        569.74,
+        670.19
+      ],
+      "columns": 15,
+      "page": 2,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        24.09,
+        195.49,
+        571.2,
+        500.01
+      ],
+      "columns": 15,
+      "page": 3,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        24.09,
+        511.27,
+        571.2,
+        535.59
+      ],
+      "columns": 2,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:15",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

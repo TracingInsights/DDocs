@@ -1,0 +1,42 @@
+{
+  "date": "2020-08-09",
+  "doc_number": "38",
+  "doc_type": "classification",
+  "event_name": "Time 15:55 70TH ANNIVERSARY GRAND PRIX 6 \u2013 9 August 2020 The Stewards",
+  "event_slug": "formula-1-70th-anniversary-grand-prix",
+  "extracted_at": "2026-05-21T10:45:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:624b31b6fc5070fcc68724ddb7dccdbb2f81b643d96d449cb77b75ee42f94f78",
+  "source_pdf": "documents/2020/formula-1-70th-anniversary-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.47,
+        571.96,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.99,
+        428.25,
+        571.96,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "15:55",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

@@ -1,0 +1,109 @@
+{
+  "date": "2021-07-15",
+  "doc_number": "3",
+  "doc_type": "race-director-note",
+  "event_name": "Time 11:34 2021 BRITISH GRAND PRIX 15 - 18 July 2020 The FIA Formula One Race Director",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T10:18:39Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        187.61,
+        97.53,
+        402.64,
+        210.01
+      ],
+      "deduplicated": true,
+      "display_height": 112.48,
+      "display_width": 215.03,
+      "height": 312,
+      "page": 10,
+      "path": "images/race-directors-event-notes-version-2_p10_img1.jpeg",
+      "sha256": "beea01d3306ec0835c702c6266b4998392f9f708fb880573ad16dfd84220c971",
+      "width": 597
+    },
+    {
+      "bbox": [
+        669.48,
+        498.72,
+        775.92,
+        692.16
+      ],
+      "deduplicated": true,
+      "display_height": 193.44,
+      "display_width": 106.44,
+      "height": 1075,
+      "page": 11,
+      "path": "images/race-directors-event-notes-version-2_p11_img2.jpeg",
+      "sha256": "b130f81434c414d13f2097c1fbff81a0b1a29bd50fafa2e027b3ae2204c689db",
+      "width": 592
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 11,
+  "source_hash": "sha256:27a2947d3fdc900fdf0dfc9e6e249abe06e76c8df77b63eb71e347f7253c69ef",
+  "source_pdf": "documents/2021/british-grand-prix/race-directors-event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        18.47,
+        420.1,
+        737.84,
+        509.46
+      ],
+      "columns": 47,
+      "page": 9,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        93.25,
+        76.88,
+        543.7,
+        300.1
+      ],
+      "columns": 7,
+      "page": 10,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        93.25,
+        304.79,
+        543.7,
+        620.74
+      ],
+      "columns": 9,
+      "page": 10,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        151.32,
+        396.73,
+        341.71,
+        506.06
+      ],
+      "columns": 5,
+      "page": 10,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        93.25,
+        632.92,
+        499.12,
+        734.82
+      ],
+      "columns": 2,
+      "page": 10,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 5,
+  "time": "11:34",
+  "title": "Race Directors Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

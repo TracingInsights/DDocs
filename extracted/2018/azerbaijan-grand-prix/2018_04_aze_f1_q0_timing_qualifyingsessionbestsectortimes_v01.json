@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "7 Kimi RAIKKONEN 40.704 33 Max VERSTAPPEN 40.820 3 Daniel RICCIARDO 40.863 5 Sebastian VETTEL 40.905 77 Valtteri BOTTAS 41.155 44 Lewis HAMILTON 41.158 11 Sergio PEREZ 41.430 31 Esteban OCON 41.441 55 Carlos SAINZ 41.460 27 Nico HULKENBERG 41.480 18 Lance STROLL 41.571 14 Fernando ALONSO 41.749 16 Charles LECLERC 41.754 35 Sergey SIROTKIN 41.797 20 Kevin MAGNUSSEN 41.886 2 Stoffel VANDOORNE 42.079 10 Pierre GASLY 42.229 9 Marcus ERICSSON 42.651 28 Brendon HARTLEY 47.863 8 Romain GROSJEAN 55.084 Sector 3 TIME 31 Esteban OCON 25.044 44 Lewis HAMILTON 25.091 55 Carlos SAINZ 25.170 77 Valtteri BOTTAS 25.183 3 Daniel RICCIARDO 25.213 5 Sebastian VETTEL 25.288 33 Max VERSTAPPEN 25.293 11 Sergio PEREZ 25.304 20 Kevin MAGNUSSEN 25.328 7 Kimi RAIKKONEN 25.426 35 Sergey SIROTKIN 25.427 16 Charles LECLERC 25.577 27 Nico HULKENBERG 25.586 18 Lance STROLL 25.610 14 Fernando ALONSO 25.643 2 Stoffel VANDOORNE 25.735 10 Pierre GASLY 25.872 9 Marcus ERICSSON 25.948 8 Romain GROSJEAN 27.562 28 Brendon HARTLEY 27.892 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T11:12:11Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_04_aze_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_04_aze_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:fa1307024df471d93521b766c48bb79fef4ba239f0a5c29d8ce7926092978878",
+  "source_pdf": "documents/2018/azerbaijan-grand-prix/2018_04_aze_f1_q0_timing_qualifyingsessionbestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        429.98
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 04 Aze F1 Q0 Timing Qualifyingsessionbestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

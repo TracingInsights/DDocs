@@ -1,0 +1,450 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T11:09:48Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_01_aus_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_01_aus_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 2,
+  "source_hash": "sha256:441225ec8103de7572f47474f0b8cc44702d1c1ed3bd7a5173bf7fa24e84f760",
+  "source_pdf": "documents/2018/australian-grand-prix/2018_01_aus_f1_p3_timing_thirdpracticesessionlaptimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.44,
+        209.76,
+        104.59,
+        307.18
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        294.95
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        294.95
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        294.95
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        307.18
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        568.98,
+        294.95
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        23.44,
+        343.68,
+        104.59,
+        428.89
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        109.66,
+        343.68,
+        190.81,
+        416.7
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        343.68,
+        293.61,
+        380.19
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        298.68,
+        343.68,
+        379.83,
+        380.19
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        401.48,
+        343.68,
+        482.63,
+        428.89
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        487.7,
+        343.68,
+        568.98,
+        428.89
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        23.44,
+        465.44,
+        104.59,
+        562.79
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        109.66,
+        465.44,
+        190.81,
+        562.79
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        401.48,
+        465.44,
+        482.63,
+        550.64
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        487.7,
+        465.44,
+        568.98,
+        538.46
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        23.44,
+        599.37,
+        104.59,
+        672.38
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        109.66,
+        599.37,
+        190.81,
+        672.38
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        599.37,
+        293.61,
+        648.05
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        298.68,
+        599.37,
+        379.83,
+        648.05
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        401.48,
+        599.37,
+        482.63,
+        648.05
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        487.7,
+        599.37,
+        568.98,
+        635.88
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.43,
+        209.76,
+        104.59,
+        258.43
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        258.43
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        307.1
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        307.1
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        23.43,
+        343.68,
+        104.59,
+        392.37
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        109.66,
+        343.68,
+        190.81,
+        392.37
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        212.46,
+        343.68,
+        293.61,
+        441.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        298.68,
+        343.68,
+        379.83,
+        441.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        401.48,
+        343.68,
+        482.63,
+        392.37
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        487.7,
+        343.68,
+        569.38,
+        380.2
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.43,
+        477.61,
+        104.59,
+        550.64
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        109.66,
+        477.61,
+        190.81,
+        538.46
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        212.46,
+        477.61,
+        293.61,
+        562.79
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        298.68,
+        477.61,
+        379.83,
+        562.79
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 36,
+  "time": null,
+  "title": "2018 01 Aus F1 P3 Timing Thirdpracticesessionlaptimes V01",
+  "to": null,
+  "year": 2018
+}

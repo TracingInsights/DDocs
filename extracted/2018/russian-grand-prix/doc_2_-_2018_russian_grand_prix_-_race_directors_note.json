@@ -1,0 +1,108 @@
+{
+  "date": "2018-09-27",
+  "doc_number": "2",
+  "doc_type": "other",
+  "event_name": "Time 09:00 2018 RUSSIAN GRAND PRIX 27 - 30 September 2018",
+  "event_slug": "russian-grand-prix",
+  "extracted_at": "2026-05-21T11:43:20Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        71.4,
+        56.75,
+        524.05,
+        396.25
+      ],
+      "deduplicated": false,
+      "display_height": 339.5,
+      "display_width": 452.65,
+      "height": 708,
+      "page": 7,
+      "path": "images/doc_2_-_2018_russian_grand_prix_-_race_directors_note_p7_img1.jpeg",
+      "sha256": "ace94f31ed7afdd6456e34f5dbfbc752c4eca1c42bbdbc8c69fd13b0c90755f2",
+      "width": 944
+    },
+    {
+      "bbox": [
+        456.18,
+        352.98,
+        531.06,
+        488.88
+      ],
+      "deduplicated": false,
+      "display_height": 135.9,
+      "display_width": 74.88,
+      "height": 284,
+      "page": 9,
+      "path": "images/doc_2_-_2018_russian_grand_prix_-_race_directors_note_p9_img2.jpeg",
+      "sha256": "58df662f05bef3d9a0bc2cb57144c061543a71eafd5caabc405ca856cb150f5d",
+      "width": 156
+    },
+    {
+      "bbox": [
+        114.84,
+        84.81,
+        179.64,
+        183.93
+      ],
+      "deduplicated": false,
+      "display_height": 99.12,
+      "display_width": 64.8,
+      "height": 360,
+      "page": 11,
+      "path": "images/doc_2_-_2018_russian_grand_prix_-_race_directors_note_p11_img3.jpeg",
+      "sha256": "19fb11d8b9fd1a6dda7ecc4f2cdec96edcd6a349ccba79431d1deebe759e6c24",
+      "width": 826
+    },
+    {
+      "bbox": [
+        265.86,
+        343.11,
+        327.42,
+        442.29
+      ],
+      "deduplicated": false,
+      "display_height": 99.18,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 11,
+      "path": "images/doc_2_-_2018_russian_grand_prix_-_race_directors_note_p11_img4.jpeg",
+      "sha256": "5f0ae14d340bff45009d75c8048e9ff372738f3a3c7f380c6c3f36cb6095e58b",
+      "width": 551
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 11,
+  "source_hash": "sha256:a78f271b5076480f958c4a3288e8980b4d6f94b9bc5b53cffca4f92381b3fde2",
+  "source_pdf": "documents/2018/russian-grand-prix/doc_2_-_2018_russian_grand_prix_-_race_directors_note.pdf",
+  "tables": [
+    {
+      "bbox": [
+        2.04,
+        0.96,
+        559.79,
+        804.36
+      ],
+      "columns": 10,
+      "page": 8,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        398.97,
+        72.39,
+        487.32,
+        816.87
+      ],
+      "columns": 4,
+      "page": 11,
+      "rows": 33
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "09:00",
+  "title": "Doc 2 2018 Russian Grand Prix Race Directors Note",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

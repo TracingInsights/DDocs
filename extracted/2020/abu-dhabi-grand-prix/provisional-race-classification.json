@@ -1,0 +1,42 @@
+{
+  "date": "2020-12-13",
+  "doc_number": "43",
+  "doc_type": "classification",
+  "event_name": "Time 19:10 2020 ABU DHABI GRAND PRIX 10 - 13 December 2020 The Stewards",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T10:37:02Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:bc3ffe18411d051f929b8700e262532cd52c314af01755aa94d12704012a57b4",
+  "source_pdf": "documents/2020/abu-dhabi-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        572.03,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.0,
+        428.25,
+        572.03,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:10",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

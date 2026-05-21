@@ -1,0 +1,763 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Section : 4 Formula 1 Grand Prix Du Canada Statistiques | Statistics 28 Les 6-8-10 Premiers Depuis 1967 | Top 6-8-10 Since 1967 43",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T11:19:29Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        12.0,
+        96.6,
+        778.8,
+        524.04
+      ],
+      "deduplicated": false,
+      "display_height": 427.44,
+      "display_width": 766.8,
+      "height": 1781,
+      "page": 13,
+      "path": "images/guidemedia-gp_version_courte_2018_vf_p13_img1.png",
+      "sha256": "ac3c72ab3cbb3612bdb564742b55ce845b04e7bfb0d61bfd0d3d0ecec03d6a18",
+      "width": 3195
+    },
+    {
+      "bbox": [
+        41.05,
+        26.26,
+        93.35,
+        61.32
+      ],
+      "deduplicated": false,
+      "display_height": 35.06,
+      "display_width": 52.3,
+      "height": 260,
+      "page": 23,
+      "path": "images/guidemedia-gp_version_courte_2018_vf_p23_img2.png",
+      "sha256": "c4c28f59d7309b349fa53e03855fbc2ff09ffb576ccf045f915d34554a7b9f6b",
+      "width": 388
+    },
+    {
+      "bbox": [
+        41.04,
+        25.56,
+        99.36,
+        61.56
+      ],
+      "deduplicated": false,
+      "display_height": 36.0,
+      "display_width": 58.32,
+      "height": 150,
+      "page": 24,
+      "path": "images/guidemedia-gp_version_courte_2018_vf_p24_img3.png",
+      "sha256": "497d49be12e267db20fa0d3f6d717cb197086e72dfb75eab3cf6c98a56212135",
+      "width": 243
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 52,
+  "source_hash": "sha256:ba4dd571cd5810e0fc2014002eafa04a462090c46e4950bc6876a8e5c2ce91d7",
+  "source_pdf": "documents/2018/canadian-grand-prix/guidemedia-gp_version_courte_2018_vf.pdf",
+  "tables": [
+    {
+      "bbox": [
+        99.16,
+        106.7,
+        752.77,
+        560.5
+      ],
+      "columns": 4,
+      "page": 7,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        45.9,
+        61.32,
+        731.55,
+        583.76
+      ],
+      "columns": 5,
+      "page": 16,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        46.86,
+        61.32,
+        741.33,
+        543.89
+      ],
+      "columns": 6,
+      "page": 17,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        46.86,
+        55.51,
+        494.28,
+        436.06
+      ],
+      "columns": 4,
+      "page": 18,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        505.9,
+        55.51,
+        744.14,
+        262.37
+      ],
+      "columns": 3,
+      "page": 18,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        46.86,
+        485.73,
+        697.65,
+        578.75
+      ],
+      "columns": 7,
+      "page": 18,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        35.24,
+        79.99,
+        749.95,
+        493.28
+      ],
+      "columns": 23,
+      "page": 19,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        41.05,
+        84.58,
+        747.33,
+        339.19
+      ],
+      "columns": 9,
+      "page": 20,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        41.05,
+        131.09,
+        744.14,
+        561.87
+      ],
+      "columns": 13,
+      "page": 21,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        41.05,
+        131.09,
+        744.09,
+        549.02
+      ],
+      "columns": 13,
+      "page": 22,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        35.43,
+        121.76,
+        744.76,
+        538.05
+      ],
+      "columns": 13,
+      "page": 23,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        41.05,
+        131.09,
+        743.83,
+        556.27
+      ],
+      "columns": 13,
+      "page": 24,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        41.05,
+        131.09,
+        744.14,
+        553.95
+      ],
+      "columns": 13,
+      "page": 25,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        41.05,
+        131.09,
+        744.14,
+        557.51
+      ],
+      "columns": 13,
+      "page": 26,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        41.05,
+        125.27,
+        744.14,
+        530.87
+      ],
+      "columns": 13,
+      "page": 28,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        43.45,
+        112.09,
+        767.38,
+        547.98
+      ],
+      "columns": 13,
+      "page": 29,
+      "rows": 24
+    },
+    {
+      "bbox": [
+        41.05,
+        113.65,
+        744.14,
+        521.77
+      ],
+      "columns": 13,
+      "page": 30,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        41.05,
+        62.12,
+        273.48,
+        575.48
+      ],
+      "columns": 3,
+      "page": 31,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        284.54,
+        62.12,
+        721.29,
+        575.48
+      ],
+      "columns": 8,
+      "page": 31,
+      "rows": 29
+    },
+    {
+      "bbox": [
+        61.05,
+        283.38,
+        273.48,
+        329.1
+      ],
+      "columns": 2,
+      "page": 31,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        81.26,
+        55.51,
+        331.12,
+        510.69
+      ],
+      "columns": 3,
+      "page": 32,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        389.69,
+        55.51,
+        682.08,
+        593.63
+      ],
+      "columns": 3,
+      "page": 32,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        75.92,
+        49.7,
+        465.23,
+        590.37
+      ],
+      "columns": 5,
+      "page": 33,
+      "rows": 31
+    },
+    {
+      "bbox": [
+        178.61,
+        20.63,
+        645.14,
+        224.85
+      ],
+      "columns": 10,
+      "page": 34,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        178.61,
+        228.91,
+        645.14,
+        597.99
+      ],
+      "columns": 10,
+      "page": 34,
+      "rows": 25
+    },
+    {
+      "bbox": [
+        53.34,
+        61.32,
+        378.41,
+        214.07
+      ],
+      "columns": 6,
+      "page": 35,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        397.62,
+        61.32,
+        725.25,
+        159.52
+      ],
+      "columns": 6,
+      "page": 35,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        397.62,
+        177.38,
+        674.7,
+        275.02
+      ],
+      "columns": 4,
+      "page": 35,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        53.34,
+        218.29,
+        389.69,
+        334.13
+      ],
+      "columns": 6,
+      "page": 35,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        397.62,
+        300.68,
+        740.65,
+        457.06
+      ],
+      "columns": 3,
+      "page": 35,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        53.34,
+        340.38,
+        378.41,
+        559.84
+      ],
+      "columns": 6,
+      "page": 35,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        397.62,
+        473.09,
+        725.25,
+        544.46
+      ],
+      "columns": 3,
+      "page": 35,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        53.31,
+        62.79,
+        425.28,
+        419.19
+      ],
+      "columns": 3,
+      "page": 36,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        429.84,
+        62.79,
+        749.45,
+        179.06
+      ],
+      "columns": 6,
+      "page": 36,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        429.84,
+        198.19,
+        749.45,
+        336.82
+      ],
+      "columns": 3,
+      "page": 36,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        429.84,
+        357.01,
+        749.45,
+        509.31
+      ],
+      "columns": 2,
+      "page": 36,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        53.31,
+        436.18,
+        382.02,
+        496.87
+      ],
+      "columns": 6,
+      "page": 36,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        53.31,
+        509.31,
+        382.02,
+        569.9
+      ],
+      "columns": 6,
+      "page": 36,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        54.47,
+        72.95,
+        713.34,
+        272.45
+      ],
+      "columns": 3,
+      "page": 37,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        54.47,
+        305.5,
+        713.34,
+        543.86
+      ],
+      "columns": 4,
+      "page": 37,
+      "rows": 12
+    },
+    {
+      "bbox": [
+        441.98,
+        188.53,
+        763.4,
+        265.69
+      ],
+      "columns": 2,
+      "page": 38,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        441.98,
+        308.83,
+        763.4,
+        580.81
+      ],
+      "columns": 2,
+      "page": 38,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        34.89,
+        85.24,
+        255.82,
+        351.08
+      ],
+      "columns": 4,
+      "page": 39,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        279.29,
+        85.24,
+        504.67,
+        351.08
+      ],
+      "columns": 3,
+      "page": 39,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        529.14,
+        85.24,
+        725.38,
+        351.08
+      ],
+      "columns": 3,
+      "page": 39,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        46.32,
+        367.82,
+        579.52,
+        498.03
+      ],
+      "columns": 12,
+      "page": 39,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        43.46,
+        85.87,
+        279.29,
+        415.96
+      ],
+      "columns": 5,
+      "page": 40,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        305.52,
+        85.87,
+        504.87,
+        405.86
+      ],
+      "columns": 4,
+      "page": 40,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        517.52,
+        85.87,
+        709.74,
+        267.61
+      ],
+      "columns": 4,
+      "page": 40,
+      "rows": 12
+    },
+    {
+      "bbox": [
+        58.48,
+        78.76,
+        372.9,
+        577.23
+      ],
+      "columns": 6,
+      "page": 41,
+      "rows": 25
+    },
+    {
+      "bbox": [
+        392.01,
+        78.76,
+        755.76,
+        406.04
+      ],
+      "columns": 3,
+      "page": 41,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        110.58,
+        114.52,
+        452.68,
+        390.74
+      ],
+      "columns": 5,
+      "page": 42,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        465.23,
+        114.52,
+        726.7,
+        272.9
+      ],
+      "columns": 4,
+      "page": 42,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        46.86,
+        55.51,
+        757.59,
+        583.23
+      ],
+      "columns": 4,
+      "page": 43,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        46.86,
+        55.51,
+        757.59,
+        566.34
+      ],
+      "columns": 4,
+      "page": 44,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        46.86,
+        55.51,
+        757.59,
+        580.77
+      ],
+      "columns": 4,
+      "page": 45,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        46.86,
+        55.51,
+        757.59,
+        557.5
+      ],
+      "columns": 4,
+      "page": 46,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        17.81,
+        43.88,
+        267.67,
+        573.14
+      ],
+      "columns": 6,
+      "page": 48,
+      "rows": 25
+    },
+    {
+      "bbox": [
+        279.29,
+        43.88,
+        511.71,
+        590.18
+      ],
+      "columns": 6,
+      "page": 48,
+      "rows": 26
+    },
+    {
+      "bbox": [
+        523.33,
+        43.88,
+        755.76,
+        527.05
+      ],
+      "columns": 6,
+      "page": 48,
+      "rows": 23
+    },
+    {
+      "bbox": [
+        122.4,
+        43.65,
+        668.6,
+        65.62
+      ],
+      "columns": 5,
+      "page": 50,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        86.81,
+        85.16,
+        778.88,
+        128.05
+      ],
+      "columns": 6,
+      "page": 51,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        115.49,
+        66.74,
+        684.93,
+        485.73
+      ],
+      "columns": 6,
+      "page": 52,
+      "rows": 34
+    }
+  ],
+  "tables_extracted": 63,
+  "time": null,
+  "title": "Guidemedia Gp Version Courte 2018 Vf",
+  "to": "THE NATIONAL PRESS OFFICER MAXIME BERTHIAUME RESPONSABLE DE L'ACCR\u00c9DITATION | ACCREDITATION COORDINATOR PIERRE PETITCLERC",
+  "year": 2018
+}

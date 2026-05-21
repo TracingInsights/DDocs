@@ -1,0 +1,21 @@
+# From The Stewards
+
+## To The Team Manager,
+
+**Renault Sport Formula One Team Document 9**
+
+Date 31 August 2018 Time 11:42 2018 ITALIAN GRAND PRIX 30 August - 02 September 2018 The Stewards The Stewards, having received a report from the Technical Delegate (document 7), have considered the following matter and determine the following:
+
+### No / Driver 27 - Nico Hulkenberg Competitor Renault Sport Formula One Team
+
+### Time 11:00
+
+Session Practice 1 Fact A 5th Internal Combustion Engine (ICE), 6th Turbo Charger (TC), 5th Motor Generator Unit Heat (MGU-H), 4th Motor Generator Unit - Kinetic (MGU-K), 4th Energy Store and 4th Control Electronics have been used.
+
+Offence Breach of Article 23.3 (a) of the FIA Formula One Sporting Regulations. Decision Required to start the race from the back of the starting grid. Reason The penalty is imposed in accordance with Article 23.3 b). Competitors are reminded that they have the right to appeal the decisions of the Stewards (with the exception of those referred to in Article 12.2.4 of the FIA International Sporting Code), in accordance with Article 15 of the FIA International Sporting Code and Article 9.1.1 of the FIA Judicial and Disciplinary Rules, within the
+
+### applicable time limits.
+
+### Tim Mayer Gerd Ennser
+
+### Danny Sullivan Paolo Longoni

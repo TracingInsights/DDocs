@@ -1,0 +1,42 @@
+{
+  "date": "2020-07-12",
+  "doc_number": "47",
+  "doc_type": "classification",
+  "event_name": "Time 17:20 2020 STYRIAN GRAND PRIX 9 - 12 July 2020 The Stewards",
+  "event_slug": "styrian-grand-prix",
+  "extracted_at": "2026-05-21T10:51:10Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:cd54d46c8660a7f34e245a49cf94ac81ddea973e58327daf2f59773c21ad34d5",
+  "source_pdf": "documents/2020/styrian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.01,
+        189.47,
+        572.03,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.01,
+        403.93,
+        572.03,
+        452.36
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:20",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

@@ -1,0 +1,31 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "French Grand Prix Schedule of Press Conferences DATE TIME DRIVER / TEAM MEMBER Thursday, 21 June 1500hrs Fernando Alonso (McLaren) Pierre Gasly (Toro Rosso)",
+  "event_slug": "french-grand-prix",
+  "extracted_at": "2026-05-21T11:20:50Z",
+  "from": null,
+  "images_extracted": 0,
+  "pages": 1,
+  "source_hash": "sha256:a28d9a2f4113718bcbb94f2975ba506392e98e4dbc258ca8627d030260c8fd57",
+  "source_pdf": "documents/2018/french-grand-prix/2018_fra_gp_pressconfschedule.pdf",
+  "tables": [
+    {
+      "bbox": [
+        51.64,
+        275.62,
+        544.84,
+        560.02
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    }
+  ],
+  "tables_extracted": 1,
+  "time": null,
+  "title": "2018 Fra Gp Pressconfschedule",
+  "to": null,
+  "year": 2018
+}

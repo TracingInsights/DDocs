@@ -1,0 +1,29 @@
+# From The FIA Formula One Technical Delegate
+
+## To The Stewards
+
+Document 15 Date 04 December 2021
+
+## Time 17:04
+
+2021 SAUDI ARABIAN GRAND PRIX 2 - 5 December 2021 The FIA Formula One Technical Delegate
+
+### Title Technical Delegate's Report Description New PU elements for this Event
+
+### Enclosed 21 SAU GP 21 TDR5.pdf Jo Bauer
+
+## 2021 SAUDI ARABIAN GRAND PRIX
+
+### 02 - 05 December 2021
+
+From : The FIA Formula One Technical Delegate To : The Stewards of the Meeting Date : 04 December 2021
+
+**TECHNICAL DELEGATE'S REPORT**
+
+The following drivers will use a new exhaust system (EX) for the remainder of the Event:
+
+**Number Car Driver Previously used EX**
+
+09 Haas Ferrari Nikita Mazepin 6 47 Haas Ferrari Mick Schumacher 6
+
+The exhaust system used by both drivers is one of the eight new exhaust systems allowed for the 2021 Championship season and this is in conformity with Article 23.2a of the 2021 Formula One Sporting Regulations.

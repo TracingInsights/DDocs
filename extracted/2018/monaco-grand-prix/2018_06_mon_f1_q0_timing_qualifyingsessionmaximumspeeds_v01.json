@@ -1,0 +1,98 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "4 55 C. SAINZ 287.6 5 27 N. HULKENBERG 287.0 6 16 C. LECLERC 287.0 7 77 V. BOTTAS 286.9 8 31 E. OCON 286.7 9 8 R. GROSJEAN 286.0 10 11 S. PEREZ 285.7 11 35 S. SIROTKIN 285.5 12 18 L. STROLL 285.3 13 3 D. RICCIARDO 285.0 14 20 K. MAGNUSSEN 284.9 15 9 M. ERICSSON 284.8 16 2 S. VANDOORNE 284.2 17 14 F. ALONSO 283.6 18 28 B. HARTLEY 282.5 19 10 P. GASLY 282.1 FINISH LINE KM/H 3 D. RICCIARDO 277.2 77 V. BOTTAS 276.5 44 L. HAMILTON 276.3 7 K. RAIKKONEN 275.5 5 S. VETTEL 275.1 31 E. OCON 274.8 35 S. SIROTKIN 274.3 11 S. PEREZ 274.2 55 C. SAINZ 273.6 27 N. HULKENBERG 273.2 8 R. GROSJEAN 272.7 2 S. VANDOORNE 272.2 14 F. ALONSO 272.1 18 L. STROLL 271.9 9 M. ERICSSON 271.0 16 C. LECLERC 270.7 20 K. MAGNUSSEN 270.5 28 B. HARTLEY 269.7 10 P. GASLY 269.0 INTERMEDIATE 1 KM/H 5 S. VETTEL 226.6 44 L. HAMILTON 225.9 77 V. BOTTAS 225.0 14 F. ALONSO 224.2 2 S. VANDOORNE 224.1 7 K. RAIKKONEN 224.1 10 P. GASLY 223.9 35 S. SIROTKIN 223.7 11 S. PEREZ 222.7 3 D. RICCIARDO 221.8 55 C. SAINZ 221.8 8 R. GROSJEAN 220.7 31 E. OCON 220.2 16 C. LECLERC 220.1 18 L. STROLL 219.6 28 B. HARTLEY 219.3 20 K. MAGNUSSEN 218.8 27 N. HULKENBERG 217.4 9 M. ERICSSON 216.8 INTERMEDIATE 2 KM/H 3 D. RICCIARDO 212.7 7 K. RAIKKONEN 210.5 77 V. BOTTAS 209.8 5 S. VETTEL 209.0 55 C. SAINZ 208.9 27 N. HULKENBERG 208.5 44 L. HAMILTON 207.6 10 P. GASLY 207.0 8 R. GROSJEAN 206.7 11 S. PEREZ 205.5 35 S. SIROTKIN 205.3 14 F. ALONSO 205.0 2 S. VANDOORNE 204.7 31 E. OCON 204.7 16 C. LECLERC 203.0 20 K. MAGNUSSEN 202.1 28 B. HARTLEY 201.9 9 M. ERICSSON 197.2 18 L. STROLL 196.1 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T11:28:31Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.87
+      ],
+      "deduplicated": true,
+      "display_height": 85.95,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_06_mon_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "73ef808483debfaeee63b7b5f8fda4578417d3b661e1170eaffdbd71b568e6e6",
+      "width": 661
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_06_mon_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:3a3782db4a21b57feef6bc52637f098d15aeabae34888f5c06beaa5644ecd1d6",
+  "source_pdf": "documents/2018/monaco-grand-prix/2018_06_mon_f1_q0_timing_qualifyingsessionmaximumspeeds_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        191.39,
+        170.16,
+        422.58
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        174.54,
+        191.39,
+        302.03,
+        422.58
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        306.03,
+        191.39,
+        433.51,
+        422.58
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        437.67,
+        191.39,
+        565.15,
+        422.58
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    }
+  ],
+  "tables_extracted": 4,
+  "time": null,
+  "title": "2018 06 Mon F1 Q0 Timing Qualifyingsessionmaximumspeeds V01",
+  "to": null,
+  "year": 2018
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2020-07-05",
+  "doc_number": "52",
+  "doc_type": "other",
+  "event_name": "Time 17:20 2020 AUSTRIAN GRAND PRIX 2 - 5 July 2020 The Stewards",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T10:39:31Z",
+  "from": "The Stewards",
+  "images": [
+    {
+      "bbox": [
+        461.39,
+        41.11,
+        561.37,
+        98.19
+      ],
+      "deduplicated": false,
+      "display_height": 57.07,
+      "display_width": 99.97,
+      "height": 300,
+      "page": 2,
+      "path": "images/provisional-race-classificatiion_p2_img1.jpeg",
+      "sha256": "bf1a4076571a474f1ec460f806be7060f9509a09234fe48a366f05a961881f03",
+      "width": 526
+    },
+    {
+      "bbox": [
+        59.57,
+        729.49,
+        175.07,
+        777.75
+      ],
+      "deduplicated": false,
+      "display_height": 48.25,
+      "display_width": 115.5,
+      "height": 202,
+      "page": 2,
+      "path": "images/provisional-race-classificatiion_p2_img2.jpeg",
+      "sha256": "c86172b1b3ee42ca93a602587a1f17d64d4b81f98d262d11792bdb7a740c6ad0",
+      "width": 481
+    },
+    {
+      "bbox": [
+        23.99,
+        22.27,
+        213.97,
+        107.19
+      ],
+      "deduplicated": false,
+      "display_height": 84.91,
+      "display_width": 189.97,
+      "height": 300,
+      "page": 2,
+      "path": "images/provisional-race-classificatiion_p2_img3.jpeg",
+      "sha256": "d7bac9531afb2de911c6a74d2b13308db45d3b2f6f94860b6a29be08faa0f43d",
+      "width": 671
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 2,
+  "source_hash": "sha256:598a11f4e1b60f2a396a1a07e2a2d12f582d3267c2f706ae7e37296ee49ebd0b",
+  "source_pdf": "documents/2020/austrian-grand-prix/provisional-race-classificatiion.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.04,
+        189.47,
+        571.93,
+        347.3
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        23.04,
+        355.29,
+        571.93,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 8
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:20",
+  "title": "Provisional Race Classificatiion",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

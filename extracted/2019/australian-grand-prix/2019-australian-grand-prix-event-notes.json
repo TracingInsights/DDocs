@@ -1,0 +1,108 @@
+{
+  "date": "2019-03-14",
+  "doc_number": "4",
+  "doc_type": "other",
+  "event_name": "Time 19:10 2019 AUSTRALIAN GRAND PRIX 14 - 17 March 2019 The Stewards",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T10:54:29Z",
+  "from": "The Stewards",
+  "images": [
+    {
+      "bbox": [
+        49.65,
+        103.36,
+        132.49,
+        149.96
+      ],
+      "deduplicated": false,
+      "display_height": 46.6,
+      "display_width": 82.84,
+      "height": 145,
+      "page": 5,
+      "path": "images/2019-australian-grand-prix-event-notes_p5_img1.png",
+      "sha256": "8e3e698afc007bc48eee5bc9b346951134e07af38fc7c351a7ed6efdb41b05a0",
+      "width": 258
+    },
+    {
+      "bbox": [
+        133.56,
+        296.4,
+        445.68,
+        380.4
+      ],
+      "deduplicated": false,
+      "display_height": 84.0,
+      "display_width": 312.12,
+      "height": 350,
+      "page": 6,
+      "path": "images/2019-australian-grand-prix-event-notes_p6_img2.png",
+      "sha256": "b63c723b55eb844bb5b13ad09ec026a84353c641b09138a3b9a4c635e1969fd5",
+      "width": 867
+    },
+    {
+      "bbox": [
+        136.08,
+        627.33,
+        197.64,
+        726.51
+      ],
+      "deduplicated": false,
+      "display_height": 99.18,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 8,
+      "path": "images/2019-australian-grand-prix-event-notes_p8_img3.jpeg",
+      "sha256": "ea341471430c64ecea8f9d58dae012602fd3245584f97f3706c47a2ea416a027",
+      "width": 551
+    },
+    {
+      "bbox": [
+        466.26,
+        352.98,
+        541.14,
+        488.88
+      ],
+      "deduplicated": false,
+      "display_height": 135.9,
+      "display_width": 74.88,
+      "height": 284,
+      "page": 9,
+      "path": "images/2019-australian-grand-prix-event-notes_p9_img4.jpeg",
+      "sha256": "3f4f0463bd5cfa8725008d23102abc5d81bff656544906bbfb7cc1e29d2bc73d",
+      "width": 156
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 9,
+  "source_hash": "sha256:79f5d871a56a57253c90028d0469557a84729a2bda097558ecaca844dfd83e4c",
+  "source_pdf": "documents/2019/australian-grand-prix/2019-australian-grand-prix-event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        30.24,
+        1.08,
+        551.7,
+        710.04
+      ],
+      "columns": 24,
+      "page": 6,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        340.2,
+        105.78,
+        463.02,
+        786.73
+      ],
+      "columns": 2,
+      "page": 8,
+      "rows": 46
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:10",
+  "title": "2019 Australian Grand Prix Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2019
+}

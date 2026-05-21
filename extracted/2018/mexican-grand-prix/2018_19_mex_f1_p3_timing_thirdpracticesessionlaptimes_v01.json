@@ -1,0 +1,472 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Mexican Grand Prix",
+  "event_slug": "mexican-grand-prix",
+  "extracted_at": "2026-05-21T11:27:24Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_19_mex_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_19_mex_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 2,
+  "source_hash": "sha256:1a909227a73390c6b71c144f1f02ee07edf34c4333b8a58c87e9f8c253444c03",
+  "source_pdf": "documents/2018/mexican-grand-prix/2018_19_mex_f1_p3_timing_thirdpracticesessionlaptimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.44,
+        209.76,
+        104.59,
+        307.18
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        294.96
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        258.44
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        246.27
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        282.78
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        569.01,
+        270.61
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        23.44,
+        343.68,
+        104.59,
+        441.03
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        109.66,
+        343.68,
+        190.81,
+        441.03
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        212.46,
+        343.68,
+        293.61,
+        404.53
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        298.68,
+        343.68,
+        379.83,
+        404.53
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        401.48,
+        343.68,
+        482.63,
+        428.86
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        487.7,
+        343.68,
+        569.01,
+        428.86
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        23.44,
+        477.61,
+        104.59,
+        574.96
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        109.66,
+        477.61,
+        190.81,
+        574.96
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        212.46,
+        477.61,
+        293.61,
+        538.46
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        298.68,
+        477.61,
+        379.83,
+        538.46
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        401.48,
+        477.61,
+        482.63,
+        550.64
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        487.7,
+        477.61,
+        569.01,
+        538.46
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        23.44,
+        611.54,
+        104.59,
+        696.79
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        109.66,
+        611.54,
+        190.81,
+        684.57
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        611.54,
+        293.61,
+        660.21
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        298.68,
+        611.54,
+        379.83,
+        660.21
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        23.43,
+        209.76,
+        104.59,
+        270.6
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        270.6
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        270.6
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        270.6
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        270.6
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        569.14,
+        270.6
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        23.43,
+        307.18,
+        104.59,
+        368.09
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        109.66,
+        307.18,
+        190.81,
+        355.88
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        212.46,
+        307.18,
+        293.61,
+        368.09
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        298.68,
+        307.18,
+        379.83,
+        355.88
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        401.48,
+        307.18,
+        482.63,
+        368.09
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        487.7,
+        307.18,
+        569.14,
+        355.88
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        23.43,
+        404.6,
+        104.59,
+        477.69
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        109.66,
+        404.6,
+        190.81,
+        465.47
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        212.46,
+        404.6,
+        293.61,
+        428.94
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        298.68,
+        404.6,
+        379.83,
+        428.94
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 38,
+  "time": null,
+  "title": "2018 19 Mex F1 P3 Timing Thirdpracticesessionlaptimes V01",
+  "to": null,
+  "year": 2018
+}

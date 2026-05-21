@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "4 5 Sebastian VETTEL 16.163 5 33 Max VERSTAPPEN 16.200 6 31 Esteban OCON 16.225 7 8 Romain GROSJEAN 16.239 8 20 Kevin MAGNUSSEN 16.247 9 11 Sergio PEREZ 16.271 10 3 Daniel RICCIARDO 16.316 11 27 Nico HULKENBERG 16.319 12 55 Carlos SAINZ 16.341 13 16 Charles LECLERC 16.354 14 10 Pierre GASLY 16.403 15 14 Fernando ALONSO 16.426 16 18 Lance STROLL 16.438 17 35 Sergey SIROTKIN 16.484 18 2 Stoffel VANDOORNE 16.515 19 28 Brendon HARTLEY 16.538 20 9 Marcus ERICSSON 16.565 Sector 2 TIME 5 Sebastian VETTEL 27.913 44 Lewis HAMILTON 28.011 77 Valtteri BOTTAS 28.013 7 Kimi RAIKKONEN 28.022 3 Daniel RICCIARDO 28.137 33 Max VERSTAPPEN 28.182 8 Romain GROSJEAN 28.230 20 Kevin MAGNUSSEN 28.240 27 Nico HULKENBERG 28.364 55 Carlos SAINZ 28.380 10 Pierre GASLY 28.552 16 Charles LECLERC 28.578 31 Esteban OCON 28.583 14 Fernando ALONSO 28.632 18 Lance STROLL 28.757 2 Stoffel VANDOORNE 28.874 28 Brendon HARTLEY 28.904 11 Sergio PEREZ 28.936 35 Sergey SIROTKIN 28.971 9 Marcus ERICSSON 29.038 Sector 3 TIME 77 Valtteri BOTTAS 19.099 44 Lewis HAMILTON 19.113 5 Sebastian VETTEL 19.336 8 Romain GROSJEAN 19.385 33 Max VERSTAPPEN 19.406 3 Daniel RICCIARDO 19.475 7 Kimi RAIKKONEN 19.554 20 Kevin MAGNUSSEN 19.564 16 Charles LECLERC 19.779 10 Pierre GASLY 19.792 9 Marcus ERICSSON 19.805 35 Sergey SIROTKIN 19.828 14 Fernando ALONSO 19.828 55 Carlos SAINZ 19.828 27 Nico HULKENBERG 19.850 28 Brendon HARTLEY 19.875 31 Esteban OCON 19.878 2 Stoffel VANDOORNE 19.882 18 Lance STROLL 19.912 11 Sergio PEREZ 20.017 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T11:10:40Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.87
+      ],
+      "deduplicated": true,
+      "display_height": 85.95,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_09_aut_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "73ef808483debfaeee63b7b5f8fda4578417d3b661e1170eaffdbd71b568e6e6",
+      "width": 661
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_09_aut_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:6007ac5b45e5e9da3bda09d34b9107a4e57b6353c7456792825a265492ed0fe5",
+  "source_pdf": "documents/2018/austrian-grand-prix/2018_09_aut_f1_q0_timing_qualifyingsessionbestsectortimes_v01_0.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 09 Aut F1 Q0 Timing Qualifyingsessionbestsectortimes V01 0",
+  "to": null,
+  "year": 2018
+}

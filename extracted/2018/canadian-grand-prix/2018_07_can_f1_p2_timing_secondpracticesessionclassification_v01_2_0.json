@@ -1,0 +1,31 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "classification",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T11:18:32Z",
+  "from": null,
+  "images_extracted": 0,
+  "pages": 1,
+  "source_hash": "sha256:a75be4b83d4ea4c6e38172519990c1114d94ca608b9fe75718f4e431fbda4e22",
+  "source_pdf": "documents/2018/canadian-grand-prix/2018_07_can_f1_p2_timing_secondpracticesessionclassification_v01_2_0.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.1,
+        186.95,
+        568.36,
+        430.05
+      ],
+      "columns": 10,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": null,
+  "title": "2018 07 Can F1 P2 Timing Secondpracticesessionclassification V01 2 0",
+  "to": null,
+  "year": 2018
+}

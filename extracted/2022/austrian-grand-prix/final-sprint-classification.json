@@ -1,0 +1,42 @@
+{
+  "date": "2022-07-09",
+  "doc_number": "51",
+  "doc_type": "classification",
+  "event_name": "Time 20:20 2022 AUSTRIAN GRAND PRIX 07 - 10 July 2022 The Stewards Title Final Sprint Classification Description Timing Sheet",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T08:32:51Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:68d6e30d3325b656738a2746d4432b3c8ef1f5659bf7a1583cf0ea003336b824",
+  "source_pdf": "documents/2022/austrian-grand-prix/final-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.99,
+        189.47,
+        571.96,
+        420.26
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.99,
+        428.25,
+        571.96,
+        452.3
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:20",
+  "title": "Final Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

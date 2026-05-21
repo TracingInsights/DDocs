@@ -1,0 +1,76 @@
+{
+  "date": "2018-07-21",
+  "doc_number": "20",
+  "doc_type": "other",
+  "event_name": "Time 19:00 2018 GERMAN GRAND PRIX 19 - 22 July 2018 The FIA Formula One Race Director",
+  "event_slug": "german-grand-prix",
+  "extracted_at": "2026-05-21T11:22:41Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        462.12,
+        353.04,
+        537.0,
+        488.88
+      ],
+      "deduplicated": false,
+      "display_height": 135.84,
+      "display_width": 74.88,
+      "height": 283,
+      "page": 7,
+      "path": "images/doc_20_-_2018_german_grand_prix_-_race_directors_note_p7_img1.jpeg",
+      "sha256": "ceec89cf183194f1dce52773029ba04706b4d2beb44d259249466a93eea877cb",
+      "width": 156
+    },
+    {
+      "bbox": [
+        339.12,
+        88.05,
+        381.24,
+        165.81
+      ],
+      "deduplicated": false,
+      "display_height": 77.76,
+      "display_width": 42.12,
+      "height": 234,
+      "page": 9,
+      "path": "images/doc_20_-_2018_german_grand_prix_-_race_directors_note_p9_img2.jpeg",
+      "sha256": "963697c74d0f44dfa1545aaade900aa64855e2ba3e9d196b6714b680f5b948bc",
+      "width": 324
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 9,
+  "source_hash": "sha256:d40e1891e3a5846d92acddc3febccddea9e4f67968a88018eac2590982494b72",
+  "source_pdf": "documents/2018/german-grand-prix/doc_20_-_2018_german_grand_prix_-_race_directors_note.pdf",
+  "tables": [
+    {
+      "bbox": [
+        2.04,
+        0.96,
+        559.79,
+        804.36
+      ],
+      "columns": 10,
+      "page": 6,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        72.59,
+        405.26,
+        764.89,
+        496.26
+      ],
+      "columns": 49,
+      "page": 9,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:00",
+  "title": "Doc 20 2018 German Grand Prix Race Directors Note",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

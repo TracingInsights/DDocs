@@ -1,0 +1,98 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "19 28 B. HARTLEY 316.1 20 7 K. RAIKKONEN 308.8 FINISH LINE KM/H 77 V. BOTTAS 224.5 44 L. HAMILTON 224.1 55 C. SAINZ 223.9 16 C. LECLERC 223.8 5 S. VETTEL 222.3 18 L. STROLL 221.6 28 B. HARTLEY 221.5 11 S. PEREZ 221.2 3 D. RICCIARDO 221.1 33 M. VERSTAPPEN 220.2 35 S. SIROTKIN 220.2 14 F. ALONSO 219.7 8 R. GROSJEAN 219.4 31 E. OCON 218.9 20 K. MAGNUSSEN 218.3 2 S. VANDOORNE 218.2 9 M. ERICSSON 218.1 10 P. GASLY 217.8 7 K. RAIKKONEN 216.0 INTERMEDIATE 1 KM/H 5 S. VETTEL 296.3 20 K. MAGNUSSEN 296.0 77 V. BOTTAS 293.9 44 L. HAMILTON 292.8 16 C. LECLERC 292.4 7 K. RAIKKONEN 291.9 10 P. GASLY 290.9 8 R. GROSJEAN 290.4 55 C. SAINZ 290.1 11 S. PEREZ 289.9 14 F. ALONSO 289.9 33 M. VERSTAPPEN 289.3 9 M. ERICSSON 288.9 31 E. OCON 288.6 18 L. STROLL 288.3 3 D. RICCIARDO 287.3 28 B. HARTLEY 286.9 2 S. VANDOORNE 284.0 35 S. SIROTKIN 281.1 27 N. HULKENBERG 260.9 INTERMEDIATE 2 KM/H 31 E. OCON 322.3 5 S. VETTEL 319.3 14 F. ALONSO 318.4 2 S. VANDOORNE 316.4 10 P. GASLY 315.6 8 R. GROSJEAN 311.7 33 M. VERSTAPPEN 309.9 77 V. BOTTAS 309.9 44 L. HAMILTON 309.0 11 S. PEREZ 307.9 16 C. LECLERC 306.4 9 M. ERICSSON 306.1 20 K. MAGNUSSEN 305.5 3 D. RICCIARDO 304.2 55 C. SAINZ 303.0 18 L. STROLL 301.5 35 S. SIROTKIN 301.4 28 B. HARTLEY 296.3 7 K. RAIKKONEN 285.7 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T11:08:44Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_21_uae_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_21_uae_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:667805bcaaba770c0f21fdabb7531ee0b5297eed6ce18f89b6ccca2657855c01",
+  "source_pdf": "documents/2018/abu-dhabi-grand-prix/2018_21_uae_f1_r0_timing_racemaximumspeeds_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        191.39,
+        170.16,
+        434.75
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        174.54,
+        191.39,
+        302.03,
+        422.58
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        306.03,
+        191.39,
+        433.51,
+        434.75
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        437.67,
+        191.39,
+        565.15,
+        422.58
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    }
+  ],
+  "tables_extracted": 4,
+  "time": null,
+  "title": "2018 21 Uae F1 R0 Timing Racemaximumspeeds V01",
+  "to": null,
+  "year": 2018
+}

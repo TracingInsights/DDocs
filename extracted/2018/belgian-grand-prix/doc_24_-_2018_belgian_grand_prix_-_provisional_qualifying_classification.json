@@ -1,0 +1,53 @@
+{
+  "date": "2018-08-25",
+  "doc_number": "24",
+  "doc_type": "classification",
+  "event_name": "Time 16:15 2018 BELGIAN GRAND PRIX 23 - 26 August 2018 The Stewards",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T11:16:15Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:e007c184b2b66c035e02969ed20ecc28b2aa6deeca7576ee4ee9353c1a671cd3",
+  "source_pdf": "documents/2018/belgian-grand-prix/doc_24_-_2018_belgian_grand_prix_-_provisional_qualifying_classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:15",
+  "title": "Doc 24 2018 Belgian Grand Prix Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

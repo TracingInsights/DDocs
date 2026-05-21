@@ -1,0 +1,53 @@
+{
+  "date": "2020-09-26",
+  "doc_number": "36",
+  "doc_type": "classification",
+  "event_name": "Time 19:25 2020 RUSSIAN GRAND PRIX 24 - 27 September 2020 The Stewards",
+  "event_slug": "russian-grand-prix",
+  "extracted_at": "2026-05-21T10:48:06Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9c523fb04fb795ea2788e82725f8b1804247867289118a8ecd8f4ae258c406af",
+  "source_pdf": "documents/2020/russian-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:25",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

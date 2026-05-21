@@ -1,0 +1,53 @@
+{
+  "date": "2022-11-19",
+  "doc_number": "25",
+  "doc_type": "classification",
+  "event_name": "Time 21:40 2022 ABU DHABI GRAND PRIX 18 - 20 November 2022 The Stewards Title Final Qualifying Classification Description Timing Sheet",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T08:31:04Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:d3efe942fd8404b0aee6f689af66d27690d72af457f023deefd45fab8fd08abe",
+  "source_pdf": "documents/2022/abu-dhabi-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        48.46,
+        175.93,
+        563.49,
+        404.68
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        48.46,
+        413.3,
+        563.49,
+        435.95
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        48.46,
+        444.67,
+        563.49,
+        467.32
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:40",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

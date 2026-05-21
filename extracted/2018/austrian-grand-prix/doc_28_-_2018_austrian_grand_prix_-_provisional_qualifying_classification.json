@@ -1,0 +1,53 @@
+{
+  "date": "2018-06-30",
+  "doc_number": "28",
+  "doc_type": "classification",
+  "event_name": "Time 16:15 2018 AUSTRIAN GRAND PRIX 28 June - 01 July 2018 The Stewards",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T11:11:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:36ca8dd8c78b75064ba7cc69c149e0ed29f797c32210e939a6ac154c9524a934",
+  "source_pdf": "documents/2018/austrian-grand-prix/doc_28_-_2018_austrian_grand_prix_-_provisional_qualifying_classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.13,
+        187.18,
+        568.08,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        21.13,
+        439.31,
+        568.08,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        21.13,
+        472.62,
+        568.08,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:15",
+  "title": "Doc 28 2018 Austrian Grand Prix Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

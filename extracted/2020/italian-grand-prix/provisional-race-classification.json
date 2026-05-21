@@ -1,0 +1,42 @@
+{
+  "date": "2020-09-06",
+  "doc_number": "51",
+  "doc_type": "classification",
+  "event_name": "Time 17:30 2020 ITALIAN GRAND PRIX 3 - 6 September 2020 The Stewards",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T10:46:16Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:3fc5d3e507513ae2108430c29e687b3318b836d2db3389c51f8f4592d4d8be16",
+  "source_pdf": "documents/2020/italian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        29.87,
+        184.37,
+        565.19,
+        373.84
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        29.87,
+        381.63,
+        565.19,
+        440.73
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 5
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:30",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

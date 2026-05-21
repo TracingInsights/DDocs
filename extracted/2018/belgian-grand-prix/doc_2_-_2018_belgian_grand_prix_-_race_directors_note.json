@@ -1,0 +1,108 @@
+{
+  "date": "2018-08-23",
+  "doc_number": "2",
+  "doc_type": "other",
+  "event_name": "Time 08:14 2018 BELGIAN GRAND PRIX 23 - 26 August 2018",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T11:16:27Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        70.9,
+        70.3,
+        524.05,
+        674.4
+      ],
+      "deduplicated": false,
+      "display_height": 604.1,
+      "display_width": 453.15,
+      "height": 1259,
+      "page": 6,
+      "path": "images/doc_2_-_2018_belgian_grand_prix_-_race_directors_note_p6_img1.jpeg",
+      "sha256": "ac5088caca50e3e1e7e681bf2ad87b76905fc15fc27a486a15b6f332fbc7a36e",
+      "width": 945
+    },
+    {
+      "bbox": [
+        462.06,
+        352.98,
+        536.94,
+        488.82
+      ],
+      "deduplicated": false,
+      "display_height": 135.84,
+      "display_width": 74.88,
+      "height": 283,
+      "page": 8,
+      "path": "images/doc_2_-_2018_belgian_grand_prix_-_race_directors_note_p8_img2.jpeg",
+      "sha256": "ceec89cf183194f1dce52773029ba04706b4d2beb44d259249466a93eea877cb",
+      "width": 156
+    },
+    {
+      "bbox": [
+        77.94,
+        503.97,
+        142.74,
+        603.09
+      ],
+      "deduplicated": false,
+      "display_height": 99.12,
+      "display_width": 64.8,
+      "height": 360,
+      "page": 9,
+      "path": "images/doc_2_-_2018_belgian_grand_prix_-_race_directors_note_p9_img3.jpeg",
+      "sha256": "a107cd6653d93e783f9f2e51ee3a6213cc39a79c67ed46e9a9e758db9069b9a0",
+      "width": 826
+    },
+    {
+      "bbox": [
+        119.16,
+        261.93,
+        183.96,
+        361.05
+      ],
+      "deduplicated": false,
+      "display_height": 99.12,
+      "display_width": 64.8,
+      "height": 360,
+      "page": 9,
+      "path": "images/doc_2_-_2018_belgian_grand_prix_-_race_directors_note_p9_img4.jpeg",
+      "sha256": "52c4e28ef10c5cebfcf222a395494ed3a59ece940a6e6bb5b96505ba907650ff",
+      "width": 826
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 10,
+  "source_hash": "sha256:a84c4d8c64f8c5848312773495bb33d26f5497a68c4e1c774e2088270c86c8bc",
+  "source_pdf": "documents/2018/belgian-grand-prix/doc_2_-_2018_belgian_grand_prix_-_race_directors_note.pdf",
+  "tables": [
+    {
+      "bbox": [
+        2.04,
+        0.96,
+        559.79,
+        804.36
+      ],
+      "columns": 10,
+      "page": 7,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        402.55,
+        96.51,
+        476.23,
+        751.13
+      ],
+      "columns": 3,
+      "page": 9,
+      "rows": 42
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "08:14",
+  "title": "Doc 2 2018 Belgian Grand Prix Race Directors Note",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

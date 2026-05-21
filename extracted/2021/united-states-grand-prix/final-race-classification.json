@@ -1,0 +1,42 @@
+{
+  "date": "2021-10-24",
+  "doc_number": "50",
+  "doc_type": "classification",
+  "event_name": "Date 24 October 2021 Time 18:25 2021 UNITED STATES GRAND PRIX 21 - 24 October 2021 The Stewards",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T10:33:44Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:27abcf177611185e8e4acd9e801193426ebd07acfd9d630dbf486a783df2b687",
+  "source_pdf": "documents/2021/united-states-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.92,
+        189.37,
+        572.26,
+        395.99
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        22.92,
+        403.98,
+        572.26,
+        452.47
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:25",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

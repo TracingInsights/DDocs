@@ -1,0 +1,42 @@
+{
+  "date": "2020-07-19",
+  "doc_number": "56",
+  "doc_type": "classification",
+  "event_name": "Time 20:30 2020 HUNGARIAN GRAND PRIX 16 - 19 July 2020 The Stewards",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T10:45:48Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:09b35d3d51299f057f2eb333a160157cf56f39cce521b5cbbdc631142a6288fd",
+  "source_pdf": "documents/2020/hungarian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        571.92,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.0,
+        428.25,
+        571.92,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:30",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2021-10-23",
+  "doc_number": "38",
+  "doc_type": "classification",
+  "event_name": "Date 23 October 2021 Time 20:08 2021 UNITED STATES GRAND PRIX 21 - 24 October 2021 The Stewards",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T10:33:44Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:29595895f5cf55b0d4a3a5cf04e366c5c5fab0cd867913072ad527a5c4e48d83",
+  "source_pdf": "documents/2021/united-states-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.91,
+        187.08,
+        571.24,
+        430.18
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.91,
+        439.38,
+        571.24,
+        463.44
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.91,
+        472.71,
+        571.24,
+        496.78
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:08",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

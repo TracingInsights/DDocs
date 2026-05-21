@@ -1,0 +1,42 @@
+{
+  "date": "2021-05-23",
+  "doc_number": "37",
+  "doc_type": "classification",
+  "event_name": "Time 17:00 2021 MONACO GRAND PRIX 19 - 23 May 2021 The Stewards",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T10:23:11Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4f2ffa29943c4560a14abb364c62a0f880a4e4dd584eea3f46a7b45b82871fac",
+  "source_pdf": "documents/2021/monaco-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.9,
+        189.37,
+        572.22,
+        408.16
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        22.9,
+        416.15,
+        572.22,
+        452.38
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

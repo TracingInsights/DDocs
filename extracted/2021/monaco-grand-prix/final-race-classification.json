@@ -1,0 +1,42 @@
+{
+  "date": "2021-05-23",
+  "doc_number": "39",
+  "doc_type": "classification",
+  "event_name": "Time 19:40 2021 MONACO GRAND PRIX 19 - 23 May 2021 The Stewards",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T10:23:07Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:5c5d4cbc64b5852712bb6c3291df6a64486677c891c553c78c4c6d3e63a1d550",
+  "source_pdf": "documents/2021/monaco-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.91,
+        189.37,
+        572.18,
+        408.16
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        22.91,
+        416.15,
+        572.18,
+        452.38
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:40",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

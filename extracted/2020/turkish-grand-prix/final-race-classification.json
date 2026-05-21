@@ -1,0 +1,42 @@
+{
+  "date": "2020-11-15",
+  "doc_number": "62",
+  "doc_type": "classification",
+  "event_name": "Time 17:50 2020 TURKISH GRAND PRIX 12 - 15 November 2020 The Stewards",
+  "event_slug": "turkish-grand-prix",
+  "extracted_at": "2026-05-21T10:51:37Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:b12bd201907e070ec78b6571bd3e33652762b77350e310d3bf410eb2100295fd",
+  "source_pdf": "documents/2020/turkish-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.01,
+        189.47,
+        572.03,
+        395.94
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.01,
+        403.93,
+        572.03,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:50",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

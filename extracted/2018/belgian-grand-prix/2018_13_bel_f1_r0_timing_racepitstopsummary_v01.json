@@ -1,0 +1,65 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "11 Sergio PEREZ Racing Point Force India F1 Team 1 15:16:02 1 19.667 19.667 31 Esteban OCON Racing Point Force India F1 Team 1 15:16:03 1 19.582 19.582 33 Max VERSTAPPEN Aston Martin Red Bull Racing 1 15:16:04 1 19.942 19.942 8 Romain GROSJEAN Haas F1 Team 1 15:16:05 1 20.280 20.280 20 Kevin MAGNUSSEN Haas F1 Team 1 15:16:07 1 20.021 20.021 10 Pierre GASLY Red Bull Toro Rosso Honda 1 15:16:09 1 20.136 20.136 9 Marcus ERICSSON Alfa Romeo Sauber F1 Team 1 15:16:11 1 19.711 19.711 35 Sergey SIROTKIN Williams Martini Racing 1 15:16:12 1 19.791 19.791 18 Lance STROLL Williams Martini Racing 1 15:16:13 1 19.732 19.732 3 Daniel RICCIARDO Aston Martin Red Bull Racing 1 15:16:15 1 6:35.824 6:35.824 28 Brendon HARTLEY Red Bull Toro Rosso Honda 1 15:16:16 1 18.084 18.084 55 Carlos SAINZ Renault Sport Formula One Team 1 15:16:18 1 18.509 18.509 77 Valtteri BOTTAS Mercedes AMG Petronas Motorsport 1 15:16:19 1 20.349 20.349 2 Stoffel VANDOORNE McLaren F1 Team 1 15:16:21 1 19.847 19.847 7 Kimi RAIKKONEN Scuderia Ferrari 1 15:16:57 1 26.367 26.367 77 Valtteri BOTTAS Mercedes AMG Petronas Motorsport 2 15:19:21 2 30.519 50.868 2 Stoffel VANDOORNE McLaren F1 Team 2 15:19:22 2 22.706 42.553 7 Kimi RAIKKONEN Scuderia Ferrari 7 15:30:50 2 35.451 1:01.818 44 Lewis HAMILTON Mercedes AMG Petronas Motorsport 21 15:55:48 2 22.375 41.747 5 Sebastian VETTEL Scuderia Ferrari 22 15:57:33 2 22.253 41.835 55 Carlos SAINZ Renault Sport Formula One Team 22 15:58:45 2 23.857 42.366 8 Romain GROSJEAN Haas F1 Team 23 16:00:10 2 23.248 43.528 18 Lance STROLL Williams Martini Racing 23 16:00:34 2 22.901 42.633 31 Esteban OCON Racing Point Force India F1 Team 24 16:01:54 2 23.225 42.807 35 Sergey SIROTKIN Williams Martini Racing 24 16:02:22 2 22.339 42.130 11 Sergio PEREZ Racing Point Force India F1 Team 25 16:03:39 2 23.157 42.824 10 Pierre GASLY Red Bull Toro Rosso Honda 25 16:04:03 2 22.953 43.089 33 Max VERSTAPPEN Aston Martin Red Bull Racing 26 16:05:08 2 22.341 42.283 20 Kevin MAGNUSSEN Haas F1 Team 26 16:05:49 2 24.304 44.325 9 Marcus ERICSSON Alfa Romeo Sauber F1 Team 26 16:05:55 2 22.558 42.269 2 Stoffel VANDOORNE McLaren F1 Team 28 16:10:09 3 23.389 1:05.942 77 Valtteri BOTTAS Mercedes AMG Petronas Motorsport 29 16:11:03 3 22.399 1:13.267 28 Brendon HARTLEY Red Bull Toro Rosso Honda 31 16:15:29 2 29.316 47.400 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T11:15:51Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_13_bel_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_13_bel_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:b6e293c08cb3fb61d08b10cdf11c32a8c8b55a70cd391103f9c27e72cbf43fcb",
+  "source_pdf": "documents/2018/belgian-grand-prix/2018_13_bel_f1_r0_timing_racepitstopsummary_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.42,
+        189.39,
+        568.26,
+        615.28
+      ],
+      "columns": 8,
+      "page": 1,
+      "rows": 35
+    }
+  ],
+  "tables_extracted": 1,
+  "time": null,
+  "title": "2018 13 Bel F1 R0 Timing Racepitstopsummary V01",
+  "to": null,
+  "year": 2018
+}

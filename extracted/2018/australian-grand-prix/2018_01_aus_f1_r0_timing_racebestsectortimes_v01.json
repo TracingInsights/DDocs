@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "3 Daniel RICCIARDO 23.044 44 Lewis HAMILTON 23.092 7 Kimi RAIKKONEN 23.101 5 Sebastian VETTEL 23.198 33 Max VERSTAPPEN 23.251 77 Valtteri BOTTAS 23.278 27 Nico HULKENBERG 23.404 14 Fernando ALONSO 23.406 2 Stoffel VANDOORNE 23.455 31 Esteban OCON 23.494 11 Sergio PEREZ 23.557 18 Lance STROLL 23.572 28 Brendon HARTLEY 23.587 55 Carlos SAINZ 23.610 16 Charles LECLERC 23.740 8 Romain GROSJEAN 23.791 20 Kevin MAGNUSSEN 23.822 10 Pierre GASLY 24.226 9 Marcus ERICSSON 24.446 35 Sergey SIROTKIN 24.527 Sector 3 TIME 3 Daniel RICCIARDO 34.089 44 Lewis HAMILTON 34.247 5 Sebastian VETTEL 34.334 7 Kimi RAIKKONEN 34.347 14 Fernando ALONSO 34.454 33 Max VERSTAPPEN 34.464 2 Stoffel VANDOORNE 34.493 77 Valtteri BOTTAS 34.530 27 Nico HULKENBERG 34.549 55 Carlos SAINZ 34.811 11 Sergio PEREZ 34.877 31 Esteban OCON 34.996 28 Brendon HARTLEY 35.181 16 Charles LECLERC 35.256 18 Lance STROLL 35.274 8 Romain GROSJEAN 35.374 20 Kevin MAGNUSSEN 35.839 10 Pierre GASLY 36.209 9 Marcus ERICSSON 36.983 35 Sergey SIROTKIN 37.032 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T11:09:51Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_01_aus_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_01_aus_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:c5418a95c9e0dbfa2221abfa5d11ba653b21557d0738ff16dcf1a5c3f87a8f0a",
+  "source_pdf": "documents/2018/australian-grand-prix/2018_01_aus_f1_r0_timing_racebestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 01 Aus F1 R0 Timing Racebestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

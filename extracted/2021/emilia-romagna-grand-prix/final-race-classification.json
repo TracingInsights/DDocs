@@ -1,0 +1,42 @@
+{
+  "date": "2021-04-18",
+  "doc_number": "61",
+  "doc_type": "classification",
+  "event_name": "Time 20:55 2021 EMILIA ROMAGNA GRAND PRIX 15 - 18 April 2021 The Stewards",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T10:19:47Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:ec6ed792e5bec96d3c690f254f4c1ccc79c06e8f48eef51060a79950843df81d",
+  "source_pdf": "documents/2021/emilia-romagna-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.91,
+        189.37,
+        572.08,
+        395.99
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        22.91,
+        403.98,
+        572.08,
+        452.38
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:55",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

@@ -1,0 +1,494 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T11:24:19Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": false,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_14_ita_f1_p1_timing_firstpracticesessionlaptimes_v01_1_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": false,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_14_ita_f1_p1_timing_firstpracticesessionlaptimes_v01_1_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 2,
+  "source_hash": "sha256:8531dc474b4f81d45facbab38344263d1b1de92b3b4c5235bb9514595f3e3cc2",
+  "source_pdf": "documents/2018/italian-grand-prix/2018_14_ita_f1_p1_timing_firstpracticesessionlaptimes_v01_1.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.44,
+        209.76,
+        104.59,
+        294.95
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        282.78
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        234.09
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        234.09
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        380.11
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        568.96,
+        380.11
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        23.44,
+        416.69,
+        104.59,
+        501.89
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        109.66,
+        416.69,
+        190.81,
+        489.72
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        416.69,
+        293.61,
+        489.72
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        298.68,
+        416.69,
+        379.83,
+        477.54
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        401.48,
+        416.69,
+        482.63,
+        538.45
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        487.7,
+        416.69,
+        568.96,
+        526.23
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        23.44,
+        574.96,
+        104.59,
+        684.47
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        109.66,
+        574.96,
+        190.81,
+        684.47
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        212.46,
+        574.96,
+        293.61,
+        660.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        298.68,
+        574.96,
+        379.83,
+        660.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        401.48,
+        574.96,
+        482.63,
+        635.8
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        487.7,
+        574.96,
+        568.96,
+        635.8
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        23.44,
+        209.76,
+        104.59,
+        258.43
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        258.43
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        294.97
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        282.78
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        307.18
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        569.03,
+        294.97
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        23.44,
+        343.68,
+        104.59,
+        453.27
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        109.66,
+        343.68,
+        190.81,
+        441.06
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        212.46,
+        343.68,
+        293.61,
+        453.27
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        298.68,
+        343.68,
+        379.83,
+        441.06
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        401.48,
+        343.68,
+        482.63,
+        404.53
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        487.7,
+        343.68,
+        569.03,
+        404.53
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        23.44,
+        489.78,
+        104.59,
+        550.65
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        109.66,
+        489.78,
+        190.81,
+        550.65
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        212.46,
+        489.78,
+        293.61,
+        526.28
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        298.68,
+        489.78,
+        379.83,
+        526.28
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        401.48,
+        489.78,
+        482.63,
+        550.65
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        487.7,
+        489.78,
+        569.03,
+        538.46
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        23.44,
+        587.2,
+        104.59,
+        684.62
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        109.66,
+        587.2,
+        190.81,
+        672.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        212.46,
+        587.2,
+        293.61,
+        635.88
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        298.68,
+        587.2,
+        379.83,
+        635.88
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 40,
+  "time": null,
+  "title": "2018 14 Ita F1 P1 Timing Firstpracticesessionlaptimes V01 1",
+  "to": null,
+  "year": 2018
+}

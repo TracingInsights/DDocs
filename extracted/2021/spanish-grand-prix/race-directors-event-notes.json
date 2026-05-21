@@ -1,0 +1,130 @@
+{
+  "date": "2021-05-06",
+  "doc_number": "3",
+  "doc_type": "race-director-note",
+  "event_name": "Time 10:59 2021 SPANISH GRAND PRIX 6 - 9 May 2021 The FIA Formula One Race Director",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T10:32:50Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        167.4,
+        327.57,
+        232.2,
+        426.69
+      ],
+      "deduplicated": true,
+      "display_height": 99.12,
+      "display_width": 64.8,
+      "height": 360,
+      "page": 8,
+      "path": "images/race-directors-event-notes-version-2_p8_img1.jpeg",
+      "sha256": "2951015311baf4aa4b4111ebea5eec7870c871a16e9dcd12c9c60b1af05db0b8",
+      "width": 826
+    },
+    {
+      "bbox": [
+        187.2,
+        601.95,
+        248.76,
+        700.95
+      ],
+      "deduplicated": true,
+      "display_height": 99.0,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 8,
+      "path": "images/race-directors-event-notes-version-2_p8_img2.jpeg",
+      "sha256": "c25c589eec596d23209306a13297902509038e4963accbb0ee952a453a30e8ee",
+      "width": 550
+    },
+    {
+      "bbox": [
+        436.68,
+        355.44,
+        528.54,
+        522.12
+      ],
+      "deduplicated": true,
+      "display_height": 166.68,
+      "display_width": 91.86,
+      "height": 695,
+      "page": 9,
+      "path": "images/race-directors-event-notes-version-2_p9_img3.jpeg",
+      "sha256": "7e35e3cf221b9104459485e70df00df4d2810cc1e052fb7cbb0a95c614572804",
+      "width": 383
+    },
+    {
+      "bbox": [
+        111.1,
+        499.78,
+        481.41,
+        582.55
+      ],
+      "deduplicated": true,
+      "display_height": 82.77,
+      "display_width": 370.31,
+      "height": 262,
+      "page": 10,
+      "path": "images/race-directors-event-notes-version-2_p10_img4.png",
+      "sha256": "664ef71a8a77dbedfbf9ed154fd33188b0c9daa4e72029190326eac8576b5457",
+      "width": 1084
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 10,
+  "source_hash": "sha256:5f63ede20a3ea67239921a7d33049823a21378f48860a4a333fc08be3a713df2",
+  "source_pdf": "documents/2021/spanish-grand-prix/race-directors-event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        377.0,
+        56.1,
+        467.97,
+        777.51
+      ],
+      "columns": 3,
+      "page": 8,
+      "rows": 49
+    },
+    {
+      "bbox": [
+        68.03,
+        84.08,
+        574.44,
+        335.06
+      ],
+      "columns": 8,
+      "page": 10,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        195.82,
+        363.12,
+        443.65,
+        399.75
+      ],
+      "columns": 5,
+      "page": 10,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        68.03,
+        586.96,
+        524.48,
+        702.52
+      ],
+      "columns": 2,
+      "page": 10,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "10:59",
+  "title": "Race Directors Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

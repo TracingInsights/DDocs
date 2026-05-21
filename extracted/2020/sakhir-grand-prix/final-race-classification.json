@@ -1,0 +1,42 @@
+{
+  "date": "2020-12-07",
+  "doc_number": "40",
+  "doc_type": "classification",
+  "event_name": "Time 00:15 2020 SAKHIR GRAND PRIX 3 - 6 December 2020 The Stewards",
+  "event_slug": "sakhir-grand-prix",
+  "extracted_at": "2026-05-21T10:49:17Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c234d9a9953dce4f76f55f657a23ebad1c19cef89db016391b019586d6074dc7",
+  "source_pdf": "documents/2020/sakhir-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.01,
+        189.47,
+        572.03,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.01,
+        403.93,
+        572.03,
+        452.3
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "00:15",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

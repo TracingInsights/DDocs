@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "4 7 Kimi RAIKKONEN 21.697 5 3 Daniel RICCIARDO 21.819 6 20 Kevin MAGNUSSEN 21.842 7 8 Romain GROSJEAN 21.867 8 33 Max VERSTAPPEN 21.900 9 55 Carlos SAINZ 21.990 10 31 Esteban OCON 22.025 11 11 Sergio PEREZ 22.027 12 14 Fernando ALONSO 22.048 13 16 Charles LECLERC 22.078 14 10 Pierre GASLY 22.119 15 35 Sergey SIROTKIN 22.190 16 2 Stoffel VANDOORNE 22.196 17 18 Lance STROLL 22.219 18 9 Marcus ERICSSON 22.279 19 27 Nico HULKENBERG 22.412 Sector 2 TIME 44 Lewis HAMILTON 28.316 77 Valtteri BOTTAS 28.366 5 Sebastian VETTEL 28.555 7 Kimi RAIKKONEN 28.561 33 Max VERSTAPPEN 28.609 3 Daniel RICCIARDO 28.687 20 Kevin MAGNUSSEN 28.894 14 Fernando ALONSO 28.913 8 Romain GROSJEAN 29.011 55 Carlos SAINZ 29.074 2 Stoffel VANDOORNE 29.199 10 Pierre GASLY 29.289 16 Charles LECLERC 29.358 27 Nico HULKENBERG 29.544 31 Esteban OCON 29.560 11 Sergio PEREZ 29.564 9 Marcus ERICSSON 29.750 35 Sergey SIROTKIN 29.779 18 Lance STROLL 30.066 Sector 3 TIME 3 Daniel RICCIARDO 26.159 5 Sebastian VETTEL 26.199 33 Max VERSTAPPEN 26.307 77 Valtteri BOTTAS 26.319 44 Lewis HAMILTON 26.326 7 Kimi RAIKKONEN 26.340 55 Carlos SAINZ 26.681 14 Fernando ALONSO 26.689 20 Kevin MAGNUSSEN 26.771 8 Romain GROSJEAN 26.810 10 Pierre GASLY 26.843 2 Stoffel VANDOORNE 26.858 27 Nico HULKENBERG 26.967 31 Esteban OCON 27.028 11 Sergio PEREZ 27.106 16 Charles LECLERC 27.157 9 Marcus ERICSSON 27.360 35 Sergey SIROTKIN 27.544 18 Lance STROLL 27.576 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T11:44:35Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.87
+      ],
+      "deduplicated": true,
+      "display_height": 85.95,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_05_esp_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "73ef808483debfaeee63b7b5f8fda4578417d3b661e1170eaffdbd71b568e6e6",
+      "width": 661
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_05_esp_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:85d8f53c0a0f55a01f5bf6432a64f4568d5ff0bfc57464fd2e5b05f93049cfc0",
+  "source_pdf": "documents/2018/spanish-grand-prix/2018_05_esp_f1_q0_timing_qualifyingsessionbestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        429.98
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        429.98
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        429.98
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 05 Esp F1 Q0 Timing Qualifyingsessionbestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

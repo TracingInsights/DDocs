@@ -1,0 +1,53 @@
+{
+  "date": "2021-07-31",
+  "doc_number": "29",
+  "doc_type": "classification",
+  "event_name": "Date 31 July 2021 Time 16:35 2021 HUNGARIAN GRAND PRIX 29 July - 1 August 2021 The Stewards",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T10:21:23Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4ade2df2bfe3949e2c2073c17ae204884a71be01ca971daa5c8c229c0c83a72d",
+  "source_pdf": "documents/2021/hungarian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.87,
+        187.08,
+        571.18,
+        418.04
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.87,
+        427.21,
+        571.18,
+        451.27
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.87,
+        460.55,
+        571.18,
+        484.61
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:35",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

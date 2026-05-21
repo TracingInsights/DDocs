@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "44 Lewis HAMILTON 35.649 8 Romain GROSJEAN 35.935 55 Carlos SAINZ 36.050 7 Kimi RAIKKONEN 36.077 33 Max VERSTAPPEN 36.127 5 Sebastian VETTEL 36.195 77 Valtteri BOTTAS 36.240 20 Kevin MAGNUSSEN 36.380 27 Nico HULKENBERG 36.490 16 Charles LECLERC 36.573 9 Marcus ERICSSON 36.593 10 Pierre GASLY 36.631 14 Fernando ALONSO 36.634 31 Esteban OCON 36.657 28 Brendon HARTLEY 36.659 11 Sergio PEREZ 36.810 3 Daniel RICCIARDO 36.827 18 Lance STROLL 36.879 2 Stoffel VANDOORNE 36.919 35 Sergey SIROTKIN 37.048 Sector 3 TIME 44 Lewis HAMILTON 22.913 77 Valtteri BOTTAS 22.998 33 Max VERSTAPPEN 23.136 7 Kimi RAIKKONEN 23.373 2 Stoffel VANDOORNE 23.749 5 Sebastian VETTEL 23.753 8 Romain GROSJEAN 23.833 14 Fernando ALONSO 23.913 27 Nico HULKENBERG 23.962 20 Kevin MAGNUSSEN 24.035 3 Daniel RICCIARDO 24.069 10 Pierre GASLY 24.076 11 Sergio PEREZ 24.095 28 Brendon HARTLEY 24.106 16 Charles LECLERC 24.112 55 Carlos SAINZ 24.160 9 Marcus ERICSSON 24.200 31 Esteban OCON 24.260 18 Lance STROLL 24.381 35 Sergey SIROTKIN 24.421 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "german-grand-prix",
+  "extracted_at": "2026-05-21T11:22:13Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_11_ger_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_11_ger_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:a8ccd4160f55de5b7223218a9995a465964bc9f034b9a55e05ad897f9b0bc0df",
+  "source_pdf": "documents/2018/german-grand-prix/2018_11_ger_f1_r0_timing_racebestsectortimes_v01_1.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 11 Ger F1 R0 Timing Racebestsectortimes V01 1",
+  "to": null,
+  "year": 2018
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2021-03-28",
+  "doc_number": "37",
+  "doc_type": "classification",
+  "event_name": "Time 22:55 2021 BAHRAIN GRAND PRIX 25 - 28 March 2021 The Stewards",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T10:15:41Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:17a780146d3c9b61b0f3deae096322ac5df85a05194d1bd59f6d59d4792611d4",
+  "source_pdf": "documents/2021/bahrain-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        571.26,
+        408.1
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.0,
+        416.09,
+        571.26,
+        452.09
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "22:55",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

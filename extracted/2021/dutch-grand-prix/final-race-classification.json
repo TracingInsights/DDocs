@@ -1,0 +1,42 @@
+{
+  "date": "2021-09-05",
+  "doc_number": "49",
+  "doc_type": "classification",
+  "event_name": "Time 19:20 2021 DUTCH GRAND PRIX 2 - 5 September 2021 The Stewards",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-05-21T10:18:45Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c2de3f090518fbaba0de4e7ad7f142a490c0f8edfa6d6f1e412e573a429579d2",
+  "source_pdf": "documents/2021/dutch-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.91,
+        189.37,
+        572.18,
+        408.16
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        22.91,
+        416.15,
+        572.18,
+        452.47
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:20",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

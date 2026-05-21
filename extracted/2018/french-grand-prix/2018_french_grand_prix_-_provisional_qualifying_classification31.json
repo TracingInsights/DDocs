@@ -1,0 +1,53 @@
+{
+  "date": "2018-06-23",
+  "doc_number": "31",
+  "doc_type": "classification",
+  "event_name": "Time 17:25 2018 FRENCH GRAND PRIX 21 - 24 June 2018 The Stewards",
+  "event_slug": "french-grand-prix",
+  "extracted_at": "2026-05-21T11:20:59Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:183aece8e3570927767a932d6d6e5a66f5ea4ffc0b3f1cd0183fc62d696ce989",
+  "source_pdf": "documents/2018/french-grand-prix/2018_french_grand_prix_-_provisional_qualifying_classification31.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.12,
+        187.23,
+        567.89,
+        430.07
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        21.12,
+        439.23,
+        567.89,
+        463.27
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        21.12,
+        472.53,
+        567.89,
+        496.57
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:25",
+  "title": "2018 French Grand Prix Provisional Qualifying Classification31",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

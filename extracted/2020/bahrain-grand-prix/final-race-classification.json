@@ -1,0 +1,42 @@
+{
+  "date": "2020-11-29",
+  "doc_number": "36",
+  "doc_type": "classification",
+  "event_name": "Time 22:40 2020 BAHRAIN GRAND PRIX 26 - 29 November 2020 The Stewards",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T10:40:38Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:b39cfc5d765d61043b799284b99e7471c01cac80c1d30cc0aff32373db5e80e9",
+  "source_pdf": "documents/2020/bahrain-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.01,
+        189.47,
+        572.03,
+        408.1
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.01,
+        416.09,
+        572.03,
+        452.3
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "22:40",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

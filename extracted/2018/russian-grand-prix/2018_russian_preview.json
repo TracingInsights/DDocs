@@ -1,0 +1,108 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Russian Grand Prix",
+  "event_slug": "russian-grand-prix",
+  "extracted_at": "2026-05-21T11:43:08Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        31.43,
+        39.69,
+        560.76,
+        409.02
+      ],
+      "deduplicated": false,
+      "display_height": 369.33,
+      "display_width": 529.33,
+      "height": 1539,
+      "page": 2,
+      "path": "images/2018_russian_preview_p2_img1.jpeg",
+      "sha256": "5cee4a94a1db86c3b885e0c9cb7a05d73d8634a5eb04fa6f41748033b9cb69ca",
+      "width": 2206
+    },
+    {
+      "bbox": [
+        443.49,
+        122.44,
+        559.0,
+        237.95
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 115.51,
+      "height": 482,
+      "page": 3,
+      "path": "images/2018_russian_preview_p3_img2.jpeg",
+      "sha256": "611a170fe16ae146401b6b4992053a0b09cf2958a06c5d36259887cc8ef4f07c",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        368.19,
+        559.0,
+        484.79
+      ],
+      "deduplicated": false,
+      "display_height": 116.61,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_russian_preview_p3_img3.jpeg",
+      "sha256": "d5c01781b810cd5253e1c1b75ebc7892d38c7fbb834a70adfd06b83a287ff5a7",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        613.93,
+        559.0,
+        730.52
+      ],
+      "deduplicated": false,
+      "display_height": 116.58,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_russian_preview_p3_img4.jpeg",
+      "sha256": "447db2af841a29919b6626d4b99f688d30b71b98843ddb88859d39f7d34fda88",
+      "width": 482
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 6,
+  "source_hash": "sha256:cf7a1092eec07b185c7386b32d88c90bcadc5cd88e8effc3e7daaa5c0f2a0027",
+  "source_pdf": "documents/2018/russian-grand-prix/2018_russian_preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        127.76,
+        179.03,
+        525.2,
+        675.73
+      ],
+      "columns": 15,
+      "page": 4,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        138.48,
+        365.83,
+        538.33,
+        756.09
+      ],
+      "columns": 15,
+      "page": 5,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 Russian Preview",
+  "to": null,
+  "year": 2018
+}

@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "7 Kimi RAIKKONEN 21.304 33 Max VERSTAPPEN 21.387 44 Lewis HAMILTON 21.436 77 Valtteri BOTTAS 21.460 5 Sebastian VETTEL 21.462 27 Nico HULKENBERG 21.638 10 Pierre GASLY 21.661 55 Carlos SAINZ 21.730 28 Brendon HARTLEY 21.782 3 Daniel RICCIARDO 21.782 2 Stoffel VANDOORNE 21.803 14 Fernando ALONSO 21.831 20 Kevin MAGNUSSEN 21.887 8 Romain GROSJEAN 21.905 16 Charles LECLERC 21.931 9 Marcus ERICSSON 21.934 18 Lance STROLL 22.027 31 Esteban OCON 22.059 11 Sergio PEREZ 22.113 35 Sergey SIROTKIN 22.264 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T11:23:23Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_12_hun_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_12_hun_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:1a09b8fdad68b5c66d6931f3acfff6e154d5b53920b8714ba98a15b7167ceaa7",
+  "source_pdf": "documents/2018/hungarian-grand-prix/2018_12_hun_f1_q0_timing_qualifyingsessionbestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 12 Hun F1 Q0 Timing Qualifyingsessionbestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

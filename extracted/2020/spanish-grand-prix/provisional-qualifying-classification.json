@@ -1,0 +1,53 @@
+{
+  "date": "2020-08-15",
+  "doc_number": "25",
+  "doc_type": "classification",
+  "event_name": "Time 16:16 2020 SPANISH GRAND PRIX 13 - 16 August 2020 The Stewards",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T10:50:13Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:fe94de85ccfa26886c648e628e42aea0276b3bf87530288ec90c27a3b1e048ad",
+  "source_pdf": "documents/2020/spanish-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.03,
+        186.93,
+        571.36,
+        430.09
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.03,
+        439.23,
+        571.36,
+        463.32
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.03,
+        472.56,
+        571.36,
+        496.66
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:16",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

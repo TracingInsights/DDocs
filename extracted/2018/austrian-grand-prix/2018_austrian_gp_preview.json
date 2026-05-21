@@ -1,0 +1,108 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T11:10:58Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        31.43,
+        39.69,
+        561.6,
+        409.61
+      ],
+      "deduplicated": false,
+      "display_height": 369.92,
+      "display_width": 530.17,
+      "height": 1542,
+      "page": 2,
+      "path": "images/2018_austrian_gp_preview_p2_img1.jpeg",
+      "sha256": "f3515736db744c5a5585d0314bee717dc7f24b0274955832332e9a267bacb4e5",
+      "width": 2210
+    },
+    {
+      "bbox": [
+        443.49,
+        122.44,
+        559.0,
+        237.95
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 115.51,
+      "height": 482,
+      "page": 3,
+      "path": "images/2018_austrian_gp_preview_p3_img2.jpeg",
+      "sha256": "611a170fe16ae146401b6b4992053a0b09cf2958a06c5d36259887cc8ef4f07c",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        368.19,
+        559.0,
+        484.73
+      ],
+      "deduplicated": false,
+      "display_height": 116.54,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_austrian_gp_preview_p3_img3.jpeg",
+      "sha256": "aac0d0738e20e780ad05c4532f024749acb00c96d1b9ba96672d4fb08905a0d9",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        613.93,
+        559.0,
+        730.45
+      ],
+      "deduplicated": false,
+      "display_height": 116.51,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_austrian_gp_preview_p3_img4.jpeg",
+      "sha256": "665a5680fadd9a35d8d3a2ebda29e063fdfdf10a26a9315122dfcfc953f9f71c",
+      "width": 482
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 6,
+  "source_hash": "sha256:f1ef311f8a9489247ee32a4fa2faaf22b833360c440b5dce464054f7f2b0c373",
+  "source_pdf": "documents/2018/austrian-grand-prix/2018_austrian_gp_preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        127.15,
+        179.03,
+        525.2,
+        676.44
+      ],
+      "columns": 8,
+      "page": 4,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        139.53,
+        365.83,
+        538.33,
+        719.23
+      ],
+      "columns": 8,
+      "page": 5,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 Austrian Gp Preview",
+  "to": "aid with traction on the smooth track surface, tyre supplier",
+  "year": 2018
+}

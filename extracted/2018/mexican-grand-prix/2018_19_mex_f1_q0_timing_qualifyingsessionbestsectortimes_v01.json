@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "4 33 Max VERSTAPPEN 26.929 5 77 Valtteri BOTTAS 26.995 6 16 Charles LECLERC 27.008 7 9 Marcus ERICSSON 27.121 8 3 Daniel RICCIARDO 27.131 9 11 Sergio PEREZ 27.141 10 31 Esteban OCON 27.189 11 20 Kevin MAGNUSSEN 27.212 12 8 Romain GROSJEAN 27.225 13 27 Nico HULKENBERG 27.233 14 18 Lance STROLL 27.260 15 55 Carlos SAINZ 27.287 16 35 Sergey SIROTKIN 27.299 17 10 Pierre GASLY 27.383 18 28 Brendon HARTLEY 27.420 19 2 Stoffel VANDOORNE 27.438 20 14 Fernando ALONSO 27.611 Sector 2 TIME 3 Daniel RICCIARDO 28.353 77 Valtteri BOTTAS 28.528 33 Max VERSTAPPEN 28.539 44 Lewis HAMILTON 28.612 5 Sebastian VETTEL 28.756 7 Kimi RAIKKONEN 28.771 27 Nico HULKENBERG 28.997 55 Carlos SAINZ 29.094 16 Charles LECLERC 29.103 14 Fernando ALONSO 29.274 31 Esteban OCON 29.392 9 Marcus ERICSSON 29.434 11 Sergio PEREZ 29.459 2 Stoffel VANDOORNE 29.528 28 Brendon HARTLEY 29.571 8 Romain GROSJEAN 29.609 10 Pierre GASLY 29.725 20 Kevin MAGNUSSEN 29.857 35 Sergey SIROTKIN 30.061 18 Lance STROLL 30.082 Sector 3 TIME 3 Daniel RICCIARDO 19.275 33 Max VERSTAPPEN 19.315 44 Lewis HAMILTON 19.341 77 Valtteri BOTTAS 19.520 5 Sebastian VETTEL 19.527 27 Nico HULKENBERG 19.536 11 Sergio PEREZ 19.642 55 Carlos SAINZ 19.647 31 Esteban OCON 19.669 28 Brendon HARTLEY 19.688 7 Kimi RAIKKONEN 19.692 10 Pierre GASLY 19.720 9 Marcus ERICSSON 19.808 16 Charles LECLERC 19.830 14 Fernando ALONSO 19.936 2 Stoffel VANDOORNE 20.000 8 Romain GROSJEAN 20.073 18 Lance STROLL 20.206 35 Sergey SIROTKIN 20.273 20 Kevin MAGNUSSEN 20.286 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "mexican-grand-prix",
+  "extracted_at": "2026-05-21T11:27:25Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_19_mex_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_19_mex_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:542b0ac89cf6b4a1aba52f83a3c17d4e944c484fa99a2edd64f2377997808be3",
+  "source_pdf": "documents/2018/mexican-grand-prix/2018_19_mex_f1_q0_timing_qualifyingsessionbestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 19 Mex F1 Q0 Timing Qualifyingsessionbestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

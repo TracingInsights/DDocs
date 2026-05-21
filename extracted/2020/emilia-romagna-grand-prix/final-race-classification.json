@@ -1,0 +1,42 @@
+{
+  "date": "2020-11-01",
+  "doc_number": "35",
+  "doc_type": "classification",
+  "event_name": "EMILIA ROMAGNA GRAND PRIX 30 October - 1 November 2020 The Stewards",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T10:43:59Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:1e02a8b96f0439937b53fcf0249cc3cec591c6271ea95a9def3579f1351b639c",
+  "source_pdf": "documents/2020/emilia-romagna-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.47,
+        571.96,
+        371.63
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        23.03,
+        379.61,
+        571.96,
+        452.39
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:15",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

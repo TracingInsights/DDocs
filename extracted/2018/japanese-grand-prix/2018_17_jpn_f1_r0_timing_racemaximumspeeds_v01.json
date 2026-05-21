@@ -1,0 +1,98 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "77 V. BOTTAS 286.9 44 L. HAMILTON 286.7 5 S. VETTEL 285.6 2 S. VANDOORNE 285.1 7 K. RAIKKONEN 284.3 14 F. ALONSO 283.8 3 D. RICCIARDO 283.1 16 C. LECLERC 282.9 11 S. PEREZ 282.2 28 B. HARTLEY 281.9 9 M. ERICSSON 281.2 18 L. STROLL 281.1 31 E. OCON 280.9 55 C. SAINZ 280.6 10 P. GASLY 279.2 35 S. SIROTKIN 278.1 27 N. HULKENBERG 277.3 8 R. GROSJEAN 276.9 20 K. MAGNUSSEN 276.4 INTERMEDIATE 2 KM/H 5 S. VETTEL 330.7 7 K. RAIKKONEN 325.8 9 M. ERICSSON 321.2 44 L. HAMILTON 320.5 31 E. OCON 319.6 35 S. SIROTKIN 319.0 11 S. PEREZ 318.8 77 V. BOTTAS 318.8 10 P. GASLY 318.6 16 C. LECLERC 316.9 3 D. RICCIARDO 316.8 18 L. STROLL 315.8 20 K. MAGNUSSEN 315.7 2 S. VANDOORNE 313.8 14 F. ALONSO 313.2 55 C. SAINZ 313.0 27 N. HULKENBERG 312.6 33 M. VERSTAPPEN 311.6 28 B. HARTLEY 311.5 8 R. GROSJEAN 306.6 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T11:25:18Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_17_jpn_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_17_jpn_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:88ef288f807761afc50c9c7f9a0368d1c1cfeb96a18f4aefb3bf0ba77e366e6e",
+  "source_pdf": "documents/2018/japanese-grand-prix/2018_17_jpn_f1_r0_timing_racemaximumspeeds_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        191.39,
+        170.16,
+        434.75
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        174.54,
+        191.39,
+        302.03,
+        434.75
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        306.03,
+        191.39,
+        433.51,
+        434.75
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        437.67,
+        191.39,
+        565.15,
+        434.75
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 4,
+  "time": null,
+  "title": "2018 17 Jpn F1 R0 Timing Racemaximumspeeds V01",
+  "to": null,
+  "year": 2018
+}

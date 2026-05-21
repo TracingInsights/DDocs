@@ -1,0 +1,42 @@
+{
+  "date": "2021-08-01",
+  "doc_number": "61",
+  "doc_type": "classification",
+  "event_name": "Date 01 August 2021 Time 23:45 2021 HUNGARIAN GRAND PRIX 29 July - 1 August 2021 The Stewards",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T10:21:16Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4837378ddcb104eadf02f7ab66e20b767ad5f96b08c5e1cf11dcabef51a20037",
+  "source_pdf": "documents/2021/hungarian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.95,
+        189.37,
+        572.16,
+        359.49
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        22.95,
+        367.48,
+        572.16,
+        452.38
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "23:45",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

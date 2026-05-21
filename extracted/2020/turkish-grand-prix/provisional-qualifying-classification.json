@@ -1,0 +1,53 @@
+{
+  "date": "2020-11-14",
+  "doc_number": "26",
+  "doc_type": "classification",
+  "event_name": "Time 17:20 2020 TURKISH GRAND PRIX 12 - 15 November 2020 The Stewards",
+  "event_slug": "turkish-grand-prix",
+  "extracted_at": "2026-05-21T10:51:41Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:b1860b165ac85fe909ed4c7aa0e9b337e458b515d2290d0e13fdfffa66b7e6b6",
+  "source_pdf": "documents/2020/turkish-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.92,
+        430.13
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.92,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.92,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:20",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

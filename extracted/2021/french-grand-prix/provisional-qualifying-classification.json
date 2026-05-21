@@ -1,0 +1,64 @@
+{
+  "date": "2021-06-19",
+  "doc_number": "23",
+  "doc_type": "classification",
+  "event_name": "Time 16:40 2021 FRENCH GRAND PRIX 17 -20 June 2021 The Stewards",
+  "event_slug": "french-grand-prix",
+  "extracted_at": "2026-05-21T10:20:44Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:50c0ec824365d658a17e8537caf627fdf78fe263e967c9672551b70f551bf946",
+  "source_pdf": "documents/2021/french-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.92,
+        187.08,
+        571.21,
+        405.87
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.92,
+        415.04,
+        571.21,
+        451.27
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.92,
+        460.55,
+        571.21,
+        484.61
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.92,
+        493.88,
+        571.21,
+        517.95
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "16:40",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

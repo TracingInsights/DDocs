@@ -1,0 +1,53 @@
+{
+  "date": "2020-10-31",
+  "doc_number": "20",
+  "doc_type": "classification",
+  "event_name": "EMILIA ROMAGNA GRAND PRIX 30 October - 1 November 2020 The Stewards",
+  "event_slug": "emilia-romagna-grand-prix",
+  "extracted_at": "2026-05-21T10:44:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9fc8f39075d1988b326a2c2b62809ced099e7b1c2c0310020777ea5daf89acbd",
+  "source_pdf": "documents/2020/emilia-romagna-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "15:16",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

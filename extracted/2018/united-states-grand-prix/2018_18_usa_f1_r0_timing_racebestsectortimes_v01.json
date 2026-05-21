@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "44 Lewis HAMILTON 38.791 33 Max VERSTAPPEN 38.845 5 Sebastian VETTEL 38.989 7 Kimi RAIKKONEN 39.000 77 Valtteri BOTTAS 39.369 11 Sergio PEREZ 39.415 2 Stoffel VANDOORNE 39.445 20 Kevin MAGNUSSEN 39.485 35 Sergey SIROTKIN 39.492 27 Nico HULKENBERG 39.552 55 Carlos SAINZ 39.573 31 Esteban OCON 39.650 9 Marcus ERICSSON 39.681 18 Lance STROLL 39.738 28 Brendon HARTLEY 39.749 10 Pierre GASLY 39.831 3 Daniel RICCIARDO 40.145 16 Charles LECLERC 40.506 8 Romain GROSJEAN 44.105 14 Fernando ALONSO 44.635 Sector 3 TIME 33 Max VERSTAPPEN 32.209 44 Lewis HAMILTON 32.317 5 Sebastian VETTEL 32.759 7 Kimi RAIKKONEN 32.769 77 Valtteri BOTTAS 32.929 20 Kevin MAGNUSSEN 32.972 2 Stoffel VANDOORNE 33.015 35 Sergey SIROTKIN 33.037 27 Nico HULKENBERG 33.193 10 Pierre GASLY 33.232 55 Carlos SAINZ 33.350 28 Brendon HARTLEY 33.423 11 Sergio PEREZ 33.424 9 Marcus ERICSSON 33.467 3 Daniel RICCIARDO 33.590 18 Lance STROLL 33.647 31 Esteban OCON 33.668 16 Charles LECLERC 33.849 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T11:45:44Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_18_usa_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_18_usa_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:a096649ccca4f3a58d9735409e93168569c15a57a28fe9ac8aa131b1a3721692",
+  "source_pdf": "documents/2018/united-states-grand-prix/2018_18_usa_f1_r0_timing_racebestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.04,
+        198.78,
+        200.18,
+        417.81
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.25,
+        417.81
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 18
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 18 Usa F1 R0 Timing Racebestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

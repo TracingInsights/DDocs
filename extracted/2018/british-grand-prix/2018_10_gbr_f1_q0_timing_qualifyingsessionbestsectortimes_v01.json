@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "4 77 Valtteri BOTTAS 27.572 5 33 Max VERSTAPPEN 27.846 6 3 Daniel RICCIARDO 27.950 7 11 Sergio PEREZ 27.953 8 20 Kevin MAGNUSSEN 27.954 9 31 Esteban OCON 27.987 10 8 Romain GROSJEAN 28.015 11 16 Charles LECLERC 28.030 12 27 Nico HULKENBERG 28.158 13 9 Marcus ERICSSON 28.217 14 55 Carlos SAINZ 28.250 15 35 Sergey SIROTKIN 28.282 16 14 Fernando ALONSO 28.319 17 10 Pierre GASLY 28.355 18 18 Lance STROLL 28.492 19 2 Stoffel VANDOORNE 28.501 Sector 2 TIME 44 Lewis HAMILTON 34.708 5 Sebastian VETTEL 34.752 77 Valtteri BOTTAS 34.810 7 Kimi RAIKKONEN 34.911 33 Max VERSTAPPEN 35.029 3 Daniel RICCIARDO 35.214 20 Kevin MAGNUSSEN 35.314 8 Romain GROSJEAN 35.363 16 Charles LECLERC 35.450 9 Marcus ERICSSON 35.509 14 Fernando ALONSO 35.634 27 Nico HULKENBERG 35.673 31 Esteban OCON 35.716 10 Pierre GASLY 35.780 11 Sergio PEREZ 35.803 55 Carlos SAINZ 35.920 2 Stoffel VANDOORNE 36.084 35 Sergey SIROTKIN 36.206 18 Lance STROLL 54.900 Sector 3 TIME 7 Kimi RAIKKONEN 23.567 5 Sebastian VETTEL 23.636 44 Lewis HAMILTON 23.643 33 Max VERSTAPPEN 23.656 77 Valtteri BOTTAS 23.698 3 Daniel RICCIARDO 23.805 20 Kevin MAGNUSSEN 23.976 8 Romain GROSJEAN 23.982 27 Nico HULKENBERG 24.013 14 Fernando ALONSO 24.104 31 Esteban OCON 24.105 16 Charles LECLERC 24.134 10 Pierre GASLY 24.152 11 Sergio PEREZ 24.172 55 Carlos SAINZ 24.286 2 Stoffel VANDOORNE 24.331 9 Marcus ERICSSON 24.413 35 Sergey SIROTKIN 24.658 18 Lance STROLL 34.867 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-05-21T11:17:35Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.87
+      ],
+      "deduplicated": true,
+      "display_height": 85.95,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_10_gbr_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "73ef808483debfaeee63b7b5f8fda4578417d3b661e1170eaffdbd71b568e6e6",
+      "width": 661
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_10_gbr_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:79398b836197eff9ce5806954dca74fdc26e6b5518cc3194a54c6a04232af298",
+  "source_pdf": "documents/2018/british-grand-prix/2018_10_gbr_f1_q0_timing_qualifyingsessionbestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        429.98
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        429.98
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        429.98
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 10 Gbr F1 Q0 Timing Qualifyingsessionbestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

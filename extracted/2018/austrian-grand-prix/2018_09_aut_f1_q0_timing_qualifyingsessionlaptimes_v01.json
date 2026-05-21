@@ -1,0 +1,494 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T11:10:41Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.87
+      ],
+      "deduplicated": true,
+      "display_height": 85.95,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_09_aut_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "73ef808483debfaeee63b7b5f8fda4578417d3b661e1170eaffdbd71b568e6e6",
+      "width": 661
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_09_aut_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 3,
+  "source_hash": "sha256:fc378623b055aac6f557e79cbcf39a2066a477f591b48048be3eb6b1c627f88c",
+  "source_pdf": "documents/2018/austrian-grand-prix/2018_09_aut_f1_q0_timing_qualifyingsessionlaptimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.44,
+        209.76,
+        104.59,
+        270.61
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        258.44
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        343.61
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        343.61
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        319.29
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        568.99,
+        307.11
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        23.44,
+        380.19,
+        104.59,
+        514.12
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        109.66,
+        380.19,
+        190.81,
+        501.9
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        212.46,
+        380.19,
+        293.61,
+        489.72
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        298.68,
+        380.19,
+        379.83,
+        477.55
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        401.48,
+        380.19,
+        482.63,
+        453.21
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        487.7,
+        380.19,
+        568.99,
+        441.04
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        23.44,
+        550.62,
+        104.59,
+        647.98
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        109.66,
+        550.62,
+        190.81,
+        647.98
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        212.46,
+        550.62,
+        293.61,
+        623.64
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        298.68,
+        550.62,
+        379.83,
+        611.47
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        401.48,
+        550.62,
+        482.63,
+        660.21
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        487.7,
+        550.62,
+        568.99,
+        647.98
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        23.44,
+        209.76,
+        104.59,
+        319.28
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        319.28
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        319.28
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        307.11
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        331.44
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        568.95,
+        331.44
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        23.44,
+        368.02,
+        104.59,
+        489.73
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        109.66,
+        368.02,
+        190.81,
+        489.73
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        212.46,
+        368.02,
+        293.61,
+        428.86
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        298.68,
+        368.02,
+        379.83,
+        428.86
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        401.48,
+        368.02,
+        482.63,
+        489.73
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        487.7,
+        368.02,
+        568.95,
+        477.55
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        23.44,
+        526.28,
+        104.59,
+        635.8
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        109.66,
+        526.28,
+        190.81,
+        635.8
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        212.46,
+        526.28,
+        293.61,
+        587.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        298.68,
+        526.28,
+        379.83,
+        587.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        401.48,
+        526.28,
+        482.63,
+        647.97
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        487.7,
+        526.28,
+        568.95,
+        647.97
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        23.43,
+        209.76,
+        104.59,
+        331.51
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        319.31
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        319.31
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        307.11
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 8
+    }
+  ],
+  "tables_extracted": 40,
+  "time": null,
+  "title": "2018 09 Aut F1 Q0 Timing Qualifyingsessionlaptimes V01",
+  "to": null,
+  "year": 2018
+}

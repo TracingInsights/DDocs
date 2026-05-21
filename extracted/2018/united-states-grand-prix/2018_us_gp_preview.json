@@ -1,0 +1,92 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T11:46:13Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        31.43,
+        39.69,
+        560.76,
+        409.02
+      ],
+      "deduplicated": false,
+      "display_height": 369.33,
+      "display_width": 529.33,
+      "height": 1539,
+      "page": 2,
+      "path": "images/2018_us_gp_preview_p2_img1.jpeg",
+      "sha256": "596f21f6071af6ca895cab32df87a117fa3fe1982b42fed48d72cb53c74bca13",
+      "width": 2206
+    },
+    {
+      "bbox": [
+        443.49,
+        368.19,
+        559.0,
+        484.73
+      ],
+      "deduplicated": false,
+      "display_height": 116.54,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_us_gp_preview_p3_img2.jpeg",
+      "sha256": "aac0d0738e20e780ad05c4532f024749acb00c96d1b9ba96672d4fb08905a0d9",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        613.93,
+        559.0,
+        730.45
+      ],
+      "deduplicated": false,
+      "display_height": 116.51,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_us_gp_preview_p3_img3.jpeg",
+      "sha256": "665a5680fadd9a35d8d3a2ebda29e063fdfdf10a26a9315122dfcfc953f9f71c",
+      "width": 482
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 6,
+  "source_hash": "sha256:b464630d191288827b034e444ea4394d925405fedd4688cc7d6a2fb54b3773ea",
+  "source_pdf": "documents/2018/united-states-grand-prix/2018_us_gp_preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        127.76,
+        179.03,
+        525.2,
+        675.73
+      ],
+      "columns": 17,
+      "page": 4,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        138.48,
+        365.83,
+        538.33,
+        756.09
+      ],
+      "columns": 17,
+      "page": 5,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 Us Gp Preview",
+  "to": null,
+  "year": 2018
+}

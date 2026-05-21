@@ -1,0 +1,42 @@
+{
+  "date": "2021-09-11",
+  "doc_number": "41",
+  "doc_type": "classification",
+  "event_name": "Time 17:35 2021 ITALIAN GRAND PRIX 9 - 12 September 2021 The Stewards",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T10:21:48Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:89fe9a0bf225a2ef55ef3faad3a6f44094258c82112030dc0acbfeb965a24b42",
+  "source_pdf": "documents/2021/italian-grand-prix/provisional-sprint-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.89,
+        189.37,
+        572.22,
+        420.33
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.89,
+        428.32,
+        572.22,
+        452.38
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:35",
+  "title": "Provisional Sprint Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

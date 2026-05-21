@@ -1,0 +1,76 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T11:28:44Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.87
+      ],
+      "deduplicated": true,
+      "display_height": 85.95,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_06_mon_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "73ef808483debfaeee63b7b5f8fda4578417d3b661e1170eaffdbd71b568e6e6",
+      "width": 661
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_06_mon_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 2,
+  "source_hash": "sha256:31b62bd3bf8bd37d208cf2c81f12fe32d9836a4c3ab15445f0df413f01c2c716",
+  "source_pdf": "documents/2018/monaco-grand-prix/2018_06_mon_f1_r0_timing_racelapchart_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        470.77,
+        280.77,
+        572.87,
+        766.77
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        394.07,
+        183.57,
+        547.47,
+        442.77
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 06 Mon F1 R0 Timing Racelapchart V01",
+  "to": null,
+  "year": 2018
+}

@@ -1,0 +1,130 @@
+{
+  "date": "2021-07-01",
+  "doc_number": "3",
+  "doc_type": "race-director-note",
+  "event_name": "Time 10:56 2021 AUSTRIAN GRAND PRIX 01 - 04 July 2021 The FIA Formula One Race Director",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T10:12:52Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        208.44,
+        476.31,
+        270.0,
+        575.49
+      ],
+      "deduplicated": true,
+      "display_height": 99.18,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 8,
+      "path": "images/race-directors-event-notes-version-2_p9_img1.jpeg",
+      "sha256": "9d063566e5a8361df22073580ffb4b38dec7d32ab5da2fbdacaae536ae88b880",
+      "width": 551
+    },
+    {
+      "bbox": [
+        215.46,
+        295.95,
+        277.02,
+        395.13
+      ],
+      "deduplicated": true,
+      "display_height": 99.18,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 8,
+      "path": "images/race-directors-event-notes-version-2_p9_img2.jpeg",
+      "sha256": "347de1c867e6dfed421d1e519db05c3bf79cc7c05a7e7c347ecf3bf56c9fa91f",
+      "width": 551
+    },
+    {
+      "bbox": [
+        187.16,
+        97.57,
+        404.77,
+        211.37
+      ],
+      "deduplicated": true,
+      "display_height": 113.8,
+      "display_width": 217.61,
+      "height": 316,
+      "page": 9,
+      "path": "images/race-directors-event-notes-version-2_p10_img3.png",
+      "sha256": "1569086e3912a8f1b51cf5ac7ce4d690053391691a254a7994392547f29bbe3e",
+      "width": 604
+    },
+    {
+      "bbox": [
+        489.36,
+        356.7,
+        560.88,
+        486.42
+      ],
+      "deduplicated": true,
+      "display_height": 129.72,
+      "display_width": 71.52,
+      "height": 541,
+      "page": 10,
+      "path": "images/race-directors-event-notes-version-2_p11_img4.jpeg",
+      "sha256": "6bd7e8e77b10d3c9db0e2dcb811662be6fd3946e74bcfce6e4933cea60ef3dd9",
+      "width": 298
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 10,
+  "source_hash": "sha256:2dcbf24bb54082ffe23872cd6321168c9ec6d385564eebca57de020f9d308328",
+  "source_pdf": "documents/2021/austrian-grand-prix/race-directors-event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        70.91,
+        414.15,
+        673.25,
+        487.67
+      ],
+      "columns": 36,
+      "page": 8,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        93.44,
+        76.88,
+        543.7,
+        628.9
+      ],
+      "columns": 11,
+      "page": 9,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        151.58,
+        412.33,
+        341.71,
+        521.66
+      ],
+      "columns": 8,
+      "page": 9,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        93.44,
+        637.96,
+        499.09,
+        739.74
+      ],
+      "columns": 2,
+      "page": 9,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "10:56",
+  "title": "Race Directors Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

@@ -1,0 +1,23 @@
+# From The Stewards
+
+## To The Team Manager,
+
+BWT Alpine F1 Team
+
+## Document 73
+
+Date 10 July 2022
+
+Time 19:02 2022 AUSTRIAN GRAND PRIX 07 - 10 July 2022 The Stewards, having received a report from the Race Director, summoned (document 63) and heard from the driver and team representative, have considered the following matter, and determine the following:
+
+### No / Driver 14 - Fernando Alonso Competitor BWT Alpine F1 Team Time 16:12
+
+### Session Race
+
+Fact Alleged release of car 14 in an unsafe condition at 16:12. Offence Alleged breach of Article 34.14 d) and 34.14 e) of the FIA Formula One Sporting Regulations. Decision No Further Action. Reason The Stewards heard from the driver of Car 14 (Fernando Alonso) and team representative and examined video and audio evidence. Alonso made a pit stop at 16:12 during the VSC due to the incident at turn 4. The left front wheel subsequently came loose by a small margin and the Stewards investigated to see if the car was "released in an unsafe condition" which is a potential breach of Article 34.14 of the FIA Formula One Sporting Regulations. The Stewards reviewed multiple angles of video of the pit stop, including pit lane CCTV, CCTV from over the pit stop location and in-car footage. There is nothing in the video to indicate that the pit stop was anything other than a normal pit stop, including that the wheel concerned appears to fully engage and become fully tight. The team manager reported that the mechanic fitting the wheel reported that everything felt normal, and indeed his body language on the video appears completely normal. Nothing appears to be wrong until just before turn 3, where the wheel slightly disengages from the car, by a very small amount. Shortly after turn 3 the driver states on the radio that they will need to box again. When asked by the crew the driver simply reported that they needed to box again. In the hearing, the driver stated that he cannot see the rim of the wheel and that all he felt was a small vibration. This is consistent with the video, in that the movement of the tyre was hardly distinguishable. After entering the pit lane, the driver stated "check left front." In the hearing he stated that it felt worse when he turned to the right than when he turned to the left, but that there was still nothing obvious from his vantage point. After the race, the left front wheel with the tyre and the axel were inspected by the Technical Delegate and the Head of Single Seater Technical Affairs. They reported to the Stewards that the damage to the wheel and axel is consistent with a parts
+
+The Stewards failure in all likelihood subsequent to the exit of the car from the pits. Based on the footage of the car from the moment the wheel was fitted, until the failure became apparent, the Stewards conclude that the wheel was fully fitted, and that subsequent to the failure, all the retention systems worked as designed. The Stewards therefore conclude that the car was not released in an unsafe condition and take no further action. Competitors are reminded that they have the right to appeal certain decisions of the Stewards, in accordance with Article 15 of the FIA International Sporting Code and Chapter 4 of the FIA Judicial and Disciplinary Rules, within the applicable time limits.
+
+### Tim Mayer Silvia Bellot
+
+### Enrique Bernoldi Walter Jobst

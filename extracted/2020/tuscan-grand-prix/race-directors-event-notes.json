@@ -1,0 +1,71 @@
+{
+  "date": "2020-09-10",
+  "doc_number": "3",
+  "doc_type": "race-director-note",
+  "event_name": "Time 11:44 2020 TUSCAN GRAND PRIX 10 - 13 September 2020 The FIA Formula One Race Director",
+  "event_slug": "tuscan-grand-prix",
+  "extracted_at": "2026-05-21T10:53:13Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        43.11,
+        64.59,
+        559.59,
+        753.19
+      ],
+      "deduplicated": true,
+      "display_height": 688.6,
+      "display_width": 516.48,
+      "height": 1512,
+      "page": 7,
+      "path": "images/race-directors-event-notes-version-2_p7_img1.jpeg",
+      "sha256": "0c445bae889395398573db2c764323074d71960ec4f6f6715b93a740202b8a7d",
+      "width": 2016
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 10,
+  "source_hash": "sha256:c7d8e79fae6bac2d792dd240f4c2970e2ba676c8ff722aa20806962e0764383b",
+  "source_pdf": "documents/2020/tuscan-grand-prix/race-directors-event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        436.86,
+        63.0,
+        508.77,
+        765.01
+      ],
+      "columns": 2,
+      "page": 9,
+      "rows": 23
+    },
+    {
+      "bbox": [
+        74.57,
+        77.66,
+        581.88,
+        359.03
+      ],
+      "columns": 9,
+      "page": 10,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        35.83,
+        592.74,
+        556.28,
+        734.1
+      ],
+      "columns": 2,
+      "page": 10,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "11:44",
+  "title": "Race Directors Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

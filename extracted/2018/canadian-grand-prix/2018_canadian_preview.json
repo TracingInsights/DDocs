@@ -1,0 +1,92 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T11:19:20Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        30.83,
+        38.57,
+        561.3,
+        408.49
+      ],
+      "deduplicated": false,
+      "display_height": 369.92,
+      "display_width": 530.47,
+      "height": 1542,
+      "page": 2,
+      "path": "images/2018_canadian_preview_p2_img1.jpeg",
+      "sha256": "e4c8213198b749a843d9a7b691d1940cf7ea92512279f2fb90239df76ac4d905",
+      "width": 2211
+    },
+    {
+      "bbox": [
+        442.12,
+        365.23,
+        559.75,
+        512.55
+      ],
+      "deduplicated": false,
+      "display_height": 147.32,
+      "display_width": 117.63,
+      "height": 614,
+      "page": 3,
+      "path": "images/2018_canadian_preview_p3_img2.jpeg",
+      "sha256": "833e98677c75461ed9a24c129cbaa9b168745f540c0882be91110d3351b26e86",
+      "width": 491
+    },
+    {
+      "bbox": [
+        443.49,
+        613.93,
+        559.0,
+        730.52
+      ],
+      "deduplicated": false,
+      "display_height": 116.58,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_canadian_preview_p3_img3.jpeg",
+      "sha256": "447db2af841a29919b6626d4b99f688d30b71b98843ddb88859d39f7d34fda88",
+      "width": 482
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 6,
+  "source_hash": "sha256:480ee6407c04d7eadd7e2d2b50216621f558a71b630f72e057189296914d281d",
+  "source_pdf": "documents/2018/canadian-grand-prix/2018_canadian_preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        127.15,
+        179.03,
+        525.2,
+        676.89
+      ],
+      "columns": 6,
+      "page": 4,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        139.53,
+        365.83,
+        538.33,
+        718.16
+      ],
+      "columns": 6,
+      "page": 5,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 Canadian Preview",
+  "to": null,
+  "year": 2018
+}

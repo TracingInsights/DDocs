@@ -1,0 +1,31 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "classification",
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T11:23:18Z",
+  "from": null,
+  "images_extracted": 0,
+  "pages": 1,
+  "source_hash": "sha256:46bb3c6a003de906862d2d13e91a40d7a0e79a5ce79d278f8086bab65b41f2fb",
+  "source_pdf": "documents/2018/hungarian-grand-prix/2018_12_hun_f1_p2_timing_secondpracticesessionclassification_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.1,
+        186.95,
+        568.36,
+        430.05
+      ],
+      "columns": 10,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": null,
+  "title": "2018 12 Hun F1 P2 Timing Secondpracticesessionclassification V01",
+  "to": null,
+  "year": 2018
+}

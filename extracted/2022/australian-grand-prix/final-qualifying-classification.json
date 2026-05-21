@@ -1,0 +1,64 @@
+{
+  "date": "2022-04-09",
+  "doc_number": "61",
+  "doc_type": "classification",
+  "event_name": "Time 22:35 2022 AUSTRALIAN GRAND PRIX 7 - 10 April 2022 The Stewards",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T08:31:51Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a12de02923bf6f244d9bdc8ae9fc0f051964cd4b87b7e011c1834f3ecfd508b5",
+  "source_pdf": "documents/2022/australian-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.02,
+        187.18,
+        570.97,
+        417.95
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        24.02,
+        427.15,
+        570.97,
+        463.62
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.02,
+        472.62,
+        570.97,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.02,
+        505.93,
+        570.97,
+        529.98
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "22:35",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

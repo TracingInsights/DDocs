@@ -1,0 +1,31 @@
+FORMULA 1 EYETIME GROSSER PREIS VON ÖSTERREICH 2018 - Spielberg
+
+First Practice Session Classification
+
+NO DRIVER NAT ENTRANT TIME LAPS GAP INT KM/H TIME OF DAY
+
+| 1 | 44 | Lewis HAMILTON | Mercedes AMG Petronas Motorsport | 1:04.839 | 39 |  |  | 239.744 | 11:59:46 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2 | 77 | Valtteri BOTTAS | Mercedes AMG Petronas Motorsport | 1:04.966 | 39 | 0.127 | 0.127 | 239.275 | 12:00:14 |
+| 3 | 33 | Max VERSTAPPEN | Aston Martin Red Bull Racing | 1:05.072 | 42 | 0.233 | 0.106 | 238.886 | 11:59:25 |
+| 4 | 5 | Sebastian VETTEL | Scuderia Ferrari | 1:05.180 | 29 | 0.341 | 0.108 | 238.490 | 11:54:54 |
+| 5 | 3 | Daniel RICCIARDO | Aston Martin Red Bull Racing | 1:05.483 | 22 | 0.644 | 0.303 | 237.386 | 12:13:32 |
+| 6 | 7 | Kimi RAIKKONEN | Scuderia Ferrari | 1:05.776 | 31 | 0.937 | 0.293 | 236.329 | 11:44:29 |
+| 7 | 8 | Romain GROSJEAN | Haas F1 Team | 1:06.028 | 31 | 1.189 | 0.252 | 235.427 | 11:47:30 |
+| 8 | 31 | Esteban OCON | Sahara Force India F1 Team | 1:06.055 | 40 | 1.216 | 0.027 | 235.331 | 12:05:15 |
+| 9 | 16 | Charles LECLERC | Alfa Romeo Sauber F1 Team | 1:06.215 | 31 | 1.376 | 0.160 | 234.762 | 11:58:54 |
+| 10 | 10 | Pierre GASLY | Red Bull Toro Rosso Honda | 1:06.394 | 36 | 1.555 | 0.179 | 234.129 | 11:54:19 |
+| 11 | 9 | Marcus ERICSSON | Alfa Romeo Sauber F1 Team | 1:06.400 | 32 | 1.561 | 0.006 | 234.108 | 12:01:54 |
+| 12 | 20 | Kevin MAGNUSSEN | Haas F1 Team | 1:06.404 | 23 | 1.565 | 0.004 | 234.094 | 11:51:37 |
+| 13 | 55 | Carlos SAINZ | Renault Sport Formula One Team | 1:06.427 | 29 | 1.588 | 0.023 | 234.013 | 11:56:35 |
+| 14 | 11 | Sergio PEREZ | Sahara Force India F1 Team | 1:06.455 | 42 | 1.616 | 0.028 | 233.914 | 11:59:39 |
+| 15 | 27 | Nico HULKENBERG | Renault Sport Formula One Team | 1:06.479 | 35 | 1.640 | 0.024 | 233.830 | 12:05:08 |
+| 16 | 18 | Lance STROLL | Williams Martini Racing | 1:06.567 | 32 | 1.728 | 0.088 | 233.521 | 12:02:05 |
+| 17 | 14 | Fernando ALONSO | McLaren F1 Team | 1:06.612 | 30 | 1.773 | 0.045 | 233.363 | 12:09:39 |
+| 18 | 2 | Stoffel VANDOORNE | McLaren F1 Team | 1:06.698 | 30 | 1.859 | 0.086 | 233.062 | 12:23:24 |
+| 19 | 28 | Brendon HARTLEY | Red Bull Toro Rosso Honda | 1:06.871 | 45 | 2.032 | 0.173 | 232.459 | 11:58:48 |
+| 20 | 40 | Robert KUBICA | Williams Martini Racing | 1:07.424 | 38 | 2.585 | 0.553 | 230.552 | 11:55:29 |
+
+Timekeeper:
+
+© 2018 Formula One World Championship Limited The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV, a Formula 1 company. The FIA logo is a trade mark of the Fédération Internationale de l’Automobile. All rights reserved. No part of these results/data may be reproduced, stored in a retrieval system or transmitted in any form or by any means electronic, mechanical, photocopying, recording, broadcasting or otherwise without prior permission of the copyright holder except for reproduction in local/national/international daily press and regular printed publications on sale to the public within 90 days of the event to which the results/data relate and provided that the copyright symbol and name of copyright owner appears.

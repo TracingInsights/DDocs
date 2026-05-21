@@ -1,0 +1,98 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "INTERMEDIATE 1 KM/H 44 L. HAMILTON 270.3 5 S. VETTEL 269.7 77 V. BOTTAS 268.8 7 K. RAIKKONEN 266.8 31 E. OCON 265.4 11 S. PEREZ 264.0 8 R. GROSJEAN 261.9 20 K. MAGNUSSEN 261.4 3 D. RICCIARDO 261.3 35 S. SIROTKIN 261.1 27 N. HULKENBERG 261.1 18 L. STROLL 260.8 9 M. ERICSSON 260.2 33 M. VERSTAPPEN 259.8 55 C. SAINZ 258.4 2 S. VANDOORNE 257.0 16 C. LECLERC 256.9 14 F. ALONSO 253.6 10 P. GASLY 240.1 28 B. HARTLEY 234.5 INTERMEDIATE 2 KM/H 11 S. PEREZ 337.8 5 S. VETTEL 336.1 44 L. HAMILTON 332.7 31 E. OCON 331.7 7 K. RAIKKONEN 330.3 9 M. ERICSSON 328.3 3 D. RICCIARDO 328.2 18 L. STROLL 327.9 35 S. SIROTKIN 327.0 77 V. BOTTAS 326.9 27 N. HULKENBERG 326.3 2 S. VANDOORNE 324.8 20 K. MAGNUSSEN 323.1 33 M. VERSTAPPEN 322.2 55 C. SAINZ 320.3 8 R. GROSJEAN 320.2 14 F. ALONSO 317.9 16 C. LECLERC 316.2 28 B. HARTLEY 313.8 10 P. GASLY 311.2 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "russian-grand-prix",
+  "extracted_at": "2026-05-21T11:42:48Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_16_rus_f1_p1_timing_firstpracticesessionlaptimes_v01_0_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_16_rus_f1_p1_timing_firstpracticesessionlaptimes_v01_0_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:c9fb06bcbcbb56ee73e96304ab58cadc42ebd21511b953f6d4fadb4383cea9fc",
+  "source_pdf": "documents/2018/russian-grand-prix/2018_16_rus_f1_r0_timing_racemaximumspeeds_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        191.39,
+        170.16,
+        434.75
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        174.54,
+        191.39,
+        302.03,
+        434.75
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        306.03,
+        191.39,
+        433.51,
+        434.75
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        437.67,
+        191.39,
+        565.15,
+        434.75
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 4,
+  "time": null,
+  "title": "2018 16 Rus F1 R0 Timing Racemaximumspeeds V01",
+  "to": null,
+  "year": 2018
+}

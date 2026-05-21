@@ -1,0 +1,53 @@
+{
+  "date": "2021-10-09",
+  "doc_number": "30",
+  "doc_type": "classification",
+  "event_name": "Time 16:20 2021 TURKISH GRAND PRIX 7 - 10 October 2021 The Stewards",
+  "event_slug": "turkish-grand-prix",
+  "extracted_at": "2026-05-21T10:33:13Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a33f4e783f34d6a81ccc9504d96d9e99f3f6b458d4e65c770e3e739a245f201c",
+  "source_pdf": "documents/2021/turkish-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.91,
+        187.08,
+        571.24,
+        430.18
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.91,
+        439.38,
+        571.24,
+        463.44
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.91,
+        472.71,
+        571.24,
+        496.78
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:20",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

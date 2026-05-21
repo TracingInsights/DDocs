@@ -1,0 +1,64 @@
+{
+  "date": "2021-06-05",
+  "doc_number": "23",
+  "doc_type": "classification",
+  "event_name": "Time 17:45 2021 AZERBAIJAN GRAND PRIX 3 - 6 June 2021 The Stewards",
+  "event_slug": "azerbaijan-grand-prix",
+  "extracted_at": "2026-05-21T10:13:22Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:425009868b3cccfd97683be30205622ac0bb1bd591e1c592731a15c26ec1ba0f",
+  "source_pdf": "documents/2021/azerbaijan-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.92,
+        187.08,
+        571.21,
+        405.87
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.92,
+        415.04,
+        571.21,
+        451.27
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.92,
+        460.55,
+        571.21,
+        484.61
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.92,
+        493.88,
+        571.21,
+        517.95
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "17:45",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

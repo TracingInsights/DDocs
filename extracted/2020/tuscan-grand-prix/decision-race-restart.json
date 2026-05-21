@@ -1,0 +1,51 @@
+{
+  "car_number": 20,
+  "date": "2020-09-13",
+  "decision": "A warning is issued to the drivers listed.",
+  "doc_number": "46",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Time 20:08 2020 TUSCAN GRAND PRIX 10 - 13 September 2020 The Stewards Title Decision - Race Restart Description Decision - Race Restart",
+  "event_slug": "tuscan-grand-prix",
+  "extracted_at": "2026-05-21T10:52:24Z",
+  "fact": "Race restart incident.",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "20:08 The Stewards, having received a report from the Race Director, summoned (documents 40, 41, 44) and heard from the driver of car 20, 26, 6 and team representatives, have considered the following matter and determine the following: Time 15:28",
+  "offence": "Breach of Article 39.13 of the FIA Formula One Sporting Regulations.",
+  "pages": 3,
+  "penalty": "A warning is issued to the drivers listed.",
+  "penalty_points": null,
+  "reason": "The Stewards heard from the drivers of Car 10 (Kevin Magnussen), Car 6 (Nicholas Latifi), Car 26 (Daniil Kvyat), team representatives, reviewed video evidence including car onboard cameras, and examined the telemetry of each car involved in the restart. The Stewards conclude that the root cause of this incident was the inconsistent application of throttle and brake, from the final corner along the pit straight, by the above drivers. The Stewards acknowledge the challenges the location of the Control Line presents at this circuit and the desire of drivers to take advantage of the restart. However this incident demonstrates the need for caution to be exercised in the restart situation and note that there was an extreme concertina effect which dramatically increased as it moved down the field. We also note that some drivers might have avoided being involved in the incident had they not followed directly behind the car in front. By doing so they effectively blocked off all visibility of what was happening immediately in front of the preceding car. A warning has been imposed as it is the view of the Stewards that no one driver was wholly or predominantly to blame. It was further noted that the driver of Car 77 (Valteri Bottas) and the other drivers involved in the restart not mentioned above, complied with the regulations. Car 77 had the right under the regulations to dictate the pace.",
+  "rules_referenced": [
+    "Article 10.1.1",
+    "Article 15",
+    "Article 39.13 of the FIA Formula One Sporting Regulations"
+  ],
+  "session": "Race",
+  "source_hash": "sha256:461dd273ab167b58c95fec912f2bf5b53d454937053f4e875b2d191f3eda9549",
+  "source_pdf": "documents/2020/tuscan-grand-prix/decision-race-restart.pdf",
+  "stewards": [
+    "Document 46 All Officials",
+    "All Teams Date 13 September 2020"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        47.82,
+        376.5,
+        538.68,
+        669.3
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 13
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "20:08",
+  "title": "Decision Race Restart",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

@@ -1,0 +1,108 @@
+{
+  "date": "2018-07-26",
+  "doc_number": "3",
+  "doc_type": "other",
+  "event_name": "Time 12:30 2018 HUNGARIAN GRAND PRIX 26 - 29 July",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T11:23:56Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        462.12,
+        352.98,
+        537.0,
+        488.88
+      ],
+      "deduplicated": true,
+      "display_height": 135.9,
+      "display_width": 74.88,
+      "height": 284,
+      "page": 7,
+      "path": "images/doc_18_-_2018_hungarian_grand_prix_-_race_directors_note_p7_img1.jpeg",
+      "sha256": "58df662f05bef3d9a0bc2cb57144c061543a71eafd5caabc405ca856cb150f5d",
+      "width": 156
+    },
+    {
+      "bbox": [
+        129.6,
+        276.69,
+        191.16,
+        375.87
+      ],
+      "deduplicated": true,
+      "display_height": 99.18,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 9,
+      "path": "images/doc_18_-_2018_hungarian_grand_prix_-_race_directors_note_p9_img2.jpeg",
+      "sha256": "fdcd2d05eb2ad7f4c92d9556feaf56523eeb79deea1c38aa310f0dfc6d81e062",
+      "width": 551
+    },
+    {
+      "bbox": [
+        92.64,
+        36.93,
+        157.44,
+        136.11
+      ],
+      "deduplicated": true,
+      "display_height": 99.18,
+      "display_width": 64.8,
+      "height": 540,
+      "page": 9,
+      "path": "images/doc_18_-_2018_hungarian_grand_prix_-_race_directors_note_p9_img3.jpeg",
+      "sha256": "f2136e077f72f734836470eed8027ff30ea6e2fd87d9beee6891f0d8f944019f",
+      "width": 551
+    },
+    {
+      "bbox": [
+        96.48,
+        161.73,
+        161.28,
+        260.85
+      ],
+      "deduplicated": true,
+      "display_height": 99.12,
+      "display_width": 64.8,
+      "height": 360,
+      "page": 9,
+      "path": "images/doc_18_-_2018_hungarian_grand_prix_-_race_directors_note_p9_img4.jpeg",
+      "sha256": "85f846c2d5e26f044e5ca0e43eaa99b049f62ae0515a4e940965c216c0d804c5",
+      "width": 826
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 9,
+  "source_hash": "sha256:fa24e2cd54a4282b8a4c33e352fa3cf0b174797b21c0c8c43dfc7f47d008b3a7",
+  "source_pdf": "documents/2018/hungarian-grand-prix/doc_3_-_2018_hungarian_grand_prix_-_race_directors_note.pdf",
+  "tables": [
+    {
+      "bbox": [
+        2.04,
+        0.96,
+        559.79,
+        804.36
+      ],
+      "columns": 10,
+      "page": 6,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        42.89,
+        391.23,
+        792.65,
+        535.2
+      ],
+      "columns": 59,
+      "page": 9,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "12:30",
+  "title": "Doc 3 2018 Hungarian Grand Prix Race Directors Note",
+  "to": "All Teams, All Officials",
+  "year": 2018
+}

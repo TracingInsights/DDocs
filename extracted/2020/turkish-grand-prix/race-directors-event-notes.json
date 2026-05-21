@@ -1,0 +1,87 @@
+{
+  "date": "2020-11-12",
+  "doc_number": "3",
+  "doc_type": "race-director-note",
+  "event_name": "Time 11:32 2020 TURKISH GRAND PRIX 12 - 15 November 2020 The FIA Formula One Race Director",
+  "event_slug": "turkish-grand-prix",
+  "extracted_at": "2026-05-21T10:52:08Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        23.65,
+        77.2,
+        574.05,
+        490.03
+      ],
+      "deduplicated": true,
+      "display_height": 412.83,
+      "display_width": 550.4,
+      "height": 1265,
+      "page": 7,
+      "path": "images/race-directors-event-notes-version-2_p7_img1.jpeg",
+      "sha256": "e55bdef37857a2b00dc23f4d6f6da891dbbf35b215a2d818e5bbd2c0b2b2bb95",
+      "width": 1686
+    },
+    {
+      "bbox": [
+        436.68,
+        355.44,
+        528.36,
+        522.12
+      ],
+      "deduplicated": true,
+      "display_height": 166.68,
+      "display_width": 91.68,
+      "height": 695,
+      "page": 10,
+      "path": "images/race-directors-event-notes-version-2_p10_img2.jpeg",
+      "sha256": "e44ae7e056366c6e700073902d775cfcbd98de2430caaf3ed10f98ab94a2e5c3",
+      "width": 382
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 11,
+  "source_hash": "sha256:fd97e21f3f0568e309a62affecff827f6134f9bf24d4714e9f16a3e55d3d9541",
+  "source_pdf": "documents/2020/turkish-grand-prix/race-directors-event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        397.1,
+        57.41,
+        527.79,
+        787.9
+      ],
+      "columns": 4,
+      "page": 9,
+      "rows": 32
+    },
+    {
+      "bbox": [
+        78.05,
+        80.3,
+        574.2,
+        356.15
+      ],
+      "columns": 9,
+      "page": 11,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        40.23,
+        585.28,
+        549.21,
+        723.92
+      ],
+      "columns": 2,
+      "page": 11,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "11:32",
+  "title": "Race Directors Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

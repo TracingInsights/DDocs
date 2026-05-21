@@ -1,0 +1,494 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T11:25:08Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_17_jpn_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_17_jpn_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 2,
+  "source_hash": "sha256:d0fa171fb28742a3089fc6e3338408a0026c47ad3dcabefbf85ed41eb35bced1",
+  "source_pdf": "documents/2018/japanese-grand-prix/2018_17_jpn_f1_p3_timing_thirdpracticesessionlaptimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.44,
+        209.76,
+        104.59,
+        282.78
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        282.78
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        270.61
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        258.44
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        295.01
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        568.98,
+        282.78
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        23.44,
+        331.52,
+        104.59,
+        404.54
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        109.66,
+        331.52,
+        190.81,
+        404.54
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        331.52,
+        293.61,
+        416.77
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        298.68,
+        331.52,
+        379.83,
+        404.54
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        401.48,
+        331.52,
+        482.63,
+        392.37
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        487.7,
+        331.52,
+        568.98,
+        380.2
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        23.44,
+        453.27,
+        104.59,
+        514.12
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        109.66,
+        453.27,
+        190.81,
+        514.12
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        212.46,
+        453.27,
+        293.61,
+        526.32
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        298.68,
+        453.27,
+        379.83,
+        514.12
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        401.48,
+        453.27,
+        482.63,
+        538.53
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        487.7,
+        453.27,
+        568.98,
+        526.32
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        23.44,
+        575.03,
+        104.59,
+        660.29
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        109.66,
+        575.03,
+        190.81,
+        648.06
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        575.03,
+        293.61,
+        660.29
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        298.68,
+        575.03,
+        379.83,
+        648.06
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        401.48,
+        575.03,
+        482.63,
+        648.06
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        487.7,
+        575.03,
+        568.98,
+        648.06
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        23.43,
+        209.76,
+        104.59,
+        282.78
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        282.78
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        282.78
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        282.78
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        282.78
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        569.09,
+        270.61
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        23.43,
+        319.35,
+        104.59,
+        392.37
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        109.66,
+        319.35,
+        190.81,
+        392.37
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        319.35,
+        293.61,
+        404.6
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        298.68,
+        319.35,
+        379.83,
+        392.37
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        401.48,
+        319.35,
+        482.63,
+        392.37
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        487.7,
+        319.35,
+        569.09,
+        392.37
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        23.43,
+        441.11,
+        104.59,
+        526.36
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        109.66,
+        441.11,
+        190.81,
+        514.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        212.46,
+        441.11,
+        293.61,
+        514.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        298.68,
+        441.11,
+        379.83,
+        514.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 40,
+  "time": null,
+  "title": "2018 17 Jpn F1 P3 Timing Thirdpracticesessionlaptimes V01",
+  "to": null,
+  "year": 2018
+}

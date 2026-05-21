@@ -1,0 +1,26 @@
+![Extracted image from page 1](images/2018_01_aus_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg)
+
+![Extracted image from page 1](images/2018_01_aus_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg)
+
+FORMULA 1 2018 ROLEX AUSTRALIAN GRAND PRIX - Melbourne
+
+Race Lap Chart
+
+POS 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 GRID 44 7 5 33 20 8 27 3 55 14 2 11 18 31 77 28 9 16 35 10 LAP 1 44 7 5 20 33 8 27 3 55 14 2 11 31 18 77 9 10 16 35 28 LAP 2 44 7 5 20 33 8 27 3 55 14 2 11 31 18 77 9 10 16 35 28 LAP 3 44 7 5 20 33 8 27 3 55 14 2 11 31 18 77 9 10 16 35 28 LAP 4 44 7 5 20 33 8 27 3 55 14 2 11 31 77 18 9 10 16 35 28 LAP 5 44 7 5 20 33 8 3 27 55 14 2 11 31 77 18 9 10 16 28 LAP 6 44 7 5 20 33 8 3 27 55 14 2 11 31 77 18 10 16 28 LAP 7 44 7 5 20 33 8 3 27 55 14 2 11 31 77 18 10 16 28 LAP 8 44 7 5 20 33 8 3 27 55 14 2 11 31 77 18 10 16 28 LAP 9 44 7 5 20 33 8 3 27 55 14 2 11 77 31 18 10 16 28 LAP 10 44 7 5 20 8 3 27 33 55 14 2 11 77 31 18 10 16 28 LAP 11 44 7 5 20 8 3 27 33 55 14 2 11 77 31 18 10 16 28 LAP 12 44 7 5 20 8 3 27 33 55 14 2 11 77 31 18 10 16 28 LAP 13 44 7 5 20 8 3 27 33 55 14 2 11 77 31 18 10 16 28 LAP 14 44 7 5 20 8 3 27 33 55 14 2 11 77 31 18 16 28 LAP 15 44 7 5 20 8 3 27 33 55 14 2 11 77 31 18 16 28 LAP 16 44 7 5 20 8 3 27 33 55 14 2 11 77 31 18 16 28 LAP 17 44 7 5 20 8 3 27 33 55 14 2 11 77 31 18 16 28 LAP 18 44 5 7 20 8 3 27 33 55 14 2 11 77 31 18 16 28 LAP 19 5 44 7 20 8 3 27 33 55 14 2 11 77 31 18 16 28 LAP 20 5 44 7 20 8 3 27 33 55 14 2 11 77 31 18 28 16 LAP 21 5 44 7 20 8 3 27 55 14 2 11 77 33 31 18 28 16 LAP 22 5 44 7 8 3 27 14 2 20 11 77 31 LAP 23 5 44 7 8 3 27 14 2 11 77 33 18 LAP 24 5 44 7 3 14 2 8 77 33 27 18 55 LAP 25 5 44 7 3 14 33 2 27 77 55 11 31 LAP 26 5 44 7 3 14 33 27 2 77 55 11 31 LAP 27 5 44 7 3 33 14 27 2 77 55 11 31 LAP 28 5 44 7 3 33 14 27 2 77 55 11 31 LAP 29 5 44 7 3 33 14 27 2 77 55 11 31 18 16 28 LAP 30 5 44 7 3 33 14 27 2 77 55 11 31 18 16 28 LAP 31 5 44 7 3 14 33 27 2 77 55 11 31 18 16 28 LAP 32 5 44 7 3 14 33 27 2 77 55 11 31 16 18 28 LAP 33 5 44 7 3 14 33 27 2 77 55 11 31 16 18 28 LAP 34 5 44 7 3 14 33 27 2 77 55 11 31 16 18 28 LAP 35 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 36 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 37 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 38 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 39 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 40 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 41 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 42 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 43 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 44 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 45 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 46 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 47 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 48 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 49 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 50 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 51 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 52 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 53 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 Page 1 of 2
+
+|  | 31 | 55 | 28 | 28 |
+| --- | --- | --- | --- | --- |
+| 11 |  |  | 28 |  |
+| 18 | 16 | 28 28 28 28 |  |  |
+
+© 2018 Formula One World Championship Limited The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV, a Formula 1 company. The FIA logo is a trade mark of the Fédération Internationale de l’Automobile. All rights reserved. No part of these results/data may be reproduced, stored in a retrieval system or transmitted in any form or by any means electronic, mechanical, photocopying, recording, broadcasting or otherwise without prior permission of the copyright holder except for reproduction in local/national/international daily press and regular printed publications on sale to the public within 90 days of the event to which the results/data relate and provided that the copyright symbol and name of copyright owner appears.
+
+FORMULA 1 2018 ROLEX AUSTRALIAN GRAND PRIX - Melbourne
+
+Race Lap Chart
+
+POS 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 LAP 54 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 55 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 56 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 57 5 44 7 3 14 33 27 77 2 55 11 31 16 18 28 LAP 58 5 44 7 3 14 33 27 77 2 55 11 31 16 18
+
+Page 2 of 2
+
+© 2018 Formula One World Championship Limited The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV, a Formula 1 company. The FIA logo is a trade mark of the Fédération Internationale de l’Automobile. All rights reserved. No part of these results/data may be reproduced, stored in a retrieval system or transmitted in any form or by any means electronic, mechanical, photocopying, recording, broadcasting or otherwise without prior permission of the copyright holder except for reproduction in local/national/international daily press and regular printed publications on sale to the public within 90 days of the event to which the results/data relate and provided that the copyright symbol and name of copyright owner appears.

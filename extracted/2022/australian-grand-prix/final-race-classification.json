@@ -1,0 +1,42 @@
+{
+  "date": "2022-04-10",
+  "doc_number": "80",
+  "doc_type": "classification",
+  "event_name": "Time 19:40 2022 AUSTRALIAN GRAND PRIX 7 - 10 April 2022 The Stewards",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T08:31:51Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:16a67f2a81d48042cd8bf34af060f690a291eaad004899cf4a305e3d34ebc2fd",
+  "source_pdf": "documents/2022/australian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.02,
+        189.47,
+        571.92,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.02,
+        403.93,
+        571.92,
+        452.36
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:40",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2022
+}

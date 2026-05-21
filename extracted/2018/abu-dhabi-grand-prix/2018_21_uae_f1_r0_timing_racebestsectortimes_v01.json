@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "5 Sebastian VETTEL 40.057 44 Lewis HAMILTON 40.131 55 Carlos SAINZ 40.211 3 Daniel RICCIARDO 40.247 77 Valtteri BOTTAS 40.279 33 Max VERSTAPPEN 40.378 14 Fernando ALONSO 41.145 11 Sergio PEREZ 41.284 8 Romain GROSJEAN 41.358 20 Kevin MAGNUSSEN 41.421 2 Stoffel VANDOORNE 41.486 16 Charles LECLERC 41.576 35 Sergey SIROTKIN 41.604 10 Pierre GASLY 41.724 31 Esteban OCON 41.751 18 Lance STROLL 41.776 28 Brendon HARTLEY 41.954 7 Kimi RAIKKONEN 43.072 9 Marcus ERICSSON 43.191 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T11:08:36Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_21_uae_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_21_uae_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:adfec280c257538a54db8c321d1d73c6c6f7ec08a2c856b432bab4397023139a",
+  "source_pdf": "documents/2018/abu-dhabi-grand-prix/2018_21_uae_f1_r0_timing_racebestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        429.98
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        429.98
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        429.98
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 19
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 21 Uae F1 R0 Timing Racebestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

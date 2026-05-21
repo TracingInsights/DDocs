@@ -1,0 +1,42 @@
+{
+  "date": "2020-09-27",
+  "doc_number": "52",
+  "doc_type": "classification",
+  "event_name": "Time 16:30 2020 RUSSIAN GRAND PRIX 24 - 27 September 2020 The Stewards",
+  "event_slug": "russian-grand-prix",
+  "extracted_at": "2026-05-21T10:48:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:5515cafc7af5e6b2995fc7a8546e1d1e3ba440c43bcf819143a7eb0661890351",
+  "source_pdf": "documents/2020/russian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        571.96,
+        408.11
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.0,
+        416.09,
+        571.96,
+        452.3
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:30",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

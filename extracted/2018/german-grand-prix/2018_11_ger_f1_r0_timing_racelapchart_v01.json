@@ -1,0 +1,76 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "German Grand Prix",
+  "event_slug": "german-grand-prix",
+  "extracted_at": "2026-05-21T11:22:24Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_11_ger_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_11_ger_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 2,
+  "source_hash": "sha256:9cf1d96150c8f5bef1c9389e7673e0f89d7616eee09d2dc0c87ce877248b8e7d",
+  "source_pdf": "documents/2018/german-grand-prix/2018_11_ger_f1_r0_timing_racelapchart_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        189.53,
+        464.37,
+        571.3,
+        766.74
+      ],
+      "columns": 15,
+      "page": 1,
+      "rows": 27
+    },
+    {
+      "bbox": [
+        291.8,
+        183.57,
+        470.77,
+        323.97
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 12
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 11 Ger F1 R0 Timing Racelapchart V01",
+  "to": null,
+  "year": 2018
+}

@@ -1,0 +1,172 @@
+{
+  "date": "2019-05-22",
+  "doc_number": "2",
+  "doc_type": "race-director-note",
+  "event_name": "Time 10:55 2019 MONACO GRAND PRIX 22 - 26 May 2019",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T11:04:33Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        49.65,
+        587.8,
+        132.45,
+        634.3
+      ],
+      "deduplicated": false,
+      "display_height": 46.5,
+      "display_width": 82.8,
+      "height": 145,
+      "page": 5,
+      "path": "images/race-directors-event-notes_p5_img1.png",
+      "sha256": "8e3e698afc007bc48eee5bc9b346951134e07af38fc7c351a7ed6efdb41b05a0",
+      "width": 258
+    },
+    {
+      "bbox": [
+        169.92,
+        353.52,
+        211.68,
+        391.32
+      ],
+      "deduplicated": false,
+      "display_height": 37.8,
+      "display_width": 41.76,
+      "height": 315,
+      "page": 6,
+      "path": "images/race-directors-event-notes_p6_img2.jpx",
+      "sha256": "c285c45ea828de6637aa82a50a292de195f6e703996f0721a6ef35fb13e74d05",
+      "width": 348
+    },
+    {
+      "bbox": [
+        381.24,
+        353.52,
+        423.0,
+        391.32
+      ],
+      "deduplicated": false,
+      "display_height": 37.8,
+      "display_width": 41.76,
+      "height": 315,
+      "page": 6,
+      "path": "images/race-directors-event-notes_p6_img3.jpx",
+      "sha256": "fcf77b4daf69d7f3a5cc9a2bc3e3d60fec62828d4371f935e8ca0e8c00f5016b",
+      "width": 348
+    },
+    {
+      "bbox": [
+        259.38,
+        317.61,
+        324.18,
+        416.73
+      ],
+      "deduplicated": false,
+      "display_height": 99.12,
+      "display_width": 64.8,
+      "height": 360,
+      "page": 7,
+      "path": "images/race-directors-event-notes_p7_img4.jpeg",
+      "sha256": "9b44400e4648afb93fd18dbf66923e37ba49face83715065ed6909355442be23",
+      "width": 826
+    },
+    {
+      "bbox": [
+        273.6,
+        131.01,
+        326.88,
+        230.13
+      ],
+      "deduplicated": false,
+      "display_height": 99.12,
+      "display_width": 53.28,
+      "height": 222,
+      "page": 7,
+      "path": "images/race-directors-event-notes_p7_img5.jpeg",
+      "sha256": "bf71871b0e1718a3f4b1c6a7230d9a2b78c88be395013397767b3d3c30c4aff8",
+      "width": 413
+    },
+    {
+      "bbox": [
+        211.2,
+        469.29,
+        276.0,
+        568.29
+      ],
+      "deduplicated": false,
+      "display_height": 99.0,
+      "display_width": 64.8,
+      "height": 540,
+      "page": 7,
+      "path": "images/race-directors-event-notes_p7_img6.jpeg",
+      "sha256": "567dcd883f8bd2b7c5669e59761ff8b08ba59af1758cc6fdcae5ce914d3049f5",
+      "width": 550
+    },
+    {
+      "bbox": [
+        235.26,
+        707.25,
+        296.82,
+        806.43
+      ],
+      "deduplicated": false,
+      "display_height": 99.18,
+      "display_width": 61.56,
+      "height": 342,
+      "page": 7,
+      "path": "images/race-directors-event-notes_p7_img7.jpeg",
+      "sha256": "87c5af4ca76f88c2c2bdea97278db741c0a37dd57fe148b410fb7521d73f0ffa",
+      "width": 551
+    },
+    {
+      "bbox": [
+        456.24,
+        355.44,
+        528.48,
+        486.48
+      ],
+      "deduplicated": false,
+      "display_height": 131.04,
+      "display_width": 72.24,
+      "height": 546,
+      "page": 9,
+      "path": "images/race-directors-event-notes_p9_img8.jpeg",
+      "sha256": "66eea827b0920f828902a22f2bd5e2107908bb69e60d377558ca9e4e7d3a0842",
+      "width": 301
+    }
+  ],
+  "images_extracted": 8,
+  "pages": 9,
+  "source_hash": "sha256:8f3437c91ce8d8640032c89e270dde577117dbe7a53f30b96fa4bb9127406255",
+  "source_pdf": "documents/2019/monaco-grand-prix/race-directors-event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        2.03,
+        1.08,
+        557.31,
+        761.64
+      ],
+      "columns": 25,
+      "page": 6,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        428.97,
+        76.53,
+        509.7,
+        651.83
+      ],
+      "columns": 2,
+      "page": 7,
+      "rows": 33
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "10:55",
+  "title": "Race Directors Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2019
+}

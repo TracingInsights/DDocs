@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "3 27 Nico HULKENBERG 29.923 4 8 Romain GROSJEAN 29.930 5 5 Sebastian VETTEL 29.933 6 20 Kevin MAGNUSSEN 30.015 7 7 Kimi RAIKKONEN 30.078 8 9 Marcus ERICSSON 30.138 9 14 Fernando ALONSO 30.163 10 28 Brendon HARTLEY 30.195 11 31 Esteban OCON 30.201 12 11 Sergio PEREZ 30.214 13 2 Stoffel VANDOORNE 30.236 14 55 Carlos SAINZ 30.252 15 35 Sergey SIROTKIN 30.263 16 10 Pierre GASLY 30.319 17 16 Charles LECLERC 30.325 18 18 Lance STROLL 30.387 19 3 Daniel RICCIARDO 30.584 20 33 Max VERSTAPPEN 30.613 Sector 2 TIME 5 Sebastian VETTEL 40.514 14 Fernando ALONSO 40.566 2 Stoffel VANDOORNE 40.663 7 Kimi RAIKKONEN 40.671 77 Valtteri BOTTAS 40.676 8 Romain GROSJEAN 40.696 44 Lewis HAMILTON 40.772 20 Kevin MAGNUSSEN 40.797 35 Sergey SIROTKIN 40.825 31 Esteban OCON 40.874 27 Nico HULKENBERG 40.908 10 Pierre GASLY 40.912 9 Marcus ERICSSON 41.074 28 Brendon HARTLEY 41.084 18 Lance STROLL 41.088 16 Charles LECLERC 41.101 11 Sergio PEREZ 41.130 55 Carlos SAINZ 41.160 3 Daniel RICCIARDO 41.585 33 Max VERSTAPPEN 43.101 Sector 3 TIME 44 Lewis HAMILTON 23.120 77 Valtteri BOTTAS 23.140 20 Kevin MAGNUSSEN 23.163 7 Kimi RAIKKONEN 23.220 8 Romain GROSJEAN 23.227 27 Nico HULKENBERG 23.276 28 Brendon HARTLEY 23.277 11 Sergio PEREZ 23.281 35 Sergey SIROTKIN 23.309 55 Carlos SAINZ 23.327 10 Pierre GASLY 23.340 14 Fernando ALONSO 23.343 5 Sebastian VETTEL 23.357 16 Charles LECLERC 23.377 2 Stoffel VANDOORNE 23.441 31 Esteban OCON 23.469 9 Marcus ERICSSON 23.508 3 Daniel RICCIARDO 23.559 18 Lance STROLL 23.677 33 Max VERSTAPPEN 23.877 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-05-21T11:14:40Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_02_brn_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_02_brn_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:1dd5d6beb39dc21a820dc05593b6eea589727915a16013d5350ca75f74965904",
+  "source_pdf": "documents/2018/bahrain-grand-prix/2018_02_brn_f1_r0_timing_racebestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 02 Brn F1 R0 Timing Racebestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

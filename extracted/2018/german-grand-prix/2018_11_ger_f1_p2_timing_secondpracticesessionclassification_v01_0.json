@@ -1,0 +1,31 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "classification",
+  "event_name": "German Grand Prix",
+  "event_slug": "german-grand-prix",
+  "extracted_at": "2026-05-21T11:22:08Z",
+  "from": null,
+  "images_extracted": 0,
+  "pages": 1,
+  "source_hash": "sha256:9ca4e144272d1be47b9fefff5372c805fc6c68b2c863c2b187db189828ca9d92",
+  "source_pdf": "documents/2018/german-grand-prix/2018_11_ger_f1_p2_timing_secondpracticesessionclassification_v01_0.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.1,
+        186.95,
+        568.36,
+        430.05
+      ],
+      "columns": 10,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": null,
+  "title": "2018 11 Ger F1 P2 Timing Secondpracticesessionclassification V01 0",
+  "to": null,
+  "year": 2018
+}

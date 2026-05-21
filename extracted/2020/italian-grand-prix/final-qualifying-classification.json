@@ -1,0 +1,53 @@
+{
+  "date": "2020-09-05",
+  "doc_number": "36",
+  "doc_type": "classification",
+  "event_name": "Time 19:11 2020 ITALIAN GRAND PRIX 3 - 6 September 2020 The Stewards",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-05-21T10:46:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:5546cc9d4506449187f2ecc7a74a8c934c0fc551d8a7e05852be450dc1a5472c",
+  "source_pdf": "documents/2020/italian-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:11",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

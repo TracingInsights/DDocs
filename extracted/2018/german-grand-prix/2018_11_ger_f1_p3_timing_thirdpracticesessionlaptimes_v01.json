@@ -1,0 +1,252 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "German Grand Prix",
+  "event_slug": "german-grand-prix",
+  "extracted_at": "2026-05-21T11:22:11Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_11_ger_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_11_ger_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:18146b70801ca301ebbdd8b6e8966139d1e4b6a71d9acf0f31ad0f8a437e4251",
+  "source_pdf": "documents/2018/german-grand-prix/2018_11_ger_f1_p3_timing_thirdpracticesessionlaptimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        246.34
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        569.11,
+        234.12
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.43,
+        282.84,
+        104.59,
+        307.18
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        109.66,
+        282.84,
+        190.81,
+        307.18
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        401.48,
+        282.84,
+        482.63,
+        343.76
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        487.7,
+        282.84,
+        569.11,
+        331.54
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        23.43,
+        380.27,
+        104.59,
+        416.77
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        109.66,
+        380.27,
+        190.81,
+        416.77
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.43,
+        453.35,
+        104.59,
+        502.05
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        109.66,
+        453.35,
+        190.81,
+        502.05
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        212.46,
+        453.35,
+        293.61,
+        502.05
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        298.68,
+        453.35,
+        379.83,
+        489.87
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.43,
+        538.61,
+        104.59,
+        562.94
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        109.66,
+        538.61,
+        190.81,
+        562.94
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        212.46,
+        538.61,
+        293.61,
+        575.11
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        298.68,
+        538.61,
+        379.83,
+        575.11
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        212.46,
+        611.69,
+        293.61,
+        672.61
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        298.68,
+        611.69,
+        379.83,
+        660.39
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 18,
+  "time": null,
+  "title": "2018 11 Ger F1 P3 Timing Thirdpracticesessionlaptimes V01",
+  "to": null,
+  "year": 2018
+}

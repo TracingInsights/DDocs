@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "33 Max VERSTAPPEN 23.535 77 Valtteri BOTTAS 23.575 44 Lewis HAMILTON 23.581 7 Kimi RAIKKONEN 23.607 3 Daniel RICCIARDO 23.704 5 Sebastian VETTEL 23.706 8 Romain GROSJEAN 23.984 20 Kevin MAGNUSSEN 24.025 11 Sergio PEREZ 24.078 27 Nico HULKENBERG 24.084 10 Pierre GASLY 24.116 16 Charles LECLERC 24.122 55 Carlos SAINZ 24.123 31 Esteban OCON 24.167 2 Stoffel VANDOORNE 24.253 35 Sergey SIROTKIN 24.257 9 Marcus ERICSSON 24.344 14 Fernando ALONSO 24.416 Sector 3 TIME 5 Sebastian VETTEL 29.740 7 Kimi RAIKKONEN 29.771 3 Daniel RICCIARDO 29.774 44 Lewis HAMILTON 29.783 33 Max VERSTAPPEN 29.831 77 Valtteri BOTTAS 29.925 11 Sergio PEREZ 30.086 27 Nico HULKENBERG 30.198 8 Romain GROSJEAN 30.206 31 Esteban OCON 30.255 10 Pierre GASLY 30.257 55 Carlos SAINZ 30.267 16 Charles LECLERC 30.289 20 Kevin MAGNUSSEN 30.365 2 Stoffel VANDOORNE 30.457 35 Sergey SIROTKIN 30.502 14 Fernando ALONSO 30.636 9 Marcus ERICSSON 30.735 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T11:18:40Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.87
+      ],
+      "deduplicated": true,
+      "display_height": 85.95,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_07_can_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "73ef808483debfaeee63b7b5f8fda4578417d3b661e1170eaffdbd71b568e6e6",
+      "width": 661
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_07_can_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:dadf9f785a70ddf3f7a66d9e2b58a13f4b2b896d43ec903f8852f12c8b502a9f",
+  "source_pdf": "documents/2018/canadian-grand-prix/2018_07_can_f1_r0_timing_racebestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.04,
+        198.78,
+        200.18,
+        417.81
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        417.81
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.25,
+        417.81
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 18
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 07 Can F1 R0 Timing Racebestsectortimes V01",
+  "to": null,
+  "year": 2018
+}

@@ -1,0 +1,494 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Russian Grand Prix",
+  "event_slug": "russian-grand-prix",
+  "extracted_at": "2026-05-21T11:42:39Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_16_rus_f1_p1_timing_firstpracticesessionlaptimes_v01_0_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_16_rus_f1_p1_timing_firstpracticesessionlaptimes_v01_0_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 3,
+  "source_hash": "sha256:bbc12fa8475936c067ec63559f887090c6b9f2a9152abc96577a2c714a02093a",
+  "source_pdf": "documents/2018/russian-grand-prix/2018_16_rus_f1_q0_timing_qualifyingsessionlaptimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.43,
+        209.76,
+        104.59,
+        246.26
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        246.26
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        234.09
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        234.09
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        319.27
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        568.99,
+        319.27
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        23.43,
+        355.85,
+        104.59,
+        465.44
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        109.66,
+        355.85,
+        190.81,
+        453.21
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        212.46,
+        355.85,
+        293.61,
+        453.21
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        298.68,
+        355.85,
+        379.83,
+        453.21
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        401.48,
+        355.85,
+        482.63,
+        453.21
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        487.7,
+        355.85,
+        568.99,
+        453.21
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        23.43,
+        501.95,
+        104.59,
+        550.62
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        109.66,
+        501.95,
+        190.81,
+        550.62
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        212.46,
+        501.95,
+        293.61,
+        599.37
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        298.68,
+        501.95,
+        379.83,
+        587.15
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        401.48,
+        501.95,
+        482.63,
+        538.45
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        487.7,
+        501.95,
+        568.99,
+        538.45
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.43,
+        209.76,
+        104.59,
+        307.1
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        307.1
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        258.44
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        246.27
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        401.48,
+        209.76,
+        482.63,
+        294.93
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        487.7,
+        209.76,
+        568.98,
+        294.93
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        23.43,
+        343.68,
+        104.59,
+        380.2
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        109.66,
+        343.68,
+        190.81,
+        380.2
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        212.46,
+        343.68,
+        293.61,
+        392.37
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        298.68,
+        343.68,
+        379.83,
+        380.2
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        401.48,
+        343.68,
+        482.63,
+        441.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        487.7,
+        343.68,
+        568.98,
+        441.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        23.43,
+        477.61,
+        104.59,
+        514.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        109.66,
+        477.61,
+        190.81,
+        501.95
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        212.46,
+        477.61,
+        293.61,
+        514.13
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        298.68,
+        477.61,
+        379.83,
+        514.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        401.48,
+        477.61,
+        482.63,
+        587.2
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        487.7,
+        477.61,
+        568.98,
+        574.98
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        23.4,
+        209.76,
+        104.59,
+        246.26
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        109.66,
+        209.76,
+        190.81,
+        246.26
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        212.46,
+        209.76,
+        293.61,
+        319.35
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        298.68,
+        209.76,
+        379.83,
+        307.13
+      ],
+      "columns": 3,
+      "page": 3,
+      "rows": 8
+    }
+  ],
+  "tables_extracted": 40,
+  "time": null,
+  "title": "2018 16 Rus F1 Q0 Timing Qualifyingsessionlaptimes V01",
+  "to": null,
+  "year": 2018
+}

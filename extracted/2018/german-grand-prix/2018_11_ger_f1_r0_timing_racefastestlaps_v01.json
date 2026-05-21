@@ -1,0 +1,65 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "2 77 Valtteri BOTTAS Mercedes AMG Petronas Motorsport 1:15.721 65 0.176 217.461 16:43:05 3 33 Max VERSTAPPEN Aston Martin Red Bull Racing 1:15.852 66 0.307 0.131 217.085 16:44:25 4 7 Kimi RAIKKONEN Scuderia Ferrari 1:15.990 64 0.445 0.138 216.691 16:41:51 5 8 Romain GROSJEAN Haas F1 Team 1:16.716 66 1.171 0.726 214.641 16:44:45 6 5 Sebastian VETTEL Scuderia Ferrari 1:17.290 39 1.745 0.574 213.046 16:04:17 7 55 Carlos SAINZ Renault Sport Formula One Team 1:17.430 63 1.885 0.140 212.661 16:40:54 8 2 Stoffel VANDOORNE McLaren F1 Team 1:17.537 67 1.992 0.107 212.368 16:46:20 9 28 Brendon HARTLEY Red Bull Toro Rosso Honda 1:17.681 66 2.136 0.144 211.974 16:44:49 10 20 Kevin MAGNUSSEN Haas F1 Team 1:17.697 66 2.152 0.016 211.930 16:44:50 11 14 Fernando ALONSO McLaren F1 Team 1:17.741 60 2.196 0.044 211.811 16:38:19 12 9 Marcus ERICSSON Alfa Romeo Sauber F1 Team 1:17.745 65 2.200 0.004 211.800 16:43:29 13 10 Pierre GASLY Red Bull Toro Rosso Honda 1:17.762 66 2.217 0.017 211.753 16:46:12 14 16 Charles LECLERC Alfa Romeo Sauber F1 Team 1:17.852 64 2.307 0.090 211.509 16:43:37 15 11 Sergio PEREZ Sahara Force India F1 Team 1:17.867 66 2.322 0.015 211.468 16:44:44 16 27 Nico HULKENBERG Renault Sport Formula One Team 1:17.910 66 2.365 0.043 211.351 16:44:41 17 31 Esteban OCON Sahara Force India F1 Team 1:17.941 64 2.396 0.031 211.267 16:42:10 18 3 Daniel RICCIARDO Aston Martin Red Bull Racing 1:18.262 22 2.717 0.321 210.400 15:42:38 19 18 Lance STROLL Williams Martini Racing 1:18.861 35 3.316 0.599 208.802 16:00:41 20 35 Sergey SIROTKIN Williams Martini Racing 1:18.934 36 3.389 0.073 208.609 16:02:04 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "german-grand-prix",
+  "extracted_at": "2026-05-21T11:22:14Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        21.19,
+        21.92,
+        211.19,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_11_ger_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        458.88,
+        40.82,
+        558.82,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_11_ger_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:812545f3e3ab452460e739215c6f49bda8a84ab3f636b955913ad6be0d89d02d",
+  "source_pdf": "documents/2018/german-grand-prix/2018_11_ger_f1_r0_timing_racefastestlaps_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.1,
+        186.95,
+        568.36,
+        430.05
+      ],
+      "columns": 10,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": null,
+  "title": "2018 11 Ger F1 R0 Timing Racefastestlaps V01",
+  "to": null,
+  "year": 2018
+}

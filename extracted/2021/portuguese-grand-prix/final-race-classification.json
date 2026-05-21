@@ -1,0 +1,42 @@
+{
+  "date": "2021-05-02",
+  "doc_number": "42",
+  "doc_type": "classification",
+  "event_name": "Time 19:30 2021 PORTUGUESE GRAND PRIX 29 April - 2 May 2021 The Stewards",
+  "event_slug": "portuguese-grand-prix",
+  "extracted_at": "2026-05-21T10:23:52Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:2d5f7eb38b15041b3b5ea57926fe54f9c1657a1af883e50a939017855c0a2d9a",
+  "source_pdf": "documents/2021/portuguese-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.9,
+        189.37,
+        572.13,
+        420.33
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.9,
+        428.32,
+        572.13,
+        452.44
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:30",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

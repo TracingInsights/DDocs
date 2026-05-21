@@ -1,0 +1,31 @@
+FORMULA 1 PIRELLI GRAND PRIX DE FRANCE 2018 - Le Castellet
+
+First Practice Session Classification
+
+NO DRIVER NAT ENTRANT TIME LAPS GAP INT KM/H TIME OF DAY
+
+| 1 | 44 | Lewis HAMILTON | Mercedes AMG Petronas Motorsport | 1:32.231 | 25 |  |  | 228.027 | 13:09:42 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2 | 77 | Valtteri BOTTAS | Mercedes AMG Petronas Motorsport | 1:32.371 | 29 | 0.140 | 0.140 | 227.681 | 13:04:53 |
+| 3 | 3 | Daniel RICCIARDO | Aston Martin Red Bull Racing | 1:32.527 | 25 | 0.296 | 0.156 | 227.297 | 13:05:41 |
+| 4 | 7 | Kimi RAIKKONEN | Scuderia Ferrari | 1:33.003 | 23 | 0.772 | 0.476 | 226.134 | 13:01:24 |
+| 5 | 5 | Sebastian VETTEL | Scuderia Ferrari | 1:33.172 | 19 | 0.941 | 0.169 | 225.724 | 13:16:17 |
+| 6 | 8 | Romain GROSJEAN | Haas F1 Team | 1:33.318 | 22 | 1.087 | 0.146 | 225.371 | 13:05:22 |
+| 7 | 33 | Max VERSTAPPEN | Aston Martin Red Bull Racing | 1:33.331 | 15 | 1.100 | 0.013 | 225.339 | 13:23:05 |
+| 8 | 10 | Pierre GASLY | Red Bull Toro Rosso Honda | 1:33.685 | 23 | 1.454 | 0.354 | 224.488 | 13:10:45 |
+| 9 | 11 | Sergio PEREZ | Sahara Force India F1 Team | 1:33.719 | 26 | 1.488 | 0.034 | 224.407 | 13:06:06 |
+| 10 | 20 | Kevin MAGNUSSEN | Haas F1 Team | 1:34.108 | 23 | 1.877 | 0.389 | 223.479 | 13:08:32 |
+| 11 | 55 | Carlos SAINZ | Renault Sport Formula One Team | 1:34.258 | 25 | 2.027 | 0.150 | 223.123 | 13:02:47 |
+| 12 | 31 | Esteban OCON | Sahara Force India F1 Team | 1:34.484 | 14 | 2.253 | 0.226 | 222.590 | 12:56:14 |
+| 13 | 16 | Charles LECLERC | Alfa Romeo Sauber F1 Team | 1:34.513 | 21 | 2.282 | 0.029 | 222.521 | 13:02:42 |
+| 14 | 9 | Marcus ERICSSON | Alfa Romeo Sauber F1 Team | 1:34.592 | 21 | 2.361 | 0.079 | 222.335 | 13:02:51 |
+| 15 | 28 | Brendon HARTLEY | Red Bull Toro Rosso Honda | 1:34.664 | 25 | 2.433 | 0.072 | 222.166 | 12:58:17 |
+| 16 | 14 | Fernando ALONSO | McLaren F1 Team | 1:34.862 | 20 | 2.631 | 0.198 | 221.703 | 12:35:18 |
+| 17 | 18 | Lance STROLL | Williams Martini Racing | 1:34.881 | 28 | 2.650 | 0.019 | 221.658 | 13:02:17 |
+| 18 | 27 | Nico HULKENBERG | Renault Sport Formula One Team | 1:34.993 | 24 | 2.762 | 0.112 | 221.397 | 13:05:00 |
+| 19 | 2 | Stoffel VANDOORNE | McLaren F1 Team | 1:35.021 | 24 | 2.790 | 0.028 | 221.332 | 13:08:17 |
+| 20 | 35 | Sergey SIROTKIN | Williams Martini Racing | 1:35.105 | 25 | 2.874 | 0.084 | 221.136 | 12:58:08 |
+
+Timekeeper:
+
+© 2018 Formula One World Championship Limited The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV, a Formula 1 company. The FIA logo is a trade mark of the Fédération Internationale de l’Automobile. All rights reserved. No part of these results/data may be reproduced, stored in a retrieval system or transmitted in any form or by any means electronic, mechanical, photocopying, recording, broadcasting or otherwise without prior permission of the copyright holder except for reproduction in local/national/international daily press and regular printed publications on sale to the public within 90 days of the event to which the results/data relate and provided that the copyright symbol and name of copyright owner appears.

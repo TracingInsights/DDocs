@@ -1,0 +1,42 @@
+{
+  "date": "2021-12-12",
+  "doc_number": "51",
+  "doc_type": "classification",
+  "event_name": "Time 19:01 2021 ABU DHABI GRAND PRIX 9 - 12 December 2021 The Stewards",
+  "event_slug": "abu-dhabi-grand-prix",
+  "extracted_at": "2026-05-21T10:11:25Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:378ed5fe200e8c31905b63978530130e1cb91413c4ee4d25812aabc6b1228580",
+  "source_pdf": "documents/2021/abu-dhabi-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.92,
+        189.37,
+        572.21,
+        371.65
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        22.92,
+        379.64,
+        572.21,
+        440.31
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 5
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:01",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2021-08-01",
+  "doc_number": "62",
+  "doc_type": "championship-points",
+  "event_name": "Date 01 August 2021 Time 23:50 2021 HUNGARIAN GRAND PRIX 29 July - 1 August 2021 The Stewards Title Championship Points Description Championship Points",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-05-21T10:21:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:4fe8c4a0cf5a5fa7910ffb5c2e9a8608f6566e2d059a5912c8e01e9adf89c95a",
+  "source_pdf": "documents/2021/hungarian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.28,
+        174.27,
+        814.26,
+        514.12
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        21.01,
+        174.27,
+        814.52,
+        259.23
+      ],
+      "columns": 14,
+      "page": 3,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        21.24,
+        173.81,
+        815.32,
+        478.54
+      ],
+      "columns": 14,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "23:50",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2021-09-25",
+  "doc_number": "31",
+  "doc_type": "classification",
+  "event_name": "Time 16:25 2021 RUSSIAN GRAND PRIX 23 - 26 September 2021 The Stewards",
+  "event_slug": "russian-grand-prix",
+  "extracted_at": "2026-05-21T10:25:41Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9fd184765ed46715075859021306cbaa3582b09f272c0112fab97893710f738b",
+  "source_pdf": "documents/2021/russian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.87,
+        187.08,
+        571.16,
+        430.14
+      ],
+      "columns": 13,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.87,
+        439.38,
+        571.16,
+        463.44
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.87,
+        472.71,
+        571.16,
+        496.78
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:25",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2021
+}

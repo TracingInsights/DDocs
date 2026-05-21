@@ -1,0 +1,13 @@
+# From The FIA Formula One Race Director
+
+## To All Teams, All Officials
+
+Document 15 Date 29 November 2019 Time 21:37
+
+2019 ABU DHABI GRAND PRIX 28 November - 1 December 2019
+
+## Note to Teams
+
+Article 24.4(f) of the Sporting Regulations Based on the weather forecast from the official weather service provider no additional set of intermediate tyres will be made available to each driver before P3.
+
+### The FIA Formula One Race Director Michael Masi

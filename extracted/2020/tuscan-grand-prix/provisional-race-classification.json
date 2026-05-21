@@ -1,0 +1,42 @@
+{
+  "date": "2020-09-13",
+  "doc_number": "43",
+  "doc_type": "classification",
+  "event_name": "Time 17:55 2020 TUSCAN GRAND PRIX 10 - 13 September 2020 The Stewards",
+  "event_slug": "tuscan-grand-prix",
+  "extracted_at": "2026-05-21T10:52:31Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:ea6e85cfda9400df8fe9fb94edc76ae0a7a5b57e15c60a95a32070e68a785a27",
+  "source_pdf": "documents/2020/tuscan-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        29.9,
+        184.37,
+        565.12,
+        326.42
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 12
+    },
+    {
+      "bbox": [
+        29.9,
+        334.2,
+        565.12,
+        440.64
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 9
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:55",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

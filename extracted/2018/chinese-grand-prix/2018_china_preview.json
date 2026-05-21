@@ -1,0 +1,124 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T11:19:56Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        412.44,
+        188.5,
+        473.71,
+        249.77
+      ],
+      "deduplicated": false,
+      "display_height": 61.27,
+      "display_width": 61.27,
+      "height": 225,
+      "page": 1,
+      "path": "images/2018_china_preview_p1_img1.jpeg",
+      "sha256": "4495f523bce16fc940dece68da943b86e1419f0846edeb1fd1ac74c539eed8c9",
+      "width": 225
+    },
+    {
+      "bbox": [
+        30.83,
+        38.86,
+        560.16,
+        408.2
+      ],
+      "deduplicated": false,
+      "display_height": 369.33,
+      "display_width": 529.33,
+      "height": 1539,
+      "page": 2,
+      "path": "images/2018_china_preview_p2_img2.jpeg",
+      "sha256": "337362d718f60701e60ac12727b3526b4574c4b1e427f8943401cacd561a06fe",
+      "width": 2206
+    },
+    {
+      "bbox": [
+        439.97,
+        366.44,
+        557.6,
+        521.56
+      ],
+      "deduplicated": false,
+      "display_height": 155.12,
+      "display_width": 117.63,
+      "height": 647,
+      "page": 3,
+      "path": "images/2018_china_preview_p3_img3.jpeg",
+      "sha256": "9ef7e20bf0005a3088bf5e8db83d097b6b12c0072c8454e4d4271a3dbc4a6539",
+      "width": 491
+    },
+    {
+      "bbox": [
+        431.98,
+        133.53,
+        547.49,
+        250.05
+      ],
+      "deduplicated": false,
+      "display_height": 116.51,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_china_preview_p3_img4.jpeg",
+      "sha256": "8a9c5a73600ac3736140490537898b9372b1ce6cf5e82342872eac0fdf37f400",
+      "width": 482
+    },
+    {
+      "bbox": [
+        439.49,
+        619.53,
+        556.04,
+        735.04
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 116.54,
+      "height": 482,
+      "page": 3,
+      "path": "images/2018_china_preview_p3_img5.jpeg",
+      "sha256": "24d299c1863e99d8cb88eb40db294abdb077a04b90a06a39b0bbd703c5184ab7",
+      "width": 486
+    }
+  ],
+  "images_extracted": 5,
+  "pages": 6,
+  "source_hash": "sha256:0841d2e00e90a1162548c878893f66f8d437c6f7b245dd59e33007c43d786092",
+  "source_pdf": "documents/2018/chinese-grand-prix/2018_china_preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        126.4,
+        104.08,
+        524.45,
+        683.59
+      ],
+      "columns": 21,
+      "page": 4,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        139.53,
+        365.83,
+        538.33,
+        719.23
+      ],
+      "columns": 2,
+      "page": 5,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 China Preview",
+  "to": "help, Pirelli this weekend brings its ultrasoft compound to Shanghai for the first time. The purple-banded tyres are part",
+  "year": 2018
+}

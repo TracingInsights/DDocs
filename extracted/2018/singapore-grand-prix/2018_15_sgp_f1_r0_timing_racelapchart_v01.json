@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T11:43:57Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_15_sgp_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_15_sgp_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 2,
+  "source_hash": "sha256:d4e8696929e3b8e17a0cd7a5701fb6059f6b6c8676290bba7b7c97763e7521f9",
+  "source_pdf": "documents/2018/singapore-grand-prix/2018_15_sgp_f1_r0_timing_racelapchart_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        266.23,
+        539.97,
+        547.47,
+        766.77
+      ],
+      "columns": 11,
+      "page": 1,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        215.1,
+        583.17,
+        266.23,
+        604.77
+      ],
+      "columns": 2,
+      "page": 1,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        240.66,
+        183.57,
+        521.9,
+        259.17
+      ],
+      "columns": 11,
+      "page": 2,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 15 Sgp F1 R0 Timing Racelapchart V01",
+  "to": null,
+  "year": 2018
+}

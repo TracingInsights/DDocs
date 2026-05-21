@@ -1,0 +1,53 @@
+{
+  "date": "2020-09-12",
+  "doc_number": "28",
+  "doc_type": "classification",
+  "event_name": "Time 20:25 2020 TUSCAN GRAND PRIX 10 - 13 September 2020 The Stewards",
+  "event_slug": "tuscan-grand-prix",
+  "extracted_at": "2026-05-21T10:52:27Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:20f778958eb49a61253db6832e5493a61aea1e43e03002b8df3b61c6005bef1e",
+  "source_pdf": "documents/2020/tuscan-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        30.83,
+        182.14,
+        564.14,
+        419.04
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        30.83,
+        427.97,
+        564.14,
+        451.42
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        30.83,
+        460.46,
+        564.14,
+        483.9
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:25",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

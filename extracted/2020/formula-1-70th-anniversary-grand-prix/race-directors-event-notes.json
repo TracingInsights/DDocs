@@ -1,0 +1,87 @@
+{
+  "date": "2020-08-06",
+  "doc_number": "2",
+  "doc_type": "race-director-note",
+  "event_name": "Time 10:00 70TH ANNIVERSARY GRAND PRIX 6 \u2013 9 August 2020 The FIA Formula One Race Director",
+  "event_slug": "formula-1-70th-anniversary-grand-prix",
+  "extracted_at": "2026-05-21T10:45:21Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        42.55,
+        111.69,
+        146.7,
+        170.18
+      ],
+      "deduplicated": true,
+      "display_height": 58.49,
+      "display_width": 104.15,
+      "height": 145,
+      "page": 7,
+      "path": "images/race-directors-event-notes-version-2_p7_img1.png",
+      "sha256": "779d26571fcb269ca60b6f36e3f69a4521a7e8368f28d8f32c1c0c7c3b8f98ba",
+      "width": 258
+    },
+    {
+      "bbox": [
+        472.2,
+        352.92,
+        547.02,
+        488.94
+      ],
+      "deduplicated": false,
+      "display_height": 136.02,
+      "display_width": 74.82,
+      "height": 567,
+      "page": 11,
+      "path": "images/race-directors-event-notes_p11_img1.jpeg",
+      "sha256": "c3934d788175f58fb5a3eeedfc0db4e70b0c669ed13c9d6a387d24e46cab103b",
+      "width": 312
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 11,
+  "source_hash": "sha256:2f51af527d48558fc841b1a480b2686e12ff5ba99ee6401e267977823e6d1631",
+  "source_pdf": "documents/2020/formula-1-70th-anniversary-grand-prix/race-directors-event-notes.pdf",
+  "tables": [
+    {
+      "bbox": [
+        420.1,
+        104.16,
+        509.46,
+        823.53
+      ],
+      "columns": 3,
+      "page": 9,
+      "rows": 30
+    },
+    {
+      "bbox": [
+        74.57,
+        75.5,
+        581.88,
+        356.89
+      ],
+      "columns": 9,
+      "page": 10,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        35.83,
+        590.59,
+        556.28,
+        731.94
+      ],
+      "columns": 2,
+      "page": 10,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "10:00",
+  "title": "Race Directors Event Notes",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

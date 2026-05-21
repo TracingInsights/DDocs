@@ -1,0 +1,53 @@
+{
+  "date": "2020-07-04",
+  "doc_number": "27",
+  "doc_type": "classification",
+  "event_name": "Time 16:30 2020 AUSTRIAN GRAND PRIX 2 - 5 July 2020 The Stewards",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-05-21T10:39:30Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:10b3093aceb6a98be24c7e0368b2d5bda6435f90d9028a72fe73fd9cb75a45ac",
+  "source_pdf": "documents/2020/austrian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.96,
+        430.14
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.01,
+        439.31,
+        570.96,
+        463.35
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        472.62,
+        570.96,
+        496.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:30",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2020
+}

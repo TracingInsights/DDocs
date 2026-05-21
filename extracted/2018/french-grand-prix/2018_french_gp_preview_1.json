@@ -1,0 +1,124 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "French Grand Prix",
+  "event_slug": "french-grand-prix",
+  "extracted_at": "2026-05-21T11:20:51Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        412.44,
+        188.5,
+        472.89,
+        249.77
+      ],
+      "deduplicated": false,
+      "display_height": 61.27,
+      "display_width": 60.45,
+      "height": 225,
+      "page": 1,
+      "path": "images/2018_french_gp_preview_1_p1_img1.jpeg",
+      "sha256": "0a5a583b50f7a70c44f5b53ffbc1dc8d2153787f0ca6fa8739c3f7fa78b0ed25",
+      "width": 222
+    },
+    {
+      "bbox": [
+        34.49,
+        42.61,
+        564.96,
+        412.53
+      ],
+      "deduplicated": false,
+      "display_height": 369.92,
+      "display_width": 530.47,
+      "height": 1542,
+      "page": 2,
+      "path": "images/2018_french_gp_preview_1_p2_img2.jpeg",
+      "sha256": "966e8a87d76e6dc1c5dd7b641eec520b89b84608d7ddc738fc288560e6fcac9b",
+      "width": 2211
+    },
+    {
+      "bbox": [
+        443.49,
+        122.44,
+        559.0,
+        237.95
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 115.51,
+      "height": 482,
+      "page": 3,
+      "path": "images/2018_french_gp_preview_1_p3_img3.jpeg",
+      "sha256": "611a170fe16ae146401b6b4992053a0b09cf2958a06c5d36259887cc8ef4f07c",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        368.19,
+        559.0,
+        503.56
+      ],
+      "deduplicated": false,
+      "display_height": 135.37,
+      "display_width": 115.51,
+      "height": 565,
+      "page": 3,
+      "path": "images/2018_french_gp_preview_1_p3_img4.jpeg",
+      "sha256": "666063a0230be0641c99a163eee358150cd46e1f1a1c4ea78d581b43f7bf843c",
+      "width": 482
+    },
+    {
+      "bbox": [
+        442.31,
+        612.62,
+        560.2,
+        727.53
+      ],
+      "deduplicated": false,
+      "display_height": 114.92,
+      "display_width": 117.89,
+      "height": 193,
+      "page": 3,
+      "path": "images/2018_french_gp_preview_1_p3_img5.jpeg",
+      "sha256": "f2a32123433ed8cd6b5e137c25539b0d7fa2082e79875f1dce69499bf9154daf",
+      "width": 198
+    }
+  ],
+  "images_extracted": 5,
+  "pages": 6,
+  "source_hash": "sha256:59abe2f43533cce5c524c303843861011823cee1850741929e9340d7586606cc",
+  "source_pdf": "documents/2018/french-grand-prix/2018_french_gp_preview_1.pdf",
+  "tables": [
+    {
+      "bbox": [
+        127.15,
+        179.03,
+        525.2,
+        676.44
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        139.53,
+        365.83,
+        538.33,
+        719.23
+      ],
+      "columns": 7,
+      "page": 5,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 French Gp Preview 1",
+  "to": null,
+  "year": 2018
+}

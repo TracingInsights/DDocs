@@ -1,0 +1,124 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T11:28:45Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        412.44,
+        188.5,
+        472.77,
+        249.77
+      ],
+      "deduplicated": false,
+      "display_height": 61.27,
+      "display_width": 60.33,
+      "height": 131,
+      "page": 1,
+      "path": "images/2018_monaco_gp_p1_img1.jpeg",
+      "sha256": "1efa3568d5a2940093fed318c6c05df08567e252ff0c95549ac22ae6f7384884",
+      "width": 129
+    },
+    {
+      "bbox": [
+        34.02,
+        38.56,
+        561.87,
+        407.6
+      ],
+      "deduplicated": false,
+      "display_height": 369.04,
+      "display_width": 527.85,
+      "height": 1538,
+      "page": 2,
+      "path": "images/2018_monaco_gp_p2_img2.jpeg",
+      "sha256": "ef0973e20a1f6d34d1a9a07cace3126a9d76f2becdcd8e82cdb8c91419caa66d",
+      "width": 2200
+    },
+    {
+      "bbox": [
+        443.49,
+        122.44,
+        559.0,
+        238.96
+      ],
+      "deduplicated": false,
+      "display_height": 116.51,
+      "display_width": 115.51,
+      "height": 486,
+      "page": 3,
+      "path": "images/2018_monaco_gp_p3_img3.jpeg",
+      "sha256": "8a9c5a73600ac3736140490537898b9372b1ce6cf5e82342872eac0fdf37f400",
+      "width": 482
+    },
+    {
+      "bbox": [
+        443.49,
+        613.93,
+        560.03,
+        729.45
+      ],
+      "deduplicated": false,
+      "display_height": 115.51,
+      "display_width": 116.54,
+      "height": 482,
+      "page": 3,
+      "path": "images/2018_monaco_gp_p3_img4.jpeg",
+      "sha256": "24d299c1863e99d8cb88eb40db294abdb077a04b90a06a39b0bbd703c5184ab7",
+      "width": 486
+    },
+    {
+      "bbox": [
+        438.46,
+        357.73,
+        566.55,
+        512.59
+      ],
+      "deduplicated": false,
+      "display_height": 154.86,
+      "display_width": 128.1,
+      "height": 646,
+      "page": 3,
+      "path": "images/2018_monaco_gp_p3_img5.jpeg",
+      "sha256": "8e7536ec0d8d0be30ac5dec9b8bf8d6982f7a0ec4ea5f6e4efb41821018ad342",
+      "width": 534
+    }
+  ],
+  "images_extracted": 5,
+  "pages": 6,
+  "source_hash": "sha256:e7d43d2bcdd61ffc09fc13b3b95c05fe5fe4f516cb8850fef991e2e9f47ac744",
+  "source_pdf": "documents/2018/monaco-grand-prix/2018_monaco_gp.pdf",
+  "tables": [
+    {
+      "bbox": [
+        125.93,
+        98.81,
+        523.97,
+        678.0
+      ],
+      "columns": 21,
+      "page": 4,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        139.53,
+        365.83,
+        538.33,
+        719.23
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "2018 Monaco Gp",
+  "to": null,
+  "year": 2018
+}

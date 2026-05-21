@@ -1,0 +1,87 @@
+{
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": "5 44 Lewis HAMILTON 30.217 6 20 Kevin MAGNUSSEN 30.238 7 8 Romain GROSJEAN 30.251 8 77 Valtteri BOTTAS 30.262 9 3 Daniel RICCIARDO 30.369 10 28 Brendon HARTLEY 30.410 11 33 Max VERSTAPPEN 30.421 12 9 Marcus ERICSSON 30.532 13 16 Charles LECLERC 30.600 14 55 Carlos SAINZ 30.603 15 10 Pierre GASLY 30.633 16 18 Lance STROLL 30.665 17 27 Nico HULKENBERG 30.687 18 14 Fernando ALONSO 30.699 19 35 Sergey SIROTKIN 30.824 20 2 Stoffel VANDOORNE 31.066 Sector 2 TIME 44 Lewis HAMILTON 43.115 7 Kimi RAIKKONEN 43.426 5 Sebastian VETTEL 43.496 77 Valtteri BOTTAS 43.521 33 Max VERSTAPPEN 43.909 8 Romain GROSJEAN 44.140 3 Daniel RICCIARDO 44.429 16 Charles LECLERC 44.439 20 Kevin MAGNUSSEN 44.496 10 Pierre GASLY 44.560 11 Sergio PEREZ 44.663 9 Marcus ERICSSON 44.678 28 Brendon HARTLEY 44.795 31 Esteban OCON 44.821 27 Nico HULKENBERG 44.859 55 Carlos SAINZ 44.941 35 Sergey SIROTKIN 45.221 14 Fernando ALONSO 45.325 2 Stoffel VANDOORNE 45.576 18 Lance STROLL 45.650 Sector 3 TIME 5 Sebastian VETTEL 28.120 7 Kimi RAIKKONEN 28.135 44 Lewis HAMILTON 28.221 33 Max VERSTAPPEN 28.224 31 Esteban OCON 28.327 3 Daniel RICCIARDO 28.328 11 Sergio PEREZ 28.388 77 Valtteri BOTTAS 28.408 8 Romain GROSJEAN 28.481 16 Charles LECLERC 28.503 20 Kevin MAGNUSSEN 28.510 9 Marcus ERICSSON 28.549 28 Brendon HARTLEY 28.557 27 Nico HULKENBERG 28.599 10 Pierre GASLY 28.645 2 Stoffel VANDOORNE 28.649 55 Carlos SAINZ 28.718 18 Lance STROLL 28.752 14 Fernando ALONSO 28.804 35 Sergey SIROTKIN 28.953 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV,",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-05-21T11:15:43Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        24.07,
+        21.92,
+        214.07,
+        107.48
+      ],
+      "deduplicated": true,
+      "display_height": 85.56,
+      "display_width": 190.0,
+      "height": 299,
+      "page": 1,
+      "path": "images/2018_13_bel_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img1.jpeg",
+      "sha256": "579a03f9f0d19d030745038b114021c314add20fa8caeb4cef3ef8299a9cdcfe",
+      "width": 664
+    },
+    {
+      "bbox": [
+        461.76,
+        40.82,
+        561.7,
+        97.82
+      ],
+      "deduplicated": true,
+      "display_height": 57.0,
+      "display_width": 99.94,
+      "height": 300,
+      "page": 1,
+      "path": "images/2018_13_bel_f1_p1_timing_firstpracticesessionlaptimes_v01_p1_img2.jpeg",
+      "sha256": "ed45e4fbc46986b98a83fc46ff769b22f6b8753465f0294ce9a9c729c26815fc",
+      "width": 526
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 1,
+  "source_hash": "sha256:f34ecac9bd2d1b7341ee7d5c970029a05e2142585d531aae8e8079af3693a74c",
+  "source_pdf": "documents/2018/belgian-grand-prix/2018_13_bel_f1_q0_timing_qualifyingsessionbestsectortimes_v01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.05,
+        198.78,
+        200.18,
+        442.14
+      ],
+      "columns": 4,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        219.85,
+        198.78,
+        385.66,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        403.3,
+        198.78,
+        569.24,
+        442.14
+      ],
+      "columns": 3,
+      "page": 1,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 3,
+  "time": null,
+  "title": "2018 13 Bel F1 Q0 Timing Qualifyingsessionbestsectortimes V01",
+  "to": null,
+  "year": 2018
+}
