@@ -1,0 +1,62 @@
+{
+  "date": "2026-03-04",
+  "doc_number": "3",
+  "doc_type": "pirelli-preview",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T08:30:19Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "94b2438c7fe29f8482f69bebb924e6215514b6bee8adc6d7c3213c0e403b8729",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:8966e23357be0b1d1889a4d2e32bffc77bb9533fcd559665f01d50ac5d56ecb3",
+  "source_pdf": "documents/2026/australian-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        110.49,
+        241.76,
+        521.88,
+        309.22
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        130.78,
+        434.77,
+        321.79,
+        529.46
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:51",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

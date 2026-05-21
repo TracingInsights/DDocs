@@ -1,0 +1,52 @@
+{
+  "car_number": null,
+  "date": "2026-03-28",
+  "decision": "No further action.",
+  "doc_number": "47",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T08:32:08Z",
+  "fact": "The F1 cars below exceeded the 1:52.0 time limit between the Safety Car lines. - No. Car Driver Competitor Time of Day Lap Time 1 41 Arvid Lindblad Visa Cash App Racing Bulls F1 Team 15:07:32 L5 (Q1) 2 5 Gabriel Bortoleto Audi Revolut F1 Team 15:09:02 L4 (Q1) 3 44 Lewis Hamilton Scuderia Ferrari HP 15:38:57 L13 (Q2)",
+  "from": "The Stewards Document 47",
+  "images_extracted": 0,
+  "incident_time": "17:05 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article B1.8.5 of the FIA F1 Regulations and Article 12.2.1.i of the FIA International Sporting Code (non-compliance with the Race Director's Competition Notes, item 1, document 21).",
+  "pages": 3,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data and on-board camera video. All drivers concerned stayed at or above speeds necessary to stay below 1:52.0 (refer document 32) around the vast majority of the circuit. However, in all cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that all drivers concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 12.2.1.i",
+    "Article 15",
+    "Article B1.8.5",
+    "Chapter 5"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:39b2a2ef9be13b689aa182ff22737e34f25517f0b3098098625453f9ace427cd",
+  "source_pdf": "documents/2026/japanese-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 47 To All Officials",
+    "All Teams Date 28 March 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.46,
+        335.52,
+        552.84,
+        414.96
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "17:05",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2026
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2025-05-04",
+  "doc_number": "75",
+  "doc_type": "classification",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T09:32:15Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:fab161d7cf943a6c07c54b1c58c17bad055da6dc65bd982e95ef11aa167117f3",
+  "source_pdf": "documents/2025/miami-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        71.5,
+        189.38,
+        572.24,
+        383.85
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        71.5,
+        391.68,
+        572.24,
+        452.4
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        71.5,
+        458.88,
+        572.24,
+        483.13
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:55",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

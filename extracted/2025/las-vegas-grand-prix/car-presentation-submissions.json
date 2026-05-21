@@ -1,0 +1,109 @@
+{
+  "date": "2025-11-20",
+  "doc_number": "7",
+  "doc_type": "car-presentation",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:31:00Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        842.04,
+        595.44
+      ],
+      "deduplicated": false,
+      "display_height": 595.44,
+      "display_width": 842.04,
+      "height": 1191,
+      "page": 3,
+      "path": "images/car-presentation-submissions_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "8b89afaffb68c532f4a7d0ae97b3b95f40f4223727290decedd7667eb72b01c1",
+      "width": 1685
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 6,
+      "path": "images/car-presentation-submissions_p6_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "6b400b12f9f342f2fb023e32f0b58577593496d32cf14fb0a3cf3d43e87238bd",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 12,
+      "path": "images/car-presentation-submissions_p12_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "b8fcebad569db53df4be4de33a78e459e4f685f399272cbd41c1f414488cc689",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 14,
+  "source_hash": "sha256:e5ca44ad8e278bf46c2c51536a78725448bd9ef1b0c249c0a7ab8d4e4c9c75eb",
+  "source_pdf": "documents/2025/las-vegas-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.45,
+        146.15,
+        769.56,
+        263.44
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        72.6,
+        146.08,
+        769.42,
+        234.2
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.32,
+        145.9,
+        769.22,
+        219.32
+      ],
+      "columns": 5,
+      "page": 11,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "13:54",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

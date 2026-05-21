@@ -1,0 +1,53 @@
+{
+  "date": "2025-11-08",
+  "doc_number": "42",
+  "doc_type": "classification",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T09:35:32Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:067a2420fdc577e4fdc28058705f9408544001e12bdfa38924b5e4e2ac8d5f26",
+  "source_pdf": "documents/2025/s\u00e3o-paulo-grand-prix/final-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        177.25,
+        189.38,
+        572.24,
+        408.18
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        177.25,
+        416.04,
+        572.24,
+        452.46
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        177.25,
+        465.36,
+        572.24,
+        489.61
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "15:15",
+  "title": "Final Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

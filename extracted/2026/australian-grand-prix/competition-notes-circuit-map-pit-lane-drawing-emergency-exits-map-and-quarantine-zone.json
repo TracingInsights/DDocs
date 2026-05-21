@@ -1,0 +1,105 @@
+{
+  "date": "2026-03-05",
+  "doc_number": "5",
+  "doc_type": "circuit-map",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T08:30:12Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-quarantine-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "ee16662890f5282952e867b83347b404f5db1e1977bae23ec3261adecc7c8578",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 3,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-quarantine-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "66d7fc324ee1668ca5791c74758b33aabb95c1816473c1667d2ce525d971f879",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ],
+      "deduplicated": false,
+      "display_height": 841.89,
+      "display_width": 595.28,
+      "height": 1684,
+      "page": 4,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-quarantine-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "d93740587fc2ab49a04059d9f327c0af1bbc2cd0b95aaba6d26c5ad48205047c",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.32,
+        841.92
+      ],
+      "deduplicated": false,
+      "display_height": 841.92,
+      "display_width": 595.32,
+      "height": 1684,
+      "page": 5,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-quarantine-zone_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "36e2f1bb35fd35ab582164a51909a81ebe52aa81d8ff6bd7b84a30eeba0ef6cb",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 5,
+  "source_hash": "sha256:d1f571edace53e2e2c178dfafff9bd9a7f680d51cc2c73728e39e9820da1aa7c",
+  "source_pdf": "documents/2026/australian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-quarantine-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.9,
+        405.97,
+        799.21,
+        479.07
+      ],
+      "columns": 45,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:26",
+  "title": "Competition Notes Circuit Map Pit Lane Drawing Emergency Exits Map And Quarantine Zone",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

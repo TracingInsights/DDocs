@@ -1,0 +1,53 @@
+{
+  "date": "2025-11-29",
+  "doc_number": "40",
+  "doc_type": "championship-points",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T09:32:49Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:eaac97b284ef8f49502cb6cad614e14e0391fcc6500b04bb17218b8a485561ef",
+  "source_pdf": "documents/2025/qatar-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        116.85,
+        174.26,
+        814.24,
+        514.2
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        112.37,
+        174.26,
+        814.44,
+        280.56
+      ],
+      "columns": 11,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        116.02,
+        173.88,
+        815.54,
+        484.68
+      ],
+      "columns": 10,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:25",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

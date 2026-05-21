@@ -1,0 +1,80 @@
+{
+  "date": "2025-10-17",
+  "doc_number": "10",
+  "doc_type": "car-presentation",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:35:52Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 6,
+      "path": "images/car-presentation-submissions_p6_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "2f0d60cfcafce87d41df6d021ddb30fb228fc7b77b9d318d71441edeaef4ba1e",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 10,
+      "path": "images/car-presentation-submissions_p10_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "f2dc40756e3cbd198bbd2a5c02b5b40003b268aea165cb32dfdd59c869f980e8",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 13,
+  "source_hash": "sha256:5440041f5ef1cb05ed538c21ebc9056d55511698ecd9a3c0310bed5790fe0907",
+  "source_pdf": "documents/2025/united-states-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.62,
+        170.05,
+        759.48,
+        245.32
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.57,
+        146.24,
+        769.37,
+        378.36
+      ],
+      "columns": 5,
+      "page": 9,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "09:54",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

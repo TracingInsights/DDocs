@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-27",
+  "doc_number": "24",
+  "doc_type": "timetable",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T08:32:20Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:9efcc4a00f71e343f676e592cbd7753a40f0c62d404417549125ca96471bf2a4",
+  "source_pdf": "documents/2026/japanese-grand-prix/timetable-v3.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        485.8
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        629.16
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 25
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        598.74
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 23
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        504.62
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 18
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "15:17",
+  "title": "Timetable V3",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

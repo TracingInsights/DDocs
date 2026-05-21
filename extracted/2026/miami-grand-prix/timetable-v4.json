@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-30",
+  "doc_number": "3",
+  "doc_type": "timetable",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:25:21Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 6,
+  "source_hash": "sha256:3d5363a5330a45d2e53aed47004c726cfdbc1e2cf2f0da47a3700edf35bda2c5",
+  "source_pdf": "documents/2026/miami-grand-prix/timetable-v4.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        587.16
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        768.17
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 32
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        745.05
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 30
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        643.63
+      ],
+      "columns": 5,
+      "page": 6,
+      "rows": 25
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "14:35",
+  "title": "Timetable V4",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

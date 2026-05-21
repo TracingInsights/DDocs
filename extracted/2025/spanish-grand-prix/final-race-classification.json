@@ -1,0 +1,42 @@
+{
+  "date": "2025-06-01",
+  "doc_number": "47",
+  "doc_type": "classification",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-05-21T09:34:29Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:0f0724b826d3e5568b2ef1db98d1a1a18be248ede849f0aea0a8f79e70e43cea",
+  "source_pdf": "documents/2025/spanish-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.01,
+        189.47,
+        571.88,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.01,
+        403.93,
+        571.88,
+        440.23
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:15",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2025-05-03",
+  "doc_number": "53",
+  "doc_type": "classification",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T09:32:05Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:07fb55903a3f314cd80ae17946e8a539cf64e8fccfea0682072435945a8f54f9",
+  "source_pdf": "documents/2025/miami-grand-prix/final-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        571.87,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.0,
+        403.93,
+        571.87,
+        452.3
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:22",
+  "title": "Final Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

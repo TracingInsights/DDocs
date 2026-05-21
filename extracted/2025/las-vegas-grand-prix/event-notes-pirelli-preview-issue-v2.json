@@ -1,0 +1,62 @@
+{
+  "date": "2025-11-21",
+  "doc_number": "19",
+  "doc_type": "pirelli-preview",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:31:04Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview-issue-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "75a50c02c10ee7d883221a83d6fb7050543ca83682ad6e4d02f05d6c881eb691",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:e15af0feb44b83e8b455148a2539562fc497d0cb82ee19bb966b9dd0e3347fd4",
+  "source_pdf": "documents/2025/las-vegas-grand-prix/event-notes-pirelli-preview-issue-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        130.99,
+        84.86,
+        539.14,
+        542.35
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        136.53,
+        414.86,
+        320.53,
+        512.03
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "13:32",
+  "title": "Event Notes Pirelli Preview Issue V2",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

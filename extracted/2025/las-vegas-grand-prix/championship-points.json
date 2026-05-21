@@ -1,0 +1,53 @@
+{
+  "date": "2025-11-23",
+  "doc_number": "61",
+  "doc_type": "championship-points",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:31:01Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:23cf357a1a533530be723d732820c98dc42ec65981b60ac4d4f0548f158fbbc2",
+  "source_pdf": "documents/2025/las-vegas-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.11,
+        174.39,
+        814.09,
+        514.24
+      ],
+      "columns": 25,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        20.7,
+        174.39,
+        814.29,
+        280.59
+      ],
+      "columns": 25,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        20.98,
+        173.93,
+        815.46,
+        484.69
+      ],
+      "columns": 25,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "02:40",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

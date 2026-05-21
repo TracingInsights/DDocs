@@ -1,0 +1,42 @@
+{
+  "date": "2025-10-06",
+  "doc_number": "62",
+  "doc_type": "classification",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T09:34:06Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:7cceb8e944e17a5eeb92fe24a715b0361a3082e41d78b95f6e9b379df84ddce9",
+  "source_pdf": "documents/2025/singapore-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        177.06,
+        189.38,
+        572.25,
+        432.56
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        177.06,
+        464.76,
+        572.25,
+        489.01
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "00:35",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

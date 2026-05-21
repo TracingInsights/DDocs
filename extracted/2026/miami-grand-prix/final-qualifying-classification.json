@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-03",
+  "doc_number": "72",
+  "doc_type": "classification",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:25:11Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:60fa7f48e50209a8e2797bc281e6088743bf1ff7849f3c8832a073ecd49d5e71",
+  "source_pdf": "documents/2026/miami-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.02,
+        187.18,
+        570.98,
+        442.3
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        24.02,
+        451.46,
+        570.98,
+        475.42
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.02,
+        484.78,
+        570.98,
+        508.83
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.02,
+        518.09,
+        570.98,
+        542.14
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "07:45",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

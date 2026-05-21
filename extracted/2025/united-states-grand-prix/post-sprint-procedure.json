@@ -1,0 +1,51 @@
+{
+  "date": "2025-10-18",
+  "doc_number": "23",
+  "doc_type": "procedure",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:36:18Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.68,
+        595.44
+      ],
+      "deduplicated": false,
+      "display_height": 595.44,
+      "display_width": 841.68,
+      "height": 1191,
+      "page": 3,
+      "path": "images/post-sprint-procedure_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "133db9672c0a43036315e1cbe6427f2f98c2420852cd6a2b9baec7bcc15b84d3",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 3,
+  "source_hash": "sha256:7ca046b8797bae7778c4d6e4641c921b46e54d1aa91c9c52eeb5ba2b25e7d1b4",
+  "source_pdf": "documents/2025/united-states-grand-prix/post-sprint-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        66.65,
+        90.13,
+        779.37,
+        262.63
+      ],
+      "columns": 9,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "09:01",
+  "title": "Post Sprint Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

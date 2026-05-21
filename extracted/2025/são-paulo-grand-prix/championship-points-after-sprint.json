@@ -1,0 +1,53 @@
+{
+  "date": "2025-11-08",
+  "doc_number": "43",
+  "doc_type": "championship-points",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T09:35:14Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:9f54413a57f9a955a4f7c1839f49636ffa837c8f6d200ef26df96f98ec8d94f2",
+  "source_pdf": "documents/2025/s\u00e3o-paulo-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        118.54,
+        174.26,
+        814.24,
+        514.2
+      ],
+      "columns": 8,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        114.73,
+        174.26,
+        814.44,
+        280.56
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        117.93,
+        173.88,
+        815.54,
+        484.68
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "15:25",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

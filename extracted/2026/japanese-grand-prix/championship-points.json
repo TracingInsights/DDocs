@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-29",
+  "doc_number": "60",
+  "doc_type": "championship-points",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T08:31:41Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:f50f7e325a45c2dbbef3863293b004e21cdc0b69d947a03901b4d5648f2ccdd6",
+  "source_pdf": "documents/2026/japanese-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.11,
+        174.39,
+        814.09,
+        514.24
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        20.79,
+        174.39,
+        814.25,
+        301.83
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        21.01,
+        173.93,
+        814.83,
+        515.17
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 12
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:15",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

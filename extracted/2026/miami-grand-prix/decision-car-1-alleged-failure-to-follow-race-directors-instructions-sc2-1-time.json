@@ -1,0 +1,52 @@
+{
+  "car_number": 1,
+  "date": "2026-05-01",
+  "decision": "No Further Action",
+  "doc_number": "31",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:25:09Z",
+  "fact": "The F1 car below exceeded the 1:48.0 time limit between the Safety Car lines. - No. Car Driver Competitor Time of Day Lap Time 1 1 Lando Norris McLaren Mastercard F1 Team 16:58:22 L12 (SQ2)",
+  "from": "The Stewards Document 31",
+  "images_extracted": 0,
+  "incident_time": "19:50 The Stewards, having received a report from the Race Director, summoned (document 25) and heard from the driver and team representative, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article B1.8.5 of the FIA F1 Regulations and Article 12.2.1.i of the FIA International Sporting Code (non-compliance with the Race Director's Competition Notes, item 1, document 20).",
+  "pages": 2,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards heard the driver and the team representative and thoroughly reviewed Marshalling/Positioning data, timing data and on-board camera footage. Car 1 (Norris) failed to stay below the required time limit as stipulated by the Race Director's Competition Notes. Car 1 was within the approved delta time for almost the whole lap until just before turn 17, where he was suddenly passed by Car 27. That then forced Car 1 to react to create a necessary and appropriate gap to set up a push lap. The Stewards considered this an extenuating circumstance and determined that he did not drive unnecessarily slowly.",
+  "rules_referenced": [
+    "Article 12.2.1.i",
+    "Article 15",
+    "Article B1.8.5",
+    "Chapter 5"
+  ],
+  "session": "Sprint Qualifying",
+  "source_hash": "sha256:dc4d9e751eff6a5a9d6536ac1b5d3dbc30aecb73035fd178f352e24deaa4a47a",
+  "source_pdf": "documents/2026/miami-grand-prix/decision-car-1-alleged-failure-to-follow-race-directors-instructions-sc2-1-time.pdf",
+  "stewards": [
+    "Document 31 To All Officials",
+    "All Teams Date 01 May 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.46,
+        335.52,
+        552.84,
+        375.24
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "19:50",
+  "title": "Decision Car 1 Alleged Failure To Follow Race Directors Instructions Sc2 1 Time",
+  "to": "All Officials, All Teams",
+  "year": 2026
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2025-10-18",
+  "doc_number": "30",
+  "doc_type": "classification",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:36:23Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:40d9f642c83cf8ce31f4beb774199f8053ef65d332547c3bffc88e90b02e840f",
+  "source_pdf": "documents/2025/united-states-grand-prix/provisional-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        194.18,
+        189.38,
+        572.26,
+        371.72
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        194.18,
+        379.56,
+        572.26,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        194.18,
+        465.36,
+        572.26,
+        489.61
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "13:06",
+  "title": "Provisional Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-15",
+  "doc_number": "76",
+  "doc_type": "classification",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T08:31:04Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c576a8ebc3d6523a8cb83fdf4888a5e28a3b3369bc4d8c4e26447baefa05e730",
+  "source_pdf": "documents/2026/chinese-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        179.96,
+        189.38,
+        572.29,
+        371.72
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        179.96,
+        379.56,
+        572.29,
+        476.76
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        179.96,
+        489.72,
+        572.29,
+        513.97
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:00",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

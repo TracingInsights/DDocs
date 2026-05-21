@@ -1,0 +1,53 @@
+{
+  "date": "2025-11-30",
+  "doc_number": "63",
+  "doc_type": "classification",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T09:33:17Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a18a82ffc62bd5c2333f1dc8f2c56b73f255d75b50734b32a6468b6b0469f5f1",
+  "source_pdf": "documents/2025/qatar-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        193.57,
+        189.38,
+        572.33,
+        408.18
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        193.57,
+        416.04,
+        572.33,
+        452.46
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        193.57,
+        465.36,
+        572.33,
+        489.61
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:46",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

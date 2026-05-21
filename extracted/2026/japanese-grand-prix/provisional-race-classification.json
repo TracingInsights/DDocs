@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-29",
+  "doc_number": "56",
+  "doc_type": "classification",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T08:32:14Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:99ebe3364402f5035bd576befe02e6bc11e2235b74fc9c04948a8d3622fd1aba",
+  "source_pdf": "documents/2026/japanese-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.02,
+        189.22,
+        572.45,
+        432.35
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.02,
+        440.33,
+        572.45,
+        476.67
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.02,
+        489.68,
+        572.45,
+        513.85
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "15:54",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

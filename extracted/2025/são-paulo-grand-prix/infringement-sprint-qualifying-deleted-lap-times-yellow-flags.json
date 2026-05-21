@@ -1,0 +1,51 @@
+{
+  "car_number": 44,
+  "date": "2025-11-07",
+  "decision": "Deletion of the lap time shown.",
+  "doc_number": "18",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T09:35:37Z",
+  "fact": "Car 44 passed through a double yellow sector. No Turn Car Driver",
+  "from": "The Stewards Document 18",
+  "images_extracted": 0,
+  "incident_time": "1 10 44 Lewis Hamilton Scuderia Ferrari HP 15:58:46 1:09.934",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap time shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Article 26.1",
+    "Chapter 4"
+  ],
+  "session": "Sprint Qualifying",
+  "source_hash": "sha256:94968b22b121b392b6ba247b64f977012ec64370b1fe039898dfb832dcb982ae",
+  "source_pdf": "documents/2025/s\u00e3o-paulo-grand-prix/infringement-sprint-qualifying-deleted-lap-times-yellow-flags.pdf",
+  "stewards": [
+    "Document 18 To All Officials",
+    "All Teams Date 07 November 2025"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.84,
+        346.32,
+        576.0,
+        391.44
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "17:15",
+  "title": "Infringement Sprint Qualifying Deleted Lap Times Yellow Flags",
+  "to": "All Officials, All Teams",
+  "year": 2025
+}

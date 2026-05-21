@@ -1,0 +1,53 @@
+{
+  "date": "2025-05-25",
+  "doc_number": "52",
+  "doc_type": "classification",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T09:32:39Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:1d23635d7fdd67b3d03f9ff83a343e69bc884b9d7f80bb0b7e6daadb4e16a757",
+  "source_pdf": "documents/2025/monaco-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        71.95,
+        189.38,
+        572.33,
+        408.2
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        71.95,
+        416.04,
+        572.33,
+        452.46
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        71.95,
+        458.88,
+        572.33,
+        483.13
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:00",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

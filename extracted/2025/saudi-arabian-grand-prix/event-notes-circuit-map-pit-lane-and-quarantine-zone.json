@@ -1,0 +1,105 @@
+{
+  "date": "2025-04-18",
+  "doc_number": "4",
+  "doc_type": "circuit-map",
+  "event_name": "Saudi Arabian Grand Prix",
+  "event_slug": "saudi-arabian-grand-prix",
+  "extracted_at": "2026-05-21T09:33:37Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-circuit-map-pit-lane-and-quarantine-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "44b276b3cd1de89aa25f95d340d8cbc36f2e1f73ac8aca065fe109c32bfb3495",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        1008.0,
+        612.0
+      ],
+      "deduplicated": false,
+      "display_height": 612.0,
+      "display_width": 1008.0,
+      "height": 1224,
+      "page": 3,
+      "path": "images/event-notes-circuit-map-pit-lane-and-quarantine-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "06b0902fd24cf5a6fe2b91cbbc7b7b76224ac856ead5b4bd4273f50166647acd",
+      "width": 2016
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        827.04
+      ],
+      "deduplicated": false,
+      "display_height": 827.04,
+      "display_width": 595.2,
+      "height": 1655,
+      "page": 4,
+      "path": "images/event-notes-circuit-map-pit-lane-and-quarantine-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "b9f15eb511aeb266b922b25b807926bbaf4b502e36071d73a30dc264972f14ad",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.32,
+        841.92
+      ],
+      "deduplicated": false,
+      "display_height": 841.92,
+      "display_width": 595.32,
+      "height": 1684,
+      "page": 5,
+      "path": "images/event-notes-circuit-map-pit-lane-and-quarantine-zone_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "0b1a9cf1bd539550d465f22586a62904d6dd801778e7a79a36cba44e65f0b2a0",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 5,
+  "source_hash": "sha256:fdbd4a72211efad4089aadb2efe261f75acfac67cbf8aa9dcd187e0fcbcfb7d0",
+  "source_pdf": "documents/2025/saudi-arabian-grand-prix/event-notes-circuit-map-pit-lane-and-quarantine-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        36.45,
+        429.11,
+        970.64,
+        558.38
+      ],
+      "columns": 45,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "09:37",
+  "title": "Event Notes Circuit Map Pit Lane And Quarantine Zone",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

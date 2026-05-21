@@ -1,0 +1,62 @@
+{
+  "date": "2025-11-26",
+  "doc_number": "1",
+  "doc_type": "pirelli-preview",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-05-21T09:33:01Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/event-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "9eff3f357f76d5cc87488826822a1c0955c65f9518c960d719c52ac3f787f2e0",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:0a9ecd165f16f2657c773c518f8a26dcba9bfd124f82934412c58b2fbdda6f12",
+  "source_pdf": "documents/2025/qatar-grand-prix/event-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        113.08,
+        78.0,
+        536.88,
+        567.91
+      ],
+      "columns": 8,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        140.23,
+        441.98,
+        322.26,
+        537.93
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "11:38",
+  "title": "Event Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

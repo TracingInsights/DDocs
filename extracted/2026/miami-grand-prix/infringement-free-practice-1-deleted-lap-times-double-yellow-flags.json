@@ -1,0 +1,50 @@
+{
+  "car_number": null,
+  "date": "2026-05-01",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "18",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:25:12Z",
+  "fact": "The F1 cars passed through a double waved yellow flag marshalling sector. - No. Turn Car Driver Competitor Time of Day Lap Time 1 16 11 Sergio Perez Cadillac Formula 1 Team 12:12:56 2:24.889 2 16 81 Oscar Piastri McLaren Mastercard F1 Team 12:12:56 1:37.055 3 14 27 Nico Hulkenberg Audi Revolut F1 Team 12:13:00 1:32.739",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "14:02 The lap times set by the F1 cars that went through the double waved yellow flag zone will be deleted as detailed in the Race Director's Competition Notes (item 11, document 4): Session Free Practice 1",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Chapter 5"
+  ],
+  "session": null,
+  "source_hash": "sha256:590a371ed6ba6e556193e5cbc3b04333a9e4e877fdaac69644110b54edf7705f",
+  "source_pdf": "documents/2026/miami-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow-flags.pdf",
+  "stewards": [
+    "Document 18 To All Officials",
+    "All Teams Date 01 May 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        334.92,
+        552.96,
+        414.36
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "14:02",
+  "title": "Infringement Free Practice 1 Deleted Lap Times Double Yellow Flags",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

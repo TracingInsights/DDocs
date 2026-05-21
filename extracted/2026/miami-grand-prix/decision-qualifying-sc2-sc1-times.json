@@ -1,0 +1,52 @@
+{
+  "car_number": null,
+  "date": "2026-05-02",
+  "decision": "No further action.",
+  "doc_number": "61",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:25:10Z",
+  "fact": "The F1 cars below exceeded the 1:48.0 time limit between the Safety Car lines. - No. Car Driver Competitor Time of Day Lap Time 1 43 Franco Colapinto BWT Alpine F1 Team 16:16:14 L7 (Q1) 2 23 Alexander Albon Atlassian Williams F1 Team 16:16:21 L8 (Q1) 3 55 Carlos Sainz Atlassian Williams F1 Team 16:16:46 L8 (Q1) 4 5 Gabriel Bortoleto Audi Revolut F1 Team 16:16:50 L2 (Q1) 5 44 Lewis Hamilton Scuderia Ferrari HP 16:17:03 L8 (Q1) 6 14 Fernando Alonso Aston Martin Aramco F1 Team 16:17:09 L8 (Q1) 7 18 Lance Stroll Aston Martin Aramco F1 Team 16:17:12 L8 (Q1) 8 1 Lando Norris McLaren Mastercard F1 Team 16:17:22 L7 (Q1) 9 27 Nico Hulkenberg Audi Revolut F1 Team 16:17:24 L8 (Q1) 10 81 Oscar Piastri McLaren Mastercard F1 Team 16:17:29 L7 (Q1) 11 77 Valtteri Bottas Cadillac Formula 1 Team 16:17:33 L8 (Q1) 12 12 Kimi Antonelli Mercedes-AMG PETRONAS F1 Team 16:33:02 L8 (Q2) 13 63 George Russell Mercedes-AMG PETRONAS F1 Team 16:33:13 L8 (Q2)",
+  "from": "The Stewards Document 61",
+  "images_extracted": 0,
+  "incident_time": "17:45 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article B1.8.5 of the FIA F1 Regulations and Article 12.2.1.i of the FIA International Sporting Code (non-compliance with the Race Director's Competition Notes, item 1, document 36).",
+  "pages": 3,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on-board cameras and CCTV cameras. All drivers concerned stayed at or above speeds necessary to stay below 1:48.0 around the vast majority of the circuit. However, in all cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that all drivers concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 12.2.1.i",
+    "Article 15",
+    "Article B1.8.5",
+    "Chapter 5"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:40d9d9c2b8aae8c68b8a64926f21ee37be2698e0c82ad918afcf9e893f2e1117",
+  "source_pdf": "documents/2026/miami-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 61 To All Officials",
+    "All Teams Date 02 May 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.46,
+        335.52,
+        552.84,
+        613.44
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 14
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "17:45",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2026
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2025-10-18",
+  "doc_number": "38",
+  "doc_type": "classification",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:36:11Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a918bd6c23dfaa916bf0c3886ea2c8de199c14e0e6d745a877f747af2ba35d6b",
+  "source_pdf": "documents/2025/united-states-grand-prix/final-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.04,
+        189.47,
+        571.98,
+        371.63
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        23.04,
+        379.61,
+        571.98,
+        452.3
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "14:41",
+  "title": "Final Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

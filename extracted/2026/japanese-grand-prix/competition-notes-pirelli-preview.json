@@ -1,0 +1,62 @@
+{
+  "date": "2026-03-25",
+  "doc_number": "2",
+  "doc_type": "pirelli-preview",
+  "event_name": "Japanese Grand Prix",
+  "event_slug": "japanese-grand-prix",
+  "extracted_at": "2026-05-21T08:32:07Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "59b955320a2c440c162ffbbbe98f0721e4c0a3a8503ac486724aa9556bd2e6c0",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:0bae37fcf70570c15526d07222e666c59b7af0e06065f5203cebd0830bf38f22",
+  "source_pdf": "documents/2026/japanese-grand-prix/competition-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        110.49,
+        241.76,
+        521.88,
+        309.22
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        130.78,
+        426.01,
+        321.79,
+        520.7
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:45",
+  "title": "Competition Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

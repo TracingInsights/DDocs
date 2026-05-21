@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-04",
+  "doc_number": "4",
+  "doc_type": "timetable",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T08:30:36Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:d094beec595146996928a5f25db3dfc000df56f231f373d694a7456744085398",
+  "source_pdf": "documents/2026/australian-grand-prix/timetable-v3.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.57,
+        170.19,
+        561.11,
+        716.04
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 30
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        753.69
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 32
+    },
+    {
+      "bbox": [
+        22.58,
+        170.26,
+        561.1,
+        760.93
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 32
+    },
+    {
+      "bbox": [
+        22.59,
+        170.19,
+        561.1,
+        621.92
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 25
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "22:23",
+  "title": "Timetable V3",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

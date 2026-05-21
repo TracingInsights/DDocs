@@ -1,0 +1,53 @@
+{
+  "date": "2025-05-25",
+  "doc_number": "57",
+  "doc_type": "classification",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T09:32:30Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:44cab973f6cd5f81cb4cbf9b581f0880c72c83fff64c050b9e7c5c45df4d362c",
+  "source_pdf": "documents/2025/monaco-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.22,
+        572.38,
+        408.01
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        23.03,
+        416.0,
+        572.38,
+        452.34
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        23.03,
+        458.8,
+        572.38,
+        482.97
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:10",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

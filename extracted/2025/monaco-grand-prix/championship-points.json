@@ -1,0 +1,53 @@
+{
+  "date": "2025-05-25",
+  "doc_number": "58",
+  "doc_type": "championship-points",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T09:32:28Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:8506581c0a56d20a460158f68ada271232e1f087f0c04a07ad5053b2ad04c289",
+  "source_pdf": "documents/2025/monaco-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.11,
+        174.39,
+        814.09,
+        514.24
+      ],
+      "columns": 11,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        20.7,
+        174.39,
+        814.29,
+        280.59
+      ],
+      "columns": 11,
+      "page": 3,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        20.98,
+        173.93,
+        815.46,
+        484.69
+      ],
+      "columns": 11,
+      "page": 4,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:15",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

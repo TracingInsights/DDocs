@@ -1,0 +1,86 @@
+{
+  "date": "2026-03-05",
+  "doc_number": "6",
+  "doc_type": "pu-elements",
+  "event_name": "Australian Grand Prix",
+  "event_slug": "australian-grand-prix",
+  "extracted_at": "2026-05-21T08:30:30Z",
+  "from": "The FIA Formula One Race Director",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:53e6cc3fb98654ccdd9fd0fcd987c016e66de1246aed6dd15433e698c8a3774f",
+  "source_pdf": "documents/2026/australian-grand-prix/power-unit-information.pdf",
+  "tables": [
+    {
+      "bbox": [
+        31.07,
+        204.02,
+        183.47,
+        314.49
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        31.07,
+        402.93,
+        564.65,
+        473.93
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        31.07,
+        479.11,
+        570.95,
+        561.89
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        223.78,
+        484.52,
+        557.22,
+        543.7
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        183.47,
+        610.95,
+        412.13,
+        681.25
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        107.19,
+        730.7,
+        488.36,
+        812.86
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 6,
+  "time": "17:28",
+  "title": "Power Unit Information",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

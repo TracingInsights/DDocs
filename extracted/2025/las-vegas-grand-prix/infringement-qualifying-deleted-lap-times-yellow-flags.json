@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2025-11-21",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "34",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:31:07Z",
+  "fact": "The cars passed through a double yellow sector. No Turn Car Driver Competitor Time of Day Lap Time 1 12 18 Lance Stroll Aston Martin Aramco F1 Team 20:10:05 2:04.347 2 12 81 Oscar Piastri McLaren Formula 1 Team 20:10:05 2:13.033 3 15 12 Kimi Antonelli Mercedes-AMG PETRONAS F1 Team 20:12:17 1:58.613 4 16 14 Fernando Alonso Aston Martin Aramco F1 Team 20:12:17 2:08.651 5 14 63 George Russell Mercedes-AMG PETRONAS F1 Team 20:12:20 2:01.921",
+  "from": "The Stewards Document 34",
+  "images_extracted": 0,
+  "incident_time": "22:10 The lap times set by the cars that went through the double waved yellow flag zone will be deleted as detailed in Article 26.1 b) of the FIA Formula One Sporting Regulations",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Article 26.1",
+    "Chapter 4"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:586c0fb89820d434c9b046b38f093f7820af3c6fa2deab3367df973e482fc0d5",
+  "source_pdf": "documents/2025/las-vegas-grand-prix/infringement-qualifying-deleted-lap-times-yellow-flags.pdf",
+  "stewards": [
+    "Document 34 To All Officials",
+    "All Teams Date 21 November 2025"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.78,
+        346.32,
+        576.0,
+        481.68
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "22:10",
+  "title": "Infringement Qualifying Deleted Lap Times Yellow Flags",
+  "to": "All Officials, All Teams",
+  "year": 2025
+}

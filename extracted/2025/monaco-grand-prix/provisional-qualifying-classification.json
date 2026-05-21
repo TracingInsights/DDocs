@@ -1,0 +1,31 @@
+{
+  "date": "2025-05-24",
+  "doc_number": "34",
+  "doc_type": "classification",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T09:32:38Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:88db617ecbcd33629dfa94fbc45d5dd7a50ea8b9b261380a64909d6082816fc4",
+  "source_pdf": "documents/2025/monaco-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        159.07,
+        187.09,
+        571.17,
+        430.26
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:35",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

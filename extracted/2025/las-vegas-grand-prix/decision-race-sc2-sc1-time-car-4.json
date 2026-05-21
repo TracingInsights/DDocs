@@ -1,0 +1,51 @@
+{
+  "car_number": 4,
+  "date": "2025-11-22",
+  "decision": "No further action.",
+  "doc_number": "46",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:31:03Z",
+  "fact": "The car below exceeded the 1:57.0 time limit between the Safety Car lines. No Car Driver Competitor Time of Day Lap 1 4 Lando Norris McLaren Formula 1 Team 19:22:52 L0",
+  "from": "The Stewards Document 46",
+  "images_extracted": 0,
+  "incident_time": "20:08 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article 33.4 of the FIA Formula One Sporting Regulations and Article 12.2.1 i) of the FIA International Sporting Code (non-compliance with the Race Director's Event Notes, item 1, document 20)",
+  "pages": 2,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on- board cameras and CCTV cameras. The driver performed a practice start after the timing loop for the SC2 line hence exceeded the time however the Stewards determine that the driver did not drive \"unnecessarily slowly\" and therefore take no further action.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 33.4 of the FIA Formula One Sporting Regulations and Article 12",
+    "Chapter 4"
+  ],
+  "session": "Reconnaissance laps",
+  "source_hash": "sha256:d4347ca757e5480f530471d329f7e954cfb889f6f460bdbafb8d3c409b25e3bd",
+  "source_pdf": "documents/2025/las-vegas-grand-prix/decision-race-sc2-sc1-time-car-4.pdf",
+  "stewards": [
+    "Document 46 To All Officials",
+    "All Teams Date 22 November 2025"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        66.12,
+        326.07,
+        552.66,
+        368.52
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "20:08",
+  "title": "Decision Race Sc2 Sc1 Time Car 4",
+  "to": "All Officials, All Teams",
+  "year": 2025
+}

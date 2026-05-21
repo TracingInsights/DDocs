@@ -1,0 +1,53 @@
+{
+  "date": "2025-04-20",
+  "doc_number": "42",
+  "doc_type": "classification",
+  "event_name": "Saudi Arabian Grand Prix",
+  "event_slug": "saudi-arabian-grand-prix",
+  "extracted_at": "2026-05-21T09:33:50Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c023d9f34ef0a173300bf969da92646812a87d87ac9f485d8a530b32d58b2fdf",
+  "source_pdf": "documents/2025/saudi-arabian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        177.99,
+        189.38,
+        572.24,
+        408.2
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        177.99,
+        416.04,
+        572.24,
+        452.4
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        177.99,
+        458.88,
+        572.24,
+        483.13
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "21:40",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

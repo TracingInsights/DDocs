@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-14",
+  "doc_number": "47",
+  "doc_type": "classification",
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T08:31:25Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:dfc42c0e1ef34ba478ef5aad226d52d15e57477b7097cf36c9ec456fd5943643",
+  "source_pdf": "documents/2026/chinese-grand-prix/provisional-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        178.75,
+        189.38,
+        572.29,
+        420.33
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        178.75,
+        428.28,
+        572.29,
+        476.82
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        178.75,
+        489.72,
+        572.29,
+        513.97
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "11:55",
+  "title": "Provisional Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

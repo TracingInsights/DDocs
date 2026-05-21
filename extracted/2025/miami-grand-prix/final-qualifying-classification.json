@@ -1,0 +1,31 @@
+{
+  "date": "2025-05-03",
+  "doc_number": "62",
+  "doc_type": "classification",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T09:32:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c0d9bd186f6d5f3d213e0207b4b9e153a2b78b1b2ff9a8bc7acf92022f9844f5",
+  "source_pdf": "documents/2025/miami-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        218.25,
+        187.09,
+        571.17,
+        430.21
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "20:00",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

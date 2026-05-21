@@ -1,0 +1,53 @@
+{
+  "date": "2025-10-19",
+  "doc_number": "61",
+  "doc_type": "championship-points",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-05-21T09:36:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:ba654cb5c3a29151837de446d89686ecea5f2debbf356fd783d74ac4adeb7095",
+  "source_pdf": "documents/2025/united-states-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        117.67,
+        174.26,
+        814.24,
+        514.2
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        113.53,
+        174.26,
+        814.44,
+        280.56
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        116.95,
+        173.88,
+        815.54,
+        484.68
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:07",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

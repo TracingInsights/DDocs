@@ -1,0 +1,53 @@
+{
+  "date": "2025-11-23",
+  "doc_number": "60",
+  "doc_type": "classification",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-05-21T09:31:05Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:a54ef4ae09eae6942998a982bea7f6ae1c94ffb79773ec904bedf57406b6d54f",
+  "source_pdf": "documents/2025/las-vegas-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.06,
+        189.47,
+        571.92,
+        371.63
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        23.06,
+        379.61,
+        571.92,
+        427.98
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        23.06,
+        434.79,
+        571.92,
+        470.91
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "02:35",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

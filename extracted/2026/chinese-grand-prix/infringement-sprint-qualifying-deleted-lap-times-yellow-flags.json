@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2026-03-13",
+  "decision": "Deletion of the lap time shown.",
+  "doc_number": "34",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Chinese Grand Prix",
+  "event_slug": "chinese-grand-prix",
+  "extracted_at": "2026-05-21T08:31:15Z",
+  "fact": "The F1 car passed through a double waved yellow flag marshalling sector. - No. Turn Car Driver",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "1 16 31 Esteban Ocon TGR Haas F1 Team 16:01:31 PIT",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap time shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Article B1.8.4b",
+    "Chapter 5"
+  ],
+  "session": "Sprint Qualifying",
+  "source_hash": "sha256:9c5f0678be2fcbbd10bb4f41f0dc0ea60680c174a53e2e32f3a6eff00a837530",
+  "source_pdf": "documents/2026/chinese-grand-prix/infringement-sprint-qualifying-deleted-lap-times-yellow-flags.pdf",
+  "stewards": [
+    "Document 34 To All Officials",
+    "All Teams Date 13 March 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        336.0,
+        552.96,
+        375.72
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "18:54",
+  "title": "Infringement Sprint Qualifying Deleted Lap Times Yellow Flags",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

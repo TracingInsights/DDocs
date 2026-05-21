@@ -1,0 +1,53 @@
+{
+  "date": "2025-10-26",
+  "doc_number": "41",
+  "doc_type": "classification",
+  "event_name": "Mexico City Grand Prix",
+  "event_slug": "mexico-city-grand-prix",
+  "extracted_at": "2026-05-21T09:31:29Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:578928c305a60e9e1da1a74acae0504bdedbe075c10aab2c7514a495948c2628",
+  "source_pdf": "documents/2025/mexico-city-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        164.03,
+        189.38,
+        572.26,
+        396.06
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        164.03,
+        403.92,
+        572.26,
+        452.46
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        164.03,
+        465.36,
+        572.26,
+        489.61
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:38",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

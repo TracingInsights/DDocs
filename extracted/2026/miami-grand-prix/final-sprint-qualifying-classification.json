@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-01",
+  "doc_number": "34",
+  "doc_type": "classification",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:25:11Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:8d33e1508d9ca6e7cc87d2b3c551a843c2d057f60f802981114768a837be10f6",
+  "source_pdf": "documents/2026/miami-grand-prix/final-sprint-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.02,
+        187.34,
+        570.97,
+        430.22
+      ],
+      "columns": 10,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        24.02,
+        439.46,
+        570.97,
+        463.55
+      ],
+      "columns": 8,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.02,
+        472.62,
+        570.97,
+        496.82
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.02,
+        505.93,
+        570.97,
+        530.13
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "20:45",
+  "title": "Final Sprint Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

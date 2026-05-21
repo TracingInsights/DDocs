@@ -1,0 +1,53 @@
+{
+  "date": "2025-11-08",
+  "doc_number": "44",
+  "doc_type": "classification",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-05-21T09:35:41Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:5c4b4c51ade5efc875c981d3bc1406952ff17eb6324d37335a56f011201d9ba3",
+  "source_pdf": "documents/2025/s\u00e3o-paulo-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        158.87,
+        187.09,
+        571.16,
+        418.03
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        158.87,
+        427.08,
+        571.16,
+        451.29
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        158.87,
+        460.44,
+        571.16,
+        484.63
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:25",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2026-05-01",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "27",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:25:14Z",
+  "fact": "The F1 cars passed through a double waved yellow flag marshalling sector. - No. Turn Car Driver Competitor Time of Day Lap Time 1 19 16 Charles Leclerc Scuderia Ferrari HP 16:37:49 2:03.388 2 1 43 Franco Colapinto BWT Alpine F1 Team 16:37:49 2:04.407",
+  "from": "The Stewards Document 27",
+  "images_extracted": 0,
+  "incident_time": "18:30 The lap times set by the F1 cars that went through the double waved yellow flag marshalling sector will be deleted as detailed in Article B1.8.4b of the FIA F1 Regulations",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Article B1.8.4b",
+    "Chapter 5"
+  ],
+  "session": "Sprint Qualifying",
+  "source_hash": "sha256:95c8b62f12e2cfacfa8670d981a91742fbb49e5e7e00079ca9436990ad9600b8",
+  "source_pdf": "documents/2026/miami-grand-prix/infringement-sprint-qualifying-deleted-lap-times-yellow-flags.pdf",
+  "stewards": [
+    "Document 27 To All Officials",
+    "All Teams Date 01 May 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.46,
+        336.06,
+        552.84,
+        395.58
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "18:30",
+  "title": "Infringement Sprint Qualifying Deleted Lap Times Yellow Flags",
+  "to": "All Officials, All Teams",
+  "year": 2026
+}

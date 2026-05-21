@@ -1,0 +1,42 @@
+{
+  "date": "2025-05-03",
+  "doc_number": "45",
+  "doc_type": "timetable",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T09:31:54Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:0173b2eecf5c01aecba0c1a4d2f0efd09032d219406c6c2b87fe0a131e466dcc",
+  "source_pdf": "documents/2025/miami-grand-prix/change-to-timetable.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        726.23
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 29
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        579.92
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 22
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "13:54",
+  "title": "Change To Timetable",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

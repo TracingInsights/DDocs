@@ -1,0 +1,52 @@
+{
+  "date": "2025-05-24",
+  "doc_number": "42",
+  "doc_type": "race-director-note",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T09:32:43Z",
+  "from": "The FIA Formula One Race Director",
+  "images": [
+    {
+      "bbox": [
+        189.25,
+        456.27,
+        438.68,
+        615.43
+      ],
+      "deduplicated": false,
+      "display_height": 159.16,
+      "display_width": 249.43,
+      "height": 442,
+      "page": 4,
+      "path": "images/race-directors-event-notes-v2_p4_img1.jpeg",
+      "sha256": "7c301659f5dae5ecac5017d99902824401fbc6abe9d033749b83cb6ca7714062",
+      "width": 692
+    },
+    {
+      "bbox": [
+        219.43,
+        49.65,
+        383.12,
+        176.05
+      ],
+      "deduplicated": false,
+      "display_height": 126.4,
+      "display_width": 163.69,
+      "height": 391,
+      "page": 5,
+      "path": "images/race-directors-event-notes-v2_p5_img2.jpeg",
+      "sha256": "0d82d6b77f07111b34ee733633b8ddf93ec04df748dc69f90a398508d441168e",
+      "width": 507
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 7,
+  "source_hash": "sha256:b20c35c2e423d0ad710b16fbc4dfd119088d9600972573262259df2e905130b5",
+  "source_pdf": "documents/2025/monaco-grand-prix/race-directors-event-notes-v2.pdf",
+  "tables_extracted": 0,
+  "time": "20:34",
+  "title": "Race Directors Event Notes V2",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}

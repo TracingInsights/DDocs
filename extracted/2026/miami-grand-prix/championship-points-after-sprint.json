@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-02",
+  "doc_number": "56",
+  "doc_type": "championship-points",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:25:00Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:882cb30bdaeb2c539183092dc457a1765d047d98046d88e0afc28288f90c7b75",
+  "source_pdf": "documents/2026/miami-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.57,
+        174.26,
+        814.07,
+        450.2
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        21.46,
+        174.26,
+        814.12,
+        365.3
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        21.46,
+        173.81,
+        814.79,
+        453.9
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        20.71,
+        172.01,
+        814.9,
+        232.91
+      ],
+      "columns": 7,
+      "page": 5,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "15:35",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

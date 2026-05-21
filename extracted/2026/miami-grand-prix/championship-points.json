@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-03",
+  "doc_number": "102",
+  "doc_type": "championship-points",
+  "event_name": "Miami Grand Prix",
+  "event_slug": "miami-grand-prix",
+  "extracted_at": "2026-05-21T08:25:00Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:b0122131bc5cb119598321c81b77a66c489ef00eb2774a2e80ac414e0f10f6ab",
+  "source_pdf": "documents/2026/miami-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.57,
+        174.26,
+        814.07,
+        450.2
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        21.46,
+        174.26,
+        814.12,
+        365.3
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        21.46,
+        173.81,
+        814.79,
+        453.9
+      ],
+      "columns": 7,
+      "page": 4,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        20.71,
+        172.01,
+        814.9,
+        232.91
+      ],
+      "columns": 7,
+      "page": 5,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "18:15",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

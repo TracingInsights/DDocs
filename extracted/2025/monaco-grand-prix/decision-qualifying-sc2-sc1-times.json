@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2025-05-24",
+  "decision": "No further action.",
+  "doc_number": "36",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-05-21T09:32:29Z",
+  "fact": "The car below exceeded the 1:24.0 time limit between the Safety Car lines. No Car Driver Competitor Time of Day Lap 1 27 Nico Hulkenberg Stake F1 Team Kick Sauber 16:16:49 L12 (Q1)",
+  "from": "The Stewards Document 36",
+  "images_extracted": 0,
+  "incident_time": "17:50 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article 33.4 of the FIA Formula One Sporting Regulations and Article 12.2.1 i) of the FIA International Sporting Code (non-compliance with the Race Director's Event Notes, item 1, document 6)",
+  "pages": 3,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on- board cameras and CCTV cameras. The driver concerned stayed at or above speeds necessary to stay below 1:24.0 around the vast majority of the circuit. However, the Stewards determined that the driver took appropriate actions to not impede other drivers, and slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that the driver concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 15",
+    "Article 33.4 of the FIA Formula One Sporting Regulations and Article 12",
+    "Chapter 4"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:4ce5492d2003379e5c5dc0218aa1836c840e01224b07eb97b4983e8d92efd0cc",
+  "source_pdf": "documents/2025/monaco-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 36 To All Officials",
+    "All Teams Date 24 May 2025"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.84,
+        346.68,
+        560.04,
+        391.8
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "17:50",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2025
+}

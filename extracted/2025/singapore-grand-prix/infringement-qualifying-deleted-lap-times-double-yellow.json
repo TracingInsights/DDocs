@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "date": "2025-10-04",
+  "decision": "Deletion of the lap time shown.",
+  "doc_number": "33",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T09:34:09Z",
+  "fact": "The car passed through a double yellow sector. No Turn Car Driver",
+  "from": "The Stewards Document 33",
+  "images_extracted": 0,
+  "incident_time": "1 11 10 Pierre Gasly BWT Alpine F1 Team 21:20:38 PIT",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap time shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Article 26.1",
+    "Chapter 4"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:5ae0018598815a98183e1c0188a81339eaeb18a16472c2ec52b4799f1affd92c",
+  "source_pdf": "documents/2025/singapore-grand-prix/infringement-qualifying-deleted-lap-times-double-yellow.pdf",
+  "stewards": [
+    "Document 33 To All Officials",
+    "All Teams Date 04 October 2025"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        42.84,
+        346.32,
+        576.0,
+        391.44
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "22:55",
+  "title": "Infringement Qualifying Deleted Lap Times Double Yellow",
+  "to": "All Officials, All Teams",
+  "year": 2025
+}

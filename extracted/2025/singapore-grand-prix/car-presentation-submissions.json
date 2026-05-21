@@ -1,0 +1,80 @@
+{
+  "date": "2025-10-03",
+  "doc_number": "10",
+  "doc_type": "car-presentation",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-05-21T09:33:56Z",
+  "from": "The FIA Formula One Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 5,
+      "path": "images/car-presentation-submissions_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "7d39b3c48cb270e337d9b3a8ee508b63397842d02d8246bbf2434ee5fc912d14",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 7,
+      "path": "images/car-presentation-submissions_p7_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "c6729c8c2c28d4025a6846f89181e560947fd8898875c1af4d4df3184a790763",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 2,
+  "pages": 13,
+  "source_hash": "sha256:b7fccf25edd14e8d445643442b34295e55c7695970f15425d5847f2a1460424c",
+  "source_pdf": "documents/2025/singapore-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.59,
+        146.08,
+        769.43,
+        263.36
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        72.62,
+        170.05,
+        759.48,
+        245.32
+      ],
+      "columns": 5,
+      "page": 6,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "14:45",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2025
+}
