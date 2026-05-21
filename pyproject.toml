@@ -9,20 +9,20 @@ dependencies = [
     "aiohttp>=3.13.5",
     "beautifulsoup4>=4.14.3",
     "curl-cffi>=0.15.0",
-    "pdfplumber>=0.10.0",
-    "pillow>=10.0.0",
-    "kreuzberg>=4.9.0",
-    "pymupdf>=1.26.0",
-    "jinja2>=3.1.0",
-    "marker-pdf>=0.2.0",
-    "pypdf>=6.1.0",
-    "rich>=14.0.0",
+    "pdfplumber>=0.11.9",
+    "pillow>=12.2.0",
+    "kreuzberg>=4.9.7",
+    "pymupdf>=1.27.2.3",
+    "jinja2>=3.1.6",
+    "marker-pdf>=1.10.2",
+    "pypdf>=6.11.0",
+    "rich>=15.0.0",
 ]
 
 [dependency-groups]
 dev = [
-    "pytest>=8.0.0",
-    "ruff>=0.14.0",
+    "pytest>=9.0.3",
+    "ruff>=0.15.13",
 ]
 
 [build-system]
