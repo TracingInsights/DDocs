@@ -94249,6 +94249,26 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/canadian-grand-prix/power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-05-21T15:21:55Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e789646e8214be8bfcb3a8a8291c03adda4369853934c45c81e011fe1dd5bbcf",
+    "success": true,
+    "tables_extracted": 6
+  },
+  "documents/2026/canadian-grand-prix/timetable-v3.pdf": {
+    "doc_type": "timetable",
+    "error": null,
+    "extracted_at": "2026-05-21T15:21:55Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:b1792fd1743327e177783517435218fa91c3019a5ef4d9ef914e08ad44cb2815",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/miami-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
     "error": null,

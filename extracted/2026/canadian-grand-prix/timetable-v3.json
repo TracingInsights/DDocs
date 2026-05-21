@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-21",
+  "doc_number": "4",
+  "doc_type": "timetable",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-21T15:21:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:b1792fd1743327e177783517435218fa91c3019a5ef4d9ef914e08ad44cb2815",
+  "source_pdf": "documents/2026/canadian-grand-prix/timetable-v3.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        542.27
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        704.46
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 29
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        621.92
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 25
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        508.97
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 19
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "08:56",
+  "title": "Timetable V3",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
