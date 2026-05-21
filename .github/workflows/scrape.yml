@@ -23,21 +23,26 @@ jobs:
           sparse-checkout: |
             scraper.py
             transcript_scraper.py
+            extract.py
             config.py
             shared_utils.py
             pyproject.toml
             README.md
             uv.lock
-            README.md
             documents/manifest.json
             documents/discovery_cache.json
             documents/transcript_discovery_cache.json
+            extracted/manifest.json
           sparse-checkout-cone-mode: false
       - name: Install uv
         uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
           python-version: "3.13"
+      - name: Install system dependencies for extraction
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr pandoc
       - name: Install dependencies
         run: uv sync --frozen
       - name: Run scraper
@@ -55,6 +60,10 @@ jobs:
           # Cache TTL can be configured via environment variable
           DISCOVERY_CACHE_TTL_HOURS: "2.5"
         run: uv run python transcript_scraper.py --year $(date +%Y) --super-aggressive
+      - name: Run extraction on new documents
+        id: extract
+        if: always()
+        run: uv run python extract.py --limit 200
       - name: Check if any scraper succeeded
         run: |
           if [[ "${{ steps.scrape.outcome }}" == "failure" ]] && [[ "${{ steps.scrape_transcripts.outcome }}" == "failure" ]]; then
@@ -68,20 +77,21 @@ jobs:
           git sparse-checkout disable
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add documents/ classification/
+          git add documents/ classification/ extracted/
           if git diff --cached --quiet; then
             echo "No new documents to commit."
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            
+
             # Safely extract numeric values with defaults
             NEW_DOCS=$(echo "${{ steps.scrape.outputs.new_documents }}" | grep -E '^[0-9]+$' || echo "0")
             NEW_TRANSCRIPTS=$(echo "${{ steps.scrape_transcripts.outputs.new_transcripts }}" | grep -E '^[0-9]+$' || echo "0")
+            EXTRACTED=$(echo "${{ steps.extract.outputs.extracted_count }}" | grep -E '^[0-9]+$' || echo "0")
             TOTAL=$((NEW_DOCS + NEW_TRANSCRIPTS))
-            
-            git commit -m "docs: add ${TOTAL} FIA F1 documents (${NEW_DOCS} decisions, ${NEW_TRANSCRIPTS} transcripts) [${TIMESTAMP}]"
-            
+
+            git commit -m "docs: add ${TOTAL} FIA F1 documents (${NEW_DOCS} decisions, ${NEW_TRANSCRIPTS} transcripts), extracted ${EXTRACTED} PDFs [${TIMESTAMP}]"
+
             # Push and verify success
             if git push; then
               # Verify the push actually succeeded by checking remote
@@ -94,6 +104,7 @@ jobs:
                 echo "has_changes=true" >> $GITHUB_OUTPUT
                 echo "new_docs=$NEW_DOCS" >> $GITHUB_OUTPUT
                 echo "new_transcripts=$NEW_TRANSCRIPTS" >> $GITHUB_OUTPUT
+                echo "extracted=$EXTRACTED" >> $GITHUB_OUTPUT
                 echo "total=$TOTAL" >> $GITHUB_OUTPUT
               else
                 echo "Git push verification failed - commits don't match"
@@ -104,7 +115,7 @@ jobs:
               exit 1
             fi
           fi
-      
+
       - name: Generate release notes
         if: steps.commit_changes.outputs.has_changes == 'true'
         id: release_notes
@@ -113,7 +124,7 @@ jobs:
           CURRENT_YEAR=$(date +%Y)
           NEW_DOCS="${{ steps.commit_changes.outputs.new_docs }}"
           NEW_TRANSCRIPTS="${{ steps.commit_changes.outputs.new_transcripts }}"
-          
+
           # Get list of years with updates from git diff, handle case where HEAD~1 might not exist
           if git rev-parse --verify HEAD~1 >/dev/null 2>&1; then
             UPDATED_YEARS=$(git diff --name-only HEAD~1 HEAD | grep -oE '(documents|classification)/[0-9]{4}/' | grep -oE '[0-9]{4}' | sort -u | tr '\n' ', ' | sed 's/,$//')
@@ -121,40 +132,40 @@ jobs:
             # First commit case - get years from all added files
             UPDATED_YEARS=$(git diff --name-only --cached | grep -oE '(documents|classification)/[0-9]{4}/' | grep -oE '[0-9]{4}' | sort -u | tr '\n' ', ' | sed 's/,$//')
           fi
-          
+
           # Create release notes
           cat > release_notes.md << EOF
           ## FIA F1 Documents Update - ${TIMESTAMP}
-          
+
           ### Summary
           - 📄 New documents: ${NEW_DOCS}
           - 📊 New transcripts: ${NEW_TRANSCRIPTS}
           - 📅 Years updated: ${UPDATED_YEARS:-$CURRENT_YEAR}
-          
+
           ### Access via jsDelivr
-          
+
           You can access the latest data using jsDelivr CDN:
-          
+
           \`\`\`bash
           # Latest manifest
           https://cdn.jsdelivr.net/gh/${{ github.repository }}@latest/documents/manifest.json
-          
+
           # Latest classifications (current year)
           https://cdn.jsdelivr.net/gh/${{ github.repository }}@latest/classification/${CURRENT_YEAR}/classifications.json
-          
+
           # Specific document (example)
           https://cdn.jsdelivr.net/gh/${{ github.repository }}@latest/documents/${CURRENT_YEAR}/[event-name]/[document-name].pdf
           \`\`\`
-          
+
           ### Recent Changes
-          
+
           \`\`\`
           $(git log -1 --pretty=format:"%s%n%n%b")
           \`\`\`
           EOF
-          
+
           echo "Release notes generated"
-      
+
       - name: Create Release
         if: steps.commit_changes.outputs.has_changes == 'true'
         uses: softprops/action-gh-release@v3
