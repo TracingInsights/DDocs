@@ -1,23 +1,23 @@
 import asyncio
-import json
 import logging
-import os
 from pathlib import Path
 from urllib.parse import urljoin
+
 from curl_cffi.requests import AsyncSession
-from transcript_scraper import fetch_transcript, load_manifest, save_manifest
+
+from transcript_scraper import load_manifest
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 BASE_URL = "https://www.fia.com/news/"
 
-async def test_fetch(year, gp, day):
+
+async def fetch_candidate_transcript(year, gp, day):
     manifest_path = Path("documents/manifest.json")
-    manifest = load_manifest(manifest_path)
+    load_manifest(manifest_path)
     output_dir = Path("documents")
     
     async with AsyncSession(impersonate="chrome120") as session:
-        url_day = day
         # Sometimes it's wednesday for thursday
         variants_days = [day, "wednesday" if day == "thursday" else day]
         
@@ -84,4 +84,4 @@ async def test_fetch(year, gp, day):
 
 if __name__ == "__main__":
     # Test for 2018 Abu Dhabi Sunday
-    asyncio.run(test_fetch(2018, "abu-dhabi-grand-prix", "sunday"))
+    asyncio.run(fetch_candidate_transcript(2018, "abu-dhabi-grand-prix", "sunday"))
