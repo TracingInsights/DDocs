@@ -464,8 +464,16 @@ def base_metadata(
     tables_count: int,
 ) -> dict[str, Any]:
     parts = Path(job.relative_path).parts
+    is_reg = len(parts) > 0 and parts[0] == "regs"
     year = int(parts[1]) if len(parts) > 1 and parts[1].isdigit() else None
-    event_slug = parts[2] if len(parts) > 2 else None
+    # Regs layout: regs/<year>/<category-slug>/<file>.pdf — no event concept.
+    # Docs layout: <base>/<year>/<event-slug>/<file>.pdf
+    if is_reg:
+        event_slug = None
+        category = parts[2] if len(parts) > 2 else None
+    else:
+        event_slug = parts[2] if len(parts) > 2 else None
+        category = None
     header = parse_header_fields(text)
     doc_type = detect_doc_type(pdf_path)
     metadata: dict[str, Any] = {
@@ -475,6 +483,7 @@ def base_metadata(
         "year": year,
         "event_slug": event_slug,
         "event_name": header.get("event_name") or (event_name_from_slug(event_slug) if event_slug else None),
+        "category": category,
         "doc_type": doc_type,
         "doc_number": header.get("doc_number"),
         "date": header.get("date"),
@@ -1613,10 +1622,15 @@ def extract_pdf(job: PdfJob, *, output_dir: Path = EXTRACTED_DIR) -> dict[str, A
         markdown = clean_markdown(_pymupdf_markdown(job.source_path))
 
     rel_parts = Path(job.relative_path).parts
+    # Regs layout: regs/<year>/<category-slug>/<file>.pdf  (4 parts)
+    # Docs layout: <base>/<year>/<event-slug>/<file>.pdf   (4 parts)
     if len(rel_parts) < 4:
         raise ValueError(f"Unexpected PDF path layout: {job.relative_path}")
-    year, event_slug = rel_parts[1], rel_parts[2]
-    event_output_dir = output_dir / year / event_slug
+    base_dir, year, subdir = rel_parts[0], rel_parts[1], rel_parts[2]
+    if base_dir == "regs":
+        event_output_dir = output_dir / "regs" / year / subdir
+    else:
+        event_output_dir = output_dir / year / subdir
     doc_slug = job.source_path.stem
 
     doc_type = detect_doc_type(job.source_path)
