@@ -1,0 +1,87 @@
+{
+  "date": "2026-05-21",
+  "doc_number": "8",
+  "doc_type": "circuit-map",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-22T03:33:25Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "6459da8b458f645bb8b4118e43598201d268ed5e21c01856821d38f35ebd41c5",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 3,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "40fc4364a43b311358cc89e9a26cd5f37c4581c0782dcfd219431ec23b88ea3e",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ],
+      "deduplicated": false,
+      "display_height": 841.89,
+      "display_width": 595.28,
+      "height": 1684,
+      "page": 4,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "f861e4a6ffc49c822f91a9e0a7a180ef551c7fa586b8d5cc910306a96cf04801",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 4,
+  "source_hash": "sha256:ed3713ec2e3e7c4d0c3a9b8fc9e905765ba854ad3e931f699333604652d57ccc",
+  "source_pdf": "documents/2026/canadian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.77,
+        406.13,
+        798.93,
+        522.75
+      ],
+      "columns": 50,
+      "page": 3,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "18:00",
+  "title": "Competition Notes Circuit Map Pit Lane Drawing And Emergency Exits Map",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

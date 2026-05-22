@@ -94249,6 +94249,26 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/canadian-grand-prix/car-display-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-05-22T03:31:49Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:7c5132276574ad3f90eec0a1b02b962bb87fe8821fb4a17e88225abd6c87270a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-05-22T03:33:25Z",
+    "images_extracted": 3,
+    "pages": 4,
+    "source_hash": "sha256:ed3713ec2e3e7c4d0c3a9b8fc9e905765ba854ad3e931f699333604652d57ccc",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/canadian-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -94258,6 +94278,16 @@
     "source_hash": "sha256:e789646e8214be8bfcb3a8a8291c03adda4369853934c45c81e011fe1dd5bbcf",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/canadian-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-05-22T03:34:53Z",
+    "images_extracted": 13,
+    "pages": 10,
+    "source_hash": "sha256:0265f3c7c3a955721cc1231829e37ad84e40b00e369dbb1999e709caa5d22534",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/canadian-grand-prix/timetable-v3.pdf": {
     "doc_type": "timetable",
