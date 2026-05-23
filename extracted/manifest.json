@@ -94279,6 +94279,16 @@
     "success": true,
     "tables_extracted": 9
   },
+  "documents/2026/canadian-grand-prix/championship-points-after-sprint.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:11Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:7f6a46cca1f89073077ba4c375ed3ce5df460346b8460b03422287f45c405f62",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/canadian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -94329,6 +94339,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/decision-car-31-alleged-procedural-infringement.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:14Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:132dd3684574331b3e749c3005e69f1b1704b62d0522357cbdb5d119f14d822e",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/decision-car-44-alleged-leaving-the-track-and-gaining-an-advantage.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -94358,6 +94378,16 @@
     "source_hash": "sha256:976a323011aefbed050cf2dafa53e0a43ab2c040ab93f2bbb6d89911241c0506",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/final-sprint-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:16Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:4e297a1c9cdacb37bb859a86db7b1e512965ae5048e7c71cb2dc25810c78fa8a",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/canadian-grand-prix/final-sprint-qualifying-classification.pdf": {
     "doc_type": "classification",
@@ -94562,10 +94592,10 @@
   "documents/2026/canadian-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-05-23T02:51:06Z",
+    "extracted_at": "2026-05-23T21:54:17Z",
     "images_extracted": 0,
-    "pages": 3,
-    "source_hash": "sha256:6a7759cadbece6195d4beed2f50bcc7f5824d81134de2a164345b7bdee13d453",
+    "pages": 1,
+    "source_hash": "sha256:c0b5e95387099a3894164916b1fd0f6bd4817bc09ff3051780a12d1a301a615e",
     "success": true,
     "tables_extracted": 0
   },
@@ -94648,6 +94678,16 @@
     "source_hash": "sha256:e789646e8214be8bfcb3a8a8291c03adda4369853934c45c81e011fe1dd5bbcf",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/canadian-grand-prix/provisional-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:18Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:372f3a6498868dfd7213346fe5989bf442f62d4af98d53f01140afa05402dd4f",
+    "success": true,
+    "tables_extracted": 1
   },
   "documents/2026/canadian-grand-prix/provisional-sprint-classification.pdf": {
     "doc_type": "classification",
@@ -94739,6 +94779,66 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/summons-car-10-incident-with-car-44.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:28c6288ce385a71782d22b3949a53be0da3322c37fdfe4b3a9357fcd409457ad",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/summons-car-11-alleged-incident-with-car-14.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:203dc89fe43697ec809dc65cdf16031d8c7436e8b2aa60c2c9a3156c5cf7a868",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/summons-car-14-alleged-unsafe-release.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:5f1491c5426b9ed6e1da4d0d75d282bbc2dae4340f2d1c1016842746fdc808f4",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/summons-car-18-alleged-impeding-of-car-27.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ff9594a3ccc8bdab7424d7c1fdfb81a4bc11cde3b0a33ca9a2b0cebb02673106",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/summons-car-18-alleged-released-in-an-unsafe-condition.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:bb5685138de7f25d695c88fe4460acd0184be68d1846888764c58a8433e493cc",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/summons-car-27-incident-with-car-18.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:4490da1b24f083adadfd814759a662558b7e3ba777a46b38c6ae8044dc225bf1",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/summons-car-30-alleged-breach-of-article-c93.pdf": {
     "doc_type": "summons",
     "error": null,
@@ -94756,6 +94856,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:5693a4df85b80017d00ea15154e1819e84aae20a81ec41f1ab898a7e3523e677",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/summons-car-44-alleged-impeding-of-car-10.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-23T21:54:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:1c9f0bcb84169eccbd436410e1426420c3a487bafbd9a9e420cae3adbb0766dc",
     "success": true,
     "tables_extracted": 0
   },

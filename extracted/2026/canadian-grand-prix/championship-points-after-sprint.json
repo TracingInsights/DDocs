@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-05-23",
+  "doc_number": "63",
+  "doc_type": "championship-points",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-23T21:54:11Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:7f6a46cca1f89073077ba4c375ed3ce5df460346b8460b03422287f45c405f62",
+  "source_pdf": "documents/2026/canadian-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        120.77,
+        173.88,
+        814.98,
+        454.2
+      ],
+      "columns": 2,
+      "page": 4,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        117.15,
+        172.08,
+        815.04,
+        233.04
+      ],
+      "columns": 2,
+      "page": 5,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "15:30",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
