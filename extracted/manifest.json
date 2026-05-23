@@ -94299,6 +94299,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/curfew.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:47Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:e5392461dba7136b0de5cef7e186948b5b5cc84a5a3c9d82facabcaa56f0ca44",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/decision-car-23-failing-to-set-a-lap-time-within-107.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -94349,6 +94359,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/canadian-grand-prix/final-sprint-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:48Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:b99ef28592ab9a1dfe57f24bc310a37b1b46f8d6533c758cf27a7be0dffcf98d",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/free-practice-1-classification.pdf": {
     "doc_type": "classification",
     "error": null,
@@ -94359,6 +94379,26 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/canadian-grand-prix/infringement-car-10-parc-ferme.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:4129cbc0e3e216509631c8e9ae583424e5a5eab4583491b2668048dc1a683d37",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-12-failure-to-follow-race-directors-instructions-sc2-sc1-time.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:c4052f2e056b789066fca92ae6bc1f1bc7c8cd509f8e21700c436a7a13db5d23",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/infringement-car-16-pit-lane-speeding.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -94366,6 +94406,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:32268ba5dfa69cf6b3a05bf4a1bdb3e816a58769a7b060f52d53f143bafdfcb0",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-23-parc-ferme.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:8bfdb9abd563e4ffa0fe20c10d12d2e2bfb6cfb5298b5a5c5577b7f0c753dfc2",
     "success": true,
     "tables_extracted": 0
   },
@@ -94386,6 +94436,26 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:646df3909f8e3a6dc5a6fc22c525e8bb6397b6ae8d29d2745c899e59171b7c97",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-77-parc-ferme.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:6ca66de3d597de68423c2ac22df01ac87d1fc445d974134e15cba24e2701e1ba",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-87-parc-ferme.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:bad98104536035db1aa8e9524f58dd5ddb1ed0e7ee64f90e112e39910d339fee",
     "success": true,
     "tables_extracted": 0
   },
@@ -94456,6 +94526,46 @@
     "images_extracted": 0,
     "pages": 5,
     "source_hash": "sha256:fb3af61a88b515839873da9eb8fc4f0628c1d5a6fe3bd9723b22acac4ade081d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/parc-ferm\u00e9-issues.pdf": {
+    "doc_type": "parc-ferme",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:48Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:7550c4884d3fccbdb97142fda23c20f63d83d3c18cbcf6130436c0807a185323",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/parts-and-parameters-been-replaced-and-or-changed-during-parc-ferm\u00e9.pdf": {
+    "doc_type": "parc-ferme",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:48Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:bb10aef9482ef1483a3b7822a170fbf672737c79c1d9f9f6823c078accb7ca89",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:49Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:f928701dddc662c0ffdb7811b074d34735163273cc174829faf3a219768aac23",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/post-sprint-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-05-23T16:01:49Z",
+    "images_extracted": 1,
+    "pages": 3,
+    "source_hash": "sha256:32c455bb84c9277a3958dedcbf5e8ad3cedb41955653eb3adb931b2e15696e30",
     "success": true,
     "tables_extracted": 0
   },
