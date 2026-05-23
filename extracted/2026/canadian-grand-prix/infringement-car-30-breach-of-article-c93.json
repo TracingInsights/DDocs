@@ -1,0 +1,42 @@
+{
+  "car_number": 30,
+  "category": null,
+  "date": "2026-05-22",
+  "decision": "The competitor (Visa Cash App Racing Bulls F1 Team) is fined \u20ac30,000, \u20ac20,000 of which is suspended for a period of 12 months subject to no further breach of this regulation by the Competitor, for either of its cars.",
+  "doc_number": "26",
+  "doc_type": "infringement",
+  "driver": "Liam Lawson",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-23T02:51:05Z",
+  "fact": "The CDS did not function when the car stopped on the track.",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "15:00",
+  "offence": "Breach of Article C9.3 of the FIA F1 Regulations.",
+  "pages": 2,
+  "penalty": "\u20ac30,000,",
+  "penalty_points": null,
+  "reason": "The Stewards heard from the driver of Car 30 (Liam Lawson), team representatives, the FIA Technical Delegate and FIA Electronics Engineer and reviewed telemetry and in-car video evidence. The team's engineer explained how the CDS system worked. It was noted that the system on this car performs two roles \u2013 the one for which is it primarily intended, namely to release the clutch when the car is stopped and the engine is not working, and the other relates to the anti-stall system. In this case, a ruptured joint caused a hydraulic leak, which caused the car to stop. The CDS, when activated by the marshal, then failed to release the clutch and hence the car could not be moved. This is a serious matter. It resulted in the session being red-flagged. Had the system worked as intended by the regulations, the incident could have been dealt with swiftly via deployment of the Virtual Safety Car. The Stewards note the concern of the FIA Technical Delegate, over the dual purpose of the CDS on this car. The Technical Delegate advised that the team had, in 2025, been warned about the CDS system design for its cars. The Driver noted that there were two issues of concern that he wished to draw to the attention of the Stewards, namely that contrary to his instructions and common practice, the marshals attempted to push the car when it was stationary, and that the marshal who attempted to activate the CDS was trying to press a button on the onboard camera rather than the CDS button. This indicates to the Stewards that further training in this area is required, notwithstanding the fact that the FIA distributes a very clear document addressing this action. (ref \"FIA Single Seater Recovery Specifications\"). We note that it is obvious that the distribution of such a document, although well detailed, probably needs supplementing with some form of practical training by the organisers.",
+  "rules_referenced": [
+    "Article 15",
+    "Article C9.3",
+    "Chapter 5"
+  ],
+  "session": "Free Practice 1",
+  "source_hash": "sha256:70bf1e838fb4d60bd9757a3d49f5eea62e76a1c540002efeb176ac81573fd7af",
+  "source_pdf": "documents/2026/canadian-grand-prix/infringement-car-30-breach-of-article-c93.pdf",
+  "stewards": [
+    "in accordance with Article 15 of the FIA International Sporting Code",
+    "Chapter 5 of the FIA Judicial",
+    "Disciplinary Rules",
+    "are based solely on the relevant regulations",
+    "guidelines"
+  ],
+  "tables_extracted": 0,
+  "team": "Visa Cash App Racing Bulls F1 Team",
+  "time": "17:18",
+  "title": "Infringement Car 30 Breach Of Article C93",
+  "to": "The Team Manager,",
+  "year": 2026
+}

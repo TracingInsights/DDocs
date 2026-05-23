@@ -94299,6 +94299,36 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/decision-car-23-failing-to-set-a-lap-time-within-107.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:04Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:481ec61906c845668fbe0f87c9bc6ea160ad20cbcb8bd49d560c7aa6c9faed56",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/decision-car-30-failing-to-set-a-lap-time-within-107.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:04Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:cde0508a185085ad3e6f028b70c50890eb8c86ca8fe543dbbb6c3d7674487495",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/decision-sprint-qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:04Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:1b13c85d5bf788b765e07082cd8eea3204fb5b3fbef0c7ba47e548d01423d13f",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/canadian-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -94308,6 +94338,16 @@
     "source_hash": "sha256:976a323011aefbed050cf2dafa53e0a43ab2c040ab93f2bbb6d89911241c0506",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/final-sprint-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:04Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6ce73160f3fb10ebe931940f1c3f3f3b5e90ba1d65f76e54f6d8a375634152ed",
+    "success": true,
+    "tables_extracted": 1
   },
   "documents/2026/canadian-grand-prix/free-practice-1-classification.pdf": {
     "doc_type": "classification",
@@ -94329,6 +94369,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/infringement-car-30-breach-of-article-c93.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:05Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:70bf1e838fb4d60bd9757a3d49f5eea62e76a1c540002efeb176ac81573fd7af",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/infringement-car-31-leaving-the-pitlane-after-the-end-of-the-session.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -94339,13 +94389,73 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/infringement-failure-to-follow-race-directors-instructions-sc2-sc1-time.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:05Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:3d0b9bf52d30f65bf9b63d63b6718d91fa2bc2419d6ea82c758b273b1be9f164",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:05Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:3d5087bc7e368ae356b65e815d10b03ebfddb6efc37ddffc4b3b05e7773ec194",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/canadian-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:06Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:132f797f24df6b879db0adfb82fee6906d0ca3588c73cab615a3ff5183626192",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/canadian-grand-prix/infringement-sprint-qualifying-deleted-lap-times-double-yellow.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:df2aeea132d425c7def83721a24d302adeb3d6c23e3a675cd13e824153069520",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/canadian-grand-prix/infringement-sprint-qualifying-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:06Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:f56399918e61a3e467b17c030f9e8fa973bab68a831b1beba3dce8daeb1fe0df",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/canadian-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-05-22T17:07:47Z",
+    "extracted_at": "2026-05-23T02:51:06Z",
     "images_extracted": 0,
-    "pages": 4,
-    "source_hash": "sha256:e8dbae73ff92f56ce116946176025c97d6ef2276ca4b2154ae4631e1e95b9820",
+    "pages": 3,
+    "source_hash": "sha256:6a7759cadbece6195d4beed2f50bcc7f5824d81134de2a164345b7bdee13d453",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/p1-and-sprint-qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:06Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:fb3af61a88b515839873da9eb8fc4f0628c1d5a6fe3bd9723b22acac4ade081d",
     "success": true,
     "tables_extracted": 0
   },
@@ -94378,6 +94488,26 @@
     "source_hash": "sha256:e789646e8214be8bfcb3a8a8291c03adda4369853934c45c81e011fe1dd5bbcf",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/canadian-grand-prix/provisional-sprint-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:07Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:22b362530b5cad6482065eea1068824d1fa1663b970cfcd96e2908465fe13c27",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/canadian-grand-prix/provisional-sprint-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-05-23T02:51:08Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e3df879cfa0d9de36ed15f46023f6b3da4ab8eea4301b5c7767476a295176fb1",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/canadian-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",

@@ -1,0 +1,32 @@
+{
+  "category": null,
+  "date": "2026-05-22",
+  "doc_number": "35",
+  "doc_type": "classification",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-23T02:51:04Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:6ce73160f3fb10ebe931940f1c3f3f3b5e90ba1d65f76e54f6d8a375634152ed",
+  "source_pdf": "documents/2026/canadian-grand-prix/final-sprint-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        178.52,
+        187.07,
+        571.23,
+        430.28
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "20:00",
+  "title": "Final Sprint Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

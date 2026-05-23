@@ -1,0 +1,56 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-05-22",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "32",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-23T02:51:06Z",
+  "fact": "The F1 cars passed through a double waved yellow flag marshalling sector. - No. Turn Car Driver",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "1 3 6 Isack Hadjar Oracle Red Bull Racing 16:40:07 PIT 2 3 18 Lance Stroll Aston Martin Aramco F1 Team 16:40:08 PIT 3 3 44 Lewis Hamilton Scuderia Ferrari HP 16:40:11 PIT",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Article B1.8.4b",
+    "Chapter 5"
+  ],
+  "session": "Sprint Qualifying",
+  "source_hash": "sha256:df2aeea132d425c7def83721a24d302adeb3d6c23e3a675cd13e824153069520",
+  "source_pdf": "documents/2026/canadian-grand-prix/infringement-sprint-qualifying-deleted-lap-times-double-yellow.pdf",
+  "stewards": [
+    "Document 32 To All Officials",
+    "in accordance with Article 15 of the FIA International Sporting Code",
+    "Chapter 5 of the FIA Judicial",
+    "Disciplinary Rules",
+    "are based solely on the relevant regulations",
+    "guidelines"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        336.0,
+        552.96,
+        415.44
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "19:04",
+  "title": "Infringement Sprint Qualifying Deleted Lap Times Double Yellow",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
