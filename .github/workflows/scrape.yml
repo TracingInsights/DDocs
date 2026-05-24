@@ -91,8 +91,18 @@ jobs:
           if git diff --cached --quiet; then
             echo "No new documents to commit."
             echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "has_release_changes=false" >> $GITHUB_OUTPUT
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+
+            CHANGED_FILES=$(git diff --cached --name-only)
+            NON_CACHE_FILES=$(echo "$CHANGED_FILES" | grep -v -E '^documents/discovery_cache\.json$|^documents/transcript_discovery_cache\.json$' || true)
+            if [ -z "$NON_CACHE_FILES" ]; then
+              HAS_RELEASE_CHANGES="false"
+              echo "Only cache files changed. Will skip release."
+            else
+              HAS_RELEASE_CHANGES="true"
+            fi
 
             # Safely extract numeric values with defaults
             NEW_DOCS=$(echo "${{ steps.scrape.outputs.new_documents }}" | grep -E '^[0-9]+$' || echo "0")
@@ -115,6 +125,7 @@ jobs:
               if [ "$LOCAL_COMMIT" = "$REMOTE_COMMIT" ]; then
                 echo "Git push verified successfully"
                 echo "has_changes=true" >> $GITHUB_OUTPUT
+                echo "has_release_changes=$HAS_RELEASE_CHANGES" >> $GITHUB_OUTPUT
                 echo "new_docs=$NEW_DOCS" >> $GITHUB_OUTPUT
                 echo "new_transcripts=$NEW_TRANSCRIPTS" >> $GITHUB_OUTPUT
                 echo "new_regs=$NEW_REGS" >> $GITHUB_OUTPUT
@@ -131,7 +142,7 @@ jobs:
           fi
 
       - name: Generate release notes
-        if: steps.commit_changes.outputs.has_changes == 'true'
+        if: steps.commit_changes.outputs.has_release_changes == 'true'
         id: release_notes
         run: |
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
@@ -183,7 +194,7 @@ jobs:
           echo "Release notes generated"
 
       - name: Create Release
-        if: steps.commit_changes.outputs.has_changes == 'true'
+        if: steps.commit_changes.outputs.has_release_changes == 'true'
         uses: softprops/action-gh-release@v3
         with:
           tag_name: release-${{ github.run_number }}
