@@ -94672,10 +94672,10 @@
   "documents/2026/canadian-grand-prix/parc-ferm\u00e9-issues.pdf": {
     "doc_type": "parc-ferme",
     "error": null,
-    "extracted_at": "2026-05-23T16:01:48Z",
+    "extracted_at": "2026-05-24T16:00:59Z",
     "images_extracted": 0,
     "pages": 2,
-    "source_hash": "sha256:7550c4884d3fccbdb97142fda23c20f63d83d3c18cbcf6130436c0807a185323",
+    "source_hash": "sha256:21e748ebf0c1327dad3e880201a3b64bc927b46ab1cf83cd588ad01d7f13aea7",
     "success": true,
     "tables_extracted": 0
   },
@@ -94696,6 +94696,16 @@
     "images_extracted": 1,
     "pages": 4,
     "source_hash": "sha256:f928701dddc662c0ffdb7811b074d34735163273cc174829faf3a219768aac23",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/post-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-05-24T16:01:00Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:f726402137ba7f85bf208b785eaa374e794a13f6a5e9fdc041bdbe3c1927f60c",
     "success": true,
     "tables_extracted": 0
   },
@@ -94738,6 +94748,16 @@
     "source_hash": "sha256:e789646e8214be8bfcb3a8a8291c03adda4369853934c45c81e011fe1dd5bbcf",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/canadian-grand-prix/pre-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-05-24T16:01:00Z",
+    "images_extracted": 1,
+    "pages": 3,
+    "source_hash": "sha256:a9464bfbedee73b27e69f2cbef53cb848fd2d0b6654c9c362d9c2630028c7205",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/canadian-grand-prix/provisional-qualifying-classification.pdf": {
     "doc_type": "classification",

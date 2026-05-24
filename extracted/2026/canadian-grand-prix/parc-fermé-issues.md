@@ -2,31 +2,22 @@
 
 ## 22 - 24 May 2026
 
-Technical Delegate's Report Changes have been made to the set up of car number 23 without the approval of the technical
+Technical Delegate's Report
 
-### delegate. This is a breach of Article B3.5.3.
+**The following driver will be using a new energy store unit (ES) for the remainder of the Competition:**
 
-Furthermore car 23 was not covered two (2) hours after chequered flag of SQ3. This is a breach of Article B3.4.2 a).
+Number Car Driver Previously used ES 18 Aston Martin Aramco Honda Lance Stroll 3 The energy store unit used by Lance Stroll is the fourth (4 ) of the three (3) new energy store
 
-### For these reasons car 23 should now be required to start the Sprint from the pit lane according to
+### units allowed for the 2026 Championship season and this is not in conformity with B8.2.2 d) of the
 
-Article B3.5.3 b) of the 2026 Formula 1 Sporting Regulations. Changes have been made to the set up of car number 10 without the approval of the technical delegate. This is a breach of Article B3.5.3.
+2026 Formula One Sporting Regulations. The following driver will be using a new control electronics unit (PU-CE) for the remainder of the
 
-Furthermore car 10 was not covered two (2) hours after chequered flag of SQ3. This is a breach of Article B3.4.2 a).
+Competition: Number Car Driver Previously used PU-CE 18 Aston Martin Aramco Honda Lance Stroll 3 The control electronics unit used by Lance Stroll is the fourth (4 ) of the three (3) new control
 
-### For these reasons car 10 should now be required to start the Sprint from the pit lane according to
+### electronics units allowed for the 2026 Championship season and this is not in conformity with B8.2.2
 
-Article B3.5.3 b) of the 2026 Formula 1 Sporting Regulations. Changes have been made to the set up of car number 87 without the approval of the technical delegate. This is a breach of Article B3.5.3.
+e) of the 2026 Formula One Sporting Regulations. The PU elements for car 18 were replaced without the approval of the technical delegate. As this is not in compliance with Article B3.5.3, I am referring this matter to the stewards for their
 
-### For these reasons car 87 should now be required to start the Sprint from the pit lane according to
+consideration. From The FIA Formula 1 Technical Delegate To The Stewards Document 88 Date 24 May 2026 Time 11:34 th th
 
-Article B3.5.3 b) of the 2026 Formula 1 Sporting Regulations. Changes have been made to the set up of car number 77 without the approval of the technical delegate. This is a breach of Article B3.5.3.
-
-### For these reasons car 77 should now be required to start the Sprint from the pit lane according to
-
-Article B3.5.3 b) of the 2026 Formula 1 Sporting Regulations. From The FIA Formula 1 Technical Delegate To The Stewards Document 44 Date 23 May 2026 Time 10:44
-
-| I am referring | these matters | to the Stewards for their consideration. |
-| --- | --- | --- |
-| Jo Bauer |  |  |
-| The FIA Formula | 1 Technical | Delegate |
+### The FIA Formula 1 Technical Delegate Jo Bauer
