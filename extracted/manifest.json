@@ -94289,6 +94289,16 @@
     "success": true,
     "tables_extracted": 2
   },
+  "documents/2026/canadian-grand-prix/championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-05-25T10:02:55Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:d9deeeb97c970c62047f3c3ee7a969f56425215e5a1093da0d2768843966879a",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/canadian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -94316,6 +94326,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:e5392461dba7136b0de5cef7e186948b5b5cc84a5a3c9d82facabcaa56f0ca44",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/decision-car-11-ignoring-blue-flags.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-05-25T10:02:58Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ca9768c5018d21e22dbea0479fa4dbe5685ef951905a8202de322c9cae9f1111",
     "success": true,
     "tables_extracted": 0
   },
@@ -94379,6 +94399,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/decision-race-reconnaissance-laps-sc2-sc1.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-05-25T10:02:58Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:53888d73ffcae3a9181f3f9e79ac91332cf1f205f7e39deed229b842a519aa25",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/canadian-grand-prix/decision-sprint-qualifying-sc2-sc1-times.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -94408,6 +94438,16 @@
     "source_hash": "sha256:25cafba38d890dacafd1276bf142824c41a2a2c76a5fd07816930451faa4be46",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/canadian-grand-prix/final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:00Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:bb67b0f3cae1d0ea2a5cddb4fed2beb8e9ac25af9b565e04c6096188bc4b7952",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/canadian-grand-prix/final-sprint-classification.pdf": {
     "doc_type": "classification",
@@ -94569,6 +94609,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/infringement-car-27-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:01Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ea43b9d147c1620a717f62db90fcd447754ee7469ab9797d960df2d263770297",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-27-starting-procedure-infringement.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:01Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:289ca3f0424dfef4351cc82ab55e0aa2d119dd706a25f10d2538211f7eb5202b",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/infringement-car-30-breach-of-article-c93.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -94576,6 +94636,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:70bf1e838fb4d60bd9757a3d49f5eea62e76a1c540002efeb176ac81573fd7af",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-30-starting-procedure-infringement.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:01Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:2333808f6a8dca01f3c23ca4b35803d14420938ba567e4bc0ba04a02f0111b81",
     "success": true,
     "tables_extracted": 0
   },
@@ -94589,6 +94659,36 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/infringement-car-5-driving-unnecessarily-slowly-during-vsc.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:01Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:766cf36fb3770c5a8f60f0ca2e66361717377f1cb2ee4671407390adebfd9fc0",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-6-failing-to-slow-for-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:01Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ae629a273263fb9d4455fd30682223534d2747370a5bc49cd91725d1938ca364",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-63-unsafe-act.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:01Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:e68737a728b889fe92fe795712f02f2e404775fa15c47f02f329849bb078d91d",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/infringement-car-77-parc-ferme.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -94596,6 +94696,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:6ca66de3d597de68423c2ac22df01ac87d1fc445d974134e15cba24e2701e1ba",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-77-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:01Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:251b01b1f95442210b961f2c575fa99a146da2f7d3eda07ee57ab71e5b2997b3",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/infringement-car-81-collision-with-car-23.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:01Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:27249edaba71a32b423e5a0b4d4dc2931da7ddb62d37d6acf930dd0aaeb86334",
     "success": true,
     "tables_extracted": 0
   },
@@ -94638,6 +94758,16 @@
     "source_hash": "sha256:132f797f24df6b879db0adfb82fee6906d0ca3588c73cab615a3ff5183626192",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/canadian-grand-prix/infringement-race-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:02Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:30656ac361e59bd69f472bb18113935b789a4d0056477c626780eb847590690e",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/canadian-grand-prix/infringement-sprint-deleted-lap-times.pdf": {
     "doc_type": "infringement",
@@ -94799,6 +94929,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/canadian-grand-prix/provisional-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:03Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:f75572c9fc5cbbe80cbfd0514d225dee7f1b4d1066b77233abfe466c85e4a9d9",
+    "success": true,
+    "tables_extracted": 3
+  },
   "documents/2026/canadian-grand-prix/provisional-sprint-classification.pdf": {
     "doc_type": "classification",
     "error": null,
@@ -94899,6 +95039,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/race-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:04Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:977ef17d962590999c540b9fa1817f5fd0877bf741aa395d1a8ee17928939438",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/rain-hazard-declaration.pdf": {
     "doc_type": "other",
     "error": null,
@@ -94989,6 +95139,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/canadian-grand-prix/summons-car-27-starting-procedure-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:04Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:e9540897c9132220d97f83d003899090fbfaf1e62a03f7d1df36b4b197657d9e",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/canadian-grand-prix/summons-car-30-alleged-breach-of-article-c93.pdf": {
     "doc_type": "summons",
     "error": null,
@@ -94996,6 +95156,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:961da7d053b460afeb06c512c74c601377638a5f5fdd100e4a7c5c295bef8012",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/summons-car-30-starting-procedure-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:04Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:f6a27388ff506fa835bfd093ce3e873d2572b679e03c699e82242b21921fb37e",
     "success": true,
     "tables_extracted": 0
   },
@@ -95016,6 +95186,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:1c9f0bcb84169eccbd436410e1426420c3a487bafbd9a9e420cae3adbb0766dc",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/canadian-grand-prix/summons-car-63-alleged-unsafe-act.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-05-25T10:03:04Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:74f29a1f3ffca82738b61be52f19d7efabbee3e821ac5b8d3f1c4219d378bed5",
     "success": true,
     "tables_extracted": 0
   },

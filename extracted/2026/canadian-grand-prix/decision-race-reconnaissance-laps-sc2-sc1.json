@@ -1,0 +1,53 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-05-24",
+  "decision": "No further action.",
+  "doc_number": "109",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-25T10:02:58Z",
+  "fact": "The F1 cars below exceeded the 1:22.0 time limit between the Safety Car lines. - No. Car Driver Competitor Time of Day 1 5 Gabriel Bortoleto Audi Revolut F1 Team 15:22:17 2 77 Valtteri Bottas Cadillac Formula 1 Team 15:27:22 3 10 Pierre Gasly BWT Alpine F1 Team 15:28:31",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "20:46 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following: Session Reconnaissance laps - Race",
+  "offence": "Alleged breach of Article B1.8.5 of the FIA F1 Regulations and Article 12.2.1.i of the FIA International Sporting Code (non-compliance with the Race Director's Competition Notes, item 1, document 6).",
+  "pages": 2,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on-board cameras and CCTV cameras. All drivers concerned stayed at or above speeds necessary to stay below 1:22.0 around the vast majority of the circuit. However, in all cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that all drivers concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 12.2.1.i",
+    "Article 15",
+    "Article B1.8.5",
+    "Chapter 5"
+  ],
+  "session": null,
+  "source_hash": "sha256:53888d73ffcae3a9181f3f9e79ac91332cf1f205f7e39deed229b842a519aa25",
+  "source_pdf": "documents/2026/canadian-grand-prix/decision-race-reconnaissance-laps-sc2-sc1.pdf",
+  "stewards": [
+    "Document 109 To All Officials",
+    "All Teams Date 24 May 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        335.52,
+        552.96,
+        414.96
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "20:46",
+  "title": "Decision Race Reconnaissance Laps Sc2 Sc1",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

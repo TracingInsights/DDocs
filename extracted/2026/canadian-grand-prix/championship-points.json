@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-05-24",
+  "doc_number": "111",
+  "doc_type": "championship-points",
+  "event_name": "Canadian Grand Prix",
+  "event_slug": "canadian-grand-prix",
+  "extracted_at": "2026-05-25T10:02:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:d9deeeb97c970c62047f3c3ee7a969f56425215e5a1093da0d2768843966879a",
+  "source_pdf": "documents/2026/canadian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        120.77,
+        173.88,
+        814.98,
+        454.2
+      ],
+      "columns": 2,
+      "page": 4,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        117.15,
+        172.08,
+        815.04,
+        233.04
+      ],
+      "columns": 2,
+      "page": 5,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "21:16",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
