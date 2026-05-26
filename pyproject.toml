@@ -14,14 +14,14 @@ dependencies = [
     "pymupdf>=1.27.2.3",
     "jinja2>=3.1.6",
     "marker-pdf>=1.10.2",
-    "pypdf>=6.11.0",
+    "pypdf>=6.12.2",
     "rich>=15.0.0",
 ]
 
 [dependency-groups]
 dev = [
     "pytest>=9.0.3",
-    "ruff>=0.15.13",
+    "ruff>=0.15.14",
 ]
 
 [build-system]
