@@ -96159,6 +96159,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/monaco-grand-prix/competition-notes-pirelli-preview.pdf": {
+    "doc_type": "pirelli-preview",
+    "error": null,
+    "extracted_at": "2026-06-03T20:54:21Z",
+    "images_extracted": 1,
+    "pages": 2,
+    "source_hash": "sha256:2c03f7fd49fef4b1bf7daece70f61abc230913938fc3f962ee27565bd7d141e8",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/monaco-grand-prix/competition-visa.pdf": {
     "doc_type": "competition-visa",
     "error": null,
@@ -96178,5 +96188,15 @@
     "source_hash": "sha256:16483a214a15396c21bd5e061010148a927e1dcb2ce8368ac46225c5eaa51d16",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-06-03T20:54:21Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:9a6bbc3dca30e869ce7c1c63d2f1f88e2587e4c4899e5ebb317566f492e5fced",
+    "success": true,
+    "tables_extracted": 6
   }
 }
