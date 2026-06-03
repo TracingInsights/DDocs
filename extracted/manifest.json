@@ -96158,5 +96158,25 @@
     "source_hash": "sha256:5a00e5643262d19c3e40b0bbb2641f25e821c59ba3ed592af08586812d47f848",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/monaco-grand-prix/competition-visa.pdf": {
+    "doc_type": "competition-visa",
+    "error": null,
+    "extracted_at": "2026-06-03T10:55:57Z",
+    "images_extracted": 0,
+    "pages": 11,
+    "source_hash": "sha256:9ce58056fd555074b6355a60c22a39d08bd18555a12a499734fbcf3ed44bfa63",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/curfew-period-tyre-preparation.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-06-03T10:55:57Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:16483a214a15396c21bd5e061010148a927e1dcb2ce8368ac46225c5eaa51d16",
+    "success": true,
+    "tables_extracted": 0
   }
 }
