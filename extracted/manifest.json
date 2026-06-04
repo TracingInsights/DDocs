@@ -96159,6 +96159,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/monaco-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-06-04T14:58:41Z",
+    "images_extracted": 4,
+    "pages": 5,
+    "source_hash": "sha256:d7334536ab4bd791d5410d3aa86c2d0a70305257259dd8ff08ebbf0980262b62",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/monaco-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -96198,5 +96208,25 @@
     "source_hash": "sha256:9a6bbc3dca30e869ce7c1c63d2f1f88e2587e4c4899e5ebb317566f492e5fced",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/monaco-grand-prix/race-directors-competition-notes-v2.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-06-04T15:00:05Z",
+    "images_extracted": 6,
+    "pages": 8,
+    "source_hash": "sha256:8cbabeaa0d5272b063dbed5982c598701c0cd7aebf309aa11b942aefe939ec4a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-06-04T15:00:07Z",
+    "images_extracted": 6,
+    "pages": 8,
+    "source_hash": "sha256:b7714a37df027d1fc22e8a0341a4ec38e987e11a4872e65480c2e5780ba9831d",
+    "success": true,
+    "tables_extracted": 0
   }
 }
