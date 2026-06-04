@@ -96159,6 +96159,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/monaco-grand-prix/car-display-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-06-04T17:46:34Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:023060182bd45ad0971fb2d2e3acb70b6684187cf52976121ab01c25270af47e",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/monaco-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -96228,5 +96238,35 @@
     "source_hash": "sha256:b7714a37df027d1fc22e8a0341a4ec38e987e11a4872e65480c2e5780ba9831d",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/summons-car-1-late-attendance-of-the-thursday-press-conference.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-04T17:46:34Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:a9050a63f1158fa0c04fa882f3a1a2ab0ff3cbaa490fbaf76794d921249945be",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/summons-car-16-late-attendance-of-the-thursday-press-conference.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-04T17:46:34Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:04430516737ee999785f93f37a1d8d3240adf0143c97a18c455e1049f328a3c0",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/timetable-v3.pdf": {
+    "doc_type": "timetable",
+    "error": null,
+    "extracted_at": "2026-06-04T17:46:34Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:55d63ed75167e32109f786917cc608cc10cc71ffe6ade4426ee321a5712dca4d",
+    "success": true,
+    "tables_extracted": 4
   }
 }

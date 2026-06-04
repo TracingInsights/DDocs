@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-06-04",
+  "doc_number": "9",
+  "doc_type": "timetable",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-06-04T17:46:34Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:55d63ed75167e32109f786917cc608cc10cc71ffe6ade4426ee321a5712dca4d",
+  "source_pdf": "documents/2026/monaco-grand-prix/timetable-v3.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        650.87
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 25
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        742.11
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 31
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        621.92
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 25
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        662.45
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 26
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "17:13",
+  "title": "Timetable V3",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
