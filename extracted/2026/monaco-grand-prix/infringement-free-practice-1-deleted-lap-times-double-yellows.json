@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-06-05",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "31",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-06-05T14:48:20Z",
+  "fact": "The F1 cars passed through a double waved yellow flag marshalling sector. - No. Turn Car Driver",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "1 16 6 Isack Hadjar Oracle Red Bull Racing 14:05:17 PIT 2 15 41 Arvid Lindblad Visa Cash App Racing Bulls F1 Team 14:05:22 PIT",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Chapter 5"
+  ],
+  "session": null,
+  "source_hash": "sha256:5f7a4e29e1dddbdf99166b275e0c65023fcf84a94cee8bf656c3971d7e6bb7a6",
+  "source_pdf": "documents/2026/monaco-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellows.pdf",
+  "stewards": [
+    "Document 31 To All Officials",
+    "All Teams Date 05 June 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        334.92,
+        552.96,
+        394.56
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "16:40",
+  "title": "Infringement Free Practice 1 Deleted Lap Times Double Yellows",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

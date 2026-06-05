@@ -96169,6 +96169,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/monaco-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:16Z",
+    "images_extracted": 11,
+    "pages": 23,
+    "source_hash": "sha256:513eca62751dd9e24be31a313058e3efc949ad72ed25a21fbd5a86d1f2355996",
+    "success": true,
+    "tables_extracted": 11
+  },
   "documents/2026/monaco-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -96209,6 +96219,116 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/monaco-grand-prix/decision-car-30-alleged-leaving-the-pitlane-after-the-end-of-the-session.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:17Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:88c271504206a4ded8461b0b2a22d962341cefd2083568ffc0bfcbe88fe64c9f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:17Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:39e78b309685e6867dc72208f2d5b847b49c354f124690ddccab7f03bae2018b",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:18Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c6f4dd9e082f445d28b094d53f29eda87ada1b325aecb2a6ec13b7e6c948b15a",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/monaco-grand-prix/infringement-car-1-media-commitment.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:b99046843cf75a2aced4560cfead00199e9ec80606f528a99f9d2c4a5e404312",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/infringement-car-16-impeding-of-car-30.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:9f394a02380ad0ca1ab09f90f6a1f4ed13c49ddd83bb19872a819106e996014d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/infringement-car-16-media-commitment.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:b05eca807dd042b2975788e98f13c5bc544ca2f483a433eeba860baece6fe659",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/infringement-car-41-impeding-of-car-81.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:e1ebce540b8f43bb1e397ae8aa6278ef01bfcfb49d62b046d8a8a21e97dc5518",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/infringement-car-63-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:20Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ff63a69fd163f4036c728f8d728a67a753784bd5397b122433f0542cbe1d4792",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellows.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:20Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:5f7a4e29e1dddbdf99166b275e0c65023fcf84a94cee8bf656c3971d7e6bb7a6",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/monaco-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:20Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:123f0dcd7edaee7348e027aaef9303699433351f8ad76157dec11535083b1ea7",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "documents/2026/monaco-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:21Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:177030d4ca94e71358b6c2c2eded21f43ffd62d5bc1ea79efc16a3bc5201ffa5",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/monaco-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -96218,6 +96338,16 @@
     "source_hash": "sha256:9a6bbc3dca30e869ce7c1c63d2f1f88e2587e4c4899e5ebb317566f492e5fced",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/monaco-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:21Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:596b24305fc47a5673b9ce6ed3be1a3f4d4eb93ae4e106e7a723c4a1fff0f486",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/monaco-grand-prix/race-directors-competition-notes-v2.pdf": {
     "doc_type": "race-director-note",
@@ -96239,6 +96369,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/monaco-grand-prix/self-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:21Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:b292a02605638f12e67e8eb8ebeb6189feb3bc7d2da0d4f7a890a1321bfa8483",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/monaco-grand-prix/summons-car-1-late-attendance-of-the-thursday-press-conference.pdf": {
     "doc_type": "summons",
     "error": null,
@@ -96249,6 +96389,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/monaco-grand-prix/summons-car-16-alleged-incident-with-car-30.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:21Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:20f64e9cda7129b61207c6420d2eea08342a23ea53be4afff95eebb3578af220",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/monaco-grand-prix/summons-car-16-late-attendance-of-the-thursday-press-conference.pdf": {
     "doc_type": "summons",
     "error": null,
@@ -96256,6 +96406,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:04430516737ee999785f93f37a1d8d3240adf0143c97a18c455e1049f328a3c0",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/summons-car-30-alleged-incident-with-car-16.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:21Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:074258353e24f776ebf27708e3992c50f2d6c067ca5bc4ebe4ffb3fb85d0998e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/summons-car-41-alleged-incident-with-car-81.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:21Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:1e65f7fc44ada6041e005d7d6a91365303100f6322f3a8f0c6421852fb4ec71f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/summons-car-81-alleged-incident-with-car-41.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-05T14:48:21Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:0d75b274a08e5e804b2c891a8bf893404f97cb3128f0acb8b8e92e72aaa64659",
     "success": true,
     "tables_extracted": 0
   },
