@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-06-05",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "38",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-06-06T02:57:58Z",
+  "fact": "The F1 cars passed through a double waved yellow flag marshalling sector. - No. Turn Car Driver Competitor Time of Day Lap Time 1 12 1 Lando Norris McLaren Mastercard F1 Team 18:09:06 PIT 2 4 11 Sergio Perez Cadillac Formula 1 Team 18:10:23 PIT",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "18:30 The lap times set by the F1 cars that went through the double waved yellow flag zone will be deleted as detailed in the Race Director's Competition Notes (item 9, document 6): Session Free Practice 2",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Chapter 5"
+  ],
+  "session": null,
+  "source_hash": "sha256:6debcfdd3718fd048cb011a77899ea74d5d6d742c260f9a7c2ea72a43dea08a1",
+  "source_pdf": "documents/2026/monaco-grand-prix/infringement-free-practice-2-deleted-lap-times-double-yellow-flags.pdf",
+  "stewards": [
+    "Document 38 To All Officials",
+    "All Teams Date 05 June 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        334.92,
+        552.96,
+        394.56
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "18:30",
+  "title": "Infringement Free Practice 2 Deleted Lap Times Double Yellow Flags",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

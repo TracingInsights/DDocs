@@ -96159,6 +96159,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/monaco-grand-prix/car-01-cds-not-functioning-when-car-stopped-on-the-track.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:56Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:d942c8fb165d43f0ed3146af436ba4b566369993f43dca1284bf72337bc80bb5",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/monaco-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
     "error": null,
@@ -96249,6 +96259,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/monaco-grand-prix/free-practice-2-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:57Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:114067541de485fdbcd999d534f030abee38486442c020ef6c19e10766bae3fc",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/monaco-grand-prix/infringement-car-1-media-commitment.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -96256,6 +96276,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:b99046843cf75a2aced4560cfead00199e9ec80606f528a99f9d2c4a5e404312",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/infringement-car-1-technical-non-conformity-cds.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:58Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:954b45e53a2efdff9fd599ebfe8576ce4b076dd13b5a4f5e9b25fb4316243c8b",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/infringement-car-12-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:58Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:06ce72711c8c88f9666afb12c6a37244f8e71ce4552b48398a6b828e06f3fdf9",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/infringement-car-14-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:58Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ea7206430db00c8c6671f6beed8eaf767c1403327136ad5aad2cf8c6aa79c408",
     "success": true,
     "tables_extracted": 0
   },
@@ -96319,13 +96369,43 @@
     "success": true,
     "tables_extracted": 2
   },
+  "documents/2026/monaco-grand-prix/infringement-free-practice-2-deleted-lap-times-double-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:58Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6debcfdd3718fd048cb011a77899ea74d5d6d742c260f9a7c2ea72a43dea08a1",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/monaco-grand-prix/infringement-free-practice-2-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:59Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:6c67a3e9d36c9cb28c23931015b421c674c185acd6bf7ef1f59c853506e114ee",
+    "success": true,
+    "tables_extracted": 3
+  },
   "documents/2026/monaco-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-06-05T14:48:21Z",
+    "extracted_at": "2026-06-06T02:57:59Z",
     "images_extracted": 0,
-    "pages": 3,
-    "source_hash": "sha256:177030d4ca94e71358b6c2c2eded21f43ffd62d5bc1ea79efc16a3bc5201ffa5",
+    "pages": 2,
+    "source_hash": "sha256:dd4e79c06ab2b8d468fd44d2b334bd9daa9ff4fa6016207f291d6ad75d925f4f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/p1-and-p2-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:59Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:38e7703e80f132e72a89a069f0b94746f679d5c584df765f775fe52d5b9051ca",
     "success": true,
     "tables_extracted": 0
   },
@@ -96346,6 +96426,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:596b24305fc47a5673b9ce6ed3be1a3f4d4eb93ae4e106e7a723c4a1fff0f486",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:59Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:20acbbdb1278a42ce753e6f82b9bf3f9295e7c2cedd52cfcc83feb6be3c7bf3c",
     "success": true,
     "tables_extracted": 0
   },
@@ -96416,6 +96506,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:074258353e24f776ebf27708e3992c50f2d6c067ca5bc4ebe4ffb3fb85d0998e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/summons-car-4-alleged-technical-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-06T02:57:59Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:355513fcff102d274395f77c89d5a780a8cf81785c5ad8a5365850ddaee14fff",
     "success": true,
     "tables_extracted": 0
   },
