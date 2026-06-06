@@ -96229,6 +96229,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/monaco-grand-prix/curfew.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-06-06T10:53:24Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:a0092e1f9e92bf46db75e853d1e3d23cddfb7dd944b8e144ecffe5b888abcf7f",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/monaco-grand-prix/decision-car-30-alleged-leaving-the-pitlane-after-the-end-of-the-session.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -96392,10 +96402,10 @@
   "documents/2026/monaco-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-06-06T02:57:59Z",
+    "extracted_at": "2026-06-06T10:53:25Z",
     "images_extracted": 0,
-    "pages": 2,
-    "source_hash": "sha256:dd4e79c06ab2b8d468fd44d2b334bd9daa9ff4fa6016207f291d6ad75d925f4f",
+    "pages": 3,
+    "source_hash": "sha256:efbdb1a14cd109844226ef53ed274885404d5f173a0823e77d3c13d1ecedcacc",
     "success": true,
     "tables_extracted": 0
   },
@@ -96406,6 +96416,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:38e7703e80f132e72a89a069f0b94746f679d5c584df765f775fe52d5b9051ca",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-06-06T10:53:25Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:91223623cc0726d00554643e6e7a3f4dafd6bb4d63b416b4ee7bf7bf0ea9be6c",
     "success": true,
     "tables_extracted": 0
   },
