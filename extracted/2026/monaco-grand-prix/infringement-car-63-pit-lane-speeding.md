@@ -6,17 +6,17 @@ The Stewards
 
 ## From The Stewards
 
-To The Team Manager, Mercedes-AMG PETRONAS F1 Team Document 27 Date 05 June 2026
+To The Team Manager, Mercedes-AMG PETRONAS F1 Team Document 71 Date 07 June 2026
 
-Time 15:07 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following:
+Time 16:14 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following:
 
 ### No / Driver 63 - George Russell Competitor Mercedes-AMG PETRONAS F1 Team
 
-### Time 14:29
+### Time 15:43
 
-### Session Free Practice 1 Fact Pit lane speeding – 60.3 km/h
+### Session Race Fact Pit lane speeding – 60.1 km/h Infringement Breach of Article B1.6.3a of the FIA F1 Regulations.
 
-Infringement Breach of Article B1.6.3a of the FIA F1 Regulations. Decision The competitor (Mercedes-AMG PETRONAS F1 Team) is fined €100. Reason Car 63 exceeded the pit lane speed limit which is set at 60 km/h for this event by 60. km/h. Competitors are reminded that they have the right to appeal certain decisions of the Stewards, in accordance with Article 15 of the FIA International Sporting Code and Chapter 5 of the FIA Judicial and Disciplinary Rules, within the applicable time limits.
+Decision 5 second time penalty. Reason Car 63 exceeded the pit lane speed limit which is set at 60 km/h for this event by 0.1 km/h. It is noted that this is the standard penalty according to the F1 Regulations and penalty guideline scale, for exceeding the pit lane speed limit by less than 6 km/h. Competitors are reminded that they have the right to appeal certain decisions of the Stewards, in accordance with Article 15 of the FIA International Sporting Code and Chapter 5 of the FIA Judicial and Disciplinary Rules, within the applicable time limits.
 
 Decisions of the Stewards are taken independently of the FIA and are based solely on the relevant regulations, guidelines and evidence presented.
 
