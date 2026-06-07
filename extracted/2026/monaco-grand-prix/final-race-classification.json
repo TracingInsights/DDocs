@@ -1,0 +1,54 @@
+{
+  "category": null,
+  "date": "2026-06-07",
+  "doc_number": "91",
+  "doc_type": "classification",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-06-07T19:20:51Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:aaba57432cc17389339927d9a4d3ad8e1c6cc46b86b9da083d01c7c0b8dcd045",
+  "source_pdf": "documents/2026/monaco-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        163.42,
+        189.38,
+        572.17,
+        383.83
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        163.42,
+        391.68,
+        572.17,
+        476.76
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        163.42,
+        489.72,
+        572.17,
+        513.97
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:50",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

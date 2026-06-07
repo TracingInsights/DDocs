@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-06-07",
+  "doc_number": "92",
+  "doc_type": "championship-points",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-06-07T19:20:46Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:b84b0bb9c8585f20fb23c6944e643ebc5b762e0d841683c9e32363c77d0a008e",
+  "source_pdf": "documents/2026/monaco-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        117.16,
+        174.26,
+        814.27,
+        450.48
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        115.56,
+        174.26,
+        814.33,
+        365.52
+      ],
+      "columns": 2,
+      "page": 3,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        116.66,
+        173.88,
+        814.98,
+        454.2
+      ],
+      "columns": 2,
+      "page": 4,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        111.84,
+        172.08,
+        815.04,
+        233.04
+      ],
+      "columns": 2,
+      "page": 5,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "20:55",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
