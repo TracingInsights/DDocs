@@ -1,0 +1,42 @@
+{
+  "car_number": 11,
+  "category": null,
+  "date": "2026-06-07",
+  "decision": "Drive through penalty.",
+  "doc_number": "69",
+  "doc_type": "infringement",
+  "driver": "Sergio Perez",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-06-07T13:49:50Z",
+  "fact": "Car 11 was out of position at the start of the race, taking the vacant position left by Car 5 which started in the pit lane.",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "15:03",
+  "offence": "Breach of Article B5.11.1 of the FIA F1 Regulations.",
+  "pages": 1,
+  "penalty": "Drive through penalty.",
+  "penalty_points": null,
+  "reason": "The Stewards reviewed positioning/marshalling system data, video and in-car video evidence. Car 11 started from position 16 instead of position 18. In Monaco, two places on the grid is a very significant advantage. Therefore the penalty needs to reflect this, when compared to other false start incidents including being in the wrong position at other tracks where the advantage may not have been as significant.",
+  "rules_referenced": [
+    "Article 15",
+    "Article B5.11.1",
+    "Chapter 5"
+  ],
+  "session": "Race",
+  "source_hash": "sha256:cdfb0be46d6229498963da2cee266f2741c1e3d3d0fce5532dc0d04f5721f7b0",
+  "source_pdf": "documents/2026/monaco-grand-prix/infringement-car-11-false-start-out-of-position.pdf",
+  "stewards": [
+    "in accordance with Article 15 of the FIA International Sporting Code",
+    "Chapter 5 of the FIA Judicial",
+    "Disciplinary Rules",
+    "are based solely on the relevant regulations",
+    "guidelines"
+  ],
+  "tables_extracted": 0,
+  "team": "Cadillac Formula 1 Team",
+  "time": "15:25",
+  "title": "Infringement Car 11 False Start Out Of Position",
+  "to": "The Team Manager, Cadillac Formula 1 Team",
+  "year": 2026
+}
