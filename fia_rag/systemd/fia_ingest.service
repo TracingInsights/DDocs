@@ -1,0 +1,8 @@
+[Unit]
+Description=FIA RAG Ingestion Service
+
+[Service]
+User=www-data
+WorkingDirectory=/var/www/fia_rag
+EnvironmentFile=/var/www/fia_rag/.env
+ExecStart=/var/www/fia_rag/.venv/bin/python manage.py process_ingestion_queue
