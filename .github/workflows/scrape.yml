@@ -33,7 +33,7 @@ jobs:
             documents/discovery_cache.json
             documents/transcript_discovery_cache.json
             extracted/manifest.json
-            regs/manifest.json
+            regs/
             regs_scraper.py
           sparse-checkout-cone-mode: false
       - name: Install uv
