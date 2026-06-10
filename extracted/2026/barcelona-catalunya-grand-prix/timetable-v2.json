@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-06-10",
+  "doc_number": "2",
+  "doc_type": "timetable",
+  "event_name": "Barcelona-Catalunya Grand Prix",
+  "event_slug": "barcelona-catalunya-grand-prix",
+  "extracted_at": "2026-06-10T15:31:27Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:be5e1eb22a1d2c73aec45b48dc9543cbfef96ffeaae455003fcaf2691fa7c4a4",
+  "source_pdf": "documents/2026/barcelona-catalunya-grand-prix/timetable-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        605.98
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 23
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        730.52
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 30
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        591.51
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 23
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        542.27
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "14:57",
+  "title": "Timetable V2",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
