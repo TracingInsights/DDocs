@@ -1,0 +1,88 @@
+{
+  "category": null,
+  "date": "2026-06-11",
+  "doc_number": "8",
+  "doc_type": "circuit-map",
+  "event_name": "Barcelona-Catalunya Grand Prix",
+  "event_slug": "barcelona-catalunya-grand-prix",
+  "extracted_at": "2026-06-11T20:20:19Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "2faa613ae54c42ec283eee7f2cc6b10a2c992f6e81ac26b6b95f60ff08f091e2",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 3,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "0d5de03e3dec0e25e5b05733e521a1e75ce00421d003b01f6ccdd64e56c1f915",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ],
+      "deduplicated": false,
+      "display_height": 841.89,
+      "display_width": 595.28,
+      "height": 1684,
+      "page": 4,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "13491840352ba244316c03c7abe61d79643a1bc16a45c9be1867c96d95874cca",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 4,
+  "source_hash": "sha256:71e80dcbf81aef7b622d4737782409dba8dd1c87f5d8d1b02cd1c12f9be3145d",
+  "source_pdf": "documents/2026/barcelona-catalunya-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.01,
+        404.82,
+        798.91,
+        522.1
+      ],
+      "columns": 52,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:58",
+  "title": "Competition Notes Circuit Map Pit Lane Drawing And Emergency Exits Map",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

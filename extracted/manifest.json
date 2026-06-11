@@ -94259,6 +94259,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/barcelona-catalunya-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-06-11T20:20:19Z",
+    "images_extracted": 3,
+    "pages": 4,
+    "source_hash": "sha256:71e80dcbf81aef7b622d4737782409dba8dd1c87f5d8d1b02cd1c12f9be3145d",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/barcelona-catalunya-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -94299,6 +94309,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/barcelona-catalunya-grand-prix/race-directors-competition-notes-v2.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-06-11T20:20:30Z",
+    "images_extracted": 9,
+    "pages": 8,
+    "source_hash": "sha256:fd4f044a913377bb014916ff5719052ea9b980c1b38438ad95b4a005cc1a8856",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/barcelona-catalunya-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -94316,6 +94336,16 @@
     "images_extracted": 0,
     "pages": 5,
     "source_hash": "sha256:be5e1eb22a1d2c73aec45b48dc9543cbfef96ffeaae455003fcaf2691fa7c4a4",
+    "success": true,
+    "tables_extracted": 4
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/timetable-v3.pdf": {
+    "doc_type": "timetable",
+    "error": null,
+    "extracted_at": "2026-06-11T20:20:32Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:26d6a74145f22338d7be09c62e372411d4fb1eacd4fa9255bb8aed6d8a39b808",
     "success": true,
     "tables_extracted": 4
   },
@@ -96416,6 +96446,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:2c554b1e7e64e5d10a240085129d6a4ebe7a76bc359a4176fc1421a46a9f329d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/doc-96-summons-official-timekeeper-alpine-right-of-review.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-11T20:20:32Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:f46aaea86566cc0473010561d720cb06c279a19f7ff176392a6eedd22b31dda4",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/doc-97-summons-fia-alpine-right-of-review.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-11T20:20:32Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:bbd5f5e10c9d834d3b2f333c689815e802486d2c799b44ba32ae91582b40ca7f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/doc-98-decision-alpine-right-of-review.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-11T20:20:33Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:dd9c2fa78d432a6f5ce0b666d04c9b5d3ea0b9af7981d6891e7b38315f2dd2a1",
     "success": true,
     "tables_extracted": 0
   },
