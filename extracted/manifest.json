@@ -94249,6 +94249,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/barcelona-catalunya-grand-prix/car-display-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-06-11T15:57:57Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1d9caed596aa10968786104bf6f25a3a86cf67a01ce5581058ca10480a6ad3d2",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/barcelona-catalunya-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -94276,6 +94286,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:d60ca83b1fe3487c216c5a0deeaa4239506e2f34f837f998765923a92b3a738f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-06-11T15:57:58Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:73a6c4c4427d2380147bf11c25e5454b661a4361a82b7fb36e2ecb248f68bd6f",
+    "success": true,
+    "tables_extracted": 6
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-06-11T15:57:59Z",
+    "images_extracted": 9,
+    "pages": 8,
+    "source_hash": "sha256:47e519baa187f7c805bf28f99019906b121e5b406d0e25be81c92d4ffb5b36d1",
     "success": true,
     "tables_extracted": 0
   },
