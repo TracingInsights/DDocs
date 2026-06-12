@@ -94309,6 +94309,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/barcelona-catalunya-grand-prix/fp1-and-fp2-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-06-12T20:08:57Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:cadced2f187219ddda815e345f81ecd4e4ac0d3fa48d29e1ba72309c4454ee56",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/barcelona-catalunya-grand-prix/free-practice-1-classification.pdf": {
     "doc_type": "classification",
     "error": null,
@@ -94318,6 +94328,46 @@
     "source_hash": "sha256:cd396526adbb5fe6f59819563fa99dc902e0ad033cfe056ee5e4a84efe86d9e1",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/free-practice-2-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-12T20:08:58Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:b0e74b0aff978ab19240c7a1a834828183a1a65b14a6002976f7824b90881fae",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-car-11-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-12T20:08:59Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:b72d772a5b5468f5a0a34633fa06c0754adb69f800899d87e839d68eefc93dd5",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-car-14-pit-exit-incident.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-12T20:08:59Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:a70098d9722daa01625ec1dd61d971c1a04829dd19bc4589bb1df432e562b1a6",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-car-77-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-12T20:08:59Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:240f77bbf225a3900d1998ffded381eb5057cce387de8b4c1f4e0391c4284d4d",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/barcelona-catalunya-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
     "doc_type": "infringement",
@@ -94329,13 +94379,23 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-free-practice-2-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-12T20:08:59Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:44c735d17d814aa20d0f96c5edf0bdd03b2592ff23b2d3e373922c0236448aa3",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/barcelona-catalunya-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-06-12T14:56:02Z",
+    "extracted_at": "2026-06-12T20:09:00Z",
     "images_extracted": 0,
-    "pages": 3,
-    "source_hash": "sha256:f779ae0c6fbae2e1bcc35b844aee92888f1505ac61aa2a9358d9477afa8de15c",
+    "pages": 2,
+    "source_hash": "sha256:c2d3b658a34a7e96b93896076b2fc08b0a1905ebb7317478354ff8fd395a0dc0",
     "success": true,
     "tables_extracted": 0
   },
@@ -94366,6 +94426,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:7c245ee680bb622411ba565a6fdbfe7f1d7906fba8533ba584f0e090ad63ab88",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-06-12T20:09:00Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:73c4eb41318080574e00a55404b9f565926c165607525b408425ff3c660d2a1d",
     "success": true,
     "tables_extracted": 0
   },
@@ -94418,6 +94488,16 @@
     "source_hash": "sha256:26d6a74145f22338d7be09c62e372411d4fb1eacd4fa9255bb8aed6d8a39b808",
     "success": true,
     "tables_extracted": 4
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/timetable-v4.pdf": {
+    "doc_type": "timetable",
+    "error": null,
+    "extracted_at": "2026-06-12T20:09:00Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:226cc85843892fe9f5a3988e433081b0b7fffd013370475ec1372800392d9a17",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/canadian-grand-prix/car-30-cds-not-functioning-when-car-stopped-on-the-track.pdf": {
     "doc_type": "other",
