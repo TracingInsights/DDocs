@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": null,
+  "doc_number": null,
+  "doc_type": "championship-points",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-06-12T14:56:03Z",
+  "from": null,
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:d17a807aea2d2ca862b7800ea83a85a43e6e9370a03c5837d0a0e7a07633f478",
+  "source_pdf": "documents/2026/monaco-grand-prix/doc-101-revised-championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.57,
+        174.26,
+        814.07,
+        450.2
+      ],
+      "columns": 9,
+      "page": 1,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        21.56,
+        174.26,
+        814.12,
+        365.3
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        21.46,
+        173.81,
+        814.79,
+        453.9
+      ],
+      "columns": 9,
+      "page": 3,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        21.18,
+        172.01,
+        829.17,
+        257.56
+      ],
+      "columns": 9,
+      "page": 4,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 4,
+  "time": null,
+  "title": "Doc 101 Revised Championship Points",
+  "to": null,
+  "year": 2026
+}

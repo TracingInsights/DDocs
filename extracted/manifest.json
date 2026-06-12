@@ -94309,6 +94309,36 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/barcelona-catalunya-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-12T14:56:01Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:cd396526adbb5fe6f59819563fa99dc902e0ad033cfe056ee5e4a84efe86d9e1",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-12T14:56:02Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:dcb313d1cce5f54965a40d0d45665afea1620bf221c909a10405e67989f562fb",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-06-12T14:56:02Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:f779ae0c6fbae2e1bcc35b844aee92888f1505ac61aa2a9358d9477afa8de15c",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/barcelona-catalunya-grand-prix/post-race-checks-on-car-27-monaco-gp-2026.pdf": {
     "doc_type": "post-race-checks",
     "error": null,
@@ -96459,6 +96489,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/monaco-grand-prix/doc-100-revised-final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-12T14:56:02Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:0e6e852cf7f16e116f836b5ebb42b86031d9b1521336355524173fc1813e9ca6",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "documents/2026/monaco-grand-prix/doc-101-revised-championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-06-12T14:56:03Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:d17a807aea2d2ca862b7800ea83a85a43e6e9370a03c5837d0a0e7a07633f478",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/monaco-grand-prix/doc-93-infringement-car-63-failing-to-serve-time-penalty-correctly.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -96516,6 +96566,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:dd9c2fa78d432a6f5ce0b666d04c9b5d3ea0b9af7981d6891e7b38315f2dd2a1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/monaco-grand-prix/doc-99-decision-car-10.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-12T14:56:04Z",
+    "images_extracted": 0,
+    "pages": 7,
+    "source_hash": "sha256:23b6baa6a56d2897349015deb7a561385f90e543563d84ce70a42b653d159171",
     "success": true,
     "tables_extracted": 0
   },

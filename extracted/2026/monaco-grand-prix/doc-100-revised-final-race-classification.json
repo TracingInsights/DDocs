@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": null,
+  "doc_number": null,
+  "doc_type": "classification",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-06-12T14:56:02Z",
+  "from": null,
+  "images_extracted": 0,
+  "pages": 1,
+  "source_hash": "sha256:0e6e852cf7f16e116f836b5ebb42b86031d9b1521336355524173fc1813e9ca6",
+  "source_pdf": "documents/2026/monaco-grand-prix/doc-100-revised-final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.06,
+        189.47,
+        571.9,
+        383.78
+      ],
+      "columns": 12,
+      "page": 1,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        23.06,
+        391.77,
+        571.9,
+        476.62
+      ],
+      "columns": 9,
+      "page": 1,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "Doc 100 Revised Final Race Classification",
+  "to": null,
+  "year": 2026
+}
