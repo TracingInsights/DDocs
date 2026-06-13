@@ -94279,6 +94279,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/barcelona-catalunya-grand-prix/competition-notes-pirelli-preview-v2.pdf": {
+    "doc_type": "pirelli-preview",
+    "error": null,
+    "extracted_at": "2026-06-13T08:56:36Z",
+    "images_extracted": 1,
+    "pages": 2,
+    "source_hash": "sha256:338c968ee2d0640f2e0a268a91729f0c2cbe0a69f7454b889d86a040c0192bd8",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/barcelona-catalunya-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -94296,6 +94306,16 @@
     "images_extracted": 0,
     "pages": 10,
     "source_hash": "sha256:e59281dfeabc159926e842c2106d44fde2bed09875425ba58551162430e505ec",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/curfew.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-06-13T08:56:36Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:0e52350e55881b1d427afbca818bbbe9633bb8c9842721d6addb3b1fa8da80fa",
     "success": true,
     "tables_extracted": 0
   },
@@ -94399,6 +94419,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/barcelona-catalunya-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-06-13T08:56:36Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:919df54c5296e583823c485d1318ee5b7e8c4bf6cab5d10ef7a2ea464dba4c82",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/barcelona-catalunya-grand-prix/post-race-checks-on-car-27-monaco-gp-2026.pdf": {
     "doc_type": "post-race-checks",
     "error": null,
@@ -94462,10 +94492,10 @@
   "documents/2026/barcelona-catalunya-grand-prix/self-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
-    "extracted_at": "2026-06-12T10:10:08Z",
+    "extracted_at": "2026-06-13T08:56:36Z",
     "images_extracted": 0,
     "pages": 1,
-    "source_hash": "sha256:b3cf23bba728ef03dc14ee4b40d6264bf2f5a8f42666a3cc72b7f90acc80a029",
+    "source_hash": "sha256:6a2b74d49dac76eeea4f2f31fb894ae023e5c4537c6353cd9d0452232ca16b41",
     "success": true,
     "tables_extracted": 0
   },

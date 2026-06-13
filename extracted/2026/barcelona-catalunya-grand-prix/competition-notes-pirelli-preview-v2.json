@@ -1,0 +1,63 @@
+{
+  "category": null,
+  "date": "2026-06-13",
+  "doc_number": "27",
+  "doc_type": "pirelli-preview",
+  "event_name": "Barcelona-Catalunya Grand Prix",
+  "event_slug": "barcelona-catalunya-grand-prix",
+  "extracted_at": "2026-06-13T08:56:36Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-pirelli-preview-v2_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "6b962146fcb191c99dbce0fb59868d723c20b6c2595204421d14a178da71aa0f",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:338c968ee2d0640f2e0a268a91729f0c2cbe0a69f7454b889d86a040c0192bd8",
+  "source_pdf": "documents/2026/barcelona-catalunya-grand-prix/competition-notes-pirelli-preview-v2.pdf",
+  "tables": [
+    {
+      "bbox": [
+        110.56,
+        241.76,
+        521.88,
+        309.22
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        130.78,
+        426.01,
+        322.11,
+        520.7
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "08:40",
+  "title": "Competition Notes Pirelli Preview V2",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
