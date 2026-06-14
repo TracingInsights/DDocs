@@ -94269,6 +94269,16 @@
     "success": true,
     "tables_extracted": 8
   },
+  "documents/2026/barcelona-catalunya-grand-prix/championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:20Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:17178a20b79d03be4d2f4b40d02ebeea99befd100caa1b926e57071c4f8a3b20",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/barcelona-catalunya-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -94319,6 +94329,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/barcelona-catalunya-grand-prix/decision-car-27-alleged-leaving-the-track-and-gaining-an-advantage.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:24Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:aace244b909e301b72061ac003ba87e53eadc6ed8fcc0fe60c01c5f6bd6f3012",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/decision-car-41-alleged-leaving-the-track-and-gaining-an-advantage.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:24Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:90810be2cef06b4c484a32df6ae21877dbd8de0cedf181d20460819a14d6d422",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/barcelona-catalunya-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -94348,6 +94378,16 @@
     "source_hash": "sha256:92c63ea27519c9ea3c92eb6ddf80f5b9d79d8eb58a6bf5c2df65820c58eefcbc",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:25Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:0a349b60329514bfab4c4a7c18a88c6c995ed0f7fa1648db77ddefbbc8f4fed0",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/barcelona-catalunya-grand-prix/final-starting-grid.pdf": {
     "doc_type": "starting-grid",
@@ -94419,6 +94459,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-car-12-leaving-the-track-without-a-justifiable-reason-multiple-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:26Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:fac9e4f8f79e528bf2e2bbf06633ed29cf08e9758a6782533acc560a2e232e4f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-car-12-leaving-the-track-without-a-justifiable-reason.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:7051c729a91a0a7b6211771dd3733bf4931ec0a847207d4a7a2965f4897bef02",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/barcelona-catalunya-grand-prix/infringement-car-14-pit-exit-incident.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -94456,6 +94516,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:9a89f510ef47c0a031b23a386c44af92e4bcb7044ae9662a2bb9c1a0d2b790a1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-car-23-start-procedure-infringement.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:27Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:8514585308e172a1688aaf4f7dc398df8f509f416fe53f0f5bbab06c74013898",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-car-43-failing-to-slow-for-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:f53cb3c3c4be9897ffcecec8784604b11192e6c561af720068cddb22b81c34cd",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-car-55-start-procedure-infringement.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:27Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:01b3077a6eaed1e7cf9e8fec6d006904582b15709e6199ba2063f6da0aa7f490",
     "success": true,
     "tables_extracted": 0
   },
@@ -94506,6 +94596,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:931ea8bc869b39d0a2a31f99e9680c09357d5c30e25e3f3db5ebc1e123ef864b",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/infringement-race-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:27Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:de07112f71bf0833a44e8efe2496e2c610bbf340d2178a429fc3ca383d500efd",
     "success": true,
     "tables_extracted": 1
   },
@@ -94619,6 +94719,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/barcelona-catalunya-grand-prix/provisional-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:29Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8813641a54f12d83f2678dbe3a6c2a8f2c3245836845b00a29e3147b39710b2d",
+    "success": true,
+    "tables_extracted": 3
+  },
   "documents/2026/barcelona-catalunya-grand-prix/provisional-starting-grid.pdf": {
     "doc_type": "starting-grid",
     "error": null,
@@ -94679,6 +94789,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/barcelona-catalunya-grand-prix/race-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:30Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:4933f4f4c04669b6c9ae2d7270b49aa67bbe93f28e463cab2fa7ab2a4dea53eb",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/barcelona-catalunya-grand-prix/self-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -94716,6 +94836,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:4ea99e6462cbab2349d43851d042a5cce9ead95ef94555d535a846dd52de0fb2",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/summons-car-23-start-procedure-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:30Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:1c8e602d13ac61215e2846fb0fd03ec04537299ad70c39c01a31ccdf894152ea",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/summons-car-43-alleged-yellow-flag-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:30Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ef58f27cc49e5cdf4d9f05a378344f2f9d9ba3cc893f01f2ae2e8720958847d2",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/barcelona-catalunya-grand-prix/summons-car-55-start-procedure-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-14T19:25:30Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:3d191e0d00f2fc634404bafd4533ed5dc207704a20d3344c8e4cd7978ee040e8",
     "success": true,
     "tables_extracted": 0
   },

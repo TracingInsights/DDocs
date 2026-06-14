@@ -1,0 +1,54 @@
+{
+  "category": null,
+  "date": "2026-06-14",
+  "doc_number": "60",
+  "doc_type": "classification",
+  "event_name": "Barcelona-Catalunya Grand Prix",
+  "event_slug": "barcelona-catalunya-grand-prix",
+  "extracted_at": "2026-06-14T19:25:29Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:8813641a54f12d83f2678dbe3a6c2a8f2c3245836845b00a29e3147b39710b2d",
+  "source_pdf": "documents/2026/barcelona-catalunya-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        163.38,
+        189.38,
+        572.36,
+        396.06
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        163.38,
+        403.92,
+        572.36,
+        476.82
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        163.38,
+        489.72,
+        572.36,
+        513.97
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "16:50",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

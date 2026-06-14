@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-06-14",
+  "doc_number": "70",
+  "doc_type": "championship-points",
+  "event_name": "Barcelona-Catalunya Grand Prix",
+  "event_slug": "barcelona-catalunya-grand-prix",
+  "extracted_at": "2026-06-14T19:25:20Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:17178a20b79d03be4d2f4b40d02ebeea99befd100caa1b926e57071c4f8a3b20",
+  "source_pdf": "documents/2026/barcelona-catalunya-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        117.29,
+        174.26,
+        814.27,
+        450.48
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        115.23,
+        174.26,
+        814.33,
+        365.52
+      ],
+      "columns": 2,
+      "page": 3,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        116.81,
+        173.88,
+        814.98,
+        454.2
+      ],
+      "columns": 2,
+      "page": 4,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        111.56,
+        172.08,
+        829.32,
+        257.76
+      ],
+      "columns": 2,
+      "page": 5,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "20:10",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

@@ -1,0 +1,54 @@
+{
+  "category": null,
+  "date": "2026-06-14",
+  "doc_number": "68",
+  "doc_type": "classification",
+  "event_name": "Barcelona-Catalunya Grand Prix",
+  "event_slug": "barcelona-catalunya-grand-prix",
+  "extracted_at": "2026-06-14T19:25:25Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:0a349b60329514bfab4c4a7c18a88c6c995ed0f7fa1648db77ddefbbc8f4fed0",
+  "source_pdf": "documents/2026/barcelona-catalunya-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        163.2,
+        189.38,
+        572.22,
+        396.06
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        163.2,
+        403.92,
+        572.22,
+        476.82
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        163.2,
+        489.72,
+        572.22,
+        513.97
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "19:45",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
