@@ -1,0 +1,117 @@
+{
+  "category": null,
+  "date": "2026-06-25",
+  "doc_number": "7",
+  "doc_type": "circuit-map",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-06-25T17:11:58Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "297df8af68f8f40734fcf14d4740c086e89b13da155d1bd1b9c253a0b686c4f6",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 3,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "64eccd9e0c4242798b8505b4e8047edbef3387e60aebb53b73d9c37b432e8659",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ],
+      "deduplicated": false,
+      "display_height": 841.89,
+      "display_width": 595.28,
+      "height": 1684,
+      "page": 4,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "c0ecbdc4b477a59759c193fd009462feb4ebf6a7b310480ee2aeaac5af7b1c26",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 5,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "91ed1f0ffb2a3bd97ba1f682b18555d5897ac1d29010a1a1f6d03db7bcc981cf",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 5,
+  "source_hash": "sha256:00e1595eb783c7edd279ad9e3dd1030c909c9c9edf0e7e423b7eb220db064a90",
+  "source_pdf": "documents/2026/austrian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.66,
+        405.49,
+        798.85,
+        553.07
+      ],
+      "columns": 48,
+      "page": 3,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        593.73,
+        93.73,
+        818.26,
+        250.67
+      ],
+      "columns": 3,
+      "page": 5,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:23",
+  "title": "Competition Notes Circuit Map Pit Lane Drawing Emergency Exits Map And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

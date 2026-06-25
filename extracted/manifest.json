@@ -94249,6 +94249,26 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/austrian-grand-prix/car-display-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-06-25T17:11:51Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:fa32d141d1de4b25adae51e52a2b56dcf476f7ed57765df5268c5461800f61fc",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-06-25T17:11:58Z",
+    "images_extracted": 4,
+    "pages": 5,
+    "source_hash": "sha256:00e1595eb783c7edd279ad9e3dd1030c909c9c9edf0e7e423b7eb220db064a90",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/austrian-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -94298,6 +94318,16 @@
     "source_hash": "sha256:40228f431ebc0cf35ebda5b5059c23b5efe41b0209dbbb57c781892311b002e1",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/austrian-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-06-25T17:12:04Z",
+    "images_extracted": 9,
+    "pages": 8,
+    "source_hash": "sha256:4686762368ed63df50288025577820707eeb3b9213c0c76735c27df506a95855",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/barcelona-catalunya-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
