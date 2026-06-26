@@ -94319,6 +94319,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/austrian-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-26T14:22:44Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:27c3931a97aece571e906eddbf13b3d3de32c77cc0cb8ab1fc60f2db50447f81",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/austrian-grand-prix/heat-hazard-declaration.pdf": {
     "doc_type": "heat-hazard",
     "error": null,
@@ -94326,6 +94336,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:445bdb9b36843b3a036c4a98bc9c6416f4ab3e803aa5d3c45abf088a4bd94e64",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-26T14:22:45Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1669c4f4015614116833ed72a563a9f4672a895ff69f86a8c2d451468518c3da",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/austrian-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-26T14:22:45Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:9d3bd67dd820311badb39a49f3c3b670bbbd857638db4089507499149dc76404",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/austrian-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-06-26T14:22:46Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:93e5d85b4be999ebd0785266770a62c7242618ad85fa34dbf0accf928102a1af",
     "success": true,
     "tables_extracted": 0
   },
