@@ -21,6 +21,41 @@ from shared_utils import (
     load_discovery_cache, save_discovery_cache, validate_cache_structure
 )
 
+# ----------------------------------------------------------------------------
+# Transcript validation constants
+# ----------------------------------------------------------------------------
+# `clean_transcript_html` and `fetch_transcript` cooperate to prevent the FIA
+# "Latest News" listing from ever being persisted as a transcript. FIA returns
+# a generic landing page (HTTP 200, <title>News | FIA</title>) for not-yet-
+# published transcript URLs, and without these guards the landing page's
+# news-list div was being saved as the day's transcript.
+
+# Container classes that ship with FIA "Latest News" / sidebar / listing
+# regions. They must NEVER be selected as the article body, neither by the
+# candidate chain nor by the densest-<p> fallback.
+SIDEBAR_CLASS_DENYLIST = frozenset({
+    # News listing / landing-page widgets
+    "news-list", "news-list-content", "news-title", "news-desc",
+    "news-date", "news-image", "news-champ", "news-competition",
+    "news-competitionlabel",
+    # Drupal-style view / listing wrappers
+    "list-view", "list-item",
+    "view-fia-press-conference-transcripts",
+    "view-content",
+    # Related-news / "more like this" modules
+    "related-news", "pane-related-news",
+    "pane-related-news-related-news-pane",
+    # Generic boilerplate
+    "latest-news", "latest-news-block",
+    "sidebar", "footer", "header", "menu", "breadcrumb",
+})
+
+# Real press conferences are 30k+ characters after cleaning; news-listing
+# contamination is typically <700 chars. 2000 is a comfortable lower bound
+# that, combined with the event-name and press-conference marker checks
+# below, reliably rejects sidebar noise across every GP and every year.
+MIN_TRANSCRIPT_CHARS = 2000
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -255,26 +290,45 @@ async def get_discovery_events(session: AsyncSession, year: int, discovery_path:
 # ---------------------------------------------------------------------------
 
 def clean_transcript_html(html: str) -> str:
+    """Extract clean Markdown body text from an FIA press-conference page.
+
+    Returns "" if the page is not actually a transcript article. FIA returns
+    a generic "News | FIA" landing page (HTTP 200) for not-yet-published
+    transcript URLs; that page's "Latest News" listing previously leaked
+    through this cleaner as a transcript.
+    """
     soup = BeautifulSoup(html, "html.parser")
-    # Modern FIA news layout
-    content = soup.find(class_="node-article") or \
-              soup.find(class_="content-body") or \
-              soup.find(class_="field-items") or \
-              soup.find(class_="field-item even") or \
-              soup.find(class_="node__content") or \
-              soup.find(class_="field-name-body") or \
-              soup.find(class_="description") or \
-              soup.find(class_="content")
-              
-    # Density-based fallback for old pages (find container with most direct text/p children)
+
+    # Title-based short-circuit. Real FIA transcript pages always include
+    # "press conference" or "transcript" in their <title>; landing pages do
+    # not. If neither phrase is present, refuse to extract anything.
+    title_text = ""
+    if soup.title and soup.title.string:
+        title_text = soup.title.string.strip().lower()
+    if "press conference" not in title_text and "transcript" not in title_text:
+        return ""
+
+    def _is_sidebar(tag) -> bool:
+        classes = tag.get("class", []) or []
+        return any(c in SIDEBAR_CLASS_DENYLIST for c in classes)
+
+    # Modern FIA news layout — first non-sidebar match wins.
+    content = None
+    for cls in ("node-article", "content-body", "field-items",
+                "field-item even", "node__content", "field-name-body",
+                "description", "content"):
+        el = soup.find(class_=cls)
+        if el and not _is_sidebar(el):
+            content = el
+            break
+
+    # Density-based fallback for old pages — only consider non-sidebar divs.
     if not (content and content.get_text(strip=True)):
         divs = soup.find_all("div")
         best_div = None
         max_p = 0
         for d in divs:
-            # Skip common sidebar/boilerplate containers
-            classes = d.get("class", [])
-            if any(c in classes for c in ["sidebar", "latest-news", "footer", "header", "menu"]):
+            if _is_sidebar(d):
                 continue
             p_count = len(d.find_all("p", recursive=False))
             if p_count > max_p:
@@ -305,19 +359,112 @@ def clean_transcript_html(html: str) -> str:
             
     return "\n\n".join(lines)
 
-async def fetch_transcript(session: AsyncSession, url: str, dest: Path) -> bool:
+# Bolded speaker line in a cleaned transcript: **NAME:**
+_SPEAKER_LINE_RE = re.compile(r"\*\*[A-Z][A-Z\s.'-]{1,40}:\*\*")
+
+
+_EXISTING_FILE_PEEK_BYTES = 4096
+
+
+def _existing_file_is_valid_transcript(
+    dest: Path, expected_event_name: str | None
+) -> bool:
+    """Cheap on-disk heuristic: does the file already look like a real transcript?
+
+    Used to relax the previous "skip if file exists with size > 500" guard so
+    bogus sidebar-contaminated files (e.g. the FIA "Latest News" snippet
+    that ended up in the 2026 Austrian GP transcripts) can still be replaced
+    with valid content on a future scrape, without churning every historical
+    transcript on every run.
+
+    We only peek at the first _EXISTING_FILE_PEEK_BYTES bytes — for a 30 kB
+    transcript that's enough to confirm the event-name substring and a few
+    speaker/Q&A markers; for a 569-byte bogus file there's nothing to peek.
+    """
+    if not dest.exists():
+        return False
     try:
-        if dest.exists() and dest.stat().st_size > 500: return True
+        with open(dest, "rb") as f:
+            text = f.read(_EXISTING_FILE_PEEK_BYTES).decode(
+                encoding="utf-8", errors="ignore"
+            )
+    except OSError:
+        return False
+    if len(text.strip()) < MIN_TRANSCRIPT_CHARS // 2:
+        return False
+    if expected_event_name and expected_event_name.lower() not in text.lower():
+        return False
+    # When no event name is supplied, fall back to a marker check so a long
+    # but content-less file (e.g. a sidebar dump) cannot masquerade as valid.
+    if not expected_event_name and not _has_press_conference_markers(text):
+        return False
+    return True
+
+
+def _has_press_conference_markers(md_content: str) -> bool:
+    """Detect that cleaned content looks like a Q&A transcript rather than a
+    news listing / sidebar snippet.
+
+    A real press-conference transcript has bolded NAME: speaker lines and/or
+    Q:/A: markers. A news listing has neither.
+    """
+    if not md_content:
+        return False
+    speakers = len(_SPEAKER_LINE_RE.findall(md_content))
+    qa_markers = (
+        md_content.count("**Q:**")
+        + md_content.count("**A:**")
+        + len(re.findall(r"^(?:Q|A):", md_content, flags=re.MULTILINE))
+    )
+    return speakers >= 2 or qa_markers >= 1
+
+
+async def fetch_transcript(
+    session: AsyncSession,
+    url: str,
+    dest: Path,
+    expected_event_name: str | None = None,
+) -> bool:
+    """Fetch and save a press-conference transcript page.
+
+    Returns True only when the file ends up containing a real transcript for
+    the given GP. Returns False on 404s, sidebar-only pages, body-mismatch,
+    or any other reason not to write. If `dest` already contains a valid
+    transcript, no fetch is performed.
+    """
+    try:
+        # Skip the network only if we already have a valid transcript on disk.
+        if _existing_file_is_valid_transcript(dest, expected_event_name):
+            return True
+
         resp = await session.get(url, timeout=30)
         if resp.status_code == 404: return False
         resp.raise_for_status()
-        
+
         if url.endswith(".pdf") or "application/pdf" in resp.headers.get("Content-Type", ""):
             md_content = await extract_text_from_pdf(resp.content)
         else:
             md_content = clean_transcript_html(resp.text)
-            
-        if not md_content or len(md_content) < 500: return False
+
+        if not md_content:
+            log.info("Skipping %s: empty content from %s", dest.name, url)
+            return False
+
+        # 1. Length gate — real press conferences are well above this.
+        if len(md_content) < MIN_TRANSCRIPT_CHARS:
+            log.info("Skipping %s: too short (%d chars)", dest.name, len(md_content))
+            return False
+
+        # 2. Event-name gate — GP-specific content only.
+        if expected_event_name and expected_event_name.lower() not in md_content.lower():
+            log.info("Skipping %s: body missing event keyword '%s'", dest.name, expected_event_name)
+            return False
+
+        # 3. Press-conference marker gate — speakers or Q:/A: structure.
+        if not _has_press_conference_markers(md_content):
+            log.info("Skipping %s: no Q&A / speaker markers", dest.name)
+            return False
+
         dest.parent.mkdir(parents=True, exist_ok=True)
         async with aiofiles.open(dest, "w", encoding="utf-8") as f:
             await f.write(md_content)
@@ -400,7 +547,7 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
                 url = urljoin(NEWS_URL_BASE, f"f1-{year}-{variant}-{fia_type}-press-conference-transcript")
                 dest = output_dir / str(year) / gp_slug / "transcripts" / f"{local_day}.md"
                 if url in manifest: continue
-                local_tasks.append(fetch_transcript(session, url, dest))
+                local_tasks.append(fetch_transcript(session, url, dest, gp_name))
                 local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{local_day.capitalize()} Transcript", "path": str(dest)})
 
     # 2. Aggressive Hubs
@@ -415,7 +562,7 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
             elif "saturday" in u_lower or "qualifying" in u_lower: day_key = "saturday"
             elif "sunday" in u_lower or "race" in u_lower: day_key = "sunday"
             dest = output_dir / str(year) / gp_slug / "transcripts" / f"{day_key}_agg_{i}.md"
-            local_tasks.append(fetch_transcript(session, url, dest))
+            local_tasks.append(fetch_transcript(session, url, dest, gp_name))
             local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{day_key.capitalize()} (Aggressive)", "path": str(dest)})
 
     # 3. Super Aggressive PDF Timing Pages
@@ -430,7 +577,7 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
             elif "saturday" in u_lower or "qualifying" in u_lower: day_key = "saturday"
             elif "sunday" in u_lower or "race" in u_lower: day_key = "sunday"
             dest = output_dir / str(year) / gp_slug / "transcripts" / f"{day_key}_pdf_{i}.md"
-            local_tasks.append(fetch_transcript(session, url, dest))
+            local_tasks.append(fetch_transcript(session, url, dest, gp_name))
             local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{day_key.capitalize()} (PDF)", "path": str(dest)})
 
     # 4. Deep Discovery
@@ -445,7 +592,7 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
             elif "saturday" in u_lower or "qualifying" in u_lower: day_key = "saturday"
             elif "sunday" in u_lower or "race" in u_lower: day_key = "sunday"
             dest = output_dir / str(year) / gp_slug / "transcripts" / f"{day_key}_deep_{i}.md"
-            local_tasks.append(fetch_transcript(session, url, dest))
+            local_tasks.append(fetch_transcript(session, url, dest, gp_name))
             local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{day_key.capitalize()} (Deep)", "path": str(dest)})
 
     if local_tasks:
