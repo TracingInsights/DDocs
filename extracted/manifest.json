@@ -94259,6 +94259,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/austrian-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-06-26T09:22:55Z",
+    "images_extracted": 9,
+    "pages": 23,
+    "source_hash": "sha256:7863deb797bed267fdd978e66170d86f755cf576cffce202739fadf712de0a6c",
+    "success": true,
+    "tables_extracted": 11
+  },
   "documents/2026/austrian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -94286,6 +94296,26 @@
     "images_extracted": 0,
     "pages": 10,
     "source_hash": "sha256:08b599e403310236662276487ec8c4854d7f1b972b00aa155f5f268b36cadf04",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/curfew.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-06-26T09:22:56Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:52f38ffc661127600f66d85a5c5ba66d6a7668a4a2456ea4d8a6eae01ef68f6d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-06-26T09:22:56Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:3b3b93c7d689b5104a94d1db900bbb72e185ee653bc74279f40485c410c34100",
     "success": true,
     "tables_extracted": 0
   },
@@ -94319,6 +94349,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/austrian-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-06-26T09:22:56Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:81f30fae1c3c874d6715f148c10db1c18feca143561e4c49f6364d15b6f0c5bd",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/austrian-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -94326,6 +94366,26 @@
     "images_extracted": 9,
     "pages": 8,
     "source_hash": "sha256:4686762368ed63df50288025577820707eeb3b9213c0c76735c27df506a95855",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/self-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-06-26T09:22:56Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:45ebaa4ecbaf6c1764fca0d8e2bcfd0ddbd01a909559d7e187544f4743f0aabb",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/steward-substitution.pdf": {
+    "doc_type": "steward-substitution",
+    "error": null,
+    "extracted_at": "2026-06-26T09:22:56Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:cff68dabd7c9854b6faa8985e116b3719772805bcd003aa242b6137ef1449e70",
     "success": true,
     "tables_extracted": 0
   },
