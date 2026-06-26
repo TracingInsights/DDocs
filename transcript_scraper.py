@@ -56,6 +56,153 @@ SIDEBAR_CLASS_DENYLIST = frozenset({
 # below, reliably rejects sidebar noise across every GP and every year.
 MIN_TRANSCRIPT_CHARS = 2000
 
+# ----------------------------------------------------------------------------
+# Universal inference helpers (no per-GP hardcoding)
+# ----------------------------------------------------------------------------
+# These helpers turn the canonical FIA URL pattern
+#   /news/f1-{year}-{event-slug}-{day}-press-conference-transcript
+# into:
+#   - a human-readable event name (with colloquial-alias resolution)
+#   - the local file day-key (thursday / friday / saturday / sunday / extra)
+# Every input that FIA actually publishes is supported without per-GP tables.
+
+# A small, well-documented map of colloquial FIA URL slugs whose body uses
+# the canonical GP name but whose URL slug does not. Every entry below has
+# been observed in real FIA transcript URLs (e.g. `imola` for the Emilia
+# Romagna GP). Keeping this list small + documented makes it easy to review
+# when a new colloquial appears.
+_SLUG_ALIASES: dict[str, str] = {
+    "imola":          "Emilia Romagna Grand Prix",
+    "mugello":        "Tuscan Grand Prix",
+    "monza":          "Italian Grand Prix",
+    "suzuka":         "Japanese Grand Prix",
+    "spa":            "Belgian Grand Prix",
+    "silverstone":    "British Grand Prix",
+    "great-britain":  "British Grand Prix",
+    "sao-paulo":      "São Paulo Grand Prix",
+    "interlagos":     "São Paulo Grand Prix",
+    "mexico-city":    "Mexico City Grand Prix",
+    "madrid":         "Madrid Grand Prix",
+    "vegas":          "Las Vegas Grand Prix",
+    "portimao":       "Portuguese Grand Prix",
+    "sochi":          "Russian Grand Prix",
+}
+
+
+# Order in the tuples below matters: when matching a URL day-token we
+# prefer the LONGEST known prefix so `post-sprint-qualifying` wins over
+# `sprint` and `team-principals` wins over `principal`. Each pair maps a
+# recognized URL token to the local file key.
+_DAY_TOKEN_TO_KEY: tuple[tuple[str, str], ...] = (
+    ("post-sprint-qualifying", "saturday"),
+    ("post-sprint",            "saturday"),
+    ("post-qualifying",        "saturday"),
+    ("team-principals",        "friday"),
+    ("team-principal",         "friday"),
+    ("thursday",               "thursday"),
+    ("friday",                 "friday"),
+    ("saturday",               "saturday"),
+    ("sunday",                 "sunday"),
+    ("post-race",              "sunday"),
+)
+# Pre-sorted longest-first for O(n) lookups.
+_DAY_TOKEN_ORDERED: tuple[tuple[str, str], ...] = tuple(
+    sorted(_DAY_TOKEN_TO_KEY, key=lambda kv: -len(kv[0]))
+)
+
+
+# Day-token alternation used as group 3 in TRANSCRIPT_URL_RE. Anchoring
+# group 3 to a known day-token is required — otherwise the regex's
+# non-greedy group 2 collapses arbitrarily and `_url_event_slug` returns a
+# truncated slug for canonical URLs (e.g. ``austrian`` instead of
+# ``austrian-grand-prix`` for ``.../f1-2026-austrian-grand-prix-thursday-...``),
+# which would later route hub-discovered files to the wrong GP folder.
+_DAY_TOKEN_ALT: str = "|".join(re.escape(t) for t, _ in _DAY_TOKEN_TO_KEY)
+
+
+# Single regex that captures (year, event-slug, day-token) for canonical
+# FIA transcript URLs. Group 2 is non-greedy so the event slug can be any
+# length from ``austrian-gp`` to ``mexico-city-grand-prix``, but group 3 is
+# anchored to a known day-token alternation so it expands just far enough
+# to match a real day token — and never captures into ``-press-conference``.
+TRANSCRIPT_URL_RE = re.compile(
+    rf"/f1-(\d{{4}})-([a-z0-9-]+?)-({_DAY_TOKEN_ALT})-press-conference(?:-\w+)?/?$",
+    re.IGNORECASE,
+)
+
+
+def _canonical_name_from_slug(slug: str) -> str:
+    """Derive a human-readable GP name from an FIA URL slug.
+
+    Universal — handles ``austrian-grand-prix``, ``austrian-gp``,
+    ``mexico-city-grand-prix``, raw ``imola``, and ordinal-bearing slugs
+    like ``70th-anniversary`` without mangling ``70th`` into ``70Th``.
+    """
+    if not slug:
+        return ""
+    if slug in _SLUG_ALIASES:
+        return _SLUG_ALIASES[slug]
+    # Strip the GP suffix if present, remembering whether we stripped one.
+    gp_suffix = ""
+    stripped = slug.lower()
+    for suffix in ("-grand-prix", "-gp"):
+        if stripped.endswith(suffix):
+            stripped = stripped[: -len(suffix)]
+            gp_suffix = " Grand Prix"
+            break
+    # Title-case each dash-token; leave pure-digit/ordinal tokens alone so
+    # ``70th`` stays ``70th`` (not ``70Th``).
+    titled: list[str] = []
+    for tok in stripped.split("-"):
+        if not tok:
+            continue
+        if tok.isdigit() or any(ch.isdigit() for ch in tok):
+            # ordinals like "70th" — leave as-is
+            titled.append(tok)
+        else:
+            titled.append(tok[:1].upper() + tok[1:].lower())
+    return " ".join(titled) + gp_suffix
+
+
+def _url_event_slug(url: str) -> str | None:
+    """Extract the ``{event-slug}`` from a canonical transcript URL.
+
+    Returns ``None`` when the URL doesn't match the canonical pattern (e.g.
+    PDF, archived HTML page, sitemap entry).
+    """
+    m = TRANSCRIPT_URL_RE.search(url)
+    if not m:
+        return None
+    return m.group(2).lower()
+
+
+def _url_day_key(url: str) -> str:
+    """Map a canonical transcript URL onto one of
+    ``thursday``/``friday``/``saturday``/``sunday``/``extra``.
+
+    Longest-prefix-wins against ``_DAY_TOKEN_ORDERED`` so multi-word tokens
+    like ``post-sprint-qualifying`` match before any sub-token.
+    """
+    m = TRANSCRIPT_URL_RE.search(url)
+    if not m:
+        return "extra"
+    token = m.group(3).lower()
+    for day_token, key in _DAY_TOKEN_ORDERED:
+        if token == day_token or token.startswith(day_token + "-"):
+            return key
+    return "extra"
+
+
+def _url_event_slug_and_day(url: str) -> tuple[str | None, str]:
+    """Return ``(event_slug, day_key)`` extracted from a canonical URL.
+
+    Both are ``None`` / ``"extra"`` respectively when the URL does not match.
+    """
+    m = TRANSCRIPT_URL_RE.search(url)
+    if not m:
+        return (None, "extra")
+    return (m.group(2).lower(), _url_day_key(url))
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -164,42 +311,130 @@ async def discover_from_hubs(session: AsyncSession, year: int) -> list[dict]:
             break
     return found_articles
 
-async def discover_pdfs_from_timing(session: AsyncSession, year: int, events: list[dict]) -> list[dict]:
-    """Scrapes 'Event & Timing Information' pages for transcript PDFs."""
-    log.info("Super-aggressively searching for PDFs in timing pages for %d", year)
-    found_pdfs = []
-    
-    # 2018 Fallback if events are empty
-    if year == 2018 and not events:
-        events = await get_discovery_events(session, year, Path("documents/discovery_cache.json"))
 
-    # Need to find timing URLs first
-    # For 2018, we can get them from the archive page
-    timing_urls = []
-    if year == 2018:
+def _archive_url_for_year(year: int) -> str | None:
+    """Universal per-year archive URL, read from ``classification/{year}/classifications.json``.
+
+    Returns ``None`` if the classification file is absent or lacks an
+    ``archive_url``. This is the canonical universal source for any year's
+    archive landing page, with no per-year hardcoding in this script.
+    """
+    cls_path = Path("classification") / str(year) / "classifications.json"
+    if not cls_path.exists():
+        return None
+    try:
+        data = json.loads(cls_path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    return (data.get("archive_url") or "").strip() or None
+
+
+async def discover_from_sitemap(session: AsyncSession, year: int) -> list[dict]:
+    """Crawl FIA's sitemap (recursively into ``<sitemapindex>`` children) and
+    collect every canonical ``press-conference-transcript`` URL for ``year``.
+
+    Universal — no per-year URL patterns. Works against any FIA sitemap
+    shape (Drupal-style ``<sitemapindex>`` with a child ``<urlset>`` per
+    paginated chunk, or a single ``<urlset>``).
+    """
+    log.info("Discovering transcripts from FIA sitemap for %d", year)
+    found: list[dict] = []
+    needle_press_conf = "press-conference"
+    year_marker = f"f1-{year}-"
+    seen_urls: set[str] = set()
+
+    async def crawl(xml_url: str, depth: int) -> None:
+        if depth > 3 or xml_url in seen_urls:
+            return
+        seen_urls.add(xml_url)
         try:
-            resp = await session.get(ARCHIVE_URL_2018)
+            resp = await session.get(xml_url, timeout=30)
+            if resp.status_code != 200:
+                return
+            text = resp.text or ""
+        except Exception:
+            return
+        # If it's a sitemap index, recurse into each child sitemap.
+        if "<sitemapindex" in text.lower():
+            for loc in re.findall(r"<loc>([^<]+)</loc>", text, flags=re.IGNORECASE):
+                await crawl(loc.strip(), depth + 1)
+            return
+        # Otherwise treat as a urlset; extract every <loc> whose URL looks
+        # like our year + transcript pattern.
+        for loc in re.findall(r"<loc>([^<]+)</loc>", text, flags=re.IGNORECASE):
+            u = loc.strip()
+            if needle_press_conf not in u.lower():
+                continue
+            if year_marker not in u.lower():
+                continue
+            if u in seen_urls:
+                continue
+            seen_urls.add(u)
+            title = u.rsplit("/", 1)[-1].replace("-", " ").strip().title()
+            found.append({"title": title, "url": u})
+
+    await crawl(f"{BASE_URL}/sitemap.xml", depth=0)
+    log.info("Sitemap crawl for %d found %d transcript URLs", year, len(found))
+    return found
+
+
+async def discover_pdfs_from_timing(session: AsyncSession, year: int, events: list[dict]) -> list[dict]:
+    """Discover transcript PDFs linked from Event & Timing Information pages.
+
+    Universal across all years: locates a year-specific archive landing page
+    via ``_archive_url_for_year(year)`` (which reads the per-year
+    ``classification/{year}/classifications.json``), then crawls all timing
+    pages it links to and collects ``.pdf`` links whose anchor text contains
+    "transcript". Falls back to ``ARCHIVE_URL_2018`` for legacy years without
+    a classification entry.
+    """
+    log.info("Discovering transcript PDFs for %d", year)
+    found_pdfs: list[dict] = []
+
+    archive_url = _archive_url_for_year(year)
+    if not archive_url:
+        log.info(
+            "No archive_url for %d in classification/{year}/classifications.json; "
+            "skipping PDF discovery for this year.",
+            year,
+        )
+        return []
+    timing_urls: set[str] = set()
+    try:
+        resp = await session.get(archive_url, timeout=30)
+        if resp.status_code == 200:
             soup = BeautifulSoup(resp.text, "html.parser")
-            for a in soup.find_all("a", href=lambda h: h and "eventtiming-information" in h):
-                timing_urls.append(urljoin(BASE_URL, a["href"]))
-        except Exception: pass
-    else:
-        # For other years, hypothesize or search timing pages
-        # (Simplified for now: focus on 2018 archive logic)
+            for a in soup.find_all("a", href=True):
+                href = a["href"].lower()
+                # Catch-all for FIA timing pages regardless of small wording
+                # variations across years (eventtiming-information,
+                # event-timing-information, etc.).
+                if "eventtiming-information" in href or "event-timing-information" in href:
+                    timing_urls.add(urljoin(BASE_URL, a["href"]))
+    except Exception:
         pass
 
-    for t_url in list(set(timing_urls)):
+    for t_url in timing_urls:
         try:
             resp = await session.get(t_url, timeout=30)
+            if resp.status_code != 200:
+                continue
             soup = BeautifulSoup(resp.text, "html.parser")
-            for a in soup.find_all("a", href=lambda h: h and h.endswith(".pdf")):
+            for a in soup.find_all("a", href=True):
+                href = a["href"]
+                if not href.lower().endswith(".pdf"):
+                    continue
                 title = a.get_text(strip=True).lower()
-                pdf_url = urljoin(BASE_URL, a["href"])
                 if "transcript" in title:
-                    found_pdfs.append({"title": a.get_text(strip=True), "url": pdf_url})
-        except Exception: continue
-        
+                    found_pdfs.append({
+                        "title": a.get_text(strip=True),
+                        "url": urljoin(BASE_URL, href),
+                    })
+        except Exception:
+            continue
+
     return found_pdfs
+
 
 async def discover_from_season_event_pages(session: AsyncSession, year: int) -> list[dict]:
     """Targeted discovery for a specific year using the season master page."""
@@ -234,30 +469,62 @@ async def discover_from_season_event_pages(session: AsyncSession, year: int) -> 
     
     return found
 
+# Tokens we hypothesize per GP per year. The URL is constructed by joining
+# one of these with the GP slug, e.g.
+#   f1-{year}-{slug}-thursday-press-conference-transcript
+# Every token in this tuple is a known FIA day-variant, universal across all
+# GPs and all years. The URL-derived ``_url_day_key`` collapses duplicates
+# onto the same local file, so hypothesizing both ``saturday`` and
+# ``post-qualifying`` produces one fetch per day instead of two.
+HYPOTHESIZED_DAY_TOKENS: tuple[str, ...] = (
+    "thursday",
+    "friday",
+    "saturday",                  # literal Saturday form (newer years)
+    "sunday",                    # literal Sunday form (newer years)
+    "post-qualifying",
+    "post-sprint-qualifying",    # sprint weekends
+    "post-sprint",               # sprint weekends
+    "post-race",
+)
+
+
 def map_article_to_gp(title: str, url: str, events: list[dict]) -> tuple[str, str]:
+    """Universal GP inference. Order of preference:
+
+    1. Classified ``events`` list — matches its canonical name against the
+       title+url text. Handles "URL is generic but title says Bahrain", and
+       resolves colloquial slugs (``imola`` URL -> the ``Emilia Romagna``
+       events-list entry, because the events-list contains the official name).
+    2. Classified ``events`` list — matches its slug against the url text.
+    3. URL-slug canonicalization (``_canonical_name_from_slug``). Covers
+       any new GP added in the current year that hasn't been classified yet.
+    4. (``"Unknown Grand Prix"``, ``"unknown-gp"``).
+
+    No per-GP hardcoded tables: every GP comes from the classification
+    pipeline (``get_discovery_events``) or from universal slug inference.
+    """
     text = (title + " " + url).lower()
+    # 1. Canonical event name substring match.
     for event in events:
-        name = event["name"].lower()
-        slug = event.get("slug", slugify(name))
-        if name in text or slug.replace("-grand-prix", "") in text or slug in text:
+        name_lc = event["name"].lower()
+        if name_lc and name_lc in text:
+            slug = event.get("slug", slugify(event["name"]))
             return event["name"], slug
-    
-    fallbacks = {
-        "australia": "Australian Grand Prix", "bahrain": "Bahrain Grand Prix", "china": "Chinese Grand Prix",
-        "baku": "Azerbaijan Grand Prix", "azerbaijan": "Azerbaijan Grand Prix", "spain": "Spanish Grand Prix",
-        "monaco": "Monaco Grand Prix", "canada": "Canadian Grand Prix", "france": "French Grand Prix",
-        "austria": "Austrian Grand Prix", "britain": "British Grand Prix", "silverstone": "British Grand Prix",
-        "hungary": "Hungarian Grand Prix", "belgium": "Belgian Grand Prix", "spa": "Belgian Grand Prix",
-        "italy": "Italian Grand Prix", "monza": "Italian Grand Prix", "singapore": "Singapore Grand Prix",
-        "russia": "Russian Grand Prix", "japan": "Japanese Grand Prix", "suzuka": "Japanese Grand Prix",
-        "mexico": "Mexican Grand Prix", "usa": "United States Grand Prix", "brazil": "Brazilian Grand Prix",
-        "abu dhabi": "Abu Dhabi Grand Prix", "eifel": "Eifel Grand Prix", "imola": "Emilia Romagna Grand Prix",
-        "tuscan": "Tuscan Grand Prix", "styrian": "Styrian Grand Prix", "portugal": "Portuguese Grand Prix",
-        "sakhir": "Sakhir Grand Prix", "turkey": "Turkish Grand Prix", "qatar": "Qatar Grand Prix",
-        "saudi": "Saudi Arabian Grand Prix", "miami": "Miami Grand Prix", "las vegas": "Las Vegas Grand Prix"
-    }
-    for key, canonical in fallbacks.items():
-        if key in text: return canonical, slugify(canonical)
+    # 2. events-list slug substring match.
+    for event in events:
+        event_slug = event.get("slug", slugify(event["name"])).lower()
+        if event_slug and event_slug in text:
+            return event["name"], event_slug
+    # 3. URL-slug canonicalization.
+    url_slug = _url_event_slug(url)
+    if url_slug:
+        canonical = _canonical_name_from_slug(url_slug)
+        # Prefer an existing event's slug if names match.
+        for event in events:
+            if event["name"].lower() == canonical.lower():
+                slug = event.get("slug", slugify(event["name"]))
+                return event["name"], slug
+        return canonical, slugify(canonical)
     return "Unknown Grand Prix", "unknown-gp"
 
 # ---------------------------------------------------------------------------
@@ -503,24 +770,50 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
         # Perform fresh discovery
         events = await get_discovery_events(session, year, discovery_path)
         hub_articles = []
+        sitemap_articles: list[dict] = []
         timing_pdfs = []
         deep_results = []
-        
+
         if aggressive or super_aggressive:
+            # Universal sitemap crawl first (works for any year); the hub
+            # page is a soft supplement whose stale 404s we tolerate.
+            sitemap_articles = await discover_from_sitemap(session, year)
             hub_articles = await discover_from_hubs(session, year)
-            # Sanity check for suspiciously large results
+            # Merge, deduping by URL.
+            seen: set[str] = set()
+            merged: list[dict] = []
+            for art in sitemap_articles + hub_articles:
+                if art["url"] in seen:
+                    continue
+                seen.add(art["url"])
+                merged.append(art)
+            hub_articles = merged
             if len(hub_articles) > 1000:
-                log.warning("Suspiciously large hub discovery result (%d articles), possible scraping error", len(hub_articles))
-        
+                log.warning(
+                    "Suspiciously large hub discovery result (%d articles), "
+                    "possible scraping error",
+                    len(hub_articles),
+                )
+
         if super_aggressive:
             timing_pdfs = await discover_pdfs_from_timing(session, year, events)
             if len(timing_pdfs) > 500:
-                log.warning("Suspiciously large PDF discovery result (%d PDFs), possible scraping error", len(timing_pdfs))
-            if year in [2018, 2019, 2020, 2021]:
-                deep_results = await discover_from_season_event_pages(session, year)
-                if len(deep_results) > 1000:
-                    log.warning("Suspiciously large deep discovery result (%d results), possible scraping error", len(deep_results))
-        
+                log.warning(
+                    "Suspiciously large PDF discovery result (%d PDFs), "
+                    "possible scraping error",
+                    len(timing_pdfs),
+                )
+            # Deep season-page crawl is cheapest per-event; run for every
+            # year, not just legacy ones. Universal because season page URL
+            # is year-derived.
+            deep_results = await discover_from_season_event_pages(session, year)
+            if len(deep_results) > 1000:
+                log.warning(
+                    "Suspiciously large deep discovery result (%d results), "
+                    "possible scraping error",
+                    len(deep_results),
+                )
+
         # Save discovery cache
         cache_mode = "super_aggressive" if super_aggressive else ("aggressive" if aggressive else "standard")
         save_transcript_discovery_cache(transcript_cache_path, {
@@ -533,67 +826,82 @@ async def scrape_year(session: AsyncSession, year: int, output_dir: Path, manife
         })
     
     total_added = 0
-    day_types = {"thursday": "thursday", "friday": "friday", "post-qualifying": "saturday", "post-race": "sunday"}
     local_tasks, local_meta = [], []
 
-    # 1. Standard Hypothesize
+    # 1. Standard Hypothesize — enumerate every known FIA day-variant URL
+    # for every GP's slug (and `-gp` short variant). The local filename is
+    # computed from the URL itself so duplicates (e.g. `saturday` and
+    # `post-qualifying`) collapse onto the same file naturally.
     for event in events:
         gp_name = event["name"]
         gp_slug = event.get("slug", slugify(gp_name))
         slug_variants = [gp_slug]
-        if "grand-prix" in gp_slug: slug_variants.append(gp_slug.replace("-grand-prix", "-gp"))
+        if "grand-prix" in gp_slug:
+            slug_variants.append(gp_slug.replace("-grand-prix", "-gp"))
         for variant in slug_variants:
-            for fia_type, local_day in day_types.items():
-                url = urljoin(NEWS_URL_BASE, f"f1-{year}-{variant}-{fia_type}-press-conference-transcript")
-                dest = output_dir / str(year) / gp_slug / "transcripts" / f"{local_day}.md"
-                if url in manifest: continue
+            for day_token in HYPOTHESIZED_DAY_TOKENS:
+                url = urljoin(
+                    NEWS_URL_BASE,
+                    f"f1-{year}-{variant}-{day_token}-press-conference-transcript",
+                )
+                if url in manifest:
+                    continue
+                _, day_key = _url_event_slug_and_day(url)
+                dest = output_dir / str(year) / gp_slug / "transcripts" / f"{day_key}.md"
                 local_tasks.append(fetch_transcript(session, url, dest, gp_name))
-                local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{local_day.capitalize()} Transcript", "path": str(dest)})
+                local_meta.append({
+                    "url": url, "event": gp_name, "year": year,
+                    "title": f"{day_key.capitalize()} Transcript",
+                    "path": str(dest),
+                })
 
-    # 2. Aggressive Hubs
+    # 2. Aggressive Hubs — drive day-key from URL pattern
     if hub_articles:
         for i, art in enumerate(hub_articles):
             url = art["url"]
-            if url in manifest: continue
+            if url in manifest:
+                continue
             gp_name, gp_slug = map_article_to_gp(art["title"], url, events)
-            day_key = "extra"; u_lower = url.lower() + " " + art["title"].lower()
-            if "thursday" in u_lower: day_key = "thursday"
-            elif "friday" in u_lower: day_key = "friday"
-            elif "saturday" in u_lower or "qualifying" in u_lower: day_key = "saturday"
-            elif "sunday" in u_lower or "race" in u_lower: day_key = "sunday"
+            _, day_key = _url_event_slug_and_day(url)
             dest = output_dir / str(year) / gp_slug / "transcripts" / f"{day_key}_agg_{i}.md"
             local_tasks.append(fetch_transcript(session, url, dest, gp_name))
-            local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{day_key.capitalize()} (Aggressive)", "path": str(dest)})
+            local_meta.append({
+                "url": url, "event": gp_name, "year": year,
+                "title": f"{day_key.capitalize()} (Aggressive)",
+                "path": str(dest),
+            })
 
     # 3. Super Aggressive PDF Timing Pages
     if timing_pdfs:
         for i, pdf in enumerate(timing_pdfs):
             url = pdf["url"]
-            if url in manifest: continue
+            if url in manifest:
+                continue
             gp_name, gp_slug = map_article_to_gp(pdf["title"], url, events)
-            day_key = "extra"; u_lower = url.lower() + " " + pdf["title"].lower()
-            if "thursday" in u_lower: day_key = "thursday"
-            elif "friday" in u_lower: day_key = "friday"
-            elif "saturday" in u_lower or "qualifying" in u_lower: day_key = "saturday"
-            elif "sunday" in u_lower or "race" in u_lower: day_key = "sunday"
+            _, day_key = _url_event_slug_and_day(url)
             dest = output_dir / str(year) / gp_slug / "transcripts" / f"{day_key}_pdf_{i}.md"
             local_tasks.append(fetch_transcript(session, url, dest, gp_name))
-            local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{day_key.capitalize()} (PDF)", "path": str(dest)})
+            local_meta.append({
+                "url": url, "event": gp_name, "year": year,
+                "title": f"{day_key.capitalize()} (PDF)",
+                "path": str(dest),
+            })
 
     # 4. Deep Discovery
     if deep_results:
         for i, res in enumerate(deep_results):
             url = res["url"]
-            if url in manifest: continue
+            if url in manifest:
+                continue
             gp_name, gp_slug = map_article_to_gp(res["title"], url, events)
-            day_key = "extra"; u_lower = url.lower() + " " + res["title"].lower()
-            if "thursday" in u_lower: day_key = "thursday"
-            elif "friday" in u_lower: day_key = "friday"
-            elif "saturday" in u_lower or "qualifying" in u_lower: day_key = "saturday"
-            elif "sunday" in u_lower or "race" in u_lower: day_key = "sunday"
+            _, day_key = _url_event_slug_and_day(url)
             dest = output_dir / str(year) / gp_slug / "transcripts" / f"{day_key}_deep_{i}.md"
             local_tasks.append(fetch_transcript(session, url, dest, gp_name))
-            local_meta.append({"url": url, "event": gp_name, "year": year, "title": f"{day_key.capitalize()} (Deep)", "path": str(dest)})
+            local_meta.append({
+                "url": url, "event": gp_name, "year": year,
+                "title": f"{day_key.capitalize()} (Deep)",
+                "path": str(dest),
+            })
 
     if local_tasks:
         log.info("Executing %d tasks for %d", len(local_tasks), year)
