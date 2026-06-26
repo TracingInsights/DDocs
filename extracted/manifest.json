@@ -94329,6 +94329,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/austrian-grand-prix/free-practice-2-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-26T17:00:47Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:9c3114819fcd8ac4a7e657c336d5993e179170e11781388cb4becb1ec4671a96",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/austrian-grand-prix/heat-hazard-declaration.pdf": {
     "doc_type": "heat-hazard",
     "error": null,
@@ -94356,6 +94366,26 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:9d3bd67dd820311badb39a49f3c3b670bbbd857638db4089507499149dc76404",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/austrian-grand-prix/infringement-free-practice-2-deleted-lap-times-double-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-26T17:00:48Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c2bd75a6e78c67820bad7042b3c86e9d98c08669cffd60e3a691a71b83302269",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/austrian-grand-prix/infringement-free-practice-2-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-26T17:00:49Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:73f083e8832fe9b30d8a816cabf7e124ab4c4ffeeeb138b6f48fd63f7f4ad9b8",
     "success": true,
     "tables_extracted": 1
   },
@@ -94396,6 +94426,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:81f30fae1c3c874d6715f148c10db1c18feca143561e4c49f6364d15b6f0c5bd",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-06-26T17:00:49Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:659267b12a74d2532c06e214c961578a4386d0ea5405b27e20fce5cc06140b95",
     "success": true,
     "tables_extracted": 0
   },

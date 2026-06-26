@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-06-26",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "21",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-06-26T17:00:48Z",
+  "fact": "The F1 cars passed through a double waved yellow flag marshalling sector. - No. Turn Car Driver",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "1 5 16 Charles Leclerc Scuderia Ferrari HP 17:08:26 1:29.491 2 5 44 Lewis Hamilton Scuderia Ferrari HP 17:08:30 OUT LAP",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Chapter 5"
+  ],
+  "session": null,
+  "source_hash": "sha256:c2bd75a6e78c67820bad7042b3c86e9d98c08669cffd60e3a691a71b83302269",
+  "source_pdf": "documents/2026/austrian-grand-prix/infringement-free-practice-2-deleted-lap-times-double-yellow-flags.pdf",
+  "stewards": [
+    "Document 21 To All Officials",
+    "All Teams Date 26 June 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        334.92,
+        552.96,
+        394.56
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "18:25",
+  "title": "Infringement Free Practice 2 Deleted Lap Times Double Yellow Flags",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
