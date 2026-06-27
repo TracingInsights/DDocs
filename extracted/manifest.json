@@ -94302,10 +94302,10 @@
   "documents/2026/austrian-grand-prix/curfew.pdf": {
     "doc_type": "curfew",
     "error": null,
-    "extracted_at": "2026-06-26T09:22:56Z",
+    "extracted_at": "2026-06-27T13:29:54Z",
     "images_extracted": 0,
     "pages": 1,
-    "source_hash": "sha256:52f38ffc661127600f66d85a5c5ba66d6a7668a4a2456ea4d8a6eae01ef68f6d",
+    "source_hash": "sha256:6cf42d56cdc4a7add07e72dc4c2424d9ec6cde6a66c0f989617c45f9528c51eb",
     "success": true,
     "tables_extracted": 0
   },
@@ -94336,6 +94336,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:9c3114819fcd8ac4a7e657c336d5993e179170e11781388cb4becb1ec4671a96",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/austrian-grand-prix/free-practice-3-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-27T13:29:55Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c8cb457dc879dbbcc9709aa8ec8ba4705cca669021b390ad470cbecf69a90a4b",
     "success": true,
     "tables_extracted": 1
   },
@@ -94389,6 +94399,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/austrian-grand-prix/infringement-free-practice-3-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-27T13:29:56Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:7408463c1268742d6666a9d98d801419b7e9542be007eb6f56a0a6a1b03f06f8",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/austrian-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -94406,6 +94426,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:4631d5d89a17a9e46d217eef0e6f01360c71ac298f6cb15a24890f251e22a4a6",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-06-27T13:29:57Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:dfa49a2baf2a39f286b7bf5172a84f79c57301fb030984deb4a60472eb291e4a",
     "success": true,
     "tables_extracted": 0
   },
