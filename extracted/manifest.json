@@ -94309,6 +94309,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/austrian-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-27T19:18:49Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:fbf6005b9582b1a7f8b8b3ed2af5f5d3474b1e2ce2e57655bc653e7be26d568b",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/austrian-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -94318,6 +94328,16 @@
     "source_hash": "sha256:3b3b93c7d689b5104a94d1db900bbb72e185ee653bc74279f40485c410c34100",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-27T19:18:51Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:20588b7f8a7cdc16930e9a3838731ac0b73f795af025ca6defeebdff0d8b048c",
+    "success": true,
+    "tables_extracted": 1
   },
   "documents/2026/austrian-grand-prix/free-practice-1-classification.pdf": {
     "doc_type": "classification",
@@ -94356,6 +94376,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:445bdb9b36843b3a036c4a98bc9c6416f4ab3e803aa5d3c45abf088a4bd94e64",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/infringement-car-6-failing-to-follow-race-directors-instructions-sc2-sc1.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-27T19:18:52Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:09e92f9cbd214ad2918bdd06a556399b14d0b1f6338f69c6282239ed5ffc25a8",
     "success": true,
     "tables_extracted": 0
   },
@@ -94409,6 +94439,26 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/austrian-grand-prix/infringement-qualifying-deleted-lap-times-double-yellow.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-27T19:18:52Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1d6c0280b9502bd9663309c489b262f586a3304166c271bf258466824a73ae72",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/austrian-grand-prix/infringement-qualifying-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-27T19:18:52Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:72967bf1b688780de70811a16e683a6c5f39b1764cc8271c8148a7a5229a75eb",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/austrian-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -94426,6 +94476,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:4631d5d89a17a9e46d217eef0e6f01360c71ac298f6cb15a24890f251e22a4a6",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/p3-and-qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-06-27T19:18:53Z",
+    "images_extracted": 0,
+    "pages": 6,
+    "source_hash": "sha256:daf0cc952ad7c449c3131782463106d08a25535a2b29bed21f0f29ed7f04efe7",
     "success": true,
     "tables_extracted": 0
   },
@@ -94468,6 +94528,16 @@
     "source_hash": "sha256:aa9cb33b34245fbe44be275c70e2338fc69eee9990b68176d1ca6e69fd3329bd",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/austrian-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-06-27T19:18:54Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:32e9f2e3b6f2aa124c1c315407365d9ddf8fc6a22c7c0d3411715a0279b7d447",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/austrian-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",

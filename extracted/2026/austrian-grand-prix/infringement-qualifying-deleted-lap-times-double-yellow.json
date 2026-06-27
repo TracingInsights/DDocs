@@ -1,0 +1,52 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-06-27",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "33",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-06-27T19:18:52Z",
+  "fact": "The F1 cars passed through a double waved yellow flag marshalling sector. - No. Turn Car Driver",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "1 9 6 Isack Hadjar Oracle Red Bull Racing 17:00:45 PIT 2 9 44 Lewis Hamilton Scuderia Ferrari HP 17:00:56 PIT 3 9 30 Liam Lawson Visa Cash App Racing Bulls F1 Team 17:01:04 PIT 4 9 16 Charles Leclerc Scuderia Ferrari HP 17:01:15 PIT 5 9 1 Lando Norris McLaren Mastercard F1 Team 17:01:23 PIT 6 9 81 Oscar Piastri McLaren Mastercard F1 Team 17:01:30 PIT 7 9 41 Arvid Lindblad Visa Cash App Racing Bulls F1 Team 17:01:42 PIT 8 9 12 Kimi Antonelli Mercedes-AMG PETRONAS F1 Team 17:01:58 PIT 9 9 63 George Russell Mercedes-AMG PETRONAS F1 Team 17:02:04 PIT",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Article B1.8.4b",
+    "Chapter 5"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:1d6c0280b9502bd9663309c489b262f586a3304166c271bf258466824a73ae72",
+  "source_pdf": "documents/2026/austrian-grand-prix/infringement-qualifying-deleted-lap-times-double-yellow.pdf",
+  "stewards": [
+    "Document 33 To All Officials",
+    "All Teams Date 27 June 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        334.92,
+        552.96,
+        533.52
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 10
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "18:14",
+  "title": "Infringement Qualifying Deleted Lap Times Double Yellow",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
