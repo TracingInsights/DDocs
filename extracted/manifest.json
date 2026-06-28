@@ -94269,6 +94269,16 @@
     "success": true,
     "tables_extracted": 11
   },
+  "documents/2026/austrian-grand-prix/championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:05Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:aa172f9f5e92d1854f40f43f6650573552fff3788f327bb7fbcb77e7182c51d2",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/austrian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -94309,6 +94319,66 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/austrian-grand-prix/decision-car-11-alleged-false-start-moving-before-signal.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:08Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:b7e24f250f3c656c3090d4af598d446b7adcdecf0d106e6be79f7bcdb4e7aa53",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/decision-car-14-alleged-ignoring-blue-flags.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:08Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:373172c3916ccab9a5d991c9168fefafec94589a985295f957ac04c971f045f3",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/decision-car-18-alleged-ignoring-blue-flags.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:09Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:6bb154753e639d43e237eae86cc866f0f34e56a31eb4a208aadb0fb1b2fee0da",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/decision-car-23-alleged-yellow-flag-infringement.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:09Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:4e1147643a8a0e5eccca46f616be3d2de0949918039008f934ff91211152bb95",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/decision-car-30-failure-to-follow-race-directors-instructions-practice-starts.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:09Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:787abf491b4b4db21584d6be3c2a6bce250bc6eb26d667aba3a06960cd363625",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/decision-car-81-alleged-failing-to-follow-race-directors-instructions-sc2-sc1.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:09Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:f213c028be79592070cba6a490c9625c13c6a8b91892529075c37f87de87540a",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/austrian-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -94338,6 +94408,16 @@
     "source_hash": "sha256:20588b7f8a7cdc16930e9a3838731ac0b73f795af025ca6defeebdff0d8b048c",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/austrian-grand-prix/final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:10Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:5864368637dbdd7770e7806669af479954ed096ef9f8d90e0b7ed36f594bcb84",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/austrian-grand-prix/final-starting-grid.pdf": {
     "doc_type": "starting-grid",
@@ -94386,6 +94466,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:445bdb9b36843b3a036c4a98bc9c6416f4ab3e803aa5d3c45abf088a4bd94e64",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/infringement-car-14-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:11Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:0bb84fa3ed98f148ea77152362e971c57da8bcb44940cb660d6b2f62c55dbbc3",
     "success": true,
     "tables_extracted": 0
   },
@@ -94466,6 +94556,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:72967bf1b688780de70811a16e683a6c5f39b1764cc8271c8148a7a5229a75eb",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/austrian-grand-prix/infringement-race-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:11Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:ca9af6e1e0b2a5ff871e85a5bc44fa37fdd10b42e176df17490410330b9fb01f",
     "success": true,
     "tables_extracted": 1
   },
@@ -94569,6 +94669,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/austrian-grand-prix/provisional-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:13Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8a5739ec5d7f47de5b60472a4445cad50f4c8aa0459be3e9f1e4b6947999ffdb",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/austrian-grand-prix/provisional-starting-grid.pdf": {
     "doc_type": "starting-grid",
     "error": null,
@@ -94609,6 +94719,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/austrian-grand-prix/race-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:14Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:2929ec5ce1662d6af39421d26f9f58ab54a117e259273f5477956fc7d71a5d97",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/austrian-grand-prix/self-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -94636,6 +94756,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:17b1e200046f205362149b289504d42684083147a318102d576915955fc86ca2",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/austrian-grand-prix/summons-car-81-alleged-failure-to-follow-race-directors-instructions-sc2-sc1.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-06-28T19:18:14Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:c9a9c8350d7a1938a1824c13ae78a06fc9dd8a743bf3599654d5b3993b31e0b5",
     "success": true,
     "tables_extracted": 0
   },

@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-06-28",
+  "doc_number": "53",
+  "doc_type": "classification",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-06-28T19:18:10Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:5864368637dbdd7770e7806669af479954ed096ef9f8d90e0b7ed36f594bcb84",
+  "source_pdf": "documents/2026/austrian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        248.18,
+        189.38,
+        572.36,
+        408.2
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        248.18,
+        416.04,
+        572.36,
+        476.8
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 5
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:50",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

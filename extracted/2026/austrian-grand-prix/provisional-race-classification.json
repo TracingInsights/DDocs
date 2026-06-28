@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-06-28",
+  "doc_number": "44",
+  "doc_type": "classification",
+  "event_name": "Austrian Grand Prix",
+  "event_slug": "austrian-grand-prix",
+  "extracted_at": "2026-06-28T19:18:13Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:8a5739ec5d7f47de5b60472a4445cad50f4c8aa0459be3e9f1e4b6947999ffdb",
+  "source_pdf": "documents/2026/austrian-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        230.78,
+        189.38,
+        572.36,
+        408.2
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        230.78,
+        416.04,
+        572.36,
+        476.8
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 5
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:45",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
