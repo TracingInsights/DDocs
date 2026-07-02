@@ -1,0 +1,87 @@
+{
+  "category": null,
+  "date": "2026-07-02",
+  "doc_number": "7",
+  "doc_type": "pu-elements",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-07-02T19:23:09Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:045495f920163fe55da82752a5c4beacf346a8ef13f4b8368e437b32ec49e9ad",
+  "source_pdf": "documents/2026/british-grand-prix/power-unit-information.pdf",
+  "tables": [
+    {
+      "bbox": [
+        43.18,
+        194.81,
+        188.53,
+        299.5
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        43.18,
+        382.84,
+        552.86,
+        450.94
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        43.18,
+        456.02,
+        543.36,
+        549.62
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        43.18,
+        596.64,
+        552.86,
+        708.62
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        43.18,
+        714.04,
+        261.41,
+        811.59
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        334.35,
+        714.04,
+        552.86,
+        811.59
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 6,
+  "time": "19:00",
+  "title": "Power Unit Information",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
