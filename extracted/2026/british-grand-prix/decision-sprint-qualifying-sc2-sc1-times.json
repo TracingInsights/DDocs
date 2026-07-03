@@ -1,0 +1,59 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-07-03",
+  "decision": "No further action.",
+  "doc_number": "24",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-07-03T22:04:02Z",
+  "fact": "The F1 cars below exceeded the 1:39.0 time limit between the Safety Car lines. - No. Car Driver",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "1 63 George Russell Mercedes-AMG PETRONAS F1 Team 16:36:41 L4 (SQ1) 2 10 Pierre Gasly BWT Alpine F1 Team 16:38:27 L4 (SQ1) 3 43 Franco Colapinto BWT Alpine F1 Team 16:38:45 L4 (SQ1) 4 6 Isack Hadjar Oracle Red Bull Racing 16:40:25 L5 (SQ1) 5 14 Fernando Alonso Aston Martin Aramco F1 Team 16:40:37 L4 (SQ1) 6 18 Lance Stroll Aston Martin Aramco F1 Team 16:40:54 L4 (SQ1) 7 1 Lando Norris McLaren Mastercard F1 Team 16:41:01 L5 (SQ1) 8 43 Franco Colapinto BWT Alpine F1 Team 16:41:08 L5 (SQ1) 9 55 Carlos Sainz Atlassian Williams F1 Team 16:41:13 L6 (SQ1) 10 12 Kimi Antonelli Mercedes-AMG PETRONAS F1 Team 16:55:32 L10 (SQ2) 11 27 Nico Hulkenberg Audi Revolut F1 Team 16:57:53 L11 (SQ2) 12 41 Arvid Lindblad Visa Cash App Racing Bulls F1 Team 16:59:39 L10 (SQ2)",
+  "offence": "Alleged breach of Article B1.8.5 of the FIA F1 Regulations and Article 12.2.1.i of the FIA International Sporting Code (non-compliance with the Race Director's Competition Notes, item 1, document 5).",
+  "pages": 3,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on-board cameras and CCTV cameras. All drivers concerned stayed at or above speeds necessary to stay below 1:39.0 around the vast majority of the circuit. However, in all cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that all drivers concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 12.2.1.i",
+    "Article 15",
+    "Article B1.8.5",
+    "Chapter 5"
+  ],
+  "session": "Sprint Qualifying",
+  "source_hash": "sha256:c2e0fe9ce2549b963589ee1c6fd437c91681ec90e8a14084e3ea1076400a43ec",
+  "source_pdf": "documents/2026/british-grand-prix/decision-sprint-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 24 To All Officials",
+    "All Teams Date 03 July 2026 Time 18:10 The Stewards",
+    "having received a report from the Race Director",
+    "have considered the following matter",
+    "item 1",
+    "timing data",
+    "on-board cameras",
+    "and in all cases"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        335.52,
+        552.96,
+        593.64
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 13
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "18:10",
+  "title": "Decision Sprint Qualifying Sc2 Sc1 Times",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

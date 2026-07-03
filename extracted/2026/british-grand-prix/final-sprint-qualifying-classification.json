@@ -1,0 +1,32 @@
+{
+  "category": null,
+  "date": "2026-07-03",
+  "doc_number": "30",
+  "doc_type": "classification",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-07-03T22:04:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:f4712a632945e591b67742ae408254a752b4679b817cc77f1489c33d45bac97a",
+  "source_pdf": "documents/2026/british-grand-prix/final-sprint-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        193.73,
+        187.07,
+        571.24,
+        454.53
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 22
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "20:00",
+  "title": "Final Sprint Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
