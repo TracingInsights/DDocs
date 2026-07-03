@@ -95489,6 +95489,36 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/british-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-07-03T16:24:26Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a2a2320f841c07bccefd1c78de07ba58feae294dae971fdab58049f6846d1a56",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/british-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-03T16:24:27Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:8851b9306baed81236d734262d006e257d43b2fdecab6a73eeb79e01cd2dea9a",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/british-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-07-03T16:24:27Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:4b7d79a3b4f9a22bc33d0cce0e87c3cb933ffd02616247547f5508bf5c992577",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/british-grand-prix/post-sprint-qualifying-procedure.pdf": {
     "doc_type": "procedure",
     "error": null,
@@ -95516,6 +95546,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:2467ac20dacd4b5a28d16b085d6c6842ea74a6813f66c27a2600b5b6558370b6",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-07-03T16:24:27Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:6e3f573d60cf0d4819e448f8ee94d2e4e3e3c24f631257a10b8f4cbf98351ad3",
     "success": true,
     "tables_extracted": 0
   },
@@ -95556,6 +95596,16 @@
     "images_extracted": 0,
     "pages": 5,
     "source_hash": "sha256:897259560ae1b68aefb22d4fd2bd6f6312375919d22e78715d6cd720c1a96102",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/timetable-v5.pdf": {
+    "doc_type": "timetable",
+    "error": null,
+    "extracted_at": "2026-07-03T16:24:32Z",
+    "images_extracted": 0,
+    "pages": 6,
+    "source_hash": "sha256:4756980075198ccf9ed42c119ebf74bd83b69bdd7fc4e171b763795df92719de",
     "success": true,
     "tables_extracted": 0
   },
