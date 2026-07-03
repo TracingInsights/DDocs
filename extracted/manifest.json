@@ -95439,6 +95439,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/british-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-07-03T11:32:24Z",
+    "images_extracted": 6,
+    "pages": 18,
+    "source_hash": "sha256:949f1403db5591bb62d84c2f0a3072368d725207a8f281dcf5b9a458a7d04204",
+    "success": true,
+    "tables_extracted": 6
+  },
   "documents/2026/british-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -95469,6 +95479,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/british-grand-prix/entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-07-03T11:32:24Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:900a57fb60a89c4ab881822fa84dad6a3d8c58874c9be5494030c6e7c40c60b4",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/post-sprint-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-07-03T11:32:25Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:d4d97eb50b57bb93c297cb45724b7e2f751837ff0bb81aba3457134330c56b29",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/british-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -95478,6 +95508,16 @@
     "source_hash": "sha256:045495f920163fe55da82752a5c4beacf346a8ef13f4b8368e437b32ec49e9ad",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/british-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-07-03T11:32:25Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:2467ac20dacd4b5a28d16b085d6c6842ea74a6813f66c27a2600b5b6558370b6",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/british-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
@@ -95489,6 +95529,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/british-grand-prix/self-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-07-03T11:32:25Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:6728763eaf38da519277f6c59e1f8b096a48e054c657f0c665cea43c17013437",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/british-grand-prix/timetable-v3.pdf": {
     "doc_type": "timetable",
     "error": null,
@@ -95496,6 +95546,16 @@
     "images_extracted": 0,
     "pages": 5,
     "source_hash": "sha256:991c24b5b2e6c941f067ad68e0046289e48a6dd080ade8b422bf59487f5f160e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/timetable-v4.pdf": {
+    "doc_type": "timetable",
+    "error": null,
+    "extracted_at": "2026-07-03T11:32:30Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:897259560ae1b68aefb22d4fd2bd6f6312375919d22e78715d6cd720c1a96102",
     "success": true,
     "tables_extracted": 0
   },
