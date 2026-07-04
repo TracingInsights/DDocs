@@ -1,0 +1,32 @@
+{
+  "category": null,
+  "date": "2026-07-04",
+  "doc_number": "39",
+  "doc_type": "classification",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-07-04T16:01:53Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9802b57fd209cfa42bc35d31e73c37b53fcd7f7ac58dc408a59af41782d80561",
+  "source_pdf": "documents/2026/british-grand-prix/provisional-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        249.09,
+        189.38,
+        572.28,
+        456.81
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 22
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "13:00",
+  "title": "Provisional Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

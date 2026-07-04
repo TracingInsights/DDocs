@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-07-04",
+  "doc_number": "48",
+  "doc_type": "championship-points",
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-07-04T16:01:45Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:27b4cdf9eccd12c051496b675c6ecb5468e8b4ac5e36fae27e39950df7c7899b",
+  "source_pdf": "documents/2026/british-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        115.84,
+        174.26,
+        814.27,
+        450.48
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        113.54,
+        174.26,
+        814.33,
+        365.52
+      ],
+      "columns": 2,
+      "page": 3,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        115.22,
+        173.88,
+        814.98,
+        454.2
+      ],
+      "columns": 3,
+      "page": 4,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        109.3,
+        172.08,
+        829.32,
+        257.76
+      ],
+      "columns": 3,
+      "page": 5,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "15:15",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
