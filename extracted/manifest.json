@@ -95529,6 +95529,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/british-grand-prix/final-sprint-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-07-04T10:54:11Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e87231a93a30498e29f8758d40ca26fe126121fe3ad25411b10a99b3987e3eef",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/british-grand-prix/fp1-and-sprint-qualifying-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -95548,6 +95558,16 @@
     "source_hash": "sha256:a2a2320f841c07bccefd1c78de07ba58feae294dae971fdab58049f6846d1a56",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/british-grand-prix/infringement-car-23-changes-made-during-parc-ferme.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-04T10:54:11Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:1087b6f535cdcf1d7ed09f01bb71e108dae658b864ba1635ca754a1702b64b64",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/british-grand-prix/infringement-car-23-failing-to-follow-race-directors-instructions-sc2-sc1.pdf": {
     "doc_type": "infringement",
@@ -95596,6 +95616,46 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:4b7d79a3b4f9a22bc33d0cce0e87c3cb933ffd02616247547f5508bf5c992577",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/parc-ferm\u00e9-issues.pdf": {
+    "doc_type": "parc-ferme",
+    "error": null,
+    "extracted_at": "2026-07-04T10:54:11Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:4dea1f954c69caab2faae78e74f0d889e14d97dba730f25313d566b069f04d50",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/parts-and-parameters-been-replaced-and-or-changed-during-sprint-parc-ferm\u00e9.pdf": {
+    "doc_type": "parc-ferme",
+    "error": null,
+    "extracted_at": "2026-07-04T10:54:11Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:2c813fc1ad4935504acf9f4d9aa961306bc5af703a5110690b241e9fc55f90d3",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-07-04T10:54:11Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:f8b4c188e5e3b6fd844d45114bb6c821d2c8a3a8e98d24ccdbfc9c4a06c637ac",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/post-sprint-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-07-04T10:54:12Z",
+    "images_extracted": 1,
+    "pages": 3,
+    "source_hash": "sha256:1002846e4d5843c1158f7fa18bb284aed523f26e041054028a559e1269eb1218",
     "success": true,
     "tables_extracted": 0
   },
