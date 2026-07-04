@@ -95499,6 +95499,36 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/british-grand-prix/covers-on-time.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:38Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:bf16ed1bb241062f08714bb3c4767742d5d0872c9b3ae70a6ed884e1f6b63c5a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/decision-car-31-alleged-yellow-flag-infringement.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:38Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:fec80f5757d1d5380d2afc139848cf7a0e88e8d59962349777ec53041721582f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:39Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a9c3df9a18421a57a92cef2922ccba33fc838f8468d57706ec11d5254603bf17",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/british-grand-prix/decision-sprint-qualifying-sc2-sc1-times.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -95528,6 +95558,16 @@
     "source_hash": "sha256:900a57fb60a89c4ab881822fa84dad6a3d8c58874c9be5494030c6e7c40c60b4",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:40Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6cb7d4af65707a1cec79f75094780a2f79fdf722785efd3f1fd1efab2070629d",
+    "success": true,
+    "tables_extracted": 1
   },
   "documents/2026/british-grand-prix/final-sprint-classification.pdf": {
     "doc_type": "classification",
@@ -95578,6 +95618,16 @@
     "source_hash": "sha256:a2a2320f841c07bccefd1c78de07ba58feae294dae971fdab58049f6846d1a56",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/british-grand-prix/infringement-car-10-impeding-of-car-18.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:41Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6fb0cbb7de92928da664cb235a83725a242a3320d96d81fe8d54295a09e18c1a",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/british-grand-prix/infringement-car-11-causing-a-collision-with-car-14.pdf": {
     "doc_type": "infringement",
@@ -95639,6 +95689,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/british-grand-prix/infringement-car-41-unsafe-release.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:41Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:d86db865075861b35378ac0acfa593fbe2ab90fa643dbb16254555e5a8cddb09",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/british-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -95646,6 +95706,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:8851b9306baed81236d734262d006e257d43b2fdecab6a73eeb79e01cd2dea9a",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/british-grand-prix/infringement-qualifying-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:41Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:4d5fc411ebf58a1894f5add87322f06661b5f1979016be4a8a5235c27f5ad975",
     "success": true,
     "tables_extracted": 1
   },
@@ -95739,6 +95809,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/british-grand-prix/provisional-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:43Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:067dddfbfde0e80f866ebfd3fe99588aaa811d8d4522965b4ab28314f4783115",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/british-grand-prix/provisional-sprint-classification.pdf": {
     "doc_type": "classification",
     "error": null,
@@ -95769,6 +95849,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/british-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:45Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:95153a3921e16e1efe506710cea8357c4726351187dcac8ae2f69b04c8c9f639",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/british-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -95776,6 +95866,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:2467ac20dacd4b5a28d16b085d6c6842ea74a6813f66c27a2600b5b6558370b6",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:45Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:04518147adf1b72cb91b0b7a6dc88e144f48bcecfd2be71c7e6ccb41e0161511",
     "success": true,
     "tables_extracted": 0
   },
@@ -95816,6 +95916,26 @@
     "images_extracted": 0,
     "pages": 4,
     "source_hash": "sha256:4fc6a86ec56a2d132f487dbf26b3251339a2659b3ead293ede2500331dcefcf5",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/summons-car-10-alleged-impeding-of-car-18.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:45Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:398772937e6eb6d1eb45a8232d425334c6fcffa8017a25ba0e8835ebd510859e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/summons-car-18-alleged-impeding-by-car-10.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:45Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:1a57536ef6c993cebff1e2c994707932fbfaf7b6e833f9011e5ac84d5a481786",
     "success": true,
     "tables_extracted": 0
   },
@@ -95869,6 +95989,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/british-grand-prix/summons-car-41-alleged-unsafe-release.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:45Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:fc15edef92d9b9438a17ae543a15efa7a4e06b038ff30a0daa65ba01a87e4109",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/british-grand-prix/summons-car-6-alleged-abnormal-change-of-direction-by-car-30.pdf": {
     "doc_type": "summons",
     "error": null,
@@ -95876,6 +96006,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:8d20aea204ec20b2e1c1c02f1e4ec9399cc0ad576c1c7e85af802b5cd727b07e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/british-grand-prix/summons-car-81-alleged-unsafe-release-by-car-41.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-04T19:10:45Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:20f99716fa60e0addaa6340ebc7f88210eb08e6cb2fb58d25d8fa9235c7cb0b3",
     "success": true,
     "tables_extracted": 0
   },

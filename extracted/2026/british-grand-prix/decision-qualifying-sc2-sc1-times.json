@@ -1,0 +1,59 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-07-04",
+  "decision": "No further action.",
+  "doc_number": "59",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "British Grand Prix",
+  "event_slug": "british-grand-prix",
+  "extracted_at": "2026-07-04T19:10:39Z",
+  "fact": "The F1 car below exceeded the 1:39.0 time limit between the Safety Car lines. - No. Car Driver",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "1 6 Isack Hadjar Oracle Red Bull Racing 16:18:10 L7 (Q1)",
+  "offence": "Alleged Breach of Article B1.8.5 of the FIA F1 Regulations and Article 12.2.1.i of the FIA International Sporting Code by failing to comply with the Race Director's Competition Notes (Item 1, Document 5) and the Note to Teams (Document 17).",
+  "pages": 2,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on-board cameras and CCTV cameras. The driver concerned stayed at or above speeds necessary to stay below 1:39.0 around the vast majority of the circuit. However, in all cases the Stewards determined that the driver took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that the driver concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 12.2.1.i",
+    "Article 15",
+    "Article B1.8.5",
+    "Chapter 5"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:a9c3df9a18421a57a92cef2922ccba33fc838f8468d57706ec11d5254603bf17",
+  "source_pdf": "documents/2026/british-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 59 To All Officials",
+    "All Teams Date 04 July 2026 Time 18:42 The Stewards",
+    "having received a report from the Race Director",
+    "have considered the following matter",
+    "Document 5)",
+    "timing data",
+    "on-board cameras",
+    "and in all cases"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        335.52,
+        552.96,
+        375.24
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "18:42",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
