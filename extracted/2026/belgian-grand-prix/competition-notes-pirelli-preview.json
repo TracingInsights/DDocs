@@ -1,0 +1,63 @@
+{
+  "category": null,
+  "date": "2026-07-15",
+  "doc_number": "2",
+  "doc_type": "pirelli-preview",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-07-15T19:08:53Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "bc1a18ae5d68593f7c5400aee845080553ba1b321597329b7e95cfdee1c227ee",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:a661e2414c21013e94d88a9b18b5d86ed60b12bfb7c785f099ecf7cd16725169",
+  "source_pdf": "documents/2026/belgian-grand-prix/competition-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        110.56,
+        241.76,
+        521.88,
+        309.22
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        130.78,
+        426.01,
+        322.11,
+        520.7
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:05",
+  "title": "Competition Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
