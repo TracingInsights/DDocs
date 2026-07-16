@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-07-16",
+  "doc_number": "3",
+  "doc_type": "timetable",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-07-16T10:58:52Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 6,
+  "source_hash": "sha256:9212278d44ab4158d00337d4197d5ae38cfb96c27f7f91018b040e39008f3be6",
+  "source_pdf": "documents/2026/belgian-grand-prix/timetable-v4.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        568.33
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        768.17
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 32
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        636.39
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 25
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        561.1
+      ],
+      "columns": 5,
+      "page": 6,
+      "rows": 21
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "12:15",
+  "title": "Timetable V4",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
