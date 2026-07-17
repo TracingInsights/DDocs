@@ -95429,6 +95429,16 @@
     "success": true,
     "tables_extracted": 3
   },
+  "documents/2026/belgian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-07-17T02:31:57Z",
+    "images_extracted": 4,
+    "pages": 5,
+    "source_hash": "sha256:584d96cf7d651b1eef1554a0032382eb79ba515028035c79b1e0273ea44a38f1",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/belgian-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -95448,6 +95458,36 @@
     "source_hash": "sha256:180d4abc6d759514612b9bf4288bac15f35313fa0f7319d325c9c0ac26a3aba9",
     "success": true,
     "tables_extracted": 4
+  },
+  "documents/2026/belgian-grand-prix/post-race-checks-on-car-numbers-63-and-06-2026-british-gp.pdf": {
+    "doc_type": "post-race-checks",
+    "error": null,
+    "extracted_at": "2026-07-17T02:33:24Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:2a9677a03b5b33a1319a378099f96e1194f7fa3d0322a5714fd13b8ff126de92",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/belgian-grand-prix/power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-07-17T02:33:24Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8c1954b981e2d2e3c139682854d8a3eaac8af599799c1fc9ba4ba4f332800b2c",
+    "success": true,
+    "tables_extracted": 6
+  },
+  "documents/2026/belgian-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-07-17T02:33:26Z",
+    "images_extracted": 10,
+    "pages": 8,
+    "source_hash": "sha256:7721c0b56b32f56df200f15126634eb9f194602b4890d1c6379426972c1344d3",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/belgian-grand-prix/timetable-v4.pdf": {
     "doc_type": "timetable",

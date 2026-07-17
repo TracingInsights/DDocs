@@ -1,0 +1,106 @@
+{
+  "category": null,
+  "date": "2026-07-16",
+  "doc_number": "7",
+  "doc_type": "circuit-map",
+  "event_name": "Belgian Grand Prix",
+  "event_slug": "belgian-grand-prix",
+  "extracted_at": "2026-07-17T02:31:57Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "521682462caf71ecbb26375fdd641ea9e4f22c4016da3deeabdc8286af04275b",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 3,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "de1992e17788765dd5bd2345e0cfce1139e552154ad1896d41469b7dbb982e3d",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ],
+      "deduplicated": false,
+      "display_height": 841.89,
+      "display_width": 595.28,
+      "height": 1684,
+      "page": 4,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "d223dcfb5b79954d754a3b6c9ef967c7b42b059d706afa4aefa904e74133a3ca",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ],
+      "deduplicated": false,
+      "display_height": 841.89,
+      "display_width": 595.28,
+      "height": 1684,
+      "page": 5,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "dc848308da1ee0d296206fe50fb391eb26c53a56c1651d4cb75dde5ca841c888",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 5,
+  "source_hash": "sha256:584d96cf7d651b1eef1554a0032382eb79ba515028035c79b1e0273ea44a38f1",
+  "source_pdf": "documents/2026/belgian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.78,
+        395.92,
+        798.6,
+        543.54
+      ],
+      "columns": 49,
+      "page": 3,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:20",
+  "title": "Competition Notes Circuit Map Pit Lane Drawing Emergency Exits Map And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
