@@ -1,0 +1,90 @@
+2026 BELGIAN GRAND PRIX
+
+17 - 19 July 2026
+
+From The Stewards Document 20
+
+To All Teams, All Officials Date 17 July 2026
+
+Time 16:41
+
+Title Infringement - Free Practice 1 Deleted Lap Times
+
+Description Infringement - Free Practice 1 Deleted Lap Times
+
+Enclosed BEL DOC 20 - Free Practice 1 Deleted Lap Times.pdf
+
+Gerd Ennser Matthew Selley
+
+Alfonso Orihuela Pedro Lamy
+
+Loïc Bacquelaine
+
+The Stewards
+
+2026 B G P ELGIAN RAND RIX
+
+17 – 19 July 2026
+
+From The Stewards Document 20
+
+To All Officials, All Teams Date 17 July 2026
+
+Time 16:40
+
+The Stewards, having received a report from the Race Director, have considered the following matter and determine the following:
+
+Session Free Practice 1
+
+Fact The F1 cars below did not use the track at turns 3, 4,5,6,11 and 19.
+
+| No. | Turn | Car | Driver | Competitor | Time of Day | Lap Time |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 3 | 23 | Alexander Albon | Atlassian Williams F1 Team | 13:40:44 | 2:55.476 |
+| 2 | 11 | 55 | Carlos Sainz | Atlassian Williams F1 Team | 13:42:09 | 1:52.364 |
+| 3 | 19 | 12 | Kimi Antonelli | Mercedes-AMG PETRONAS F1 Team | 13:40:24 | 1:49.320 |
+| 4 | 19 | 12 | Kimi Antonelli | Mercedes-AMG PETRONAS F1 Team | Next Lap | 3:16.941 |
+| 5 | 4 | 87 | Oliver Bearman | TGR Haas F1 Team | 13:44:56 | 1:51.262 |
+| 6 | 19 | 30 | Liam Lawson | Visa Cash App Racing Bulls F1 Team | 13:50:21 | 1:49.451 |
+| 7 | 19 | 30 | Liam Lawson | Visa Cash App Racing Bulls F1 Team | Next Lap | 2:54.760 |
+| 8 | 19 | 23 | Alexander Albon | Atlassian Williams F1 Team | 13:52:15 | 2:35.449 |
+| 9 | 19 | 23 | Alexander Albon | Atlassian Williams F1 Team | Next Lap | 1:50.734 |
+| 10 | 11 | 23 | Alexander Albon | Atlassian Williams F1 Team | 13:53:19 | 1:50.734 |
+| 11 | 19 | 30 | Liam Lawson | Visa Cash App Racing Bulls F1 Team | 13:55:05 | 1:49.247 |
+| 12 | 19 | 30 | Liam Lawson | Visa Cash App Racing Bulls F1 Team | 13:55:05 | PIT |
+| 13 | 19 | 55 | Carlos Sainz | Atlassian Williams F1 Team | 13:54:13 | 1:55.075 |
+| 14 | 19 | 55 | Carlos Sainz | Atlassian Williams F1 Team | Next Lap | PIT |
+| 15 | 3 | 63 | George Russell | Mercedes-AMG PETRONAS F1 Team | 14:00:21 | 3:01.951 |
+| 16 | 4 | 87 | Oliver Bearman | TGR Haas F1 Team | 14:03:24 | 3:19.983 |
+| 17 | 11 | 55 | Carlos Sainz | Atlassian Williams F1 Team | 14:18:40 | 6:54.860 |
+| 18 | 4 | 41 | Arvid Lindblad | Visa Cash App Racing Bulls F1 Team | 14:19:06 | 8:16.463 |
+| 19 | 13 | 18 | Lance Stroll | Aston Martin Aramco F1 Team | 14:23:29 | PIT |
+| 20 | 19 | 3 | Max Verstappen | Oracle Red Bull Racing | 14:22:20 | 1:52.830 |
+| 21 | 19 | 3 | Max Verstappen | Oracle Red Bull Racing | Next Lap | 1:53.183 |
+| 22 | 4 | 10 | Pierre Gasly | BWT Alpine F1 Team | 14:24:32 | 1:54.168 |
+
+| No. | Turn | Car | Driver | Competitor | Time of Day | Lap Time |
+| --- | --- | --- | --- | --- | --- | --- |
+| 23 | 6 | 16 | Charles Leclerc | Scuderia Ferrari HP | 14:25:11 | 1:56.600 |
+| 24 | 4 | 23 | Alexander Albon | Atlassian Williams F1 Team | 14:25:54 | 1:54.971 |
+| 25 | 5 | 27 | Nico Hulkenberg | Audi Revolut F1 Team | 14:28:18 | 1:53.955 |
+| 26 | 5 | 63 | George Russell | Mercedes-AMG PETRONAS F1 Team | 14:28:18 | 6:30.653 |
+| 27 | 6 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | 14:28:32 | PIT |
+| 28 | 11 | 23 | Alexander Albon | Atlassian Williams F1 Team | 14:30:27 | 1:55.235 |
+| 29 | 4 | 87 | Oliver Bearman | TGR Haas F1 Team | 14:30:23 | 2:17.210 |
+
+Infringement Breach of Appendix L Chapter IV Article 2 c) of the FIA International Sporting Code and Article B1.8.6 of the FIA F1 Regulations.
+
+Decision Deletion of the lap times shown in accordance with Article 12.4.1.e of the FIA International Sporting Code.
+
+Note Competitors are reminded that they have the right to appeal certain decisions of the Stewards, in accordance with Article 15 of the FIA International Sporting Code and Chapter 5 of the FIA Judicial and Disciplinary Rules, within the applicable time limits.
+
+Decisions of the Stewards are taken independently of the FIA and are based solely on the relevant regulations, guidelines and evidence presented.
+
+Gerd Ennser Matthew Selley
+
+Alfonso Orihuela Pedro Lamy
+
+Loïc Bacquelaine
+
+The Stewards
