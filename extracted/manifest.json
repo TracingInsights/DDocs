@@ -95429,6 +95429,16 @@
     "success": true,
     "tables_extracted": 3
   },
+  "documents/2026/belgian-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-07-17T10:46:37Z",
+    "images_extracted": 9,
+    "pages": 21,
+    "source_hash": "sha256:e3edc39edb92db8b85e8b9216a75979b0738957acd009d0ed0ab4fb87ecd7264",
+    "success": true,
+    "tables_extracted": 9
+  },
   "documents/2026/belgian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -95459,6 +95469,26 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/belgian-grand-prix/entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-07-17T10:46:38Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:32982dad5c8fd525144e3cd41c57e402ce0e42ce774422c0f1c8109673f6e369",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/belgian-grand-prix/infringement-car-31-media-commitment.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-17T10:46:38Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:30021dc989e5190a3457acfc4bcdf2ebb32d9b73bb3002b68ad3750204eb5658",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/belgian-grand-prix/post-race-checks-on-car-numbers-63-and-06-2026-british-gp.pdf": {
     "doc_type": "post-race-checks",
     "error": null,
@@ -95479,6 +95509,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/belgian-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-07-17T10:46:38Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:3e028c70c1c7ddff8809533207a07144efba068f058839818805e46c8fa27d30",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/belgian-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -95486,6 +95526,16 @@
     "images_extracted": 10,
     "pages": 8,
     "source_hash": "sha256:7721c0b56b32f56df200f15126634eb9f194602b4890d1c6379426972c1344d3",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/belgian-grand-prix/self-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-07-17T10:46:38Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:85e77f5ffc8fff1975a9f3f6c9c9d2c5f50bb07a96bc4126bfe892cd861be336",
     "success": true,
     "tables_extracted": 0
   },
