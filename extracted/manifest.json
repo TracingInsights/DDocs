@@ -95469,6 +95469,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/belgian-grand-prix/decision-car-55-alleged-failure-to-slow-for-double-yellow-flags.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-07-18T13:11:12Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:24d95a682250053912755230e435a7fe8003080fcdd029efc98c95b95fb5c3eb",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/belgian-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -95499,6 +95509,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/belgian-grand-prix/free-practice-3-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-07-18T13:11:12Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:56c296271080a666fbda0b1ac1befc25185bfb6302aa1f6dfc9cc28f6aa97064",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/belgian-grand-prix/infringement-car-1-change-to-pu-element.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -95506,6 +95526,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:6df71c965e58a7c4f4ba82624c5b8dea58492f8221c563be49fd22450df59b2f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/belgian-grand-prix/infringement-car-14-change-to-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-18T13:11:12Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:7a0ce715e151184a42e34d659fa66e513fd637d58356558a07a4a3c838f45ca8",
     "success": true,
     "tables_extracted": 0
   },
@@ -95609,13 +95639,33 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/belgian-grand-prix/infringement-free-practice-3-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-18T13:11:12Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:3170e769e2f8a0ce0500eb98bf1ed437d4e960affa023f77f66d7848a2eaaf5a",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/belgian-grand-prix/infringement-free-practice-3-double-yellow-flags-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-18T13:11:12Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:c11332362ba885e55c9a16d08c9037db21aefad99a55b3d1aff1cdbb473e2c85",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/belgian-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-07-17T13:25:31Z",
+    "extracted_at": "2026-07-18T13:11:13Z",
     "images_extracted": 0,
-    "pages": 4,
-    "source_hash": "sha256:281d9fb6e06ac4b4a70e712eda34377e14562e953f34e9b491896f12c78e9e0f",
+    "pages": 2,
+    "source_hash": "sha256:06f975d158679883c3420cfdfe6f4489fe0edbbc1f44b6fa7014c07d73e43246",
     "success": true,
     "tables_extracted": 0
   },
@@ -95709,6 +95759,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/belgian-grand-prix/summons-car-3-car-55-alleged-failure-to-slow-for-double-yellow-flags.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-18T13:11:13Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:94ab96c75f84581dec1cd8d0d5ec0391933f00ba590c289e390cc4c67b5bdeb3",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/belgian-grand-prix/summons-car-31-late-attendance-of-the-thursday-press-conference.pdf": {
     "doc_type": "summons",
     "error": null,
@@ -95726,6 +95786,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:50e6cd1397547ebb6a8ec624e1abd4298d297e77d7f0cb852096325cfe884491",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/belgian-grand-prix/summons-car-55-alleged-failure-to-slow-for-double-yellow-flags.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-18T13:11:13Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:2edcf1f627159a4a17a71b3e33df638ba9ab123ca9954cb9e51db72abaf9f39c",
     "success": true,
     "tables_extracted": 0
   },
