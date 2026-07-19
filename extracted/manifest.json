@@ -95619,6 +95619,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/belgian-grand-prix/infringement-car-55-change-to-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-19T10:27:05Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:36736cb81cd273d66c3f6e7b708616d066493ddc843d8f1d4a22c8946a345cbe",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/belgian-grand-prix/infringement-car-55-crossing-the-white-line-at-pit-entry.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -95702,10 +95712,10 @@
   "documents/2026/belgian-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-07-18T13:11:13Z",
+    "extracted_at": "2026-07-19T10:27:05Z",
     "images_extracted": 0,
     "pages": 2,
-    "source_hash": "sha256:06f975d158679883c3420cfdfe6f4489fe0edbbc1f44b6fa7014c07d73e43246",
+    "source_hash": "sha256:7d4708982d20db1ff1912f2df2f14eddea245d0505e36988bbac116dbc453c5c",
     "success": true,
     "tables_extracted": 0
   },
@@ -95749,6 +95759,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/belgian-grand-prix/post-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-07-19T10:27:05Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:cec45d0ae348dd5d7ea7bd44a335d6a3ec58f8d0bdd708622b5c85c2bfc2a689",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/belgian-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -95758,6 +95778,16 @@
     "source_hash": "sha256:8c1954b981e2d2e3c139682854d8a3eaac8af599799c1fc9ba4ba4f332800b2c",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/belgian-grand-prix/pre-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-07-19T10:27:06Z",
+    "images_extracted": 1,
+    "pages": 3,
+    "source_hash": "sha256:1185e8ce0da01c31d0607b45787f011888e9effdb2845f9ddeeae538af230618",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/belgian-grand-prix/provisional-qualifying-classification.pdf": {
     "doc_type": "classification",
