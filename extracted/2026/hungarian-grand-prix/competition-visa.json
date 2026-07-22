@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-07-22",
+  "doc_number": "1",
+  "doc_type": "competition-visa",
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-07-22T11:10:28Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 10,
+  "source_hash": "sha256:c2c1d00984d0f5129e818614cdd336ff4050e9af57199acca3635b8e388f3bdd",
+  "source_pdf": "documents/2026/hungarian-grand-prix/competition-visa.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        568.33
+      ],
+      "columns": 5,
+      "page": 6,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        768.17
+      ],
+      "columns": 5,
+      "page": 7,
+      "rows": 32
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        674.04
+      ],
+      "columns": 5,
+      "page": 9,
+      "rows": 27
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        598.74
+      ],
+      "columns": 5,
+      "page": 10,
+      "rows": 23
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "11:45",
+  "title": "Competition Visa",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
