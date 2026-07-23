@@ -97849,6 +97849,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/hungarian-grand-prix/car-display-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-07-23T22:04:07Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:127c009007e6b6b4af93dba8928c833fb5d83d400dd58ab35f133a9b748b9405",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-07-23T22:04:18Z",
+    "images_extracted": 4,
+    "pages": 5,
+    "source_hash": "sha256:9e0d7e4c730b3572d36f2b7f5552fa9607ba808cfc4b9dca2f4a2523405b8a63",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/hungarian-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -97878,6 +97898,16 @@
     "source_hash": "sha256:e820748c1179ee3317932e31228821b81455537e8b289434815f331a9bc6573a",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/hungarian-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-07-23T22:04:27Z",
+    "images_extracted": 10,
+    "pages": 8,
+    "source_hash": "sha256:6a4a63d76782f47616367d1c6e0f4135b5c3eead158bc93eb2935bd4ab5818ac",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/miami-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
