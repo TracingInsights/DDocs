@@ -97859,6 +97859,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/hungarian-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-07-24T11:03:25Z",
+    "images_extracted": 10,
+    "pages": 23,
+    "source_hash": "sha256:59d9c9d893c2f83c50e65abe2be06cfaad56552c5cdecbbca7e0f3b7e4196ace",
+    "success": true,
+    "tables_extracted": 11
+  },
   "documents/2026/hungarian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -97889,6 +97899,26 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/hungarian-grand-prix/curfew.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-07-24T11:03:26Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:a0c536e0399303154f00d93c54a42d5827ac187f6653d9ae360cd5c2f39bff14",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-07-24T11:03:26Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:9b2258e17e28b648fef2feac946a40fa822c9f08828b62df2273911e8364d0bc",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/hungarian-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -97899,6 +97929,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/hungarian-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-07-24T11:03:26Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:7864a9c5b44dfc865c44e85c74806c5a9e4a8e50f4f6ab2922b884772971341e",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/hungarian-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -97906,6 +97946,16 @@
     "images_extracted": 10,
     "pages": 8,
     "source_hash": "sha256:6a4a63d76782f47616367d1c6e0f4135b5c3eead158bc93eb2935bd4ab5818ac",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/self-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-07-24T11:03:26Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:355898e85f36c1ed4616647e2e1a45aec3eb604de4dbf81d6bc48636a5768b58",
     "success": true,
     "tables_extracted": 0
   },
