@@ -97909,6 +97909,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/hungarian-grand-prix/decision-car-3-alleged-erratic-driving-in-turn-12.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:42Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1000758daf01f73e303f384289f4dc34eb69037e81088dca8b6811699baf6def",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/decision-car-55-alleged-erratic-driving-in-turn-9.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:42Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6d49795b76b584433f92bb40754372da198d51967551b79881faf67ffc09c6f5",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/hungarian-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -97916,6 +97936,76 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:9b2258e17e28b648fef2feac946a40fa822c9f08828b62df2273911e8364d0bc",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:42Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:2ea1dbdbb928a097dff274d0482e810623603bb348cd1f2218ffd9db81d9e32f",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/hungarian-grand-prix/free-practice-2-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:42Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:ca14619a6acc8821937ad4025c6685a06a3450f7920eb6f3c1e550ee214ff4c8",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/hungarian-grand-prix/infringement-car-55-erratic-driving-in-turn-12.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:43Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e560279f47097687d4b5dac74c08f0194c2e327928cff3dcc6f0768ecf6ddca5",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/infringement-car-6-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:43Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:2f6331658f39057c1350a5a65a8f8e0c885e03a6a97402a06d33edc58f0ce29f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:43Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:3f04ce91c15b6cdca4beb495c2bc0b4b182dc06b7cd93388f0821c6a493a2acf",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/hungarian-grand-prix/infringement-free-practice-2-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:43Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:d0e95ea3d1e2f600af4d5319d6b759a04b5a10b40af6518245dd52ef4831f912",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "documents/2026/hungarian-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:43Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:7f5836d3c96eda412444e24255b3932190245174775bebef3e59267c373e5de3",
     "success": true,
     "tables_extracted": 0
   },
@@ -97939,6 +98029,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/hungarian-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:44Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:b7e15d476fe72835159a0db707eb31053e16e635612c314ed5467aa7f6035ce1",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/hungarian-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -97956,6 +98056,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:355898e85f36c1ed4616647e2e1a45aec3eb604de4dbf81d6bc48636a5768b58",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/summons-car-3-alleged-erratic-driving-in-turn-12.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:44Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:fbba532f13e93a7102985e163b277f06c3ace53bd343046ad0067fad54dd66d9",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/summons-car-55-alleged-erratic-driving-in-turn-12.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:44Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:afd79a5bffb3258c9dfa27d3f7e4720d232e035072a19b06abc6fd0f1aa6bb90",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/summons-car-55-alleged-erratic-driving-in-turn-9.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-24T16:41:44Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:003447ee78d8d3b380e2b85e93553afeed268778ec99c47eeb8dedb5784dbf8b",
     "success": true,
     "tables_extracted": 0
   },
