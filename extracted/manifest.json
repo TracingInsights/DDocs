@@ -98022,10 +98022,10 @@
   "documents/2026/hungarian-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-07-24T16:41:43Z",
+    "extracted_at": "2026-07-25T16:04:14Z",
     "images_extracted": 0,
     "pages": 2,
-    "source_hash": "sha256:7f5836d3c96eda412444e24255b3932190245174775bebef3e59267c373e5de3",
+    "source_hash": "sha256:b2cfcde9f1587b0f24e981d37cdf59907444de1f06e8f9ef0b8585ea5b457514",
     "success": true,
     "tables_extracted": 0
   },
@@ -98058,6 +98058,16 @@
     "source_hash": "sha256:e820748c1179ee3317932e31228821b81455537e8b289434815f331a9bc6573a",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/hungarian-grand-prix/provisional-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-07-25T16:04:15Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6be646782ddee6965eb6e746cf2ec18c4ea1d04e155318452ad1a6fb9c13fd0e",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/hungarian-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
@@ -98099,6 +98109,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/hungarian-grand-prix/summons-car-12-alleged-failure-to-follow-race-directors-instructions-sc2-sc1-time.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-25T16:04:15Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:0f68d1cbd051fe435970439d44aba9080cfcea143ae710779d56a33a92f47fb3",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/summons-car-12-alleged-yellow-flag-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-25T16:04:15Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:af389cde60592470af2b54667591910979ef6607b01616bed10003f80e2d1d96",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/hungarian-grand-prix/summons-car-3-alleged-erratic-driving-in-turn-12.pdf": {
     "doc_type": "summons",
     "error": null,
@@ -98106,6 +98136,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:fbba532f13e93a7102985e163b277f06c3ace53bd343046ad0067fad54dd66d9",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/summons-car-44-alleged-impeding-of-car-81.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-25T16:04:15Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:8072b7ee5fda76b928a91c94e98c5d5aae164e7819475334f0daea4854410c33",
     "success": true,
     "tables_extracted": 0
   },
@@ -98126,6 +98166,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:003447ee78d8d3b380e2b85e93553afeed268778ec99c47eeb8dedb5784dbf8b",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/summons-car-81-alleged-impeding-by-car-44.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-07-25T16:04:15Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ba43088da821bc85eec5da5e5f1182a17c316d29cb611740cb40f440103e1cb0",
     "success": true,
     "tables_extracted": 0
   },

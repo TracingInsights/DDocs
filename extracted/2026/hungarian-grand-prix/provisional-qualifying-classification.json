@@ -1,0 +1,54 @@
+{
+  "category": null,
+  "date": "2026-07-25",
+  "doc_number": "31",
+  "doc_type": "classification",
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-07-25T16:04:15Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:6be646782ddee6965eb6e746cf2ec18c4ea1d04e155318452ad1a6fb9c13fd0e",
+  "source_pdf": "documents/2026/hungarian-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.97,
+        454.46
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        24.01,
+        463.62,
+        570.97,
+        487.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        496.94,
+        570.97,
+        520.99
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:21",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
