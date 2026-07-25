@@ -1,0 +1,53 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-07-25",
+  "decision": "No further action.",
+  "doc_number": "44",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-07-25T19:05:26Z",
+  "fact": "The F1 car below exceeded the 1:32.0 time limit between the Safety Car lines. - No. Car Driver Competitor Time of Day Lap Time 1 63 George Russell Mercedes-AMG PETRONAS F1 Team 16:10:41 L5 (Q1)",
+  "from": "The Stewards Document 44",
+  "images_extracted": 0,
+  "incident_time": "19:48 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged breach of Article B1.8.5 of the FIA F1 Regulations and Article 12.2.1.i of the FIA International Sporting Code (non-compliance with the Race Director's Competition Notes, item 1, document 4).",
+  "pages": 2,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data and on-board cameras. The driver concerned stayed at or above speeds necessary to stay below 1:32.0 around the vast majority of the circuit. However, the Stewards determined that the driver took appropriate actions to not impede other drivers and slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that the driver concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 12.2.1.i",
+    "Article 15",
+    "Article B1.8.5",
+    "Chapter 5"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:70740fb797834a63e38eba4b60eddc5af67c6854d0a23c2f2485eff6e3f7a587",
+  "source_pdf": "documents/2026/hungarian-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 44 To All Officials",
+    "All Teams Date 25 July 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.46,
+        335.52,
+        552.84,
+        375.24
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "19:48",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2026
+}

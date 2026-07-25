@@ -97929,6 +97929,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/hungarian-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:26Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:70740fb797834a63e38eba4b60eddc5af67c6854d0a23c2f2485eff6e3f7a587",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/hungarian-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -97938,6 +97948,16 @@
     "source_hash": "sha256:9b2258e17e28b648fef2feac946a40fa822c9f08828b62df2273911e8364d0bc",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:b238634b1e9abfb46852e1623ce61f8e7205d8046fefcc104cac39c2b53fbd9c",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/hungarian-grand-prix/free-practice-1-classification.pdf": {
     "doc_type": "classification",
@@ -97968,6 +97988,36 @@
     "source_hash": "sha256:c099ef29d50a99754bab65c6770d81381f2fbb880d1955c726ca9dc7059adf54",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/hungarian-grand-prix/infringement-car-12-alleged-failure-to-follow-race-directors-instructions-sc2-sc1-time.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:4989a292e2453f944b3fb427b292b736db608790565ad15a4b190e9e9aa07f5e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/infringement-car-12-yellow-flag-infringement.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:3c422de7a0525e1e122761b25d99b4b3d0364cf9bef228cdd71220b6a9342bbb",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/infringement-car-44-unnecessarily-impeding-of-car-81.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:3f59f18f5a604c9d5474b97766a4323eb1752ee9474189b4e0d5ed6e605cca7f",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/hungarian-grand-prix/infringement-car-55-erratic-driving-in-turn-12.pdf": {
     "doc_type": "infringement",
@@ -98019,6 +98069,26 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/hungarian-grand-prix/infringement-qualifying-deleted-lap-times-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a388f9663140fdda0250c5bdfc009ab7307dd98e772a8422da29ad817ba98603",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/hungarian-grand-prix/infringement-qualifying-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:45d417f65952d7cce651f223596eb0f85446125b8f8bd7e56a069205a2375883",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/hungarian-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -98036,6 +98106,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:a57579fc9e6403c20cde011f2c18c8b8bf141ef7628c069e7453934953c7c374",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/p3-and-qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:28Z",
+    "images_extracted": 0,
+    "pages": 6,
+    "source_hash": "sha256:96d02290f3817ff1d8a8893624e59cc707ca2f4bf3d96cae864892b9b86a6adf",
     "success": true,
     "tables_extracted": 0
   },
@@ -98069,6 +98149,16 @@
     "success": true,
     "tables_extracted": 3
   },
+  "documents/2026/hungarian-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:28Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:690695f7f5cadeb04e20fc1866cf738f7e1d3112c80f67aed1df405160d6fb7e",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/hungarian-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -98086,6 +98176,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:b7e15d476fe72835159a0db707eb31053e16e635612c314ed5467aa7f6035ce1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/race-directors-competition-notes-v2.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-07-25T19:05:29Z",
+    "images_extracted": 10,
+    "pages": 8,
+    "source_hash": "sha256:161cfabde54cbe32c3b532f2ec86a814d92b877311e2f52732eeec6ef664bfed",
     "success": true,
     "tables_extracted": 0
   },
