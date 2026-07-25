@@ -97902,10 +97902,10 @@
   "documents/2026/hungarian-grand-prix/curfew.pdf": {
     "doc_type": "curfew",
     "error": null,
-    "extracted_at": "2026-07-24T11:03:26Z",
+    "extracted_at": "2026-07-25T10:26:51Z",
     "images_extracted": 0,
     "pages": 1,
-    "source_hash": "sha256:a0c536e0399303154f00d93c54a42d5827ac187f6653d9ae360cd5c2f39bff14",
+    "source_hash": "sha256:4409193c45780ff93fed246e252359ba67df61e4fc2b122be8b11bf2894a3f5e",
     "success": true,
     "tables_extracted": 0
   },
@@ -98016,6 +98016,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:a57579fc9e6403c20cde011f2c18c8b8bf141ef7628c069e7453934953c7c374",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/hungarian-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-07-25T10:26:52Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:92ce436c0cc06d384084e06e90ce3e08b774aad2d1a0d4e0d5b71f1b16cc6371",
     "success": true,
     "tables_extracted": 0
   },
