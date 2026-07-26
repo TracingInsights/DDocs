@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-07-26",
+  "doc_number": "62",
+  "doc_type": "classification",
+  "event_name": "Hungarian Grand Prix",
+  "event_slug": "hungarian-grand-prix",
+  "extracted_at": "2026-07-26T21:59:13Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:32afe1a052582b6db3760f7daf0830556a5bc456d239939ca7a20e46f2d0b243",
+  "source_pdf": "documents/2026/hungarian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.47,
+        571.98,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.03,
+        428.25,
+        571.98,
+        476.71
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:25",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
