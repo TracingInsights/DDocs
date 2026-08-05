@@ -1,0 +1,105 @@
+{
+  "category": "general",
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": null,
+  "event_slug": null,
+  "extracted_at": "2026-08-05T16:43:23Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        507.12,
+        21.36,
+        568.32,
+        50.88
+      ],
+      "deduplicated": true,
+      "display_height": 29.52,
+      "display_width": 61.2,
+      "height": 123,
+      "page": 1,
+      "path": "images/fia-2026-f1-regulations-section-c-technical-iss-20-2026-08-05_p1_img1.png",
+      "sha256": "bcf2c11a35ce44bc6b5f25ef5f250ed84ebc50f456b6de22f4d13eee93085011",
+      "width": 255
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 32,
+  "source_hash": "sha256:c53c9f07e6313d0c0a0263204d745ba1f99e8c496286924a2166bc66dac38845",
+  "source_pdf": "regs/2027/general/fia-2026-f1-regulations-section-f-operational-iss-10-2026-08-05.pdf",
+  "tables": [
+    {
+      "bbox": [
+        92.85,
+        697.81,
+        259.97,
+        755.66
+      ],
+      "columns": 3,
+      "page": 16,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        291.79,
+        697.81,
+        518.21,
+        755.66
+      ],
+      "columns": 3,
+      "page": 16,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        92.76,
+        72.18,
+        260.73,
+        145.85
+      ],
+      "columns": 3,
+      "page": 17,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        92.76,
+        170.28,
+        509.37,
+        289.89
+      ],
+      "columns": 12,
+      "page": 17,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        98.91,
+        343.09,
+        551.14,
+        402.3
+      ],
+      "columns": 10,
+      "page": 25,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        98.91,
+        470.08,
+        551.14,
+        545.24
+      ],
+      "columns": 7,
+      "page": 25,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 6,
+  "time": null,
+  "title": "Fia 2026 F1 Regulations Section F Operational Iss 10 2026 08 05",
+  "to": "SECTION F FOR SUBSEQUENT YEARS 32",
+  "year": 2027
+}
