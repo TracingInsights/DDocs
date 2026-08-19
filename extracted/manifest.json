@@ -97849,6 +97849,36 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/dutch-grand-prix/competition-notes-pirelli-preview.pdf": {
+    "doc_type": "pirelli-preview",
+    "error": null,
+    "extracted_at": "2026-08-19T21:25:47Z",
+    "images_extracted": 1,
+    "pages": 2,
+    "source_hash": "sha256:d9637fa1aed3502726eca83ef3a1a9fbabd82351fe59f8d157b0155072f6b9bb",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "documents/2026/dutch-grand-prix/competition-visa.pdf": {
+    "doc_type": "competition-visa",
+    "error": null,
+    "extracted_at": "2026-08-19T21:25:48Z",
+    "images_extracted": 0,
+    "pages": 10,
+    "source_hash": "sha256:07534e72ee45fc24de18d0794ad7689b6e8d6a0917a4281a850437e407c053b9",
+    "success": true,
+    "tables_extracted": 5
+  },
+  "documents/2026/dutch-grand-prix/doc-3-2026-dutch-grand-prix-power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-08-19T21:25:48Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:2a82af7adee2e7f78c8ad8f506b765470b6f9e35703860156eb68c2ba33d6c20",
+    "success": true,
+    "tables_extracted": 6
+  },
   "documents/2026/hungarian-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
     "error": null,

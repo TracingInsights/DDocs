@@ -1,0 +1,63 @@
+{
+  "category": null,
+  "date": "2026-08-19",
+  "doc_number": "2",
+  "doc_type": "pirelli-preview",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-08-19T21:25:47Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "885b31ef43353a4951d05c97bb0c41b97da79a20c55d637964de6fa0131ccc90",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:d9637fa1aed3502726eca83ef3a1a9fbabd82351fe59f8d157b0155072f6b9bb",
+  "source_pdf": "documents/2026/dutch-grand-prix/competition-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        110.49,
+        241.76,
+        521.88,
+        309.22
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        130.78,
+        426.57,
+        321.79,
+        520.7
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:55",
+  "title": "Competition Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
