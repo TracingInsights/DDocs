@@ -97849,6 +97849,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/dutch-grand-prix/car-display-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-08-20T18:36:54Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:88aedbfd1f26949bbd101bb0222045f02e1d8c231ecb1db2dd632d542f8727bb",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-08-20T18:37:02Z",
+    "images_extracted": 3,
+    "pages": 4,
+    "source_hash": "sha256:c5dc6a793675016747ae9d50ad6c10dddb557e0adfbd22d1a6d0948fb34dcfeb",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/dutch-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -97878,6 +97898,16 @@
     "source_hash": "sha256:2a82af7adee2e7f78c8ad8f506b765470b6f9e35703860156eb68c2ba33d6c20",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/dutch-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-08-20T18:37:09Z",
+    "images_extracted": 10,
+    "pages": 9,
+    "source_hash": "sha256:58cba0712a1c1f83261338af32c87183fd79151932a81f1650566a4bcfa7db48",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/hungarian-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
