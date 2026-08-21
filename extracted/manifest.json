@@ -97859,6 +97859,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/dutch-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-08-21T15:34:42Z",
+    "images_extracted": 6,
+    "pages": 19,
+    "source_hash": "sha256:9c24cee9ec4775e7dd507654b13692500ef9e41e8b1625982a5ab8e2a92100a4",
+    "success": true,
+    "tables_extracted": 7
+  },
   "documents/2026/dutch-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -97909,6 +97919,56 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/dutch-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-08-21T15:34:44Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a9677f830e3188a31c6dc699283b5ef41a869dcf221cc177a029e8efbcbfb904",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/dutch-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-08-21T15:34:45Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:59ffd1edb526bdf271b67a895fa05226e7d5f6d06ebe92b50e5a34e4598fe5e6",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/dutch-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-08-21T15:34:45Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:faf3369a6baf0a5ad122175c6f0ee0dcea1e25d4d7af18233b03ab8d6de83bfe",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/dutch-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-08-21T15:34:45Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:ce7135a04bc685bc9963154da54d27d8269fc2f3cc1090d5bdbe719f571552d2",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/post-sprint-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-08-21T15:34:45Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:44f8148fc54f809306d12c7415bfd573bffe810613bbd6f1f50357e3e96c134b",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/dutch-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -97916,6 +97976,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:1c7e66f5493d8ffe2213ad25c04176fb9265bd2d52a3bcd3b20853dd6f4586e1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-08-21T15:34:46Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:907c3a6091eb0f6eea8dce0c829689c72f436096ec723f5e39178a617d06c602",
     "success": true,
     "tables_extracted": 0
   },

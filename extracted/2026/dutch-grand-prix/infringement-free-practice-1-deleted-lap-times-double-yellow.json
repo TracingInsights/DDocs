@@ -1,0 +1,51 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-08-21",
+  "decision": "Deletion of the lap times shown.",
+  "doc_number": "13",
+  "doc_type": "infringement",
+  "driver": null,
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-08-21T15:34:45Z",
+  "fact": "The F1 cars passed through a double waved yellow flag marshalling sector. No. Turn Car Driver",
+  "from": "The Stewards Document 13",
+  "images_extracted": 0,
+  "incident_time": "13:47 The lap times set by the F1 cars that went through the double waved yellow flag zone will be deleted as detailed in the Race Director's Competition Notes (item 9, document 5): Session Free Practice 1",
+  "offence": null,
+  "pages": 2,
+  "penalty": "Deletion of the lap times shown.",
+  "penalty_points": null,
+  "reason": null,
+  "rules_referenced": [
+    "Article 15",
+    "Chapter 5"
+  ],
+  "session": null,
+  "source_hash": "sha256:59ffd1edb526bdf271b67a895fa05226e7d5f6d06ebe92b50e5a34e4598fe5e6",
+  "source_pdf": "documents/2026/dutch-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow.pdf",
+  "stewards": [
+    "Document 13 To All Officials",
+    "All Teams Date 21 August 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.4,
+        334.98,
+        552.78,
+        434.34
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 5
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap Time 1 13 14 Fernando Alonso Aston Martin Aramco F1 Team 12:47:45 1:23.094 2 13 87 Oliver Bearman TGR Haas F1 Team 12:47:50 2:18.951 3 13 12 Kimi Antonelli Mercedes-AMG PETRONAS F1 Team 12:47:52 PIT 4 13 1 Lando Norris McLaren Mastercard F1 Team 13:14:14 1:16.212",
+  "time": "13:50",
+  "title": "Infringement Free Practice 1 Deleted Lap Times Double Yellow",
+  "to": "All Officials, All Teams",
+  "year": 2026
+}
