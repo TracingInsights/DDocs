@@ -1,0 +1,54 @@
+{
+  "category": null,
+  "date": "2026-08-21",
+  "doc_number": "18",
+  "doc_type": "classification",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-08-21T18:34:33Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:e9ea43bf3cf2b2bfa53a3b36772cbe1b258ff67257d1d9c8fb7b749314a2ac7a",
+  "source_pdf": "documents/2026/dutch-grand-prix/provisional-sprint-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.01,
+        187.18,
+        570.97,
+        454.43
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        24.01,
+        463.62,
+        570.97,
+        487.67
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.01,
+        496.94,
+        570.97,
+        520.99
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:40",
+  "title": "Provisional Sprint Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

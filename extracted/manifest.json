@@ -97899,6 +97899,26 @@
     "success": true,
     "tables_extracted": 5
   },
+  "documents/2026/dutch-grand-prix/decision-sprint-qualifying-deleted-lap-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-08-21T18:34:31Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:10eb86064a2d20ac7f53e275fe1ce5404a48de97d134ea4d6e704c6fcd3356ad",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/dutch-grand-prix/decision-sprint-qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-08-21T18:34:31Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:80a7623ed44c75e67a5ef864bd0b2f8da209f74c775963297df537f0b6cab364",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/dutch-grand-prix/doc-3-2026-dutch-grand-prix-power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -97909,6 +97929,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/dutch-grand-prix/drivers-meeting.pdf": {
+    "doc_type": "drivers-meeting",
+    "error": null,
+    "extracted_at": "2026-08-21T18:34:32Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:2f923a6a235526c9e896d4cbc55565483e76ebe60879f275822601b5696e68ba",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/dutch-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -97916,6 +97946,26 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:60c1a50e4a0a181ccd8d168797a9af4896725660676dd4228381ed7ce0d08f29",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/final-sprint-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-08-21T18:34:32Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:12790532028d76b5980022117e03c734fd3936bb3bcbf702bb636e1f364e71ae",
+    "success": true,
+    "tables_extracted": 3
+  },
+  "documents/2026/dutch-grand-prix/fp1-and-sprint-qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-08-21T18:34:32Z",
+    "images_extracted": 0,
+    "pages": 6,
+    "source_hash": "sha256:415dfc6d7b97dd8145516402de5c227a7008a171c3e7f974bf9f60ac1d2350dd",
     "success": true,
     "tables_extracted": 0
   },
@@ -97928,6 +97978,16 @@
     "source_hash": "sha256:a9677f830e3188a31c6dc699283b5ef41a869dcf221cc177a029e8efbcbfb904",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/dutch-grand-prix/infringement-car-55-driving-unnecessarily-slowly-during-sprint-qualifying.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-08-21T18:34:32Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a4fadaafa4fb7ca3dc2b23337b6184759007003911f672e051b2104343c284a4",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/dutch-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow.pdf": {
     "doc_type": "infringement",
@@ -97969,6 +98029,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/dutch-grand-prix/provisional-sprint-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-08-21T18:34:33Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e9ea43bf3cf2b2bfa53a3b36772cbe1b258ff67257d1d9c8fb7b749314a2ac7a",
+    "success": true,
+    "tables_extracted": 3
+  },
+  "documents/2026/dutch-grand-prix/provisional-sprint-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-08-21T18:34:33Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6379835b4da65219a892223abf9bade724eef1c3de5bc0f709fbd85dd9f75582",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/dutch-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -98006,6 +98086,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:10ed647c98046c2198075351da9533c3a86036cfb8a97c5d640491aa0590f8a4",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/summons-car-55-alleged-driving-unnecessarily-slowly-during-sprint-qualifying.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-08-21T18:34:33Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:dd64784bbd2a361920feaea844902079a9a941940ea8042b88d889cc159bb676",
     "success": true,
     "tables_extracted": 0
   },

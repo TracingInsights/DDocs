@@ -1,0 +1,59 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-08-21",
+  "decision": "No further action.",
+  "doc_number": "20",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-08-21T18:34:31Z",
+  "fact": "The F1 cars below exceeded the 1:28.00 time limit between the Safety Car lines. - No. Car Driver",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "1 31 Esteban Ocon TGR Haas F1 Team 16:33:34 L2 (SQ1) 2 30 Liam Lawson Oracle Red Bull Racing 16:37:47 L4 (SQ1) 3 41 Arvid Lindblad Visa Cash App Racing Bulls F1 Team 16:38:29 L5 (SQ1) 4 18 Lance Stroll Aston Martin Aramco F1 Team 16:39:42 L4 (SQ1) 5 5 Gabriel Bortoleto Audi Revolut F1 Team 16:39:44 L4 (SQ1) 6 3 Max Verstappen Oracle Red Bull Racing 16:40:53 L6 (SQ1) 7 30 Liam Lawson Oracle Red Bull Racing 16:40:56 L6 (SQ1) 8 63 George Russell Mercedes-AMG PETRONAS F1 Team 16:41:01 L8 (SQ1) 9 12 Kimi Antonelli Mercedes-AMG PETRONAS F1 Team 16:41:02 L7 (SQ1) 10 55 Carlos Sainz Atlassian Williams F1 Team 16:41:06 L6 (SQ1) 11 10 Pierre Gasly BWT Alpine F1 Team 16:41:10 L5 (SQ1) 12 77 Valtteri Bottas Cadillac Formula 1 Team 16:41:14 L6 (SQ1) 13 18 Lance Stroll Aston Martin Aramco F1 Team 16:42:49 L6 (SQ1) 14 30 Liam Lawson Oracle Red Bull Racing 16:57:23 L12 (SQ2)",
+  "offence": "Alleged breach of Article B1.8.5 of the FIA F1 Regulations and Article 12.2.1.i of the FIA International Sporting Code (non-compliance with the Race Director's Competition Notes, item 1, document 5).",
+  "pages": 3,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on-board cameras and CCTV cameras. All drivers concerned stayed at or above speeds necessary to stay below 1:28.0 around the vast majority of the circuit. However, in all cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and in all cases, they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that all drivers they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 12.2.1.i",
+    "Article 15",
+    "Article B1.8.5",
+    "Chapter 5"
+  ],
+  "session": "Sprint Qualifying",
+  "source_hash": "sha256:80a7623ed44c75e67a5ef864bd0b2f8da209f74c775963297df537f0b6cab364",
+  "source_pdf": "documents/2026/dutch-grand-prix/decision-sprint-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 20 To All Officials",
+    "All Teams Date 21 August 2026 Time 17:50 The Stewards",
+    "having received a report from the Race Director",
+    "have considered the following matter",
+    "item 1",
+    "timing data",
+    "on-board cameras",
+    "and in all cases"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.52,
+        335.52,
+        552.96,
+        633.36
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 15
+    }
+  ],
+  "tables_extracted": 1,
+  "team": "Time of Day Lap",
+  "time": "17:50",
+  "title": "Decision Sprint Qualifying Sc2 Sc1 Times",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
