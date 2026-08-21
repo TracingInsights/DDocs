@@ -97899,6 +97899,26 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/dutch-grand-prix/entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-08-21T06:43:26Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:60c1a50e4a0a181ccd8d168797a9af4896725660676dd4228381ed7ce0d08f29",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-08-21T06:43:26Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1c7e66f5493d8ffe2213ad25c04176fb9265bd2d52a3bcd3b20853dd6f4586e1",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/dutch-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -97906,6 +97926,16 @@
     "images_extracted": 10,
     "pages": 9,
     "source_hash": "sha256:58cba0712a1c1f83261338af32c87183fd79151932a81f1650566a4bcfa7db48",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/self-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-08-21T06:43:26Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:10ed647c98046c2198075351da9533c3a86036cfb8a97c5d640491aa0590f8a4",
     "success": true,
     "tables_extracted": 0
   },
