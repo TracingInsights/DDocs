@@ -97909,6 +97909,16 @@
     "success": true,
     "tables_extracted": 5
   },
+  "documents/2026/dutch-grand-prix/decision-car-10-alleged-unsafe-release.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-08-22T18:28:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8a12f21fbfb3cce714aa87b7f139aaeefa3563b1624c7184a01720285804615a",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/dutch-grand-prix/decision-sprint-qualifying-deleted-lap-times.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -97958,6 +97968,16 @@
     "source_hash": "sha256:60c1a50e4a0a181ccd8d168797a9af4896725660676dd4228381ed7ce0d08f29",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-08-22T18:28:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:4ff8d4717f89aa83fa3a3c01ca545df6e34915079937752d567ce7b5eb528bdd",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/dutch-grand-prix/final-sprint-classification.pdf": {
     "doc_type": "classification",
@@ -98199,6 +98219,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/dutch-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-08-22T18:28:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:7caa22200bd40c55f2b2fe6b20b6d1f350c40710346568733898d7b78196b556",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/dutch-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -98206,6 +98236,36 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:1c7e66f5493d8ffe2213ad25c04176fb9265bd2d52a3bcd3b20853dd6f4586e1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/qualifying-deleted-lap-times.pdf": {
+    "doc_type": "deleted-lap-times",
+    "error": null,
+    "extracted_at": "2026-08-22T18:28:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:34aac65037faf62dd52f3eff92fced45847bbc5024de62a9437c33aacb65e069",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/dutch-grand-prix/qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "sc2-sc1-times",
+    "error": null,
+    "extracted_at": "2026-08-22T18:28:07Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:12b67acb3317a2dafbad5b466be3aae4b33e1e8a79781d0801f6ed3095e3170b",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/dutch-grand-prix/qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-08-22T18:28:07Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:f5b36e0d8673e4c0239772cd768b83f70de621997c04a91d41056fab862a3643",
     "success": true,
     "tables_extracted": 0
   },
