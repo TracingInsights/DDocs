@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-08-22",
+  "doc_number": "45",
+  "doc_type": "championship-points",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-08-22T15:19:42Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:d085452a43d29714d6e886c328115de9c01449738b608a2cf2b817b16cc002a6",
+  "source_pdf": "documents/2026/dutch-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.23,
+        174.27,
+        814.71,
+        450.4
+      ],
+      "columns": 15,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        21.22,
+        174.27,
+        814.74,
+        365.43
+      ],
+      "columns": 14,
+      "page": 3,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        21.12,
+        173.81,
+        815.37,
+        454.1
+      ],
+      "columns": 15,
+      "page": 4,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        20.84,
+        172.01,
+        829.39,
+        257.63
+      ],
+      "columns": 14,
+      "page": 5,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "15:00",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

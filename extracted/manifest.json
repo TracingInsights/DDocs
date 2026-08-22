@@ -97869,6 +97869,16 @@
     "success": true,
     "tables_extracted": 7
   },
+  "documents/2026/dutch-grand-prix/championship-points-after-sprint.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-08-22T15:19:42Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:d085452a43d29714d6e886c328115de9c01449738b608a2cf2b817b16cc002a6",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/dutch-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -97948,6 +97958,16 @@
     "source_hash": "sha256:60c1a50e4a0a181ccd8d168797a9af4896725660676dd4228381ed7ce0d08f29",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/final-sprint-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-08-22T15:19:43Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8e72d267fb09d20e1a1ba82a26e9188068d2a4e5576e4f00fb0f63f3575eae33",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/dutch-grand-prix/final-sprint-qualifying-classification.pdf": {
     "doc_type": "classification",
@@ -98122,10 +98142,10 @@
   "documents/2026/dutch-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-08-21T15:34:45Z",
+    "extracted_at": "2026-08-22T15:19:43Z",
     "images_extracted": 0,
     "pages": 3,
-    "source_hash": "sha256:ce7135a04bc685bc9963154da54d27d8269fc2f3cc1090d5bdbe719f571552d2",
+    "source_hash": "sha256:71341f2f2821c34219937f70adc423dc1dda10decddce1ec6fa0d83218a63f59",
     "success": true,
     "tables_extracted": 0
   },
@@ -98138,6 +98158,16 @@
     "source_hash": "sha256:44f8148fc54f809306d12c7415bfd573bffe810613bbd6f1f50357e3e96c134b",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/provisional-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-08-22T15:19:43Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:74f4569da08112f0292ffc0a4b7c42e50ab2e77a89ed33479b2601c5963eff50",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/dutch-grand-prix/provisional-sprint-classification.pdf": {
     "doc_type": "classification",
@@ -98206,6 +98236,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:10ed647c98046c2198075351da9533c3a86036cfb8a97c5d640491aa0590f8a4",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/sprint-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-08-22T15:19:43Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:9a8d5ca43e8a1251ec55f994ed799446c019b612d43079981294eed5bf736c68",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/summons-car-10-alleged-unsafe-release.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-08-22T15:19:44Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ec4270be41a84375da0133d957f7ae8b23730ed1644a278cae15557ea829b02d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/dutch-grand-prix/summons-car-5-alleged-unsafe-release-by-car-10.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-08-22T15:19:44Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:a517f7a70ff7d1e17f5648d9e7a413a5ae3a1fe4ee8e8f51970c4558b8eb839c",
     "success": true,
     "tables_extracted": 0
   },
