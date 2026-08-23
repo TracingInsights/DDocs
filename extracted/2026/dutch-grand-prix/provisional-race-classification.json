@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-08-23",
+  "doc_number": "64",
+  "doc_type": "classification",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-08-23T18:26:17Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:84079235eeef0abe81ea8f8c6de11a7d78df14a1fb0571ebae9a4421e455caa9",
+  "source_pdf": "documents/2026/dutch-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.04,
+        189.47,
+        571.98,
+        395.94
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.04,
+        403.93,
+        571.98,
+        476.62
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "17:30",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
