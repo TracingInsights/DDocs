@@ -45,6 +45,18 @@ def json_all_db_path() -> Path:
     return DATA_DIR / "json_all.duckdb"
 
 
+def markdown_parquet_path(year: int) -> Path:
+    return DATA_DIR / f"markdown_{year}.parquet"
+
+
+def json_parquet_path(year: int) -> Path:
+    return DATA_DIR / f"json_{year}.parquet"
+
+
+def json_all_parquet_path() -> Path:
+    return DATA_DIR / "json_all.parquet"
+
+
 def manifest_key(year: int, event: str, pdf_stem: str) -> str:
     """Manifest key for a document, e.g. ``documents/2020/belgian-grand-prix/foo.pdf``."""
     return f"documents/{year}/{event}/{pdf_stem}.pdf"

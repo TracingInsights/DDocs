@@ -72,12 +72,13 @@ duckdb/
 ├── schema.py               # shared DDL (CREATE TABLE / CREATE INDEX statements)
 ├── build_markdown.py       # builds/updates markdown_{year}.duckdb (CLI)
 ├── build_json.py           # builds/updates json_{year}.duckdb + json_all.duckdb (CLI)
+├── convert_to_parquet.py   # .duckdb -> .parquet (zstd, verified round-trip)
 ├── verify.py               # QA: row counts vs disk, idempotency, sample queries
 ├── data/
-│   ├── .gitignore          # ignores *.duckdb (binary, regenerable)
-│   ├── markdown_2018.duckdb … markdown_2026.duckdb
-│   ├── json_2018.duckdb … json_2026.duckdb
-│   └── json_all.duckdb
+│   ├── .gitignore          # ignores *.duckdb + *.parquet (binary, regenerable)
+│   ├── markdown_2018.parquet … markdown_2026.parquet
+│   ├── json_2018.parquet … json_2026.parquet
+│   └── json_all.parquet
 └── tests/                  # pytest tests (later milestone)
 ```
 
@@ -286,6 +287,29 @@ Conventions the agent must follow (documented in README):
    extraction and commit/upload the refreshed `.duckdb` files (deliberately deferred: ask
    before adding).
 8. **(Optional) pytest** — `duckdb/tests/` for schema + build logic.
+
+## 9b. Amendment (2026-08-29) — ship parquet, not duckdb
+
+**Change:** the shipped files are now **zstd-compressed parquet**
+(`markdown_{year}.parquet`, `json_{year}.parquet`, `json_all.parquet`), and the
+`.duckdb` files are the builders' writable working format, converted after each
+build by the new `convert_to_parquet.py`.
+
+**Why:** 149 MB of `.duckdb` files (with 3.5 GB of git history bloat) compress
+to ~11 MB of parquet — a ~13x reduction. Parquet is read natively by every
+DuckDB client (bundled extension, WASM included) with the same SQL surface and
+core types; HTTP range requests make remote parquet queries *faster* than the
+equivalent `.duckdb` file. No schema or query changes — the agent cookbook is
+identical.
+
+**Fidelity:** conversion is verified before the source is removed — row count
+plus full-row equality in both directions (all columns, including the `data`
+JSON column and `TIMESTAMPTZ`); a failed conversion aborts and keeps the
+`.duckdb` file. `verify.py` now runs all 68 checks against the parquet files.
+
+**Workflow:** `build_*.py` (writes `.duckdb`, incremental upserts) →
+`convert_to_parquet.py --all` (verified conversion, removes `.duckdb`) →
+`verify.py`. `--keep-duckdb` and `--dry-run` flags are available.
 
 ## 10. Implementation notes (2026-08-29)
 

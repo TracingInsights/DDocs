@@ -17,6 +17,11 @@ Checks (exit code 1 on any failure):
                                         rows as scanning the extracted files
                                         directly (data-driven, no hardcoded facts)
 
+The shipped files are ``.parquet`` (zstd); the ``.duckdb`` files are the
+builders' writable working format and are converted by ``convert_to_parquet.py``.
+DuckDB reads parquet natively with the same SQL surface, so every check below
+runs against the parquet files.
+
 Usage: uv run duckdb/verify.py [--year 2020]
 """
 
@@ -47,7 +52,14 @@ def info(label: str, detail: str = "") -> None:
 
 
 def open_ro(path) -> Any:
-    return duckdb.connect(str(path), read_only=True)
+    """In-memory connection with the parquet file attached as `documents`.
+
+    Parquet files are read via DuckDB's native parquet reader (same SQL
+    surface the WASM build uses); `read_only=True` doesn't apply to them.
+    """
+    con = duckdb.connect()
+    con.execute(f"CREATE VIEW documents AS SELECT * FROM read_parquet('{path}')")
+    return con
 
 
 def disk_content_matches(year: int, manifest: dict, terms: list[str], *, event: str | None = None) -> int:
@@ -107,8 +119,8 @@ def main() -> int:
     manifest = cfg.load_manifest()
 
     for year in years:
-        print(f"\n== markdown_{year}.duckdb ==")
-        md_path = cfg.markdown_db_path(year)
+        print(f"\n== markdown_{year}.parquet ==")
+        md_path = cfg.markdown_parquet_path(year)
         if not md_path.exists():
             check(False, "file exists", str(md_path))
             continue
@@ -183,8 +195,8 @@ def main() -> int:
         )
         con.close()
 
-        print(f"\n== json_{year}.duckdb ==")
-        json_path = cfg.json_db_path(year)
+        print(f"\n== json_{year}.parquet ==")
+        json_path = cfg.json_parquet_path(year)
         if not json_path.exists():
             check(False, "file exists", str(json_path))
             continue
@@ -200,8 +212,8 @@ def main() -> int:
         check(consistent, "duplicate-hash rows have structurally identical data")
         con.close()
 
-    print("\n== json_all.duckdb ==")
-    all_path = cfg.json_all_db_path()
+    print("\n== json_all.parquet ==")
+    all_path = cfg.json_all_parquet_path()
     if not all_path.exists():
         check(False, "file exists", str(all_path))
     else:

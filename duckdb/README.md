@@ -5,14 +5,20 @@ searches with plain SQL (**no joins, no FTS, no vector DB, no RAG infra**).
 
 | File | Contents |
 |---|---|
-| `markdown_YYYY.duckdb` | every `.md` document of that year — full markdown text + metadata on one row |
-| `json_YYYY.duckdb` | the `.json` sidecars of that year — flattened metadata + raw sidecar in `data` |
-| `json_all.duckdb` | combined table of all years (2018–2026); filter with `WHERE year = <n>` |
+| `markdown_YYYY.parquet` | every `.md` document of that year — full markdown text + metadata on one row |
+| `json_YYYY.parquet` | the `.json` sidecars of that year — flattened metadata + raw sidecar in `data` |
+| `json_all.parquet` | combined table of all years (2018–2026); filter with `WHERE year = <n>` |
+
+Files are **zstd-compressed parquet** (the `.duckdb` working files are converted
+after each build — see [Building / refreshing](#building--refreshing)). Parquet
+shares the same SQL surface and core types, so the cookbook below is unchanged;
+DuckDB reads parquet **natively** (parquet is bundled with every DuckDB client,
+including WASM) and columnar scans + HTTP range requests make it *faster* to
+query over the network than the equivalent `.duckdb` file.
 
 All files use **core SQL types only** (`VARCHAR/INTEGER/SMALLINT/DATE/TIMESTAMP/JSON`)
-with B-tree indexes — compatible with DuckDB-WASM over HTTP (the bundled `json`
-extension provides `json_extract_*`; every JSON field is also flattened, so even
-an extension-less WASM build works).
+— compatible with both DuckDB-WASM over HTTP and plain DuckDB. Every JSON field
+is also flattened, so even an extension-less WASM build works.
 
 ## Schema — table `documents` (every file)
 
@@ -32,11 +38,16 @@ an extension-less WASM build works).
 | `data` | JSON | **JSON tables only** — raw sidecar (full fidelity incl. `tables[]` bbox info) |
 | `ingested_at` | TIMESTAMP | when this row version was written |
 
-Indexes (persisted, used automatically by WASM): `event`, `doc_type`, `date`, `source_hash`.
+## Querying the files
 
-## Query cookbook (as an agent, write SQL like this)
+The schema is identical to the `.duckdb` working files, and parquet is read
+natively with the same SQL surface. The WASM-safe form is `read_parquet(...)`;
+simply give it the table alias `documents` and the cookbook below is unchanged:
 
 ```sql
+-- Open the file (WASM-safe): the alias makes it look like the .duckdb tables
+CREATE VIEW documents AS SELECT * FROM read_parquet('markdown_2020.parquet');
+
 -- Open-ended: "what happened with Leclerc's impeding at Spa 2020?"
 SELECT event, title, doc_type, date, substring(content, 1, 1200) AS excerpt
 FROM documents
@@ -45,7 +56,7 @@ WHERE event = 'belgian-grand-prix' AND content ILIKE '%leclerc%impeding%';
 -- Analytical: "how many decisions per event in 2020?"
 SELECT event, count(*) FROM documents WHERE doc_type = 'decision' GROUP BY event ORDER BY 2 DESC;
 
--- Analytical across years: "most common doc types 2018-2026" (run against json_all.duckdb)
+-- Analytical across years: "most common doc types 2018-2026" (run against json_all.parquet)
 SELECT doc_type, count(*) FROM documents GROUP BY doc_type ORDER BY 2 DESC;
 
 -- Filter + full text: "summons for Hamilton in 2021 with tyre temps"
@@ -58,10 +69,14 @@ SELECT title, json_extract_string(data, '$.tables') FROM documents
 WHERE event = 'bahrain-grand-prix' AND title ILIKE '%final race classification%';
 ```
 
+(You can also reference the file directly — `SELECT * FROM 'markdown_2020.parquet'` —
+and `ATTACH 'markdown_2020.parquet'` works too, but the attached table name is not
+`documents`, so the view alias above keeps queries identical across both formats.)
+
 ### Conventions
 
 - **Text search** = `content ILIKE '%term%'`; combine terms with `AND` (columnar scans are sub-second per year).
-- **Always add `WHERE year = <n>`** when querying `json_all.duckdb`.
+- **Always add `WHERE year = <n>`** when querying `json_all.parquet`.
 - **Prefer `doc_type`, `event`, `date` predicates first** — they use indexes, so filter before ILIKE.
 - **Never** use FTS/vector operators — the files ship no such extensions.
 - Full content lives in `content`; a document can also be re-read from `../extracted/{year}/{event}/{pdf_stem}.md`.
@@ -71,13 +86,23 @@ WHERE event = 'bahrain-grand-prix' AND title ILIKE '%final race classification%'
 ## Building / refreshing
 
 ```bash
-uv run duckdb/build_markdown.py --all          # all 9 markdown year files
-uv run duckdb/build_json.py --all              # json_YYYY.duckdb + json_all.duckdb
-uv run duckdb/build_markdown.py --year 2020    # single year
-uv run duckdb/build_markdown.py --all --dry-run
-uv run duckdb/build_json.py --all --force      # deterministic rebuild (schema changes)
-uv run duckdb/verify.py                        # QA checks
+uv run duckdb/build_markdown.py --all          # all 9 markdown year files (.duckdb working files)
+uv run duckdb/build_json.py --all              # json_YYYY + json_all (.duckdb working files)
+uv run duckdb/convert_to_parquet.py --all      # convert all to .parquet, remove .duckdb
+uv run duckdb/verify.py                        # QA checks (against the .parquet files)
+
+# per-year variants
+uv run duckdb/build_markdown.py --year 2020
+uv run duckdb/convert_to_parquet.py --year 2020 --keep-duckdb   # keep the .duckdb source
+uv run duckdb/convert_to_parquet.py --all --dry-run
 ```
+
+**Why two formats?** The builders write `.duckdb` files because incremental
+upserts need an updatable table. Conversion to parquet happens *after* the
+build, only when the data is stable, and is **verified** (row-for-row equality,
+both directions — a failed conversion leaves the `.duckdb` untouched and the
+pipeline aborts). Storage drops from ~149 MB to ~11 MB (zstd). Workflow after a
+scrape: run the builders, then `convert_to_parquet.py --all`.
 
 The builders are **idempotent**: rerunning changes nothing (diff on `source_hash`).
 Safe to run after every scrape — only new/changed documents are written, in one
@@ -105,8 +130,9 @@ duckdb/
 ├── schema.py          # shared DDL + indexes (single source of truth)
 ├── build_markdown.py  # markdown_{year}.duckdb builder (CLI)
 ├── build_json.py      # json_{year}.duckdb + json_all.duckdb builder (CLI)
+├── convert_to_parquet.py  # .duckdb -> .parquet (verified) + remove sources
 ├── verify.py          # QA checks (row counts, idempotency, sample queries)
-└── data/              # generated *.duckdb files (gitignored)
+└── data/              # generated files (gitignored)
 ```
 
 Scripts import `config`/`schema` from their own directory — run them as files
