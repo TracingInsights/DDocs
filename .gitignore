@@ -1,0 +1,13 @@
+# Large regenerable staging artifacts
+*.duckdb
+*.duckdb.wal
+regs_pipeline/data/_work/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
