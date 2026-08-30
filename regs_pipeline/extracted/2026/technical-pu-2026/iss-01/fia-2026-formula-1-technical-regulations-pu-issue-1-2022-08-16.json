@@ -1,0 +1,7372 @@
+{
+ "doc_id": "2026/technical-pu-2026/iss-01",
+ "title": "2026 Formula 1 Power Unit Technical Regulations",
+ "year": 2026,
+ "section": null,
+ "regulation_type": "technical-pu",
+ "section_name": "Power Unit Technical Regulations",
+ "issue": 1,
+ "variant": null,
+ "status": "PUBLISHED",
+ "issue_date": "2022-08-16",
+ "wmsc_approval_date": null,
+ "pages": 78,
+ "source_pdf": "regs/2026/section-a/fia-2026-formula-1-technical-regulations-pu-issue-1-2022-08-16.pdf",
+ "source_hash": "sha256:61a4671a3047a01d3e5e74762e05724d73fb67f696dbb260f43a23c741a7b699",
+ "convention": {
+  "green": "Comments and Explanations (non-regulatory)"
+ },
+ "toc": [
+  {
+   "article": "ARTICLE 1",
+   "level": 1,
+   "title": "GENERAL PRINCIPLES",
+   "printed_page": 4
+  },
+  {
+   "article": "ARTICLE 5",
+   "level": 1,
+   "title": "POWER UNIT",
+   "printed_page": 7
+  },
+  {
+   "article": "ARTICLE 6",
+   "level": 1,
+   "title": "FUEL SYSTEM",
+   "printed_page": 32
+  },
+  {
+   "article": "ARTICLE 15",
+   "level": 1,
+   "title": "MATERIALS",
+   "printed_page": 36
+  },
+  {
+   "article": "ARTICLE 16",
+   "level": 1,
+   "title": "FUEL AND ENGINE OIL",
+   "printed_page": 42
+  },
+  {
+   "article": "ARTICLE 18",
+   "level": 1,
+   "title": "POWER UNIT COMPONENTS’ CLASSIFICATION",
+   "printed_page": 48
+  },
+  {
+   "article": "APPENDIX 1",
+   "level": 1,
+   "title": "REGULATION VOLUMES",
+   "printed_page": 54
+  },
+  {
+   "article": "APPENDIX 2",
+   "level": 1,
+   "title": "DRAWINGS",
+   "printed_page": 55
+  },
+  {
+   "article": "APPENDIX 3",
+   "level": 1,
+   "title": "POWER UNIT SYSTEMS, FUNCTIONS, COMPONENTS AND SUPPLY PERIMETER",
+   "printed_page": 59
+  },
+  {
+   "article": "APPENDIX 5",
+   "level": 1,
+   "title": "SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "printed_page": 69
+  },
+  {
+   "article": "1.1",
+   "level": 2,
+   "title": "Formula One World Championship",
+   "printed_page": null
+  },
+  {
+   "article": "1.2",
+   "level": 2,
+   "title": "Regulatory Framework",
+   "printed_page": null
+  },
+  {
+   "article": "1.3",
+   "level": 2,
+   "title": "Initial scope and perimeter of these Technical Regulations",
+   "printed_page": null
+  },
+  {
+   "article": "1.4",
+   "level": 2,
+   "title": "Dangerous construction",
+   "printed_page": null
+  },
+  {
+   "article": "1.5",
+   "level": 2,
+   "title": "Compliance with the regulations",
+   "printed_page": null
+  },
+  {
+   "article": "1.6",
+   "level": 2,
+   "title": "New systems or technologies",
+   "printed_page": null
+  },
+  {
+   "article": "1.7",
+   "level": 2,
+   "title": "Duty of Competitor and PU Manufacturer",
+   "printed_page": null
+  },
+  {
+   "article": "5.1",
+   "level": 2,
+   "title": "Definitions ICE",
+   "printed_page": null
+  },
+  {
+   "article": "5.2",
+   "level": 2,
+   "title": "Definitions ERS",
+   "printed_page": null
+  },
+  {
+   "article": "5.3",
+   "level": 2,
+   "title": "Engine specification",
+   "printed_page": null
+  },
+  {
+   "article": "5.4",
+   "level": 2,
+   "title": "Power Unit Energy Flow",
+   "printed_page": null
+  },
+  {
+   "article": "5.5",
+   "level": 2,
+   "title": "Turbo Charger",
+   "printed_page": null
+  },
+  {
+   "article": "5.6",
+   "level": 2,
+   "title": "Power unit dimensions",
+   "printed_page": null
+  },
+  {
+   "article": "5.7",
+   "level": 2,
+   "title": "Mass and centre of gravity",
+   "printed_page": null
+  },
+  {
+   "article": "5.8",
+   "level": 2,
+   "title": "Engine intake air",
+   "printed_page": null
+  },
+  {
+   "article": "5.9",
+   "level": 2,
+   "title": "Variable geometry systems",
+   "printed_page": null
+  },
+  {
+   "article": "5.10",
+   "level": 2,
+   "title": "Exhaust systems",
+   "printed_page": null
+  },
+  {
+   "article": "5.11",
+   "level": 2,
+   "title": "Fuel systems",
+   "printed_page": null
+  },
+  {
+   "article": "5.12",
+   "level": 2,
+   "title": "Ignition systems",
+   "printed_page": null
+  },
+  {
+   "article": "5.13",
+   "level": 2,
+   "title": "Engine ancillaries",
+   "printed_page": null
+  },
+  {
+   "article": "5.14",
+   "level": 2,
+   "title": "Power unit torque demand",
+   "printed_page": null
+  },
+  {
+   "article": "5.15",
+   "level": 2,
+   "title": "Power unit control",
+   "printed_page": null
+  },
+  {
+   "article": "5.16",
+   "level": 2,
+   "title": "Engine high rev limits",
+   "printed_page": null
+  },
+  {
+   "article": "5.17",
+   "level": 2,
+   "title": "Starting the engine",
+   "printed_page": null
+  },
+  {
+   "article": "5.18",
+   "level": 2,
+   "title": "Stall prevention systems",
+   "printed_page": null
+  },
+  {
+   "article": "5.19",
+   "level": 2,
+   "title": "Replacing power unit parts",
+   "printed_page": null
+  },
+  {
+   "article": "5.20",
+   "level": 2,
+   "title": "Oil and coolant systems and charge air cooling",
+   "printed_page": null
+  },
+  {
+   "article": "5.21",
+   "level": 2,
+   "title": "Energy Recovery System (ERS)",
+   "printed_page": null
+  },
+  {
+   "article": "5.22",
+   "level": 2,
+   "title": "MGU-K",
+   "printed_page": null
+  },
+  {
+   "article": "5.23",
+   "level": 2,
+   "title": "Energy Store",
+   "printed_page": null
+  },
+  {
+   "article": "5.24",
+   "level": 2,
+   "title": "ES design and installation",
+   "printed_page": null
+  },
+  {
+   "article": "5.25",
+   "level": 2,
+   "title": "General electrical safety",
+   "printed_page": null
+  },
+  {
+   "article": "5.26",
+   "level": 2,
+   "title": "Materials, processes, and Construction – Definitions",
+   "printed_page": null
+  },
+  {
+   "article": "5.27",
+   "level": 2,
+   "title": "Materials, processes, and construction – General",
+   "printed_page": null
+  },
+  {
+   "article": "5.28",
+   "level": 2,
+   "title": "Materials and construction – Components",
+   "printed_page": null
+  },
+  {
+   "article": "5.29",
+   "level": 2,
+   "title": "Materials and construction – Pressure charging and exhaust systems",
+   "printed_page": null
+  },
+  {
+   "article": "5.30",
+   "level": 2,
+   "title": "Materials and construction – Energy recovery, storage systems and electronic systems",
+   "printed_page": null
+  },
+  {
+   "article": "5.31",
+   "level": 2,
+   "title": "Component Classification",
+   "printed_page": null
+  },
+  {
+   "article": "6.1",
+   "level": 2,
+   "title": "Fuel tanks",
+   "printed_page": null
+  },
+  {
+   "article": "6.2",
+   "level": 2,
+   "title": "Fittings and piping",
+   "printed_page": null
+  },
+  {
+   "article": "6.3",
+   "level": 2,
+   "title": "Fuel tank fillers",
+   "printed_page": null
+  },
+  {
+   "article": "6.4",
+   "level": 2,
+   "title": "Refuelling",
+   "printed_page": null
+  },
+  {
+   "article": "6.5",
+   "level": 2,
+   "title": "Fuel draining and sampling",
+   "printed_page": null
+  },
+  {
+   "article": "6.6",
+   "level": 2,
+   "title": "Fuel System Hydraulic Layout",
+   "printed_page": null
+  },
+  {
+   "article": "15.1",
+   "level": 2,
+   "title": "Definitions",
+   "printed_page": null
+  },
+  {
+   "article": "15.2",
+   "level": 2,
+   "title": "General Principles",
+   "printed_page": null
+  },
+  {
+   "article": "15.3",
+   "level": 2,
+   "title": "Permitted Materials",
+   "printed_page": null
+  },
+  {
+   "article": "15.4",
+   "level": 2,
+   "title": "Specific Prohibitions",
+   "printed_page": null
+  },
+  {
+   "article": "15.5",
+   "level": 2,
+   "title": "Specific Exceptions",
+   "printed_page": null
+  },
+  {
+   "article": "15.6",
+   "level": 2,
+   "title": "Prescribed Laminates",
+   "printed_page": null
+  },
+  {
+   "article": "16.1",
+   "level": 2,
+   "title": "Basic principles",
+   "printed_page": null
+  },
+  {
+   "article": "16.2",
+   "level": 2,
+   "title": "Fuel definitions",
+   "printed_page": null
+  },
+  {
+   "article": "16.3",
+   "level": 2,
+   "title": "Fuel properties",
+   "printed_page": null
+  },
+  {
+   "article": "16.4",
+   "level": 2,
+   "title": "Composition of the fuel",
+   "printed_page": null
+  },
+  {
+   "article": "16.5",
+   "level": 2,
+   "title": "Fuel approval",
+   "printed_page": null
+  },
+  {
+   "article": "16.6",
+   "level": 2,
+   "title": "Fuel sampling and testing at a Competition",
+   "printed_page": null
+  },
+  {
+   "article": "16.7",
+   "level": 2,
+   "title": "Engine oil definitions",
+   "printed_page": null
+  },
+  {
+   "article": "16.8",
+   "level": 2,
+   "title": "Engine oil properties",
+   "printed_page": null
+  },
+  {
+   "article": "16.9",
+   "level": 2,
+   "title": "Composition of the engine oil",
+   "printed_page": null
+  },
+  {
+   "article": "16.10",
+   "level": 2,
+   "title": "Engine oil approval",
+   "printed_page": null
+  },
+  {
+   "article": "16.11",
+   "level": 2,
+   "title": "Sampling and testing at a Competition",
+   "printed_page": null
+  },
+  {
+   "article": "16.12",
+   "level": 2,
+   "title": "Recycling of Engine Oil",
+   "printed_page": null
+  },
+  {
+   "article": "18.1",
+   "level": 2,
+   "title": "Definitions",
+   "printed_page": null
+  },
+  {
+   "article": "18.2",
+   "level": 2,
+   "title": "General Principles",
+   "printed_page": null
+  },
+  {
+   "article": "18.3",
+   "level": 2,
+   "title": "Listed Power Unit Components (LPUC)",
+   "printed_page": null
+  },
+  {
+   "article": "18.4",
+   "level": 2,
+   "title": "Standard Supply Power Unit Components (SSPUC)",
+   "printed_page": null
+  },
+  {
+   "article": "18.5",
+   "level": 2,
+   "title": "Open-Source Power Unit Components (OSPUC)",
+   "printed_page": null
+  },
+  {
+   "article": "18.6",
+   "level": 2,
+   "title": "Defined Specification Power Unit Components (DSPUC)",
+   "printed_page": null
+  },
+  {
+   "article": "18.7",
+   "level": 2,
+   "title": "List of LPUC, SSPUC, OSPUC and DSPUC",
+   "printed_page": null
+  }
+ ],
+ "tables": [
+  {
+   "pdf_page": 44,
+   "printed_page": 44,
+   "bbox": [
+    105.1,
+    56.6,
+    524.1,
+    234.8
+   ],
+   "cells": [
+    [
+     "Oxidation Stability",
+     "minutes",
+     "360",
+     "",
+     "ASTM D 525"
+    ],
+    [
+     "Sulphur",
+     "mg/kg",
+     "",
+     "10",
+     "EN ISO 20846"
+    ],
+    [
+     "Electrical conductivity",
+     "pS/m",
+     "200",
+     "",
+     "ASTM D 2624"
+    ],
+    [
+     "Distillation Characteristics:",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "At E70oC",
+     "% v/v",
+     "20.0",
+     "52.0",
+     "ISO 3405/ ASTM D86"
+    ],
+    [
+     "At E100oC",
+     "% v/v",
+     "40.0",
+     "80.0",
+     "ISO 3405/ ASTM D86"
+    ],
+    [
+     "At E150oC",
+     "% v/v",
+     "75.0",
+     "",
+     "ISO 3405/ ASTM D86"
+    ],
+    [
+     "Final Boiling Point",
+     "oC",
+     "",
+     "210",
+     "ISO 3405"
+    ],
+    [
+     "Distillation Residue",
+     "%v/v",
+     "",
+     "2",
+     "ISO 3405"
+    ],
+    [
+     "(1) A correction factor of 0.2 for MON and RON shall be subtracted for the calculation of the final result in accordance with EN 228: 2012 (2) A stabilising agent must be added",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 44,
+   "printed_page": 44,
+   "bbox": [
+    105.1,
+    317.5,
+    524.1,
+    410.7
+   ],
+   "cells": [
+    [
+     "Component",
+     "Units",
+     "Min",
+     "Max",
+     "Test Method"
+    ],
+    [
+     "Aromatics",
+     "wt%",
+     "",
+     "40",
+     "GCMS"
+    ],
+    [
+     "Olefins",
+     "wt%",
+     "",
+     "17",
+     "GCMS"
+    ],
+    [
+     "Total diolefins",
+     "wt%",
+     "",
+     "0.1",
+     "GCMS"
+    ],
+    [
+     "Total styrene and alkyl derivatives",
+     "wt%",
+     "",
+     "0.1",
+     "GCMS"
+    ]
+   ]
+  },
+  {
+   "pdf_page": 46,
+   "printed_page": 46,
+   "bbox": [
+    182.1,
+    188.4,
+    413.2,
+    334.9
+   ],
+   "cells": [
+    [
+     "Property",
+     "Test Method"
+    ],
+    [
+     "Saturates",
+     "ASTM D2007"
+    ],
+    [
+     "Viscosity index",
+     "ASTM D2270"
+    ],
+    [
+     "Sulfur (use one listed method)",
+     "ASTM D1552 ASTM D2622 ASTM D3120 ASTM D4294 ASTM D4927"
+    ]
+   ]
+  },
+  {
+   "pdf_page": 46,
+   "printed_page": 46,
+   "bbox": [
+    105.1,
+    431.1,
+    524.1,
+    535.5
+   ],
+   "cells": [
+    [
+     "Property",
+     "Units",
+     "Min",
+     "Max",
+     "Test Method"
+    ],
+    [
+     "Kinematic Viscosity (100oC)",
+     "cSt",
+     "2.8",
+     "",
+     "ASTM D445"
+    ],
+    [
+     "HTHS Viscosity at 150oC and Shear Rate of 106 s1",
+     "mPa.s",
+     "1.4",
+     "",
+     "ASTM D4741"
+    ],
+    [
+     "Initial Boiling Point",
+     "oC",
+     "210",
+     "",
+     "ASTM D7500"
+    ],
+    [
+     "Flashpoint",
+     "oC",
+     "93",
+     "",
+     "ASTM D3828"
+    ]
+   ]
+  },
+  {
+   "pdf_page": 54,
+   "printed_page": 54,
+   "bbox": [
+    107.8,
+    574.5,
+    523.6,
+    716.8
+   ],
+   "cells": [
+    [
+     "Volume or Surface",
+     "",
+     "",
+     "CAD Part No",
+     "",
+     "",
+     "Revision Notes",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "RV-PU-ICE",
+     "",
+     "",
+     "tbc",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Positioned at [XPU=0, 0, 0]",
+     ""
+    ],
+    [
+     "RV-PU-OT",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Positioned at [XPU=0, 0, 0]",
+     "",
+     ""
+    ],
+    [
+     "",
+     "RV-PU-TC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Positioned at [XPU=0, 0, 0]",
+     ""
+    ],
+    [
+     "RV-PU-ERS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Positioned at [XPU=0, 0, 0]",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 60,
+   "printed_page": 60,
+   "bbox": [
+    28.5,
+    57.5,
+    566.8,
+    748.6
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "Item No",
+     "",
+     "List of PU functions/ systems/ components",
+     "",
+     "",
+     "",
+     "PU ELEMENT",
+     "",
+     "",
+     "",
+     "SEALED PERIMETER",
+     "(Art. 5.24)",
+     "",
+     "SUPPLY PERIMETER",
+     "(Appendix 4, Article 9)",
+     "",
+     "REFERENCE VOLUME",
+     "(Appendix 1)",
+     "",
+     "PU MASS GROUP",
+     "(Art. 5.7.1, 5.5.4,",
+     "5.20.7, 5.19.9)",
+     "",
+     "UPGRADE SCHEDULE (HOMOLOGATION STATUS) (App. 4, Art. 6)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "(Art. 17): COMPONENT",
+     "CLASSIFICATION",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "(Art. 5.1.2)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "2026",
+     "",
+     "2027",
+     "",
+     "2028",
+     "",
+     "2029",
+     "",
+     "2030",
+     "",
+     "ADUO",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "EXHAUST",
+     "",
+     "",
+     "11",
+     "",
+     "",
+     "Engine exhaust system (excluding fasteners and seals)",
+     "",
+     "",
+     "EXH",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "12",
+     "",
+     "",
+     "Exhaust fasteners and seals",
+     "",
+     "",
+     "EXH",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TURBO",
+     "",
+     "",
+     "13",
+     "",
+     "",
+     "TURBOCHARGER - Includes Compressor and Turbine Wheels, Shaft, Bearings, Centre, Compressor and Turbine Housings, Inlet VG Device",
+     "",
+     "",
+     "TC",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "TC",
+     "",
+     "",
+     "TC and ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "WG / POP-OFF",
+     "",
+     "",
+     "14",
+     "",
+     "",
+     "Wastegate or similar",
+     "",
+     "",
+     "EXH",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "OSPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "15",
+     "",
+     "",
+     "Pop-off valve or similar",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "OSPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "ICE ELECTRICAL",
+     "",
+     "",
+     "16",
+     "",
+     "",
+     "ICE-mounted electrical components (e.g., wiring loom within legality volume, non-regulatory-sensors, actuators)",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "17",
+     "",
+     "",
+     "Clutch shaft regulatory torque sensor",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "18",
+     "",
+     "",
+     "ICE-mounted regulatory temperature and pressure sensors",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "SSPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "19",
+     "",
+     "",
+     "Ignition coils",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "DSPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "20",
+     "",
+     "",
+     "FIA Standard ECU.",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ERS - MGU-K",
+     "",
+     "21",
+     "",
+     "",
+     "",
+     "MGU-K excluding mechanical",
+     "",
+     "MGUK",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ERS",
+     "",
+     "",
+     "MGUK",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "power transmission",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "components",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "22",
+     "",
+     "",
+     "MGU-K mechanical power transmission components, housing assembly and mounting accessories",
+     "",
+     "",
+     "ICE and/or MGUK",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE or ERS",
+     "",
+     "",
+     "MGUK or ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "23",
+     "",
+     "",
+     "MGU-K regulatory Torque sensor",
+     "",
+     "",
+     "MGUK",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE or ERS",
+     "",
+     "",
+     "MGUK or ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "SSPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "24",
+     "",
+     "",
+     "",
+     "ERS-K phase cables. MGU-K",
+     "",
+     "MGUK",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ERS",
+     "",
+     "",
+     "MGUK",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "terminal box",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ERS - ES",
+     "",
+     "25",
+     "",
+     "",
+     "ES Main Enclosure (ESME)",
+     "",
+     "",
+     "ESME",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ERS",
+     "",
+     "",
+     "ESME",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "26",
+     "",
+     "",
+     "Energy Store",
+     "",
+     "",
+     "ESME",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ERS",
+     "",
+     "",
+     "ESME",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 62,
+   "printed_page": 62,
+   "bbox": [
+    28.4,
+    57.5,
+    566.9,
+    739.6
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "Item No",
+     "",
+     "List of PU functions/ systems/ components",
+     "",
+     "PU ELEMENT",
+     "",
+     "",
+     "",
+     "SEALED PERIMETER",
+     "(Art. 5.24)",
+     "",
+     "SUPPLY PERIMETER",
+     "(Appendix 4, Article 9)",
+     "",
+     "REFERENCE VOLUME",
+     "(Appendix 1)",
+     "",
+     "PU MASS GROUP",
+     "(Art. 5.7.1, 5.5.4,",
+     "5.20.7, 5.19.9)",
+     "",
+     "UPGRADE SCHEDULE (HOMOLOGATION STATUS) (App. 4, Art. 6)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "(Art. 17): COMPONENT",
+     "CLASSIFICATION",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "(Art. 5.1.2)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "2026",
+     "",
+     "2027",
+     "",
+     "2028",
+     "",
+     "2029",
+     "",
+     "2030",
+     "",
+     "ADUO",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "44",
+     "",
+     "",
+     "Primary heat exchangers for water, oil and ICE intake air and any associated accessories, header tanks, connections to the ICE, tubes, pipes, hoses, and fixings",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "ERS COOLING",
+     "45",
+     "",
+     "",
+     "ICE-mounted ERS cooling system including pumps, secondary heat exchangers, associated motors, actuators, associated brackets, fixings, tubes, hoses",
+     "PU-CE",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "46",
+     "",
+     "",
+     "Non ICE-mounted ERS cooling system including pumps, secondary heat exchangers, associated motors, actuators, associated brackets, fixings, tubes, hoses",
+     "PU-CE",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ERS",
+     "",
+     "",
+     "ESME",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "47",
+     "",
+     "",
+     "ICE-mounted ERS cooling system filters",
+     "PU-CE",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "CLUTCH",
+     "48",
+     "",
+     "",
+     "Clutch and clutch actuation system between the PU and the gearbox",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "HYDRAULICS",
+     "49",
+     "",
+     "",
+     "ICE-mounted hydraulic pump including associated brackets, fixings, tubes and hoses",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "50",
+     "",
+     "",
+     "Hydraulic system servo valve(s) and actuator(s) for PU control.",
+     "ICE",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "51",
+     "",
+     "",
+     "Hydraulic system (e.g., accumulators, manifolds, servo-valves, solenoids, actuators, hoses) other than servo valve(s) and actuator(s) for PU control.",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "52",
+     "",
+     "",
+     "ICE-mounted hydraulic circuit filters",
+     "ICE",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "INSTALLATION AND MISCELLANEOUS",
+     "53",
+     "",
+     "",
+     "Fuel feed pumps delivering less than 10 barG and their associated accessories (included but not limited to tubes, hoses, supports, brackets, and fasteners).",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App. 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "54",
+     "",
+     "",
+     "Heat Shields and associated mounting hardware.",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App. 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "55",
+     "",
+     "",
+     "PU air valve regulators",
+     "ICE",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 63,
+   "printed_page": 63,
+   "bbox": [
+    29.1,
+    57.5,
+    566.9,
+    559.7
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "Item No",
+     "",
+     "List of PU functions/ systems/ components",
+     "",
+     "PU ELEMENT",
+     "",
+     "",
+     "",
+     "SEALED PERIMETER",
+     "(Art. 5.24)",
+     "",
+     "SUPPLY PERIMETER",
+     "(Appendix 4, Article 9)",
+     "",
+     "REFERENCE VOLUME",
+     "(Appendix 1)",
+     "",
+     "PU MASS GROUP",
+     "(Art. 5.7.1, 5.5.4,",
+     "5.20.7, 5.19.9)",
+     "",
+     "UPGRADE SCHEDULE (HOMOLOGATION STATUS) (App. 4, Art. 6)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "(Art. 17): COMPONENT",
+     "CLASSIFICATION",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "(Art. 5.1.2)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "2026",
+     "",
+     "2027",
+     "",
+     "2028",
+     "",
+     "2029",
+     "",
+     "2030",
+     "",
+     "ADUO",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "56",
+     "",
+     "",
+     "Any ancillary equipment associated with the PU air valve system excluding regulators (e.g., pneumatic bottles, hoses, filling valves).",
+     "ICE",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "57",
+     "",
+     "",
+     "Intake upstream of compressor inlet/VG Intake device up to and including the air filter.",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App. 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "58",
+     "",
+     "",
+     "Exhaust beyond turbine exit and WG exit and associated brackets, support, screws, nuts, dowels, washers, or cables.",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App. 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "59",
+     "",
+     "",
+     "Any breather system ducting between the PU and the orifice referenced in 5.3.8.",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App. 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "60",
+     "",
+     "",
+     "Wiring harnesses attached to the PU which are not ordinarily part of a power unit (car looms)",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App. 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "61",
+     "",
+     "",
+     "Studs used to mount PU to chassis or gearbox.",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "App. 5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "FLUIDS",
+     "62",
+     "",
+     "",
+     "Fuel",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "63",
+     "",
+     "",
+     "Engine oil",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "64",
+     "",
+     "",
+     "Hydraulic fluid",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "65",
+     "",
+     "",
+     "ICE Coolant",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "66",
+     "",
+     "",
+     "ERS Coolant",
+     "EXC",
+     "",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "EXC",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "     ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "BALLAST",
+     "67",
+     "",
+     "",
+     "Any ballast mounted on the PU in order to reach the mass requirement is permitted (subject to Article 4.4)",
+     "ICE",
+     "",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "INC",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "ICE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LPUC",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 63,
+   "printed_page": 63,
+   "bbox": [
+    29.1,
+    609.1,
+    566.9,
+    755.3
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "Item No",
+     "",
+     "List of PU functions/ systems/ components",
+     "",
+     "SUPPLY",
+     "PERIMETER",
+     ""
+    ],
+    [
+     "Operational",
+     "67",
+     "",
+     "",
+     "PU and spares for all Competitions in F1 World Championship plus 5000 km testing.",
+     "",
+     "INC",
+     "",
+     ""
+    ],
+    [
+     "",
+     "68",
+     "",
+     "",
+     "Minimum number of PUs per team to be (number of PUs per driver per season according to F1 Sporting Regulations) x 2 + Necessary number of units to achieve 5000 km of testing.",
+     "INC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "69",
+     "",
+     "",
+     "Additional PUs or spares required to replace units out of service due to accident damage or other cause induced by team will be outside the supply perimeter and will incur additional charges",
+     "EXC",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "70",
+     "",
+     "",
+     "Demo event Power Units",
+     "",
+     "EXC",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 64,
+   "printed_page": 64,
+   "bbox": [
+    30.2,
+    57.5,
+    566.9,
+    232.7
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "Item No",
+     "",
+     "List of PU functions/ systems/ components",
+     "",
+     "SUPPLY",
+     "PERIMETER",
+     ""
+    ],
+    [
+     "",
+     "71",
+     "",
+     "",
+     "Transport of Power Units and support equipment from Manufacturer’s factory to event",
+     "",
+     "EXC",
+     "",
+     ""
+    ],
+    [
+     "",
+     "72",
+     "",
+     "",
+     "Personnel to support Power Unit (5 people) at test and race events",
+     "",
+     "INC",
+     "",
+     ""
+    ],
+    [
+     "",
+     "73",
+     "",
+     "",
+     "Travel, accommodation, and reasonable expenses for support personnel",
+     "",
+     "EXC",
+     "",
+     ""
+    ],
+    [
+     "",
+     "74",
+     "",
+     "",
+     "Quantity of manufacturer specified fuel and oil",
+     "",
+     "EXC",
+     "",
+     ""
+    ],
+    [
+     "",
+     "75",
+     "",
+     "",
+     "Garage equipment defined as compulsory by Manufacturer (e.g., battery management)",
+     "",
+     "INC",
+     "",
+     ""
+    ],
+    [
+     "",
+     "76",
+     "",
+     "",
+     "Garage IT equipment, connection to factory, servers, telemetry, radio, team clothing",
+     "",
+     "EXC",
+     "",
+     ""
+    ],
+    [
+     "",
+     "77",
+     "",
+     "",
+     "Dyno testing of installation components (Y hours or km)",
+     "",
+     "EXC",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 77,
+   "printed_page": 77,
+   "bbox": [
+    105.1,
+    392.9,
+    535.3,
+    520.2
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "Regulations Influenced by criteria",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Financial Regulations: Cost cap and CapEx limits",
+     "Technical or Sporting Regulations"
+    ],
+    [
+     "Parameter",
+     "Infrastructure",
+     "40% *",
+     "20% *"
+    ],
+    [
+     "",
+     "ICE status",
+     "50% *",
+     "50% *"
+    ],
+    [
+     "",
+     "ERS status",
+     "10% *",
+     "30% *"
+    ],
+    [
+     "",
+     "Outcome:",
+     "sum of three parameters",
+     "0% or 100% **"
+    ]
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "article_number": "FRONT_MATTER",
+   "article_title": "Front matter (cover, convention, contents)",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 1,
+   "pdf_page_end": 3,
+   "printed_page_start": 1,
+   "printed_page_end": 3,
+   "offset": 62,
+   "length": 2969,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "BODY_INTRO",
+   "article_title": "Body introduction",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 4,
+   "pdf_page_end": 4,
+   "printed_page_start": 4,
+   "printed_page_end": 4,
+   "offset": 3031,
+   "length": 10,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.1",
+   "article_title": "Formula One World Championship",
+   "parent_article": "1 — GENERAL PRINCIPLES",
+   "occurrence": 0,
+   "pdf_page_start": 4,
+   "pdf_page_end": 4,
+   "printed_page_start": 4,
+   "printed_page_end": 4,
+   "offset": 3041,
+   "length": 1426,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "1.1.1",
+     "offset": 494,
+     "length": 797
+    },
+    {
+     "number": "1.1.2",
+     "offset": 1291,
+     "length": 135
+    }
+   ]
+  },
+  {
+   "article_number": "1.2",
+   "article_title": "Regulatory Framework",
+   "parent_article": "1 — GENERAL PRINCIPLES",
+   "occurrence": 0,
+   "pdf_page_start": 4,
+   "pdf_page_end": 4,
+   "printed_page_start": 4,
+   "printed_page_end": 4,
+   "offset": 4467,
+   "length": 1045,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "1.2.1",
+     "offset": 29,
+     "length": 390
+    },
+    {
+     "number": "1.2.2",
+     "offset": 419,
+     "length": 296
+    },
+    {
+     "number": "1.2.3",
+     "offset": 715,
+     "length": 330
+    }
+   ]
+  },
+  {
+   "article_number": "1.3",
+   "article_title": "Interpretation of and amendments to these Technical Regulations",
+   "parent_article": "1 — GENERAL PRINCIPLES",
+   "occurrence": 0,
+   "pdf_page_start": 4,
+   "pdf_page_end": 5,
+   "printed_page_start": 4,
+   "printed_page_end": 5,
+   "offset": 5512,
+   "length": 1776,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "1.3.1",
+     "offset": 72,
+     "length": 161
+    },
+    {
+     "number": "1.3.2",
+     "offset": 233,
+     "length": 128
+    },
+    {
+     "number": "1.3.3",
+     "offset": 361,
+     "length": 116
+    },
+    {
+     "number": "1.3.4",
+     "offset": 477,
+     "length": 109
+    },
+    {
+     "number": "1.3.5",
+     "offset": 586,
+     "length": 645
+    },
+    {
+     "number": "1.3.6",
+     "offset": 1231,
+     "length": 545
+    }
+   ]
+  },
+  {
+   "article_number": "1.4",
+   "article_title": "Dangerous construction",
+   "parent_article": "1 — GENERAL PRINCIPLES",
+   "occurrence": 0,
+   "pdf_page_start": 5,
+   "pdf_page_end": 5,
+   "printed_page_start": 5,
+   "printed_page_end": 5,
+   "offset": 7288,
+   "length": 250,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.5",
+   "article_title": "Compliance with the regulations",
+   "parent_article": "1 — GENERAL PRINCIPLES",
+   "occurrence": 0,
+   "pdf_page_start": 5,
+   "pdf_page_end": 5,
+   "printed_page_start": 5,
+   "printed_page_end": 5,
+   "offset": 7538,
+   "length": 982,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.6",
+   "article_title": "New systems or technologies",
+   "parent_article": "1 — GENERAL PRINCIPLES",
+   "occurrence": 0,
+   "pdf_page_start": 5,
+   "pdf_page_end": 5,
+   "printed_page_start": 5,
+   "printed_page_end": 5,
+   "offset": 8520,
+   "length": 539,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.7",
+   "article_title": "Duty of Competitor and PU Manufacturer",
+   "parent_article": "1 — GENERAL PRINCIPLES",
+   "occurrence": 0,
+   "pdf_page_start": 5,
+   "pdf_page_end": 7,
+   "printed_page_start": 5,
+   "printed_page_end": 7,
+   "offset": 9059,
+   "length": 1746,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.1",
+   "article_title": "Definitions ICE",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 7,
+   "pdf_page_end": 9,
+   "printed_page_start": 7,
+   "printed_page_end": 9,
+   "offset": 10805,
+   "length": 5954,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.1.1",
+     "offset": 49,
+     "length": 124
+    },
+    {
+     "number": "5.1.2",
+     "offset": 173,
+     "length": 233
+    },
+    {
+     "number": "5.1.3",
+     "offset": 406,
+     "length": 133
+    },
+    {
+     "number": "5.1.4",
+     "offset": 539,
+     "length": 280
+    },
+    {
+     "number": "5.1.5",
+     "offset": 819,
+     "length": 235
+    },
+    {
+     "number": "5.1.6",
+     "offset": 1054,
+     "length": 163
+    },
+    {
+     "number": "5.1.7",
+     "offset": 1217,
+     "length": 221
+    },
+    {
+     "number": "5.1.9",
+     "offset": 1438,
+     "length": 86
+    },
+    {
+     "number": "5.1.10",
+     "offset": 1524,
+     "length": 197
+    },
+    {
+     "number": "5.1.11",
+     "offset": 1721,
+     "length": 107
+    },
+    {
+     "number": "5.1.12",
+     "offset": 1828,
+     "length": 113
+    },
+    {
+     "number": "5.1.13",
+     "offset": 1941,
+     "length": 139
+    },
+    {
+     "number": "5.1.14",
+     "offset": 2080,
+     "length": 346
+    },
+    {
+     "number": "5.1.15",
+     "offset": 2426,
+     "length": 152
+    },
+    {
+     "number": "5.1.16",
+     "offset": 2578,
+     "length": 176
+    },
+    {
+     "number": "5.1.17",
+     "offset": 2754,
+     "length": 313
+    },
+    {
+     "number": "5.1.18",
+     "offset": 3067,
+     "length": 146
+    },
+    {
+     "number": "5.1.19",
+     "offset": 3213,
+     "length": 208
+    },
+    {
+     "number": "5.1.20",
+     "offset": 3421,
+     "length": 271
+    },
+    {
+     "number": "5.1.21",
+     "offset": 3692,
+     "length": 120
+    },
+    {
+     "number": "5.1.22",
+     "offset": 3812,
+     "length": 173
+    },
+    {
+     "number": "5.1.23",
+     "offset": 3985,
+     "length": 179
+    },
+    {
+     "number": "5.1.24",
+     "offset": 4164,
+     "length": 327
+    },
+    {
+     "number": "5.1.25",
+     "offset": 4491,
+     "length": 161
+    },
+    {
+     "number": "5.1.26",
+     "offset": 4652,
+     "length": 238
+    },
+    {
+     "number": "5.1.27",
+     "offset": 4890,
+     "length": 202
+    },
+    {
+     "number": "5.1.28",
+     "offset": 5092,
+     "length": 153
+    },
+    {
+     "number": "5.1.29",
+     "offset": 5245,
+     "length": 247
+    },
+    {
+     "number": "5.1.30",
+     "offset": 5492,
+     "length": 462
+    }
+   ]
+  },
+  {
+   "article_number": "5.2",
+   "article_title": "Definitions ERS",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 9,
+   "pdf_page_end": 11,
+   "printed_page_start": 9,
+   "printed_page_end": 11,
+   "offset": 16759,
+   "length": 5415,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.2.1",
+     "offset": 24,
+     "length": 255
+    },
+    {
+     "number": "5.2.2",
+     "offset": 279,
+     "length": 359
+    },
+    {
+     "number": "5.2.3",
+     "offset": 638,
+     "length": 264
+    },
+    {
+     "number": "5.2.4",
+     "offset": 902,
+     "length": 226
+    },
+    {
+     "number": "5.2.5",
+     "offset": 1128,
+     "length": 626
+    },
+    {
+     "number": "5.2.6",
+     "offset": 1754,
+     "length": 129
+    },
+    {
+     "number": "5.2.7",
+     "offset": 1883,
+     "length": 122
+    },
+    {
+     "number": "5.2.8",
+     "offset": 2005,
+     "length": 271
+    },
+    {
+     "number": "5.2.9",
+     "offset": 2276,
+     "length": 107
+    },
+    {
+     "number": "5.2.10",
+     "offset": 2383,
+     "length": 370
+    },
+    {
+     "number": "5.2.11",
+     "offset": 2753,
+     "length": 130
+    },
+    {
+     "number": "5.2.12",
+     "offset": 2883,
+     "length": 270
+    },
+    {
+     "number": "5.2.13",
+     "offset": 3153,
+     "length": 139
+    },
+    {
+     "number": "5.2.14",
+     "offset": 3292,
+     "length": 144
+    },
+    {
+     "number": "5.2.15",
+     "offset": 3436,
+     "length": 135
+    },
+    {
+     "number": "5.2.16",
+     "offset": 3571,
+     "length": 224
+    },
+    {
+     "number": "5.2.17",
+     "offset": 3795,
+     "length": 190
+    },
+    {
+     "number": "5.2.18",
+     "offset": 3985,
+     "length": 141
+    },
+    {
+     "number": "5.2.19",
+     "offset": 4126,
+     "length": 175
+    },
+    {
+     "number": "5.2.20",
+     "offset": 4301,
+     "length": 239
+    },
+    {
+     "number": "5.2.21",
+     "offset": 4540,
+     "length": 163
+    },
+    {
+     "number": "5.2.22",
+     "offset": 4703,
+     "length": 443
+    },
+    {
+     "number": "5.2.23",
+     "offset": 5146,
+     "length": 74
+    },
+    {
+     "number": "5.2.24",
+     "offset": 5220,
+     "length": 75
+    },
+    {
+     "number": "5.2.25",
+     "offset": 5295,
+     "length": 120
+    }
+   ]
+  },
+  {
+   "article_number": "5.3",
+   "article_title": "Engine specification",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 11,
+   "pdf_page_end": 12,
+   "printed_page_start": 11,
+   "printed_page_end": 12,
+   "offset": 22174,
+   "length": 1766,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.3.1",
+     "offset": 29,
+     "length": 75
+    },
+    {
+     "number": "5.3.2",
+     "offset": 104,
+     "length": 60
+    },
+    {
+     "number": "5.3.3",
+     "offset": 164,
+     "length": 186
+    },
+    {
+     "number": "5.3.4",
+     "offset": 350,
+     "length": 270
+    },
+    {
+     "number": "5.3.5",
+     "offset": 620,
+     "length": 158
+    },
+    {
+     "number": "5.3.6",
+     "offset": 778,
+     "length": 79
+    },
+    {
+     "number": "5.3.7",
+     "offset": 857,
+     "length": 404
+    },
+    {
+     "number": "5.3.8",
+     "offset": 1261,
+     "length": 224
+    },
+    {
+     "number": "5.3.9",
+     "offset": 1485,
+     "length": 181
+    },
+    {
+     "number": "5.3.10",
+     "offset": 1666,
+     "length": 100
+    }
+   ]
+  },
+  {
+   "article_number": "5.4",
+   "article_title": "POWER UNIT ENERGY FLOW",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 12,
+   "pdf_page_end": 15,
+   "printed_page_start": 12,
+   "printed_page_end": 15,
+   "offset": 23940,
+   "length": 4244,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.4.1",
+     "offset": 31,
+     "length": 143
+    },
+    {
+     "number": "5.4.2",
+     "offset": 174,
+     "length": 370
+    },
+    {
+     "number": "5.4.3",
+     "offset": 544,
+     "length": 54
+    },
+    {
+     "number": "5.4.4",
+     "offset": 598,
+     "length": 89
+    },
+    {
+     "number": "5.4.5",
+     "offset": 687,
+     "length": 384
+    },
+    {
+     "number": "5.4.6",
+     "offset": 1071,
+     "length": 70
+    },
+    {
+     "number": "5.4.7",
+     "offset": 1141,
+     "length": 223
+    },
+    {
+     "number": "5.4.8",
+     "offset": 1364,
+     "length": 144
+    },
+    {
+     "number": "5.4.9",
+     "offset": 1508,
+     "length": 156
+    },
+    {
+     "number": "5.4.10",
+     "offset": 1664,
+     "length": 234
+    },
+    {
+     "number": "5.4.11",
+     "offset": 1898,
+     "length": 172
+    },
+    {
+     "number": "5.4.12",
+     "offset": 2070,
+     "length": 201
+    },
+    {
+     "number": "5.4.13",
+     "offset": 2271,
+     "length": 1643
+    },
+    {
+     "number": "5.4.14",
+     "offset": 3914,
+     "length": 197
+    },
+    {
+     "number": "5.4.15",
+     "offset": 4111,
+     "length": 133
+    }
+   ]
+  },
+  {
+   "article_number": "5.5",
+   "article_title": "Turbocharger",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 15,
+   "pdf_page_end": 15,
+   "printed_page_start": 15,
+   "printed_page_end": 15,
+   "offset": 28184,
+   "length": 2677,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.5.1",
+     "offset": 21,
+     "length": 1151
+    },
+    {
+     "number": "5.5.2",
+     "offset": 1172,
+     "length": 229
+    },
+    {
+     "number": "5.5.3",
+     "offset": 1401,
+     "length": 132
+    },
+    {
+     "number": "5.5.4",
+     "offset": 1533,
+     "length": 77
+    },
+    {
+     "number": "5.5.5",
+     "offset": 1610,
+     "length": 865
+    },
+    {
+     "number": "5.5.6",
+     "offset": 2475,
+     "length": 79
+    },
+    {
+     "number": "5.5.7",
+     "offset": 2554,
+     "length": 122
+    }
+   ]
+  },
+  {
+   "article_number": "5.6",
+   "article_title": "Power unit geometrical constraints and dimensions",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 15,
+   "pdf_page_end": 17,
+   "printed_page_start": 15,
+   "printed_page_end": 17,
+   "offset": 30861,
+   "length": 5687,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.6.1",
+     "offset": 58,
+     "length": 64
+    },
+    {
+     "number": "5.6.2",
+     "offset": 122,
+     "length": 69
+    },
+    {
+     "number": "5.6.3",
+     "offset": 191,
+     "length": 223
+    },
+    {
+     "number": "5.6.4",
+     "offset": 414,
+     "length": 79
+    },
+    {
+     "number": "5.6.5",
+     "offset": 493,
+     "length": 315
+    },
+    {
+     "number": "5.6.6",
+     "offset": 808,
+     "length": 197
+    },
+    {
+     "number": "5.6.7",
+     "offset": 1005,
+     "length": 199
+    },
+    {
+     "number": "5.6.8",
+     "offset": 1204,
+     "length": 54
+    },
+    {
+     "number": "5.6.9",
+     "offset": 1258,
+     "length": 153
+    },
+    {
+     "number": "5.6.10",
+     "offset": 1411,
+     "length": 102
+    },
+    {
+     "number": "5.6.11",
+     "offset": 1513,
+     "length": 70
+    },
+    {
+     "number": "5.6.12",
+     "offset": 1583,
+     "length": 65
+    },
+    {
+     "number": "5.6.13",
+     "offset": 1648,
+     "length": 130
+    },
+    {
+     "number": "5.6.14",
+     "offset": 1778,
+     "length": 132
+    },
+    {
+     "number": "5.6.15",
+     "offset": 1910,
+     "length": 1138
+    },
+    {
+     "number": "5.6.16",
+     "offset": 3048,
+     "length": 1421
+    },
+    {
+     "number": "5.6.17",
+     "offset": 4469,
+     "length": 1218
+    }
+   ]
+  },
+  {
+   "article_number": "5.7",
+   "article_title": "Mass and centre of gravity",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 17,
+   "pdf_page_end": 18,
+   "printed_page_start": 17,
+   "printed_page_end": 18,
+   "offset": 36548,
+   "length": 1174,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.7.1",
+     "offset": 35,
+     "length": 68
+    },
+    {
+     "number": "5.7.2",
+     "offset": 103,
+     "length": 345
+    },
+    {
+     "number": "5.7.3",
+     "offset": 448,
+     "length": 118
+    },
+    {
+     "number": "5.7.4",
+     "offset": 566,
+     "length": 112
+    },
+    {
+     "number": "5.7.5",
+     "offset": 678,
+     "length": 268
+    },
+    {
+     "number": "5.7.6",
+     "offset": 946,
+     "length": 228
+    }
+   ]
+  },
+  {
+   "article_number": "5.8",
+   "article_title": "Engine intake air",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 18,
+   "pdf_page_end": 18,
+   "printed_page_start": 18,
+   "printed_page_end": 18,
+   "offset": 37722,
+   "length": 751,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.8.1",
+     "offset": 26,
+     "length": 544
+    },
+    {
+     "number": "5.8.2",
+     "offset": 570,
+     "length": 181
+    }
+   ]
+  },
+  {
+   "article_number": "5.9",
+   "article_title": "Variable geometry systems",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 18,
+   "pdf_page_end": 18,
+   "printed_page_start": 18,
+   "printed_page_end": 18,
+   "offset": 38473,
+   "length": 774,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.9.1",
+     "offset": 34,
+     "length": 269
+    },
+    {
+     "number": "5.9.2",
+     "offset": 303,
+     "length": 92
+    },
+    {
+     "number": "5.9.3",
+     "offset": 395,
+     "length": 379
+    }
+   ]
+  },
+  {
+   "article_number": "5.10",
+   "article_title": "Exhausts",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 18,
+   "pdf_page_end": 18,
+   "printed_page_start": 18,
+   "printed_page_end": 18,
+   "offset": 39247,
+   "length": 539,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.10.1",
+     "offset": 18,
+     "length": 250
+    },
+    {
+     "number": "5.10.2",
+     "offset": 268,
+     "length": 123
+    },
+    {
+     "number": "5.10.3",
+     "offset": 391,
+     "length": 148
+    }
+   ]
+  },
+  {
+   "article_number": "5.11",
+   "article_title": "Fuel systems",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 18,
+   "pdf_page_end": 19,
+   "printed_page_start": 18,
+   "printed_page_end": 19,
+   "offset": 39786,
+   "length": 2045,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.11.1",
+     "offset": 22,
+     "length": 92
+    },
+    {
+     "number": "5.11.2",
+     "offset": 114,
+     "length": 412
+    },
+    {
+     "number": "5.11.3",
+     "offset": 526,
+     "length": 510
+    },
+    {
+     "number": "5.11.4",
+     "offset": 1036,
+     "length": 203
+    },
+    {
+     "number": "5.11.5",
+     "offset": 1239,
+     "length": 423
+    },
+    {
+     "number": "5.11.6",
+     "offset": 1662,
+     "length": 228
+    },
+    {
+     "number": "5.11.7",
+     "offset": 1890,
+     "length": 155
+    }
+   ]
+  },
+  {
+   "article_number": "5.12",
+   "article_title": "Ignition systems",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 19,
+   "pdf_page_end": 19,
+   "printed_page_start": 19,
+   "printed_page_end": 19,
+   "offset": 41831,
+   "length": 729,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.12.1",
+     "offset": 26,
+     "length": 178
+    },
+    {
+     "number": "5.12.2",
+     "offset": 204,
+     "length": 218
+    },
+    {
+     "number": "5.12.3",
+     "offset": 422,
+     "length": 225
+    },
+    {
+     "number": "5.12.4",
+     "offset": 647,
+     "length": 82
+    }
+   ]
+  },
+  {
+   "article_number": "5.13",
+   "article_title": "Ancillaries",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 19,
+   "pdf_page_end": 19,
+   "printed_page_start": 19,
+   "printed_page_end": 19,
+   "offset": 42560,
+   "length": 1067,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.13.1",
+     "offset": 21,
+     "length": 251
+    },
+    {
+     "number": "5.13.2",
+     "offset": 272,
+     "length": 414
+    },
+    {
+     "number": "5.13.3",
+     "offset": 686,
+     "length": 253
+    },
+    {
+     "number": "5.13.4",
+     "offset": 939,
+     "length": 128
+    }
+   ]
+  },
+  {
+   "article_number": "5.14",
+   "article_title": "Power unit torque demand",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 19,
+   "pdf_page_end": 20,
+   "printed_page_start": 19,
+   "printed_page_end": 20,
+   "offset": 43627,
+   "length": 873,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.14.1",
+     "offset": 34,
+     "length": 186
+    },
+    {
+     "number": "5.14.2",
+     "offset": 220,
+     "length": 172
+    },
+    {
+     "number": "5.14.3",
+     "offset": 392,
+     "length": 147
+    },
+    {
+     "number": "5.14.4",
+     "offset": 539,
+     "length": 162
+    },
+    {
+     "number": "5.14.5",
+     "offset": 701,
+     "length": 172
+    }
+   ]
+  },
+  {
+   "article_number": "5.15",
+   "article_title": "Power unit control",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 20,
+   "pdf_page_end": 21,
+   "printed_page_start": 20,
+   "printed_page_end": 21,
+   "offset": 44500,
+   "length": 4064,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.15.1",
+     "offset": 28,
+     "length": 237
+    },
+    {
+     "number": "5.15.2",
+     "offset": 265,
+     "length": 125
+    },
+    {
+     "number": "5.15.3",
+     "offset": 390,
+     "length": 97
+    },
+    {
+     "number": "5.15.4",
+     "offset": 487,
+     "length": 67
+    },
+    {
+     "number": "5.15.5",
+     "offset": 554,
+     "length": 377
+    },
+    {
+     "number": "5.15.6",
+     "offset": 931,
+     "length": 90
+    },
+    {
+     "number": "5.15.7",
+     "offset": 1021,
+     "length": 823
+    },
+    {
+     "number": "5.15.8",
+     "offset": 1844,
+     "length": 844
+    },
+    {
+     "number": "5.15.9",
+     "offset": 2688,
+     "length": 350
+    },
+    {
+     "number": "5.15.10",
+     "offset": 3038,
+     "length": 461
+    },
+    {
+     "number": "5.15.11",
+     "offset": 3499,
+     "length": 449
+    },
+    {
+     "number": "5.15.12",
+     "offset": 3948,
+     "length": 116
+    }
+   ]
+  },
+  {
+   "article_number": "5.16",
+   "article_title": "Engine high rev limits",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 21,
+   "pdf_page_end": 21,
+   "printed_page_start": 21,
+   "printed_page_end": 21,
+   "offset": 48564,
+   "length": 776,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.17",
+   "article_title": "Starting the engine",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 21,
+   "pdf_page_end": 21,
+   "printed_page_start": 21,
+   "printed_page_end": 21,
+   "offset": 49340,
+   "length": 101,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.18",
+   "article_title": "Stall prevention systems",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 21,
+   "pdf_page_end": 21,
+   "printed_page_start": 21,
+   "printed_page_end": 21,
+   "offset": 49441,
+   "length": 867,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.19",
+   "article_title": "Energy Recovery System (ERS)",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 21,
+   "pdf_page_end": 23,
+   "printed_page_start": 21,
+   "printed_page_end": 23,
+   "offset": 50308,
+   "length": 4294,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.19.1",
+     "offset": 49,
+     "length": 611
+    },
+    {
+     "number": "5.19.2",
+     "offset": 660,
+     "length": 102
+    },
+    {
+     "number": "5.19.3",
+     "offset": 762,
+     "length": 736
+    },
+    {
+     "number": "5.19.4",
+     "offset": 1498,
+     "length": 583
+    },
+    {
+     "number": "5.19.5",
+     "offset": 2081,
+     "length": 551
+    },
+    {
+     "number": "5.19.6",
+     "offset": 2632,
+     "length": 76
+    },
+    {
+     "number": "5.19.7",
+     "offset": 2708,
+     "length": 728
+    },
+    {
+     "number": "5.19.8",
+     "offset": 3436,
+     "length": 595
+    },
+    {
+     "number": "5.19.9",
+     "offset": 4031,
+     "length": 263
+    }
+   ]
+  },
+  {
+   "article_number": "5.20",
+   "article_title": "MGU-K",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 23,
+   "pdf_page_end": 23,
+   "printed_page_start": 23,
+   "printed_page_end": 23,
+   "offset": 54602,
+   "length": 1904,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.20.1",
+     "offset": 15,
+     "length": 89
+    },
+    {
+     "number": "5.20.2",
+     "offset": 104,
+     "length": 235
+    },
+    {
+     "number": "5.20.3",
+     "offset": 339,
+     "length": 178
+    },
+    {
+     "number": "5.20.4",
+     "offset": 517,
+     "length": 400
+    },
+    {
+     "number": "5.20.5",
+     "offset": 917,
+     "length": 103
+    },
+    {
+     "number": "5.20.6",
+     "offset": 1020,
+     "length": 103
+    },
+    {
+     "number": "5.20.7",
+     "offset": 1123,
+     "length": 162
+    },
+    {
+     "number": "5.20.8",
+     "offset": 1285,
+     "length": 619
+    }
+   ]
+  },
+  {
+   "article_number": "5.21",
+   "article_title": "Energy Store",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 23,
+   "pdf_page_end": 24,
+   "printed_page_start": 23,
+   "printed_page_end": 24,
+   "offset": 56506,
+   "length": 1141,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.21.1",
+     "offset": 33,
+     "length": 547
+    },
+    {
+     "number": "5.21.2",
+     "offset": 580,
+     "length": 249
+    },
+    {
+     "number": "5.21.3",
+     "offset": 829,
+     "length": 132
+    },
+    {
+     "number": "5.21.4",
+     "offset": 961,
+     "length": 180
+    }
+   ]
+  },
+  {
+   "article_number": "5.22",
+   "article_title": "ES design and installation",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 24,
+   "pdf_page_end": 25,
+   "printed_page_start": 24,
+   "printed_page_end": 25,
+   "offset": 57647,
+   "length": 4392,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.22.1",
+     "offset": 36,
+     "length": 197
+    },
+    {
+     "number": "5.22.2",
+     "offset": 233,
+     "length": 155
+    },
+    {
+     "number": "5.22.3",
+     "offset": 388,
+     "length": 48
+    },
+    {
+     "number": "5.22.4",
+     "offset": 436,
+     "length": 233
+    },
+    {
+     "number": "5.22.5",
+     "offset": 669,
+     "length": 1022
+    },
+    {
+     "number": "5.22.6",
+     "offset": 1691,
+     "length": 411
+    },
+    {
+     "number": "5.22.7",
+     "offset": 2102,
+     "length": 469
+    },
+    {
+     "number": "5.22.8",
+     "offset": 2571,
+     "length": 397
+    },
+    {
+     "number": "5.22.9",
+     "offset": 2968,
+     "length": 563
+    },
+    {
+     "number": "5.22.10",
+     "offset": 3531,
+     "length": 346
+    },
+    {
+     "number": "5.22.11",
+     "offset": 3877,
+     "length": 515
+    }
+   ]
+  },
+  {
+   "article_number": "5.23",
+   "article_title": "ERS General electrical safety",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 25,
+   "pdf_page_end": 26,
+   "printed_page_start": 25,
+   "printed_page_end": 26,
+   "offset": 62039,
+   "length": 4326,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.23.1",
+     "offset": 39,
+     "length": 425
+    },
+    {
+     "number": "5.23.2",
+     "offset": 464,
+     "length": 1779
+    },
+    {
+     "number": "5.23.3",
+     "offset": 2243,
+     "length": 129
+    },
+    {
+     "number": "5.23.4",
+     "offset": 2372,
+     "length": 651
+    },
+    {
+     "number": "5.23.5",
+     "offset": 3023,
+     "length": 812
+    },
+    {
+     "number": "5.23.6",
+     "offset": 3835,
+     "length": 328
+    },
+    {
+     "number": "5.23.7",
+     "offset": 4163,
+     "length": 163
+    }
+   ]
+  },
+  {
+   "article_number": "5.24",
+   "article_title": "Replacing power unit parts",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 26,
+   "pdf_page_end": 26,
+   "printed_page_start": 26,
+   "printed_page_end": 26,
+   "offset": 66365,
+   "length": 476,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.25",
+   "article_title": "Oil and coolant systems and charge air cooling",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 26,
+   "pdf_page_end": 27,
+   "printed_page_start": 26,
+   "printed_page_end": 27,
+   "offset": 66841,
+   "length": 1428,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.25.1",
+     "offset": 67,
+     "length": 362
+    },
+    {
+     "number": "5.25.2",
+     "offset": 429,
+     "length": 309
+    },
+    {
+     "number": "5.25.3",
+     "offset": 738,
+     "length": 73
+    },
+    {
+     "number": "5.25.4",
+     "offset": 811,
+     "length": 371
+    },
+    {
+     "number": "5.25.5",
+     "offset": 1182,
+     "length": 127
+    },
+    {
+     "number": "5.25.6",
+     "offset": 1309,
+     "length": 119
+    }
+   ]
+  },
+  {
+   "article_number": "5.26",
+   "article_title": "Materials, processes and Construction – Definitions [see paragraph 15.1]",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 27,
+   "pdf_page_end": 27,
+   "printed_page_start": 27,
+   "printed_page_end": 27,
+   "offset": 68269,
+   "length": 82,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.27",
+   "article_title": "Materials, processes and construction – General",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 27,
+   "pdf_page_end": 28,
+   "printed_page_start": 27,
+   "printed_page_end": 28,
+   "offset": 68351,
+   "length": 3128,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.27.1",
+     "offset": 57,
+     "length": 1033
+    },
+    {
+     "number": "5.27.2",
+     "offset": 1090,
+     "length": 610
+    },
+    {
+     "number": "5.27.3",
+     "offset": 1700,
+     "length": 473
+    },
+    {
+     "number": "5.27.4",
+     "offset": 2173,
+     "length": 277
+    },
+    {
+     "number": "5.27.5",
+     "offset": 2450,
+     "length": 207
+    },
+    {
+     "number": "5.27.6",
+     "offset": 2657,
+     "length": 194
+    },
+    {
+     "number": "5.27.7",
+     "offset": 2851,
+     "length": 159
+    },
+    {
+     "number": "5.27.8",
+     "offset": 3010,
+     "length": 118
+    }
+   ]
+  },
+  {
+   "article_number": "5.28",
+   "article_title": "Materials and construction – Components",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 28,
+   "pdf_page_end": 29,
+   "printed_page_start": 28,
+   "printed_page_end": 29,
+   "offset": 71479,
+   "length": 4343,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.28.1",
+     "offset": 49,
+     "length": 159
+    },
+    {
+     "number": "5.28.2",
+     "offset": 208,
+     "length": 124
+    },
+    {
+     "number": "5.28.3",
+     "offset": 332,
+     "length": 240
+    },
+    {
+     "number": "5.28.4",
+     "offset": 572,
+     "length": 244
+    },
+    {
+     "number": "5.28.5",
+     "offset": 816,
+     "length": 210
+    },
+    {
+     "number": "5.28.6",
+     "offset": 1026,
+     "length": 698
+    },
+    {
+     "number": "5.28.7",
+     "offset": 1724,
+     "length": 663
+    },
+    {
+     "number": "5.28.8",
+     "offset": 2387,
+     "length": 1956
+    }
+   ]
+  },
+  {
+   "article_number": "5.29",
+   "article_title": "Materials and construction – Pressure charging and exhaust systems",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 29,
+   "pdf_page_end": 30,
+   "printed_page_start": 29,
+   "printed_page_end": 30,
+   "offset": 75822,
+   "length": 2285,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.29.1",
+     "offset": 76,
+     "length": 268
+    },
+    {
+     "number": "5.29.2",
+     "offset": 344,
+     "length": 178
+    },
+    {
+     "number": "5.29.3",
+     "offset": 522,
+     "length": 434
+    },
+    {
+     "number": "5.29.4",
+     "offset": 956,
+     "length": 304
+    },
+    {
+     "number": "5.29.5",
+     "offset": 1260,
+     "length": 143
+    },
+    {
+     "number": "5.29.6",
+     "offset": 1403,
+     "length": 723
+    },
+    {
+     "number": "5.29.7",
+     "offset": 2126,
+     "length": 85
+    },
+    {
+     "number": "5.29.8",
+     "offset": 2211,
+     "length": 74
+    }
+   ]
+  },
+  {
+   "article_number": "5.30",
+   "article_title": "Materials and construction – Energy recovery, storage systems and electronic",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 30,
+   "pdf_page_end": 31,
+   "printed_page_start": 30,
+   "printed_page_end": 31,
+   "offset": 78107,
+   "length": 1367,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.30.1",
+     "offset": 99,
+     "length": 261
+    },
+    {
+     "number": "5.30.2",
+     "offset": 360,
+     "length": 203
+    },
+    {
+     "number": "5.30.3",
+     "offset": 563,
+     "length": 102
+    },
+    {
+     "number": "5.30.4",
+     "offset": 665,
+     "length": 128
+    },
+    {
+     "number": "5.30.5",
+     "offset": 793,
+     "length": 381
+    },
+    {
+     "number": "5.30.6",
+     "offset": 1174,
+     "length": 113
+    },
+    {
+     "number": "5.30.7",
+     "offset": 1287,
+     "length": 80
+    }
+   ]
+  },
+  {
+   "article_number": "5.31",
+   "article_title": "Component Classification",
+   "parent_article": "5 — POWER UNIT",
+   "occurrence": 0,
+   "pdf_page_start": 31,
+   "pdf_page_end": 32,
+   "printed_page_start": 31,
+   "printed_page_end": 32,
+   "offset": 79474,
+   "length": 295,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "5.31.1",
+     "offset": 34,
+     "length": 261
+    }
+   ]
+  },
+  {
+   "article_number": "6.1",
+   "article_title": "Fuel tanks",
+   "parent_article": "6 — FUEL SYSTEM",
+   "occurrence": 0,
+   "pdf_page_start": 32,
+   "pdf_page_end": 32,
+   "printed_page_start": 32,
+   "printed_page_end": 32,
+   "offset": 79769,
+   "length": 674,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "6.1.1",
+     "offset": 45,
+     "length": 292
+    },
+    {
+     "number": "6.1.2",
+     "offset": 337,
+     "length": 246
+    },
+    {
+     "number": "6.1.3",
+     "offset": 583,
+     "length": 91
+    }
+   ]
+  },
+  {
+   "article_number": "6.2",
+   "article_title": "Fittings and piping",
+   "parent_article": "6 — FUEL SYSTEM",
+   "occurrence": 0,
+   "pdf_page_start": 32,
+   "pdf_page_end": 33,
+   "printed_page_start": 32,
+   "printed_page_end": 33,
+   "offset": 80443,
+   "length": 2129,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "6.2.1",
+     "offset": 28,
+     "length": 837
+    },
+    {
+     "number": "6.2.2",
+     "offset": 865,
+     "length": 712
+    },
+    {
+     "number": "6.2.3",
+     "offset": 1577,
+     "length": 235
+    },
+    {
+     "number": "6.2.4",
+     "offset": 1812,
+     "length": 66
+    },
+    {
+     "number": "6.2.5",
+     "offset": 1878,
+     "length": 125
+    },
+    {
+     "number": "6.2.6",
+     "offset": 2003,
+     "length": 126
+    }
+   ]
+  },
+  {
+   "article_number": "6.3",
+   "article_title": "Fuel tank fillers",
+   "parent_article": "6 — FUEL SYSTEM",
+   "occurrence": 0,
+   "pdf_page_start": 33,
+   "pdf_page_end": 33,
+   "printed_page_start": 33,
+   "printed_page_end": 33,
+   "offset": 82572,
+   "length": 484,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "6.4",
+   "article_title": "Refuelling",
+   "parent_article": "6 — FUEL SYSTEM",
+   "occurrence": 0,
+   "pdf_page_start": 33,
+   "pdf_page_end": 33,
+   "printed_page_start": 33,
+   "printed_page_end": 33,
+   "offset": 83056,
+   "length": 1037,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "6.4.1",
+     "offset": 19,
+     "length": 230
+    },
+    {
+     "number": "6.4.2",
+     "offset": 249,
+     "length": 478
+    },
+    {
+     "number": "6.4.3",
+     "offset": 727,
+     "length": 104
+    },
+    {
+     "number": "6.4.4",
+     "offset": 831,
+     "length": 74
+    },
+    {
+     "number": "6.4.5",
+     "offset": 905,
+     "length": 132
+    }
+   ]
+  },
+  {
+   "article_number": "6.5",
+   "article_title": "Fuel draining and sampling",
+   "parent_article": "6 — FUEL SYSTEM",
+   "occurrence": 0,
+   "pdf_page_start": 33,
+   "pdf_page_end": 33,
+   "printed_page_start": 33,
+   "printed_page_end": 33,
+   "offset": 84093,
+   "length": 1292,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "6.5.1",
+     "offset": 35,
+     "length": 79
+    },
+    {
+     "number": "6.5.2",
+     "offset": 114,
+     "length": 422
+    },
+    {
+     "number": "6.5.3",
+     "offset": 536,
+     "length": 575
+    },
+    {
+     "number": "6.5.4",
+     "offset": 1111,
+     "length": 181
+    }
+   ]
+  },
+  {
+   "article_number": "6.6",
+   "article_title": "Fuel System Hydraulic Layout",
+   "parent_article": "6 — FUEL SYSTEM",
+   "occurrence": 0,
+   "pdf_page_start": 33,
+   "pdf_page_end": 36,
+   "printed_page_start": 33,
+   "printed_page_end": 36,
+   "offset": 85385,
+   "length": 2078,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "6.6.1",
+     "offset": 37,
+     "length": 91
+    },
+    {
+     "number": "6.6.2",
+     "offset": 128,
+     "length": 210
+    },
+    {
+     "number": "6.6.3",
+     "offset": 338,
+     "length": 386
+    },
+    {
+     "number": "6.6.4",
+     "offset": 724,
+     "length": 483
+    },
+    {
+     "number": "6.6.5",
+     "offset": 1207,
+     "length": 128
+    },
+    {
+     "number": "6.6.6",
+     "offset": 1335,
+     "length": 743
+    }
+   ]
+  },
+  {
+   "article_number": "15.1",
+   "article_title": "Definitions",
+   "parent_article": "15 — MATERIALS",
+   "occurrence": 0,
+   "pdf_page_start": 36,
+   "pdf_page_end": 37,
+   "printed_page_start": 36,
+   "printed_page_end": 37,
+   "offset": 87463,
+   "length": 4338,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "15.1.1",
+     "offset": 46,
+     "length": 545
+    },
+    {
+     "number": "15.1.2",
+     "offset": 591,
+     "length": 431
+    },
+    {
+     "number": "15.1.3",
+     "offset": 1022,
+     "length": 336
+    },
+    {
+     "number": "15.1.4",
+     "offset": 1358,
+     "length": 259
+    },
+    {
+     "number": "15.1.5",
+     "offset": 1617,
+     "length": 282
+    },
+    {
+     "number": "15.1.6",
+     "offset": 1899,
+     "length": 333
+    },
+    {
+     "number": "15.1.7",
+     "offset": 2232,
+     "length": 469
+    },
+    {
+     "number": "15.1.8",
+     "offset": 2701,
+     "length": 537
+    },
+    {
+     "number": "15.1.9",
+     "offset": 3238,
+     "length": 304
+    },
+    {
+     "number": "15.1.10",
+     "offset": 3542,
+     "length": 119
+    },
+    {
+     "number": "15.1.11",
+     "offset": 3661,
+     "length": 223
+    },
+    {
+     "number": "15.1.12",
+     "offset": 3884,
+     "length": 139
+    },
+    {
+     "number": "15.1.13",
+     "offset": 4023,
+     "length": 107
+    },
+    {
+     "number": "15.1.14",
+     "offset": 4130,
+     "length": 134
+    },
+    {
+     "number": "15.1.15",
+     "offset": 4264,
+     "length": 74
+    }
+   ]
+  },
+  {
+   "article_number": "15.2",
+   "article_title": "General Principles",
+   "parent_article": "15 — MATERIALS",
+   "occurrence": 0,
+   "pdf_page_start": 37,
+   "pdf_page_end": 37,
+   "printed_page_start": 37,
+   "printed_page_end": 37,
+   "offset": 91801,
+   "length": 1582,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "15.2.1",
+     "offset": 28,
+     "length": 192
+    },
+    {
+     "number": "15.2.2",
+     "offset": 220,
+     "length": 95
+    },
+    {
+     "number": "15.2.3",
+     "offset": 315,
+     "length": 63
+    },
+    {
+     "number": "15.2.4",
+     "offset": 378,
+     "length": 324
+    },
+    {
+     "number": "15.2.5",
+     "offset": 702,
+     "length": 277
+    },
+    {
+     "number": "15.2.6",
+     "offset": 979,
+     "length": 232
+    },
+    {
+     "number": "15.2.7",
+     "offset": 1211,
+     "length": 371
+    }
+   ]
+  },
+  {
+   "article_number": "15.3",
+   "article_title": "Permitted Materials",
+   "parent_article": "15 — MATERIALS",
+   "occurrence": 0,
+   "pdf_page_start": 37,
+   "pdf_page_end": 39,
+   "printed_page_start": 37,
+   "printed_page_end": 39,
+   "offset": 93383,
+   "length": 3487,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "15.3.1",
+     "offset": 178,
+     "length": 1030
+    },
+    {
+     "number": "15.3.2",
+     "offset": 1208,
+     "length": 966
+    },
+    {
+     "number": "15.3.3",
+     "offset": 2174,
+     "length": 1053
+    },
+    {
+     "number": "15.3.4",
+     "offset": 3227,
+     "length": 260
+    }
+   ]
+  },
+  {
+   "article_number": "15.4",
+   "article_title": "Specific Prohibitions",
+   "parent_article": "15 — MATERIALS",
+   "occurrence": 0,
+   "pdf_page_start": 39,
+   "pdf_page_end": 40,
+   "printed_page_start": 39,
+   "printed_page_end": 40,
+   "offset": 96870,
+   "length": 890,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "15.4.1",
+     "offset": 31,
+     "length": 527
+    },
+    {
+     "number": "15.4.2",
+     "offset": 558,
+     "length": 332
+    }
+   ]
+  },
+  {
+   "article_number": "15.5",
+   "article_title": "Specific Exceptions",
+   "parent_article": "15 — MATERIALS",
+   "occurrence": 0,
+   "pdf_page_start": 40,
+   "pdf_page_end": 40,
+   "printed_page_start": 40,
+   "printed_page_end": 40,
+   "offset": 97760,
+   "length": 1725,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "15.6",
+   "article_title": "Prescribed Laminates",
+   "parent_article": "15 — MATERIALS",
+   "occurrence": 0,
+   "pdf_page_start": 40,
+   "pdf_page_end": 42,
+   "printed_page_start": 40,
+   "printed_page_end": 42,
+   "offset": 99485,
+   "length": 2229,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "15.6.1",
+     "offset": 126,
+     "length": 520
+    },
+    {
+     "number": "15.6.2",
+     "offset": 646,
+     "length": 1583
+    }
+   ]
+  },
+  {
+   "article_number": "16.1",
+   "article_title": "Basic principles",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 42,
+   "pdf_page_end": 42,
+   "printed_page_start": 42,
+   "printed_page_end": 42,
+   "offset": 101714,
+   "length": 3162,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "16.1.1",
+     "offset": 61,
+     "length": 167
+    },
+    {
+     "number": "16.1.2",
+     "offset": 228,
+     "length": 1817
+    },
+    {
+     "number": "16.1.3",
+     "offset": 2045,
+     "length": 128
+    },
+    {
+     "number": "16.1.4",
+     "offset": 2173,
+     "length": 71
+    },
+    {
+     "number": "16.1.5",
+     "offset": 2244,
+     "length": 505
+    },
+    {
+     "number": "16.1.6",
+     "offset": 2749,
+     "length": 159
+    },
+    {
+     "number": "16.1.7",
+     "offset": 2908,
+     "length": 254
+    }
+   ]
+  },
+  {
+   "article_number": "16.2",
+   "article_title": "Fuel definitions",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 42,
+   "pdf_page_end": 43,
+   "printed_page_start": 42,
+   "printed_page_end": 43,
+   "offset": 104876,
+   "length": 2539,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "16.2.1",
+     "offset": 26,
+     "length": 59
+    },
+    {
+     "number": "16.2.2",
+     "offset": 85,
+     "length": 194
+    },
+    {
+     "number": "16.2.3",
+     "offset": 279,
+     "length": 203
+    },
+    {
+     "number": "16.2.4",
+     "offset": 482,
+     "length": 127
+    },
+    {
+     "number": "16.2.5",
+     "offset": 609,
+     "length": 101
+    },
+    {
+     "number": "16.2.6",
+     "offset": 710,
+     "length": 60
+    },
+    {
+     "number": "16.2.7",
+     "offset": 770,
+     "length": 256
+    },
+    {
+     "number": "16.2.8",
+     "offset": 1026,
+     "length": 1294
+    },
+    {
+     "number": "16.2.9",
+     "offset": 2320,
+     "length": 154
+    },
+    {
+     "number": "16.2.10",
+     "offset": 2474,
+     "length": 65
+    }
+   ]
+  },
+  {
+   "article_number": "16.3",
+   "article_title": "Fuel properties",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 43,
+   "pdf_page_end": 44,
+   "printed_page_start": 43,
+   "printed_page_end": 44,
+   "offset": 107415,
+   "length": 1420,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "16.4",
+   "article_title": "Composition of the fuel",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 44,
+   "pdf_page_end": 44,
+   "printed_page_start": 44,
+   "printed_page_end": 44,
+   "offset": 108835,
+   "length": 1156,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "16.4.1",
+     "offset": 33,
+     "length": 461
+    },
+    {
+     "number": "16.4.2",
+     "offset": 494,
+     "length": 190
+    },
+    {
+     "number": "16.4.3",
+     "offset": 684,
+     "length": 136
+    },
+    {
+     "number": "16.4.4",
+     "offset": 820,
+     "length": 336
+    }
+   ]
+  },
+  {
+   "article_number": "16.5",
+   "article_title": "Fuel approval",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 44,
+   "pdf_page_end": 45,
+   "printed_page_start": 44,
+   "printed_page_end": 45,
+   "offset": 109991,
+   "length": 898,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "16.5.1",
+     "offset": 23,
+     "length": 779
+    },
+    {
+     "number": "16.5.2",
+     "offset": 802,
+     "length": 96
+    }
+   ]
+  },
+  {
+   "article_number": "16.6",
+   "article_title": "Fuel sampling and testing at a Competition",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 45,
+   "pdf_page_end": 45,
+   "printed_page_start": 45,
+   "printed_page_end": 45,
+   "offset": 110889,
+   "length": 1711,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "16.6.1",
+     "offset": 52,
+     "length": 190
+    },
+    {
+     "number": "16.6.2",
+     "offset": 242,
+     "length": 120
+    },
+    {
+     "number": "16.6.3",
+     "offset": 362,
+     "length": 417
+    },
+    {
+     "number": "16.6.4",
+     "offset": 779,
+     "length": 932
+    }
+   ]
+  },
+  {
+   "article_number": "16.7",
+   "article_title": "Engine oil definitions",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 45,
+   "pdf_page_end": 46,
+   "printed_page_start": 45,
+   "printed_page_end": 46,
+   "offset": 112600,
+   "length": 1856,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "16.8",
+   "article_title": "Engine oil properties",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 46,
+   "pdf_page_end": 46,
+   "printed_page_start": 46,
+   "printed_page_end": 46,
+   "offset": 114456,
+   "length": 496,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "16.9",
+   "article_title": "Composition of the engine oil",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 46,
+   "pdf_page_end": 46,
+   "printed_page_start": 46,
+   "printed_page_end": 46,
+   "offset": 114952,
+   "length": 446,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "16.9.1",
+     "offset": 39,
+     "length": 284
+    },
+    {
+     "number": "16.9.2",
+     "offset": 323,
+     "length": 123
+    }
+   ]
+  },
+  {
+   "article_number": "16.10",
+   "article_title": "Engine oil approval",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 46,
+   "pdf_page_end": 47,
+   "printed_page_start": 46,
+   "printed_page_end": 47,
+   "offset": 115398,
+   "length": 589,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "16.10.1",
+     "offset": 30,
+     "length": 321
+    },
+    {
+     "number": "16.10.2",
+     "offset": 351,
+     "length": 103
+    },
+    {
+     "number": "16.10.3",
+     "offset": 454,
+     "length": 135
+    }
+   ]
+  },
+  {
+   "article_number": "16.11",
+   "article_title": "Sampling and testing at a Competition",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 47,
+   "pdf_page_end": 47,
+   "printed_page_start": 47,
+   "printed_page_end": 47,
+   "offset": 115987,
+   "length": 1373,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "16.11.1",
+     "offset": 48,
+     "length": 143
+    },
+    {
+     "number": "16.11.2",
+     "offset": 191,
+     "length": 160
+    },
+    {
+     "number": "16.11.3",
+     "offset": 351,
+     "length": 1022
+    }
+   ]
+  },
+  {
+   "article_number": "16.12",
+   "article_title": "Recycling of Engine Oil",
+   "parent_article": "16 — FUEL AND ENGINE OIL",
+   "occurrence": 0,
+   "pdf_page_start": 47,
+   "pdf_page_end": 48,
+   "printed_page_start": 47,
+   "printed_page_end": 48,
+   "offset": 117360,
+   "length": 112,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "16.12.1",
+     "offset": 34,
+     "length": 78
+    }
+   ]
+  },
+  {
+   "article_number": "18.1",
+   "article_title": "Definitions",
+   "parent_article": "18 — POWER UNIT COMPONENTS’ CLASSIFICATION",
+   "occurrence": 0,
+   "pdf_page_start": 48,
+   "pdf_page_end": 48,
+   "printed_page_start": 48,
+   "printed_page_end": 48,
+   "offset": 117472,
+   "length": 2378,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "18.2",
+   "article_title": "General Principles",
+   "parent_article": "18 — POWER UNIT COMPONENTS’ CLASSIFICATION",
+   "occurrence": 0,
+   "pdf_page_start": 48,
+   "pdf_page_end": 49,
+   "printed_page_start": 48,
+   "printed_page_end": 49,
+   "offset": 119850,
+   "length": 4073,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "18.2.1",
+     "offset": 28,
+     "length": 718
+    },
+    {
+     "number": "18.2.2",
+     "offset": 746,
+     "length": 348
+    },
+    {
+     "number": "18.2.3",
+     "offset": 1094,
+     "length": 147
+    },
+    {
+     "number": "18.2.4",
+     "offset": 1241,
+     "length": 332
+    },
+    {
+     "number": "18.2.5",
+     "offset": 1573,
+     "length": 501
+    },
+    {
+     "number": "18.2.6",
+     "offset": 2074,
+     "length": 440
+    },
+    {
+     "number": "18.2.7",
+     "offset": 2514,
+     "length": 653
+    },
+    {
+     "number": "18.2.8",
+     "offset": 3167,
+     "length": 319
+    },
+    {
+     "number": "18.2.9",
+     "offset": 3486,
+     "length": 587
+    }
+   ]
+  },
+  {
+   "article_number": "18.3",
+   "article_title": "Listed Power Unit Components (LPUC)",
+   "parent_article": "18 — POWER UNIT COMPONENTS’ CLASSIFICATION",
+   "occurrence": 0,
+   "pdf_page_start": 49,
+   "pdf_page_end": 51,
+   "printed_page_start": 49,
+   "printed_page_end": 51,
+   "offset": 123923,
+   "length": 4191,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "18.3.1",
+     "offset": 45,
+     "length": 308
+    },
+    {
+     "number": "18.3.2",
+     "offset": 353,
+     "length": 1006
+    },
+    {
+     "number": "18.3.3",
+     "offset": 1359,
+     "length": 808
+    },
+    {
+     "number": "18.3.4",
+     "offset": 2167,
+     "length": 2024
+    }
+   ]
+  },
+  {
+   "article_number": "18.4",
+   "article_title": "Standard Supply Power Unit Components (SSPUC)",
+   "parent_article": "18 — POWER UNIT COMPONENTS’ CLASSIFICATION",
+   "occurrence": 0,
+   "pdf_page_start": 51,
+   "pdf_page_end": 51,
+   "printed_page_start": 51,
+   "printed_page_end": 51,
+   "offset": 128114,
+   "length": 3731,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "18.4.1",
+     "offset": 55,
+     "length": 334
+    },
+    {
+     "number": "18.4.2",
+     "offset": 389,
+     "length": 367
+    },
+    {
+     "number": "18.4.3",
+     "offset": 756,
+     "length": 478
+    },
+    {
+     "number": "18.4.4",
+     "offset": 1234,
+     "length": 1592
+    },
+    {
+     "number": "18.4.5",
+     "offset": 2826,
+     "length": 371
+    },
+    {
+     "number": "18.4.6",
+     "offset": 3197,
+     "length": 534
+    }
+   ]
+  },
+  {
+   "article_number": "18.5",
+   "article_title": "Open-Source Power Unit Components (OSPUC)",
+   "parent_article": "18 — POWER UNIT COMPONENTS’ CLASSIFICATION",
+   "occurrence": 0,
+   "pdf_page_start": 51,
+   "pdf_page_end": 53,
+   "printed_page_start": 51,
+   "printed_page_end": 53,
+   "offset": 131845,
+   "length": 5119,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "18.5.1",
+     "offset": 51,
+     "length": 306
+    },
+    {
+     "number": "18.5.2",
+     "offset": 357,
+     "length": 346
+    },
+    {
+     "number": "18.5.3",
+     "offset": 703,
+     "length": 251
+    },
+    {
+     "number": "18.5.4",
+     "offset": 954,
+     "length": 444
+    },
+    {
+     "number": "18.5.5",
+     "offset": 1398,
+     "length": 558
+    },
+    {
+     "number": "18.5.6",
+     "offset": 1956,
+     "length": 1208
+    },
+    {
+     "number": "18.5.7",
+     "offset": 3164,
+     "length": 197
+    },
+    {
+     "number": "18.5.8",
+     "offset": 3361,
+     "length": 523
+    },
+    {
+     "number": "18.5.9",
+     "offset": 3884,
+     "length": 415
+    },
+    {
+     "number": "18.5.10",
+     "offset": 4299,
+     "length": 311
+    },
+    {
+     "number": "18.5.11",
+     "offset": 4610,
+     "length": 509
+    }
+   ]
+  },
+  {
+   "article_number": "18.6",
+   "article_title": "Defined Specification Power Unit Components (DSPUC)",
+   "parent_article": "18 — POWER UNIT COMPONENTS’ CLASSIFICATION",
+   "occurrence": 0,
+   "pdf_page_start": 53,
+   "pdf_page_end": 53,
+   "printed_page_start": 53,
+   "printed_page_end": 53,
+   "offset": 136964,
+   "length": 3806,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "18.6.1",
+     "offset": 61,
+     "length": 472
+    },
+    {
+     "number": "18.6.2",
+     "offset": 533,
+     "length": 274
+    },
+    {
+     "number": "18.6.3",
+     "offset": 807,
+     "length": 640
+    },
+    {
+     "number": "18.6.4",
+     "offset": 1447,
+     "length": 790
+    },
+    {
+     "number": "18.6.5",
+     "offset": 2237,
+     "length": 788
+    },
+    {
+     "number": "18.6.6",
+     "offset": 3025,
+     "length": 285
+    },
+    {
+     "number": "18.6.7",
+     "offset": 3310,
+     "length": 496
+    }
+   ]
+  },
+  {
+   "article_number": "18.7",
+   "article_title": "List of LPUC, SSPUC, OSPUC and DSPUC",
+   "parent_article": "18 — POWER UNIT COMPONENTS’ CLASSIFICATION",
+   "occurrence": 0,
+   "pdf_page_start": 53,
+   "pdf_page_end": 54,
+   "printed_page_start": 53,
+   "printed_page_end": 54,
+   "offset": 140770,
+   "length": 324,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.1",
+   "article_title": "1 General Definitions This Appendix defines the construction of CAD reference sections, reference surfaces and",
+   "parent_article": "1 — REGULATION VOLUMES",
+   "occurrence": 1,
+   "pdf_page_start": 54,
+   "pdf_page_end": 54,
+   "printed_page_start": 54,
+   "printed_page_end": 54,
+   "offset": 141094,
+   "length": 341,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.2",
+   "article_title": "Unless otherwise stated, only the declared reference section, reference surface or reference",
+   "parent_article": "1 — REGULATION VOLUMES",
+   "occurrence": 1,
+   "pdf_page_start": 54,
+   "pdf_page_end": 54,
+   "printed_page_start": 54,
+   "printed_page_end": 54,
+   "offset": 141435,
+   "length": 1461,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "2.1",
+   "article_title": "2 Legality Volumes or Surfaces Defined by CAD Models The legality volumes and surfaces listed below are defined exclusively by CAD data and are",
+   "parent_article": "1 — REGULATION VOLUMES",
+   "occurrence": 0,
+   "pdf_page_start": 54,
+   "pdf_page_end": 55,
+   "printed_page_start": 54,
+   "printed_page_end": 55,
+   "offset": 142896,
+   "length": 853,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "APPENDIX-2",
+   "article_title": "DRAWINGS",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 55,
+   "pdf_page_end": 59,
+   "printed_page_start": 55,
+   "printed_page_end": 59,
+   "offset": 143749,
+   "length": 68,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "APPENDIX-3",
+   "article_title": "POWER UNIT SYSTEMS, FUNCTIONS, COMPONENTS AND SUPPLY  PERIMETER",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 59,
+   "pdf_page_end": 65,
+   "printed_page_start": 59,
+   "printed_page_end": 65,
+   "offset": 143817,
+   "length": 20746,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 234,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.1",
+   "article_title": "1 Homologation dossier Any PU Manufacturer registered in accordance with the procedures set out in Article 1 of",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 2,
+   "pdf_page_start": 65,
+   "pdf_page_end": 65,
+   "printed_page_start": 65,
+   "printed_page_end": 65,
+   "offset": 164563,
+   "length": 695,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.2",
+   "article_title": "The homologation dossier must:",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 2,
+   "pdf_page_start": 65,
+   "pdf_page_end": 65,
+   "printed_page_start": 65,
+   "printed_page_end": 65,
+   "offset": 165258,
+   "length": 375,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.3",
+   "article_title": "A Power Unit will be homologated for a Competitor once a complete homologation dossier",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 65,
+   "pdf_page_end": 65,
+   "printed_page_start": 65,
+   "printed_page_end": 65,
+   "offset": 165633,
+   "length": 281,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.4",
+   "article_title": "Each Power Unit Manufacturer must submit one homologation dossier which applies to all",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 65,
+   "pdf_page_end": 65,
+   "printed_page_start": 65,
+   "printed_page_end": 65,
+   "offset": 165914,
+   "length": 894,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.5",
+   "article_title": "PU Manufacturers carrying out modifications to the homologated Power Unit under the",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 65,
+   "pdf_page_end": 66,
+   "printed_page_start": 65,
+   "printed_page_end": 66,
+   "offset": 166808,
+   "length": 2411,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.1",
+   "article_title": "3 Permitted upgrades for the Power Unit Following the first homologation of a Power Unit by a PU Manufacturer in the period 2026-",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 66,
+   "pdf_page_end": 66,
+   "printed_page_start": 66,
+   "printed_page_end": 66,
+   "offset": 169219,
+   "length": 273,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.2",
+   "article_title": "For the years 2027, 2028, 2029 and 2030, upgrades to the components marked with a “  ” in",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 66,
+   "pdf_page_end": 66,
+   "printed_page_start": 66,
+   "printed_page_end": 66,
+   "offset": 169492,
+   "length": 320,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.3",
+   "article_title": "PU Manufacturers who fulfil the criteria described by Article 4 of this Appendix in year N, will",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 66,
+   "pdf_page_end": 66,
+   "printed_page_start": 66,
+   "printed_page_end": 66,
+   "offset": 169812,
+   "length": 250,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.4",
+   "article_title": "Components may be modified in order to comply with an amendment to the published",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 66,
+   "pdf_page_end": 66,
+   "printed_page_start": 66,
+   "printed_page_end": 66,
+   "offset": 170062,
+   "length": 180,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.5",
+   "article_title": "Minimal incidental changes may be carried out for car installation purposes to the following",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 66,
+   "pdf_page_end": 67,
+   "printed_page_start": 66,
+   "printed_page_end": 67,
+   "offset": 170242,
+   "length": 786,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.6",
+   "article_title": "Modifications may be made to Power Unit components for the sole purposes of reliability,",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 67,
+   "pdf_page_end": 67,
+   "printed_page_start": 67,
+   "printed_page_end": 67,
+   "offset": 171028,
+   "length": 196,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.7",
+   "article_title": "Minor modifications nay be made to Power Unit components subject to the approval process",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 67,
+   "pdf_page_end": 67,
+   "printed_page_start": 67,
+   "printed_page_end": 67,
+   "offset": 171224,
+   "length": 345,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.8",
+   "article_title": "Requests for repair of a Power Unit component in the form of a patch made of the same",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 67,
+   "pdf_page_end": 67,
+   "printed_page_start": 67,
+   "printed_page_end": 67,
+   "offset": 171569,
+   "length": 446,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.9",
+   "article_title": "Changes of fuel and oil suppliers will be accepted, provided such changes are intended for",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 67,
+   "pdf_page_end": 67,
+   "printed_page_start": 67,
+   "printed_page_end": 67,
+   "offset": 172015,
+   "length": 144,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.10",
+   "article_title": "The following additional constraints apply to the permitted modifications discussed in this",
+   "parent_article": "4 — HOMOLOGATION AND DEVELOPMENT OF POWER UNITS, FUEL  AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 67,
+   "pdf_page_end": 69,
+   "printed_page_start": 67,
+   "printed_page_end": 69,
+   "offset": 172159,
+   "length": 5256,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1.1",
+   "article_title": "1 Supply of Power Units for the 2026 to 2030 FIA Formula 1 World Championship Registration Requirement and Effect for Power Unit Manufacturers",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 3,
+   "pdf_page_start": 69,
+   "pdf_page_end": 69,
+   "printed_page_start": 69,
+   "printed_page_end": 69,
+   "offset": 177415,
+   "length": 2348,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "1.1.1",
+     "offset": 223,
+     "length": 507
+    },
+    {
+     "number": "1.1.2",
+     "offset": 730,
+     "length": 351
+    },
+    {
+     "number": "1.1.3",
+     "offset": 1081,
+     "length": 902
+    },
+    {
+     "number": "1.1.4",
+     "offset": 1983,
+     "length": 365
+    }
+   ]
+  },
+  {
+   "article_number": "1.2",
+   "article_title": "Obligations related to the supply of Power Units to a Competitor for the year N",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 3,
+   "pdf_page_start": 69,
+   "pdf_page_end": 70,
+   "printed_page_start": 69,
+   "printed_page_end": 70,
+   "offset": 179763,
+   "length": 3348,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "1.2.1",
+     "offset": 88,
+     "length": 913
+    },
+    {
+     "number": "1.2.2",
+     "offset": 1001,
+     "length": 1761
+    },
+    {
+     "number": "1.2.3",
+     "offset": 2762,
+     "length": 202
+    },
+    {
+     "number": "1.2.4",
+     "offset": 2964,
+     "length": 229
+    },
+    {
+     "number": "1.2.5",
+     "offset": 3193,
+     "length": 155
+    }
+   ]
+  },
+  {
+   "article_number": "1.3",
+   "article_title": "Obligation to the supply Power Units to a New Customer Competitor for the year N",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 2,
+   "pdf_page_start": 70,
+   "pdf_page_end": 73,
+   "printed_page_start": 70,
+   "printed_page_end": 73,
+   "offset": 183111,
+   "length": 11145,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "1.3.1",
+     "offset": 1729,
+     "length": 2007
+    },
+    {
+     "number": "1.3.2",
+     "offset": 3736,
+     "length": 368
+    },
+    {
+     "number": "1.3.3",
+     "offset": 4104,
+     "length": 1374
+    },
+    {
+     "number": "1.3.4",
+     "offset": 5478,
+     "length": 396
+    },
+    {
+     "number": "1.3.5",
+     "offset": 5874,
+     "length": 255
+    },
+    {
+     "number": "1.3.6",
+     "offset": 6129,
+     "length": 282
+    },
+    {
+     "number": "1.3.7",
+     "offset": 6411,
+     "length": 711
+    },
+    {
+     "number": "1.3.8",
+     "offset": 7122,
+     "length": 954
+    },
+    {
+     "number": "1.3.9",
+     "offset": 8076,
+     "length": 284
+    },
+    {
+     "number": "1.3.10",
+     "offset": 8360,
+     "length": 2292
+    },
+    {
+     "number": "1.3.11",
+     "offset": 10652,
+     "length": 493
+    }
+   ]
+  },
+  {
+   "article_number": "1.4",
+   "article_title": "Power unit maximum supply price",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 2,
+   "pdf_page_start": 73,
+   "pdf_page_end": 73,
+   "printed_page_start": 73,
+   "printed_page_end": 73,
+   "offset": 194256,
+   "length": 719,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "2.1",
+   "article_title": "2 Obligations in order to supply Fuel and Engine Oil to a Competitor Obligations of Fuel and Engine Oil Suppliers",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 73,
+   "pdf_page_end": 74,
+   "printed_page_start": 73,
+   "printed_page_end": 74,
+   "offset": 194975,
+   "length": 4236,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "2.1.1",
+     "offset": 122,
+     "length": 1989
+    },
+    {
+     "number": "2.1.2",
+     "offset": 2111,
+     "length": 133
+    },
+    {
+     "number": "2.1.3",
+     "offset": 2244,
+     "length": 486
+    },
+    {
+     "number": "2.1.4",
+     "offset": 2730,
+     "length": 241
+    },
+    {
+     "number": "2.1.5",
+     "offset": 2971,
+     "length": 1265
+    }
+   ]
+  },
+  {
+   "article_number": "2.2",
+   "article_title": "Obligations of Competitors and PU Manufacturers with respect to Fuel and Engine Oil",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 0,
+   "pdf_page_start": 74,
+   "pdf_page_end": 75,
+   "printed_page_start": 74,
+   "printed_page_end": 75,
+   "offset": 199211,
+   "length": 3012,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "2.2.1",
+     "offset": 107,
+     "length": 1534
+    },
+    {
+     "number": "2.2.2",
+     "offset": 1641,
+     "length": 1371
+    }
+   ]
+  },
+  {
+   "article_number": "3.1",
+   "article_title": "Non-exclusivity",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 75,
+   "pdf_page_end": 75,
+   "printed_page_start": 75,
+   "printed_page_end": 75,
+   "offset": 202223,
+   "length": 543,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.2",
+   "article_title": "Licences, patents and pending patent applications",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 75,
+   "pdf_page_end": 76,
+   "printed_page_start": 75,
+   "printed_page_end": 76,
+   "offset": 202766,
+   "length": 2049,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3.3",
+   "article_title": "PU Manufacturer Warranty",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 76,
+   "pdf_page_end": 76,
+   "printed_page_start": 76,
+   "printed_page_end": 76,
+   "offset": 204815,
+   "length": 2328,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.1",
+   "article_title": "5 New PU Manufacturers Definition of a New PU Manufacturer",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 76,
+   "pdf_page_end": 77,
+   "printed_page_start": 76,
+   "printed_page_end": 77,
+   "offset": 207143,
+   "length": 2051,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.2",
+   "article_title": "Partial New PU Manufacturer status",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 77,
+   "pdf_page_end": 77,
+   "printed_page_start": 77,
+   "printed_page_end": 77,
+   "offset": 209194,
+   "length": 1311,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.3",
+   "article_title": "Revocation of the New PU Manufacturer status",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 77,
+   "pdf_page_end": 78,
+   "printed_page_start": 77,
+   "printed_page_end": 78,
+   "offset": 210505,
+   "length": 811,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.4",
+   "article_title": "Transparency",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 78,
+   "pdf_page_end": 78,
+   "printed_page_start": 78,
+   "printed_page_end": 78,
+   "offset": 211316,
+   "length": 456,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5.5",
+   "article_title": "No right of appeal",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 78,
+   "pdf_page_end": 78,
+   "printed_page_start": 78,
+   "printed_page_end": 78,
+   "offset": 211772,
+   "length": 157,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "6.1",
+   "article_title": "6 Definitions An  Automotive Manufacturer  is a Manufacturer of at least one model of automobile (as",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 78,
+   "pdf_page_end": 78,
+   "printed_page_start": 78,
+   "printed_page_end": 78,
+   "offset": 211929,
+   "length": 197,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "6.2",
+   "article_title": "The  Core Activities  of an Automotive Manufacturer are the Design, production and sale of",
+   "parent_article": "5 — SUPPLY OF POWER UNITS, FUEL AND ENGINE OIL FOR 2026-2030",
+   "occurrence": 1,
+   "pdf_page_start": 78,
+   "pdf_page_end": 78,
+   "printed_page_start": 78,
+   "printed_page_end": 78,
+   "offset": 212126,
+   "length": 138,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  }
+ ],
+ "stats": {
+  "comment_spans": 41,
+  "governance_spans": 1,
+  "highlighted_spans": 234,
+  "changed_spans": 234,
+  "tables": 11,
+  "duplicate_articles": 22,
+  "pages": 78,
+  "strike_rects": 79,
+  "ligature_fixes": 1,
+  "ligature_eq": 1,
+  "articles": 107
+ },
+ "extractor_version": 5,
+ "extracted_at": "2026-08-30T15:37:02+00:00"
+}

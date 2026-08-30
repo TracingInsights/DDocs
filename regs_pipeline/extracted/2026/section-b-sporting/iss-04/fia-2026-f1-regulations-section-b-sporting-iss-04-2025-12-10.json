@@ -1,0 +1,4537 @@
+{
+ "doc_id": "2026/section-b-sporting/iss-04",
+ "title": "2026 Formula 1 Regulations : Sporting Regulations",
+ "year": 2026,
+ "section": "B",
+ "regulation_type": "sporting",
+ "section_name": "Regulations Sporting Regulations",
+ "issue": 4,
+ "variant": null,
+ "status": "PUBLISHED",
+ "issue_date": "2025-12-10",
+ "wmsc_approval_date": "2025-12-10",
+ "pages": 98,
+ "source_pdf": "regs/2026/section-a/fia-2026-f1-regulations-section-b-sporting-iss-04-2025-12-10.pdf",
+ "source_hash": "sha256:f56c6e0b478d2363dc7de3cf558d04d4d2294d6e600ba5cbc7751ec2a15ae592",
+ "convention": {
+  "pink": "Changes relative to FIA 2026 F1 Regulations - Section B [Sporting] - Iss03",
+  "red": "Information on applicable Governance and relevant Advisory Committee",
+  "orange": "Reference information on relevant FIA F1 Document(s)",
+  "green": "Comments / explanations / indication of further work: non-binding and non-regulatory"
+ },
+ "toc": [
+  {
+   "article": "ARTICLE B1",
+   "level": 1,
+   "title": "ORGANISATION OF A COMPETITION",
+   "printed_page": 4
+  },
+  {
+   "article": "B1.1",
+   "level": 2,
+   "title": "General Principles & Provisions",
+   "printed_page": 4
+  },
+  {
+   "article": "B1.2",
+   "level": 2,
+   "title": "FIA Delegates",
+   "printed_page": 4
+  },
+  {
+   "article": "B1.3",
+   "level": 2,
+   "title": "Officials",
+   "printed_page": 5
+  },
+  {
+   "article": "B1.4",
+   "level": 2,
+   "title": "Insurance",
+   "printed_page": 6
+  },
+  {
+   "article": "B1.5",
+   "level": 2,
+   "title": "Official Meetings",
+   "printed_page": 6
+  },
+  {
+   "article": "B1.6",
+   "level": 2,
+   "title": "General Safety",
+   "printed_page": 6
+  },
+  {
+   "article": "B1.7",
+   "level": 2,
+   "title": "Pit Entry Road, Pit Lane And Pit Exit Road",
+   "printed_page": 8
+  },
+  {
+   "article": "B1.8",
+   "level": 2,
+   "title": "Changes Of Driver",
+   "printed_page": 10
+  },
+  {
+   "article": "B1.9",
+   "level": 2,
+   "title": "Driving",
+   "printed_page": 11
+  },
+  {
+   "article": "B1.10",
+   "level": 2,
+   "title": "On-Track Incidents, Infringements & Penalties Sanctions",
+   "printed_page": 12
+  },
+  {
+   "article": "B1.11",
+   "level": 2,
+   "title": "Protests, Appeals And Right of Review",
+   "printed_page": 15
+  },
+  {
+   "article": "ARTICLE B2",
+   "level": 1,
+   "title": "FORMAT OF A COMPETITION",
+   "printed_page": 16
+  },
+  {
+   "article": "B2.1",
+   "level": 2,
+   "title": "Free Practice Session(s)",
+   "printed_page": 16
+  },
+  {
+   "article": "B2.2",
+   "level": 2,
+   "title": "Sprint Qualifying Session",
+   "printed_page": 16
+  },
+  {
+   "article": "B2.3",
+   "level": 2,
+   "title": "Sprint Session",
+   "printed_page": 18
+  },
+  {
+   "article": "B2.4",
+   "level": 2,
+   "title": "Race Qualifying Session",
+   "printed_page": 20
+  },
+  {
+   "article": "B2.5",
+   "level": 2,
+   "title": "Race Session",
+   "printed_page": 22
+  },
+  {
+   "article": "ARTICLE B3",
+   "level": 1,
+   "title": "PROCEDURES DURING A COMPETITION",
+   "printed_page": 25
+  },
+  {
+   "article": "B3.1",
+   "level": 2,
+   "title": "Scrutineering",
+   "printed_page": 25
+  },
+  {
+   "article": "B3.2",
+   "level": 2,
+   "title": "Weighing",
+   "printed_page": 26
+  },
+  {
+   "article": "B3.3",
+   "level": 2,
+   "title": "Covering of Components",
+   "printed_page": 27
+  },
+  {
+   "article": "B3.4",
+   "level": 2,
+   "title": "Sealing of Cars",
+   "printed_page": 27
+  },
+  {
+   "article": "B3.5",
+   "level": 2,
+   "title": "Pre-Sprint & Pre-Race Parc Fermé",
+   "printed_page": 29
+  },
+  {
+   "article": "B3.6",
+   "level": 2,
+   "title": "Post Sprint & Post Race Parc Fermé",
+   "printed_page": 30
+  },
+  {
+   "article": "ARTICLE B4",
+   "level": 1,
+   "title": "LAP TIME CLASSIFIED SESSIONS (LTCS)",
+   "printed_page": 31
+  },
+  {
+   "article": "B4.1",
+   "level": 2,
+   "title": "General Provisions for LTCS",
+   "printed_page": 31
+  },
+  {
+   "article": "B4.2",
+   "level": 2,
+   "title": "Speciﬁc Provisions for Free Practice Session(s)",
+   "printed_page": 32
+  },
+  {
+   "article": "B4.3",
+   "level": 2,
+   "title": "Speciﬁc Provisions for Qualifying Session(s)",
+   "printed_page": 32
+  },
+  {
+   "article": "ARTICLE B5",
+   "level": 1,
+   "title": "TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "printed_page": 33
+  },
+  {
+   "article": "B5.1",
+   "level": 2,
+   "title": "General Provisions for TTCS",
+   "printed_page": 33
+  },
+  {
+   "article": "B5.2",
+   "level": 2,
+   "title": "Reconnaissance Lap(s)",
+   "printed_page": 33
+  },
+  {
+   "article": "B5.3",
+   "level": 2,
+   "title": "Pit Lane Starters",
+   "printed_page": 34
+  },
+  {
+   "article": "B5.4",
+   "level": 2,
+   "title": "Delayed Start",
+   "printed_page": 34
+  },
+  {
+   "article": "B5.5",
+   "level": 2,
+   "title": "Grid Procedure",
+   "printed_page": 35
+  },
+  {
+   "article": "B5.6",
+   "level": 2,
+   "title": "Formation Lap",
+   "printed_page": 36
+  },
+  {
+   "article": "B5.7",
+   "level": 2,
+   "title": "Start Procedure",
+   "printed_page": 36
+  },
+  {
+   "article": "B5.8",
+   "level": 2,
+   "title": "Aborted Start",
+   "printed_page": 37
+  },
+  {
+   "article": "B5.9",
+   "level": 2,
+   "title": "Extra Formation Lap(s)",
+   "printed_page": 38
+  },
+  {
+   "article": "B5.10",
+   "level": 2,
+   "title": "Formation Lap(s) Behind the Safety Car",
+   "printed_page": 39
+  },
+  {
+   "article": "B5.11",
+   "level": 2,
+   "title": "False Start",
+   "printed_page": 42
+  },
+  {
+   "article": "B5.12",
+   "level": 2,
+   "title": "Virtual Safety Car (VSC)",
+   "printed_page": 42
+  },
+  {
+   "article": "B5.13",
+   "level": 2,
+   "title": "Safety Car (SC)",
+   "printed_page": 43
+  },
+  {
+   "article": "B5.14",
+   "level": 2,
+   "title": "Suspension Procedure(s)",
+   "printed_page": 46
+  },
+  {
+   "article": "B5.15",
+   "level": 2,
+   "title": "Resumption Procedure",
+   "printed_page": 48
+  },
+  {
+   "article": "B5.16",
+   "level": 2,
+   "title": "Finishing Procedure",
+   "printed_page": 54
+  },
+  {
+   "article": "ARTICLE B6",
+   "level": 1,
+   "title": "TYRE LIMITATIONS",
+   "printed_page": 56
+  },
+  {
+   "article": "B6.1",
+   "level": 2,
+   "title": "Supply Of Tyres",
+   "printed_page": 56
+  },
+  {
+   "article": "B6.2",
+   "level": 2,
+   "title": "Control & Allocation of Tyres",
+   "printed_page": 57
+  },
+  {
+   "article": "B6.3",
+   "level": 2,
+   "title": "Use & Return of Tyres",
+   "printed_page": 58
+  },
+  {
+   "article": "B6.4",
+   "level": 2,
+   "title": "Tyre Return Procedure",
+   "printed_page": 61
+  },
+  {
+   "article": "B6.5",
+   "level": 2,
+   "title": "Speciﬁc Provisions for ICTE",
+   "printed_page": 62
+  },
+  {
+   "article": "B6.6",
+   "level": 2,
+   "title": "Speciﬁc Provisions for ICTT",
+   "printed_page": 62
+  },
+  {
+   "article": "ARTICLE B7",
+   "level": 1,
+   "title": "DRIVER ADJUSTABLE BODYWORK & ENERGY DEPLOYMENT LIMITATIONS",
+   "printed_page": 64
+  },
+  {
+   "article": "B7.1",
+   "level": 2,
+   "title": "Driver Adjustable Bodywork",
+   "printed_page": 64
+  },
+  {
+   "article": "B7.2",
+   "level": 2,
+   "title": "Energy Deployment Limitations",
+   "printed_page": 65
+  },
+  {
+   "article": "ARTICLE B8",
+   "level": 1,
+   "title": "CAR & COMPONENT LIMITATIONS",
+   "printed_page": 68
+  },
+  {
+   "article": "B8.2",
+   "level": 2,
+   "title": "Power Unit Limitations & Usage",
+   "printed_page": 68
+  },
+  {
+   "article": "ARTICLE B9",
+   "level": 1,
+   "title": "PERSONNEL LIMITATIONS",
+   "printed_page": 71
+  },
+  {
+   "article": "B9.1",
+   "level": 2,
+   "title": "General Provisions",
+   "printed_page": 71
+  },
+  {
+   "article": "B9.2",
+   "level": 2,
+   "title": "Operational Personnel",
+   "printed_page": 71
+  },
+  {
+   "article": "B9.3",
+   "level": 2,
+   "title": "Trainee Personnel",
+   "printed_page": 71
+  },
+  {
+   "article": "B9.4",
+   "level": 2,
+   "title": "Declaration of Personnel",
+   "printed_page": 71
+  },
+  {
+   "article": "B9.5",
+   "level": 2,
+   "title": "Restricted Period(s)",
+   "printed_page": 71
+  },
+  {
+   "article": "ARTICLE B10",
+   "level": 1,
+   "title": "MEDIA ACTIVITIES & OFFICIAL CERMONIES",
+   "printed_page": 74
+  },
+  {
+   "article": "B10.1",
+   "level": 2,
+   "title": "Media Activities",
+   "printed_page": 74
+  },
+  {
+   "article": "B10.2",
+   "level": 2,
+   "title": "Podium Ceremony",
+   "printed_page": 77
+  },
+  {
+   "article": "ARTICLE B11",
+   "level": 1,
+   "title": "TRACK RUNNING OUTSIDE A COMPETITION",
+   "printed_page": 78
+  },
+  {
+   "article": "B11.1",
+   "level": 2,
+   "title": "General Provisions for Track Running Outside a Competition",
+   "printed_page": 78
+  },
+  {
+   "article": "B11.2",
+   "level": 2,
+   "title": "Provisions for TCC",
+   "printed_page": 78
+  },
+  {
+   "article": "B11.3",
+   "level": 2,
+   "title": "Provisions for TPC",
+   "printed_page": 81
+  },
+  {
+   "article": "B11.4",
+   "level": 2,
+   "title": "Provisions for TMC",
+   "printed_page": 81
+  },
+  {
+   "article": "B11.5",
+   "level": 2,
+   "title": "Provisions for THC",
+   "printed_page": 83
+  },
+  {
+   "article": "B11.6",
+   "level": 2,
+   "title": "Provisions for PE",
+   "printed_page": 84
+  },
+  {
+   "article": "B11.7",
+   "level": 2,
+   "title": "Provisions for DE",
+   "printed_page": 84
+  },
+  {
+   "article": "B11.8",
+   "level": 2,
+   "title": "Safety Requirements, Technical Requirements & Car Limitations",
+   "printed_page": 84
+  },
+  {
+   "article": "APPENDIX B1",
+   "level": 1,
+   "title": "DEFINITIONS",
+   "printed_page": 86
+  },
+  {
+   "article": "APPENDIX B2",
+   "level": 1,
+   "title": "PARC FERME PERMITTED WORKS",
+   "printed_page": 88
+  },
+  {
+   "article": "APPENDIX B3",
+   "level": 1,
+   "title": "PROCEDURES FOR REGULATORY SUBMISSIONS",
+   "printed_page": 91
+  },
+  {
+   "article": "APPENDIX B4",
+   "level": 1,
+   "title": "INFORMATION REQUIRED 90 DAYS BEFORE A COMPETITION",
+   "printed_page": 92
+  },
+  {
+   "article": "APPENDIX B5",
+   "level": 1,
+   "title": "PODIUM CEREMONY",
+   "printed_page": 93
+  },
+  {
+   "article": "APPENDIX B6",
+   "level": 1,
+   "title": "APPROVED CHANGES TO SECTION B FOR SUBSEQUENT YEARS",
+   "printed_page": 96
+  }
+ ],
+ "tables": [
+  {
+   "pdf_page": 88,
+   "printed_page": 88,
+   "bbox": [
+    43.0,
+    128.5,
+    552.9,
+    173.0
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "1.1",
+     "Brake friction material may be removed, measured, de-glazed and refitted",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1.2",
+     "The brake system may be bled.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 88,
+   "printed_page": 88,
+   "bbox": [
+    43.0,
+    189.2,
+    552.9,
+    415.4
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "2.1",
+     "The aerodynamic setup of the front wing may be adjusted using the existing parts. No parts may be added, removed or replaced.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "2.2",
+     "Bodywork (excluding radiators and heat exchangers) may be removed.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "2.3",
+     "Bodywork components may be inspected with the use of NDT methods, provided no disassembly takes place.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "2.4",
+     "Cosmetic changes may be mad to the bodywork and tape may be added.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "2.5",
+     "Any part of the car may be cleaned.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "2.6",
+     "Bodywork fixings and cable ties (consumable fasteners) may be replaced.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "2.7",
+     "Any bodywork component may be repaired where the damage is patched, bonded, or fixed together. Any such repair must cause no more than incidental changes in bodywork geometry, no replacement components or sub-components may be used.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "2.8",
+     "The front wing, brake drums and wheel nut retention caps may be changed for pitstop practice items, provided the original components stay in vision of the scrutineer and are refitted once pitstop practice is completed.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 88,
+   "printed_page": 88,
+   "bbox": [
+    43.0,
+    431.6,
+    552.9,
+    628.2
+   ],
+   "cells": [
+    [
+     "If the Technical Delegate is satisfied that changes in climatic conditions necessitate alterations of the specification of a car, all competitors will be notified (via the official messaging system) with the message “CHANGE IN CLIMATIC CONDITIONS”. From this point onwards until the start of the subsequent sprint session or race changes may be made to:",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "3.1",
+     "Components specified in Articles C3.14.4 and C3.15.5.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "3.2",
+     "Power unit and / or gearbox cooling bodywork that lies within RV-BODY-REAR and / or RV-RBW-EC reference volumes as defined in Appendix C2: Regulation Volumes.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "3.3",
+     "The settings of any bypass valves or flow restrictors used within the liquid part(s) of the cooling system(s) may also be adjusted, for the sole purpose of adjusting power unit and / or gearbox cooling.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "3.4",
+     "The addition or removal of the Driver Cooling Scoop described in Article C3.7.6.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 88,
+   "printed_page": 88,
+   "bbox": [
+    43.0,
+    644.3,
+    552.9,
+    750.0
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "4.1",
+     "Changes to improve the driver’s comfort. In this context anything other than the adjustment of the mirrors, seat belts and pedals may only be carried out with the specific permission of the Technical Delegate.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "4.2",
+     "Should ambient temperature change significantly, Competitors will be requested (via the official messaging system) to change the head padding required by Article C12.6.1.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 89,
+   "printed_page": 89,
+   "bbox": [
+    54.0,
+    86.6,
+    552.9,
+    192.7
+   ],
+   "cells": [
+    [
+     "4.3",
+     "The addition or removal of padding (or similar material) is also permitted but may only be carried out under supervision and, if required by the Technical Delegate, must be removed before the post-race weighing procedure."
+    ],
+    [
+     "4.4",
+     "If a Heat Hazard has been declared in accordance with B1.6.10, the cooling medium used in the Driver Cooling System, as defined in Article C14.6, may be added, replenished or replaced. Any other work associated with the heat hazard system may only be carried out with the specific permission of the Technical Delegate."
+    ]
+   ]
+  },
+  {
+   "pdf_page": 89,
+   "printed_page": 89,
+   "bbox": [
+    42.8,
+    208.9,
+    552.9,
+    497.5
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "5.1",
+     "F1 on board cameras, F1 team telemetry system components, voice radio communication system components, marshalling system components, timing transponders, FIA ADR, high speed camera and any associated equipment may be removed, refitted, or checked or replaced if requested by the relevant FIA designated supplier.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "5.2",
+     "A jump battery may be connected and on-board electrical units may be freely accessed via a physical connection to the car.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "5.3",
+     "Safety checks, including the charging and / or discharging of the ERS energy storage devices.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "5.4",
+     "Batteries specifically used to power the clutch disengagement system and / or fire extinguisher may be charged or replaced.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "5.5",
+     "The power supply to the onboard fire extinguisher may be disconnected, but must be reconnected before the car exits the Pit Lane.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "5.6",
+     "The repair of an electronic component (e.g. damaged connector pin, wiring loom involving heatshrink, protecting sleeving, enclosure bonding).",
+     ""
+    ],
+    [
+     "",
+     "",
+     "5.7",
+     "Damaged sensor lenses may be replaced provided the actual sensor remains unchanged. In such cases any damaged lenses must be retained by the FIA.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "5.8",
+     "Pitot tubes may be removed, cleaned, refitted and functionality checked. Pitot tubes may be covered or uncovered.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 89,
+   "printed_page": 89,
+   "bbox": [
+    42.8,
+    513.7,
+    552.9,
+    725.6
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "6.1",
+     "Fuel may be drained or added.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "6.2",
+     "Compressed gases may be drained or added.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "6.3",
+     "Permitted breather, heating or cooling devices may be fitted.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "6.4",
+     "Fluids may be drained and/or replenished, however, fluids used for replenishment must conform to the same specification as the original fluids(s). Fluid systems may be bled.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "6.5",
+     "Drinking fluid for the driver may be added at any time, however, the capacity of the container for any such fluid must not exceed 1.5 litres.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "6.6",
+     "System checks may be carried out on fluid systems, including taking fluid samples for analysis.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "6.7",
+     "Leak detection spray may be used to inspect fluid systems for leaks.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "6.8",
+     "Inboard and outboard suspension sphericals may be lubricated.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 90,
+   "printed_page": 90,
+   "bbox": [
+    42.9,
+    71.6,
+    553.2,
+    146.4
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "7.1",
+     "Damage sustained as a result of contact with a barrier.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "7.2",
+     "Damage sustained as a result of contact with another car on track.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "7.3",
+     "Damage incurred whilst off track limits, which also result in significant loss of lap time or a lap time which is deleted by the Race Director.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 90,
+   "printed_page": 90,
+   "bbox": [
+    42.9,
+    162.6,
+    553.2,
+    329.2
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "8.1",
+     "Engines may be started.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "8.2",
+     "Spark plugs may be removed in order to carry out an internal engine inspection and cylinder compression checks.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "8.3",
+     "The air intake filter upstream of the compressor may be inspected and cleaned.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "8.4",
+     "Inspection bungs may be removed in order to carry out an internal gearbox inspection (borescope). The gearbox must not be disassembled from the car to carry out this inspection.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "8.5",
+     "The exhaust system may be inspected, including the use of NDT methods.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 90,
+   "printed_page": 90,
+   "bbox": [
+    42.9,
+    345.3,
+    553.2,
+    389.8
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "9.1",
+     "Wheels, wheel fasteners and tyres may be removed, changed or rebalanced.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "9.2",
+     "Tyre pressures may be adjusted.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 90,
+   "printed_page": 90,
+   "bbox": [
+    42.9,
+    406.0,
+    553.2,
+    481.6
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "10.1",
+     "The car may be weighed using an allocated tyre set (or a set of travel tyres). The use of machined setup plates is not permitted.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "10.2",
+     "Exhaust extraction devices may be fitted whilst starting the engine in the garage.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 90,
+   "printed_page": 90,
+   "bbox": [
+    42.9,
+    497.8,
+    553.2,
+    573.0
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "11.1",
+     "A change of car, as defined in Article B8.1.2, if that car has suffered genuine accident damage or has suffered a significant failure or fault, as defined in Article B8.1.1, necessitating a change of survival cell. All components of the replacement car must be the same in design and similar in mass, inertia, and function to the original car. The set-up of the suspension must be the same.",
+     ""
+    ]
+   ]
+  },
+  {
+   "pdf_page": 90,
+   "printed_page": 90,
+   "bbox": [
+    42.9,
+    589.1,
+    553.2,
+    618.8
+   ],
+   "cells": [
+    [
+     "",
+     "",
+     "12.1",
+     "Any work requested by the Technical Delegate.",
+     ""
+    ]
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "article_number": "FRONT_MATTER",
+   "article_title": "Front matter (cover, convention, contents)",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 1,
+   "pdf_page_end": 3,
+   "printed_page_start": 1,
+   "printed_page_end": 3,
+   "offset": 64,
+   "length": 3809,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": true,
+   "has_reference": true,
+   "has_comment": true,
+   "n_changed": 2,
+   "n_removed": 5,
+   "clauses": []
+  },
+  {
+   "article_number": "BODY_INTRO",
+   "article_title": "Body introduction",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 4,
+   "pdf_page_end": 4,
+   "printed_page_start": 4,
+   "printed_page_end": 4,
+   "offset": 3873,
+   "length": 10,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "B1.1",
+   "article_title": "General Principles & Provisions",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 4,
+   "pdf_page_end": 4,
+   "printed_page_start": 4,
+   "printed_page_end": 4,
+   "offset": 3883,
+   "length": 2480,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B1.1.1",
+     "offset": 169,
+     "length": 99
+    },
+    {
+     "number": "B1.1.2",
+     "offset": 268,
+     "length": 94
+    },
+    {
+     "number": "B1.1.3",
+     "offset": 362,
+     "length": 96
+    },
+    {
+     "number": "B1.1.4",
+     "offset": 458,
+     "length": 290
+    },
+    {
+     "number": "B1.1.5",
+     "offset": 748,
+     "length": 682
+    },
+    {
+     "number": "B1.1.6",
+     "offset": 1430,
+     "length": 388
+    },
+    {
+     "number": "B1.1.7",
+     "offset": 1818,
+     "length": 141
+    },
+    {
+     "number": "B1.1.8",
+     "offset": 1959,
+     "length": 517
+    }
+   ]
+  },
+  {
+   "article_number": "B1.2",
+   "article_title": "FIA Delegates",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 4,
+   "pdf_page_end": 5,
+   "printed_page_start": 4,
+   "printed_page_end": 5,
+   "offset": 6363,
+   "length": 1167,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B1.2.1",
+     "offset": 23,
+     "length": 366
+    },
+    {
+     "number": "B1.2.2",
+     "offset": 389,
+     "length": 317
+    },
+    {
+     "number": "B1.2.3",
+     "offset": 706,
+     "length": 460
+    }
+   ]
+  },
+  {
+   "article_number": "B1.3",
+   "article_title": "Officials",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 5,
+   "pdf_page_end": 6,
+   "printed_page_start": 5,
+   "printed_page_end": 6,
+   "offset": 7530,
+   "length": 2221,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B1.3.1",
+     "offset": 19,
+     "length": 247
+    },
+    {
+     "number": "B1.3.2",
+     "offset": 266,
+     "length": 281
+    },
+    {
+     "number": "B1.3.3",
+     "offset": 547,
+     "length": 983
+    },
+    {
+     "number": "B1.3.4",
+     "offset": 1530,
+     "length": 145
+    },
+    {
+     "number": "B1.3.5",
+     "offset": 1675,
+     "length": 185
+    },
+    {
+     "number": "B1.3.6",
+     "offset": 1860,
+     "length": 216
+    },
+    {
+     "number": "B1.3.7",
+     "offset": 2076,
+     "length": 144
+    }
+   ]
+  },
+  {
+   "article_number": "B1.4",
+   "article_title": "Insurance",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 6,
+   "pdf_page_end": 6,
+   "printed_page_start": 6,
+   "printed_page_end": 6,
+   "offset": 9751,
+   "length": 945,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B1.4.1",
+     "offset": 19,
+     "length": 183
+    },
+    {
+     "number": "B1.4.2",
+     "offset": 202,
+     "length": 288
+    },
+    {
+     "number": "B1.4.3",
+     "offset": 490,
+     "length": 201
+    },
+    {
+     "number": "B1.4.3",
+     "offset": 691,
+     "length": 254
+    }
+   ]
+  },
+  {
+   "article_number": "B1.5",
+   "article_title": "Official Meetings",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 6,
+   "pdf_page_end": 6,
+   "printed_page_start": 6,
+   "printed_page_end": 6,
+   "offset": 10696,
+   "length": 996,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B1.5.1",
+     "offset": 27,
+     "length": 385
+    },
+    {
+     "number": "B1.5.2",
+     "offset": 412,
+     "length": 318
+    },
+    {
+     "number": "B1.5.3",
+     "offset": 730,
+     "length": 263
+    }
+   ]
+  },
+  {
+   "article_number": "B1.6",
+   "article_title": "General Safety",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 6,
+   "pdf_page_end": 8,
+   "printed_page_start": 6,
+   "printed_page_end": 8,
+   "offset": 11692,
+   "length": 5164,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B1.6.1",
+     "offset": 24,
+     "length": 258
+    },
+    {
+     "number": "B1.6.2",
+     "offset": 282,
+     "length": 284
+    },
+    {
+     "number": "B1.6.3",
+     "offset": 566,
+     "length": 253
+    },
+    {
+     "number": "B1.6.4",
+     "offset": 819,
+     "length": 872
+    },
+    {
+     "number": "B1.6.5",
+     "offset": 1691,
+     "length": 780
+    },
+    {
+     "number": "B1.6.6",
+     "offset": 2471,
+     "length": 152
+    },
+    {
+     "number": "B1.6.7",
+     "offset": 2623,
+     "length": 202
+    },
+    {
+     "number": "B1.6.8",
+     "offset": 2825,
+     "length": 209
+    },
+    {
+     "number": "B1.6.9",
+     "offset": 3034,
+     "length": 1022
+    },
+    {
+     "number": "B1.6.10",
+     "offset": 4056,
+     "length": 1095
+    }
+   ]
+  },
+  {
+   "article_number": "B1.7",
+   "article_title": "Pit Entry Road, Pit Lane And Pit Exit Road",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 8,
+   "pdf_page_end": 10,
+   "printed_page_start": 8,
+   "printed_page_end": 10,
+   "offset": 16856,
+   "length": 6616,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 5,
+   "n_removed": 8,
+   "clauses": [
+    {
+     "number": "B1.7.1",
+     "offset": 52,
+     "length": 1066
+    },
+    {
+     "number": "B1.7.2",
+     "offset": 1118,
+     "length": 2830
+    },
+    {
+     "number": "B1.7.3",
+     "offset": 3948,
+     "length": 2185
+    },
+    {
+     "number": "B1.7.4",
+     "offset": 6133,
+     "length": 473
+    }
+   ]
+  },
+  {
+   "article_number": "B1.8",
+   "article_title": "Changes Of Driver",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 10,
+   "pdf_page_end": 11,
+   "printed_page_start": 10,
+   "printed_page_end": 11,
+   "offset": 23472,
+   "length": 2270,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B1.8.1",
+     "offset": 27,
+     "length": 172
+    },
+    {
+     "number": "B1.8.2",
+     "offset": 199,
+     "length": 635
+    },
+    {
+     "number": "B1.8.3",
+     "offset": 834,
+     "length": 1120
+    },
+    {
+     "number": "B1.8.4",
+     "offset": 1954,
+     "length": 316
+    }
+   ]
+  },
+  {
+   "article_number": "B1.9",
+   "article_title": "Driving",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 11,
+   "pdf_page_end": 12,
+   "printed_page_start": 11,
+   "printed_page_end": 12,
+   "offset": 25742,
+   "length": 4327,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 6,
+   "n_removed": 8,
+   "clauses": [
+    {
+     "number": "B1.9.1",
+     "offset": 17,
+     "length": 61
+    },
+    {
+     "number": "B1.9.2",
+     "offset": 78,
+     "length": 154
+    },
+    {
+     "number": "B1.9.3",
+     "offset": 232,
+     "length": 116
+    },
+    {
+     "number": "B1.9.4",
+     "offset": 348,
+     "length": 1637
+    },
+    {
+     "number": "B1.9.5",
+     "offset": 1985,
+     "length": 174
+    },
+    {
+     "number": "B1.9.6",
+     "offset": 2159,
+     "length": 683
+    },
+    {
+     "number": "B1.9.7",
+     "offset": 2842,
+     "length": 719
+    },
+    {
+     "number": "B1.9.8",
+     "offset": 3561,
+     "length": 157
+    },
+    {
+     "number": "B1.9.9",
+     "offset": 3718,
+     "length": 592
+    }
+   ]
+  },
+  {
+   "article_number": "B1.10",
+   "article_title": "On-Track  Incidents, Infringements & Penalties Sanctions",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 12,
+   "pdf_page_end": 15,
+   "printed_page_start": 12,
+   "printed_page_end": 15,
+   "offset": 30069,
+   "length": 8757,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 29,
+   "n_removed": 36,
+   "clauses": [
+    {
+     "number": "B1.10.1",
+     "offset": 67,
+     "length": 223
+    },
+    {
+     "number": "B1.10.2",
+     "offset": 290,
+     "length": 1042
+    },
+    {
+     "number": "B1.10.3",
+     "offset": 1332,
+     "length": 682
+    },
+    {
+     "number": "B1.10.4",
+     "offset": 2014,
+     "length": 1710
+    },
+    {
+     "number": "B1.10.5",
+     "offset": 3724,
+     "length": 5019
+    }
+   ]
+  },
+  {
+   "article_number": "B1.11",
+   "article_title": "Protests, Appeals And Right of Review",
+   "parent_article": "B1 — ORGANISATION OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 15,
+   "pdf_page_end": 16,
+   "printed_page_start": 15,
+   "printed_page_end": 16,
+   "offset": 38826,
+   "length": 1145,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 4,
+   "n_removed": 20,
+   "clauses": [
+    {
+     "number": "B1.11.1",
+     "offset": 48,
+     "length": 122
+    },
+    {
+     "number": "B1.11.2",
+     "offset": 170,
+     "length": 121
+    },
+    {
+     "number": "B1.11.3",
+     "offset": 291,
+     "length": 134
+    },
+    {
+     "number": "B1.10.6",
+     "offset": 425,
+     "length": 720
+    }
+   ]
+  },
+  {
+   "article_number": "B2.1",
+   "article_title": "Free Practice Session(s)",
+   "parent_article": "B2 — FORMAT OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 16,
+   "pdf_page_end": 16,
+   "printed_page_start": 16,
+   "printed_page_end": 16,
+   "offset": 39971,
+   "length": 1677,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B2.1.1",
+     "offset": 156,
+     "length": 959
+    },
+    {
+     "number": "B2.1.2",
+     "offset": 1115,
+     "length": 224
+    },
+    {
+     "number": "B2.1.3",
+     "offset": 1339,
+     "length": 331
+    }
+   ]
+  },
+  {
+   "article_number": "B2.2",
+   "article_title": "Sprint Qualifying Session",
+   "parent_article": "B2 — FORMAT OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 16,
+   "pdf_page_end": 18,
+   "printed_page_start": 16,
+   "printed_page_end": 18,
+   "offset": 41648,
+   "length": 4992,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 25,
+   "n_removed": 13,
+   "clauses": [
+    {
+     "number": "B2.2.1",
+     "offset": 35,
+     "length": 356
+    },
+    {
+     "number": "B2.2.2",
+     "offset": 391,
+     "length": 1067
+    },
+    {
+     "number": "B2.2.3",
+     "offset": 1458,
+     "length": 3509
+    }
+   ]
+  },
+  {
+   "article_number": "B2.3",
+   "article_title": "Sprint Session",
+   "parent_article": "B2 — FORMAT OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 18,
+   "pdf_page_end": 20,
+   "printed_page_start": 18,
+   "printed_page_end": 20,
+   "offset": 46640,
+   "length": 6263,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 2,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B2.3.1",
+     "offset": 24,
+     "length": 140
+    },
+    {
+     "number": "B2.3.2",
+     "offset": 164,
+     "length": 515
+    },
+    {
+     "number": "B2.3.3",
+     "offset": 679,
+     "length": 1294
+    },
+    {
+     "number": "B2.3.4",
+     "offset": 1973,
+     "length": 3459
+    },
+    {
+     "number": "B2.3.5",
+     "offset": 5432,
+     "length": 803
+    }
+   ]
+  },
+  {
+   "article_number": "B2.4",
+   "article_title": "Race Qualifying Session",
+   "parent_article": "B2 — FORMAT OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 20,
+   "pdf_page_end": 22,
+   "printed_page_start": 20,
+   "printed_page_end": 22,
+   "offset": 52903,
+   "length": 5035,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 25,
+   "n_removed": 11,
+   "clauses": [
+    {
+     "number": "B2.4.1",
+     "offset": 33,
+     "length": 503
+    },
+    {
+     "number": "B2.4.2",
+     "offset": 536,
+     "length": 1038
+    },
+    {
+     "number": "B2.4.3",
+     "offset": 1574,
+     "length": 3436
+    }
+   ]
+  },
+  {
+   "article_number": "B2.5",
+   "article_title": "Race Session",
+   "parent_article": "B2 — FORMAT OF A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 22,
+   "pdf_page_end": 25,
+   "printed_page_start": 22,
+   "printed_page_end": 25,
+   "offset": 57938,
+   "length": 6261,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 3,
+   "n_removed": 1,
+   "clauses": [
+    {
+     "number": "B2.5.1",
+     "offset": 22,
+     "length": 116
+    },
+    {
+     "number": "B2.5.2",
+     "offset": 138,
+     "length": 638
+    },
+    {
+     "number": "B2.5.3",
+     "offset": 776,
+     "length": 1274
+    },
+    {
+     "number": "B2.5.4",
+     "offset": 2050,
+     "length": 3367
+    },
+    {
+     "number": "B2.5.5",
+     "offset": 5417,
+     "length": 817
+    }
+   ]
+  },
+  {
+   "article_number": "B3.1",
+   "article_title": "Scrutineering",
+   "parent_article": "B3 — PROCEDURES DURING A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 25,
+   "pdf_page_end": 26,
+   "printed_page_start": 25,
+   "printed_page_end": 26,
+   "offset": 64199,
+   "length": 4637,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 32,
+   "n_removed": 6,
+   "clauses": [
+    {
+     "number": "B3.1.1",
+     "offset": 153,
+     "length": 671
+    },
+    {
+     "number": "B3.1.2",
+     "offset": 824,
+     "length": 246
+    },
+    {
+     "number": "B3.1.3",
+     "offset": 1070,
+     "length": 622
+    },
+    {
+     "number": "B3.1.4",
+     "offset": 1692,
+     "length": 1937
+    },
+    {
+     "number": "B3.1.5",
+     "offset": 3629,
+     "length": 103
+    },
+    {
+     "number": "B3.1.6",
+     "offset": 3732,
+     "length": 222
+    },
+    {
+     "number": "B3.1.7",
+     "offset": 3954,
+     "length": 430
+    },
+    {
+     "number": "B3.1.8",
+     "offset": 4384,
+     "length": 242
+    }
+   ]
+  },
+  {
+   "article_number": "B3.2",
+   "article_title": "Weighing",
+   "parent_article": "B3 — PROCEDURES DURING A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 26,
+   "pdf_page_end": 27,
+   "printed_page_start": 26,
+   "printed_page_end": 27,
+   "offset": 68836,
+   "length": 2178,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 4,
+   "n_removed": 1,
+   "clauses": [
+    {
+     "number": "B3.2.1",
+     "offset": 18,
+     "length": 1202
+    },
+    {
+     "number": "B3.2.2",
+     "offset": 1220,
+     "length": 242
+    },
+    {
+     "number": "B3.2.3",
+     "offset": 1462,
+     "length": 263
+    },
+    {
+     "number": "B3.2.4",
+     "offset": 1725,
+     "length": 238
+    },
+    {
+     "number": "B3.2.5",
+     "offset": 1963,
+     "length": 210
+    }
+   ]
+  },
+  {
+   "article_number": "B3.3",
+   "article_title": "Covering of Components",
+   "parent_article": "B3 — PROCEDURES DURING A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 27,
+   "pdf_page_end": 27,
+   "printed_page_start": 27,
+   "printed_page_end": 27,
+   "offset": 71014,
+   "length": 1509,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B3.4.1",
+     "offset": 32,
+     "length": 371
+    },
+    {
+     "number": "B3.4.2",
+     "offset": 403,
+     "length": 416
+    },
+    {
+     "number": "B3.4.3",
+     "offset": 819,
+     "length": 685
+    }
+   ]
+  },
+  {
+   "article_number": "B3.4",
+   "article_title": "Sealing of Cars",
+   "parent_article": "B3 — PROCEDURES DURING A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 27,
+   "pdf_page_end": 29,
+   "printed_page_start": 27,
+   "printed_page_end": 29,
+   "offset": 72523,
+   "length": 3362,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B3.4.1",
+     "offset": 25,
+     "length": 1509
+    },
+    {
+     "number": "B3.4.2",
+     "offset": 1534,
+     "length": 881
+    },
+    {
+     "number": "B3.4.3",
+     "offset": 2415,
+     "length": 844
+    },
+    {
+     "number": "B3.4.4",
+     "offset": 3259,
+     "length": 98
+    }
+   ]
+  },
+  {
+   "article_number": "B3.5",
+   "article_title": "Pre-Sprint & Pre-Race Parc Fermé",
+   "parent_article": "B3 — PROCEDURES DURING A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 29,
+   "pdf_page_end": 30,
+   "printed_page_start": 29,
+   "printed_page_end": 30,
+   "offset": 75885,
+   "length": 4410,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B3.5.1",
+     "offset": 42,
+     "length": 478
+    },
+    {
+     "number": "B3.5.2",
+     "offset": 520,
+     "length": 241
+    },
+    {
+     "number": "B3.5.3",
+     "offset": 761,
+     "length": 182
+    },
+    {
+     "number": "B3.5.4",
+     "offset": 943,
+     "length": 1319
+    },
+    {
+     "number": "B3.5.5",
+     "offset": 2262,
+     "length": 542
+    },
+    {
+     "number": "B3.5.6",
+     "offset": 2804,
+     "length": 240
+    },
+    {
+     "number": "B3.5.7",
+     "offset": 3044,
+     "length": 951
+    },
+    {
+     "number": "B3.5.8",
+     "offset": 3995,
+     "length": 186
+    },
+    {
+     "number": "B3.5.9",
+     "offset": 4181,
+     "length": 217
+    }
+   ]
+  },
+  {
+   "article_number": "B3.6",
+   "article_title": "Post Sprint & Post Race Parc Fermé",
+   "parent_article": "B3 — PROCEDURES DURING A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 30,
+   "pdf_page_end": 31,
+   "printed_page_start": 30,
+   "printed_page_end": 31,
+   "offset": 80295,
+   "length": 880,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B3.6.1",
+     "offset": 44,
+     "length": 166
+    },
+    {
+     "number": "B3.6.2",
+     "offset": 210,
+     "length": 135
+    },
+    {
+     "number": "B3.6.3",
+     "offset": 345,
+     "length": 332
+    },
+    {
+     "number": "B3.6.4",
+     "offset": 677,
+     "length": 114
+    },
+    {
+     "number": "B3.6.5",
+     "offset": 791,
+     "length": 88
+    }
+   ]
+  },
+  {
+   "article_number": "B4.1",
+   "article_title": "General Provisions for LTCS",
+   "parent_article": "B4 — LAP TIME CLASSIFIED SESSIONS (LTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 31,
+   "pdf_page_end": 32,
+   "printed_page_start": 31,
+   "printed_page_end": 32,
+   "offset": 81175,
+   "length": 3836,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 3,
+   "n_removed": 5,
+   "clauses": [
+    {
+     "number": "B4.1.1",
+     "offset": 171,
+     "length": 225
+    },
+    {
+     "number": "B4.1.2",
+     "offset": 396,
+     "length": 949
+    },
+    {
+     "number": "B4.1.3",
+     "offset": 1345,
+     "length": 600
+    },
+    {
+     "number": "B4.1.4",
+     "offset": 1945,
+     "length": 1884
+    }
+   ]
+  },
+  {
+   "article_number": "B4.2",
+   "article_title": "Specific Provisions for Free Practice Session(s)",
+   "parent_article": "B4 — LAP TIME CLASSIFIED SESSIONS (LTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 32,
+   "pdf_page_end": 32,
+   "printed_page_start": 32,
+   "printed_page_end": 32,
+   "offset": 85011,
+   "length": 1423,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 9,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B4.2.1",
+     "offset": 57,
+     "length": 376
+    },
+    {
+     "number": "B4.2.2",
+     "offset": 433,
+     "length": 985
+    }
+   ]
+  },
+  {
+   "article_number": "B4.3",
+   "article_title": "Specific Provisions for  Sprint Qualifying and  Qualifying Session(s)",
+   "parent_article": "B4 — LAP TIME CLASSIFIED SESSIONS (LTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 32,
+   "pdf_page_end": 33,
+   "printed_page_start": 32,
+   "printed_page_end": 33,
+   "offset": 86434,
+   "length": 1134,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 23,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B4.3.1",
+     "offset": 78,
+     "length": 695
+    },
+    {
+     "number": "B4.3.2",
+     "offset": 773,
+     "length": 211
+    },
+    {
+     "number": "B4.3.3",
+     "offset": 984,
+     "length": 148
+    }
+   ]
+  },
+  {
+   "article_number": "B5.1",
+   "article_title": "General Provisions for TTCS",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 33,
+   "pdf_page_end": 33,
+   "printed_page_start": 33,
+   "printed_page_end": 33,
+   "offset": 87568,
+   "length": 1965,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 1,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B5.1.1",
+     "offset": 173,
+     "length": 85
+    },
+    {
+     "number": "B5.1.2",
+     "offset": 258,
+     "length": 131
+    },
+    {
+     "number": "B5.1.3",
+     "offset": 389,
+     "length": 144
+    },
+    {
+     "number": "B5.1.4",
+     "offset": 533,
+     "length": 269
+    },
+    {
+     "number": "B5.1.5",
+     "offset": 802,
+     "length": 250
+    },
+    {
+     "number": "B5.1.6",
+     "offset": 1052,
+     "length": 265
+    },
+    {
+     "number": "B5.1.7",
+     "offset": 1317,
+     "length": 225
+    },
+    {
+     "number": "B5.1.8",
+     "offset": 1542,
+     "length": 178
+    },
+    {
+     "number": "B5.1.9",
+     "offset": 1720,
+     "length": 240
+    }
+   ]
+  },
+  {
+   "article_number": "B5.2",
+   "article_title": "Reconnaissance Lap(s)",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 33,
+   "pdf_page_end": 34,
+   "printed_page_start": 33,
+   "printed_page_end": 34,
+   "offset": 89533,
+   "length": 2231,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B5.2.1",
+     "offset": 31,
+     "length": 315
+    },
+    {
+     "number": "B5.2.2",
+     "offset": 346,
+     "length": 1294
+    },
+    {
+     "number": "B5.2.3",
+     "offset": 1640,
+     "length": 230
+    },
+    {
+     "number": "B5.2.4",
+     "offset": 1870,
+     "length": 159
+    },
+    {
+     "number": "B5.2.5",
+     "offset": 2029,
+     "length": 200
+    }
+   ]
+  },
+  {
+   "article_number": "B5.3",
+   "article_title": "Pit Lane Starters",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 34,
+   "pdf_page_end": 34,
+   "printed_page_start": 34,
+   "printed_page_end": 34,
+   "offset": 91764,
+   "length": 1429,
+   "has_changes": false,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 1,
+   "clauses": [
+    {
+     "number": "B5.3.1",
+     "offset": 27,
+     "length": 347
+    },
+    {
+     "number": "B5.3.2",
+     "offset": 374,
+     "length": 344
+    },
+    {
+     "number": "B5.3.3",
+     "offset": 718,
+     "length": 708
+    }
+   ]
+  },
+  {
+   "article_number": "B5.4",
+   "article_title": "Delayed Start",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 34,
+   "pdf_page_end": 35,
+   "printed_page_start": 34,
+   "printed_page_end": 35,
+   "offset": 93193,
+   "length": 469,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B5.4.1",
+     "offset": 23,
+     "length": 352
+    },
+    {
+     "number": "B5.4.2",
+     "offset": 375,
+     "length": 94
+    }
+   ]
+  },
+  {
+   "article_number": "B5.5",
+   "article_title": "Grid Procedure",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 35,
+   "pdf_page_end": 36,
+   "printed_page_start": 35,
+   "printed_page_end": 36,
+   "offset": 93662,
+   "length": 3596,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 19,
+   "n_removed": 2,
+   "clauses": [
+    {
+     "number": "B5.5.1",
+     "offset": 24,
+     "length": 272
+    },
+    {
+     "number": "B5.5.2",
+     "offset": 296,
+     "length": 634
+    },
+    {
+     "number": "B5.5.3",
+     "offset": 930,
+     "length": 663
+    },
+    {
+     "number": "B5.5.4",
+     "offset": 1593,
+     "length": 147
+    },
+    {
+     "number": "B5.5.5",
+     "offset": 1740,
+     "length": 1313
+    },
+    {
+     "number": "B5.5.6",
+     "offset": 3053,
+     "length": 530
+    }
+   ]
+  },
+  {
+   "article_number": "B5.6",
+   "article_title": "Formation Lap",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 36,
+   "pdf_page_end": 36,
+   "printed_page_start": 36,
+   "printed_page_end": 36,
+   "offset": 97258,
+   "length": 1663,
+   "has_changes": false,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 1,
+   "clauses": [
+    {
+     "number": "B5.6.1",
+     "offset": 23,
+     "length": 704
+    },
+    {
+     "number": "B5.6.2",
+     "offset": 727,
+     "length": 115
+    },
+    {
+     "number": "B5.6.3",
+     "offset": 842,
+     "length": 120
+    },
+    {
+     "number": "B5.6.4",
+     "offset": 962,
+     "length": 698
+    }
+   ]
+  },
+  {
+   "article_number": "B5.7",
+   "article_title": "Start Procedure",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 36,
+   "pdf_page_end": 37,
+   "printed_page_start": 36,
+   "printed_page_end": 37,
+   "offset": 98921,
+   "length": 2799,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 5,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B5.7.1",
+     "offset": 25,
+     "length": 1288
+    },
+    {
+     "number": "B5.7.2",
+     "offset": 1313,
+     "length": 985
+    },
+    {
+     "number": "B5.7.3",
+     "offset": 2298,
+     "length": 491
+    }
+   ]
+  },
+  {
+   "article_number": "B5.8",
+   "article_title": "Aborted Start",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 37,
+   "pdf_page_end": 38,
+   "printed_page_start": 37,
+   "printed_page_end": 38,
+   "offset": 101720,
+   "length": 1742,
+   "has_changes": false,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 1,
+   "clauses": [
+    {
+     "number": "B5.8.1",
+     "offset": 23,
+     "length": 1147
+    },
+    {
+     "number": "B5.8.2",
+     "offset": 1170,
+     "length": 472
+    },
+    {
+     "number": "B5.8.3",
+     "offset": 1642,
+     "length": 98
+    }
+   ]
+  },
+  {
+   "article_number": "B5.9",
+   "article_title": "Extra Formation Lap(s)",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 38,
+   "pdf_page_end": 39,
+   "printed_page_start": 38,
+   "printed_page_end": 39,
+   "offset": 103462,
+   "length": 2902,
+   "has_changes": false,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 1,
+   "clauses": [
+    {
+     "number": "B5.9.1",
+     "offset": 32,
+     "length": 1484
+    },
+    {
+     "number": "B5.9.2",
+     "offset": 1516,
+     "length": 430
+    },
+    {
+     "number": "B5.9.3",
+     "offset": 1946,
+     "length": 267
+    },
+    {
+     "number": "B5.9.4",
+     "offset": 2213,
+     "length": 396
+    },
+    {
+     "number": "B5.9.5",
+     "offset": 2609,
+     "length": 104
+    },
+    {
+     "number": "B5.9.6",
+     "offset": 2713,
+     "length": 187
+    }
+   ]
+  },
+  {
+   "article_number": "B5.10",
+   "article_title": "Formation Lap(s) Behind  the  Safety Car",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 39,
+   "pdf_page_end": 42,
+   "printed_page_start": 39,
+   "printed_page_end": 42,
+   "offset": 106364,
+   "length": 9839,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 37,
+   "n_removed": 73,
+   "clauses": [
+    {
+     "number": "B5.10.1",
+     "offset": 51,
+     "length": 1285
+    },
+    {
+     "number": "B5.10.2",
+     "offset": 1336,
+     "length": 666
+    },
+    {
+     "number": "B5.10.3",
+     "offset": 2002,
+     "length": 116
+    },
+    {
+     "number": "B5.10.4",
+     "offset": 2118,
+     "length": 420
+    },
+    {
+     "number": "B5.10.5",
+     "offset": 2538,
+     "length": 392
+    },
+    {
+     "number": "B5.10.6",
+     "offset": 2930,
+     "length": 2000
+    },
+    {
+     "number": "B5.10.7",
+     "offset": 4930,
+     "length": 258
+    },
+    {
+     "number": "B5.10.8",
+     "offset": 5188,
+     "length": 1523
+    },
+    {
+     "number": "B5.10.9",
+     "offset": 6711,
+     "length": 1718
+    },
+    {
+     "number": "B5.10.11",
+     "offset": 8429,
+     "length": 1389
+    }
+   ]
+  },
+  {
+   "article_number": "B5.11",
+   "article_title": "False Start",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 42,
+   "pdf_page_end": 42,
+   "printed_page_start": 42,
+   "printed_page_end": 42,
+   "offset": 116203,
+   "length": 678,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B5.11.1",
+     "offset": 22,
+     "length": 654
+    }
+   ]
+  },
+  {
+   "article_number": "B5.12",
+   "article_title": "Virtual Safety Car (VSC)",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 42,
+   "pdf_page_end": 43,
+   "printed_page_start": 42,
+   "printed_page_end": 43,
+   "offset": 116881,
+   "length": 2910,
+   "has_changes": false,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 5,
+   "clauses": [
+    {
+     "number": "B5.12.1",
+     "offset": 256,
+     "length": 280
+    },
+    {
+     "number": "B5.12.2",
+     "offset": 536,
+     "length": 1693
+    },
+    {
+     "number": "B5.12.3",
+     "offset": 2229,
+     "length": 190
+    },
+    {
+     "number": "B5.12.4",
+     "offset": 2419,
+     "length": 381
+    },
+    {
+     "number": "B5.12.5",
+     "offset": 2800,
+     "length": 106
+    }
+   ]
+  },
+  {
+   "article_number": "B5.13",
+   "article_title": "Safety Car (SC)",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 43,
+   "pdf_page_end": 46,
+   "printed_page_start": 43,
+   "printed_page_end": 46,
+   "offset": 119791,
+   "length": 10739,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 25,
+   "n_removed": 11,
+   "clauses": [
+    {
+     "number": "B5.13.1",
+     "offset": 216,
+     "length": 474
+    },
+    {
+     "number": "B5.13.2",
+     "offset": 690,
+     "length": 3410
+    },
+    {
+     "number": "B5.13.3",
+     "offset": 4100,
+     "length": 988
+    },
+    {
+     "number": "B5.13.4",
+     "offset": 5088,
+     "length": 2216
+    },
+    {
+     "number": "B5.13.5",
+     "offset": 7304,
+     "length": 464
+    },
+    {
+     "number": "B5.13.6",
+     "offset": 7768,
+     "length": 1329
+    },
+    {
+     "number": "B5.13.7",
+     "offset": 9097,
+     "length": 213
+    },
+    {
+     "number": "B5.13.8",
+     "offset": 9310,
+     "length": 1412
+    }
+   ]
+  },
+  {
+   "article_number": "B5.14",
+   "article_title": "Suspension  Procedure(s)",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 46,
+   "pdf_page_end": 48,
+   "printed_page_start": 46,
+   "printed_page_end": 48,
+   "offset": 130530,
+   "length": 6029,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 169,
+   "n_removed": 1,
+   "clauses": [
+    {
+     "number": "B5.14.1",
+     "offset": 35,
+     "length": 1251
+    },
+    {
+     "number": "B5.14.2",
+     "offset": 1286,
+     "length": 1672
+    },
+    {
+     "number": "B5.14.3",
+     "offset": 2958,
+     "length": 1167
+    },
+    {
+     "number": "B5.14.4",
+     "offset": 4125,
+     "length": 1884
+    }
+   ]
+  },
+  {
+   "article_number": "B5.15",
+   "article_title": "Resumption Procedure",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 48,
+   "pdf_page_end": 54,
+   "printed_page_start": 48,
+   "printed_page_end": 54,
+   "offset": 136559,
+   "length": 22044,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 139,
+   "n_removed": 250,
+   "clauses": [
+    {
+     "number": "B5.15.1",
+     "offset": 31,
+     "length": 2794
+    },
+    {
+     "number": "B5.15.2",
+     "offset": 2825,
+     "length": 2017
+    },
+    {
+     "number": "B5.15.2",
+     "offset": 4842,
+     "length": 7315
+    },
+    {
+     "number": "B5.15.3",
+     "offset": 12157,
+     "length": 2529
+    },
+    {
+     "number": "B5.15.4",
+     "offset": 14686,
+     "length": 2785
+    },
+    {
+     "number": "B5.15.5",
+     "offset": 17471,
+     "length": 2968
+    },
+    {
+     "number": "B5.14.8",
+     "offset": 20439,
+     "length": 1377
+    },
+    {
+     "number": "B5.15.7",
+     "offset": 21816,
+     "length": 192
+    }
+   ]
+  },
+  {
+   "article_number": "B5.16",
+   "article_title": "Finishing Procedure",
+   "parent_article": "B5 — TOTAL TIME CLASSIFIED SESSIONS (TTCS)",
+   "occurrence": 0,
+   "pdf_page_start": 54,
+   "pdf_page_end": 56,
+   "printed_page_start": 54,
+   "printed_page_end": 56,
+   "offset": 158603,
+   "length": 1519,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 4,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B5.16.1",
+     "offset": 30,
+     "length": 249
+    },
+    {
+     "number": "B5.16.2",
+     "offset": 279,
+     "length": 417
+    },
+    {
+     "number": "B5.16.3",
+     "offset": 696,
+     "length": 818
+    }
+   ]
+  },
+  {
+   "article_number": "B6.1",
+   "article_title": "Supply Of Tyres",
+   "parent_article": "B6 — TYRE LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 56,
+   "pdf_page_end": 57,
+   "printed_page_start": 56,
+   "printed_page_end": 57,
+   "offset": 160122,
+   "length": 3739,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B6.1.1",
+     "offset": 140,
+     "length": 1036
+    },
+    {
+     "number": "B6.1.2",
+     "offset": 1176,
+     "length": 1313
+    },
+    {
+     "number": "B6.1.3",
+     "offset": 2489,
+     "length": 1233
+    }
+   ]
+  },
+  {
+   "article_number": "B6.2",
+   "article_title": "Control & Allocation of Tyres",
+   "parent_article": "B6 — TYRE LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 57,
+   "pdf_page_end": 58,
+   "printed_page_start": 57,
+   "printed_page_end": 58,
+   "offset": 163861,
+   "length": 1925,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B6.2.1",
+     "offset": 39,
+     "length": 227
+    },
+    {
+     "number": "B6.2.2",
+     "offset": 266,
+     "length": 147
+    },
+    {
+     "number": "B6.2.3",
+     "offset": 413,
+     "length": 163
+    },
+    {
+     "number": "B6.2.4",
+     "offset": 576,
+     "length": 677
+    },
+    {
+     "number": "B6.2.5",
+     "offset": 1253,
+     "length": 269
+    },
+    {
+     "number": "B6.2.6",
+     "offset": 1522,
+     "length": 251
+    },
+    {
+     "number": "B6.2.7",
+     "offset": 1773,
+     "length": 143
+    }
+   ]
+  },
+  {
+   "article_number": "B6.3",
+   "article_title": "Use & Return of Tyres",
+   "parent_article": "B6 — TYRE LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 58,
+   "pdf_page_end": 61,
+   "printed_page_start": 58,
+   "printed_page_end": 61,
+   "offset": 165786,
+   "length": 10212,
+   "has_changes": false,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 15,
+   "clauses": [
+    {
+     "number": "B6.3.1",
+     "offset": 31,
+     "length": 750
+    },
+    {
+     "number": "B6.3.2",
+     "offset": 781,
+     "length": 310
+    },
+    {
+     "number": "B6.3.3",
+     "offset": 1091,
+     "length": 161
+    },
+    {
+     "number": "B6.3.4",
+     "offset": 1252,
+     "length": 671
+    },
+    {
+     "number": "B6.3.5",
+     "offset": 1923,
+     "length": 258
+    },
+    {
+     "number": "B6.3.6",
+     "offset": 2181,
+     "length": 1702
+    },
+    {
+     "number": "B6.3.7",
+     "offset": 3883,
+     "length": 531
+    },
+    {
+     "number": "B6.3.8",
+     "offset": 4414,
+     "length": 1658
+    },
+    {
+     "number": "B6.3.9",
+     "offset": 6072,
+     "length": 2352
+    },
+    {
+     "number": "B6.3.10",
+     "offset": 8424,
+     "length": 1737
+    }
+   ]
+  },
+  {
+   "article_number": "B6.4",
+   "article_title": "Tyre Return Procedure",
+   "parent_article": "B6 — TYRE LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 61,
+   "pdf_page_end": 62,
+   "printed_page_start": 61,
+   "printed_page_end": 62,
+   "offset": 175998,
+   "length": 711,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B6.4.1",
+     "offset": 31,
+     "length": 281
+    },
+    {
+     "number": "B6.4.2",
+     "offset": 312,
+     "length": 161
+    },
+    {
+     "number": "B6.4.3",
+     "offset": 473,
+     "length": 237
+    }
+   ]
+  },
+  {
+   "article_number": "B6.5",
+   "article_title": "Specific Provisions for ICTE",
+   "parent_article": "B6 — TYRE LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 62,
+   "pdf_page_end": 62,
+   "printed_page_start": 62,
+   "printed_page_end": 62,
+   "offset": 176709,
+   "length": 553,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 1,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B6.5.1",
+     "offset": 37,
+     "length": 315
+    },
+    {
+     "number": "B6.5.2",
+     "offset": 352,
+     "length": 64
+    },
+    {
+     "number": "B6.5.3",
+     "offset": 416,
+     "length": 134
+    }
+   ]
+  },
+  {
+   "article_number": "B6.6",
+   "article_title": "Specific Provisions for ICTT",
+   "parent_article": "B6 — TYRE LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 62,
+   "pdf_page_end": 64,
+   "printed_page_start": 62,
+   "printed_page_end": 64,
+   "offset": 177262,
+   "length": 2586,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 1,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B6.6.1",
+     "offset": 37,
+     "length": 279
+    },
+    {
+     "number": "B6.6.2",
+     "offset": 316,
+     "length": 349
+    },
+    {
+     "number": "B6.6.3",
+     "offset": 665,
+     "length": 297
+    },
+    {
+     "number": "B6.6.4",
+     "offset": 962,
+     "length": 172
+    },
+    {
+     "number": "B6.6.5",
+     "offset": 1134,
+     "length": 837
+    },
+    {
+     "number": "B6.6.6",
+     "offset": 1971,
+     "length": 457
+    },
+    {
+     "number": "B6.6.7",
+     "offset": 2428,
+     "length": 145
+    }
+   ]
+  },
+  {
+   "article_number": "B7.1",
+   "article_title": "Driver Adjustable Bodywork",
+   "parent_article": "B7 — DRIVER ADJUSTABLE BODYWORK & ENERGY DEPLOYMENT LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 64,
+   "pdf_page_end": 65,
+   "printed_page_start": 64,
+   "printed_page_end": 65,
+   "offset": 179848,
+   "length": 5534,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 67,
+   "n_removed": 81,
+   "clauses": [
+    {
+     "number": "B7.1.1",
+     "offset": 193,
+     "length": 2317
+    },
+    {
+     "number": "B7.1.2",
+     "offset": 2510,
+     "length": 1754
+    },
+    {
+     "number": "B7.1.3",
+     "offset": 4264,
+     "length": 1251
+    }
+   ]
+  },
+  {
+   "article_number": "B7.2",
+   "article_title": "Energy Deployment Limitations",
+   "parent_article": "B7 — DRIVER ADJUSTABLE BODYWORK & ENERGY DEPLOYMENT LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 65,
+   "pdf_page_end": 68,
+   "printed_page_start": 65,
+   "printed_page_end": 68,
+   "offset": 185382,
+   "length": 6340,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": true,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B7.2.1",
+     "offset": 39,
+     "length": 3340
+    },
+    {
+     "number": "B7.2.2",
+     "offset": 3379,
+     "length": 1136
+    },
+    {
+     "number": "B7.2.3",
+     "offset": 4515,
+     "length": 1010
+    },
+    {
+     "number": "B7.2.4",
+     "offset": 5525,
+     "length": 804
+    }
+   ]
+  },
+  {
+   "article_number": "B8.1",
+   "article_title": "Car Limitations & Usage",
+   "parent_article": "B8 — CAR & COMPONENT LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 68,
+   "pdf_page_end": 68,
+   "printed_page_start": 68,
+   "printed_page_end": 68,
+   "offset": 191722,
+   "length": 1213,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B8.1.1",
+     "offset": 159,
+     "length": 709
+    },
+    {
+     "number": "B8.1.2",
+     "offset": 868,
+     "length": 339
+    }
+   ]
+  },
+  {
+   "article_number": "B8.2",
+   "article_title": "Power Unit Limitations & Usage",
+   "parent_article": "B8 — CAR & COMPONENT LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 68,
+   "pdf_page_end": 71,
+   "printed_page_start": 68,
+   "printed_page_end": 71,
+   "offset": 192935,
+   "length": 7891,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 14,
+   "n_removed": 3,
+   "clauses": [
+    {
+     "number": "B8.2.1",
+     "offset": 40,
+     "length": 306
+    },
+    {
+     "number": "B8.2.2",
+     "offset": 346,
+     "length": 2170
+    },
+    {
+     "number": "B8.2.3",
+     "offset": 2516,
+     "length": 365
+    },
+    {
+     "number": "B8.2.4",
+     "offset": 2881,
+     "length": 395
+    },
+    {
+     "number": "B8.2.5",
+     "offset": 3276,
+     "length": 218
+    },
+    {
+     "number": "B8.2.6",
+     "offset": 3494,
+     "length": 616
+    },
+    {
+     "number": "B8.2.7",
+     "offset": 4110,
+     "length": 179
+    },
+    {
+     "number": "B8.2.8",
+     "offset": 4289,
+     "length": 973
+    },
+    {
+     "number": "B8.2.9",
+     "offset": 5262,
+     "length": 1966
+    },
+    {
+     "number": "B8.2.10",
+     "offset": 7228,
+     "length": 373
+    },
+    {
+     "number": "B8.2.11",
+     "offset": 7601,
+     "length": 275
+    }
+   ]
+  },
+  {
+   "article_number": "B9.1",
+   "article_title": "General Provisions",
+   "parent_article": "B9 — PERSONNEL LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 71,
+   "pdf_page_end": 71,
+   "printed_page_start": 71,
+   "printed_page_end": 71,
+   "offset": 200826,
+   "length": 506,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B9.1.1",
+     "offset": 148,
+     "length": 358
+    }
+   ]
+  },
+  {
+   "article_number": "B9.2",
+   "article_title": "Operational Personnel",
+   "parent_article": "B9 — PERSONNEL LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 71,
+   "pdf_page_end": 71,
+   "printed_page_start": 71,
+   "printed_page_end": 71,
+   "offset": 201332,
+   "length": 869,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 1,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B9.2.1",
+     "offset": 31,
+     "length": 605
+    },
+    {
+     "number": "B9.2.2",
+     "offset": 636,
+     "length": 228
+    }
+   ]
+  },
+  {
+   "article_number": "B9.3",
+   "article_title": "Trainee Personnel",
+   "parent_article": "B9 — PERSONNEL LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 71,
+   "pdf_page_end": 71,
+   "printed_page_start": 71,
+   "printed_page_end": 71,
+   "offset": 202201,
+   "length": 350,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 1,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B9.3.1",
+     "offset": 27,
+     "length": 322
+    }
+   ]
+  },
+  {
+   "article_number": "B9.4",
+   "article_title": "Declaration of Personnel",
+   "parent_article": "B9 — PERSONNEL LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 71,
+   "pdf_page_end": 71,
+   "printed_page_start": 71,
+   "printed_page_end": 71,
+   "offset": 202551,
+   "length": 1108,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 22,
+   "n_removed": 5,
+   "clauses": [
+    {
+     "number": "B9.4.1",
+     "offset": 34,
+     "length": 1074
+    }
+   ]
+  },
+  {
+   "article_number": "B9.5",
+   "article_title": "Restricted Period(s)",
+   "parent_article": "B9 — PERSONNEL LIMITATIONS",
+   "occurrence": 0,
+   "pdf_page_start": 71,
+   "pdf_page_end": 74,
+   "printed_page_start": 71,
+   "printed_page_end": 74,
+   "offset": 203659,
+   "length": 4155,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B9.5.1",
+     "offset": 30,
+     "length": 1487
+    },
+    {
+     "number": "B9.5.2",
+     "offset": 1517,
+     "length": 965
+    },
+    {
+     "number": "B9.5.3",
+     "offset": 2482,
+     "length": 535
+    },
+    {
+     "number": "B9.5.4",
+     "offset": 3017,
+     "length": 487
+    },
+    {
+     "number": "B9.5.5",
+     "offset": 3504,
+     "length": 182
+    },
+    {
+     "number": "B9.5.6",
+     "offset": 3686,
+     "length": 463
+    }
+   ]
+  },
+  {
+   "article_number": "B10.1",
+   "article_title": "Media Activities",
+   "parent_article": "B10 — MEDIA ACTIVITIES & OFFICIAL CERMONIES",
+   "occurrence": 0,
+   "pdf_page_start": 74,
+   "pdf_page_end": 77,
+   "printed_page_start": 74,
+   "printed_page_end": 77,
+   "offset": 207814,
+   "length": 11336,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 29,
+   "n_removed": 22,
+   "clauses": [
+    {
+     "number": "B10.1.1",
+     "offset": 164,
+     "length": 1921
+    },
+    {
+     "number": "B10.1.2",
+     "offset": 2085,
+     "length": 4341
+    },
+    {
+     "number": "B10.1.3",
+     "offset": 6426,
+     "length": 2762
+    },
+    {
+     "number": "B10.1.4",
+     "offset": 9188,
+     "length": 2119
+    }
+   ]
+  },
+  {
+   "article_number": "B10.2",
+   "article_title": "Podium Ceremony",
+   "parent_article": "B10 — MEDIA ACTIVITIES & OFFICIAL CERMONIES",
+   "occurrence": 0,
+   "pdf_page_start": 77,
+   "pdf_page_end": 78,
+   "printed_page_start": 77,
+   "printed_page_end": 78,
+   "offset": 219150,
+   "length": 1123,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B10.2.1",
+     "offset": 26,
+     "length": 430
+    },
+    {
+     "number": "B10.2.2",
+     "offset": 456,
+     "length": 245
+    },
+    {
+     "number": "B10.2.3",
+     "offset": 701,
+     "length": 164
+    },
+    {
+     "number": "B10.2.4",
+     "offset": 865,
+     "length": 254
+    }
+   ]
+  },
+  {
+   "article_number": "B11.1",
+   "article_title": "General Provisions for Track Running Outside a  Competition",
+   "parent_article": "B11 — TRACK RUNNING OUTSIDE A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 78,
+   "pdf_page_end": 78,
+   "printed_page_start": 78,
+   "printed_page_end": 78,
+   "offset": 220273,
+   "length": 1077,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B11.1.1",
+     "offset": 205,
+     "length": 607
+    },
+    {
+     "number": "B11.1.2",
+     "offset": 812,
+     "length": 263
+    }
+   ]
+  },
+  {
+   "article_number": "B11.2",
+   "article_title": "Provisions for TCC",
+   "parent_article": "B11 — TRACK RUNNING OUTSIDE A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 78,
+   "pdf_page_end": 81,
+   "printed_page_start": 78,
+   "printed_page_end": 81,
+   "offset": 221350,
+   "length": 7935,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 6,
+   "n_removed": 38,
+   "clauses": [
+    {
+     "number": "B11.2.1",
+     "offset": 29,
+     "length": 374
+    },
+    {
+     "number": "B11.2.2",
+     "offset": 403,
+     "length": 349
+    },
+    {
+     "number": "B11.2.3",
+     "offset": 752,
+     "length": 211
+    },
+    {
+     "number": "B11.2.4",
+     "offset": 963,
+     "length": 70
+    },
+    {
+     "number": "B11.2.5",
+     "offset": 1033,
+     "length": 89
+    },
+    {
+     "number": "B11.2.6",
+     "offset": 1122,
+     "length": 182
+    },
+    {
+     "number": "B11.2.7",
+     "offset": 1304,
+     "length": 6612
+    }
+   ]
+  },
+  {
+   "article_number": "B11.3",
+   "article_title": "Provisions for TPC",
+   "parent_article": "B11 — TRACK RUNNING OUTSIDE A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 81,
+   "pdf_page_end": 81,
+   "printed_page_start": 81,
+   "printed_page_end": 81,
+   "offset": 229285,
+   "length": 2664,
+   "has_changes": true,
+   "has_removals": true,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 3,
+   "n_removed": 1,
+   "clauses": [
+    {
+     "number": "B11.3.1",
+     "offset": 29,
+     "length": 135
+    },
+    {
+     "number": "B11.3.2",
+     "offset": 164,
+     "length": 302
+    },
+    {
+     "number": "B11.3.3",
+     "offset": 466,
+     "length": 393
+    },
+    {
+     "number": "B11.3.4",
+     "offset": 859,
+     "length": 370
+    },
+    {
+     "number": "B11.3.5",
+     "offset": 1229,
+     "length": 677
+    },
+    {
+     "number": "B11.3.6",
+     "offset": 1906,
+     "length": 102
+    },
+    {
+     "number": "B11.3.7",
+     "offset": 2008,
+     "length": 546
+    },
+    {
+     "number": "B11.3.8",
+     "offset": 2554,
+     "length": 100
+    }
+   ]
+  },
+  {
+   "article_number": "B11.4",
+   "article_title": "Provisions for TMC",
+   "parent_article": "B11 — TRACK RUNNING OUTSIDE A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 81,
+   "pdf_page_end": 83,
+   "printed_page_start": 81,
+   "printed_page_end": 83,
+   "offset": 231949,
+   "length": 6644,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B11.4.1",
+     "offset": 29,
+     "length": 247
+    },
+    {
+     "number": "B11.4.2",
+     "offset": 276,
+     "length": 135
+    },
+    {
+     "number": "B11.4.3",
+     "offset": 411,
+     "length": 70
+    },
+    {
+     "number": "B11.4.4",
+     "offset": 481,
+     "length": 94
+    },
+    {
+     "number": "B11.4.5",
+     "offset": 575,
+     "length": 133
+    },
+    {
+     "number": "B11.4.6",
+     "offset": 708,
+     "length": 182
+    },
+    {
+     "number": "B11.4.7",
+     "offset": 890,
+     "length": 115
+    },
+    {
+     "number": "B11.4.8",
+     "offset": 1005,
+     "length": 394
+    },
+    {
+     "number": "B11.4.9",
+     "offset": 1399,
+     "length": 232
+    },
+    {
+     "number": "B11.4.10",
+     "offset": 1631,
+     "length": 3271
+    },
+    {
+     "number": "B11.4.11",
+     "offset": 4902,
+     "length": 1720
+    }
+   ]
+  },
+  {
+   "article_number": "B11.5",
+   "article_title": "Provisions for THC",
+   "parent_article": "B11 — TRACK RUNNING OUTSIDE A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 83,
+   "pdf_page_end": 84,
+   "printed_page_start": 83,
+   "printed_page_end": 84,
+   "offset": 238593,
+   "length": 265,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B11.5.1",
+     "offset": 29,
+     "length": 98
+    },
+    {
+     "number": "B11.5.2",
+     "offset": 127,
+     "length": 136
+    }
+   ]
+  },
+  {
+   "article_number": "B11.6",
+   "article_title": "Provisions for PE",
+   "parent_article": "B11 — TRACK RUNNING OUTSIDE A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 84,
+   "pdf_page_end": 84,
+   "printed_page_start": 84,
+   "printed_page_end": 84,
+   "offset": 238858,
+   "length": 343,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B11.6.1",
+     "offset": 28,
+     "length": 124
+    },
+    {
+     "number": "B11.6.2",
+     "offset": 152,
+     "length": 90
+    },
+    {
+     "number": "B11.6.3",
+     "offset": 242,
+     "length": 100
+    }
+   ]
+  },
+  {
+   "article_number": "B11.7",
+   "article_title": "Provisions for DE",
+   "parent_article": "B11 — TRACK RUNNING OUTSIDE A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 84,
+   "pdf_page_end": 84,
+   "printed_page_start": 84,
+   "printed_page_end": 84,
+   "offset": 239201,
+   "length": 693,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B11.7.1",
+     "offset": 28,
+     "length": 271
+    },
+    {
+     "number": "B11.7.2",
+     "offset": 299,
+     "length": 93
+    },
+    {
+     "number": "B11.7.3",
+     "offset": 392,
+     "length": 94
+    },
+    {
+     "number": "B11.7.4",
+     "offset": 486,
+     "length": 90
+    },
+    {
+     "number": "B11.7.5",
+     "offset": 576,
+     "length": 115
+    }
+   ]
+  },
+  {
+   "article_number": "B11.8",
+   "article_title": "Safety Requirements, Technical Requirements & Car Limitations",
+   "parent_article": "B11 — TRACK RUNNING OUTSIDE A COMPETITION",
+   "occurrence": 0,
+   "pdf_page_start": 84,
+   "pdf_page_end": 86,
+   "printed_page_start": 84,
+   "printed_page_end": 86,
+   "offset": 239894,
+   "length": 4292,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 8,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B11.8.1",
+     "offset": 72,
+     "length": 814
+    },
+    {
+     "number": "B11.8.2",
+     "offset": 886,
+     "length": 194
+    },
+    {
+     "number": "B11.8.3",
+     "offset": 1080,
+     "length": 1694
+    },
+    {
+     "number": "B11.8.4",
+     "offset": 2774,
+     "length": 492
+    },
+    {
+     "number": "B11.8.5",
+     "offset": 3266,
+     "length": 1015
+    }
+   ]
+  },
+  {
+   "article_number": "APPENDIX-B1",
+   "article_title": "DEFINITIONS",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 86,
+   "pdf_page_end": 88,
+   "printed_page_start": 86,
+   "printed_page_end": 88,
+   "offset": 244186,
+   "length": 5775,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "APPENDIX-B2",
+   "article_title": "PARC FERME PERMITTED WORKS",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 88,
+   "pdf_page_end": 91,
+   "printed_page_start": 88,
+   "printed_page_end": 91,
+   "offset": 249961,
+   "length": 7509,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "APPENDIX-B3",
+   "article_title": "PROCEDURES FOR REGULATORY SUBMISSIONS",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 91,
+   "pdf_page_end": 92,
+   "printed_page_start": 91,
+   "printed_page_end": 92,
+   "offset": 257470,
+   "length": 182,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": true,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "APPENDIX-B4",
+   "article_title": "INFORMATION REQUIRED 90 DAYS BEFORE A COMPETITION",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 92,
+   "pdf_page_end": 93,
+   "printed_page_start": 92,
+   "printed_page_end": 93,
+   "offset": 257652,
+   "length": 1616,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 3,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "APPENDIX-B5",
+   "article_title": "PODIUM CEREMONY",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 93,
+   "pdf_page_end": 93,
+   "printed_page_start": 93,
+   "printed_page_end": 93,
+   "offset": 259268,
+   "length": 185,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "1",
+   "article_title": "MASTER OF CEREMONIES",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 93,
+   "pdf_page_end": 93,
+   "printed_page_start": 93,
+   "printed_page_end": 93,
+   "offset": 259453,
+   "length": 155,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "2",
+   "article_title": "PODIUM",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 93,
+   "pdf_page_end": 93,
+   "printed_page_start": 93,
+   "printed_page_end": 93,
+   "offset": 259608,
+   "length": 701,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "3",
+   "article_title": "ANTHEMS",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 93,
+   "pdf_page_end": 93,
+   "printed_page_start": 93,
+   "printed_page_end": 93,
+   "offset": 260309,
+   "length": 685,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "4",
+   "article_title": "TROPHIES",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 93,
+   "pdf_page_end": 94,
+   "printed_page_start": 93,
+   "printed_page_end": 94,
+   "offset": 260994,
+   "length": 789,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "5",
+   "article_title": "SCENARIO",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 94,
+   "pdf_page_end": 94,
+   "printed_page_start": 94,
+   "printed_page_end": 94,
+   "offset": 261783,
+   "length": 648,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "6",
+   "article_title": "TELEVISION",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 94,
+   "pdf_page_end": 94,
+   "printed_page_start": 94,
+   "printed_page_end": 94,
+   "offset": 262431,
+   "length": 190,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "7",
+   "article_title": "PARC FERMÉ",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 94,
+   "pdf_page_end": 94,
+   "printed_page_start": 94,
+   "printed_page_end": 94,
+   "offset": 262621,
+   "length": 679,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "8",
+   "article_title": "UNILATERAL ROOM",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 94,
+   "pdf_page_end": 95,
+   "printed_page_start": 94,
+   "printed_page_end": 95,
+   "offset": 263300,
+   "length": 292,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "9",
+   "article_title": "PRESS ROOM",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 95,
+   "pdf_page_end": 95,
+   "printed_page_start": 95,
+   "printed_page_end": 95,
+   "offset": 263592,
+   "length": 113,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "10",
+   "article_title": "WATER + TOWELS",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 95,
+   "pdf_page_end": 95,
+   "printed_page_start": 95,
+   "printed_page_end": 95,
+   "offset": 263705,
+   "length": 295,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "11",
+   "article_title": "PODIUM PROTOCOL (except for Monaco)",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 95,
+   "pdf_page_end": 96,
+   "printed_page_start": 95,
+   "printed_page_end": 96,
+   "offset": 264000,
+   "length": 1183,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "APPENDIX-B6",
+   "article_title": "APPROVED CHANGES TO SECTION B FOR SUBSEQUENT YEARS",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 96,
+   "pdf_page_end": 96,
+   "printed_page_start": 96,
+   "printed_page_end": 96,
+   "offset": 265183,
+   "length": 172,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": true,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  },
+  {
+   "article_number": "B9.2",
+   "article_title": "Operational Personnel",
+   "parent_article": "B9 — PERSONNEL LIMITATIONS",
+   "occurrence": 1,
+   "pdf_page_start": 96,
+   "pdf_page_end": 96,
+   "printed_page_start": 96,
+   "printed_page_end": 96,
+   "offset": 265355,
+   "length": 680,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 27,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B9.2.1",
+     "offset": 78,
+     "length": 597
+    }
+   ]
+  },
+  {
+   "article_number": "B9.5",
+   "article_title": "Restricted Period(s)",
+   "parent_article": "B9 — PERSONNEL LIMITATIONS",
+   "occurrence": 1,
+   "pdf_page_start": 96,
+   "pdf_page_end": 96,
+   "printed_page_start": 96,
+   "printed_page_end": 96,
+   "offset": 266035,
+   "length": 565,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 2,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B9.5.3",
+     "offset": 35,
+     "length": 530
+    }
+   ]
+  },
+  {
+   "article_number": "B11",
+   "article_title": "TRACK RUNNING OUTSIDE A COMPETITION",
+   "parent_article": null,
+   "occurrence": 0,
+   "pdf_page_start": 96,
+   "pdf_page_end": 97,
+   "printed_page_start": 96,
+   "printed_page_end": 97,
+   "offset": 266600,
+   "length": 3410,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 131,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B11.2.7",
+     "offset": 76,
+     "length": 3325
+    }
+   ]
+  },
+  {
+   "article_number": "B9.2",
+   "article_title": "Operational Personnel",
+   "parent_article": "B9 — PERSONNEL LIMITATIONS",
+   "occurrence": 2,
+   "pdf_page_start": 97,
+   "pdf_page_end": 98,
+   "printed_page_start": 97,
+   "printed_page_end": 98,
+   "offset": 270010,
+   "length": 694,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 27,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B9.2.1",
+     "offset": 78,
+     "length": 611
+    }
+   ]
+  },
+  {
+   "article_number": "B9.5",
+   "article_title": "Restricted Period(s)",
+   "parent_article": "B9 — PERSONNEL LIMITATIONS",
+   "occurrence": 2,
+   "pdf_page_start": 98,
+   "pdf_page_end": 98,
+   "printed_page_start": 98,
+   "printed_page_end": 98,
+   "offset": 270704,
+   "length": 564,
+   "has_changes": true,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 2,
+   "n_removed": 0,
+   "clauses": [
+    {
+     "number": "B9.5.3",
+     "offset": 35,
+     "length": 529
+    }
+   ]
+  },
+  {
+   "article_number": "APPENDIX-B1",
+   "article_title": "DEFINITIONS",
+   "parent_article": null,
+   "occurrence": 1,
+   "pdf_page_start": 98,
+   "pdf_page_end": 98,
+   "printed_page_start": 98,
+   "printed_page_end": 98,
+   "offset": 271268,
+   "length": 777,
+   "has_changes": false,
+   "has_removals": false,
+   "has_governance": false,
+   "has_reference": false,
+   "has_comment": false,
+   "n_changed": 0,
+   "n_removed": 0,
+   "clauses": []
+  }
+ ],
+ "stats": {
+  "changed_spans": 915,
+  "governance_spans": 35,
+  "near_color_spans": 1,
+  "reference_spans": 3,
+  "comment_spans": 9,
+  "removed_spans": 625,
+  "tables": 13,
+  "duplicate_articles": 5,
+  "pages": 98,
+  "strike_rects": 766,
+  "ligature_fixes": 693,
+  "ligature_fi": 644,
+  "ligature_fl": 49,
+  "articles": 91
+ },
+ "extractor_version": 5,
+ "extracted_at": "2026-08-30T15:36:50+00:00"
+}
