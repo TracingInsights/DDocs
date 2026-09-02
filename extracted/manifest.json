@@ -99149,6 +99149,36 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/italian-grand-prix/competition-notes-pirelli-preview.pdf": {
+    "doc_type": "pirelli-preview",
+    "error": null,
+    "extracted_at": "2026-09-02T23:00:12Z",
+    "images_extracted": 1,
+    "pages": 2,
+    "source_hash": "sha256:d3d0d4245f8736439f30eb2e206a8f9c046f54d91254162892e91817347ceee1",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "documents/2026/italian-grand-prix/competition-visa.pdf": {
+    "doc_type": "competition-visa",
+    "error": null,
+    "extracted_at": "2026-09-02T23:00:12Z",
+    "images_extracted": 0,
+    "pages": 11,
+    "source_hash": "sha256:6148cd570854114a73cf180d8f7ab1ad66191fd74d3fc300908e7dc71bf66f3d",
+    "success": true,
+    "tables_extracted": 5
+  },
+  "documents/2026/italian-grand-prix/post-race-checks-on-car-number-10-2026-dutch-gp.pdf": {
+    "doc_type": "post-race-checks",
+    "error": null,
+    "extracted_at": "2026-09-02T23:00:13Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:a1e211dd10ac0e7aad6ece70b87849b33ab2ae7e008316e984ae3f279bf0dc71",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/miami-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
     "error": null,

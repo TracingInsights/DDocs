@@ -1,0 +1,76 @@
+{
+  "category": null,
+  "date": "2026-09-02",
+  "doc_number": "1",
+  "doc_type": "competition-visa",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-09-02T23:00:12Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 11,
+  "source_hash": "sha256:6148cd570854114a73cf180d8f7ab1ad66191fd74d3fc300908e7dc71bf66f3d",
+  "source_pdf": "documents/2026/italian-grand-prix/competition-visa.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        587.16
+      ],
+      "columns": 5,
+      "page": 7,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        768.23
+      ],
+      "columns": 5,
+      "page": 8,
+      "rows": 32
+    },
+    {
+      "bbox": [
+        22.6,
+        28.47,
+        561.09,
+        122.53
+      ],
+      "columns": 5,
+      "page": 9,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        768.17
+      ],
+      "columns": 5,
+      "page": 10,
+      "rows": 32
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        617.57
+      ],
+      "columns": 5,
+      "page": 11,
+      "rows": 24
+    }
+  ],
+  "tables_extracted": 5,
+  "time": "15:25",
+  "title": "Competition Visa",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
