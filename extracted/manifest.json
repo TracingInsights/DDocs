@@ -99159,6 +99159,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/italian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-09-03T23:00:04Z",
+    "images_extracted": 4,
+    "pages": 5,
+    "source_hash": "sha256:799756ca8cd77b376f7c0dc24aabb00b2535fc5ce4c6ad4e70f66ec244e0f4f7",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/italian-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -99179,6 +99189,16 @@
     "success": true,
     "tables_extracted": 5
   },
+  "documents/2026/italian-grand-prix/heat-hazard-declaration.pdf": {
+    "doc_type": "heat-hazard",
+    "error": null,
+    "extracted_at": "2026-09-03T23:00:12Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:27acb9546f77415e74826c675a5944f5f20010f13da242d8033d90778b8b55ed",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/post-race-checks-on-car-number-10-2026-dutch-gp.pdf": {
     "doc_type": "post-race-checks",
     "error": null,
@@ -99186,6 +99206,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:a1e211dd10ac0e7aad6ece70b87849b33ab2ae7e008316e984ae3f279bf0dc71",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-09-03T23:00:12Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:23b0be8677e19c6254c2e169b75c2f882053d0b5814780eb34ca9a71e64e0aff",
+    "success": true,
+    "tables_extracted": 6
+  },
+  "documents/2026/italian-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-09-03T23:00:13Z",
+    "images_extracted": 9,
+    "pages": 8,
+    "source_hash": "sha256:ed77015d5a909b9698a3b3830b6f214637ddc483845bc049df58fabe2ad2b26f",
     "success": true,
     "tables_extracted": 0
   },

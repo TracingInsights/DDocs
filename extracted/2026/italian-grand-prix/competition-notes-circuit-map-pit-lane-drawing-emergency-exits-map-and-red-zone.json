@@ -1,0 +1,106 @@
+{
+  "category": null,
+  "date": "2026-09-03",
+  "doc_number": "6",
+  "doc_type": "circuit-map",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-09-03T23:00:04Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "e9c549cc4e10f05d7dd6adb27c5076ae069237576b3929de67f7fb829f1afc65",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 3,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "2d736f9d6a16f8a422334443e7fad76af4f9be3b640c20535611328787bd8da2",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ],
+      "deduplicated": false,
+      "display_height": 841.89,
+      "display_width": 595.28,
+      "height": 1684,
+      "page": 4,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "252700f2bbce8a34af08528fc86873c9cf4c1f3a16d4d58f1e848b0b4773a86b",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.0,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.0,
+      "height": 1684,
+      "page": 5,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "fb863e0cfa946398424b8e8e6236ce634806b3ce0b3a9e990bdcf663e6c029f8",
+      "width": 1190
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 5,
+  "source_hash": "sha256:799756ca8cd77b376f7c0dc24aabb00b2535fc5ce4c6ad4e70f66ec244e0f4f7",
+  "source_pdf": "documents/2026/italian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.94,
+        405.58,
+        799.11,
+        478.76
+      ],
+      "columns": 58,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "17:02",
+  "title": "Competition Notes Circuit Map Pit Lane Drawing Emergency Exits Map And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
