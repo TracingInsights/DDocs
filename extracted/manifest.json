@@ -99159,6 +99159,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/italian-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-09-04T13:10:14Z",
+    "images_extracted": 10,
+    "pages": 22,
+    "source_hash": "sha256:55541780261498d2f329dae1748df636a871072f26a580dd027de78669442d81",
+    "success": true,
+    "tables_extracted": 10
+  },
   "documents/2026/italian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -99189,6 +99199,26 @@
     "success": true,
     "tables_extracted": 5
   },
+  "documents/2026/italian-grand-prix/entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-09-04T13:10:15Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:23f2377b446466a9ef3833a1246d1dae8af6a38152b45c9c22ed287bef0e9de3",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-04T13:10:15Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a6ac15b309802ba6421d42705b299ed32b5ab3356a9a12651877d1756c544e60",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/italian-grand-prix/heat-hazard-declaration.pdf": {
     "doc_type": "heat-hazard",
     "error": null,
@@ -99196,6 +99226,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:27acb9546f77415e74826c675a5944f5f20010f13da242d8033d90778b8b55ed",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-04T13:10:15Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:838bcd1ea47bcb2ff5b57f8baf2a2d1cfb62154e58718b3ece01ad6b243c0546",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/italian-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-04T13:10:16Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:e1e43dd2ca237d4d0ffa1d45e7c7ee24f742101b3179f9fdc3b03a3f4750ed57",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/italian-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-09-04T13:10:16Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:215c01e940136067f812eb87a8d8ef13bb5f286ea5e3aee51d9a9c9ba6a7e7ec",
     "success": true,
     "tables_extracted": 0
   },
@@ -99219,6 +99279,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/italian-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-09-04T13:10:16Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:d9032aabd19fd761d6f2c9e2e901db84bf8677377716105ae271ca0e1bc0db9d",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -99226,6 +99296,16 @@
     "images_extracted": 9,
     "pages": 8,
     "source_hash": "sha256:ed77015d5a909b9698a3b3830b6f214637ddc483845bc049df58fabe2ad2b26f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/self-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-04T13:10:16Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:aaec28c456de80b49e78dbb04ac741994752745319d53e68ad7a24113287f2fd",
     "success": true,
     "tables_extracted": 0
   },
