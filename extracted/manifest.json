@@ -99149,6 +99149,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/italian-grand-prix/car-25-cds-not-functioning-when-car-stopped-on-the-track.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:28Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:abfd981feab8fc9212b4000a92060aef71f852c3cb0b0ab68064360ad7c0c6dd",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
     "error": null,
@@ -99219,6 +99229,26 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/italian-grand-prix/free-practice-2-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:28Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:10bb575b75acda3f0735d3437eae3efbeb298355a944ebcf93f44069b93be7fb",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/italian-grand-prix/hearing-adjournment-car-25-alleged-technical-non-compliance-cds.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:28Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:f01bbb8095cd64334517ecdbe9384ab7628304efb6d2a67bcc6d54642dd3f601",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/heat-hazard-declaration.pdf": {
     "doc_type": "heat-hazard",
     "error": null,
@@ -99228,6 +99258,56 @@
     "source_hash": "sha256:27acb9546f77415e74826c675a5944f5f20010f13da242d8033d90778b8b55ed",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/infringement-car-12-changes-to-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:28Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:38ac9b1570eb5144e89db76fe01456dd0522bb944d868bacf87fe4179ff6bd29",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/infringement-car-12-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:28Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:cdf1bf7e6fd8dded71aedd9c65086e6a0a5ba7a252d1caffcec11a5f3a81375a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/infringement-car-18-impeding-of-car-1.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:29Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:e08624f7e526ef937186bac92e479d71e782274a63185492a16923e9fb9d733d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/infringement-car-23-changes-to-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:29Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:03abdea2ca99780e066e56580d0ae618007ad6d9c0efe8b7b360d8bd2f838ae7",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/infringement-free-practice-1-deleted-lap-times-corrected.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:29Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:a44ce23707c85da20d84b530761eeed41b70f7d13ce57e8a07496077ec3741b1",
+    "success": true,
+    "tables_extracted": 1
   },
   "documents/2026/italian-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow-flags.pdf": {
     "doc_type": "infringement",
@@ -99249,13 +99329,33 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/italian-grand-prix/infringement-free-practice-2-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:29Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:b11ddc87db53655bc2c1cfc17ab1b54404d451ff4d4b702abf7295c5b83921ae",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/italian-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-09-04T13:10:16Z",
+    "extracted_at": "2026-09-04T18:07:29Z",
     "images_extracted": 0,
-    "pages": 4,
-    "source_hash": "sha256:215c01e940136067f812eb87a8d8ef13bb5f286ea5e3aee51d9a9c9ba6a7e7ec",
+    "pages": 2,
+    "source_hash": "sha256:54304a55100a2501485afb0002a284783c9f1ac85a669ea5a76262434546cdb9",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/p1-and-p2-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:29Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:c434e235d3f9abc714595d05f1fad1d9a7016bf6089babca027f0b18dc13e363",
     "success": true,
     "tables_extracted": 0
   },
@@ -99289,6 +99389,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/italian-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:29Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:814c5fcb05dd85ea39f8acc82e2f92451f6843c09740fefeb03f76efd844c23b",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -99306,6 +99416,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:aaec28c456de80b49e78dbb04ac741994752745319d53e68ad7a24113287f2fd",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/summons-car-18-alleged-impeding.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:30Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:f9d712e09743ad7beb618357da114b42234680b5a557e5adb66ea04d5b6e572f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/summons-car-25-alleged-technical-non-compliance-cds.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-04T18:07:30Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:79474f5434a1294ee8a7235b93892b731e18783c2af44f245e178ae451f6a4c2",
     "success": true,
     "tables_extracted": 0
   },
