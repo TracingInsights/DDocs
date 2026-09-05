@@ -99219,6 +99219,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/italian-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-05T19:57:48Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:387d0b953c01eb1ee1e08378a7ab76e8e20dd8d205420a574598bcb5a7c46fe2",
+    "success": true,
+    "tables_extracted": 3
+  },
+  "documents/2026/italian-grand-prix/fp3-and-qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-05T19:57:48Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:654a9ee6d776b0bc1c3a3285d73c5c6ff27cb5ef3663e2325d7e9aae909d9919",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/free-practice-1-classification.pdf": {
     "doc_type": "classification",
     "error": null,
@@ -99479,6 +99499,16 @@
     "success": true,
     "tables_extracted": 3
   },
+  "documents/2026/italian-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-09-05T19:57:49Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:4d200e530607dcf419d64cb79825a5ec9c91c6637c2099840f7dde8d8f777777",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -99516,6 +99546,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:814c5fcb05dd85ea39f8acc82e2f92451f6843c09740fefeb03f76efd844c23b",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/race-directors-competition-notes-v2.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-09-05T19:57:50Z",
+    "images_extracted": 9,
+    "pages": 8,
+    "source_hash": "sha256:36d45fadbe49c7dedab5fdd9c0eba19452b2b3e7bce9316db6169491661d36c7",
     "success": true,
     "tables_extracted": 0
   },
