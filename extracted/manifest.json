@@ -99239,6 +99239,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/italian-grand-prix/free-practice-3-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-05T12:23:18Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c07cfd61ddc375741e15bac1f87ec9b05a4529c5197b316303bc71bd471c422a",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/italian-grand-prix/hearing-adjournment-car-25-alleged-technical-non-compliance-cds.pdf": {
     "doc_type": "other",
     "error": null,
@@ -99356,6 +99366,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:c434e235d3f9abc714595d05f1fad1d9a7016bf6089babca027f0b18dc13e363",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-09-05T12:23:18Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:bcd3ef49c258049a66ec81d4d03cf15c80866b0d625a3555dded9fe5335b7a91",
     "success": true,
     "tables_extracted": 0
   },
