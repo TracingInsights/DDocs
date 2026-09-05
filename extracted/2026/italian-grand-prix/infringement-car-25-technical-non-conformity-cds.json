@@ -1,0 +1,42 @@
+{
+  "car_number": 25,
+  "category": null,
+  "date": "2026-09-05",
+  "decision": "The competitor (Cadillac F1 Team) is fined \u20ac30,000, \u20ac25,000 of which is suspended for a period of 12 months subject to no further breaches of this regulation.",
+  "doc_number": "32",
+  "doc_type": "infringement",
+  "driver": "Colton Herta",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-09-05T17:19:12Z",
+  "fact": "The Clutch Disengagement System (\"CDS\") did not function when the car stopped on the track.",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "12:47",
+  "offence": "Breach of Article C9.3 of the FIA F1 Regulations.",
+  "pages": 2,
+  "penalty": "\u20ac30,000,",
+  "penalty_points": null,
+  "reason": "The Stewards heard from the team Sporting Director and team Head of Reliability, and the FIA Technical Delegate and FIA F1 Electronics Engineer. The team presented detailed schematics of how the CDS system was designed and installed. The Stewards were satisfied that the system was designed to operate independently of the car's other systems, as required by the regulations. The team demonstrated to the Stewards' satisfaction, that the system had been checked and tested on the day prior to the commencement of competition. However the operation of the CDS when the car's electronic system is turned off (\"P0 mode\") depends on a lithium battery provided by a third party supplier. The team was able to demonstrate, again to the Stewards' satisfaction, that one of the four cells in this battery had failed. This in turn caused the CDS to be inoperable and hence when the car came to a halt, it could not be easily pushed from the circuit, resulting in the display of a red flag. The team stated that as a result of the incident it would firstly obtain from the battery supplier, information as to the expected maximum battery life, and would instigate daily or pre-session checks, plus a replacement battery programme to ensure the likelihood of future failures was minimized. The FIA Regulations state: \"This system must be in working order throughout the Competition even if the main hydraulic, pneumatic or electrical systems on the car have failed.\" The Stewards accept that the team has been completely transparent in its disclosures and that the plan outlined above is a reasonable approach. However a breach of the regulation has occurred, and although the reason for this can be attributed to the failure of a third party supplied part, overall responsibly for The Stewards compliance still rests with the team and accordingly a penalty is imposed. The Stewards note that this is the third reported failure of a CDS this season. Again, this failure resulted in a red flag being displayed which had sporting consequences. Although in this case the Stewards have decided to impose a monetary penalty, Competitors are advised that because the CDS is a critical component and designed to facilitate the safe and quick removal of a car from the circuit, future failures may incur not only monetary penalties but sporting penalties as well.",
+  "rules_referenced": [
+    "Article 15",
+    "Article C9.3",
+    "Chapter 5"
+  ],
+  "session": "Free Practice 1",
+  "source_hash": "sha256:bee481e67297b7864d5ea2207c65b9f1c5307511e1ac096c2cca8348642a06e4",
+  "source_pdf": "documents/2026/italian-grand-prix/infringement-car-25-technical-non-conformity-cds.pdf",
+  "stewards": [
+    "in accordance with Article 15 of the FIA International Sporting Code",
+    "Chapter 5 of the FIA Judicial",
+    "Disciplinary Rules",
+    "are based solely on the relevant regulations",
+    "guidelines"
+  ],
+  "tables_extracted": 0,
+  "team": "Cadillac Formula 1 Team",
+  "time": "12:01",
+  "title": "Infringement Car 25 Technical Non Conformity Cds",
+  "to": "The Team Manager,",
+  "year": 2026
+}

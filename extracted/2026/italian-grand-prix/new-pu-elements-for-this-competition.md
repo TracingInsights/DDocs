@@ -1,14 +1,14 @@
 # 2026 ITALIAN GRAND PRIX
 
-### 04 - 06 September 2026
+## 04 - 06 September 2026
 
-The FIA Formula 1 Technical Delegate From The FIA Formula 1 Technical Delegate To The Stewards Document 18
+The FIA Formula 1 Technical Delegate From The FIA Formula 1 Technical Delegate To The Stewards Document 33
 
-Date 04 September 2026 Time 16:01
+Date 05 September 2026 Time 12:40
 
 Title Technical Delegate's Report Description New PU elements for this Competition
 
-**Enclosed 13 ITA GP 26 TDR5.pdf Jo Bauer**
+**Enclosed 13 ITA GP 26 TDR7.pdf Jo Bauer**
 
 ## 2026 ITALIAN GRAND PRIX
 
@@ -16,14 +16,44 @@ Title Technical Delegate's Report Description New PU elements for this Co
 
 From : The FIA Formula 1 Technical Delegate
 
-To : The Stewards Date : 04 September 2026
+To : The Stewards Date : 05 September 2026
 
 ## TECHNICAL DELEGATE'S REPORT
 
-The following drivers are using a new power unit ancillary component (PU-ANC) for the remainder of the Competition:
+The following driver is using a new internal combustion engine (ICE) for the remainder of the Competition:
+
+## Number Car Driver Previously used ICE
+
+30 Red Bull Racing RB Ford Liam Lawson 5
+
+The internal combustion engine used by Liam Lawson is the sixth (6th) of the four (4) new internal combustion engines allowed for the 2026 Championship season and this is not in conformity with B8.2.2 a) of the 2026 Formula One Sporting Regulations.
+
+The following driver is using a new turbocharger (TC) for the remainder of the Competition:
+
+## Number Car Driver Previously used TC
+
+30 Red Bull Racing RB Ford Liam Lawson 5
+
+The turbocharger used by Liam Lawson is the sixth (6th) of the four (4) new turbochargers allowed for the 2026 Championship season and this is not in conformity with B8.2.2 b) of the 2026 Formula One Sporting Regulations.
+
+The following driver is using a exhaust set (EXH) for the remainder of the Competition:
+
+## Number Car Driver Previously used EXH
+
+30 Red Bull Racing RB Ford Liam Lawson 5
+
+The exhaust set used by Liam Lawson is the sixth (6th) of the four (4) new exhaust sets allowed for the 2026 Championship season and this is not in conformity with B8.2.2 c) of the 2026 Formula One Sporting Regulations.
+
+The following driver is using a new motor generator unit-kinetic (MGU-K) for the remainder of the Competition:
+
+## Number Car Driver Previously used MGU-K
+
+The motor generator unit-kinetic used by Liam Lawson is the fourth (4th) of the three (3) new motor generator units-kinetic allowed for the 2026 Championship season and this is not in conformity with B8.2.2 f) of the 2026 Formula One Sporting Regulations.
+
+The following driver is using a new power unit ancillary component (PU-ANC) for the remainder of the Competition:
 
 ## Number Car Driver Previously used PU-ANC
 
-16 Ferrari Charles Leclerc 5 44 Ferrari Lewis Hamilton 5
+30 Red Bull Racing RB Ford Liam Lawson 6
 
-The power unit ancillary component used by the above drivers is one (1) of the six (6) new power unit ancillary components allowed for the 2026 Championship season and this is in conformity with B8.2.2 g) of the 2026 Formula One Sporting Regulations.
+The power unit ancillary component used by Liam Lawson is the seventh (7th) of the six (6) new power unit ancillary components allowed for the 2026 Championship season and this is not in conformity with B8.2.2 g) of the 2026 Formula One Sporting Regulations.
