@@ -99209,6 +99209,26 @@
     "success": true,
     "tables_extracted": 5
   },
+  "documents/2026/italian-grand-prix/decision-car-30-turn-4-incident-with-car-27.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-09-06T17:31:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:a69cdaeba3a29001004af08630b362af7d245c24648a0e80916f8579373445f9",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/decision-car-63-alleged-failure-to-slow-for-yellow-flags.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-09-06T17:31:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:1d4ad0f3e9790dfc9053a9a14a0a788ec3c24165bfd0556e21df9c7ab0aebd90",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -99296,6 +99316,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:27acb9546f77415e74826c675a5944f5f20010f13da242d8033d90778b8b55ed",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/infringement-car-11-failure-to-follow-race-directors-instruction-pit-exit.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-06T17:31:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:efbe839804c07284429db8904c3dbe89a2e7a5a2b23719bcd8c84f4891e58fe1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/infringement-car-11-failure-to-follow-race-directors-instruction-turns-1-and-2.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-06T17:31:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:7b6b97acc5697e0c2344c9478539905f43154a197a8e52c30c8a5b732b2c59f6",
     "success": true,
     "tables_extracted": 0
   },
@@ -99399,6 +99439,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/italian-grand-prix/infringement-car-43-failure-to-follow-race-directors-instruction-practice-start.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-06T17:31:48Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:acadea9e0dfadfb6ff9f2f537854d3e342878218245a216878d9027edb23bcdc",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/infringement-car-55-failure-to-slow-for-double-yellow-flags.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -99476,6 +99526,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:f5b40e660b115cfc5518c460f154a4f1d6f773454ff04eb465d9cf1bf8e1ef3f",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/italian-grand-prix/infringement-race-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-06T17:31:49Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:777d2071357a749ae9335c0a393712e6467b7166326d39a448f73fbb77e597ee",
     "success": true,
     "tables_extracted": 1
   },
@@ -99559,6 +99619,16 @@
     "success": true,
     "tables_extracted": 3
   },
+  "documents/2026/italian-grand-prix/provisional-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-06T17:31:49Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6bff75ae0c28939ef7c57295132976f7111bc12379a052c8fa9776fdcd9043f6",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/italian-grand-prix/provisional-starting-grid.pdf": {
     "doc_type": "starting-grid",
     "error": null,
@@ -99629,6 +99699,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/italian-grand-prix/race-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-06T17:31:49Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:f009eee8cfccef26b46f6223576ba3fc2563a96d7c27c81a94780fb8685d9570",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/self-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -99646,6 +99726,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:f9d712e09743ad7beb618357da114b42234680b5a557e5adb66ea04d5b6e572f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/italian-grand-prix/summons-car-22-alleged-start-procedure-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-06T17:31:49Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:4d8a44f31747e780e9338bdc9219c754d4a625c245712611f8c1cd45e21de297",
     "success": true,
     "tables_extracted": 0
   },
