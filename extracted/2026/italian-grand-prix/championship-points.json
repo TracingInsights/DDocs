@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-09-06",
+  "doc_number": "71",
+  "doc_type": "championship-points",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-09-06T22:42:34Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:c572449a18c102c2dd9207acc0c8e422e1a878566164bd83c4abed64b183b33a",
+  "source_pdf": "documents/2026/italian-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.57,
+        174.26,
+        814.49,
+        450.2
+      ],
+      "columns": 16,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        21.58,
+        174.26,
+        814.51,
+        386.52
+      ],
+      "columns": 16,
+      "page": 3,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        21.46,
+        173.81,
+        815.15,
+        453.9
+      ],
+      "columns": 16,
+      "page": 4,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        21.18,
+        172.01,
+        829.17,
+        257.56
+      ],
+      "columns": 16,
+      "page": 5,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "20:30",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

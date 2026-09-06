@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-09-06",
+  "doc_number": "70",
+  "doc_type": "classification",
+  "event_name": "Italian Grand Prix",
+  "event_slug": "italian-grand-prix",
+  "extracted_at": "2026-09-06T22:42:35Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c0b983a54efb8ffc8573214080195f12f1347528fcefcf51abd2ac6bff9f6fe2",
+  "source_pdf": "documents/2026/italian-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.47,
+        571.95,
+        420.27
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        23.03,
+        428.25,
+        571.95,
+        476.67
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:25",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

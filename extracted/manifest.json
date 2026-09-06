@@ -99179,6 +99179,16 @@
     "success": true,
     "tables_extracted": 10
   },
+  "documents/2026/italian-grand-prix/championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-09-06T22:42:34Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:c572449a18c102c2dd9207acc0c8e422e1a878566164bd83c4abed64b183b33a",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/italian-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -99208,6 +99218,16 @@
     "source_hash": "sha256:6148cd570854114a73cf180d8f7ab1ad66191fd74d3fc300908e7dc71bf66f3d",
     "success": true,
     "tables_extracted": 5
+  },
+  "documents/2026/italian-grand-prix/decision-car-22-alleged-start-procedure-infringement.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-09-06T22:42:35Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:10de2189f1931e4b4928ea625bfcad3f03e224bf44625c724459d3c5a3b7e9a7",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/italian-grand-prix/decision-car-30-turn-4-incident-with-car-27.pdf": {
     "doc_type": "decision",
@@ -99248,6 +99268,16 @@
     "source_hash": "sha256:387d0b953c01eb1ee1e08378a7ab76e8e20dd8d205420a574598bcb5a7c46fe2",
     "success": true,
     "tables_extracted": 3
+  },
+  "documents/2026/italian-grand-prix/final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-06T22:42:35Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c0b983a54efb8ffc8573214080195f12f1347528fcefcf51abd2ac6bff9f6fe2",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/italian-grand-prix/final-starting-grid.pdf": {
     "doc_type": "starting-grid",
@@ -99599,6 +99629,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/italian-grand-prix/post-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-09-06T22:42:36Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:9584bc885f2d04f99acac884a21b15aa2652e7889d95b3d139a8e163c0c60065",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/italian-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -99608,6 +99648,16 @@
     "source_hash": "sha256:23b0be8677e19c6254c2e169b75c2f882053d0b5814780eb34ca9a71e64e0aff",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/italian-grand-prix/pre-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-09-06T22:42:36Z",
+    "images_extracted": 1,
+    "pages": 3,
+    "source_hash": "sha256:4bac53cd3fc099115cfcc284e578748f25a9cc82101553464562a58e97358306",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/italian-grand-prix/provisional-qualifying-classification.pdf": {
     "doc_type": "classification",
