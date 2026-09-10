@@ -1,0 +1,76 @@
+{
+  "category": null,
+  "date": "2026-09-10",
+  "doc_number": "2",
+  "doc_type": "competition-visa",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-09-10T10:39:06Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 9,
+  "source_hash": "sha256:26a2b75fe10e8ca7ba3f8b9872aba666ae421241031cba5f6632270a7b8c7f45",
+  "source_pdf": "documents/2026/spanish-grand-prix/competition-visa.pdf",
+  "tables": [
+    {
+      "bbox": [
+        47.25,
+        160.17,
+        553.84,
+        230.89
+      ],
+      "columns": 5,
+      "page": 6,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        47.25,
+        264.71,
+        553.84,
+        667.81
+      ],
+      "columns": 5,
+      "page": 6,
+      "rows": 23
+    },
+    {
+      "bbox": [
+        47.26,
+        160.17,
+        553.84,
+        726.74
+      ],
+      "columns": 5,
+      "page": 7,
+      "rows": 33
+    },
+    {
+      "bbox": [
+        47.25,
+        160.17,
+        553.84,
+        673.61
+      ],
+      "columns": 5,
+      "page": 8,
+      "rows": 30
+    },
+    {
+      "bbox": [
+        47.26,
+        160.17,
+        553.84,
+        496.52
+      ],
+      "columns": 5,
+      "page": 9,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 5,
+  "time": "12:02",
+  "title": "Competition Visa",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
