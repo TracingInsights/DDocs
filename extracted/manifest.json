@@ -101739,6 +101739,26 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/spanish-grand-prix/car-display-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-09-10T20:27:07Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a4eac73a9368cc7ff656cbec477333b1c740fd270591f3752c59c0fa658e5d17",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-09-10T20:27:26Z",
+    "images_extracted": 3,
+    "pages": 4,
+    "source_hash": "sha256:85336f07aa823a1935f28367608057e1129c317fe059eef4d367cc41db66246a",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/spanish-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -101758,6 +101778,26 @@
     "source_hash": "sha256:26a2b75fe10e8ca7ba3f8b9872aba666ae421241031cba5f6632270a7b8c7f45",
     "success": true,
     "tables_extracted": 5
+  },
+  "documents/2026/spanish-grand-prix/power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-09-10T20:27:42Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:820758e2b83199437eba6db299af8d01d562815ffba80beca0c72a3043d2afcb",
+    "success": true,
+    "tables_extracted": 6
+  },
+  "documents/2026/spanish-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-09-10T20:27:43Z",
+    "images_extracted": 14,
+    "pages": 10,
+    "source_hash": "sha256:0d8f31d66990bf25991ecba2fe1b840ca9497453441364b67db5ca0e05da1ed6",
+    "success": true,
+    "tables_extracted": 0
   },
   "regs/2027/general/fia-2026-f1-regulations-section-a-general-provisions-iss-03-2026-06-25.pdf": {
     "doc_type": "other",
