@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-09-11",
+  "doc_number": "23",
+  "doc_type": "timetable",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-09-11T20:28:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 3,
+  "source_hash": "sha256:fdb4d49e8657981c06a7d1d6b9bbfc30f9494da474bbd9927158400263ba38b1",
+  "source_pdf": "documents/2026/spanish-grand-prix/timetable-v4.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        716.04
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 30
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        527.8
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "20:41",
+  "title": "Timetable V4",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

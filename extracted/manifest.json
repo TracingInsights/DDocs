@@ -101849,6 +101849,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/spanish-grand-prix/free-practice-2-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-11T20:28:01Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:ac38773f77ce7f172db9df7cb2c3ce50d075ab0b61fe83773d7400b1d589767e",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/spanish-grand-prix/infringement-car-11-pit-lane-speeding.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -101899,6 +101909,36 @@
     "success": true,
     "tables_extracted": 2
   },
+  "documents/2026/spanish-grand-prix/infringement-free-practice-2-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-11T20:28:02Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:8b157a98af6a726c79adf99eb97e35b30178e15aeac3be24e8a71b0e50f2f5e9",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "documents/2026/spanish-grand-prix/p1-and-p2-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-11T20:28:03Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:d8563447fe3ccb8db558987477e69d349a3ee66951cc3d7810efefd8fd136180",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/power-unit-information-v2.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-09-11T20:28:03Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:654f1f9fae6f4ab87c9ca86c562a9105d01cfa702d71a05a7b7b0077d05c46d1",
+    "success": true,
+    "tables_extracted": 6
+  },
   "documents/2026/spanish-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -101916,6 +101956,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:93f9ced8f349fe8d3a6f62890ed32eeb9b9ef9002583d08315403a0c8c12d969",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-09-11T20:28:03Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:f9081086a40e7603e8804052a9b752d82a79899bc9667f80d759a4b3e0fff8df",
     "success": true,
     "tables_extracted": 0
   },
@@ -101958,6 +102008,16 @@
     "source_hash": "sha256:d384c52b63d65f21aa0e6f26235494bb7913029d162557baf10a76c650dad51f",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/timetable-v4.pdf": {
+    "doc_type": "timetable",
+    "error": null,
+    "extracted_at": "2026-09-11T20:28:03Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:fdb4d49e8657981c06a7d1d6b9bbfc30f9494da474bbd9927158400263ba38b1",
+    "success": true,
+    "tables_extracted": 2
   },
   "regs/2027/general/fia-2026-f1-regulations-section-a-general-provisions-iss-03-2026-06-25.pdf": {
     "doc_type": "other",
