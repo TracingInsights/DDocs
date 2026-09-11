@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": null,
+  "doc_number": null,
+  "doc_type": "championship-points",
+  "event_name": "Dutch Grand Prix",
+  "event_slug": "dutch-grand-prix",
+  "extracted_at": "2026-09-11T10:38:51Z",
+  "from": null,
+  "images_extracted": 0,
+  "pages": 4,
+  "source_hash": "sha256:f06c0dbb9d06a138ca1fd272bca53653690674b59793108117b77bef059c4d29",
+  "source_pdf": "documents/2026/dutch-grand-prix/doc-74-2026-dutch-grand-prix-revised-following-ica-judgement-championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.23,
+        174.27,
+        814.71,
+        450.4
+      ],
+      "columns": 15,
+      "page": 1,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        21.22,
+        174.27,
+        814.74,
+        365.43
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        21.12,
+        173.81,
+        815.37,
+        454.1
+      ],
+      "columns": 15,
+      "page": 3,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        20.84,
+        172.01,
+        829.39,
+        257.63
+      ],
+      "columns": 14,
+      "page": 4,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 4,
+  "time": null,
+  "title": "Doc 74 2026 Dutch Grand Prix Revised Following Ica Judgement Championship Points After Sprint",
+  "to": null,
+  "year": 2026
+}

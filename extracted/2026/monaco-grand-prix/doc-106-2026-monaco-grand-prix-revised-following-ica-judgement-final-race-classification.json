@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": null,
+  "doc_number": null,
+  "doc_type": "classification",
+  "event_name": "Monaco Grand Prix",
+  "event_slug": "monaco-grand-prix",
+  "extracted_at": "2026-09-11T10:38:52Z",
+  "from": null,
+  "images_extracted": 0,
+  "pages": 1,
+  "source_hash": "sha256:948ae97a70bbeba66c1ebba9b1d93ab511ee44f0c14f7a1d8b4b8f1bb0828d3c",
+  "source_pdf": "documents/2026/monaco-grand-prix/doc-106-2026-monaco-grand-prix-revised-following-ica-judgement-final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.96,
+        189.37,
+        572.17,
+        383.81
+      ],
+      "columns": 12,
+      "page": 1,
+      "rows": 16
+    },
+    {
+      "bbox": [
+        22.96,
+        391.81,
+        572.17,
+        476.72
+      ],
+      "columns": 9,
+      "page": 1,
+      "rows": 7
+    }
+  ],
+  "tables_extracted": 2,
+  "time": null,
+  "title": "Doc 106 2026 Monaco Grand Prix Revised Following Ica Judgement Final Race Classification",
+  "to": null,
+  "year": 2026
+}
