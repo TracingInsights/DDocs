@@ -1,0 +1,42 @@
+{
+  "car_number": 11,
+  "category": null,
+  "date": "2026-09-11",
+  "decision": "The competitor (Cadillac Formula 1 Team) is fined \u20ac700.",
+  "doc_number": "12",
+  "doc_type": "infringement",
+  "driver": "Sergio Perez",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-09-11T15:54:22Z",
+  "fact": "Pit lane speeding \u2013 86.7 km/h",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "incident_time": "13:33",
+  "offence": "Breach of Article B1.6.3a.i of the FIA F1 Regulations.",
+  "pages": 1,
+  "penalty": "\u20ac700",
+  "penalty_points": null,
+  "reason": "Car 11 exceeded the pit lane speed limit which is set at 80 km/h for this event by 6.7 km/h.",
+  "rules_referenced": [
+    "Article 15",
+    "Article B1.6.3a.i",
+    "Chapter 5"
+  ],
+  "session": "Free Practice 1",
+  "source_hash": "sha256:5bb58ae6acc91d5400fa78e3a433d75294780eacf5ca42ae168ce65318f8f44a",
+  "source_pdf": "documents/2026/spanish-grand-prix/infringement-car-11-pit-lane-speeding.pdf",
+  "stewards": [
+    "in accordance with Article 15 of the FIA International Sporting Code",
+    "Chapter 5 of the FIA Judicial",
+    "Disciplinary Rules",
+    "are based solely on the relevant regulations",
+    "guidelines"
+  ],
+  "tables_extracted": 0,
+  "team": "Cadillac Formula 1 Team",
+  "time": "13:57",
+  "title": "Infringement Car 11 Pit Lane Speeding",
+  "to": "The Team Manager, Cadillac Formula 1 Team",
+  "year": 2026
+}

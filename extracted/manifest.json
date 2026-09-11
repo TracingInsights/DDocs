@@ -101839,6 +101839,66 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/spanish-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-11T15:54:21Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1fab869654b21cd476748236a0c6d57d69cd90778f362a716888ac57cf5300cd",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/spanish-grand-prix/infringement-car-11-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-11T15:54:22Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:5bb58ae6acc91d5400fa78e3a433d75294780eacf5ca42ae168ce65318f8f44a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/infringement-car-11-second-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-11T15:54:22Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:df9f021533d2339da9a1c9561038b486adec2d9738c468e0135dd05262843910",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/infringement-car-23-leaving-the-track-and-re-joining-unsafely.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-11T15:54:22Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:85329b291cd15bbf5c86e6ed84c0cd5d2a7e817ccaaeb80ad7a2f06f104c0249",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellows.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-11T15:54:22Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e1ae9834d4068197a9a07d61f3b81c792eb040721be8eeda91b87c34bf1fe432",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/spanish-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-11T15:54:23Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:1cbe8b141a59a78b96be584b76e5ece76bd12df39da047c232a20ddcc5719899",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/spanish-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -101876,6 +101936,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:1c5d7687e446be354804186962764547d271f45c828696ec3dd3ecc3a5fd1a5a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/summons-car-23-alleged-re-joining-the-track-unsafely.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-11T15:54:23Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:34ef205a175ef588d634cc9715e709838c9a2fa198fa2a9fad9d8b2ec9a80fbb",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/summons-car-41-alleged-re-joining-the-track-unsafely.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-11T15:54:23Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:d384c52b63d65f21aa0e6f26235494bb7913029d162557baf10a76c650dad51f",
     "success": true,
     "tables_extracted": 0
   },
