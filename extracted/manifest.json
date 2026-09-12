@@ -101779,6 +101779,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/spanish-grand-prix/car-41-self-scrutineering-after-chassis-change.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-12T15:00:58Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:6d3034e69824bfd0c7f50980343eca50d596da04cfe02dd0f16dad9a6aa4afa1",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/spanish-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
     "error": null,
@@ -101829,6 +101839,26 @@
     "success": true,
     "tables_extracted": 5
   },
+  "documents/2026/spanish-grand-prix/curfew.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-09-12T15:00:58Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:6c3135a676e9a75cea3afc4b7a4a0a0db0c1b2ee00d4d4d35ef7fdd361fcd071",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/decision-temporary-stop-of-free-practice-3.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-09-12T15:00:58Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:918d6142b3bc568bf8bd09829db4e34d3f2df51ac47d0f5f023304e4c234e498",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/spanish-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -101859,6 +101889,26 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/spanish-grand-prix/free-practice-3-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-12T15:00:59Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:0b3edad6f4e595ecf788c14a2c3847251bd1044fb9df84b27ebe130843242d48",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/spanish-grand-prix/infringement-car-1-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:00Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:18c5826c0f18f6bc4c9f1d233e4e74c991a4983678feb888966cb804507ccbe7",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/spanish-grand-prix/infringement-car-11-pit-lane-speeding.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -101879,6 +101929,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/spanish-grand-prix/infringement-car-18-pu-elements-changed.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:00Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:63ddbf79b3c5ac9c1e17003ce1396d18103fb514a101b4f84b6de6eb073b4350",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/spanish-grand-prix/infringement-car-23-leaving-the-track-and-re-joining-unsafely.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -101886,6 +101946,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:85329b291cd15bbf5c86e6ed84c0cd5d2a7e817ccaaeb80ad7a2f06f104c0249",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/infringement-car-77-failure-to-follow-race-directors-instructions-escape-roads.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:01Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:d7f4e3b04cdcde441a005bfc60e9149b497052b4fdcf7faacb8a30a07399274b",
     "success": true,
     "tables_extracted": 0
   },
@@ -101919,6 +101989,36 @@
     "success": true,
     "tables_extracted": 2
   },
+  "documents/2026/spanish-grand-prix/infringement-free-practice-3-deleted-lap-times-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:01Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:eacef998f817a051e6e7a4abd52be7b6970811faf314d573473e5c7974c65b1f",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/spanish-grand-prix/infringement-free-practice-3-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:01Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:d826ecdeccd6a0d9f7c82c49d3f1f3ac087cd1ed470a003802419912f93b664b",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/spanish-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:02Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:a26ab68eb60435ca64e6c8e3fee2ac7f52830d49886d9f331db2141c6d7c8854",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/spanish-grand-prix/p1-and-p2-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -101926,6 +102026,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:d8563447fe3ccb8db558987477e69d349a3ee66951cc3d7810efefd8fd136180",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:02Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:747f77c8caad9a087a002be6a6a245c5806f29e13c1db96dee4866e4cba22108",
     "success": true,
     "tables_extracted": 0
   },
@@ -101969,6 +102079,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/spanish-grand-prix/race-directors-competition-notes-v2.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:03Z",
+    "images_extracted": 18,
+    "pages": 11,
+    "source_hash": "sha256:7aec5a0edf101a6583c4b99a9efe24470846abf68f3baa7fa29d8ce8e4edada3",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/spanish-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -102006,6 +102126,46 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:d384c52b63d65f21aa0e6f26235494bb7913029d162557baf10a76c650dad51f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/summons-car-5-alleged-failure-to-follow-race-directors-instructions-scl2-scl1.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:04Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ec923a91f6f19cc1e44a3d1546d0aaf79b94d89ce05076a354ad0a04de03321d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/summons-car-55-alleged-impeding-of-car-77.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:04Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:857817b7feab324417a4398158ed76d940bf0e498f298b595911b11a4bc4c6e4",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/summons-car-63-alleged-failure-to-follow-race-directors-instructions-escape-road.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:05Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:f379d9aa07f9ce79bf09dad7f186a29211050b6681c1418d3c94874f72589197",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/summons-car-77-alleged-impeding-by-car-55.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-12T15:01:05Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:19e403b24c7336588ed758eadb1f0c68b8ce76cd6d735a0acea188e105f90731",
     "success": true,
     "tables_extracted": 0
   },
