@@ -101819,6 +101819,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/spanish-grand-prix/championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-09-13T20:21:03Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:549c784d2b458bd7d91cabb0b71086ec1c038f9f997b51b02618fdd7ed171b7c",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/spanish-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -101908,6 +101918,16 @@
     "source_hash": "sha256:90b3fd636183a187d44ef342be9d4b1bf1c791263eb9b036a9863ebaeb3c1002",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/spanish-grand-prix/final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-13T20:21:08Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:287bb19122e30ddcd66721faa57acf5959d62fc1d7b7e1ed6000e6ed44710146",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/spanish-grand-prix/final-starting-grid.pdf": {
     "doc_type": "starting-grid",
@@ -102366,6 +102386,16 @@
     "images_extracted": 14,
     "pages": 10,
     "source_hash": "sha256:0d8f31d66990bf25991ecba2fe1b840ca9497453441364b67db5ca0e05da1ed6",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/race-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-13T20:21:09Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:0724f17feae3a7fb1629af486daad4992413e8cf227869ee525b75f8a41f7053",
     "success": true,
     "tables_extracted": 0
   },

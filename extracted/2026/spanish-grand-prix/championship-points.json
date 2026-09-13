@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-09-13",
+  "doc_number": "74",
+  "doc_type": "championship-points",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-09-13T20:21:03Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:549c784d2b458bd7d91cabb0b71086ec1c038f9f997b51b02618fdd7ed171b7c",
+  "source_pdf": "documents/2026/spanish-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        118.55,
+        174.27,
+        814.67,
+        450.48
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        116.97,
+        174.27,
+        814.69,
+        386.76
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        118.26,
+        173.88,
+        815.25,
+        454.2
+      ],
+      "columns": 6,
+      "page": 4,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        113.48,
+        172.08,
+        829.32,
+        257.76
+      ],
+      "columns": 6,
+      "page": 5,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "20:15",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
