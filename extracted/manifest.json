@@ -101849,6 +101849,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/spanish-grand-prix/decision-permission-to-start.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-09-13T03:12:39Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:646241e51adcee602de83a97969c74350dbe0b32282b767332783b27c32b1e46",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/spanish-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -101876,6 +101886,26 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:af68e34db61a3220d6e16ac510be190ab4e1e4115306b5a46c98bcaf31d0faaf",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/spanish-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-13T03:12:40Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:90b3fd636183a187d44ef342be9d4b1bf1c791263eb9b036a9863ebaeb3c1002",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/spanish-grand-prix/fp3-and-qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-13T03:12:41Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:55d0d9c64c7874462e0e06288c30e988d2f30b19641d3d1b7c5c25e827aa3ef4",
     "success": true,
     "tables_extracted": 0
   },
@@ -102148,6 +102178,16 @@
     "source_hash": "sha256:a7558522d342090288029fb772a8183f003a69740e24df75add4b9dcee65a866",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/spanish-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-09-13T03:12:41Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6afccbedc90c8c36477c934cff78febead39b3cab7913ccf5155d12e232566f6",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/spanish-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
