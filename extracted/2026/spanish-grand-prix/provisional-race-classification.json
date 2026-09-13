@@ -1,0 +1,54 @@
+{
+  "category": null,
+  "date": "2026-09-13",
+  "doc_number": "70",
+  "doc_type": "classification",
+  "event_name": "Spanish Grand Prix",
+  "event_slug": "spanish-grand-prix",
+  "extracted_at": "2026-09-13T15:38:56Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:d2298d9ac40a6c8e866524873800d0a2efe9e8e13526f372bcd1d252fd315722",
+  "source_pdf": "documents/2026/spanish-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        71.19,
+        189.38,
+        572.29,
+        408.2
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        71.19,
+        416.04,
+        572.29,
+        476.82
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        71.19,
+        489.72,
+        572.29,
+        513.97
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "17:05",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
