@@ -2,9 +2,15 @@ name: FIA F1 Documents - Scrape and Release
 
 on:
   schedule:
-    # Run every 3 hours
-    - cron: "0 */3 * * *"
-  workflow_dispatch: # Allow manual triggers
+    # Low-frequency fallback: run once daily at 06:17 UTC (off-peak minute).
+    # The primary trigger is event-driven workflow_dispatch from the tif1ai VPS poller.
+    - cron: "17 6 * * *"
+  workflow_dispatch: # Allow manual triggers (used by the tif1ai VPS poller)
+
+# Serialize runs: a new run queues behind the in-progress run. No parallel scrapes.
+concurrency:
+  group: fia-scrape
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -51,7 +57,7 @@ jobs:
         id: scrape
         env:
           # Cache TTL can be configured via environment variable
-          # Default is 2.5 hours (slightly under the 3-hour cron interval)
+          # Default is 2.5 hours (short TTL keeps event-driven dispatches responsive)
           DISCOVERY_CACHE_TTL_HOURS: "2.5"
         run: uv run python scraper.py --output-dir documents
       - name: Run transcript scraper
