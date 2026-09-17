@@ -59,7 +59,7 @@ jobs:
           # Cache TTL can be configured via environment variable
           # Default is 2.5 hours (short TTL keeps event-driven dispatches responsive)
           DISCOVERY_CACHE_TTL_HOURS: "2.5"
-        run: uv run python scraper.py --output-dir documents
+        run: uv run --frozen python scraper.py --output-dir documents
       - name: Run transcript scraper
         id: scrape_transcripts
         # Run transcript scraper after main scraper completes (sequential execution)
@@ -67,19 +67,19 @@ jobs:
         env:
           # Cache TTL can be configured via environment variable
           DISCOVERY_CACHE_TTL_HOURS: "2.5"
-        run: uv run python transcript_scraper.py --year $(date +%Y) --super-aggressive
+        run: uv run --frozen python transcript_scraper.py --year $(date +%Y) --super-aggressive
       - name: Run regulations scraper
         id: scrape_regs
         if: always()
-        run: uv run python regs_scraper.py --output-dir regs
+        run: uv run --frozen python regs_scraper.py --output-dir regs
       - name: Run extraction on new documents
         id: extract
         if: always()
-        run: uv run python extract.py --limit 200
+        run: uv run --frozen python extract.py --limit 200
       - name: Run extraction on new regulations
         id: extract_regs
         if: always()
-        run: uv run python extract.py --documents-dir regs --limit 200
+        run: uv run --frozen python extract.py --documents-dir regs --limit 200
       - name: Check if any scraper succeeded
         run: |
           if [[ "${{ steps.scrape.outcome }}" == "failure" ]] && [[ "${{ steps.scrape_transcripts.outcome }}" == "failure" ]] && [[ "${{ steps.scrape_regs.outcome }}" == "failure" ]]; then
