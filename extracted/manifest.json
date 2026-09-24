@@ -94849,6 +94849,96 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/azerbaijan-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c133add638e26b27d32eff3fc9d955f0ac34b90a8ff9ca7ac679e19ca2ebaabc",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/azerbaijan-grand-prix/free-practice-2-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:62489662a6585bd8281aa35b5002ca87cdcad645ed1c70d6eb81c7135c0e186e",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/azerbaijan-grand-prix/infringement-car-14-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1f4028980c0289b5b605b1222b31e088607c37fbbdca255d3486f81306deaa23",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/infringement-car-18-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:021714006d318fcca569b0e265ef2934364df9511dc6f0da7bf0baf8aff6fd5a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/infringement-car-77-overtaking-under-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:2bfa39f7c6d0f4e9d38f92f33911e024875668818622c398189ed0d8914aa00d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:07Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:eede71328526e4df46a12ee6226edf88559a6580a8af1932aa228d16a97fb82f",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/azerbaijan-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:07Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:1aa08369e045ec0ca32bd5f5c3b11a28e4301719aca8455bfa0d156176e8237b",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/azerbaijan-grand-prix/infringement-free-practice-2-deleted-lap-times-double-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:07Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:cafa0e92e2413c5aa6624719a4a47850ce6af0ddf455866054d498955f0a2a9b",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/azerbaijan-grand-prix/infringement-free-practice-2-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:07Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:88a3f77b7a660914ac66e201ef72e55306024ec3d4d1d199daa66d832f4c04e0",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/azerbaijan-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -94889,6 +94979,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/azerbaijan-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:07Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:8186203a44e31f19d5524434fe5c2381fe7cfdc7ab679f9c8352f9089c8d558f",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/azerbaijan-grand-prix/race-directors-competition-notes-v2.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -94916,6 +95016,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:adc63b7cf32249e51c7b7af094f7b61457194f4d9aa7abf4663364ad8d540645",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/summons-car-30-alleged-impeding-by-car-44.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:07Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:86b71eb394496f28114405ba33c7f0d7f7fb4eb9d2e44ef4f09f101616ce337e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/summons-car-44-alleged-impeding-of-car-30.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-24T13:37:07Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:fdbcc3f2394782e4be90b59130a9ed149f8d4787a2953dac53dd08e4ae609538",
     "success": true,
     "tables_extracted": 0
   },
