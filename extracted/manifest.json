@@ -94789,6 +94789,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/azerbaijan-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-09-24T06:27:11Z",
+    "images_extracted": 4,
+    "pages": 5,
+    "source_hash": "sha256:34506576427627d59c2d09612fe4d83bf8b05ae18eeb9705053d39c4a7bb2e33",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/azerbaijan-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -94798,6 +94808,16 @@
     "source_hash": "sha256:be2a9031410066a58874574a31dec945293754a5863820d1770c2de54d859549",
     "success": true,
     "tables_extracted": 2
+  },
+  "documents/2026/azerbaijan-grand-prix/competition-visa-v2.pdf": {
+    "doc_type": "competition-visa",
+    "error": null,
+    "extracted_at": "2026-09-24T06:27:17Z",
+    "images_extracted": 0,
+    "pages": 9,
+    "source_hash": "sha256:afd92cb6b8fc49c009da67c9c4af648c590774277419e6d6e6e3b49f6b2e287b",
+    "success": true,
+    "tables_extracted": 4
   },
   "documents/2026/azerbaijan-grand-prix/competition-visa.pdf": {
     "doc_type": "competition-visa",
@@ -94828,6 +94848,16 @@
     "source_hash": "sha256:90023e0575a7e570a554f49baf31a95b0dca01e63da65c212afafb5bf5399836",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/azerbaijan-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-09-24T06:27:19Z",
+    "images_extracted": 9,
+    "pages": 8,
+    "source_hash": "sha256:a2c3873f4f26055531df40f5406953d36001ab539443d0cd14abc21c365ae703",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/azerbaijan-grand-prix/self-scrutineering.pdf": {
     "doc_type": "scrutineering",
