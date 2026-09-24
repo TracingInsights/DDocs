@@ -94789,6 +94789,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/azerbaijan-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-09-24T09:51:33Z",
+    "images_extracted": 6,
+    "pages": 20,
+    "source_hash": "sha256:1616de8a9a2118873ff2146d08df6a98479e777d4012aa430a40766e563699b2",
+    "success": true,
+    "tables_extracted": 8
+  },
   "documents/2026/azerbaijan-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -94866,6 +94876,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:adc63b7cf32249e51c7b7af094f7b61457194f4d9aa7abf4663364ad8d540645",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/summons-car-77-alleged-yellow-flag-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-09-24T09:51:34Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:59c39b9250b770a0a6dec1c181749c83ddad9ca44b42d9f0d6b9f43d28f24931",
     "success": true,
     "tables_extracted": 0
   },
