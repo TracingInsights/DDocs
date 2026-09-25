@@ -94839,6 +94839,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/azerbaijan-grand-prix/curfew-amended.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-09-25T08:52:37Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:a172dcc3f4a0127be2e74f135cbab94e5c345542d3b6834e86aee5fabf246211",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/azerbaijan-grand-prix/curfew.pdf": {
     "doc_type": "curfew",
     "error": null,
@@ -94972,12 +94982,22 @@
   "documents/2026/azerbaijan-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-09-24T10:12:15Z",
+    "extracted_at": "2026-09-25T08:52:38Z",
     "images_extracted": 0,
-    "pages": 4,
-    "source_hash": "sha256:d40730f12c24793a317621a261031bfc5c348c91269a797858e9ec1258dd6a6b",
+    "pages": 2,
+    "source_hash": "sha256:bd92551b7a87360c4ba93361f952946ed9a5a475047023a18c60504416c5ebea",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-09-25T08:52:38Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:c2fd7021e15488e3047bd993e66f661384f3b8c4dac08ea1f0ec6ed4abdb4b08",
+    "success": true,
+    "tables_extracted": 1
   },
   "documents/2026/azerbaijan-grand-prix/post-race-checks-on-car-number-63-2026-spanish-gp.pdf": {
     "doc_type": "post-race-checks",
