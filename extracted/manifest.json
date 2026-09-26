@@ -94879,6 +94879,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/azerbaijan-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-26T06:07:14Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:48d1249cf27670429c9d71ff31b31f189f436ed04507dadb9940efbc6496b2a8",
+    "success": true,
+    "tables_extracted": 3
+  },
   "documents/2026/azerbaijan-grand-prix/fp1-and-fp2-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -94886,6 +94896,16 @@
     "images_extracted": 0,
     "pages": 4,
     "source_hash": "sha256:06ddb5992676b4391e0543c37f469f085f1b8d6703353d81f0eaff7f22191672",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/fp3-and-qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-26T06:07:15Z",
+    "images_extracted": 0,
+    "pages": 7,
+    "source_hash": "sha256:371e26c78e43366b371eb7655d0f2338fc49a05503e8b3503f0840b40b297200",
     "success": true,
     "tables_extracted": 0
   },
@@ -94918,6 +94938,16 @@
     "source_hash": "sha256:0d6cb7fa401f82a39ffdeaa16588ccd3e0523eb67cff0a44eb19a10c321f306d",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/azerbaijan-grand-prix/infringement-car-11-impeding-car-81.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-09-26T06:07:15Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:46efbe9e0ae21da5e714eef619da8918a13d8a9b1d7ec65dd30d5b4e57bc31fa",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/azerbaijan-grand-prix/infringement-car-14-pu-element.pdf": {
     "doc_type": "infringement",
@@ -94972,10 +95002,10 @@
   "documents/2026/azerbaijan-grand-prix/infringement-car-55-failure-to-slow-for-yellow-flags.pdf": {
     "doc_type": "infringement",
     "error": null,
-    "extracted_at": "2026-09-25T11:43:08Z",
+    "extracted_at": "2026-09-26T06:07:15Z",
     "images_extracted": 0,
     "pages": 2,
-    "source_hash": "sha256:5d41e985dea6171c11a84769dbfbcdb48886520b094c25a8228cd987ea2e5b68",
+    "source_hash": "sha256:8900d6eb8d5bf56c5b0dc09f649d40a648b9edcb33f335bad8a7ab7ff3dbb3a8",
     "success": true,
     "tables_extracted": 0
   },
@@ -95118,6 +95148,16 @@
     "source_hash": "sha256:e62648cb5f7f283070a39a680b1e05307bcfeb281225e96b0065b272a1496a21",
     "success": true,
     "tables_extracted": 3
+  },
+  "documents/2026/azerbaijan-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-09-26T06:07:15Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:12fe70a5b1d41c8161a7fc829d854e38f3aa2b89b6bc8483f70df3aa02906647",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/azerbaijan-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
