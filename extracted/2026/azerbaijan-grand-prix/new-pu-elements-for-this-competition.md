@@ -2,13 +2,13 @@
 
 ## 24 - 26 September 2026
 
-The FIA Formula 1 Technical Delegate From The FIA Formula 1 Technical Delegate To The Stewards Document 33
+The FIA Formula 1 Technical Delegate From The FIA Formula 1 Technical Delegate To The Stewards Document 55
 
-Date 25 September 2026 Time 12:43
+Date 26 September 2026 Time 11:56
 
 Title Technical Delegate's Report Description New PU elements for this Competition
 
-**Enclosed 15 AZE GP 26 TDR6.pdf Jo Bauer**
+**Enclosed 15 AZE GP 26 TDR8.pdf Jo Bauer**
 
 ## 2026 AZERBAIJAN GRAND PRIX
 
@@ -16,24 +16,38 @@ Title Technical Delegate's Report Description New PU elements for this Co
 
 From : The FIA Formula 1 Technical Delegate
 
-To : The Stewards Date : 25 September 2026
+To : The Stewards Date : 26 September 2026
 
 ## TECHNICAL DELEGATE'S REPORT
 
-The following driver is using a new exhaust set (EXH) for the remainder of the Competition:
+The following driver will be using a new internal combustion engine (ICE) for the remainder of the Competition:
+
+## Number Car Driver Previously used ICE
+
+03 Red Bull Racing RB Ford Max Verstappen 3
+
+The internal combustion engine used by Max Verstappen is one (1) of the four (4) new internal combustion engines allowed for the 2026 Championship season and this is in compliance with B8.2.2 a) of the 2026 Formula One Sporting Regulations.
+
+The following driver will be using a new turbocharger (TC) for the remainder of the Competition:
+
+## Number Car Driver Previously used TC
+
+03 Red Bull Racing RB Ford Max Verstappen 3
+
+The turbocharger used by Max Verstappen is one (1) of the four (4) new turbochargers allowed for the 2026 Championship season and this is in compliance with B8.2.2 b) of the 2026 Formula One Sporting Regulations.
+
+The following driver will be using a exhaust set (EXH) for the remainder of the Competition:
 
 ## Number Car Driver Previously used EXH
 
-77 Cadillac Ferrari Valtteri Bottas 2
+03 Red Bull Racing RB Ford Max Verstappen 3
 
-The exhaust set used by Valtteri Bottas is one (1) of the four (4) new exhaust sets allowed for the 2026 Championship season and this is in compliance with B8.2.2 c) of the 2026 Formula One Sporting Regulations.
+The exhaust set used by Max Verstappen is one (1) of the four (4) new exhaust sets allowed for the 2026 Championship season and this is in compliance with B8.2.2 c) of the 2026 Formula One Sporting Regulations.
 
-The following driver is using a new energy store unit (ES) for the remainder of the Competition:
+The following driver will be using a new power unit ancillary component (PU-ANC) for the remainder of the Competition:
 
-## Number Car Driver Previously used ES
+## Number Car Driver Previously used PU-ANC
 
-14 Aston Martin Aramco Honda Fernando Alonso 6
+03 Red Bull Racing RB Ford Max Verstappen 4
 
-The energy store unit used by Fernando Alonso is the seventh (7th) of the three (3) new energy store units allowed for the 2026 Championship season and this is not in compliance with B8.2.2
-
-- d) of the 2026 Formula One Sporting Regulations.
+The power unit ancillary component used by Max Verstappen is one (1) of the six (6) new power unit ancillary components allowed for the 2026 Championship season and this is in compliance with B8.2.2 g) of the 2026 Formula One Sporting Regulations.

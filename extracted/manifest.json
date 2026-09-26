@@ -94889,6 +94889,16 @@
     "success": true,
     "tables_extracted": 3
   },
+  "documents/2026/azerbaijan-grand-prix/final-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-09-26T10:11:58Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:4f7db5288b73b9094e72dea50240a9491ad978f1e98238ac90d59ff790625695",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/azerbaijan-grand-prix/fp1-and-fp2-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -95102,10 +95112,20 @@
   "documents/2026/azerbaijan-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-09-25T08:52:38Z",
+    "extracted_at": "2026-09-26T10:11:59Z",
     "images_extracted": 0,
-    "pages": 2,
-    "source_hash": "sha256:bd92551b7a87360c4ba93361f952946ed9a5a475047023a18c60504416c5ebea",
+    "pages": 3,
+    "source_hash": "sha256:c655f739ef96076d82f88e73751301527bb5d5f0eaa7b5ca302c5d52360306a8",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/parts-and-parameters-been-replaced-and-or-changed-during-parc-ferme.pdf": {
+    "doc_type": "parc-ferme",
+    "error": null,
+    "extracted_at": "2026-09-26T10:11:59Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:66512a7b1e64fda633d5be08fb2c41f779d4593d6618dd76ff3d0c375a1afaf8",
     "success": true,
     "tables_extracted": 0
   },
@@ -95129,6 +95149,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/azerbaijan-grand-prix/post-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-09-26T10:11:59Z",
+    "images_extracted": 1,
+    "pages": 5,
+    "source_hash": "sha256:04784933bf81b1713fc01ec40dcc574b008e3d3c8db1a2cad4404ac52d924cf2",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/azerbaijan-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -95138,6 +95168,16 @@
     "source_hash": "sha256:90023e0575a7e570a554f49baf31a95b0dca01e63da65c212afafb5bf5399836",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/azerbaijan-grand-prix/pre-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-09-26T10:12:00Z",
+    "images_extracted": 1,
+    "pages": 3,
+    "source_hash": "sha256:2f71db044d5c3aa1de12394886b7ffc015977e6bfdc69d48af1f21d6eec5e3c6",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/azerbaijan-grand-prix/provisional-qualifying-classification.pdf": {
     "doc_type": "classification",
@@ -95186,6 +95226,16 @@
     "images_extracted": 9,
     "pages": 8,
     "source_hash": "sha256:6f15a45a308ba9d1f0e9e5e6fc562bdf92b64c54a93b9055c94ab3cc0c791f19",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/race-directors-competition-notes-v3.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-09-26T10:12:01Z",
+    "images_extracted": 9,
+    "pages": 8,
+    "source_hash": "sha256:6cab4229d0480853018cef6e38957b5570ebf6d7d059c9aabd235cb338a4b2ab",
     "success": true,
     "tables_extracted": 0
   },
