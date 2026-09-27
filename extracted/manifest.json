@@ -94799,6 +94799,16 @@
     "success": true,
     "tables_extracted": 8
   },
+  "documents/2026/azerbaijan-grand-prix/championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-09-27T12:01:20Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:34a34734e8ea9b9293cbe0dd3fd7403329683c6a7fb64facb60449a8c09a1646",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/azerbaijan-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -94908,6 +94918,16 @@
     "source_hash": "sha256:48d1249cf27670429c9d71ff31b31f189f436ed04507dadb9940efbc6496b2a8",
     "success": true,
     "tables_extracted": 3
+  },
+  "documents/2026/azerbaijan-grand-prix/final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-09-27T12:01:20Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:0e2136a41cae349dac8716915ac54a252754dc87f190b27c9353b418c91dbefb",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/azerbaijan-grand-prix/final-starting-grid.pdf": {
     "doc_type": "starting-grid",
@@ -95326,6 +95346,16 @@
     "images_extracted": 9,
     "pages": 8,
     "source_hash": "sha256:a2c3873f4f26055531df40f5406953d36001ab539443d0cd14abc21c365ae703",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/azerbaijan-grand-prix/race-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-09-27T12:01:21Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:dad7c117b4244d93ea69d7b507b4e51329140f04a6ae618f479bfb41993aac50",
     "success": true,
     "tables_extracted": 0
   },
