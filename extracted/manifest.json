@@ -95459,6 +95459,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/bahrain-grand-prix/car-display-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-10-01T10:37:11Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1fa667a60c4b4ebd7a326713e368fe274bd374358bba2228e89faff8880bbd38",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/bahrain-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -103259,6 +103269,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "regs/2027/general/fia-2026-f1-regulations-section-b-sporting-iss-09-2026-10-01.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-10-01T10:37:26Z",
+    "images_extracted": 0,
+    "pages": 101,
+    "source_hash": "sha256:5e156f50f1ca529d43551f52e82f5f2872bdfbe088e96fab39b861f6b0704b85",
+    "success": true,
+    "tables_extracted": 6
+  },
   "regs/2027/general/fia-2026-f1-regulations-section-c-technical-iss-19-2026-06-25.pdf": {
     "doc_type": "other",
     "error": null,
@@ -103286,6 +103306,16 @@
     "images_extracted": 0,
     "pages": 64,
     "source_hash": "sha256:b38f5a1b2c67edbe3c86e4f7d4adbfce6321504f8733a70201508b99ed4717b5",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "regs/2027/general/fia-2026-f1-regulations-section-d-financial-f1-teams-iss-08-2026-10-01.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-10-01T10:37:46Z",
+    "images_extracted": 0,
+    "pages": 64,
+    "source_hash": "sha256:bfbc64a0e051e82ab7ca1f4bd1e5e8545cdc03e105c4edb6a5415e8536074682",
     "success": true,
     "tables_extracted": 2
   },
@@ -103319,6 +103349,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "regs/2027/general/fia-2026-f1-regulations-section-f-operational-iss-11-2026-10-01.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-10-01T10:37:58Z",
+    "images_extracted": 0,
+    "pages": 49,
+    "source_hash": "sha256:382b1b5bdb495721c0e4339d89f7a4e0e16844686375082035cead8f12674266",
+    "success": true,
+    "tables_extracted": 6
+  },
   "regs/2027/general/fia-2027-f1-regulations-section-c-technical-iss-01-2026-06-25.pdf": {
     "doc_type": "other",
     "error": null,
@@ -103338,5 +103378,15 @@
     "source_hash": "sha256:86214a2d3b2c18e191212b258394405ad0233884b3ff0cfa5b0f41f568da3a2d",
     "success": true,
     "tables_extracted": 44
+  },
+  "regs/2027/general/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-10-01T10:38:45Z",
+    "images_extracted": 8,
+    "pages": 283,
+    "source_hash": "sha256:7d72c5b44049305f449eef254b2e1891dab18f06ae43a1dd0fcae7a89732e6d0",
+    "success": true,
+    "tables_extracted": 45
   }
 }

@@ -1,0 +1,646 @@
+{
+  "category": "general",
+  "date": null,
+  "doc_number": null,
+  "doc_type": "other",
+  "event_name": null,
+  "event_slug": null,
+  "extracted_at": "2026-10-01T10:38:45Z",
+  "from": null,
+  "images": [
+    {
+      "bbox": [
+        68.15,
+        70.9,
+        526.6,
+        697.85
+      ],
+      "deduplicated": false,
+      "display_height": 626.95,
+      "display_width": 458.45,
+      "height": 1306,
+      "page": 70,
+      "path": "images/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01_p70_img1.png",
+      "sha256": "0e9d4ea28f65f78e468d935f04b265767486762d183d9c94d0a858d5e4a38958",
+      "width": 955
+    },
+    {
+      "bbox": [
+        133.45,
+        107.78,
+        511.2,
+        545.02
+      ],
+      "deduplicated": false,
+      "display_height": 437.24,
+      "display_width": 377.75,
+      "height": 963,
+      "page": 96,
+      "path": "images/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01_p96_img2.png",
+      "sha256": "5728078cd61fe0ba17ab7a1f2bb775576be3a031090ec5ac5fce58073cf22424",
+      "width": 832
+    },
+    {
+      "bbox": [
+        92.15,
+        398.96,
+        511.7,
+        718.66
+      ],
+      "deduplicated": false,
+      "display_height": 319.7,
+      "display_width": 419.55,
+      "height": 666,
+      "page": 241,
+      "path": "images/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01_p241_img3.jpeg",
+      "sha256": "76f577f1e3511e8c84235f86d3879107909ed98589cf568698976da9e0aa54aa",
+      "width": 874
+    },
+    {
+      "bbox": [
+        92.15,
+        70.9,
+        539.05,
+        402.15
+      ],
+      "deduplicated": false,
+      "display_height": 331.25,
+      "display_width": 446.9,
+      "height": 690,
+      "page": 242,
+      "path": "images/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01_p242_img4.jpeg",
+      "sha256": "944d3c826678995a155daf3a7b62893e78e2f322333bf0660c1dbf3dad898f2e",
+      "width": 931
+    },
+    {
+      "bbox": [
+        92.15,
+        406.9,
+        542.6,
+        753.2
+      ],
+      "deduplicated": false,
+      "display_height": 346.3,
+      "display_width": 450.45,
+      "height": 645,
+      "page": 243,
+      "path": "images/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01_p243_img5.png",
+      "sha256": "b7b9f1db930ee1861869587902be3e2270078527577ed1c64c38ce6c2282bc2e",
+      "width": 839
+    },
+    {
+      "bbox": [
+        92.15,
+        70.9,
+        516.36,
+        399.25
+      ],
+      "deduplicated": false,
+      "display_height": 328.35,
+      "display_width": 424.21,
+      "height": 959,
+      "page": 244,
+      "path": "images/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01_p244_img6.png",
+      "sha256": "edc19d63f2385e67d78f9a8a8c5bb464a1c867af0a62cbefc95cce437004218f",
+      "width": 1239
+    },
+    {
+      "bbox": [
+        92.15,
+        411.1,
+        515.05,
+        730.35
+      ],
+      "deduplicated": false,
+      "display_height": 319.25,
+      "display_width": 422.9,
+      "height": 665,
+      "page": 244,
+      "path": "images/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01_p244_img7.jpeg",
+      "sha256": "49f7645eae7502670d0dab91ddaa3f3cf0ad024ea1bb89f98a5f764924d65ced",
+      "width": 881
+    },
+    {
+      "bbox": [
+        42.55,
+        118.63,
+        569.75,
+        464.16
+      ],
+      "deduplicated": false,
+      "display_height": 345.53,
+      "display_width": 527.2,
+      "height": 812,
+      "page": 279,
+      "path": "images/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01_p279_img8.png",
+      "sha256": "8041c647a4658f5d5f6df67ee3178cfff62cc639195e9165a4626244e43611c4",
+      "width": 1239
+    }
+  ],
+  "images_extracted": 8,
+  "pages": 283,
+  "source_hash": "sha256:7d72c5b44049305f449eef254b2e1891dab18f06ae43a1dd0fcae7a89732e6d0",
+  "source_pdf": "regs/2027/general/fia-2027-f1-regulations-section-c-technical-iss-3-2026-10-01.pdf",
+  "tables": [
+    {
+      "bbox": [
+        93.11,
+        490.58,
+        552.96,
+        743.58
+      ],
+      "columns": 13,
+      "page": 52,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        93.07,
+        72.79,
+        553.01,
+        742.86
+      ],
+      "columns": 13,
+      "page": 53,
+      "rows": 12
+    },
+    {
+      "bbox": [
+        93.09,
+        72.79,
+        552.98,
+        383.17
+      ],
+      "columns": 13,
+      "page": 54,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        93.13,
+        516.28,
+        553.67,
+        601.25
+      ],
+      "columns": 7,
+      "page": 98,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        93.09,
+        309.18,
+        440.27,
+        436.92
+      ],
+      "columns": 5,
+      "page": 123,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        93.08,
+        242.09,
+        552.04,
+        531.62
+      ],
+      "columns": 8,
+      "page": 125,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        92.49,
+        497.15,
+        553.21,
+        745.72
+      ],
+      "columns": 5,
+      "page": 185,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        92.66,
+        72.28,
+        553.34,
+        347.77
+      ],
+      "columns": 5,
+      "page": 186,
+      "rows": 12
+    },
+    {
+      "bbox": [
+        92.66,
+        418.43,
+        553.34,
+        519.38
+      ],
+      "columns": 5,
+      "page": 186,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        182.31,
+        383.56,
+        411.81,
+        504.94
+      ],
+      "columns": 2,
+      "page": 189,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        93.13,
+        604.07,
+        553.66,
+        711.53
+      ],
+      "columns": 5,
+      "page": 189,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        93.21,
+        592.79,
+        553.07,
+        741.54
+      ],
+      "columns": 4,
+      "page": 224,
+      "rows": 8
+    },
+    {
+      "bbox": [
+        93.29,
+        72.28,
+        553.17,
+        712.67
+      ],
+      "columns": 4,
+      "page": 225,
+      "rows": 27
+    },
+    {
+      "bbox": [
+        93.17,
+        641.86,
+        552.99,
+        757.3
+      ],
+      "columns": 5,
+      "page": 237,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        93.25,
+        72.28,
+        553.11,
+        502.03
+      ],
+      "columns": 5,
+      "page": 238,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        93.25,
+        629.66,
+        553.11,
+        747.72
+      ],
+      "columns": 11,
+      "page": 238,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        93.17,
+        72.28,
+        553.05,
+        425.12
+      ],
+      "columns": 12,
+      "page": 239,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        53.29,
+        89.31,
+        542.13,
+        749.32
+      ],
+      "columns": 26,
+      "page": 247,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        53.3,
+        71.29,
+        541.92,
+        754.72
+      ],
+      "columns": 27,
+      "page": 248,
+      "rows": 28
+    },
+    {
+      "bbox": [
+        53.31,
+        71.29,
+        541.84,
+        737.79
+      ],
+      "columns": 27,
+      "page": 249,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        53.32,
+        71.29,
+        541.9,
+        717.01
+      ],
+      "columns": 26,
+      "page": 250,
+      "rows": 23
+    },
+    {
+      "bbox": [
+        53.3,
+        71.29,
+        541.89,
+        756.73
+      ],
+      "columns": 26,
+      "page": 251,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        53.3,
+        71.29,
+        541.86,
+        756.15
+      ],
+      "columns": 27,
+      "page": 252,
+      "rows": 18
+    },
+    {
+      "bbox": [
+        53.29,
+        71.29,
+        541.98,
+        750.82
+      ],
+      "columns": 25,
+      "page": 253,
+      "rows": 27
+    },
+    {
+      "bbox": [
+        53.31,
+        71.29,
+        542.11,
+        197.56
+      ],
+      "columns": 26,
+      "page": 254,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        93.07,
+        72.83,
+        553.56,
+        752.38
+      ],
+      "columns": 7,
+      "page": 255,
+      "rows": 12
+    },
+    {
+      "bbox": [
+        93.17,
+        72.83,
+        553.57,
+        237.5
+      ],
+      "columns": 6,
+      "page": 256,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        170.2,
+        204.07,
+        425.21,
+        293.24
+      ],
+      "columns": 2,
+      "page": 262,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        42.97,
+        134.7,
+        539.05,
+        752.31
+      ],
+      "columns": 8,
+      "page": 264,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        703.47
+      ],
+      "columns": 8,
+      "page": 265,
+      "rows": 15
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        756.45
+      ],
+      "columns": 9,
+      "page": 266,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        755.97
+      ],
+      "columns": 9,
+      "page": 267,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        749.85
+      ],
+      "columns": 9,
+      "page": 268,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        732.51
+      ],
+      "columns": 12,
+      "page": 269,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        726.27
+      ],
+      "columns": 7,
+      "page": 270,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        743.67
+      ],
+      "columns": 8,
+      "page": 271,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        732.87
+      ],
+      "columns": 8,
+      "page": 272,
+      "rows": 12
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        745.23
+      ],
+      "columns": 8,
+      "page": 273,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        758.07
+      ],
+      "columns": 8,
+      "page": 274,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        42.91,
+        72.28,
+        539.05,
+        263.26
+      ],
+      "columns": 8,
+      "page": 275,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        93.08,
+        90.91,
+        419.69,
+        284.62
+      ],
+      "columns": 4,
+      "page": 276,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        53.06,
+        170.67,
+        541.88,
+        747.17
+      ],
+      "columns": 26,
+      "page": 280,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        53.06,
+        71.29,
+        541.62,
+        756.64
+      ],
+      "columns": 27,
+      "page": 281,
+      "rows": 26
+    },
+    {
+      "bbox": [
+        53.05,
+        71.29,
+        541.59,
+        720.77
+      ],
+      "columns": 27,
+      "page": 282,
+      "rows": 25
+    },
+    {
+      "bbox": [
+        53.06,
+        71.29,
+        541.54,
+        318.07
+      ],
+      "columns": 26,
+      "page": 283,
+      "rows": 11
+    }
+  ],
+  "tables_extracted": 45,
+  "time": null,
+  "title": "Fia 2027 F1 Regulations Section C Technical Iss 3 2026 10 01",
+  "to": null,
+  "year": 2027
+}
