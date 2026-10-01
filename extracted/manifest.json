@@ -95469,6 +95469,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/bahrain-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-10-01T13:12:36Z",
+    "images_extracted": 4,
+    "pages": 5,
+    "source_hash": "sha256:0490017fd5eda55480198e7ebaaf85329a5e28b384e17c3386b42be7c4af05d4",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/bahrain-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -95478,6 +95488,16 @@
     "source_hash": "sha256:e4f79eb595c9a4c7a3785710ea232abe2320adf8e30dae7a2a5a417c4aad0428",
     "success": true,
     "tables_extracted": 2
+  },
+  "documents/2026/bahrain-grand-prix/competition-visa.pdf": {
+    "doc_type": "competition-visa",
+    "error": null,
+    "extracted_at": "2026-10-01T13:14:40Z",
+    "images_extracted": 0,
+    "pages": 9,
+    "source_hash": "sha256:497478f6e838a09516329b23d292afa1257ba800931ce18d2090f635f91c4a5a",
+    "success": true,
+    "tables_extracted": 4
   },
   "documents/2026/bahrain-grand-prix/heat-hazard-declaration.pdf": {
     "doc_type": "heat-hazard",
@@ -95508,6 +95528,16 @@
     "source_hash": "sha256:50419bb38d97434c20e9835f01599ba0f6f4fd5b0c8076b35fbc98b892d8b010",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/bahrain-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-10-01T13:14:42Z",
+    "images_extracted": 11,
+    "pages": 7,
+    "source_hash": "sha256:0be2e3083166131c846638a287b4e037fc3648ca5c8a3aa9aa6f36f901b4811b",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/barcelona-catalunya-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",

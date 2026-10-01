@@ -1,0 +1,106 @@
+{
+  "category": null,
+  "date": "2026-10-01",
+  "doc_number": "7",
+  "doc_type": "circuit-map",
+  "event_name": "Bahrain Grand Prix In Malaysia",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-10-01T13:12:36Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "72d0ea2713b9b98035fdb564c12ef0566f869c40ccfb42ddc70792ac48264be3",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 3,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "8cd82d654f296aa79fdc975f940763364105305db99874b2862d98ff99a561b6",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ],
+      "deduplicated": false,
+      "display_height": 841.89,
+      "display_width": 595.28,
+      "height": 1684,
+      "page": 4,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "bbb570ffc44457e36512472ee25cce71ea803fd01f6714396be5169fe8684ad0",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 5,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "0c1f25181f774d288cf160a88934836db030425ba34e7865e6b8a704dc631a80",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 5,
+  "source_hash": "sha256:0490017fd5eda55480198e7ebaaf85329a5e28b384e17c3386b42be7c4af05d4",
+  "source_pdf": "documents/2026/bahrain-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.75,
+        405.58,
+        799.19,
+        478.76
+      ],
+      "columns": 33,
+      "page": 3,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "18:43",
+  "title": "Competition Notes Circuit Map Pit Lane Drawing Emergency Exits Map And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
