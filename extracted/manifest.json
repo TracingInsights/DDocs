@@ -95529,6 +95529,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/bahrain-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-02T08:47:39Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:94781ac869408615128771283a48a6aa1d660be26e25df4f9bea5006999ed6c5",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/bahrain-grand-prix/heat-hazard-declaration.pdf": {
     "doc_type": "heat-hazard",
     "error": null,
@@ -95536,6 +95546,56 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:d6ddf9b0fc39c035ea1adc0328095e82146347d9264a79300d0b05859665bd34",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/infringement-car-41-changes-to-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-02T08:47:39Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:d8d806a171e14f6775d9b92c9d36a4c0c043ff7e1acbc6c133fa4093be2edc8b",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/infringement-car-43-changes-to-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-02T08:47:39Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ac2b2c1da6c46b803766aa9347015d2631ecf5dc427ab34503800b06cee775a1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/infringement-car-6-changes-to-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-02T08:47:39Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:9c3081ce34a50fd5ba3778d3019554d5f5c732e111fb62045c9e93c94c7bfd00",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-02T08:47:39Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:abd0977d8a05dd55249e3e7af8716f1cc9f49a17d0553826b9dde01b67bd6910",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/bahrain-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-10-02T08:47:40Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:e6d06398c22fc136abd7ba00b8336b4cf3e3430371658cfa8fcebd127b1e0043",
     "success": true,
     "tables_extracted": 0
   },
@@ -95586,6 +95646,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:f8f0fd2c18b5ac8f6276cd946e2a24229b9c5e2fd180e158d57c03d5294a1293",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/summons-car-44-alleged-impeding-of-car-5.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-02T08:47:40Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ce802c4cc1aad547c8bfa51e7f62009c23d657fd1bf5908633208f895a38574d",
     "success": true,
     "tables_extracted": 0
   },
