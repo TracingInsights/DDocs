@@ -95539,6 +95539,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/bahrain-grand-prix/free-practice-2-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-03T04:32:32Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8cda272a3a08ab91a8e794c6f9ff335a83ceb8f65f92ff56ca9e058a239feb48",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/bahrain-grand-prix/heat-hazard-declaration.pdf": {
     "doc_type": "heat-hazard",
     "error": null,
@@ -95566,6 +95576,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:ac2b2c1da6c46b803766aa9347015d2631ecf5dc427ab34503800b06cee775a1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/infringement-car-44-impeding-of-car-5.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-03T04:32:32Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:ca953548f5919a5719bf745c7b54130e173d90e825b92d53944fbf29e0cc6e69",
     "success": true,
     "tables_extracted": 0
   },
@@ -95609,6 +95629,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/bahrain-grand-prix/p1-and-p2-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-10-03T04:32:32Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:3b04a69832ab0c04acf7cde805d0d352a651afa792791703154a2c69a9bb824f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-10-03T04:32:33Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:f94b3703596fba5e9a832eda3343e55b37e8ae1f136a866369813f32451d5b42",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/bahrain-grand-prix/post-race-checks-on-car-number-16-2026-azerbaijan-gp.pdf": {
     "doc_type": "post-race-checks",
     "error": null,
@@ -95636,6 +95676,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:740e0a4fdeee01f9c102b9c732ebbb30272557e0a07f573a86cdfbeb7a7f8b43",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-10-03T04:32:33Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:5e7fa6964dade0b3271ae8f254f0c0cc13bc1beb99429d3e1043e85f404ea992",
     "success": true,
     "tables_extracted": 0
   },
@@ -95676,6 +95726,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:ce802c4cc1aad547c8bfa51e7f62009c23d657fd1bf5908633208f895a38574d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/summons-car-5-alleged-impeding-by-car-44.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-03T04:32:33Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:e29e058c788b86f646efb038b9c069a078c5388c183bd1168e0f48a22fdc3ebe",
     "success": true,
     "tables_extracted": 0
   },
