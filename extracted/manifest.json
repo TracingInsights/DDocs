@@ -95519,6 +95519,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/bahrain-grand-prix/curfew.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-10-03T07:27:47Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:1d9793049f3d85c88bb5700d791fc5d2ac451e1896b4c460a3f26888687640f6",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/bahrain-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -95546,6 +95556,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:8cda272a3a08ab91a8e794c6f9ff335a83ceb8f65f92ff56ca9e058a239feb48",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/bahrain-grand-prix/free-practice-3-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-03T07:27:48Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:dd097654c26b87aee37cbb3879f30c8b2b4e2d55e3e1f2e6077f763995ad1b95",
     "success": true,
     "tables_extracted": 1
   },
@@ -95619,13 +95639,23 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/bahrain-grand-prix/infringement-free-practice-3-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-03T07:27:48Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:612c67569fb88285ccf4fbd23eca4d04f1b0b6a2928a321a366f4d3bd07df510",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/bahrain-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-10-02T08:47:40Z",
+    "extracted_at": "2026-10-03T07:27:48Z",
     "images_extracted": 0,
     "pages": 3,
-    "source_hash": "sha256:e6d06398c22fc136abd7ba00b8336b4cf3e3430371658cfa8fcebd127b1e0043",
+    "source_hash": "sha256:cfa3cee4669faacaf6d91d459de464bce244ab633050e9135b9c4d443622b131",
     "success": true,
     "tables_extracted": 0
   },
@@ -95696,6 +95726,16 @@
     "images_extracted": 12,
     "pages": 7,
     "source_hash": "sha256:6f7ea7479cc5536d5a6c85a15ed790f23aed3c0236b4aa2da9dd4ddaf1c91387",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/race-directors-competition-notes-v3.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-10-03T07:27:49Z",
+    "images_extracted": 11,
+    "pages": 7,
+    "source_hash": "sha256:49d04f2b597921175f62541afe9781ac5e9e677189d3ee0d145db340256d1983",
     "success": true,
     "tables_extracted": 0
   },
