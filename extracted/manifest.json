@@ -95529,6 +95529,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/bahrain-grand-prix/decision-qualifying-sc2-sc1-times-corrected.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:51Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:bb559f8a5362fb80c7fbf27a4e1cdf3711f6f0e2db9701134e78e01b2e71cb86",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/bahrain-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:51Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:5cc7b9c1ae1f5f2593549ef301cfa2af8681fa798ad344ddcf34b37fc32cc7dd",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/bahrain-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -95536,6 +95556,26 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:65a8e7b6c46f2d6f34b704c6efe2177da766ff08c3ca2a62fab61ce49b5027d1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:52Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:27add1231a46a494644e6078b8cf708a62de3be3458b011c0d8815914c682052",
+    "success": true,
+    "tables_extracted": 3
+  },
+  "documents/2026/bahrain-grand-prix/final-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:52Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c8cb4b9dfa1c12e987b4c97e8c674d49fddd43f9a3dda2450c0bf794746974e2",
     "success": true,
     "tables_extracted": 0
   },
@@ -95576,6 +95616,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:d6ddf9b0fc39c035ea1adc0328095e82146347d9264a79300d0b05859665bd34",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/infringement-car-18-failure-to-follow-race-directors-instructions-sc2-sc1-time-1st-offence.pdf": {
+    "doc_type": "offence",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:52Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:b2654eb557f99e3e8d503a051230e5f1fe4c601b8e01ea9c4fcbcc04a73a113e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/bahrain-grand-prix/infringement-car-18-failure-to-follow-race-directors-instructions-sc2-sc1-time-2nd-offence.pdf": {
+    "doc_type": "offence",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:52Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:2a0f4725dc2194a07896abc689f2e2a0dbd5482046e658d5284e5869d354c3da",
     "success": true,
     "tables_extracted": 0
   },
@@ -95689,6 +95749,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/bahrain-grand-prix/parts-and-parameters-been-replaced-and-or-changed-during-parc-ferme.pdf": {
+    "doc_type": "parc-ferme",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:52Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:fc338d58e2eb3f032795bcabd788ae6ea5fc90210bc44d9e34d1ed1f5177a632",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/bahrain-grand-prix/post-qualifying-procedure.pdf": {
     "doc_type": "procedure",
     "error": null,
@@ -95709,6 +95779,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/bahrain-grand-prix/post-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:53Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:5dba8cefac994c080547e4862a5be742cc2e3ef5e8fd19f77bb52714a42a4a1d",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/bahrain-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -95719,6 +95799,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/bahrain-grand-prix/pre-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:53Z",
+    "images_extracted": 1,
+    "pages": 3,
+    "source_hash": "sha256:a503f73131f4f0943da53ee4961b7507f36322cd013da94124d4b36746e187cf",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/bahrain-grand-prix/provisional-qualifying-classification.pdf": {
     "doc_type": "classification",
     "error": null,
@@ -95728,6 +95818,16 @@
     "source_hash": "sha256:c2444d8ddf76beb2e1196d561628d2db84c755fb02bac38186997b71fecf8bd7",
     "success": true,
     "tables_extracted": 3
+  },
+  "documents/2026/bahrain-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-10-04T06:07:53Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:521aefac27fe0ca3e856904a180594dd2fa591c752907d83809f5daa414735f2",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/bahrain-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",

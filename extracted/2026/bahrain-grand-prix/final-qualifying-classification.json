@@ -1,0 +1,54 @@
+{
+  "category": null,
+  "date": "2026-10-03",
+  "doc_number": "42",
+  "doc_type": "classification",
+  "event_name": "Bahrain Grand Prix In Malaysia",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-10-04T06:07:52Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:27add1231a46a494644e6078b8cf708a62de3be3458b011c0d8815914c682052",
+  "source_pdf": "documents/2026/bahrain-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.95,
+        187.07,
+        571.29,
+        454.47
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 22
+    },
+    {
+      "bbox": [
+        23.95,
+        463.67,
+        571.29,
+        487.73
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        23.95,
+        497.01,
+        571.29,
+        521.07
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "20:00",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

@@ -1,0 +1,53 @@
+{
+  "car_number": null,
+  "category": null,
+  "date": "2026-10-03",
+  "decision": "No further action.",
+  "doc_number": "38",
+  "doc_type": "decision",
+  "driver": null,
+  "event_name": "Bahrain Grand Prix In Malaysia",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-10-04T06:07:51Z",
+  "fact": "The F1 Cars below exceeded the 1:59.0 time limit between the Safety Car lines. - No. Car Driver Competitor Time of Day Lap Time 1 18 Lance Stroll Aston Martin Aramco F1 Team 16:16:52 L5 (Q1) 2 43 Franco Colapinto BWT Alpine F1 Team 16:39:21 L8 (Q2)",
+  "from": "The Stewards Document 38",
+  "images_extracted": 0,
+  "incident_time": "19:21 The Stewards, having received a report from the Race Director, have considered the following matter and determine the following",
+  "offence": "Alleged Breach of Article B1.8.5 of the FIA F1 Regulations and Article 12.2.1.i of the FIA International Sporting Code (non-compliance with the Race Director's Competition Notes, item 1, document 33).",
+  "pages": 2,
+  "penalty": null,
+  "penalty_points": null,
+  "reason": "The Stewards thoroughly reviewed Marshalling/Positioning data, timing data, on-board cameras and CCTV cameras. Both drivers concerned stayed at or above speeds necessary to stay below 1:59.0 around the vast majority of the circuit. However, in both cases the Stewards determined that the drivers took appropriate actions to not impede other drivers, and they slowed down significantly to allow other drivers to pass while giving those drivers a clear track. The Stewards therefore determine that both drivers concerned did not drive \"unnecessarily slowly\", and that they were above the maximum time because they took appropriate steps, and we therefore take no further action.",
+  "rules_referenced": [
+    "Article 12.2.1.i",
+    "Article 15",
+    "Article B1.8.5",
+    "Chapter 5"
+  ],
+  "session": "Qualifying",
+  "source_hash": "sha256:5cc7b9c1ae1f5f2593549ef301cfa2af8681fa798ad344ddcf34b37fc32cc7dd",
+  "source_pdf": "documents/2026/bahrain-grand-prix/decision-qualifying-sc2-sc1-times.pdf",
+  "stewards": [
+    "Document 38 To All Officials",
+    "All Teams Date 03 October 2026"
+  ],
+  "tables": [
+    {
+      "bbox": [
+        35.46,
+        335.52,
+        552.84,
+        395.1
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "team": null,
+  "time": "19:21",
+  "title": "Decision Qualifying Sc2 Sc1 Times",
+  "to": "All Officials, All Teams",
+  "year": 2026
+}
