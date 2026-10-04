@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-10-04",
+  "doc_number": "53",
+  "doc_type": "classification",
+  "event_name": "Bahrain Grand Prix In Malaysia",
+  "event_slug": "bahrain-grand-prix",
+  "extracted_at": "2026-10-04T13:26:33Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:f49a3ce8d537db84517b3b2cf199a10cbd8dafedacb1c4a33e08de0745cfe810",
+  "source_pdf": "documents/2026/bahrain-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        572.05,
+        432.42
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.0,
+        440.41,
+        572.05,
+        476.71
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:37",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
