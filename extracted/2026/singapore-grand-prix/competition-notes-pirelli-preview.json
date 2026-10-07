@@ -1,0 +1,63 @@
+{
+  "category": null,
+  "date": "2026-10-07",
+  "doc_number": "2",
+  "doc_type": "pirelli-preview",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-10-07T13:20:39Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "465f7a2d3a50c0be62bdc6118ce8366564eb2b0f8096023cf3d8ac5790ec8346",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:a50092321c3c3ba659cc99c8d0281682c6a6aa839bb6c31add3b50a8c1fd36c1",
+  "source_pdf": "documents/2026/singapore-grand-prix/competition-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        110.49,
+        241.76,
+        521.88,
+        309.22
+      ],
+      "columns": 6,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        130.78,
+        426.57,
+        321.79,
+        520.7
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "10:20",
+  "title": "Competition Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
