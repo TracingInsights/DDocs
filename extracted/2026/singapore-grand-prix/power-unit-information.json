@@ -1,0 +1,87 @@
+{
+  "category": null,
+  "date": "2026-10-08",
+  "doc_number": "3",
+  "doc_type": "pu-elements",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-10-08T03:12:36Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:9d0e5bdab5230430ed71d18edb3b8a6187c8c9fa3105050c62f4087444ac38c1",
+  "source_pdf": "documents/2026/singapore-grand-prix/power-unit-information.pdf",
+  "tables": [
+    {
+      "bbox": [
+        43.18,
+        194.81,
+        188.53,
+        299.5
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        43.18,
+        378.4,
+        552.86,
+        446.5
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        43.18,
+        451.58,
+        552.86,
+        545.18
+      ],
+      "columns": 8,
+      "page": 2,
+      "rows": 6
+    },
+    {
+      "bbox": [
+        43.18,
+        584.76,
+        552.86,
+        706.46
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        43.18,
+        711.88,
+        261.41,
+        809.43
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        334.35,
+        711.88,
+        552.86,
+        809.43
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 6,
+  "time": "11:00",
+  "title": "Power Unit Information",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
