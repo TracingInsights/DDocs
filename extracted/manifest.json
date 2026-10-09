@@ -103119,6 +103119,16 @@
     "success": true,
     "tables_extracted": 5
   },
+  "documents/2026/singapore-grand-prix/covers-on-time.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-10-09T15:07:01Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:7631b3b97f070bc107baa7e0214d7ea1947b53fd5bdadf066e6dec055e3ef9ec",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/singapore-grand-prix/doc-15-2026-singapore-grand-prix-new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -103126,6 +103136,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:e1d48dab5c0da9108aeb4da1aee6d79ffd7dce2ebe15b0eb98797c41b18cd9f2",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/singapore-grand-prix/drivers-meeting.pdf": {
+    "doc_type": "drivers-meeting",
+    "error": null,
+    "extracted_at": "2026-10-09T15:07:01Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ca098708a38332cf435aa806ae090da7e054815eafda1dfda77ec0d9a0d21c13",
     "success": true,
     "tables_extracted": 0
   },
@@ -103179,6 +103199,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/singapore-grand-prix/infringement-sprint-qualifying-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-09T15:07:01Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:bf1b8e1b3c1d75f831b1e9aa2732d26a0f9d94ab4f6146669bd1eae23714b130",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/singapore-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -103208,6 +103238,16 @@
     "source_hash": "sha256:9d0e5bdab5230430ed71d18edb3b8a6187c8c9fa3105050c62f4087444ac38c1",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/singapore-grand-prix/provisional-sprint-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-09T15:07:02Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:d0f541a6994ca0efec540ea60f9bc75f08bc140dd7aa590560e731a57ec28af3",
+    "success": true,
+    "tables_extracted": 3
   },
   "documents/2026/singapore-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
@@ -103256,6 +103296,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:6fdaa37c39baf10532e05624cdabce448e1623d3cba12e97c080adf6917926b1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/singapore-grand-prix/summons-car-3-alleged-yellow-flag-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-09T15:07:02Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:5dd61d365d2a83f2ad1a391f8cba3aea9980fb1fa2659dbb47cbfb7ec8275ada",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/singapore-grand-prix/summons-car-44-alleged-yellow-flag-infringement.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-09T15:07:02Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:93311ea5c6dadb576d81400083771ef0161f2087d5f9697e7d03d7a574aeff0e",
     "success": true,
     "tables_extracted": 0
   },
