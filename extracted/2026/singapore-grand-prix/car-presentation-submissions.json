@@ -1,0 +1,110 @@
+{
+  "category": null,
+  "date": "2026-10-09",
+  "doc_number": "9",
+  "doc_type": "car-presentation",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-10-09T08:13:30Z",
+  "from": "The FIA Formula 1 Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 3,
+      "path": "images/car-presentation-submissions_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "1f9a5b5de8a690b11b21f3762063c0d15070d52b264fbf4ae348ceffadf3a0d7",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 5,
+      "path": "images/car-presentation-submissions_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "4e4ce56c8235b8352c4fb21faa899181abeb4aac8305121b0de23b678774e75f",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 7,
+      "path": "images/car-presentation-submissions_p7_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "bd8f95ab3ced1a71546c533960f267d830ed5cf960313d1a82781b67b1a9a2dc",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 3,
+  "pages": 15,
+  "source_hash": "sha256:caf5c69b36c7f1c4dab9e311199edaf38f995da420a247af809baafa6bff2c30",
+  "source_pdf": "documents/2026/singapore-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.6,
+        146.26,
+        769.42,
+        234.2
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        72.59,
+        146.26,
+        769.47,
+        257.21
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        72.59,
+        146.08,
+        769.43,
+        291.92
+      ],
+      "columns": 5,
+      "page": 6,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 3,
+  "time": "13:53",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
