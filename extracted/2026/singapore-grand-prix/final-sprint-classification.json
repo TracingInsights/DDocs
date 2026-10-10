@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-10-10",
+  "doc_number": "66",
+  "doc_type": "classification",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-10-10T18:01:38Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:d0f473b243cc791a1088df2ec05d998a0efa91cf05b62d3a8f2595fe661e9e12",
+  "source_pdf": "documents/2026/singapore-grand-prix/final-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.05,
+        189.47,
+        572.05,
+        359.46
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        23.05,
+        367.45,
+        572.05,
+        476.62
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 9
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "23:23",
+  "title": "Final Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

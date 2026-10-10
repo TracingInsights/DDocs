@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-10-10",
+  "doc_number": "67",
+  "doc_type": "championship-points",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-10-10T18:01:37Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:24fe5ebda7ac518252274f057bc06c80e7c53a999aca6616d957d094ab7195f4",
+  "source_pdf": "documents/2026/singapore-grand-prix/championship-points-after-sprint.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.57,
+        174.26,
+        785.13,
+        450.2
+      ],
+      "columns": 20,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        21.58,
+        174.26,
+        785.13,
+        386.52
+      ],
+      "columns": 20,
+      "page": 3,
+      "rows": 11
+    },
+    {
+      "bbox": [
+        21.46,
+        173.81,
+        786.33,
+        453.9
+      ],
+      "columns": 20,
+      "page": 4,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        21.18,
+        172.01,
+        829.17,
+        257.56
+      ],
+      "columns": 19,
+      "page": 5,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "23:29",
+  "title": "Championship Points After Sprint",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

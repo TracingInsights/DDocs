@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-10-10",
+  "doc_number": "65",
+  "doc_type": "classification",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-10-10T18:01:39Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4fcef5f47cd9192006951f13d6088081b31341632aa74e04dab220f22c7d1365",
+  "source_pdf": "documents/2026/singapore-grand-prix/provisional-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.04,
+        187.18,
+        570.98,
+        442.27
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        24.04,
+        451.46,
+        570.98,
+        475.22
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        484.78,
+        570.98,
+        508.83
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        518.09,
+        570.98,
+        542.14
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "22:56",
+  "title": "Provisional Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
