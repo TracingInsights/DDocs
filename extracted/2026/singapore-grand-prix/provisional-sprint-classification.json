@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-10-10",
+  "doc_number": "45",
+  "doc_type": "classification",
+  "event_name": "Singapore Grand Prix",
+  "event_slug": "singapore-grand-prix",
+  "extracted_at": "2026-10-10T10:53:15Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c14f248a0a7aa2e47e2d34cc387080ddbfad02c2e3145a5271476b61b96783b9",
+  "source_pdf": "documents/2026/singapore-grand-prix/provisional-sprint-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.05,
+        189.47,
+        572.05,
+        359.46
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        23.05,
+        367.45,
+        572.05,
+        476.62
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 9
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "18:43",
+  "title": "Provisional Sprint Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
