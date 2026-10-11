@@ -103199,6 +103199,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/singapore-grand-prix/decision-permission-to-start.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-10-11T07:33:26Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:504841679638e13cd73e2a81cfe50ebf342593818051d54088c5e75aebb4a4b7",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/singapore-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-10-11T07:33:27Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:cb1542127c80020f4aeba418b3ac61cca4892817c7c018a1244cac6e886e1417",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/singapore-grand-prix/decision-sprint-qualifying-sc2-sc1-times.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -103238,6 +103258,16 @@
     "source_hash": "sha256:48c04e644f0e231079eae1e521c4b9c952e834899e7c40305331533dc01d8302",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/singapore-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-11T07:33:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8b5772aef0cb036401d4d3f18881c774094e88c256dea3283371161ca5fc020b",
+    "success": true,
+    "tables_extracted": 4
   },
   "documents/2026/singapore-grand-prix/final-sprint-classification.pdf": {
     "doc_type": "classification",
@@ -103299,6 +103329,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/singapore-grand-prix/infringement-car-27-impeding-of-car-55.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-11T07:33:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a1385ef1be1253ad606f68b433df8ce4ab23eb5956e4cbc1cf79edaca3d9548d",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/singapore-grand-prix/infringement-car-3-yellow-flag-infringement.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -103346,6 +103386,26 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:bf1fcafa87116a4e9bd1cdccea7926a749cc7f5996ef6f64cfb8fc790106a29a",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/singapore-grand-prix/infringement-qualifying-deleted-lap-times-double-yellow.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-11T07:33:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:7b750a1d5e8a93422f11c9832575f3ccfbdc14b3d61e9696f43bd992ffd9abf1",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/singapore-grand-prix/infringement-qualifying-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-11T07:33:28Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:14629ea020b1975c3e9daef11e2fd1baa30aec395736d033f627c4768fefdffa",
     "success": true,
     "tables_extracted": 1
   },
@@ -103459,6 +103519,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/singapore-grand-prix/pre-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-10-11T07:33:28Z",
+    "images_extracted": 1,
+    "pages": 3,
+    "source_hash": "sha256:e2b8c452131a35687c9922b97580c0e4e9bb877c6cb31863d4bb885e5f8f122f",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/singapore-grand-prix/provisional-qualifying-classification.pdf": {
     "doc_type": "classification",
     "error": null,
@@ -103496,6 +103566,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:4eaf8074175d54241bdf75274e95a8d0f90c69118c55384dab630984e1ca92bf",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/singapore-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-10-11T07:33:28Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:fa5371916d605cd94e5e8272552f94685bdc4d203bd3a115bd0c89875dd51a78",
     "success": true,
     "tables_extracted": 0
   },
