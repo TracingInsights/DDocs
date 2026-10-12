@@ -103089,6 +103089,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/singapore-grand-prix/championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-10-12T15:20:00Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:40c630f45ef64f106e117aaf5fba449300cd33eebacb22355a47707a3a4e6aff",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/singapore-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -103279,6 +103289,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/singapore-grand-prix/final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-12T15:20:00Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a09dc4410abb1ab1a9aadbc807655dc196a7f233a8b5001cf0efa6fd5024871c",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/singapore-grand-prix/final-sprint-classification.pdf": {
     "doc_type": "classification",
     "error": null,
@@ -103356,6 +103376,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:ce21755a964fe16ccd230e18df019ca6b765a8de92b9f8f379cc67c52be3ff7d",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/singapore-grand-prix/infringement-car-18-failure-to-follow-race-directors-instructions-practice-start.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-12T15:20:00Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:5d8a74fa84a7e20b362ac1bb498dea5cb59ec45e63c16222c6613a4999f05692",
     "success": true,
     "tables_extracted": 0
   },
@@ -103468,6 +103498,16 @@
     "source_hash": "sha256:14629ea020b1975c3e9daef11e2fd1baa30aec395736d033f627c4768fefdffa",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/singapore-grand-prix/infringement-race-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-12T15:20:00Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:ec9138c75e97f8d0ad0314926f359946efad7e60c616e8ae5657f0195fe83f24",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/singapore-grand-prix/infringement-sprint-deleted-lap-times.pdf": {
     "doc_type": "infringement",
@@ -103719,6 +103759,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/singapore-grand-prix/race-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-10-12T15:20:01Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:505a36bcdddbedca29a4652ccd994fe68b65876379291086eb02905c855e023a",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/singapore-grand-prix/restricted-period-three.pdf": {
     "doc_type": "other",
     "error": null,
@@ -103736,6 +103786,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:6fdaa37c39baf10532e05624cdabce448e1623d3cba12e97c080adf6917926b1",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/singapore-grand-prix/sprint-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-10-12T15:20:01Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:effcbf1ec10c02a6ace66b06da812b4439a105b2d64801260c4b7b85c465f825",
     "success": true,
     "tables_extracted": 0
   },
