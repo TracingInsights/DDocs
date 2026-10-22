@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-10-21",
+  "doc_number": "4",
+  "doc_type": "timetable",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-10-22T11:54:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:a2e840c382f184b87168c43f2b416b185816e40b093aa9040e289f5fb87dcef8",
+  "source_pdf": "documents/2026/united-states-grand-prix/timetable-v4.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.1,
+        523.51
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 19
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        742.11
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 31
+    },
+    {
+      "bbox": [
+        22.59,
+        170.26,
+        561.09,
+        669.75
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 26
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        542.27
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 20
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "18:05",
+  "title": "Timetable V4",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
