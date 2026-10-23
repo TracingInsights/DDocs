@@ -104729,6 +104729,36 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/united-states-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-23T21:05:52Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e2086c8d60798db58d4e73932db841dd367e6192386d39c8f2889de63eabe33a",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/united-states-grand-prix/infringement-car-43-pu-element.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-23T21:05:52Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:f0ef6c1165043373c067535fec82f1a4dcccba5c941437668bd55de56c53f91f",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/infringement-car-5-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-23T21:05:52Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:2b0cf6f1e083dd2a57c73c53d4d8b177884a536aa647708b49795e88337e4999",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/united-states-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -104768,6 +104798,16 @@
     "source_hash": "sha256:041eeb15e46ebb8b765e3dcaf5d8176daaf8555c8bf24bf2ed767e843f65bb72",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/race-directors-competition-notes-v2.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-10-23T21:05:53Z",
+    "images_extracted": 8,
+    "pages": 8,
+    "source_hash": "sha256:316739c77f603f47f5e8f9cbd5b79ae410a9c39b0b8087313d1cd261e7eb9478",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/united-states-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
