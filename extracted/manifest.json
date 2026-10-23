@@ -104679,6 +104679,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/united-states-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-10-23T18:40:21Z",
+    "images_extracted": 7,
+    "pages": 19,
+    "source_hash": "sha256:fea610fdb9e255ee52b561f9bf482c149e354596e84b28396699415b842b4fd8",
+    "success": true,
+    "tables_extracted": 7
+  },
   "documents/2026/united-states-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -104708,6 +104718,26 @@
     "source_hash": "sha256:51241315c81c111f9b5be508544f92518c68ae94d71ae59d65e3f78d59467595",
     "success": true,
     "tables_extracted": 4
+  },
+  "documents/2026/united-states-grand-prix/entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-10-23T18:40:21Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:29630f36fe4a18f7639ea5e256a92bf045c34300c64cd6734b895f85a62855d7",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-10-23T18:40:21Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:a87702e0a378fa937acbce0cce9d8097a5dcdad1a405a2d9f0dc2b620786881d",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/united-states-grand-prix/post-race-checks-on-car-number-27-2026-singapore-gp.pdf": {
     "doc_type": "post-race-checks",
