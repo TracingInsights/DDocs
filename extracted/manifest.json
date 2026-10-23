@@ -104679,6 +104679,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/united-states-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-10-23T00:12:19Z",
+    "images_extracted": 3,
+    "pages": 4,
+    "source_hash": "sha256:120b2bce2d733b8c85a9a7ef9040ff0684eeb4615983cda79daae66c2c6c35c2",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/united-states-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -104708,6 +104718,26 @@
     "source_hash": "sha256:c1792447eba36d345046f5852d9834171df85a3dc2b64ed78b26e8b40a3e7fe2",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-10-23T00:13:39Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:981bca3ac1190bcd0acefdfa24cdc850d02e4c93318362e999d353784dc7c64b",
+    "success": true,
+    "tables_extracted": 6
+  },
+  "documents/2026/united-states-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-10-23T00:13:40Z",
+    "images_extracted": 8,
+    "pages": 8,
+    "source_hash": "sha256:c27ee4ad957d544d84af4127be1bd75ab318c9c8f6bca4847cd1b5a295dda6cc",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/united-states-grand-prix/timetable-v4.pdf": {
     "doc_type": "timetable",
