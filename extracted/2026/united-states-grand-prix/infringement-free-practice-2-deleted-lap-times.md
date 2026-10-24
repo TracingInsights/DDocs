@@ -1,0 +1,188 @@
+2026 UNITED STATES GRAND PRIX
+
+23 - 25 October 2026
+
+From The Stewards Document 24
+
+To All Teams, All Officials Date 23 October 2026
+
+Time 18:15
+
+Title Infringement - Free Practice 2 Deleted Lap Times
+
+Description Infringement - Free Practice 2 Deleted Lap Times
+
+Enclosed USA DOC 24 - Free Practice 2 Deleted Lap Times.pdf
+
+Garry Connelly Matthew Selley
+
+Pedro Lamy Steve Pence
+
+The Stewards
+
+2026 U S G P NITED TATES RAND RIX
+
+23 – 25 October 2026
+
+From The Stewards Document 24
+
+To All Officials, All Teams Date 23 October 2026
+
+Time 18:15
+
+The Stewards, having received a report from the Race Director, have considered the following matter and determine the following:
+
+Session Free Practice 2
+
+Fact The F1 Cars below did not use the track at turns 2, 4, 6, 7, 9, 12, 13, 15, 16, 18, 19 and 20.
+
+| No. | Turn | Car | Driver | Competitor | Time of Day | Lap Time |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 15 | 23 | Alexander Albon | Atlassian Williams F1 Team | 16:03:49 | 1:40.691 |
+| 2 | 19 | 16 | Charles Leclerc | Scuderia Ferrari HP | 16:04:11 | 1:37.502 |
+| 3 | 19 | 18 | Lance Stroll | Aston Martin Aramco F1 Team | 16:04:33 | 1:38.797 |
+| 4 | 19 | 44 | Lewis Hamilton | Scuderia Ferrari HP | 16:04:47 | 1:37.263 |
+| 5 | 20 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | 16:05:04 | 1:38.091 |
+| 6 | 12 | 12 | Kimi Antonelli | Mercedes-AMG PETRONAS F1 Team | 16:04:59 | 1:36.910 |
+| 7 | 19 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:05:50 | 1:37.012 |
+| 8 | 20 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | NEXT LAP | 2:44.987 |
+| 9 | 20 | 23 | Alexander Albon | Atlassian Williams F1 Team | 16:04:10 | 1:40.691 |
+| 10 | 20 | 23 | Alexander Albon | Atlassian Williams F1 Team | NEXT LAP | 2:41.716 |
+| 11 | 20 | 16 | Charles Leclerc | Scuderia Ferrari HP | 16:04:18 | 1:37.502 |
+| 12 | 20 | 16 | Charles Leclerc | Scuderia Ferrari HP | NEXT LAP | 2:22.437 |
+| 13 | 18 | 16 | Charles Leclerc | Scuderia Ferrari HP | 16:12:54 | 2:00.903 |
+| 14 | 13 | 41 | Arvid Lindblad | Visa Cash App Racing Bulls F1 Team | 16:07:53 | 2:20.168 |
+| 15 | 9 | 5 | Gabriel Bortoleto | Audi Revolut F1 Team | 16:03:32 | 1:37.574 |
+| 16 | 12 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | 16:08:54 | 1:51.675 |
+| 17 | 12 | 23 | Alexander Albon | Atlassian Williams F1 Team | 16:10:06 | 1:38.218 |
+| 18 | 7 | 10 | Pierre Gasly | BWT Alpine F1 Team | 16:04:39 | 2:48.952 |
+| 19 | 15 | 14 | Fernando Alonso | Aston Martin Aramco F1 Team | 16:12:59 | PIT |
+| 20 | 12 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:13:47 | 1:38.150 |
+| 21 | 20 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:14:21 | 1:38.150 |
+| 22 | 20 | 1 | Lando Norris | McLaren Mastercard F1 Team | NEXT LAP | PIT |
+
+| 23 | 19 | 44 | Lewis Hamilton | Scuderia Ferrari HP | 16:14:29 | 1:37.026 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 24 | 20 | 44 | Lewis Hamilton | Scuderia Ferrari HP | 16:14:35 | 1:37.026 |
+| 25 | 20 | 44 | Lewis Hamilton | Scuderia Ferrari HP | NEXT LAP | PIT |
+| 26 | 12 | 55 | Carlos Sainz | Atlassian Williams F1 Team | 16:15:44 | 1:46.284 |
+| 27 | 12 | 23 | Alexander Albon | Atlassian Williams F1 Team | 16:16:31 | 1:40.393 |
+| 28 | 12 | 87 | Oliver Bearman | TGR Haas F1 Team | 16:16:42 | PIT |
+| 29 | 15 | 23 | Alexander Albon | Atlassian Williams F1 Team | 16:16:45 | 1:40.393 |
+| 30 | 20 | 23 | Alexander Albon | Atlassian Williams F1 Team | 16:17:06 | 1:40.393 |
+| 31 | 20 | 23 | Alexander Albon | Atlassian Williams F1 Team | NEXT LAP | PIT |
+| 32 | 12 | 5 | Gabriel Bortoleto | Audi Revolut F1 Team | 16:17:02 | 1:37.841 |
+| 33 | 12 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:22:33 | 1:36.134 |
+| 34 | 19 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:22:59 | 1:36.134 |
+| 35 | 20 | 63 | George Russell | Mercedes-AMG PETRONAS F1 Team | 16:23:18 | OUT LAP |
+| 36 | 20 | 63 | George Russell | Mercedes-AMG PETRONAS F1 Team | NEXT LAP | 1:35.793 |
+| 37 | 9 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:25:58 | 2:09.181 |
+| 38 | 12 | 41 | Arvid Lindblad | Visa Cash App Racing Bulls F1 Team | 16:25:38 | 1:36.734 |
+| 39 | 16 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:29:02 | 2:04.796 |
+| 40 | 4 | 14 | Fernando Alonso | Aston Martin Aramco F1 Team | 16:29:11 | 2:15.236 |
+| 41 | 12 | 27 | Nico Hulkenberg | Audi Revolut F1 Team | 16:29:08 | 1:37.040 |
+| 42 | 19 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:29:40 | 1:36.079 |
+| 43 | 6 | 55 | Carlos Sainz | Atlassian Williams F1 Team | 16:12:31 | 2:53.770 |
+| 44 | 19 | 43 | Franco Colapinto | BWT Alpine F1 Team | 16:30:07 | 1:42.038 |
+| 45 | 15 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:29:28 | 1:36.079 |
+| 46 | 20 | 5 | Gabriel Bortoleto | Audi Revolut F1 Team | 16:31:44 | 1:36.946 |
+| 47 | 20 | 5 | Gabriel Bortoleto | Audi Revolut F1 Team | NEXT LAP | PIT |
+| 48 | 12 | 14 | Fernando Alonso | Aston Martin Aramco F1 Team | 16:32:02 | 1:37.349 |
+| 49 | 20 | 11 | Sergio Perez | Cadillac Formula 1 Team | 16:32:49 | OUT LAP |
+| 50 | 20 | 11 | Sergio Perez | Cadillac Formula 1 Team | NEXT LAP | 1:38.934 |
+| 51 | 15 | 23 | Alexander Albon | Atlassian Williams F1 Team | 16:32:38 | 1:38.035 |
+| 52 | 19 | 44 | Lewis Hamilton | Scuderia Ferrari HP | 16:33:14 | 1:35.917 |
+| 53 | 20 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | 16:34:03 | 1:36.029 |
+| 54 | 20 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | NEXT LAP | PIT |
+| 55 | 6 | 10 | Pierre Gasly | BWT Alpine F1 Team | 16:34:30 | PIT |
+| 56 | 20 | 55 | Carlos Sainz | Atlassian Williams F1 Team | 16:35:34 | 1:37.701 |
+| 57 | 20 | 55 | Carlos Sainz | Atlassian Williams F1 Team | NEXT LAP | PIT |
+| 58 | 6 | 23 | Alexander Albon | Atlassian Williams F1 Team | 16:35:41 | PIT |
+| 59 | 11 | 43 | Franco Colapinto | BWT Alpine F1 Team | 16:37:53 | 1:45.163 |
+| 60 | 12 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:40:57 | OUT LAP |
+
+| 61 | 20 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:43:22 | OUT LAP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 62 | 20 | 6 | Isack Hadjar | Oracle Red Bull Racing | NEXT LAP | 1:41.947 |
+| 63 | 9 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:43:49 | 1:40.776 |
+| 64 | 20 | 12 | Kimi Antonelli | Mercedes-AMG PETRONAS F1 Team | 16:44:29 | 1:40.783 |
+| 65 | 20 | 12 | Kimi Antonelli | Mercedes-AMG PETRONAS F1 Team | NEXT LAP | 1:43.348 |
+| 66 | 12 | 87 | Oliver Bearman | TGR Haas F1 Team | 16:44:04 | 1:42.716 |
+| 67 | 2 | 44 | Lewis Hamilton | Scuderia Ferrari HP | 16:26:33 | PIT |
+| 68 | 12 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:44:29 | 1:41.947 |
+| 69 | 20 | 16 | Charles Leclerc | Scuderia Ferrari HP | 16:45:05 | 1:42.086 |
+| 70 | 20 | 16 | Charles Leclerc | Scuderia Ferrari HP | NEXT LAP | 1:42.075 |
+| 71 | 12 | 87 | Oliver Bearman | TGR Haas F1 Team | 16:45:47 | 1:42.666 |
+| 72 | 20 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:46:34 | 1:41.177 |
+| 73 | 20 | 1 | Lando Norris | McLaren Mastercard F1 Team | NEXT LAP | 1:41.028 |
+| 74 | 19 | 18 | Lance Stroll | Aston Martin Aramco F1 Team | 16:46:49 | OUT LAP |
+| 75 | 12 | 16 | Charles Leclerc | Scuderia Ferrari HP | 16:46:14 | 1:42.075 |
+| 76 | 19 | 44 | Lewis Hamilton | Scuderia Ferrari HP | 16:47:33 | 1:42.184 |
+| 77 | 12 | 87 | Oliver Bearman | TGR Haas F1 Team | 16:47:30 | 1:42.892 |
+| 78 | 20 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | 16:47:48 | 1:41.734 |
+| 79 | 20 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | NEXT LAP | 1:41.896 |
+| 80 | 12 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:47:53 | 1:41.749 |
+| 81 | 12 | 55 | Carlos Sainz | Atlassian Williams F1 Team | 16:47:59 | 1:42.981 |
+| 82 | 20 | 87 | Oliver Bearman | TGR Haas F1 Team | 16:48:05 | 1:42.892 |
+| 83 | 20 | 87 | Oliver Bearman | TGR Haas F1 Team | NEXT LAP | 1:43.574 |
+| 84 | 12 | 3 | Max Verstappen | Oracle Red Bull Racing | 16:48:50 | 1:41.457 |
+| 85 | 12 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | 16:48:55 | 1:41.896 |
+| 86 | 12 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:49:21 | 1:41.354 |
+| 87 | 12 | 16 | Charles Leclerc | Scuderia Ferrari HP | 16:49:37 | 1:41.962 |
+| 88 | 12 | 87 | Oliver Bearman | TGR Haas F1 Team | 16:49:13 | 1:43.574 |
+| 89 | 20 | 5 | Gabriel Bortoleto | Audi Revolut F1 Team | 16:50:37 | 1:42.640 |
+| 90 | 20 | 5 | Gabriel Bortoleto | Audi Revolut F1 Team | NEXT LAP | 1:42.636 |
+| 91 | 12 | 14 | Fernando Alonso | Aston Martin Aramco F1 Team | 16:49:58 | 1:43.251 |
+| 92 | 12 | 43 | Franco Colapinto | BWT Alpine F1 Team | 16:50:40 | 1:41.546 |
+| 93 | 12 | 87 | Oliver Bearman | TGR Haas F1 Team | 16:50:57 | 1:43.669 |
+| 94 | 15 | 23 | Alexander Albon | Atlassian Williams F1 Team | 16:51:14 | 1:49.201 |
+| 95 | 12 | 44 | Lewis Hamilton | Scuderia Ferrari HP | 16:50:28 | 1:42.638 |
+| 96 | 12 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | 16:50:38 | 1:43.317 |
+| 97 | 9 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:50:34 | 1:41.835 |
+| 98 | 12 | 44 | Lewis Hamilton | Scuderia Ferrari HP | 16:52:10 | 1:42.304 |
+
+| 99 | 15 | 12 | Kimi Antonelli | Mercedes-AMG Petronas F1 Team | 16:52:44 | 1:41.504 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 100 | 20 | 43 | Franco Colapinto | BWT Alpine F1 Team | 16:52:57 | 1:41.660 |
+| 101 | 20 | 43 | Franco Colapinto | BWT Alpine F1 Team | NEXT LAP | 1:47.442 |
+| 102 | 12 | 55 | Carlos Sainz | Atlassian Williams F1 Team | 16:53:09 | 1:43.975 |
+| 103 | 12 | 30 | Liam Lawson | Visa Cash App Racing Bulls F1 Team | 16:53:32 | 1:43.026 |
+| 104 | 12 | 41 | Arvid Lindblad | Visa Cash App Racing Bulls F1 Team | 16:53:48 | 1:43.259 |
+| 105 | 19 | 81 | Oscar Piastri | McLaren Mastercard F1 Team | 16:54:31 | 1:41.940 |
+| 106 | 12 | 16 | Charles Leclerc | Scuderia Ferrari HP | 16:54:44 | 1:56.605 |
+| 107 | 12 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:54:42 | 1:49.659 |
+| 108 | 12 | 30 | Liam Lawson | Visa Cash App Racing Bulls F1 Team | 16:55:15 | 1:43.237 |
+| 109 | 9 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:53:59 | 1:41.304 |
+| 110 | 15 | 1 | Lando Norris | McLaren Mastercard F1 Team | 16:56:25 | PIT |
+| 111 | 20 | 12 | Kimi Antonelli | Mercedes-AMG Petronas F1 Team | 16:56:32 | 1:42.229 |
+| 112 | 20 | 12 | Kimi Antonelli | Mercedes-AMG Petronas F1 Team | NEXT LAP | 1:41.978 |
+| 113 | 12 | 6 | Isack Hadjar | Oracle Red Bull Racing | 16:56:32 | 1:42.858 |
+| 114 | 19 | 27 | Nico Hulkenberg | Audi Revolut F1 Team | 16:56:51 | 1:43.058 |
+| 115 | 12 | 63 | George Russell | Mercedes-AMG Petronas F1 Team | 16:57:08 | PIT |
+| 116 | 15 | 10 | Pierre Gasly | BWT Alpine F1 Team | 16:56:53 | 1:43.243 |
+| 117 | 20 | 5 | Gabriel Bortoleto | Audi Revolut F1 Team | 16:57:31 | 1:43.692 |
+| 118 | 20 | 5 | Gabriel Bortoleto | Audi Revolut F1 Team | NEXT LAP | 1:43.462 |
+| 119 | 12 | 12 | Andrea Kimi | Mercedes-AMG Petronas F1 Team | 16:57:39 | 1:41.978 |
+| 120 | 12 | 16 | Antonelli Charles Leclerc | Scuderia Ferrari HP | 16:58:47 | 1:41.242 |
+| 121 | 15 | 44 | Lewis Hamilton | Scuderia Ferrari HP | 16:59:41 | 1:41.375 |
+| 122 | 12 | 77 | Valtteri Bottas | Cadillac Formula 1 Team | 17:00:19 | 1:45.538 |
+| 123 | 9 | 18 | Lance Stroll | Aston Martin Aramco F1 Team | 16:59:40 | 1:44.073 |
+| 124 | 12 | 12 | Kimi Antonelli | Mercedes-AMG Petronas F1 Team | 17:01:02 | 1:41.880 |
+| 125 | 19 | 3 | Max Verstappen | Oracle Red Bull Racing | 17:01:10 | 1:41.713 |
+| 126 | 20 | 30 | Liam Lawson | Visa Cash App Racing Bulls F1 Team | 17:01:00 | 1:43.065 |
+| 127 | 20 | 30 | Liam Lawson | Visa Cash App Racing Bulls F1 Team | NEXT LAP | 2:25.683 |
+| 128 | 15 | 12 | Kimi Antonelli | Mercedes-AMG Petronas F1 Team | 17:01:17 | 1:41.880 |
+
+Infringement Breach of Appendix L Chapter IV Article 2 c) of the FIA International Sporting Code and Article B1.8.6 of the FIA F1 Regulations.
+
+Decision Deletion of the lap times shown in accordance with Article 12.4.1.e of the FIA International Sporting Code.
+
+Note Competitors are reminded that they have the right to appeal certain decisions of the Stewards, in accordance with Article 15 of the FIA International Sporting Code and Chapter 5 of the FIA Judicial and Disciplinary Rules, within the applicable time limits.
+
+Decisions of the Stewards are taken independently of the FIA and are based solely on the relevant regulations, guidelines and evidence presented.
+
+Garry Connelly Matthew Selley
+
+Pedro Lamy Steve Pence
+
+The Stewards
