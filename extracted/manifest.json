@@ -104729,6 +104729,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/united-states-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-10-25T00:58:36Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:2708c89345962ffe7f7e0b1f1f8325759e404441799bab4a1d5ad530e0438491",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/united-states-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -104738,6 +104748,16 @@
     "source_hash": "sha256:29630f36fe4a18f7639ea5e256a92bf045c34300c64cd6734b895f85a62855d7",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-25T00:58:37Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8b57dc5ac451ed6421a99dcbf1eb2084748231e8b4e2ed435c56a2a56ffa29c4",
+    "success": true,
+    "tables_extracted": 1
   },
   "documents/2026/united-states-grand-prix/free-practice-1-classification.pdf": {
     "doc_type": "classification",
@@ -104839,6 +104859,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/united-states-grand-prix/infringement-qualifying-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-25T00:58:38Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:6f36cdf8e2488b9988a1f7c1f7af7d7c09491b28480e3509bfce879c32d87099",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/united-states-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -104856,6 +104886,16 @@
     "images_extracted": 0,
     "pages": 4,
     "source_hash": "sha256:f32907f72d6dbafd77cab48922e23ec82f81efe72d3b72486281f3bcf403b1d7",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/p3-and-qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-10-25T00:58:39Z",
+    "images_extracted": 0,
+    "pages": 6,
+    "source_hash": "sha256:f6d9f9648347c8ce231be8a2db40f5c5ad80da163fbe6cc357604b88e9427e91",
     "success": true,
     "tables_extracted": 0
   },
@@ -104878,6 +104918,26 @@
     "source_hash": "sha256:981bca3ac1190bcd0acefdfa24cdc850d02e4c93318362e999d353784dc7c64b",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/united-states-grand-prix/provisional-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-25T00:58:40Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:98072fe8616e09f1cfc0a7634d0ff440f2ebc88a634aebe629835fd3247ab513",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/united-states-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-10-25T00:58:41Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:db5f605efd33d545b94ac7561da47ffc30b0a328deaa8e8257011218967396a7",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/united-states-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
