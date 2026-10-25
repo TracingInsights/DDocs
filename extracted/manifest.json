@@ -104779,6 +104779,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/united-states-grand-prix/free-practice-3-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:37Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8f8b22b3cf6e83c08ecb1bf30e69c4cb6dc2e98de36fbb1e1f7b2f572a0fb489",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/united-states-grand-prix/infringement-car-27-alleged-pit-lane-incident.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -104859,6 +104869,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/united-states-grand-prix/infringement-free-practice-3-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:38Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:dc0f42310d175e79c9153cf57866ce40b4a577627a871b982b89e09a0117649a",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/united-states-grand-prix/infringement-qualifying-deleted-lap-times.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -104872,10 +104892,10 @@
   "documents/2026/united-states-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
-    "extracted_at": "2026-10-23T18:40:21Z",
+    "extracted_at": "2026-10-25T14:48:39Z",
     "images_extracted": 0,
     "pages": 3,
-    "source_hash": "sha256:a87702e0a378fa937acbce0cce9d8097a5dcdad1a405a2d9f0dc2b620786881d",
+    "source_hash": "sha256:a22a821ce6e55892dead39b6858182a5cd5dec81df7865094a6d61496e1388de",
     "success": true,
     "tables_extracted": 0
   },
@@ -104899,6 +104919,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/united-states-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:39Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:73e16cfc11e9c6d30dbe755efe59f7b258a5227ffbe4bfd55d6cb71ecf7168c5",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/united-states-grand-prix/post-race-checks-on-car-number-27-2026-singapore-gp.pdf": {
     "doc_type": "post-race-checks",
     "error": null,
@@ -104909,6 +104939,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/united-states-grand-prix/post-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:40Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:3f228e0cee21f20cc450382e99811b3bb0979c7d7189c640375b30d1bf4dce23",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/united-states-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -104918,6 +104958,16 @@
     "source_hash": "sha256:981bca3ac1190bcd0acefdfa24cdc850d02e4c93318362e999d353784dc7c64b",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/united-states-grand-prix/pre-race-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:40Z",
+    "images_extracted": 1,
+    "pages": 3,
+    "source_hash": "sha256:837c50a5c999e9707f908ae687ddab8f921527d38e3b0e45b4840795b14b296c",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/united-states-grand-prix/provisional-qualifying-classification.pdf": {
     "doc_type": "classification",
@@ -104969,6 +105019,16 @@
     "success": true,
     "tables_extracted": 2
   },
+  "documents/2026/united-states-grand-prix/race-directors-competition-notes-v3.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:41Z",
+    "images_extracted": 8,
+    "pages": 8,
+    "source_hash": "sha256:ff6c2682db6f00d518e57c39b07417125cef520f3b6462d5644c9ca70e747236",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/united-states-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -104986,6 +105046,46 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:bee65b3c1f961d63004729e8b7d38885208388fa5139cc9bb101dec319cd0f4a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/summons-audi-pit-lane-incident-car-27.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:42Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:59926e542ab60a2f28fbf2625ed67a70d4fb429ee97d4fee0410545184c451b9",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/summons-car-44-alleged-impeding-by-car-5.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:42Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:5be64cc3418fe16fbeee1b5b6c508e5c012835b9c986c9b09d618147ece0d3b5",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/summons-car-5-alleged-impeding-of-car-44.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:42Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:b54d73d4e0c44a3541e4824d28ec792de2d328d8ee106c1a9e276c2ed58b0d6e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/united-states-grand-prix/summons-car-6-alleged-erratic-driving.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-25T14:48:42Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:237b31b6c4fec3c2ceb3198caa004c3ba4bd578b8a86c128384f682979b8d85b",
     "success": true,
     "tables_extracted": 0
   },

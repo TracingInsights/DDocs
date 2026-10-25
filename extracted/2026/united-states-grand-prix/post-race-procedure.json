@@ -1,0 +1,52 @@
+{
+  "category": null,
+  "date": "2026-10-25",
+  "doc_number": "46",
+  "doc_type": "procedure",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-10-25T14:48:40Z",
+  "from": "The FIA Formula 1 Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.68,
+        595.44
+      ],
+      "deduplicated": false,
+      "display_height": 595.44,
+      "display_width": 841.68,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-race-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "fdb118e3b1cce75d783cb0926d74cd761d4b888280ff721fd5781db556add15c",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:3f228e0cee21f20cc450382e99811b3bb0979c7d7189c640375b30d1bf4dce23",
+  "source_pdf": "documents/2026/united-states-grand-prix/post-race-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        54.01,
+        99.24,
+        759.21,
+        281.48
+      ],
+      "columns": 4,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "09:30",
+  "title": "Post Race Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
