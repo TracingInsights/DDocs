@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-10-25",
+  "doc_number": "58",
+  "doc_type": "championship-points",
+  "event_name": "United States Grand Prix",
+  "event_slug": "united-states-grand-prix",
+  "extracted_at": "2026-10-26T10:57:55Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:ed553b49be683bd8bf30a1447962a3d679f8cbd369b4e9eb99a9a2bb6457a2d3",
+  "source_pdf": "documents/2026/united-states-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        116.8,
+        174.27,
+        751.18,
+        450.48
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        115.13,
+        174.27,
+        751.42,
+        386.76
+      ],
+      "columns": 7,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        116.44,
+        173.88,
+        754.74,
+        454.2
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        111.32,
+        172.08,
+        829.32,
+        257.76
+      ],
+      "columns": 5,
+      "page": 5,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "19:05",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
