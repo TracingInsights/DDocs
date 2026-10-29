@@ -101139,6 +101139,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/mexico-city-grand-prix/competition-notes-pirelli-preview.pdf": {
+    "doc_type": "pirelli-preview",
+    "error": null,
+    "extracted_at": "2026-10-29T12:58:07Z",
+    "images_extracted": 1,
+    "pages": 2,
+    "source_hash": "sha256:9375d11a17253c5a3f9ceefa1eee26514de5f2afbfe6e89b2ce07116f501b9ad",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/mexico-city-grand-prix/competition-visa.pdf": {
     "doc_type": "competition-visa",
     "error": null,
@@ -101148,6 +101158,16 @@
     "source_hash": "sha256:03cd12d370ecfce14b11c4c9b4e25a67d3e8a7c5b377189d16913e635d8a1571",
     "success": true,
     "tables_extracted": 4
+  },
+  "documents/2026/mexico-city-grand-prix/post-race-inspections-on-car-number-63-2026-united-states-gp.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-10-29T12:58:08Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:fa427a5a613326454d2abcdb0c9953d8ef905c8b69866b2daf2993da01e7f842",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/miami-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
