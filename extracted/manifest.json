@@ -101199,6 +101199,66 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/mexico-city-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-30T22:47:19Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:9ac35c930e2039aaa9663e9ca3f860fe5b1bbc989fbb5034d871ed8bd9ace102",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/mexico-city-grand-prix/infringement-car-77-pu-elements.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-30T22:47:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:58ebfcbaab955b7986fb5a7373c578e5d22aae08c82148f45d2639dd4e719777",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/infringement-car-98-released-in-an-unsafe-condition.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-30T22:47:19Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:8feddd35e9db24e578f2b1bf1b59e758b77ff9fbb236bb565431c7c2d51785a7",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-30T22:47:19Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:32a1fda0d26278000f88ea3aaed0c9207f25da13324e62d41004bbce8ef7334b",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/mexico-city-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-30T22:47:19Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:02d310ab20bc32da66dbe7da40f46850824ce27a8db74ca8064b3352115e4a11",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "documents/2026/mexico-city-grand-prix/infringment-car-14-pit-lane-speeding.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-10-30T22:47:20Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:fb7d5e546089fab925f8ac5548b24ade147b3611afb26ffc01f324628e48ea62",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/mexico-city-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -101256,6 +101316,36 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:4b63b9c80a617879b471dd789d5fcff98de9bf499cde66dc9e87ef040a9c6661",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/summons-audi-alleged-release-of-car-98-in-an-unsafe-condition.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-30T22:47:20Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:666b550cba44b4b4087de4096dcecaf21bf7096e0615e21080da5399e7c42a8e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/summons-car-3-turn-14-incident-with-car-30.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-30T22:47:20Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:3ffc1b6a360e4dd21c7d2b79c235c3449d160dff5b21c0a989e06b626dca3631",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/summons-car-30-turn-14-incident-with-car-3.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-30T22:47:20Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:dd333184b10d6023ffec7d6116c9680f878589f021b23449d2cba6022314b032",
     "success": true,
     "tables_extracted": 0
   },
