@@ -101149,6 +101149,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/mexico-city-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-10-30T18:42:23Z",
+    "images_extracted": 6,
+    "pages": 18,
+    "source_hash": "sha256:b0abaa12d28b6685e520b2b69ae970d258e00795a386dd75fda9c2db6f8fd21b",
+    "success": true,
+    "tables_extracted": 6
+  },
   "documents/2026/mexico-city-grand-prix/competition-notes-circuit-map-pit-lane-drawing-and-emergency-exits-map.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -101186,6 +101196,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:3ae760e408b118d75e752ec2b5ef2afd54212f8ee2f01a10edc7da01cb899cb2",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/new-pu-elements-for-this-competition.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-10-30T18:42:23Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:b5047148128a5e75cc458410b7ff6736c3fe955fd51ee59536505ef53ba64f82",
     "success": true,
     "tables_extracted": 0
   },
