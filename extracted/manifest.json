@@ -101199,6 +101199,26 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/mexico-city-grand-prix/curfew.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-10-31T15:07:12Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:e69500535ce388819be3a4083bd6242dead0844ba1bdf3182381caf18dabf0ae",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/decision-driver-change-tgr-haas-f1-team.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-10-31T15:07:12Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:94e13b2f3ae34e7a7e93d983a008d15a6210ac765efc0fdb51bee0422b4b0937",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/mexico-city-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -101386,6 +101406,16 @@
     "images_extracted": 12,
     "pages": 9,
     "source_hash": "sha256:36b19ce8decadd26be1f0640d57a2b9b2840403582d13f02cf4e05bb840873cc",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/revised-entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-10-31T15:07:12Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e2712c03a2b4a01467c4c3a8031985f352a1ae07a5a72d922f7bd567fe9b3f0c",
     "success": true,
     "tables_extracted": 0
   },
