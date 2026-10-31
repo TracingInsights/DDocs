@@ -101189,6 +101189,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/mexico-city-grand-prix/covering-of-components-on-car-05-during-fp2.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-10-31T01:37:04Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:7319e2a298e8c1177809ab4de1352909bad17200fe8458bc0348b3d61a3c2cbc",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/mexico-city-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -101199,6 +101209,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/mexico-city-grand-prix/fp1-and-fp2-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-10-31T01:37:04Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:1f12d0d14e6302a1fe707cca629bd65debea9d47c72169f3d4cb71b19e4b6fa7",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/mexico-city-grand-prix/free-practice-1-classification.pdf": {
     "doc_type": "classification",
     "error": null,
@@ -101206,6 +101226,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:9ac35c930e2039aaa9663e9ca3f860fe5b1bbc989fbb5034d871ed8bd9ace102",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/mexico-city-grand-prix/free-practice-2-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-31T01:37:04Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:de54c31098a721173d424bca58dc786ec1b221ca4b7607396a3468f44c3aefa2",
     "success": true,
     "tables_extracted": 1
   },
@@ -101249,13 +101279,23 @@
     "success": true,
     "tables_extracted": 2
   },
+  "documents/2026/mexico-city-grand-prix/infringement-free-practice-2-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-31T01:37:04Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:c0290e2dea89faf1d1108d0d297a45dee499e9dcc4525e3db39d3c5075bc089f",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/mexico-city-grand-prix/infringment-car-14-pit-lane-speeding.pdf": {
     "doc_type": "other",
     "error": null,
-    "extracted_at": "2026-10-30T22:47:20Z",
+    "extracted_at": "2026-10-31T01:37:05Z",
     "images_extracted": 0,
     "pages": 1,
-    "source_hash": "sha256:fb7d5e546089fab925f8ac5548b24ade147b3611afb26ffc01f324628e48ea62",
+    "source_hash": "sha256:510feef342f9b754e8640192091078bae92770cd8ad71bda08dbe495ddc63438",
     "success": true,
     "tables_extracted": 0
   },
@@ -101299,6 +101339,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/mexico-city-grand-prix/race-director-notes-sc2-sc1-times.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-10-31T01:37:05Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:d5946eaf69558e315567ac1b2900a28155f8aefdc97cdce58e4d297ec4a798ac",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/mexico-city-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -101326,6 +101376,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:666b550cba44b4b4087de4096dcecaf21bf7096e0615e21080da5399e7c42a8e",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/summons-audi-car-5-covering-of-components.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-10-31T01:37:05Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:aaad57e24df0ac7e58eb5f6554f1257a03fe5977611c9280d2006df9e9a4f596",
     "success": true,
     "tables_extracted": 0
   },
