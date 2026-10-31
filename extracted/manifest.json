@@ -101259,6 +101259,26 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/mexico-city-grand-prix/free-practice-3-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-10-31T21:57:11Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e1fafab305cd4f9a45d4b6bd0887361a3ccb579fa135249195cfa741449a76a0",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/mexico-city-grand-prix/infringement-car-14-failed-to-replace-the-steering-wheel-after-leaving-the-car.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-31T21:57:11Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:94f145528ed9fcda463e7aa9b5bc80b5e2b832f8e5b9b50ca1f56ae52503fe42",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/mexico-city-grand-prix/infringement-car-3-turn-14-incident-with-car-30.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -101348,6 +101368,16 @@
     "source_hash": "sha256:c0290e2dea89faf1d1108d0d297a45dee499e9dcc4525e3db39d3c5075bc089f",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/mexico-city-grand-prix/infringement-free-practice-3-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-10-31T21:57:11Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:8d354ea672dd101196a28963cd2aae818c289d555ac18aaebef65a0ebbbdd66f",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/mexico-city-grand-prix/infringment-car-14-pit-lane-speeding.pdf": {
     "doc_type": "other",
