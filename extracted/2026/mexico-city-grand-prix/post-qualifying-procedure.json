@@ -1,0 +1,52 @@
+{
+  "category": null,
+  "date": "2026-10-31",
+  "doc_number": "39",
+  "doc_type": "procedure",
+  "event_name": "Mexico City Grand Prix",
+  "event_slug": "mexico-city-grand-prix",
+  "extracted_at": "2026-10-31T18:18:04Z",
+  "from": "The FIA Formula 1 Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.68,
+        595.44
+      ],
+      "deduplicated": false,
+      "display_height": 595.44,
+      "display_width": 841.68,
+      "height": 1191,
+      "page": 4,
+      "path": "images/post-qualifying-procedure_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "0ef0fdb5369031a56a64c1b46b8a8ffe9e97ca78d88582e2265da7a2640df516",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 4,
+  "source_hash": "sha256:f9fcb15d3a8c2339ed7d844c8e10755eebcc413e747d6e05255763f84a9516eb",
+  "source_pdf": "documents/2026/mexico-city-grand-prix/post-qualifying-procedure.pdf",
+  "tables": [
+    {
+      "bbox": [
+        103.55,
+        147.0,
+        496.08,
+        276.48
+      ],
+      "columns": 5,
+      "page": 4,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "09:05",
+  "title": "Post Qualifying Procedure",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
