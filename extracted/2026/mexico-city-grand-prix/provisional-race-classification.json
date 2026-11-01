@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-11-01",
+  "doc_number": "75",
+  "doc_type": "classification",
+  "event_name": "Mexico City Grand Prix",
+  "event_slug": "mexico-city-grand-prix",
+  "extracted_at": "2026-11-01T23:22:46Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:4c689ff2b1a0d4827e0fce929ef2e2a0f9edc3a66ac363c15e8f746a20e1e9cb",
+  "source_pdf": "documents/2026/mexico-city-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.03,
+        189.47,
+        572.05,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.03,
+        403.93,
+        572.05,
+        476.71
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:53",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
