@@ -101229,6 +101229,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/mexico-city-grand-prix/decision-car-30-permission-to-start.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-11-01T13:18:27Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:6860b77e7698ed4adaa099e8c5ee0af8b29b5101d3b68f5a944cf5ed985cf412",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/mexico-city-grand-prix/decision-driver-change-tgr-haas-f1-team.pdf": {
     "doc_type": "decision",
     "error": null,
@@ -101258,6 +101268,16 @@
     "source_hash": "sha256:3ae760e408b118d75e752ec2b5ef2afd54212f8ee2f01a10edc7da01cb899cb2",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-11-01T13:18:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:78ab1c76482122bd96db96fd1cc5b760eb4cf9954d908aefceefe4fb9d07d4c1",
+    "success": true,
+    "tables_extracted": 4
   },
   "documents/2026/mexico-city-grand-prix/fp1-and-fp2-scrutineering.pdf": {
     "doc_type": "scrutineering",
@@ -101316,6 +101336,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:ddfac56d0dcaadc98782d7970c941a6d9aef6659ca0b593700b04944c4c73f30",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/infringement-car-30-technical-nonconformity.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-01T13:18:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:9c53941e0535ab53c60ab5c1e6a123d913021279ee223776ce9607db72ab44a3",
     "success": true,
     "tables_extracted": 0
   },
@@ -101538,6 +101568,16 @@
     "source_hash": "sha256:7f85a31d7628c99777db2fca3b040e2378fa01109ddfc6e6d75232ce2ea44aa5",
     "success": true,
     "tables_extracted": 3
+  },
+  "documents/2026/mexico-city-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-11-01T13:18:27Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e946d29908499da44cb9357e2d3544bc103bc8013984a9c5cc6dfab7470fcad6",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/mexico-city-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",

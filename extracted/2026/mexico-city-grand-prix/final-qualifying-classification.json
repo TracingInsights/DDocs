@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-10-31",
+  "doc_number": "59",
+  "doc_type": "classification",
+  "event_name": "Mexico City Grand Prix",
+  "event_slug": "mexico-city-grand-prix",
+  "extracted_at": "2026-11-01T13:18:27Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:78ab1c76482122bd96db96fd1cc5b760eb4cf9954d908aefceefe4fb9d07d4c1",
+  "source_pdf": "documents/2026/mexico-city-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.02,
+        187.18,
+        570.98,
+        442.3
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        24.02,
+        451.46,
+        570.98,
+        475.42
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.02,
+        484.78,
+        570.98,
+        508.83
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.02,
+        518.09,
+        570.98,
+        542.14
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "19:10",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
