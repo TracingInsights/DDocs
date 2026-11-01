@@ -101279,6 +101279,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/mexico-city-grand-prix/final-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-11-01T20:32:23Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:7dca3d6a4908f467d7a7ab98423b82bc2c73f02efb8ee1883e69a63a8c8b1144",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/mexico-city-grand-prix/fp1-and-fp2-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -101339,6 +101349,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/mexico-city-grand-prix/infringement-car-30-changes-made-during-parc-ferme.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-01T20:32:23Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:048d493a70c55a43ba9cfb763af4807d670d01973ac835f98903ba6e74a42d12",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/mexico-city-grand-prix/infringement-car-30-technical-nonconformity.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -101376,6 +101396,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:e3525e2bd1740e144dbb2956b11f10ecb5df56df4a075ba8c09321d640c28617",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/infringement-car-55-pit-lane-speeding.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-01T20:32:23Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:0140311865f71590846ffde3e1a4121a27b12c21fe366c8392766e6d57ab0f2a",
     "success": true,
     "tables_extracted": 0
   },
@@ -101526,6 +101556,26 @@
     "images_extracted": 0,
     "pages": 5,
     "source_hash": "sha256:d38fc05c809ae0260758ace4c55746f30ce656074b4938d7b85d0567cbf8bcd4",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/parc-ferme-issues.pdf": {
+    "doc_type": "parc-ferme",
+    "error": null,
+    "extracted_at": "2026-11-01T20:32:23Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:3d831d08380bb4541011007c1ea5ab70ee96964481238733b81aba90bfb97c6a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/mexico-city-grand-prix/parts-and-parameters-been-replaced-and-or-changed-during-parc-ferme.pdf": {
+    "doc_type": "parc-ferme",
+    "error": null,
+    "extracted_at": "2026-11-01T20:32:24Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:593e76d0d0bc5b0e5364917dc587f80b3d6b0efd512696297a1609f35a0f4b32",
     "success": true,
     "tables_extracted": 0
   },
