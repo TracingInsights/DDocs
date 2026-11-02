@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-11-01",
+  "doc_number": "87",
+  "doc_type": "championship-points",
+  "event_name": "Mexico City Grand Prix",
+  "event_slug": "mexico-city-grand-prix",
+  "extracted_at": "2026-11-02T15:50:18Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:89d75e76aa14feadf2a33e0915c315836cb8511504d21ef7f1ae75df264205f7",
+  "source_pdf": "documents/2026/mexico-city-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        21.06,
+        174.39,
+        785.16,
+        450.52
+      ],
+      "columns": 22,
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "bbox": [
+        21.09,
+        174.39,
+        785.16,
+        408.03
+      ],
+      "columns": 22,
+      "page": 3,
+      "rows": 12
+    },
+    {
+      "bbox": [
+        20.95,
+        173.93,
+        786.35,
+        454.22
+      ],
+      "columns": 22,
+      "page": 4,
+      "rows": 10
+    },
+    {
+      "bbox": [
+        20.67,
+        172.13,
+        829.22,
+        257.75
+      ],
+      "columns": 22,
+      "page": 5,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "19:55",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

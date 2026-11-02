@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-11-01",
+  "doc_number": "86",
+  "doc_type": "classification",
+  "event_name": "Mexico City Grand Prix",
+  "event_slug": "mexico-city-grand-prix",
+  "extracted_at": "2026-11-02T15:50:20Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:681fc44eb9dd8e73096dcafb63d18257d344ead5617aab6fc0b1a3f2f4591cd3",
+  "source_pdf": "documents/2026/mexico-city-grand-prix/final-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.05,
+        189.47,
+        571.95,
+        395.95
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 17
+    },
+    {
+      "bbox": [
+        23.05,
+        403.93,
+        571.95,
+        476.71
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 6
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "19:50",
+  "title": "Final Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
