@@ -105509,6 +105509,26 @@
     "success": true,
     "tables_extracted": 2
   },
+  "documents/2026/s\u00e3o-paulo-grand-prix/car-display-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-11-05T22:22:14Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:2a89a0a215ed1559de0dbd301ed184097cfe30ceec0fef661e662592a6033a89",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/s\u00e3o-paulo-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-11-05T22:23:58Z",
+    "images_extracted": 4,
+    "pages": 5,
+    "source_hash": "sha256:8c3658719ff724191a2a3665c760345e348a24108d2f5ff0184705d491079d29",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/s\u00e3o-paulo-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -105538,6 +105558,26 @@
     "source_hash": "sha256:b034c0e63a20560dd3e02f1f1a38423fe68bb1fdc1599f43e8f3e712eb589104",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/s\u00e3o-paulo-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-11-05T22:25:36Z",
+    "images_extracted": 12,
+    "pages": 8,
+    "source_hash": "sha256:9ff6ac5312d5fd2fd91a98ac0554b6d9d2bb48b6c0de025b2e564c9a37f0a311",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/s\u00e3o-paulo-grand-prix/timetable-v3.pdf": {
+    "doc_type": "timetable",
+    "error": null,
+    "extracted_at": "2026-11-05T22:25:38Z",
+    "images_extracted": 0,
+    "pages": 6,
+    "source_hash": "sha256:e19f7ebe4f41dd85985d2db37bdb9b753393986f507da686809e535a86bcd020",
+    "success": true,
+    "tables_extracted": 4
   },
   "documents/2026/united-states-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
