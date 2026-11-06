@@ -105609,6 +105609,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/s\u00e3o-paulo-grand-prix/infringement-free-practice-1-deleted-lap-times-double-yellow.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-06T19:57:23Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c8f01e744776847356a9e88b5aabd5f0759418e13ac5642db311933ab8b72534",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/s\u00e3o-paulo-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -105666,6 +105676,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:d389fd03f69081a36168f9d3ca8479542c9aeb5ac0bbe9cbea2189a7f58ebdca",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/s\u00e3o-paulo-grand-prix/summons-car-16-alleged-impeding-by-car-51.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-06T19:57:23Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:7c88568aeac6e6a58e0b3301ddcd621d36f0b8a94324f15b32a3196b3ec26ec4",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/s\u00e3o-paulo-grand-prix/summons-car-51-alleged-impeding-of-car-16.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-06T19:57:23Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:cb81b10fa4ba967048568590df482f1335fa6be4c7cd6b13331be3f1f9a9f831",
     "success": true,
     "tables_extracted": 0
   },
