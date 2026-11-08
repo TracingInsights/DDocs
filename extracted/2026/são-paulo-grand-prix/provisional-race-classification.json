@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-11-08",
+  "doc_number": "70",
+  "doc_type": "classification",
+  "event_name": "S\u00e3o Paulo Grand Prix",
+  "event_slug": "s\u00e3o-paulo-grand-prix",
+  "extracted_at": "2026-11-08T21:17:30Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:de8c7d3c867f1edb2cd233a7cabbfc19d709d25663d890910cbb08798aac31cc",
+  "source_pdf": "documents/2026/s\u00e3o-paulo-grand-prix/provisional-race-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        23.0,
+        189.47,
+        572.05,
+        432.43
+      ],
+      "columns": 12,
+      "page": 2,
+      "rows": 20
+    },
+    {
+      "bbox": [
+        23.0,
+        440.41,
+        572.05,
+        476.62
+      ],
+      "columns": 9,
+      "page": 2,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "15:55",
+  "title": "Provisional Race Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
