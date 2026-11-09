@@ -105529,6 +105529,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/s\u00e3o-paulo-grand-prix/championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-11-09T16:12:32Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:12e53191e8c593adb7952442e73e26315c00a031a9ee01fd94bf54156b16b5a2",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/s\u00e3o-paulo-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -105618,6 +105628,16 @@
     "source_hash": "sha256:bcee017315239a87fc53b369f44289ab16380465ce4999047d64b5c45d9cdd41",
     "success": true,
     "tables_extracted": 3
+  },
+  "documents/2026/s\u00e3o-paulo-grand-prix/final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-11-09T16:12:33Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6c7481c9453212f81f8654832edb951da1e4f4e135191e3e9e56290b022a4b1e",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/s\u00e3o-paulo-grand-prix/final-starting-grid.pdf": {
     "doc_type": "starting-grid",
@@ -105716,6 +105736,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:e59269c8e5fdd7eb721e10a9a617b7d2b0ed12eecdd77652c7c460995ddcc3ca",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/s\u00e3o-paulo-grand-prix/infringement-car-12-unsafe-release.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-09T16:12:33Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:fb1683ed7c1da9b49e48ea7609b0e263e770cc028d1d1f8600d61f21786db7c2",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/s\u00e3o-paulo-grand-prix/infringement-car-16-causing-a-collision.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-09T16:12:33Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:41e7c67375aca7139bb3595d3c2e6ae0388297532d3fe11ff1469657e8c5433a",
     "success": true,
     "tables_extracted": 0
   },
@@ -105876,6 +105916,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:b48ff7a14fe8e5d6285344138aba71c0e5dfbe642da00b6b35946bbdc0f1ee5a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/s\u00e3o-paulo-grand-prix/infringement-car-87-unsafe-release.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-09T16:12:33Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:6b7e89e8815a8f2ac22de9b672824ea9bf264409c5653167244712ba64b03fa0",
     "success": true,
     "tables_extracted": 0
   },
