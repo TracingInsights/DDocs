@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-11-17",
+  "doc_number": "1",
+  "doc_type": "competition-visa",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-11-17T23:07:27Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 10,
+  "source_hash": "sha256:015f4d86a20d7b99bee579ffc5faa0f073e27dc1fdd0320befe382daf68be656",
+  "source_pdf": "documents/2026/las-vegas-grand-prix/competition-visa.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.59,
+        170.35,
+        560.84,
+        561.08
+      ],
+      "columns": 5,
+      "page": 7,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        22.59,
+        170.35,
+        560.84,
+        734.72
+      ],
+      "columns": 5,
+      "page": 8,
+      "rows": 31
+    },
+    {
+      "bbox": [
+        22.59,
+        170.35,
+        560.85,
+        640.64
+      ],
+      "columns": 5,
+      "page": 9,
+      "rows": 26
+    },
+    {
+      "bbox": [
+        22.59,
+        170.35,
+        560.85,
+        603.0
+      ],
+      "columns": 5,
+      "page": 10,
+      "rows": 24
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "15:00",
+  "title": "Competition Visa",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
