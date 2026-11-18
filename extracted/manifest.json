@@ -101139,6 +101139,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/las-vegas-grand-prix/competition-notes-pirelli-preview.pdf": {
+    "doc_type": "pirelli-preview",
+    "error": null,
+    "extracted_at": "2026-11-18T15:37:21Z",
+    "images_extracted": 1,
+    "pages": 2,
+    "source_hash": "sha256:bdccfb3c039389f4c007f3ea678ee0506e882f1bac8adfe82f608672cc8706b3",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/las-vegas-grand-prix/competition-visa.pdf": {
     "doc_type": "competition-visa",
     "error": null,
@@ -101148,6 +101158,16 @@
     "source_hash": "sha256:015f4d86a20d7b99bee579ffc5faa0f073e27dc1fdd0320befe382daf68be656",
     "success": true,
     "tables_extracted": 4
+  },
+  "documents/2026/las-vegas-grand-prix/power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-11-18T15:37:21Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:06d0a2b4c9220ec2dcb483ffc0a8e0dc5347b12b392619beba4a6c93722039a7",
+    "success": true,
+    "tables_extracted": 6
   },
   "documents/2026/mexico-city-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",

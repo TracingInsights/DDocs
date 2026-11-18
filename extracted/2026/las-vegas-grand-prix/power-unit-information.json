@@ -1,0 +1,87 @@
+{
+  "category": null,
+  "date": "2026-11-17",
+  "doc_number": "3",
+  "doc_type": "pu-elements",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-11-18T15:37:21Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:06d0a2b4c9220ec2dcb483ffc0a8e0dc5347b12b392619beba4a6c93722039a7",
+  "source_pdf": "documents/2026/las-vegas-grand-prix/power-unit-information.pdf",
+  "tables": [
+    {
+      "bbox": [
+        43.54,
+        194.93,
+        188.65,
+        299.62
+      ],
+      "columns": 2,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        43.54,
+        378.64,
+        552.39,
+        446.98
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        43.54,
+        452.18,
+        543.0,
+        545.78
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 5
+    },
+    {
+      "bbox": [
+        43.54,
+        585.36,
+        552.39,
+        707.18
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 3
+    },
+    {
+      "bbox": [
+        43.54,
+        712.6,
+        261.41,
+        810.15
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    },
+    {
+      "bbox": [
+        334.23,
+        712.6,
+        552.39,
+        810.15
+      ],
+      "columns": 3,
+      "page": 2,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 6,
+  "time": "15:40",
+  "title": "Power Unit Information",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
