@@ -101149,6 +101149,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/las-vegas-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-11-19T22:02:53Z",
+    "images_extracted": 7,
+    "pages": 19,
+    "source_hash": "sha256:90bbeb5438e3a5c15c6002d06aa7000e6df792d7091388cd238c61701257eb76",
+    "success": true,
+    "tables_extracted": 7
+  },
   "documents/2026/las-vegas-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -101189,6 +101199,16 @@
     "success": true,
     "tables_extracted": 6
   },
+  "documents/2026/las-vegas-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-11-19T22:02:54Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:0de7b2288d26e13d41af06c5b94750b4a6c8ecffdbf2e8dedd3d38c1f71eea5d",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/las-vegas-grand-prix/race-directors-competition-notes.pdf": {
     "doc_type": "race-director-note",
     "error": null,
@@ -101196,6 +101216,16 @@
     "images_extracted": 10,
     "pages": 7,
     "source_hash": "sha256:6783830cb591b34165927de34c4eda7f5b786f51b829b22168a0d87c9aa42647",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/self-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-11-19T22:02:54Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:ec2c50d06309e3d153ac90d96f304cf79bdc6bfc384293e628b5ffad40279977",
     "success": true,
     "tables_extracted": 0
   },
