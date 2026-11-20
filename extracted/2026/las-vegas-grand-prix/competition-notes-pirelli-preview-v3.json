@@ -1,0 +1,63 @@
+{
+  "category": null,
+  "date": "2026-11-20",
+  "doc_number": "27",
+  "doc_type": "pirelli-preview",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-11-20T21:57:24Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-pirelli-preview-v3_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "b0684ada3d416639759cc8ba79315e2f06b4065f20ab70a8460b680c1952864a",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:e5af5f2c22303676fb4c3d9b6669be870301a0df09b5e14f595d86e6be28302a",
+  "source_pdf": "documents/2026/las-vegas-grand-prix/competition-notes-pirelli-preview-v3.pdf",
+  "tables": [
+    {
+      "bbox": [
+        110.49,
+        241.76,
+        521.88,
+        309.22
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        130.78,
+        426.57,
+        321.79,
+        520.7
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "13:51",
+  "title": "Competition Notes Pirelli Preview V3",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
