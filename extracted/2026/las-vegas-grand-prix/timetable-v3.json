@@ -1,0 +1,43 @@
+{
+  "category": null,
+  "date": "2026-11-19",
+  "doc_number": "25",
+  "doc_type": "timetable",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-11-20T15:25:09Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 3,
+  "source_hash": "sha256:709d759c1ec6c8236571d1b7e79efb287e54e7a52ac89e4bdedd02cc38e1cb20",
+  "source_pdf": "documents/2026/las-vegas-grand-prix/timetable-v3.pdf",
+  "tables": [
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        640.75
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 26
+    },
+    {
+      "bbox": [
+        22.6,
+        170.26,
+        561.09,
+        603.1
+      ],
+      "columns": 5,
+      "page": 3,
+      "rows": 24
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "23:03",
+  "title": "Timetable V3",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
