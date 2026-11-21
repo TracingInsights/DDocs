@@ -101219,6 +101219,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/las-vegas-grand-prix/decision-alleged-driving-erratically.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-11-21T04:27:56Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:7255ea3b8534d447018449a94d20c057ad168583449051fdd0bb5e0e2f0862d2",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/las-vegas-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
     "error": null,
@@ -101249,6 +101259,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/las-vegas-grand-prix/free-practice-3-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-11-21T04:27:57Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e89ccc0764b5c6f3b11195beeab8cbc30614172b5e24acdec0d89f4014801684",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/las-vegas-grand-prix/infringement-car-12-changes-to-pu-element.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -101266,6 +101286,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:2f64ff485da21a4db96b7b9affc03d050c58999bea1de3f74a42538ae057cd20",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/infringement-car-23-erratic-driving-in-turn-17.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-21T04:27:59Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:4c020c56ac97660f6090601b7001ce340409a035f689cc7e111b03ba60f74817",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/infringement-car-3-erratic-driving-in-turn-14.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-21T04:27:59Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:b92a8b1ba0716c483c0f6b4a06ec5b3bfae36cb308bcfb4ecb59767ddc3a79d5",
     "success": true,
     "tables_extracted": 0
   },
@@ -101326,6 +101366,26 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:c26cf3daf0f26db5e9afa5c05a5b209d0e6b329ea197961a611c0d7b9c593522",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "documents/2026/las-vegas-grand-prix/infringement-free-practice-3-deleted-lap-times-double-yellow-flags.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-21T04:27:59Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:f6c1b2ce478c1e550929b0cd7d160c33dcceed0dda40094562b251edc7a18cea",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/las-vegas-grand-prix/infringement-free-practice-3-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-21T04:27:59Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:c329907bd6ba36e8cd0afce9e29e92dc0d5fae3ab9777bd5296cf0a527caad5f",
     "success": true,
     "tables_extracted": 2
   },
@@ -101426,6 +101486,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:df42227eaed78d570ef370fc32f8e1d905f8be29ddbfcece7c110f9d1c7cae11",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/summons-car-3-alleged-incident-with-car-63.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-21T04:28:00Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:4ffa398e6e14dad3b0a3bb630bbc5e2246d13b38dd1891aac4272dd0dbc10643",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/summons-car-63-alleged-incident-with-car-3.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-21T04:28:00Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:aa21bd77968e2c1f1612af42185002b9b25be338b0b2db73fafa45b7c1fd2c46",
     "success": true,
     "tables_extracted": 0
   },
