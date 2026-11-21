@@ -101209,6 +101209,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/las-vegas-grand-prix/covers-on-time-corrected.pdf": {
+    "doc_type": "other",
+    "error": null,
+    "extracted_at": "2026-11-21T07:23:11Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:be4fa6d85e2a6ab7e6ad32343dbb71cd5beeff2c37ba60ae16504df5bd76bdb2",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/las-vegas-grand-prix/curfew.pdf": {
     "doc_type": "curfew",
     "error": null,
@@ -101228,6 +101238,26 @@
     "source_hash": "sha256:7255ea3b8534d447018449a94d20c057ad168583449051fdd0bb5e0e2f0862d2",
     "success": true,
     "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/decision-car-87-permission-to-start.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-11-21T07:23:11Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:cc72a0f7e4dccaf96bfb110a6420f446c208eb2b09f33fab0b466edcb3ae6ea9",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/decision-qualifying-sc2-sc1-times.pdf": {
+    "doc_type": "decision",
+    "error": null,
+    "extracted_at": "2026-11-21T07:23:11Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:104e3a5fbe92466c9f94cd26710a75ebecc55d948ff3c13d5bdc27c8febc88b8",
+    "success": true,
+    "tables_extracted": 1
   },
   "documents/2026/las-vegas-grand-prix/entry-list.pdf": {
     "doc_type": "entry-list",
@@ -101306,6 +101336,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:b92a8b1ba0716c483c0f6b4a06ec5b3bfae36cb308bcfb4ecb59767ddc3a79d5",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/infringement-car-41-unsafe-release.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-21T07:23:11Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:bfff144523f9e974d2c09bdceb77134a9c516e3d52cc3eb4758fc0688e38b413",
     "success": true,
     "tables_extracted": 0
   },
@@ -101389,6 +101429,16 @@
     "success": true,
     "tables_extracted": 2
   },
+  "documents/2026/las-vegas-grand-prix/infringement-qualifying-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-21T07:23:11Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:3792bab93b3abd5a545bcafc867cb02f34282ee0eadbe6c68070cb8d376b87ba",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/las-vegas-grand-prix/new-pu-elements-for-this-competition.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -101418,6 +101468,16 @@
     "source_hash": "sha256:06d0a2b4c9220ec2dcb483ffc0a8e0dc5347b12b392619beba4a6c93722039a7",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/las-vegas-grand-prix/provisional-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-11-21T07:23:12Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:e8ecc326ba01e60a6aa1f2ac2fb1faa6e5fad8823c3532ff9136ab62ef94646e",
+    "success": true,
+    "tables_extracted": 1
   },
   "documents/2026/las-vegas-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
@@ -101496,6 +101556,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:4ffa398e6e14dad3b0a3bb630bbc5e2246d13b38dd1891aac4272dd0dbc10643",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/summons-car-41-alleged-unsafe-release.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-21T07:23:13Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:5d047fba1071d2963f978e8af7a82d0e05e9bd1cbbc79d0762db16c8ad6c18b0",
     "success": true,
     "tables_extracted": 0
   },
