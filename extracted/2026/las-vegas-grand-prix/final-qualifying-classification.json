@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-11-20",
+  "doc_number": "48",
+  "doc_type": "classification",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-11-21T14:38:06Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 2,
+  "source_hash": "sha256:c677dd06fbaba8bcb35d76ddd8326a55c3b727ac459431ea412a4fe7a33f1940",
+  "source_pdf": "documents/2026/las-vegas-grand-prix/final-qualifying-classification.pdf",
+  "tables": [
+    {
+      "bbox": [
+        24.04,
+        187.18,
+        570.98,
+        442.3
+      ],
+      "columns": 14,
+      "page": 2,
+      "rows": 21
+    },
+    {
+      "bbox": [
+        24.04,
+        451.46,
+        570.98,
+        475.57
+      ],
+      "columns": 7,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        484.78,
+        570.98,
+        508.83
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        24.04,
+        518.09,
+        570.98,
+        542.14
+      ],
+      "columns": 5,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "23:40",
+  "title": "Final Qualifying Classification",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

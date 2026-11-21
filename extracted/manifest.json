@@ -101269,6 +101269,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/las-vegas-grand-prix/final-qualifying-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-11-21T14:38:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c677dd06fbaba8bcb35d76ddd8326a55c3b727ac459431ea412a4fe7a33f1940",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/las-vegas-grand-prix/fp1-and-fp2-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -101276,6 +101286,16 @@
     "images_extracted": 0,
     "pages": 4,
     "source_hash": "sha256:63e3cc201f32c04f3ccacddc7467d76cb699c0105b8e8c365c864babf767a8dc",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/fp3-and-qualifying-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-11-21T14:38:06Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:7f365e664687a31458cc507aba6002fa0ede01c36bbb41c458e116e26054df30",
     "success": true,
     "tables_extracted": 0
   },
@@ -101478,6 +101498,16 @@
     "source_hash": "sha256:e8ecc326ba01e60a6aa1f2ac2fb1faa6e5fad8823c3532ff9136ab62ef94646e",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/las-vegas-grand-prix/provisional-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-11-21T14:38:06Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:36d9289694f7edf73245b31ed405303681d35f0cd83f67e076a0ec9a20133239",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/las-vegas-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
     "doc_type": "pu-elements",
