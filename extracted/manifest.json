@@ -101339,6 +101339,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/las-vegas-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-11-21T01:37:24Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:eae6e08ae29cd27fd703bb55afc42c1a0e8d7b364f3c55a4e59439fc18224816",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/las-vegas-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -101396,6 +101406,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:ec2c50d06309e3d153ac90d96f304cf79bdc6bfc384293e628b5ffad40279977",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/summons-car-23-alleged-erratic-driving-in-turn-17.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-21T01:37:24Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:cc8da02e9ef6549da264a418a78b24f0b11c7586c2107249f5aa8494cdd3199b",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/summons-car-3-alleged-erratic-driving-in-turn-16.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-21T01:37:25Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:df42227eaed78d570ef370fc32f8e1d905f8be29ddbfcece7c110f9d1c7cae11",
     "success": true,
     "tables_extracted": 0
   },
