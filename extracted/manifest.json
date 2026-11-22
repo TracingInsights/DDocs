@@ -101279,6 +101279,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/las-vegas-grand-prix/final-starting-grid.pdf": {
+    "doc_type": "starting-grid",
+    "error": null,
+    "extracted_at": "2026-11-22T07:18:21Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a3e1d32f5ff648ed2b5b4d1505d3e87f7e622ae0d61a487441f60b9e02c15467",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/las-vegas-grand-prix/fp1-and-fp2-scrutineering.pdf": {
     "doc_type": "scrutineering",
     "error": null,
@@ -101329,6 +101339,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/las-vegas-grand-prix/infringement-car-16-causing-a-collision-with-car-44.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-22T07:18:21Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:857166aa8a053d22ce12e2806539ef8abdb3fc70e045621e67b51ea7f301d81c",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/las-vegas-grand-prix/infringement-car-18-changes-to-pu-elements.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -101366,6 +101386,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:bfff144523f9e974d2c09bdceb77134a9c516e3d52cc3eb4758fc0688e38b413",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/infringement-car-44-leaving-the-track-and-gaining-an-advantage.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-22T07:18:21Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:88bc77a3c8b4f5c2cb2dcf0cb2d3887574eb894e00e99ff2ba0c34b9b69313bc",
     "success": true,
     "tables_extracted": 0
   },
@@ -101529,6 +101559,16 @@
     "success": true,
     "tables_extracted": 1
   },
+  "documents/2026/las-vegas-grand-prix/provisional-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-11-22T07:18:22Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:2fa7c48440c64594cc375fcfead4c05c9553d8b36d8a6ce98b832f3986b502f8",
+    "success": true,
+    "tables_extracted": 3
+  },
   "documents/2026/las-vegas-grand-prix/provisional-starting-grid.pdf": {
     "doc_type": "starting-grid",
     "error": null,
@@ -101589,6 +101629,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/las-vegas-grand-prix/summons-car-11-alleged-causing-a-collision-with-car-51.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-22T07:18:23Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:beaf14b9b7a2ec9692cdc7bd783fa5a90b864ce035e6d92a61b0c589c95e7aae",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/las-vegas-grand-prix/summons-car-23-alleged-erratic-driving-in-turn-17.pdf": {
     "doc_type": "summons",
     "error": null,
@@ -101629,6 +101679,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/las-vegas-grand-prix/summons-car-51-alleged-causing-a-collision-with-car-11.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-22T07:18:23Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:5976b6f50175a874ae853a23aaf11294d0ead80ab55e867fe7b5b4d4c1d0d26e",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/las-vegas-grand-prix/summons-car-63-alleged-incident-with-car-3.pdf": {
     "doc_type": "summons",
     "error": null,
@@ -101636,6 +101696,26 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:aa21bd77968e2c1f1612af42185002b9b25be338b0b2db73fafa45b7c1fd2c46",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/summons-incident-between-car-6-and-car-63.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-22T07:18:23Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:21e33ae586a7f7d8f0c6180cf16bba561f2feaebf530cb14950527e68b777b1a",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/summons-incident-between-car-63-and-car-6.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-22T07:18:23Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:677c4f65d512ac5c484d2e4f36e48c5790515b3cdfaa4cf0099b6f6a508efb0c",
     "success": true,
     "tables_extracted": 0
   },
