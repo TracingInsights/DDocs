@@ -101159,6 +101159,16 @@
     "success": true,
     "tables_extracted": 7
   },
+  "documents/2026/las-vegas-grand-prix/championship-points.pdf": {
+    "doc_type": "championship-points",
+    "error": null,
+    "extracted_at": "2026-11-22T14:32:05Z",
+    "images_extracted": 0,
+    "pages": 5,
+    "source_hash": "sha256:661b91cd5995c3b7044237e95685d537a0443839205ab7038ecbe28288f763c6",
+    "success": true,
+    "tables_extracted": 4
+  },
   "documents/2026/las-vegas-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -101279,6 +101289,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/las-vegas-grand-prix/final-race-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-11-22T14:32:09Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:ce0eda13e406e49f8e3ee3401addcd8bd4cb715d3c5f0503d3c70057f7491e60",
+    "success": true,
+    "tables_extracted": 3
+  },
   "documents/2026/las-vegas-grand-prix/final-starting-grid.pdf": {
     "doc_type": "starting-grid",
     "error": null,
@@ -101328,6 +101348,16 @@
     "source_hash": "sha256:e89ccc0764b5c6f3b11195beeab8cbc30614172b5e24acdec0d89f4014801684",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/las-vegas-grand-prix/infringement-car-11-causing-a-collision-with-car-51.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-22T14:32:09Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:8555a89b68a9be625b42dad4dff219893e63f61957eaf2fecf9a858ccbe52f12",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/las-vegas-grand-prix/infringement-car-12-changes-to-pu-element.pdf": {
     "doc_type": "infringement",
@@ -101409,6 +101439,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/las-vegas-grand-prix/infringement-car-6-driving-unnecessarily-slowly.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-22T14:32:09Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:c0002d1b41f3b09a6ffddbd70ebd2be52500b95544bd59b03995f368b1c8ab29",
+    "success": true,
+    "tables_extracted": 0
+  },
   "documents/2026/las-vegas-grand-prix/infringement-car-81-changes-to-pu-element.pdf": {
     "doc_type": "infringement",
     "error": null,
@@ -101486,6 +101526,16 @@
     "images_extracted": 0,
     "pages": 3,
     "source_hash": "sha256:3792bab93b3abd5a545bcafc867cb02f34282ee0eadbe6c68070cb8d376b87ba",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/las-vegas-grand-prix/infringement-race-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-22T14:32:10Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:25ed32c74194a46f46180445bd0acba65fc5fa6adbd35c354db6a09de23c33d0",
     "success": true,
     "tables_extracted": 1
   },
@@ -101616,6 +101666,16 @@
     "images_extracted": 10,
     "pages": 7,
     "source_hash": "sha256:6783830cb591b34165927de34c4eda7f5b786f51b829b22168a0d87c9aa42647",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/las-vegas-grand-prix/race-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-11-22T14:32:10Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:5059ed3442d70731efd47604402beffbdd3b191bfa2bb3150ff8c7531bb54f15",
     "success": true,
     "tables_extracted": 0
   },

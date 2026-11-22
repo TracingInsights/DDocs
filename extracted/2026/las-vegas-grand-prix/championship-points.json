@@ -1,0 +1,65 @@
+{
+  "category": null,
+  "date": "2026-11-22",
+  "doc_number": "66",
+  "doc_type": "championship-points",
+  "event_name": "Las Vegas Grand Prix",
+  "event_slug": "las-vegas-grand-prix",
+  "extracted_at": "2026-11-22T14:32:05Z",
+  "from": "The Stewards",
+  "images_extracted": 0,
+  "pages": 5,
+  "source_hash": "sha256:661b91cd5995c3b7044237e95685d537a0443839205ab7038ecbe28288f763c6",
+  "source_pdf": "documents/2026/las-vegas-grand-prix/championship-points.pdf",
+  "tables": [
+    {
+      "bbox": [
+        126.47,
+        174.27,
+        751.18,
+        450.48
+      ],
+      "columns": 8,
+      "page": 2,
+      "rows": 13
+    },
+    {
+      "bbox": [
+        125.38,
+        174.27,
+        751.25,
+        429.24
+      ],
+      "columns": 8,
+      "page": 3,
+      "rows": 2
+    },
+    {
+      "bbox": [
+        118.1,
+        173.88,
+        751.16,
+        454.2
+      ],
+      "columns": 9,
+      "page": 4,
+      "rows": 9
+    },
+    {
+      "bbox": [
+        113.46,
+        172.08,
+        829.32,
+        257.76
+      ],
+      "columns": 9,
+      "page": 5,
+      "rows": 4
+    }
+  ],
+  "tables_extracted": 4,
+  "time": "00:25",
+  "title": "Championship Points",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
