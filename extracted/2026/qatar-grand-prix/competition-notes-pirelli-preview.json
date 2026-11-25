@@ -1,0 +1,63 @@
+{
+  "category": null,
+  "date": "2026-11-25",
+  "doc_number": "2",
+  "doc_type": "pirelli-preview",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-11-25T17:10:33Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.2,
+        841.8
+      ],
+      "deduplicated": false,
+      "display_height": 841.8,
+      "display_width": 595.2,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-pirelli-preview_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "427973aa2739d3171d2161de808efd411a86b3be3d13c2555a1c08317815e54d",
+      "width": 1191
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 2,
+  "source_hash": "sha256:f21987bcdb1bbcbfc007c06a5b7cbd17a2efb40f82821cae5ad0a1eb0ad79751",
+  "source_pdf": "documents/2026/qatar-grand-prix/competition-notes-pirelli-preview.pdf",
+  "tables": [
+    {
+      "bbox": [
+        94.53,
+        225.33,
+        518.14,
+        595.29
+      ],
+      "columns": 8,
+      "page": 2,
+      "rows": 7
+    },
+    {
+      "bbox": [
+        133.49,
+        464.97,
+        321.37,
+        559.06
+      ],
+      "columns": 4,
+      "page": 2,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 2,
+  "time": "16:40",
+  "title": "Competition Notes Pirelli Preview",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

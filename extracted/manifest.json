@@ -104549,6 +104549,16 @@
     "success": true,
     "tables_extracted": 4
   },
+  "documents/2026/qatar-grand-prix/competition-notes-pirelli-preview.pdf": {
+    "doc_type": "pirelli-preview",
+    "error": null,
+    "extracted_at": "2026-11-25T17:10:33Z",
+    "images_extracted": 1,
+    "pages": 2,
+    "source_hash": "sha256:f21987bcdb1bbcbfc007c06a5b7cbd17a2efb40f82821cae5ad0a1eb0ad79751",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/qatar-grand-prix/competition-visa.pdf": {
     "doc_type": "competition-visa",
     "error": null,
@@ -104558,6 +104568,16 @@
     "source_hash": "sha256:f2f0cba8043496bdd3ded69014782ca854c9ee8930f4ce34dc1b1a13909134af",
     "success": true,
     "tables_extracted": 4
+  },
+  "documents/2026/qatar-grand-prix/power-unit-information.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-11-25T17:10:34Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:fa7a2c31f1e2632e34df82551eb3b6fda7a7f0250be5a4a38824063c3855ce46",
+    "success": true,
+    "tables_extracted": 6
   },
   "documents/2026/singapore-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",
