@@ -104559,6 +104559,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/qatar-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
+    "doc_type": "circuit-map",
+    "error": null,
+    "extracted_at": "2026-11-27T09:49:01Z",
+    "images_extracted": 4,
+    "pages": 5,
+    "source_hash": "sha256:d4e6898c25a3e5e99643a84d176732fdf405319e1d6fcf4f27758c2fdfffd3d0",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/qatar-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
     "error": null,
@@ -104588,6 +104598,46 @@
     "source_hash": "sha256:fa7a2c31f1e2632e34df82551eb3b6fda7a7f0250be5a4a38824063c3855ce46",
     "success": true,
     "tables_extracted": 6
+  },
+  "documents/2026/qatar-grand-prix/pu-elements-used-per-driver-up-to-now.pdf": {
+    "doc_type": "pu-elements",
+    "error": null,
+    "extracted_at": "2026-11-27T09:50:11Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1266c45bd5f1f1e6a1a9c46b8c8ca8d986d76557f50ec4125194e134d7b60c56",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/qatar-grand-prix/race-directors-competition-notes.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-11-27T09:50:12Z",
+    "images_extracted": 9,
+    "pages": 7,
+    "source_hash": "sha256:61fae3b9f55f26aee0ceb2f7d0996a3ec577f9bd27978842a9a94c6add01a577",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/qatar-grand-prix/self-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-11-27T09:50:13Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:cd3fc63f838384f3bef764bcd343d973af310cc099e7c5a1436d7523835e416c",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/qatar-grand-prix/summons-car-11-late-attendance-of-the-thursday-press-conference.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-27T09:50:13Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:3d800b74e6cd774d76dbea8be782742d0cf2f90e0a7151a0095b351dd0e4f8b9",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/singapore-grand-prix/car-display-procedure.pdf": {
     "doc_type": "procedure",

@@ -1,0 +1,106 @@
+{
+  "category": null,
+  "date": "2026-11-26",
+  "doc_number": "7",
+  "doc_type": "circuit-map",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-11-27T09:49:01Z",
+  "from": "The FIA Formula 1 Race Director",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.22,
+        842.0
+      ],
+      "deduplicated": false,
+      "display_height": 842.0,
+      "display_width": 595.22,
+      "height": 1684,
+      "page": 2,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p2_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "5ba0b54fa02a6b2ea5f7a9353f2ad75aecddbaa409799b2d9846c7913e3aff7a",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 3,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p3_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "bbac4656a5109e7bb83554a570c74c347955ce722f275f06a3dada38f5158104",
+      "width": 1684
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ],
+      "deduplicated": false,
+      "display_height": 841.89,
+      "display_width": 595.28,
+      "height": 1684,
+      "page": 4,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p4_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "09d5db3a6741969bfa22236cdf3fccafbd993bf246d57cb5a042f5ffd094a8fa",
+      "width": 1191
+    },
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.89,
+        595.28
+      ],
+      "deduplicated": false,
+      "display_height": 595.28,
+      "display_width": 841.89,
+      "height": 1191,
+      "page": 5,
+      "path": "images/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone_p5_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "f307bab307b22f7654626e0cef716deb8e40b6b2da49a875d2eea42daae24620",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 4,
+  "pages": 5,
+  "source_hash": "sha256:d4e6898c25a3e5e99643a84d176732fdf405319e1d6fcf4f27758c2fdfffd3d0",
+  "source_pdf": "documents/2026/qatar-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf",
+  "tables": [
+    {
+      "bbox": [
+        42.15,
+        405.58,
+        799.21,
+        522.57
+      ],
+      "columns": 56,
+      "page": 3,
+      "rows": 3
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "21:06",
+  "title": "Competition Notes Circuit Map Pit Lane Drawing Emergency Exits Map And Red Zone",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}
