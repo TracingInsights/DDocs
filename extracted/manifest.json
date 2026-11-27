@@ -104629,6 +104629,36 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/qatar-grand-prix/free-practice-1-classification.pdf": {
+    "doc_type": "classification",
+    "error": null,
+    "extracted_at": "2026-11-27T16:27:33Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:99224a1ab87c55f1d7e2717d6e6aa3c2514f09ce71bf1c152af9b20bee45b745",
+    "success": true,
+    "tables_extracted": 1
+  },
+  "documents/2026/qatar-grand-prix/infringement-car-6-unsafe-act.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-27T16:27:34Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:a7baad946483f0a9322082b5121e9694bbe9c5b3fb33d3dc72078e4494cf5781",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/qatar-grand-prix/infringement-free-practice-1-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-27T16:27:34Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:8a692e830863a4b1720198a6fe429d4f57901dd35ca73ceb26c3047653113812",
+    "success": true,
+    "tables_extracted": 2
+  },
   "documents/2026/qatar-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
     "error": null,
@@ -104646,6 +104676,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:1266c45bd5f1f1e6a1a9c46b8c8ca8d986d76557f50ec4125194e134d7b60c56",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/qatar-grand-prix/race-directors-competition-notes-v2.pdf": {
+    "doc_type": "race-director-note",
+    "error": null,
+    "extracted_at": "2026-11-27T16:27:35Z",
+    "images_extracted": 9,
+    "pages": 7,
+    "source_hash": "sha256:f235e38ab222e63c184089fa6766f16494df25fd367d3199eba37b5ed97a00c6",
     "success": true,
     "tables_extracted": 0
   },
@@ -104676,6 +104716,16 @@
     "images_extracted": 0,
     "pages": 1,
     "source_hash": "sha256:3d800b74e6cd774d76dbea8be782742d0cf2f90e0a7151a0095b351dd0e4f8b9",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/qatar-grand-prix/summons-car-6-alleged-unsafe-act.pdf": {
+    "doc_type": "summons",
+    "error": null,
+    "extracted_at": "2026-11-27T16:27:36Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:005b36150dfe495ca44d1d6ab48b086849dd1d7a6002d738a92bdf7f943fd47e",
     "success": true,
     "tables_extracted": 0
   },
