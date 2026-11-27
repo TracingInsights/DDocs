@@ -1,0 +1,52 @@
+{
+  "category": null,
+  "date": "2026-11-27",
+  "doc_number": "12",
+  "doc_type": "car-presentation",
+  "event_name": "Qatar Grand Prix",
+  "event_slug": "qatar-grand-prix",
+  "extracted_at": "2026-11-27T12:27:54Z",
+  "from": "The FIA Formula 1 Media Delegate",
+  "images": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        841.92,
+        595.32
+      ],
+      "deduplicated": false,
+      "display_height": 595.32,
+      "display_width": 841.92,
+      "height": 1191,
+      "page": 11,
+      "path": "images/car-presentation-submissions_p11_page.png",
+      "render_scale": 2.0,
+      "rendered_page": true,
+      "sha256": "8a6e95aca63271de38cfcc9ed0ac32729567ab1e03c7414dc116b335a71d305d",
+      "width": 1684
+    }
+  ],
+  "images_extracted": 1,
+  "pages": 13,
+  "source_hash": "sha256:259a83f98d072bc8f865f9ff60f2f5ff9b683fcb63007dfc63099414c7f26c4b",
+  "source_pdf": "documents/2026/qatar-grand-prix/car-presentation-submissions.pdf",
+  "tables": [
+    {
+      "bbox": [
+        72.6,
+        146.26,
+        769.44,
+        219.8
+      ],
+      "columns": 5,
+      "page": 10,
+      "rows": 2
+    }
+  ],
+  "tables_extracted": 1,
+  "time": "13:54",
+  "title": "Car Presentation Submissions",
+  "to": "All Teams, All Officials",
+  "year": 2026
+}

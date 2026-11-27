@@ -104559,6 +104559,16 @@
     "success": true,
     "tables_extracted": 0
   },
+  "documents/2026/qatar-grand-prix/car-presentation-submissions.pdf": {
+    "doc_type": "car-presentation",
+    "error": null,
+    "extracted_at": "2026-11-27T12:27:54Z",
+    "images_extracted": 1,
+    "pages": 13,
+    "source_hash": "sha256:259a83f98d072bc8f865f9ff60f2f5ff9b683fcb63007dfc63099414c7f26c4b",
+    "success": true,
+    "tables_extracted": 1
+  },
   "documents/2026/qatar-grand-prix/competition-notes-circuit-map-pit-lane-drawing-emergency-exits-map-and-red-zone.pdf": {
     "doc_type": "circuit-map",
     "error": null,
@@ -104568,6 +104578,16 @@
     "source_hash": "sha256:d4e6898c25a3e5e99643a84d176732fdf405319e1d6fcf4f27758c2fdfffd3d0",
     "success": true,
     "tables_extracted": 1
+  },
+  "documents/2026/qatar-grand-prix/competition-notes-pirelli-preview-v2.pdf": {
+    "doc_type": "pirelli-preview",
+    "error": null,
+    "extracted_at": "2026-11-27T12:27:54Z",
+    "images_extracted": 1,
+    "pages": 2,
+    "source_hash": "sha256:9c75c27bbcd9da520baba7321f3b2696822ef3941fd97ebdc5e8b49c0fc86bf8",
+    "success": true,
+    "tables_extracted": 2
   },
   "documents/2026/qatar-grand-prix/competition-notes-pirelli-preview.pdf": {
     "doc_type": "pirelli-preview",
@@ -104588,6 +104608,26 @@
     "source_hash": "sha256:f2f0cba8043496bdd3ded69014782ca854c9ee8930f4ce34dc1b1a13909134af",
     "success": true,
     "tables_extracted": 4
+  },
+  "documents/2026/qatar-grand-prix/curfew.pdf": {
+    "doc_type": "curfew",
+    "error": null,
+    "extracted_at": "2026-11-27T12:27:54Z",
+    "images_extracted": 0,
+    "pages": 1,
+    "source_hash": "sha256:0e2a99f3ec983dfbfe5a66530f5cb2945adf3915f4b909f494cc3bd3cb3b9f10",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/qatar-grand-prix/entry-list.pdf": {
+    "doc_type": "entry-list",
+    "error": null,
+    "extracted_at": "2026-11-27T12:27:55Z",
+    "images_extracted": 0,
+    "pages": 2,
+    "source_hash": "sha256:1d4e6216e81a1a0ff79befabf269f2ecfd581aa3caa3d2b9033fe6e5bb1d5c2b",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/qatar-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
