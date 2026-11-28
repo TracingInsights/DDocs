@@ -104612,10 +104612,10 @@
   "documents/2026/qatar-grand-prix/curfew.pdf": {
     "doc_type": "curfew",
     "error": null,
-    "extracted_at": "2026-11-27T12:27:54Z",
+    "extracted_at": "2026-11-28T11:53:17Z",
     "images_extracted": 0,
     "pages": 1,
-    "source_hash": "sha256:0e2a99f3ec983dfbfe5a66530f5cb2945adf3915f4b909f494cc3bd3cb3b9f10",
+    "source_hash": "sha256:4f56002d2ce932a61c659c14e6f35fcda7f25282f52898b43e0b0bb1076910ba",
     "success": true,
     "tables_extracted": 0
   },
@@ -104636,6 +104636,16 @@
     "images_extracted": 0,
     "pages": 2,
     "source_hash": "sha256:1d4e6216e81a1a0ff79befabf269f2ecfd581aa3caa3d2b9033fe6e5bb1d5c2b",
+    "success": true,
+    "tables_extracted": 0
+  },
+  "documents/2026/qatar-grand-prix/fp1-and-fp2-scrutineering.pdf": {
+    "doc_type": "scrutineering",
+    "error": null,
+    "extracted_at": "2026-11-28T11:53:17Z",
+    "images_extracted": 0,
+    "pages": 4,
+    "source_hash": "sha256:c1c8c85ade7e8f566de0a570d4493d2ee5cffa9c60d200a72d932b71582ea038",
     "success": true,
     "tables_extracted": 0
   },
@@ -104698,6 +104708,26 @@
     "source_hash": "sha256:8a692e830863a4b1720198a6fe429d4f57901dd35ca73ceb26c3047653113812",
     "success": true,
     "tables_extracted": 2
+  },
+  "documents/2026/qatar-grand-prix/infringement-free-practice-2-deleted-lap-times.pdf": {
+    "doc_type": "infringement",
+    "error": null,
+    "extracted_at": "2026-11-28T11:53:17Z",
+    "images_extracted": 0,
+    "pages": 3,
+    "source_hash": "sha256:c6c40c82f989aad450b354ca47ce2be70c8ddc81d01e1a13528981c6dcd93643",
+    "success": true,
+    "tables_extracted": 2
+  },
+  "documents/2026/qatar-grand-prix/post-qualifying-procedure.pdf": {
+    "doc_type": "procedure",
+    "error": null,
+    "extracted_at": "2026-11-28T11:53:18Z",
+    "images_extracted": 1,
+    "pages": 4,
+    "source_hash": "sha256:183b2ee95f05082bfd77c5f68a9734181d8f3818163cda7a406081c145ad3459",
+    "success": true,
+    "tables_extracted": 0
   },
   "documents/2026/qatar-grand-prix/power-unit-information.pdf": {
     "doc_type": "pu-elements",
